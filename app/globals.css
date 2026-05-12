@@ -1,0 +1,107 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Surface */
+    --bg-deep: #080b14;
+    --bg-base: #0b1020;
+    --bg-elevated: #131b2f;
+    --bg-overlay: #1a2238;
+
+    /* Border */
+    --border: rgba(255, 255, 255, 0.06);
+    --border-strong: rgba(255, 255, 255, 0.12);
+
+    /* Text */
+    --text-primary: #f1f5f9;
+    --text-secondary: #94a3b8;
+    --text-muted: #64748b;
+
+    /* Brand / state */
+    --accent: #5e6ad2;
+    --accent-hover: #6e7ae0;
+    --accent-glow: rgba(94, 106, 210, 0.18);
+    --success: #22c55e;
+    --warning: #f59e0b;
+    --danger: #dc2626;
+    --vermilion: #e0584c;
+
+    /* Effects */
+    --shadow-card: inset 0 1px 0 rgba(255, 255, 255, 0.04);
+    --shadow-elevated: 0 8px 32px rgba(0, 0, 0, 0.5);
+
+    color-scheme: dark;
+  }
+
+  html,
+  body {
+    background-color: var(--bg-base);
+    color: var(--text-primary);
+    font-family: var(--font-inter), "Noto Sans SC", "Noto Sans JP", system-ui, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  /* Selection */
+  ::selection {
+    background-color: var(--accent-glow);
+    color: var(--text-primary);
+  }
+
+  /* Focus ring — keyboard only */
+  :focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 2px;
+    border-radius: 6px;
+  }
+
+  /* Reduced motion */
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0ms !important;
+    }
+  }
+
+  /* Tabular numerals for data */
+  .tabular {
+    font-variant-numeric: tabular-nums;
+  }
+
+  /* Ruby (furigana) styling */
+  ruby {
+    ruby-position: over;
+  }
+  rt {
+    font-size: 0.5em;
+    color: var(--text-muted);
+    font-family: var(--font-jp), "Noto Sans JP", sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.05em;
+  }
+}
+
+@layer utilities {
+  .text-display {
+    font-size: clamp(2.5rem, 6vw, 5rem);
+    line-height: 1.15;
+  }
+  .text-hero {
+    font-size: clamp(1.75rem, 3vw, 2.5rem);
+    line-height: 1.2;
+  }
+  .shadow-card {
+    box-shadow: var(--shadow-card);
+  }
+  .shadow-elevated {
+    box-shadow: var(--shadow-elevated);
+  }
+  .shadow-accent-glow {
+    box-shadow: 0 0 0 6px var(--accent-glow);
+  }
+}

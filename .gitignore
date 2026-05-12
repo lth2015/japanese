@@ -1,0 +1,40 @@
+# dependencies
+node_modules/
+.pnp
+.pnp.*
+.yarn/*
+
+# Next.js
+.next/
+out/
+build/
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# local env
+.env*.local
+.env
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+# data — local SQLite + generated audio
+data/
+
+# Claude Code local config + per-project skills clones (not part of source)
+.claude/
+
+# drizzle migrations - keep generated SQL but ignore drizzle metadata cache
+drizzle/meta/
+
+# OS
+Thumbs.db

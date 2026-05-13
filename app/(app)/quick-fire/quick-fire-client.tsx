@@ -199,30 +199,45 @@ export function QuickFireClient({ initial }: Props) {
   const inCountdown = phase === "recording" && elapsed < COUNTDOWN_SEC
 
   return (
-    <div className="px-6 lg:px-12 py-8 lg:py-12 max-w-3xl mx-auto">
-      <header className="flex items-center justify-between mb-8">
-        <div className="flex items-center gap-2 text-sm lg:text-base">
-          <Zap className="h-5 w-5 text-vermilion" strokeWidth={1.75} />
-          <span className="text-vermilion font-semibold">Stage 4 · Quick-Fire</span>
-          {current.isReview && <Badge variant="warning">复习</Badge>}
-          {!current.isUnlocked && (
-            <Badge variant="outline">先解锁到 Stage 3 效果更好</Badge>
-          )}
-        </div>
-        <div className="text-sm text-fg-tertiary tabular">本轮已完成 {completedIds.length}</div>
-      </header>
+    <div className="min-h-[calc(100dvh-5rem)] lg:min-h-screen flex flex-col">
+      {/* Header — pinned top */}
+      <div className="max-w-3xl mx-auto w-full px-6 lg:px-10 pt-8 lg:pt-10 shrink-0">
+        <header className="flex items-center justify-between">
+          <div className="flex items-center gap-2 text-sm">
+            <Zap className="h-4 w-4 text-vermilion" strokeWidth={1.75} />
+            <span className="text-vermilion font-semibold">Stage 4 · Quick-Fire</span>
+            {current.isReview && <Badge variant="warning">复习</Badge>}
+            {!current.isUnlocked && (
+              <Badge variant="outline">先到 Stage 3 效果更好</Badge>
+            )}
+          </div>
+          <div className="text-xs text-fg-tertiary tabular font-mono">
+            本轮 {completedIds.length}
+          </div>
+        </header>
+      </div>
 
-      <p className="text-base text-fg-secondary text-center mb-4">
-        5 秒内开口说出来。
-        <span className="text-fg-tertiary">流畅 &gt; 准确，前 4 周这么算。</span>
-      </p>
-
-      {/* Chinese prompt */}
-      <section className="border-y border-border py-8 lg:py-10 my-6 text-center">
-        <p lang="zh-CN" className="text-prompt font-sans text-fg leading-tight">
-          {s.chinese}
+      {/* Content area — centered while practicing, top-aligned post-submit */}
+      <div
+        className={cn(
+          "max-w-3xl mx-auto w-full px-6 lg:px-10 pb-16 flex-1 min-h-0 flex flex-col",
+          phase === "submitted" ? "pt-10" : "justify-center gap-8",
+        )}
+      >
+        <p className="text-sm text-fg-secondary text-center">
+          5 秒内开口说出来。
+          <span className="text-fg-tertiary">流畅 &gt; 准确。</span>
         </p>
-      </section>
+
+        {/* Chinese prompt */}
+        <section className="text-center py-4">
+          <p
+            lang="zh-CN"
+            className="text-prompt font-sans text-fg leading-tight text-balance"
+          >
+            {s.chinese}
+          </p>
+        </section>
 
       {/* Controls */}
       {phase === "ready" && (
@@ -252,7 +267,7 @@ export function QuickFireClient({ initial }: Props) {
                 cy="50"
                 r="46"
                 fill="none"
-                stroke="rgba(255,255,255,0.08)"
+                stroke="rgba(15,23,42,0.08)"
                 strokeWidth="3"
               />
               <circle
@@ -426,6 +441,7 @@ export function QuickFireClient({ initial }: Props) {
           </div>
         </section>
       )}
+      </div>
     </div>
   )
 }

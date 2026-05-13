@@ -160,38 +160,49 @@ export function ReadAloudClient({ initial }: Props) {
   }
 
   return (
-    <div className="px-6 lg:px-12 py-8 lg:py-12 max-w-3xl mx-auto">
-      {/* Header */}
-      <header className="flex items-center justify-between mb-8 gap-4 flex-wrap">
-        <div className="flex items-center gap-2 text-sm lg:text-base text-fg-secondary">
-          <Volume2 className="h-4 w-4 text-accent" strokeWidth={1.75} />
-          <span className="font-medium">Stage 2.5 · 音読</span>
-          {current.isReview && <Badge variant="warning">复习</Badge>}
-          {!current.isUnlocked && (
-            <Badge variant="outline">先在 Drill 解锁到 Stage 2，效果更好</Badge>
-          )}
-        </div>
-        <div className="flex items-center gap-4">
-          <button
-            type="button"
-            onClick={() => setHideFurigana((v) => !v)}
-            className="text-sm text-fg-tertiary hover:text-fg transition-colors"
-          >
-            {hideFurigana ? "显示假名" : "隐藏假名"}
-          </button>
-          <span className="text-sm text-fg-tertiary tabular">本轮已完成 {completedIds.length}</span>
-        </div>
-      </header>
+    <div className="min-h-[calc(100dvh-5rem)] lg:min-h-screen flex flex-col">
+      {/* Header — pinned top */}
+      <div className="max-w-3xl mx-auto w-full px-6 lg:px-10 pt-8 lg:pt-10 shrink-0">
+        <header className="flex items-center justify-between gap-4 flex-wrap">
+          <div className="flex items-center gap-2 text-sm text-fg-secondary">
+            <Volume2 className="h-4 w-4 text-accent" strokeWidth={1.75} />
+            <span className="font-medium">Stage 2.5 · 音読</span>
+            {current.isReview && <Badge variant="warning">复习</Badge>}
+            {!current.isUnlocked && (
+              <Badge variant="outline">先到 Stage 2 效果更好</Badge>
+            )}
+          </div>
+          <div className="flex items-center gap-4">
+            <button
+              type="button"
+              onClick={() => setHideFurigana((v) => !v)}
+              className="text-xs text-fg-tertiary hover:text-fg transition-colors"
+            >
+              {hideFurigana ? "显示假名" : "隐藏假名"}
+            </button>
+            <span className="text-xs text-fg-tertiary tabular font-mono">
+              本轮 {completedIds.length}
+            </span>
+          </div>
+        </header>
+      </div>
 
-      {/* Sentence */}
-      <section className="my-8 py-10 lg:py-14 border-y border-border text-center">
-        <p className="font-jp-serif text-fg leading-[1.1] text-sentence font-medium">
-          <FuriganaText text={s.japanese} tokens={s.tokens} showRuby={!hideFurigana} />
-        </p>
-        <p className="text-fg-secondary text-xl lg:text-2xl mt-10" lang="zh-CN">
-          {s.chinese}
-        </p>
-      </section>
+      {/* Content area — vertical-centered during practice, top-aligned post-submit */}
+      <div
+        className={cn(
+          "max-w-3xl mx-auto w-full px-6 lg:px-10 pb-16 flex-1 min-h-0 flex flex-col",
+          phase === "submitted" ? "pt-10" : "justify-center",
+        )}
+      >
+        {/* Sentence */}
+        <section className="py-8 text-center">
+          <p className="font-jp-serif text-fg leading-[1.1] text-sentence font-medium">
+            <FuriganaText text={s.japanese} tokens={s.tokens} showRuby={!hideFurigana} />
+          </p>
+          <p className="text-fg-cn text-lg lg:text-xl mt-8" lang="zh-CN">
+            {s.chinese}
+          </p>
+        </section>
 
       {/* Controls */}
       <section className="space-y-4">
@@ -354,6 +365,7 @@ export function ReadAloudClient({ initial }: Props) {
           </div>
         </section>
       )}
+      </div>
     </div>
   )
 }

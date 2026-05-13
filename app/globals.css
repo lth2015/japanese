@@ -23,13 +23,12 @@
     --fg-on-accent: #ffffff;
 
     /* === Content accent tones (muted, 清新) ===
-     * Used for furigana (cool mist) and Chinese helpers (warm cocoa)
-     * to give multi-tone rhythm against the black ink Japanese primary.
-     * Saturation kept low — these read as "tinted greys", never as "color". */
-    --fg-ruby: #7b96a5;     /* dusty mist blue — cool, calm, refined */
-    --fg-cn: #a18472;       /* muted cocoa — warm, supportive, recedes */
-    --fg-sage: #7a9385;     /* sage green for success states + tags */
-    --fg-plum: #9c7682;     /* dusty plum for occasional tag variety */
+     * Furigana = mint green (cool fresh), Chinese = cherry pink (warm soft).
+     * Saturation kept low — these read as tinted, never as "color". */
+    --fg-ruby: #6ab290;     /* mint green / 抹茶 — fresh, cool, low saturation */
+    --fg-cn: #d29aa3;       /* cherry pink / 桜 — soft, warm, low saturation */
+    --fg-sage: #7a9385;     /* sage for tags / reserved */
+    --fg-plum: #9c7682;     /* plum for tags / reserved */
 
     /* === Brand / state === */
     --accent: #3b5bdb;
@@ -108,17 +107,17 @@
     ruby-align: center;
   }
   rt {
-    font-size: 0.55em;
+    font-size: 0.6em;
     color: var(--fg-ruby);
     font-family: var(--font-jp), "Noto Sans JP", sans-serif;
     font-weight: 400;
     letter-spacing: 0;
     line-height: 1.1;
-    padding-bottom: 0.12em;
+    padding-bottom: 0.15em;
   }
-  /* In ambient-dark, ruby is brighter */
+  /* In ambient-dark, ruby brightens to stay visible on dark bg */
   .ambient-dark rt {
-    color: #a8b8c5;
+    color: #97d4b6;
   }
 }
 
@@ -135,11 +134,13 @@
     line-height: 1.12;
     letter-spacing: -0.012em;
   }
-  /* Training-page Chinese prompt (drill, quick-fire) */
+  /* Training-page Chinese prompt (drill, quick-fire) — moderate, since CN
+   * here is just the source for translation, not the primary content. */
   .text-prompt {
-    font-size: clamp(2.5rem, 5vw, 4.5rem);
-    line-height: 1.18;
-    letter-spacing: -0.008em;
+    font-size: clamp(1.875rem, 3.5vw, 3.25rem);
+    line-height: 1.25;
+    letter-spacing: -0.005em;
+    text-wrap: balance;
   }
 
   .shadow-xs {

@@ -124,36 +124,53 @@ export function ListenWriteClient({ initial }: Props) {
   }
 
   return (
-    <div className="px-6 lg:px-12 py-8 lg:py-12 max-w-3xl mx-auto">
-      <header className="flex items-center justify-between mb-8">
-        <div className="flex items-center gap-2 text-sm lg:text-base text-fg-secondary">
-          <Headphones className="h-4 w-4 text-accent" strokeWidth={1.75} />
-          <span className="font-medium">Stage 3 · 听写</span>
-          {current.isReview && <Badge variant="warning">复习</Badge>}
-          {!current.isUnlocked && (
-            <Badge variant="outline">先解锁到 Stage 2.5 效果更好</Badge>
-          )}
-        </div>
-        <div className="text-sm text-fg-tertiary tabular">本轮已完成 {completedIds.length}</div>
-      </header>
-
-      {/* Ready state — show big "listen" button, no Japanese text */}
-      {phase === "ready" && (
-        <section className="my-16 lg:my-24 text-center space-y-8">
-          <div className="space-y-4">
-            <p className="text-2xl lg:text-3xl text-fg font-medium">
-              准备好了就点播放
-            </p>
-            <p className="text-sm text-fg-tertiary max-w-md mx-auto leading-relaxed">
-              不显示日文。听完后凭记忆写下来。最多重听 {MAX_REPLAYS} 次。
-            </p>
+    <div className="min-h-[calc(100dvh-5rem)] lg:min-h-screen flex flex-col">
+      {/* Header — pinned top */}
+      <div className="max-w-3xl mx-auto w-full px-6 lg:px-10 pt-8 lg:pt-10 shrink-0">
+        <header className="flex items-center justify-between">
+          <div className="flex items-center gap-2 text-sm text-fg-secondary">
+            <Headphones className="h-4 w-4 text-accent" strokeWidth={1.75} />
+            <span className="font-medium">Stage 3 · 听写</span>
+            {current.isReview && <Badge variant="warning">复习</Badge>}
+            {!current.isUnlocked && (
+              <Badge variant="outline">先到 Stage 2.5 效果更好</Badge>
+            )}
           </div>
-          <Button size="lg" onClick={handleFirstListen} disabled={playing} className="!h-14 !px-10 !text-base">
-            {playing ? <Loader2 className="h-5 w-5 animate-spin" /> : <Play className="h-5 w-5" />}
-            播放
-          </Button>
-        </section>
-      )}
+          <div className="text-xs text-fg-tertiary tabular font-mono">
+            本轮 {completedIds.length}
+          </div>
+        </header>
+      </div>
+
+      {/* Content area */}
+      <div
+        className={cn(
+          "max-w-3xl mx-auto w-full px-6 lg:px-10 pb-16 flex-1 min-h-0 flex flex-col",
+          phase === "submitted" ? "pt-10" : "justify-center",
+        )}
+      >
+        {/* Ready state */}
+        {phase === "ready" && (
+          <section className="text-center space-y-8">
+            <div className="space-y-3">
+              <p className="text-2xl lg:text-3xl text-fg font-medium">
+                准备好了就点播放
+              </p>
+              <p className="text-sm text-fg-tertiary max-w-md mx-auto leading-relaxed">
+                不显示日文。听完后凭记忆写下来。最多重听 {MAX_REPLAYS} 次。
+              </p>
+            </div>
+            <Button
+              size="lg"
+              onClick={handleFirstListen}
+              disabled={playing}
+              className="!h-14 !px-10 !text-base"
+            >
+              {playing ? <Loader2 className="h-5 w-5 animate-spin" /> : <Play className="h-5 w-5" />}
+              播放
+            </Button>
+          </section>
+        )}
 
       {/* Input state — show replay + textarea */}
       {phase === "input" && (
@@ -314,6 +331,7 @@ export function ListenWriteClient({ initial }: Props) {
           </div>
         </section>
       )}
+      </div>
     </div>
   )
 }

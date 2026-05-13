@@ -105,78 +105,88 @@ export function DrillClient({ initial }: Props) {
   }
 
   return (
-    <div className="px-6 lg:px-10 py-8 lg:py-12 max-w-3xl mx-auto">
-      {/* Header */}
-      <header className="flex items-center justify-between mb-8">
-        <div className="flex items-center gap-2 text-sm text-fg-secondary">
-          <Sparkles className="h-4 w-4 text-accent" strokeWidth={1.75} />
-          <span className="font-medium">Stage 2 · 写作 Drill</span>
-          {current.isReview && <Badge variant="warning">复习</Badge>}
-        </div>
-        <div className="text-xs text-fg-tertiary tabular font-mono">
-          本轮 {completedIds.length}
-        </div>
-      </header>
+    <div className="min-h-[calc(100dvh-5rem)] lg:min-h-screen flex flex-col">
+      {/* Header — pinned top */}
+      <div className="max-w-3xl mx-auto w-full px-6 lg:px-10 pt-8 lg:pt-10 shrink-0">
+        <header className="flex items-center justify-between">
+          <div className="flex items-center gap-2 text-sm text-fg-secondary">
+            <Sparkles className="h-4 w-4 text-accent" strokeWidth={1.75} />
+            <span className="font-medium">Stage 2 · 写作 Drill</span>
+            {current.isReview && <Badge variant="warning">复习</Badge>}
+          </div>
+          <div className="text-xs text-fg-tertiary tabular font-mono">
+            本轮 {completedIds.length}
+          </div>
+        </header>
+      </div>
 
-      {/* Prompt */}
-      <section className="mb-8">
-        <p className="text-xs text-fg-tertiary mb-4 text-center uppercase tracking-wider font-medium">
-          把下面这句翻译成自然的工作日语
-        </p>
-        <div className="border-y border-border py-8 lg:py-10">
-          <p
-            lang="zh-CN"
-            className="text-prompt font-sans text-fg leading-tight text-center"
-          >
-            {s.chinese}
-          </p>
-        </div>
-        {s.chunkPattern && (
-          <p className="text-xs text-fg-tertiary mt-4 text-center">
-            提示 · <span className="font-jp text-fg-secondary">{s.chunkPattern}</span>
-          </p>
+      {/* Content area — vertical-centered in input phase, top-aligned post-submit */}
+      <div
+        className={cn(
+          "max-w-3xl mx-auto w-full px-6 lg:px-10 pb-16 flex-1 min-h-0",
+          "flex flex-col",
+          phase === "input" ? "justify-center" : "pt-10",
         )}
-      </section>
+      >
+        {/* Prompt */}
+        <section className={cn(phase === "input" ? "mb-10" : "mb-8")}>
+          <p className="text-xs text-fg-tertiary mb-5 text-center uppercase tracking-wider font-medium">
+            把下面这句翻译成自然的工作日语
+          </p>
+          <div className="py-2">
+            <p
+              lang="zh-CN"
+              className="text-prompt font-sans text-fg leading-tight text-center text-balance"
+            >
+              {s.chinese}
+            </p>
+          </div>
+          {s.chunkPattern && (
+            <p className="text-xs text-fg-tertiary mt-5 text-center">
+              提示 · <span className="font-jp text-fg-secondary">{s.chunkPattern}</span>
+            </p>
+          )}
+        </section>
 
-      {/* Input */}
-      <section className="space-y-3">
-        <textarea
-          ref={textareaRef}
-          value={input}
-          onChange={(e) => setInput(e.target.value)}
-          onKeyDown={(e) => {
-            if (e.key === "Enter" && (e.metaKey || e.ctrlKey)) {
-              e.preventDefault()
-              handleSubmit()
-            }
-          }}
-          disabled={phase === "submitted"}
-          placeholder="日本語で入力..."
-          lang="ja"
-          rows={3}
-          className={cn(
-            "w-full rounded-md border border-border-input bg-surface px-4 py-3",
-            "font-jp text-xl text-fg placeholder:text-fg-tertiary",
-            "focus-visible:outline-none focus-visible:border-accent focus-visible:shadow-focus",
-            "disabled:opacity-60 disabled:cursor-not-allowed",
-            "transition-[border-color,box-shadow] duration-150 resize-none",
-          )}
-        />
-        <div className="flex items-center justify-end gap-2">
-          {phase === "input" && (
-            <>
-              <Button variant="ghost" size="sm" onClick={handleSkip} disabled={isPending}>
-                跳过
-              </Button>
-              <Button onClick={handleSubmit} disabled={!input.trim() || isPending}>
-                {isPending ? <Loader2 className="h-4 w-4 animate-spin" /> : null}
-                提交
-                <span className="ml-2 text-xs opacity-60 hidden sm:inline">⌘↵</span>
-              </Button>
-            </>
-          )}
-        </div>
-      </section>
+        {/* Input */}
+        <section className="space-y-3">
+          <textarea
+            ref={textareaRef}
+            value={input}
+            onChange={(e) => setInput(e.target.value)}
+            onKeyDown={(e) => {
+              if (e.key === "Enter" && (e.metaKey || e.ctrlKey)) {
+                e.preventDefault()
+                handleSubmit()
+              }
+            }}
+            disabled={phase === "submitted"}
+            placeholder="日本語で入力..."
+            lang="ja"
+            rows={3}
+            className={cn(
+              "w-full rounded-md border border-border-input bg-surface px-4 py-3",
+              "font-jp text-xl text-fg placeholder:text-fg-tertiary",
+              "focus-visible:outline-none focus-visible:border-accent focus-visible:shadow-focus",
+              "disabled:opacity-60 disabled:cursor-not-allowed",
+              "transition-[border-color,box-shadow] duration-150 resize-none",
+            )}
+          />
+          <div className="flex items-center justify-end gap-2">
+            {phase === "input" && (
+              <>
+                <Button variant="ghost" size="sm" onClick={handleSkip} disabled={isPending}>
+                  跳过
+                </Button>
+                <Button onClick={handleSubmit} disabled={!input.trim() || isPending}>
+                  {isPending ? <Loader2 className="h-4 w-4 animate-spin" /> : null}
+                  提交
+                  <span className="ml-2 text-xs opacity-60 hidden sm:inline">⌘↵</span>
+                </Button>
+              </>
+            )}
+          </div>
+        </section>
 
       {/* Feedback */}
       {phase === "submitted" && feedback && (
@@ -297,6 +307,7 @@ export function DrillClient({ initial }: Props) {
           </div>
         </section>
       )}
+      </div>
     </div>
   )
 }

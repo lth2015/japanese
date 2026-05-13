@@ -76,24 +76,28 @@
   /* Ruby (furigana) styling */
   ruby {
     ruby-position: over;
+    ruby-align: center;
   }
   rt {
-    font-size: 0.5em;
-    color: var(--text-muted);
+    font-size: 0.45em;
+    color: var(--text-secondary);
     font-family: var(--font-jp), "Noto Sans JP", sans-serif;
     font-weight: 400;
-    letter-spacing: 0.05em;
+    letter-spacing: 0.02em;
+    line-height: 1;
   }
 }
 
 @layer utilities {
   .text-display {
-    font-size: clamp(2.5rem, 6vw, 5rem);
-    line-height: 1.15;
+    font-size: clamp(3.25rem, 8vw, 7.5rem);
+    line-height: 1.08;
+    letter-spacing: -0.01em;
   }
   .text-hero {
-    font-size: clamp(1.75rem, 3vw, 2.5rem);
-    line-height: 1.2;
+    font-size: clamp(2.25rem, 4.5vw, 4rem);
+    line-height: 1.15;
+    letter-spacing: -0.01em;
   }
   .shadow-card {
     box-shadow: var(--shadow-card);

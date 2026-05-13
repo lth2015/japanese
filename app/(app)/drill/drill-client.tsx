@@ -105,21 +105,21 @@ export function DrillClient({ initial }: Props) {
   }
 
   return (
-    <div className="px-6 lg:px-12 py-8 lg:py-12 max-w-3xl mx-auto">
+    <div className="px-6 lg:px-12 py-10 lg:py-16 max-w-4xl mx-auto">
       {/* Header */}
-      <header className="flex items-center justify-between mb-8">
-        <div className="flex items-center gap-2 text-sm text-text-secondary">
-          <Sparkles className="h-4 w-4 text-accent" strokeWidth={1.75} />
-          Stage 2 · 写作 Drill
+      <header className="flex items-center justify-between mb-10 lg:mb-14">
+        <div className="flex items-center gap-2 text-sm lg:text-base text-text-secondary">
+          <Sparkles className="h-5 w-5 text-accent" strokeWidth={1.75} />
+          <span className="font-medium">Stage 2 · 写作 Drill</span>
           {current.isReview && <Badge variant="warning">复习</Badge>}
         </div>
-        <div className="text-xs text-text-muted tabular">本轮已完成 {completedIds.length}</div>
+        <div className="text-sm text-text-muted tabular">本轮已完成 {completedIds.length}</div>
       </header>
 
       {/* Prompt */}
-      <section className="mb-8">
-        <p className="text-xs text-text-muted mb-3">把下面这句翻译成自然的工作日语：</p>
-        <div className="border-y border-border py-6 my-4">
+      <section className="mb-10">
+        <p className="text-sm text-text-muted mb-5 text-center">把下面这句翻译成自然的工作日语</p>
+        <div className="border-y border-border py-10 lg:py-14 my-4">
           <p
             lang="zh-CN"
             className="text-hero font-sans text-text-primary leading-tight text-center"
@@ -128,8 +128,8 @@ export function DrillClient({ initial }: Props) {
           </p>
         </div>
         {s.chunkPattern && (
-          <p className="text-xs text-text-muted mt-2 text-center">
-            提示：用 <span className="font-jp">{s.chunkPattern}</span>
+          <p className="text-sm text-text-muted mt-4 text-center">
+            提示：用 <span className="font-jp text-text-secondary">{s.chunkPattern}</span>
           </p>
         )}
       </section>
@@ -151,8 +151,8 @@ export function DrillClient({ initial }: Props) {
           lang="ja"
           rows={3}
           className={cn(
-            "w-full rounded-xl border border-border bg-bg-elevated px-4 py-3",
-            "font-jp text-lg text-text-primary placeholder:text-text-muted",
+            "w-full rounded-xl border border-border bg-bg-elevated px-5 py-4",
+            "font-jp text-2xl text-text-primary placeholder:text-text-muted",
             "focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:border-border-strong",
             "disabled:opacity-70 disabled:cursor-not-allowed",
             "transition-colors duration-150 resize-none",

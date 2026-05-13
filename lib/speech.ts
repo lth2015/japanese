@@ -87,13 +87,18 @@ export type SttListener = {
 export type SttResult = {
   transcript: string
   confidence: number
+  isFinal: boolean
 }
 
-export function startJapaneseSTT(opts: {
+export type SttOptions = {
   onResult: (r: SttResult) => void
   onEnd?: () => void
   onError?: (msg: string) => void
-}): SttListener | null {
+  /** When true, fires onResult continuously as the user speaks. Default false. */
+  interimResults?: boolean
+}
+
+export function startJapaneseSTT(opts: SttOptions): SttListener | null {
   const Ctor = getSpeechRecognitionCtor()
   if (!Ctor) {
     opts.onError?.("浏览器不支持语音识别（建议使用 Chrome / Safari）")
@@ -102,11 +107,20 @@ export function startJapaneseSTT(opts: {
   const rec = new Ctor()
   rec.lang = "ja-JP"
   rec.continuous = false
-  rec.interimResults = false
+  rec.interimResults = opts.interimResults ?? false
   rec.maxAlternatives = 1
   rec.onresult = (event) => {
-    const res = event.results[event.results.length - 1][0]
-    opts.onResult({ transcript: res.transcript, confidence: res.confidence ?? 1 })
+    const lastIdx = event.results.length - 1
+    const lastResult = event.results[lastIdx]
+    // SpeechRecognitionResult.isFinal isn't directly indexable; cheat by checking the wrapping object.
+    // biome-ignore lint/suspicious/noExplicitAny: vendor API
+    const isFinal = (lastResult as any).isFinal ?? false
+    const alt = lastResult[0]
+    opts.onResult({
+      transcript: alt.transcript,
+      confidence: alt.confidence ?? 1,
+      isFinal,
+    })
   }
   rec.onend = () => opts.onEnd?.()
   rec.onerror = (e) => opts.onError?.(e.error ?? "unknown error")

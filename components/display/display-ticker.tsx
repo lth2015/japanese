@@ -132,11 +132,14 @@ export function DisplayTicker({ sentences }: Props) {
       </div>
 
       {/* Content */}
-      <div className="h-full grid place-items-center px-6">
-        <div key={current.id} className="flex flex-col items-center gap-12 animate-fade-in text-center">
+      <div className="h-full grid place-items-center px-8 lg:px-20">
+        <div
+          key={current.id}
+          className="flex flex-col items-center gap-7 sm:gap-9 lg:gap-12 animate-fade-in text-center max-w-[88vw]"
+        >
           <p
             className={cn(
-              "font-jp-serif text-text-primary tracking-wide font-medium leading-[1.1]",
+              "font-jp-serif text-text-primary tracking-wide font-medium leading-[1.08]",
               FONT_SIZE_CLASS[settings.fontSize],
             )}
           >
@@ -148,12 +151,18 @@ export function DisplayTicker({ sentences }: Props) {
           </p>
           {/* Fallback: kana line when tokens unavailable */}
           {settings.showKana && !current.tokens?.length && current.kana && (
-            <p lang="ja" className="font-mono text-text-muted text-base sm:text-lg lg:text-xl tracking-widest">
+            <p
+              lang="ja"
+              className="font-mono text-text-muted text-xl sm:text-2xl lg:text-3xl tracking-widest"
+            >
               {current.kana}
             </p>
           )}
           {settings.showChinese && (
-            <p lang="zh-CN" className="text-text-secondary text-base sm:text-lg lg:text-xl">
+            <p
+              lang="zh-CN"
+              className="text-text-secondary text-xl sm:text-2xl lg:text-3xl tracking-wide"
+            >
               {current.chinese}
             </p>
           )}

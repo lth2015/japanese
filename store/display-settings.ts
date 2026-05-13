@@ -69,8 +69,8 @@ export function useDisplaySettings(): [DisplaySettings, typeof setDisplaySetting
 }
 
 export const FONT_SIZE_CLASS: Record<FontSize, string> = {
-  S: "text-[2rem] sm:text-[2.5rem] lg:text-[3rem]",
-  M: "text-[2.5rem] sm:text-[3rem] lg:text-[4rem]",
-  L: "text-[3rem] sm:text-[4rem] lg:text-[5.5rem]",
-  XL: "text-[3.5rem] sm:text-[5rem] lg:text-[7rem]",
+  S: "text-[2.5rem] sm:text-[3.5rem] lg:text-[5rem]",
+  M: "text-[3rem] sm:text-[4.5rem] lg:text-[7rem]",
+  L: "text-[3.5rem] sm:text-[5.5rem] lg:text-[9rem]",
+  XL: "text-[4rem] sm:text-[6.5rem] lg:text-[11rem]",
 }

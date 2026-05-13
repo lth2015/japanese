@@ -12,10 +12,10 @@ export default async function LibraryPage() {
     .all()
 
   return (
-    <div className="px-6 lg:px-12 py-8 lg:py-12 max-w-5xl mx-auto space-y-6">
-      <header className="space-y-2">
-        <h1 className="text-3xl font-semibold tracking-tight">场景库</h1>
-        <p className="text-text-secondary">
+    <div className="px-6 lg:px-16 py-10 lg:py-16 max-w-6xl mx-auto space-y-8">
+      <header className="space-y-3">
+        <h1 className="text-4xl lg:text-5xl font-semibold tracking-tight">场景库</h1>
+        <p className="text-lg text-text-secondary">
           {sentences.length} 句。按分类筛选，挑句子加入 Display 队列。
         </p>
       </header>

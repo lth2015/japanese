@@ -1,130 +1,94 @@
 "use client"
 
-import { ArrowRight, Check, Loader2, Mic, MicOff, Play, RotateCcw, Volume2 } from "lucide-react"
+import { ArrowRight, Check, Headphones, Loader2, Play, RotateCcw } from "lucide-react"
 import { useEffect, useRef, useState, useTransition } from "react"
 import { FuriganaText } from "@/components/furigana-text"
 import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
-import {
-  getNextReadAloudSentence,
-  submitReadAloudAttempt,
-} from "@/lib/actions/read-aloud"
 import { applyRating as applyRatingAction } from "@/lib/actions/progress"
-import { diff, type DiffSegment } from "@/lib/diff"
-import type { Sentence } from "@/lib/db/schema"
-import { stageLabel } from "@/lib/progress"
 import {
-  ensureVoicesLoaded,
-  isSttSupported,
-  speakJapanese,
-  startJapaneseSTT,
-  type SttListener,
-} from "@/lib/speech"
+  getNextListenWriteSentence,
+  submitListenWriteAttempt,
+} from "@/lib/actions/listen-write"
+import type { Sentence } from "@/lib/db/schema"
+import { diff, type DiffSegment } from "@/lib/diff"
+import { stageLabel } from "@/lib/progress"
+import { ensureVoicesLoaded, speakJapanese } from "@/lib/speech"
 import { cn } from "@/lib/utils"
 
 type Next = { sentence: Sentence; isReview: boolean; isUnlocked: boolean } | null
+type Phase = "ready" | "input" | "submitted"
 
-type Phase = "idle" | "listening-tts" | "listening-stt" | "submitted"
+const MAX_REPLAYS = 2 // initial play + 2 replays = 3 total
 
 interface Props {
   initial: Next
 }
 
-export function ReadAloudClient({ initial }: Props) {
+export function ListenWriteClient({ initial }: Props) {
   const [current, setCurrent] = useState<Next>(initial)
-  const [phase, setPhase] = useState<Phase>("idle")
-  const [transcript, setTranscript] = useState<string>("")
+  const [phase, setPhase] = useState<Phase>("ready")
+  const [input, setInput] = useState("")
+  const [replays, setReplays] = useState(0)
+  const [playing, setPlaying] = useState(false)
+  const [completedIds, setCompletedIds] = useState<string[]>([])
   const [feedback, setFeedback] = useState<{
     matchRatio: number
     diffSegs: DiffSegment[]
     rated: boolean
     ratingMessage?: string
   } | null>(null)
-  const [completedIds, setCompletedIds] = useState<string[]>([])
-  const [sttSupported, setSttSupported] = useState(true)
-  const [errorMsg, setErrorMsg] = useState<string | null>(null)
-  const [hideFurigana, setHideFurigana] = useState(false)
   const [isPending, startTransition] = useTransition()
-  const sttRef = useRef<SttListener | null>(null)
+  const textareaRef = useRef<HTMLTextAreaElement>(null)
 
   useEffect(() => {
-    setSttSupported(isSttSupported())
     ensureVoicesLoaded()
   }, [])
 
   useEffect(() => {
     return () => {
-      sttRef.current?.abort()
       if (typeof window !== "undefined") window.speechSynthesis.cancel()
     }
   }, [])
 
-  if (!current) {
-    return <EmptyState />
-  }
+  useEffect(() => {
+    if (phase === "input") textareaRef.current?.focus()
+  }, [phase, current?.sentence.id])
+
+  if (!current) return <EmptyState />
 
   const s = current.sentence
 
-  async function handlePlayTTS() {
-    setErrorMsg(null)
-    setPhase("listening-tts")
+  async function playAudio() {
+    setPlaying(true)
     try {
       await speakJapanese(s.japanese)
-    } catch (e) {
-      setErrorMsg(e instanceof Error ? e.message : "TTS 播放失败")
+    } catch {
+      // browser may have ended speech; ignore
     } finally {
-      setPhase("idle")
+      setPlaying(false)
     }
   }
 
-  function handleStartRecord() {
-    if (!sttSupported) {
-      setErrorMsg("浏览器不支持语音识别。建议用 Chrome 或 Safari。")
-      return
-    }
-    setErrorMsg(null)
-    setTranscript("")
-    setPhase("listening-stt")
-    sttRef.current = startJapaneseSTT({
-      onResult: (r) => {
-        setTranscript(r.transcript)
-      },
-      onEnd: () => {
-        startTransition(async () => {
-          // Pull the latest transcript via setState callback; need to use a ref because
-          // closure captures stale state. We use the already-set `transcript` via
-          // setTranscript callback.
-          setTranscript((tx) => {
-            // Trigger submit asynchronously
-            handleSubmit(tx)
-            return tx
-          })
-        })
-      },
-      onError: (msg) => {
-        setErrorMsg(`识别错误：${msg}`)
-        setPhase("idle")
-      },
-    })
+  async function handleFirstListen() {
+    setPhase("input")
+    await playAudio()
   }
 
-  function handleStopRecord() {
-    sttRef.current?.abort()
-    sttRef.current = null
-    setPhase("idle")
+  async function handleReplay() {
+    if (replays >= MAX_REPLAYS) return
+    setReplays((r) => r + 1)
+    await playAudio()
   }
 
-  function handleSubmit(tx: string) {
-    if (!tx.trim()) {
-      setPhase("idle")
-      return
-    }
+  function handleSubmit() {
+    if (!input.trim()) return
     startTransition(async () => {
-      const res = await submitReadAloudAttempt(s.id, tx)
+      const res = await submitListenWriteAttempt(s.id, input, replays)
       setFeedback({
         matchRatio: res.matchRatio,
-        diffSegs: diff(tx, s.japanese),
+        diffSegs: diff(input, s.japanese),
         rated: false,
       })
       setPhase("submitted")
@@ -133,7 +97,7 @@ export function ReadAloudClient({ initial }: Props) {
 
   function handleRate(quality: 1 | 3 | 5) {
     startTransition(async () => {
-      const res = await applyRatingAction(s.id, 25, quality)
+      const res = await applyRatingAction(s.id, 3, quality)
       setFeedback((f) =>
         f
           ? {
@@ -149,117 +113,110 @@ export function ReadAloudClient({ initial }: Props) {
   function handleNext() {
     const newCompleted = [...completedIds, s.id]
     setCompletedIds(newCompleted)
-    setTranscript("")
+    setInput("")
+    setReplays(0)
     setFeedback(null)
-    setErrorMsg(null)
-    setPhase("idle")
+    setPhase("ready")
     startTransition(async () => {
-      const next = await getNextReadAloudSentence(newCompleted)
+      const next = await getNextListenWriteSentence(newCompleted)
       setCurrent(next)
     })
   }
 
   return (
     <div className="px-6 lg:px-12 py-10 lg:py-16 max-w-4xl mx-auto">
-      {/* Header */}
-      <header className="flex items-center justify-between mb-10 lg:mb-12 gap-4 flex-wrap">
+      <header className="flex items-center justify-between mb-10 lg:mb-14">
         <div className="flex items-center gap-2 text-sm lg:text-base text-text-secondary">
-          <Volume2 className="h-5 w-5 text-accent" strokeWidth={1.75} />
-          <span className="font-medium">Stage 2.5 · 音読</span>
+          <Headphones className="h-5 w-5 text-accent" strokeWidth={1.75} />
+          <span className="font-medium">Stage 3 · 听写</span>
           {current.isReview && <Badge variant="warning">复习</Badge>}
           {!current.isUnlocked && (
-            <Badge variant="outline">先在 Drill 解锁到 Stage 2，效果更好</Badge>
+            <Badge variant="outline">先解锁到 Stage 2.5 效果更好</Badge>
           )}
         </div>
-        <div className="flex items-center gap-4">
-          <button
-            type="button"
-            onClick={() => setHideFurigana((v) => !v)}
-            className="text-sm text-text-muted hover:text-text-primary transition-colors"
-          >
-            {hideFurigana ? "显示假名" : "隐藏假名"}
-          </button>
-          <span className="text-sm text-text-muted tabular">本轮已完成 {completedIds.length}</span>
-        </div>
+        <div className="text-sm text-text-muted tabular">本轮已完成 {completedIds.length}</div>
       </header>
 
-      {/* Sentence */}
-      <section className="my-10 py-14 lg:py-20 border-y border-border text-center">
-        <p className="font-jp-serif text-text-primary leading-[1.1] text-display font-medium">
-          <FuriganaText text={s.japanese} tokens={s.tokens} showRuby={!hideFurigana} />
-        </p>
-        <p className="text-text-secondary text-xl lg:text-2xl mt-10" lang="zh-CN">
-          {s.chinese}
-        </p>
-      </section>
-
-      {/* Controls */}
-      <section className="space-y-4">
-        <div className="flex items-center justify-center gap-3">
-          <Button
-            variant="secondary"
-            size="lg"
-            onClick={handlePlayTTS}
-            disabled={phase === "listening-tts" || phase === "listening-stt"}
-          >
-            {phase === "listening-tts" ? (
-              <Loader2 className="h-4 w-4 animate-spin" />
-            ) : (
-              <Play className="h-4 w-4" />
-            )}
-            播放标准发音
+      {/* Ready state — show big "listen" button, no Japanese text */}
+      {phase === "ready" && (
+        <section className="my-20 lg:my-32 text-center space-y-10">
+          <div className="space-y-4">
+            <p className="text-2xl lg:text-3xl text-text-primary font-medium">
+              准备好了就点播放
+            </p>
+            <p className="text-sm text-text-muted max-w-md mx-auto leading-relaxed">
+              不显示日文。听完后凭记忆写下来。最多重听 {MAX_REPLAYS} 次。
+            </p>
+          </div>
+          <Button size="lg" onClick={handleFirstListen} disabled={playing} className="!h-14 !px-10 !text-base">
+            {playing ? <Loader2 className="h-5 w-5 animate-spin" /> : <Play className="h-5 w-5" />}
+            播放
           </Button>
+        </section>
+      )}
 
-          {phase !== "listening-stt" ? (
-            <Button
-              size="lg"
-              onClick={handleStartRecord}
-              disabled={phase !== "idle" || !sttSupported}
+      {/* Input state — show replay + textarea */}
+      {phase === "input" && (
+        <section className="space-y-6">
+          <div className="border-y border-border py-8 text-center">
+            <div className="inline-flex items-center gap-4">
+              <Button
+                variant="secondary"
+                onClick={handleReplay}
+                disabled={playing || replays >= MAX_REPLAYS}
+              >
+                {playing ? <Loader2 className="h-4 w-4 animate-spin" /> : <Play className="h-4 w-4" />}
+                重听 ({MAX_REPLAYS - replays} 次剩余)
+              </Button>
+              <span className="text-xs text-text-muted">
+                播放次数：{replays + 1} / {MAX_REPLAYS + 1}
+              </span>
+            </div>
+          </div>
+
+          <div className="space-y-2">
+            <p className="text-xs text-text-muted">把你听到的写下来：</p>
+            <textarea
+              ref={textareaRef}
+              value={input}
+              onChange={(e) => setInput(e.target.value)}
+              onKeyDown={(e) => {
+                if (e.key === "Enter" && (e.metaKey || e.ctrlKey)) {
+                  e.preventDefault()
+                  handleSubmit()
+                }
+              }}
+              placeholder="日本語で入力..."
+              lang="ja"
+              rows={3}
               className={cn(
-                "min-w-44",
-                !sttSupported && "opacity-60",
+                "w-full rounded-xl border border-border bg-bg-elevated px-4 py-3",
+                "font-jp text-lg text-text-primary placeholder:text-text-muted",
+                "focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:border-border-strong",
+                "transition-colors duration-150 resize-none",
               )}
-            >
-              <Mic className="h-4 w-4" />
-              开始朗读
+            />
+          </div>
+
+          <div className="flex items-center justify-end gap-2">
+            <Button onClick={handleSubmit} disabled={!input.trim() || isPending}>
+              {isPending && <Loader2 className="h-4 w-4 animate-spin" />}
+              提交
+              <span className="ml-2 text-xs text-text-primary/60 hidden sm:inline">⌘ + ↵</span>
             </Button>
-          ) : (
-            <Button size="lg" variant="destructive" onClick={handleStopRecord}>
-              <MicOff className="h-4 w-4 animate-pulse-record" />
-              结束（正在听...）
-            </Button>
-          )}
-        </div>
+          </div>
+        </section>
+      )}
 
-        {phase === "listening-stt" && (
-          <p className="text-center text-sm text-text-secondary">
-            🎙 正在听... 朗读后浏览器会自动结束。
-            {transcript && <span className="block font-jp text-text-primary mt-2">{transcript}</span>}
-          </p>
-        )}
-
-        {errorMsg && (
-          <p className="text-sm text-danger text-center" role="alert">
-            {errorMsg}
-          </p>
-        )}
-
-        {!sttSupported && (
-          <p className="text-xs text-text-muted text-center">
-            你的浏览器不支持 Web Speech API。建议用 Chrome 或 macOS Safari。
-          </p>
-        )}
-      </section>
-
-      {/* Feedback */}
+      {/* Submitted state — show feedback */}
       {phase === "submitted" && feedback && (
-        <section className="mt-10 space-y-6 animate-fade-in">
+        <section className="mt-8 space-y-6 animate-fade-in">
           <Card>
             <CardContent className="p-6 space-y-5">
               <div className="space-y-1.5">
-                <p className="text-xs text-text-muted">浏览器识别到的</p>
+                <p className="text-xs text-text-muted">你听到的</p>
                 <p lang="ja" className="font-jp text-text-primary text-lg">
-                  {transcript}
+                  {input}
                 </p>
               </div>
 
@@ -276,11 +233,14 @@ export function ReadAloudClient({ initial }: Props) {
                           : "text-danger",
                     )}
                   >
-                    匹配 {Math.round(feedback.matchRatio * 100)}%
+                    匹配 {Math.round(feedback.matchRatio * 100)}% · 重听 {replays} 次
                   </span>
                 </div>
                 <p className="font-jp-serif text-text-primary text-xl">
                   <FuriganaText text={s.japanese} tokens={s.tokens} showRuby={true} />
+                </p>
+                <p className="text-text-secondary text-sm mt-1" lang="zh-CN">
+                  {s.chinese}
                 </p>
               </div>
 
@@ -296,7 +256,7 @@ export function ReadAloudClient({ initial }: Props) {
               )}
 
               <p className="text-xs text-text-muted leading-relaxed">
-                注：浏览器 STT 不完美，识别错≠你读错。**自评才是真实信号**——感觉自己读出来了就给"完美"。
+                Stage 3 是把"听"接到"写"上。重听越少，分越实。
               </p>
             </CardContent>
           </Card>
@@ -304,7 +264,7 @@ export function ReadAloudClient({ initial }: Props) {
           {!feedback.rated && (
             <Card>
               <CardContent className="p-5 space-y-4">
-                <p className="text-sm text-text-primary">这次自己感觉：</p>
+                <p className="text-sm text-text-primary">这次自评：</p>
                 <div className="grid grid-cols-3 gap-2">
                   <Button
                     variant="secondary"
@@ -313,7 +273,7 @@ export function ReadAloudClient({ initial }: Props) {
                     disabled={isPending}
                   >
                     <Check className="h-4 w-4 text-success" />
-                    顺畅
+                    全听准了
                   </Button>
                   <Button
                     variant="secondary"
@@ -322,7 +282,7 @@ export function ReadAloudClient({ initial }: Props) {
                     disabled={isPending}
                   >
                     <Check className="h-4 w-4 text-warning" />
-                    勉强
+                    大致对
                   </Button>
                   <Button
                     variant="secondary"
@@ -331,7 +291,7 @@ export function ReadAloudClient({ initial }: Props) {
                     disabled={isPending}
                   >
                     <RotateCcw className="h-4 w-4 text-danger" />
-                    需要再练
+                    没听清
                   </Button>
                 </div>
               </CardContent>
@@ -340,7 +300,7 @@ export function ReadAloudClient({ initial }: Props) {
 
           {feedback.rated && (
             <div className="rounded-xl border border-border bg-bg-elevated px-5 py-3 flex items-center gap-3 animate-fade-in">
-              <Volume2 className="h-4 w-4 text-accent" strokeWidth={1.75} />
+              <Headphones className="h-4 w-4 text-accent" strokeWidth={1.75} />
               <p className="text-sm text-text-secondary flex-1">
                 进度更新：<span className="text-text-primary">{feedback.ratingMessage}</span>
               </p>
@@ -369,9 +329,7 @@ function DiffSpan({ segment }: { segment: DiffSegment }) {
         </span>
       )
     case "insert":
-      return (
-        <span className="bg-success/20 text-success rounded px-0.5">{segment.target}</span>
-      )
+      return <span className="bg-success/20 text-success rounded px-0.5">{segment.target}</span>
     case "replace":
       return (
         <span className="bg-warning/20 text-warning rounded px-0.5">
@@ -385,8 +343,8 @@ function DiffSpan({ segment }: { segment: DiffSegment }) {
 function EmptyState() {
   return (
     <div className="px-6 py-24 max-w-2xl mx-auto text-center space-y-4">
-      <p className="text-2xl font-semibold tracking-tight">音読任务都做完了 🎤</p>
-      <p className="text-text-secondary">明天回来继续。或者去 Drill 解锁更多句子到 Stage 2。</p>
+      <p className="text-2xl font-semibold tracking-tight">听写做完了 🎧</p>
+      <p className="text-text-secondary">明天回来继续。</p>
       <Button asChild variant="secondary">
         <a href="/">回 Dashboard</a>
       </Button>

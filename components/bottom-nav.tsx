@@ -1,15 +1,15 @@
 "use client"
 
-import { BookOpen, Home, MonitorPlay, PencilLine, Volume2 } from "lucide-react"
+import { BookOpen, Home, PencilLine, Volume2, Zap } from "lucide-react"
 import Link from "next/link"
 import { usePathname } from "next/navigation"
 import { cn } from "@/lib/utils"
 
 const NAV = [
   { href: "/", label: "首页", icon: Home },
-  { href: "/drill", label: "Drill", icon: PencilLine },
-  { href: "/read-aloud", label: "音読", icon: Volume2 },
-  { href: "/display", label: "Display", icon: MonitorPlay },
+  { href: "/drill", label: "写", icon: PencilLine },
+  { href: "/read-aloud", label: "读", icon: Volume2 },
+  { href: "/quick-fire", label: "说", icon: Zap },
   { href: "/library", label: "库", icon: BookOpen },
 ] as const
 

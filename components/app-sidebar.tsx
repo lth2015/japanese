@@ -2,6 +2,7 @@
 
 import {
   BookOpen,
+  FileText,
   Headphones,
   Home,
   MonitorPlay,
@@ -9,6 +10,7 @@ import {
   Settings,
   Sparkles,
   Volume2,
+  Zap,
 } from "lucide-react"
 import Link from "next/link"
 import { usePathname } from "next/navigation"
@@ -24,9 +26,11 @@ type NavItem = {
 const NAV: NavItem[] = [
   { href: "/", label: "Dashboard", icon: Home },
   { href: "/display", label: "Display", icon: MonitorPlay },
-  { href: "/drill", label: "写作 Drill", icon: PencilLine },
-  { href: "/read-aloud", label: "音読", icon: Volume2 },
-  { href: "/listen-write", label: "听写", icon: Headphones, soon: true },
+  { href: "/drill", label: "写作 · Stage 2", icon: PencilLine },
+  { href: "/read-aloud", label: "音読 · Stage 2.5", icon: Volume2 },
+  { href: "/listen-write", label: "听写 · Stage 3", icon: Headphones },
+  { href: "/quick-fire", label: "Quick-Fire · Stage 4", icon: Zap },
+  { href: "/passages", label: "短文", icon: FileText },
   { href: "/talk", label: "对话", icon: Sparkles, soon: true },
   { href: "/library", label: "场景库", icon: BookOpen },
 ]

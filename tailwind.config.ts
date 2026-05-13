@@ -27,6 +27,10 @@ const config: Config = {
           DEFAULT: "var(--fg)",
           secondary: "var(--fg-secondary)",
           tertiary: "var(--fg-tertiary)",
+          ruby: "var(--fg-ruby)",
+          cn: "var(--fg-cn)",
+          sage: "var(--fg-sage)",
+          plum: "var(--fg-plum)",
           "on-accent": "var(--fg-on-accent)",
         },
 

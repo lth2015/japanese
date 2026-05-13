@@ -5,10 +5,10 @@ import { FuriganaText } from "./furigana-text"
 type Size = "sm" | "md" | "lg" | "display"
 
 // Japanese is the primary content — significantly larger than Chinese (which
-// is a helper translation). Ratio target ~2x for cards, ~6x for Display.
+// is a helper translation). Ratio target ~2.5x for cards, ~8x for Display.
 const SIZE_JP: Record<Size, string> = {
-  sm: "text-2xl",
-  md: "text-3xl",
+  sm: "text-3xl",
+  md: "text-4xl",
   lg: "text-sentence",
   display: "text-ambient",
 }
@@ -94,8 +94,9 @@ export function SentenceCard({
       {showChinese && (
         <p
           className={cn(
-            // Chinese: helper translation. Smaller, lighter — never compete with JP for attention.
-            "font-sans text-fg-tertiary",
+            // Chinese: helper translation. Warm muted cocoa tone (fg-cn) —
+            // distinct from cool mist furigana so the two helpers don't blur.
+            "font-sans text-fg-cn",
             SIZE_CN[size],
           )}
           lang="zh-CN"

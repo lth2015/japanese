@@ -156,7 +156,7 @@ export function DisplayTicker({ sentences }: Props) {
           {settings.showKana && !current.tokens?.length && current.kana && (
             <p
               lang="ja"
-              className="font-mono text-fg-tertiary text-base sm:text-lg lg:text-xl tracking-widest"
+              className="font-mono text-fg-ruby text-base sm:text-lg lg:text-xl tracking-widest"
             >
               {current.kana}
             </p>
@@ -164,7 +164,7 @@ export function DisplayTicker({ sentences }: Props) {
           {settings.showChinese && (
             <p
               lang="zh-CN"
-              className="text-fg-tertiary text-lg sm:text-xl lg:text-2xl font-normal"
+              className="text-fg-cn text-lg sm:text-xl lg:text-2xl font-normal tracking-wide"
             >
               {current.chinese}
             </p>

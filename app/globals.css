@@ -22,6 +22,15 @@
     --fg-tertiary: #8e8e88;
     --fg-on-accent: #ffffff;
 
+    /* === Content accent tones (muted, 清新) ===
+     * Used for furigana (cool mist) and Chinese helpers (warm cocoa)
+     * to give multi-tone rhythm against the black ink Japanese primary.
+     * Saturation kept low — these read as "tinted greys", never as "color". */
+    --fg-ruby: #7b96a5;     /* dusty mist blue — cool, calm, refined */
+    --fg-cn: #a18472;       /* muted cocoa — warm, supportive, recedes */
+    --fg-sage: #7a9385;     /* sage green for success states + tags */
+    --fg-plum: #9c7682;     /* dusty plum for occasional tag variety */
+
     /* === Brand / state === */
     --accent: #3b5bdb;
     --accent-hover: #3650c8;
@@ -93,44 +102,44 @@
     font-variant-numeric: tabular-nums;
   }
 
-  /* Ruby (furigana) styling — calibrated for light bg */
+  /* Ruby (furigana) styling — muted mist blue for 清新 feel */
   ruby {
     ruby-position: over;
     ruby-align: center;
   }
   rt {
     font-size: 0.55em;
-    color: var(--fg-tertiary);
+    color: var(--fg-ruby);
     font-family: var(--font-jp), "Noto Sans JP", sans-serif;
     font-weight: 400;
     letter-spacing: 0;
     line-height: 1.1;
-    padding-bottom: 0.1em;
+    padding-bottom: 0.12em;
   }
   /* In ambient-dark, ruby is brighter */
   .ambient-dark rt {
-    color: var(--fg-secondary);
+    color: #a8b8c5;
   }
 }
 
 @layer utilities {
-  /* Display-mode ambient sizing (very large; not used elsewhere) */
+  /* Display-mode ambient sizing — the place where huge type IS the point */
   .text-ambient {
-    font-size: clamp(4rem, 11vw, 10rem);
-    line-height: 1.08;
-    letter-spacing: -0.015em;
+    font-size: clamp(4.5rem, 13vw, 13rem);
+    line-height: 1.06;
+    letter-spacing: -0.02em;
   }
   /* Training-page hero sentence (read-aloud, listen-write) */
   .text-sentence {
-    font-size: clamp(2.75rem, 5.5vw, 5rem);
-    line-height: 1.15;
-    letter-spacing: -0.01em;
+    font-size: clamp(3rem, 6vw, 5.5rem);
+    line-height: 1.12;
+    letter-spacing: -0.012em;
   }
   /* Training-page Chinese prompt (drill, quick-fire) */
   .text-prompt {
-    font-size: clamp(2.25rem, 4.5vw, 4rem);
-    line-height: 1.2;
-    letter-spacing: -0.005em;
+    font-size: clamp(2.5rem, 5vw, 4.5rem);
+    line-height: 1.18;
+    letter-spacing: -0.008em;
   }
 
   .shadow-xs {

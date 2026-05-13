@@ -3,7 +3,8 @@
 import { useEffect, useState } from "react"
 
 export type FontSize = "S" | "M" | "L" | "XL"
-export type DisplayQueueSource = "all" | "rescue" | "progress" | "request" | "apology" | "smalltalk"
+export type DisplayQueueSource = "all" | "rescue" | "progress" | "request" | "apology" | "smalltalk" | "daily" | "grammar"
+export type DisplayTheme = "light" | "ambient-dark"
 
 export type DisplaySettings = {
   intervalSec: number // 4..30
@@ -12,10 +13,11 @@ export type DisplaySettings = {
   showKana: boolean
   showChinese: boolean
   autoPlayTTS: boolean
-  focusMode: boolean // hide ALL chrome
+  focusMode: boolean
+  theme: DisplayTheme
 }
 
-const KEY = "nihongo:display-settings"
+const KEY = "nihongo:display-settings-v2"
 
 const DEFAULT_SETTINGS: DisplaySettings = {
   intervalSec: 8,
@@ -25,9 +27,9 @@ const DEFAULT_SETTINGS: DisplaySettings = {
   showChinese: true,
   autoPlayTTS: false,
   focusMode: false,
+  theme: "light",
 }
 
-// Tiny localStorage-backed store. Avoids zustand-persist complexity for one slice of state.
 const listeners = new Set<(s: DisplaySettings) => void>()
 let current: DisplaySettings = DEFAULT_SETTINGS
 
@@ -68,9 +70,14 @@ export function useDisplaySettings(): [DisplaySettings, typeof setDisplaySetting
   return [state, setDisplaySettings]
 }
 
+/**
+ * Font size for Display ambient mode. These ARE allowed to be huge (this is the
+ * one place in the app where extreme typography is the point —副屏挂机). The
+ * non-ambient Display fallback uses .text-ambient (clamp 48-128px).
+ */
 export const FONT_SIZE_CLASS: Record<FontSize, string> = {
-  S: "text-[2.5rem] sm:text-[3.5rem] lg:text-[5rem]",
-  M: "text-[3rem] sm:text-[4.5rem] lg:text-[7rem]",
-  L: "text-[3.5rem] sm:text-[5.5rem] lg:text-[9rem]",
-  XL: "text-[4rem] sm:text-[6.5rem] lg:text-[11rem]",
+  S: "text-[2.5rem] sm:text-[3.5rem] lg:text-[4.5rem]",
+  M: "text-[3rem] sm:text-[4.5rem] lg:text-[6rem]",
+  L: "text-[3.5rem] sm:text-[5.5rem] lg:text-[8rem]",
+  XL: "text-[4rem] sm:text-[6.5rem] lg:text-[10rem]",
 }

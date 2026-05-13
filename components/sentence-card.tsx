@@ -7,15 +7,8 @@ type Size = "sm" | "md" | "lg" | "display"
 const SIZE_JP: Record<Size, string> = {
   sm: "text-base",
   md: "text-xl",
-  lg: "text-hero",
-  display: "text-display",
-}
-
-const SIZE_KANA: Record<Size, string> = {
-  sm: "text-xs",
-  md: "text-sm",
-  lg: "text-base",
-  display: "text-xl",
+  lg: "text-sentence",
+  display: "text-ambient",
 }
 
 const SIZE_CN: Record<Size, string> = {
@@ -25,11 +18,18 @@ const SIZE_CN: Record<Size, string> = {
   display: "text-xl",
 }
 
+const SIZE_KANA: Record<Size, string> = {
+  sm: "text-xs",
+  md: "text-sm",
+  lg: "text-base",
+  display: "text-xl",
+}
+
 const SIZE_GAP: Record<Size, string> = {
   sm: "gap-1",
   md: "gap-1.5",
-  lg: "gap-3",
-  display: "gap-12",
+  lg: "gap-4",
+  display: "gap-10",
 }
 
 export type SentenceLike = {
@@ -45,7 +45,7 @@ interface Props {
   /**
    * "ruby" — show per-token furigana ruby above kanji (preferred).
    * "line" — show a separate kana line below Japanese (legacy fallback).
-   * "none" — hide kana entirely (used once user reaches Stage 2+ to force kanji recall).
+   * "none" — hide kana entirely (Stage 2+ to force kanji recall).
    */
   kanaDisplay?: "ruby" | "line" | "none"
   showChinese?: boolean
@@ -66,9 +66,9 @@ export function SentenceCard({
     <div className={cn("flex flex-col items-center text-center", SIZE_GAP[size], className)}>
       <p
         className={cn(
-          "font-jp-serif text-text-primary tracking-wide",
+          "font-jp-serif text-fg tracking-wide",
+          size === "display" || size === "lg" ? "font-medium" : "font-normal",
           SIZE_JP[size],
-          size === "display" && "font-medium",
         )}
       >
         <FuriganaText
@@ -81,7 +81,7 @@ export function SentenceCard({
       {kanaDisplay === "line" && sentence.kana && !useRuby && (
         <p
           className={cn(
-            "font-mono text-text-muted tabular tracking-widest",
+            "font-mono text-fg-tertiary tabular tracking-widest",
             SIZE_KANA[size],
           )}
           lang="ja"
@@ -90,7 +90,7 @@ export function SentenceCard({
         </p>
       )}
       {showChinese && (
-        <p className={cn("font-sans text-text-secondary", SIZE_CN[size])} lang="zh-CN">
+        <p className={cn("font-sans text-fg-secondary", SIZE_CN[size])} lang="zh-CN">
           {sentence.chinese}
         </p>
       )}

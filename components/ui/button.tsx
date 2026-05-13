@@ -4,25 +4,31 @@ import * as React from "react"
 import { cn } from "@/lib/utils"
 
 const buttonVariants = cva(
-  "inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-lg text-sm font-medium ring-offset-background transition-[transform,background-color,border-color,box-shadow] duration-150 ease-out-expo focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-40 active:scale-[0.97]",
+  [
+    "inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium",
+    "transition-[color,background-color,border-color,box-shadow,transform] duration-150 ease-out-expo",
+    "focus-visible:outline-none focus-visible:shadow-focus",
+    "disabled:pointer-events-none disabled:opacity-50",
+    "active:scale-[0.97]",
+  ].join(" "),
   {
     variants: {
       variant: {
         default:
-          "bg-accent text-text-primary hover:bg-accent-hover shadow-card",
+          "bg-accent text-accent-fg hover:bg-accent-hover shadow-xs",
         secondary:
-          "bg-bg-elevated text-text-primary border border-border hover:border-border-strong hover:bg-bg-overlay",
+          "bg-surface text-fg border border-border hover:bg-bg-subtle hover:border-border-strong shadow-xs",
         ghost:
-          "text-text-secondary hover:text-text-primary hover:bg-bg-overlay",
+          "text-fg-secondary hover:text-fg hover:bg-bg-subtle",
         outline:
-          "border border-border bg-transparent text-text-primary hover:bg-bg-elevated",
+          "border border-border bg-transparent text-fg hover:bg-bg-subtle",
         destructive:
-          "bg-danger text-text-primary hover:opacity-90",
+          "bg-danger text-fg-on-accent hover:opacity-90 shadow-xs",
         link:
           "text-accent underline-offset-4 hover:underline",
       },
       size: {
-        default: "h-10 px-4 py-2",
+        default: "h-10 px-4 text-sm",
         sm: "h-8 px-3 text-xs",
         lg: "h-12 px-6 text-base",
         icon: "h-10 w-10",

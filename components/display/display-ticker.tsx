@@ -21,7 +21,6 @@ export function DisplayTicker({ sentences }: Props) {
   const [showChrome, setShowChrome] = useState(true)
   const chromeTimer = useRef<ReturnType<typeof setTimeout> | null>(null)
 
-  // Filter sentences by source
   const queue = useMemo(() => {
     if (settings.source === "all") return sentences
     return sentences.filter((s) => s.category === settings.source)
@@ -29,7 +28,15 @@ export function DisplayTicker({ sentences }: Props) {
 
   const current = queue[index % Math.max(queue.length, 1)]
 
-  // Autoplay
+  // Apply ambient-dark class on the html element when in dark theme
+  useEffect(() => {
+    if (typeof document === "undefined") return
+    document.documentElement.classList.toggle("ambient-dark", settings.theme === "ambient-dark")
+    return () => {
+      document.documentElement.classList.remove("ambient-dark")
+    }
+  }, [settings.theme])
+
   useEffect(() => {
     if (paused || queue.length <= 1) return
     const timer = setTimeout(() => {
@@ -38,12 +45,11 @@ export function DisplayTicker({ sentences }: Props) {
     return () => clearTimeout(timer)
   }, [paused, settings.intervalSec, queue.length, index])
 
-  // Reset index if queue shrinks
   useEffect(() => {
     if (index >= queue.length) setIndex(0)
   }, [queue.length, index])
 
-  // Wake lock — keep screen on
+  // Wake lock
   useEffect(() => {
     let lock: WakeLockSentinel | null = null
     const request = async () => {
@@ -53,7 +59,7 @@ export function DisplayTicker({ sentences }: Props) {
           lock = await (navigator as any).wakeLock.request("screen")
         }
       } catch {
-        // user may deny; silent
+        // silent
       }
     }
     request()
@@ -67,7 +73,6 @@ export function DisplayTicker({ sentences }: Props) {
     }
   }, [])
 
-  // Auto-hide chrome after inactivity
   const bumpChrome = useCallback(() => {
     if (settings.focusMode) {
       setShowChrome(false)
@@ -85,7 +90,6 @@ export function DisplayTicker({ sentences }: Props) {
     }
   }, [bumpChrome])
 
-  // Keyboard navigation
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
       if (e.key === "ArrowRight") {
@@ -106,27 +110,27 @@ export function DisplayTicker({ sentences }: Props) {
 
   if (queue.length === 0) {
     return (
-      <main className="fixed inset-0 grid place-items-center bg-bg-deep">
-        <p className="text-text-secondary">这个分类还没有句子。换一个分类或添加几句。</p>
+      <main className="fixed inset-0 grid place-items-center bg-bg">
+        <p className="text-fg-secondary">这个分类还没有句子。换一个分类或添加几句。</p>
       </main>
     )
   }
 
   return (
     <main
-      className="fixed inset-0 bg-bg-deep text-text-primary overflow-hidden"
+      className="fixed inset-0 bg-bg text-fg overflow-hidden"
       onMouseMove={bumpChrome}
       onTouchStart={bumpChrome}
     >
       {/* Top-right chrome: settings + exit */}
       <div
         className={cn(
-          "absolute top-4 right-4 z-10 flex items-center gap-2 transition-opacity duration-300",
+          "absolute top-5 right-5 z-10 flex items-center gap-2 transition-opacity duration-300",
           showChrome ? "opacity-100" : "opacity-0 pointer-events-none",
         )}
       >
         <DisplaySettingsSheet />
-        <Button asChild variant="ghost" size="sm" className="text-text-muted hover:text-text-primary">
+        <Button asChild variant="ghost" size="sm">
           <a href="/">退出</a>
         </Button>
       </div>
@@ -135,11 +139,11 @@ export function DisplayTicker({ sentences }: Props) {
       <div className="h-full grid place-items-center px-8 lg:px-20">
         <div
           key={current.id}
-          className="flex flex-col items-center gap-7 sm:gap-9 lg:gap-12 animate-fade-in text-center max-w-[88vw]"
+          className="flex flex-col items-center gap-8 sm:gap-10 lg:gap-14 animate-fade-in text-center max-w-[88vw]"
         >
           <p
             className={cn(
-              "font-jp-serif text-text-primary tracking-wide font-medium leading-[1.08]",
+              "font-jp-serif text-fg tracking-wide font-medium leading-[1.08]",
               FONT_SIZE_CLASS[settings.fontSize],
             )}
           >
@@ -149,11 +153,10 @@ export function DisplayTicker({ sentences }: Props) {
               showRuby={settings.showKana}
             />
           </p>
-          {/* Fallback: kana line when tokens unavailable */}
           {settings.showKana && !current.tokens?.length && current.kana && (
             <p
               lang="ja"
-              className="font-mono text-text-muted text-xl sm:text-2xl lg:text-3xl tracking-widest"
+              className="font-mono text-fg-tertiary text-xl sm:text-2xl lg:text-3xl tracking-widest"
             >
               {current.kana}
             </p>
@@ -161,7 +164,7 @@ export function DisplayTicker({ sentences }: Props) {
           {settings.showChinese && (
             <p
               lang="zh-CN"
-              className="text-text-secondary text-xl sm:text-2xl lg:text-3xl tracking-wide"
+              className="text-fg-secondary text-xl sm:text-2xl lg:text-3xl tracking-wide"
             >
               {current.chinese}
             </p>
@@ -176,21 +179,19 @@ export function DisplayTicker({ sentences }: Props) {
           showChrome ? "opacity-100" : "opacity-0 pointer-events-none",
         )}
       >
-        {/* Progress dots */}
         <div className="hidden sm:flex items-center gap-1.5 max-w-[40vw] overflow-hidden">
           {queue.slice(0, 24).map((s, i) => (
             <span
               key={s.id}
               className={cn(
                 "h-1.5 w-1.5 rounded-full transition-colors",
-                i === index % queue.length ? "bg-text-primary" : "bg-text-muted/30",
+                i === index % queue.length ? "bg-fg" : "bg-fg-tertiary/30",
               )}
             />
           ))}
         </div>
 
-        {/* Center controls */}
-        <div className="flex items-center gap-2 mx-auto sm:mx-0">
+        <div className="flex items-center gap-1 mx-auto sm:mx-0">
           <Button
             variant="ghost"
             size="icon"
@@ -217,8 +218,7 @@ export function DisplayTicker({ sentences }: Props) {
           </Button>
         </div>
 
-        {/* Counter */}
-        <div className="hidden sm:block text-xs text-text-muted tabular">
+        <div className="hidden sm:block text-xs text-fg-tertiary tabular font-mono">
           {(index % queue.length) + 1} / {queue.length}
         </div>
       </div>

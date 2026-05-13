@@ -56,7 +56,7 @@ export function PassageReader({ passage }: Props) {
           <Badge>{passage.source}</Badge>
         </div>
         {passage.description && (
-          <p className="text-sm text-text-secondary mt-2" lang="zh-CN">
+          <p className="text-sm text-fg-secondary mt-2" lang="zh-CN">
             {passage.description}
           </p>
         )}
@@ -83,7 +83,7 @@ export function PassageReader({ passage }: Props) {
         <CardContent className="p-6 lg:p-8">
           <article
             lang="ja"
-            className="font-jp-serif text-text-primary text-lg leading-loose whitespace-pre-line"
+            className="font-jp-serif text-fg text-lg leading-loose whitespace-pre-line"
             style={{ lineHeight: 2.2 }}
           >
             <FuriganaText
@@ -103,15 +103,15 @@ export function PassageReader({ passage }: Props) {
             {vocabulary.map((v) => (
               <Card key={v.word}>
                 <CardContent className="p-3 flex items-baseline gap-3">
-                  <span className="font-jp-serif text-text-primary text-base shrink-0" lang="ja">
+                  <span className="font-jp-serif text-fg text-base shrink-0" lang="ja">
                     {v.word}
                   </span>
                   {v.kana && (
-                    <span className="font-mono text-text-muted text-xs tabular shrink-0" lang="ja">
+                    <span className="font-mono text-fg-tertiary text-xs tabular shrink-0" lang="ja">
                       {v.kana}
                     </span>
                   )}
-                  <span className="text-text-secondary text-sm flex-1" lang="zh-CN">
+                  <span className="text-fg-secondary text-sm flex-1" lang="zh-CN">
                     {v.meaning}
                   </span>
                 </CardContent>
@@ -141,9 +141,9 @@ export function PassageReader({ passage }: Props) {
                               ? "总结"
                               : "改写"}
                       </Badge>
-                      <span className="text-xs text-text-muted">问题 {i + 1}</span>
+                      <span className="text-xs text-fg-tertiary">问题 {i + 1}</span>
                     </div>
-                    <p lang="ja" className="font-jp text-text-primary">
+                    <p lang="ja" className="font-jp text-fg">
                       {q.q}
                     </p>
                     <textarea
@@ -155,8 +155,8 @@ export function PassageReader({ passage }: Props) {
                       lang="ja"
                       rows={2}
                       className={cn(
-                        "w-full rounded-lg border border-border bg-bg-elevated px-3 py-2",
-                        "font-jp text-text-primary placeholder:text-text-muted",
+                        "w-full rounded-lg border border-border bg-surface px-3 py-2",
+                        "font-jp text-fg placeholder:text-fg-tertiary",
                         "focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent",
                         "transition-colors duration-150 resize-none",
                       )}
@@ -173,13 +173,13 @@ export function PassageReader({ passage }: Props) {
                       </Button>
                     ) : (
                       <div className="space-y-1 pt-2 border-t border-border">
-                        <p className="text-xs text-text-muted">参考</p>
+                        <p className="text-xs text-fg-tertiary">参考</p>
                         <p
                           lang={q.type === "open" || q.type === "summary" ? "zh-CN" : "ja"}
                           className={cn(
                             q.type === "open" || q.type === "summary"
-                              ? "text-text-secondary text-sm"
-                              : "font-jp text-text-primary",
+                              ? "text-fg-secondary text-sm"
+                              : "font-jp text-fg",
                           )}
                         >
                           {q.a}

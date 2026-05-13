@@ -1,6 +1,6 @@
 "use client"
 
-import { Settings as SettingsIcon } from "lucide-react"
+import { Moon, Settings as SettingsIcon, Sun } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Label } from "@/components/ui/label"
 import {
@@ -14,6 +14,7 @@ import {
 import { Slider } from "@/components/ui/slider"
 import { Switch } from "@/components/ui/switch"
 import { type FontSize, useDisplaySettings } from "@/store/display-settings"
+import { cn } from "@/lib/utils"
 
 const SOURCES: { value: string; label: string }[] = [
   { value: "all", label: "全部" },
@@ -22,6 +23,8 @@ const SOURCES: { value: string; label: string }[] = [
   { value: "request", label: "请求" },
   { value: "apology", label: "道歉" },
   { value: "smalltalk", label: "杂谈" },
+  { value: "daily", label: "日常" },
+  { value: "grammar", label: "语法" },
 ]
 
 const SIZES: FontSize[] = ["S", "M", "L", "XL"]
@@ -35,7 +38,6 @@ export function DisplaySettingsSheet() {
         <Button
           variant="ghost"
           size="icon-sm"
-          className="text-text-muted hover:text-text-primary"
           aria-label="Display 设置"
         >
           <SettingsIcon className="h-4 w-4" />
@@ -44,12 +46,36 @@ export function DisplaySettingsSheet() {
       <SheetContent className="overflow-y-auto">
         <SheetHeader>
           <SheetTitle>Display 设置</SheetTitle>
-          <SheetDescription>设置会自动保存到本地。</SheetDescription>
+          <SheetDescription>设置自动保存到本地。</SheetDescription>
         </SheetHeader>
 
-        <div className="mt-6 space-y-6">
+        <div className="mt-6 space-y-7">
+          {/* Theme */}
+          <div className="space-y-2.5">
+            <Label>主题</Label>
+            <div className="grid grid-cols-2 gap-2">
+              <Button
+                size="sm"
+                variant={s.theme === "light" ? "default" : "secondary"}
+                onClick={() => set({ theme: "light" })}
+              >
+                <Sun className="h-4 w-4" />
+                白底
+              </Button>
+              <Button
+                size="sm"
+                variant={s.theme === "ambient-dark" ? "default" : "secondary"}
+                onClick={() => set({ theme: "ambient-dark" })}
+              >
+                <Moon className="h-4 w-4" />
+                暗色挂机
+              </Button>
+            </div>
+            <p className="text-xs text-fg-tertiary">挂副屏 / 晚上长时间用，切到暗色更护眼。</p>
+          </div>
+
           {/* Source */}
-          <div className="space-y-2">
+          <div className="space-y-2.5">
             <Label>句子来源</Label>
             <div className="grid grid-cols-3 gap-2">
               {SOURCES.map((src) => (
@@ -66,10 +92,10 @@ export function DisplaySettingsSheet() {
           </div>
 
           {/* Interval */}
-          <div className="space-y-2">
+          <div className="space-y-2.5">
             <div className="flex items-baseline justify-between">
               <Label>切换间隔</Label>
-              <span className="text-sm text-text-secondary tabular">{s.intervalSec}s</span>
+              <span className="text-sm text-fg-secondary tabular font-mono">{s.intervalSec}s</span>
             </div>
             <Slider
               value={[s.intervalSec]}
@@ -81,7 +107,7 @@ export function DisplaySettingsSheet() {
           </div>
 
           {/* Font size */}
-          <div className="space-y-2">
+          <div className="space-y-2.5">
             <Label>字号</Label>
             <div className="grid grid-cols-4 gap-2">
               {SIZES.map((sz) => (
@@ -97,7 +123,6 @@ export function DisplaySettingsSheet() {
             </div>
           </div>
 
-          {/* Toggles */}
           <Toggle
             label="显示假名"
             checked={s.showKana}
@@ -116,10 +141,10 @@ export function DisplaySettingsSheet() {
             disabled
           />
           <Toggle
-            label="深度专注 (隐藏所有 UI)"
+            label="深度专注（隐藏所有 UI）"
             checked={s.focusMode}
             onChange={(v) => set({ focusMode: v })}
-            hint="只剩键盘控制：← → Space"
+            hint="只留键盘控制：← → Space"
           />
         </div>
       </SheetContent>
@@ -143,8 +168,8 @@ function Toggle({
   return (
     <div className="flex items-start justify-between gap-4">
       <div className="space-y-0.5">
-        <Label className={disabled ? "opacity-50" : ""}>{label}</Label>
-        {hint && <p className="text-xs text-text-muted">{hint}</p>}
+        <Label className={cn(disabled && "opacity-50")}>{label}</Label>
+        {hint && <p className="text-xs text-fg-tertiary">{hint}</p>}
       </div>
       <Switch checked={checked} onCheckedChange={onChange} disabled={disabled} />
     </div>

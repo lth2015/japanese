@@ -20,7 +20,7 @@ export default async function PassagesPage() {
     <div className="px-6 lg:px-16 py-10 lg:py-16 max-w-5xl mx-auto space-y-8">
       <header className="space-y-3">
         <h1 className="text-4xl lg:text-5xl font-semibold tracking-tight">短文阅读</h1>
-        <p className="text-lg text-text-secondary max-w-2xl leading-relaxed">
+        <p className="text-lg text-fg-secondary max-w-2xl leading-relaxed">
           用你"读"的强项作为入口。读懂全文 → 用日语回答问题 → 输出。
         </p>
       </header>
@@ -35,15 +35,15 @@ export default async function PassagesPage() {
                 <CardContent className="p-5 space-y-3 h-full flex flex-col">
                   <div className="flex items-center justify-between">
                     <Badge>{meta.label}</Badge>
-                    <Icon className="h-4 w-4 text-text-muted" strokeWidth={1.75} />
+                    <Icon className="h-4 w-4 text-fg-tertiary" strokeWidth={1.75} />
                   </div>
-                  <h2 className="font-jp-serif text-lg text-text-primary leading-snug" lang="ja">
+                  <h2 className="font-jp-serif text-lg text-fg leading-snug" lang="ja">
                     {p.title}
                   </h2>
-                  <p className="text-text-secondary text-sm line-clamp-2 flex-1" lang="zh-CN">
+                  <p className="text-fg-secondary text-sm line-clamp-2 flex-1" lang="zh-CN">
                     {p.description ?? "—"}
                   </p>
-                  <div className="flex items-center gap-3 text-xs text-text-muted tabular pt-1">
+                  <div className="flex items-center gap-3 text-xs text-fg-tertiary tabular pt-1">
                     <span>难度 {p.difficulty}/5</span>
                     {p.lengthWords && <span>· {p.lengthWords} 字</span>}
                     <span>· {p.questions?.length ?? 0} 道题</span>
@@ -56,7 +56,7 @@ export default async function PassagesPage() {
       </div>
 
       {passages.length === 0 && (
-        <p className="text-text-muted text-sm py-12 text-center">还没有短文。</p>
+        <p className="text-fg-tertiary text-sm py-12 text-center">还没有短文。</p>
       )}
     </div>
   )

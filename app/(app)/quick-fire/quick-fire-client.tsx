@@ -199,8 +199,8 @@ export function QuickFireClient({ initial }: Props) {
   const inCountdown = phase === "recording" && elapsed < COUNTDOWN_SEC
 
   return (
-    <div className="px-6 lg:px-12 py-10 lg:py-16 max-w-4xl mx-auto">
-      <header className="flex items-center justify-between mb-10 lg:mb-12">
+    <div className="px-6 lg:px-12 py-8 lg:py-12 max-w-3xl mx-auto">
+      <header className="flex items-center justify-between mb-8">
         <div className="flex items-center gap-2 text-sm lg:text-base">
           <Zap className="h-5 w-5 text-vermilion" strokeWidth={1.75} />
           <span className="text-vermilion font-semibold">Stage 4 · Quick-Fire</span>
@@ -209,17 +209,17 @@ export function QuickFireClient({ initial }: Props) {
             <Badge variant="outline">先解锁到 Stage 3 效果更好</Badge>
           )}
         </div>
-        <div className="text-sm text-text-muted tabular">本轮已完成 {completedIds.length}</div>
+        <div className="text-sm text-fg-tertiary tabular">本轮已完成 {completedIds.length}</div>
       </header>
 
-      <p className="text-base text-text-secondary text-center mb-4">
+      <p className="text-base text-fg-secondary text-center mb-4">
         5 秒内开口说出来。
-        <span className="text-text-muted">流畅 &gt; 准确，前 4 周这么算。</span>
+        <span className="text-fg-tertiary">流畅 &gt; 准确，前 4 周这么算。</span>
       </p>
 
       {/* Chinese prompt */}
-      <section className="border-y border-border py-10 lg:py-14 my-6 text-center">
-        <p lang="zh-CN" className="text-hero font-sans text-text-primary leading-tight">
+      <section className="border-y border-border py-8 lg:py-10 my-6 text-center">
+        <p lang="zh-CN" className="text-prompt font-sans text-fg leading-tight">
           {s.chinese}
         </p>
       </section>
@@ -237,7 +237,7 @@ export function QuickFireClient({ initial }: Props) {
             准备好了（开始 5 秒倒计时）
           </Button>
           {!sttSupported && (
-            <p className="text-xs text-text-muted">浏览器不支持语音识别。建议 Chrome / Safari。</p>
+            <p className="text-xs text-fg-tertiary">浏览器不支持语音识别。建议 Chrome / Safari。</p>
           )}
         </div>
       )}
@@ -278,7 +278,7 @@ export function QuickFireClient({ initial }: Props) {
                   <p className="text-5xl font-bold tabular text-vermilion">
                     {remainingCountdown.toFixed(1)}
                   </p>
-                  <p className="text-xs text-text-muted">秒，开口</p>
+                  <p className="text-xs text-fg-tertiary">秒，开口</p>
                 </>
               ) : (
                 <>
@@ -292,9 +292,9 @@ export function QuickFireClient({ initial }: Props) {
           {/* Live transcript */}
           <p
             lang="ja"
-            className="font-jp text-text-primary text-xl min-h-[2rem] text-center max-w-lg"
+            className="font-jp text-fg text-xl min-h-[2rem] text-center max-w-lg"
           >
-            {transcript || <span className="text-text-muted">{firstWordSec === null ? "…" : ""}</span>}
+            {transcript || <span className="text-fg-tertiary">{firstWordSec === null ? "…" : ""}</span>}
           </p>
 
           <Button variant="destructive" onClick={handleManualStop} disabled={!sttRef.current}>
@@ -343,22 +343,22 @@ export function QuickFireClient({ initial }: Props) {
               </div>
 
               <div className="space-y-1.5 pt-3 border-t border-border">
-                <p className="text-xs text-text-muted">浏览器听到</p>
-                <p lang="ja" className="font-jp text-text-primary text-lg">
-                  {feedback.transcript || <span className="text-text-muted">（没听到声音）</span>}
+                <p className="text-xs text-fg-tertiary">浏览器听到</p>
+                <p lang="ja" className="font-jp text-fg text-lg">
+                  {feedback.transcript || <span className="text-fg-tertiary">（没听到声音）</span>}
                 </p>
               </div>
 
               <div className="space-y-1.5">
-                <p className="text-xs text-text-muted">原句</p>
-                <p className="font-jp-serif text-text-primary text-xl">
+                <p className="text-xs text-fg-tertiary">原句</p>
+                <p className="font-jp-serif text-fg text-xl">
                   <FuriganaText text={s.japanese} tokens={s.tokens} showRuby={true} />
                 </p>
               </div>
 
               {feedback.diffSegs.length > 0 && feedback.accuracy < 100 && feedback.transcript && (
                 <div className="space-y-1.5">
-                  <p className="text-xs text-text-muted">差异</p>
+                  <p className="text-xs text-fg-tertiary">差异</p>
                   <p lang="ja" className="font-jp text-base leading-relaxed">
                     {feedback.diffSegs.map((seg, i) => (
                       <DiffSpan key={i} segment={seg} />
@@ -367,7 +367,7 @@ export function QuickFireClient({ initial }: Props) {
                 </div>
               )}
 
-              <p className="text-xs text-text-muted leading-relaxed">
+              <p className="text-xs text-fg-tertiary leading-relaxed">
                 <span className="text-vermilion">说错也比沉默强。</span>5 秒内开口=流畅满分。这是 Quick-Fire 的核心。
               </p>
             </CardContent>
@@ -376,7 +376,7 @@ export function QuickFireClient({ initial }: Props) {
           {!feedback.rated && (
             <Card>
               <CardContent className="p-5 space-y-4">
-                <p className="text-sm text-text-primary">这次自评：</p>
+                <p className="text-sm text-fg">这次自评：</p>
                 <div className="grid grid-cols-3 gap-2">
                   <Button
                     variant="secondary"
@@ -411,10 +411,10 @@ export function QuickFireClient({ initial }: Props) {
           )}
 
           {feedback.rated && (
-            <div className="rounded-xl border border-border bg-bg-elevated px-5 py-3 flex items-center gap-3 animate-fade-in">
+            <div className="rounded-xl border border-border bg-surface px-5 py-3 flex items-center gap-3 animate-fade-in">
               <Zap className="h-4 w-4 text-vermilion" strokeWidth={1.75} />
-              <p className="text-sm text-text-secondary flex-1">
-                进度更新：<span className="text-text-primary">{feedback.ratingMessage}</span>
+              <p className="text-sm text-fg-secondary flex-1">
+                进度更新：<span className="text-fg">{feedback.ratingMessage}</span>
               </p>
             </div>
           )}
@@ -447,7 +447,7 @@ function ScoreTile({
 }) {
   return (
     <div className="space-y-1">
-      <p className={cn("text-xs", highlight ? "text-vermilion" : "text-text-muted")}>{label}</p>
+      <p className={cn("text-xs", highlight ? "text-vermilion" : "text-fg-tertiary")}>{label}</p>
       <p
         className={cn(
           "font-bold tabular leading-none",
@@ -456,13 +456,13 @@ function ScoreTile({
             ? "text-success"
             : value >= 50
               ? "text-warning"
-              : "text-text-secondary",
+              : "text-fg-secondary",
         )}
       >
         {value}
       </p>
-      <p className="text-[10px] text-text-muted h-3">{hint}</p>
-      <p className="text-[10px] text-text-muted font-mono">{weight}</p>
+      <p className="text-[10px] text-fg-tertiary h-3">{hint}</p>
+      <p className="text-[10px] text-fg-tertiary font-mono">{weight}</p>
     </div>
   )
 }
@@ -470,18 +470,18 @@ function ScoreTile({
 function DiffSpan({ segment }: { segment: DiffSegment }) {
   switch (segment.op) {
     case "match":
-      return <span className="text-text-primary">{segment.user}</span>
+      return <span className="text-fg">{segment.user}</span>
     case "delete":
       return (
-        <span className="bg-danger/20 text-danger line-through decoration-2 rounded px-0.5">
+        <span className="bg-danger-soft text-danger line-through decoration-2 rounded px-0.5">
           {segment.user}
         </span>
       )
     case "insert":
-      return <span className="bg-success/20 text-success rounded px-0.5">{segment.target}</span>
+      return <span className="bg-success-soft text-success rounded px-0.5">{segment.target}</span>
     case "replace":
       return (
-        <span className="bg-warning/20 text-warning rounded px-0.5">
+        <span className="bg-warning-soft text-warning rounded px-0.5">
           <span className="line-through decoration-2 mr-1">{segment.user}</span>
           <span className="opacity-90">{segment.target}</span>
         </span>
@@ -493,7 +493,7 @@ function EmptyState() {
   return (
     <div className="px-6 py-24 max-w-2xl mx-auto text-center space-y-4">
       <p className="text-2xl font-semibold tracking-tight">Quick-Fire 全过关 ⚡</p>
-      <p className="text-text-secondary">明天回来继续。</p>
+      <p className="text-fg-secondary">明天回来继续。</p>
       <Button asChild variant="secondary">
         <a href="/">回 Dashboard</a>
       </Button>

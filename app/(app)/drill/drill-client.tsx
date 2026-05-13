@@ -105,31 +105,35 @@ export function DrillClient({ initial }: Props) {
   }
 
   return (
-    <div className="px-6 lg:px-12 py-10 lg:py-16 max-w-4xl mx-auto">
+    <div className="px-6 lg:px-10 py-8 lg:py-12 max-w-3xl mx-auto">
       {/* Header */}
-      <header className="flex items-center justify-between mb-10 lg:mb-14">
-        <div className="flex items-center gap-2 text-sm lg:text-base text-text-secondary">
-          <Sparkles className="h-5 w-5 text-accent" strokeWidth={1.75} />
+      <header className="flex items-center justify-between mb-8">
+        <div className="flex items-center gap-2 text-sm text-fg-secondary">
+          <Sparkles className="h-4 w-4 text-accent" strokeWidth={1.75} />
           <span className="font-medium">Stage 2 · 写作 Drill</span>
           {current.isReview && <Badge variant="warning">复习</Badge>}
         </div>
-        <div className="text-sm text-text-muted tabular">本轮已完成 {completedIds.length}</div>
+        <div className="text-xs text-fg-tertiary tabular font-mono">
+          本轮 {completedIds.length}
+        </div>
       </header>
 
       {/* Prompt */}
-      <section className="mb-10">
-        <p className="text-sm text-text-muted mb-5 text-center">把下面这句翻译成自然的工作日语</p>
-        <div className="border-y border-border py-10 lg:py-14 my-4">
+      <section className="mb-8">
+        <p className="text-xs text-fg-tertiary mb-4 text-center uppercase tracking-wider font-medium">
+          把下面这句翻译成自然的工作日语
+        </p>
+        <div className="border-y border-border py-8 lg:py-10">
           <p
             lang="zh-CN"
-            className="text-hero font-sans text-text-primary leading-tight text-center"
+            className="text-prompt font-sans text-fg leading-tight text-center"
           >
             {s.chinese}
           </p>
         </div>
         {s.chunkPattern && (
-          <p className="text-sm text-text-muted mt-4 text-center">
-            提示：用 <span className="font-jp text-text-secondary">{s.chunkPattern}</span>
+          <p className="text-xs text-fg-tertiary mt-4 text-center">
+            提示 · <span className="font-jp text-fg-secondary">{s.chunkPattern}</span>
           </p>
         )}
       </section>
@@ -151,11 +155,11 @@ export function DrillClient({ initial }: Props) {
           lang="ja"
           rows={3}
           className={cn(
-            "w-full rounded-xl border border-border bg-bg-elevated px-5 py-4",
-            "font-jp text-2xl text-text-primary placeholder:text-text-muted",
-            "focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:border-border-strong",
-            "disabled:opacity-70 disabled:cursor-not-allowed",
-            "transition-colors duration-150 resize-none",
+            "w-full rounded-md border border-border-input bg-surface px-4 py-3",
+            "font-jp text-xl text-fg placeholder:text-fg-tertiary",
+            "focus-visible:outline-none focus-visible:border-accent focus-visible:shadow-focus",
+            "disabled:opacity-60 disabled:cursor-not-allowed",
+            "transition-[border-color,box-shadow] duration-150 resize-none",
           )}
         />
         <div className="flex items-center justify-end gap-2">
@@ -167,9 +171,7 @@ export function DrillClient({ initial }: Props) {
               <Button onClick={handleSubmit} disabled={!input.trim() || isPending}>
                 {isPending ? <Loader2 className="h-4 w-4 animate-spin" /> : null}
                 提交
-                <span className="ml-2 text-xs text-text-primary/60 hidden sm:inline">
-                  ⌘ + ↵
-                </span>
+                <span className="ml-2 text-xs opacity-60 hidden sm:inline">⌘↵</span>
               </Button>
             </>
           )}
@@ -183,8 +185,8 @@ export function DrillClient({ initial }: Props) {
             <CardContent className="p-6 space-y-5">
               {/* Your input */}
               <div className="space-y-1.5">
-                <p className="text-xs text-text-muted">你的版本</p>
-                <p lang="ja" className="font-jp text-text-primary text-lg">
+                <p className="text-xs text-fg-tertiary">你的版本</p>
+                <p lang="ja" className="font-jp text-fg text-lg">
                   {input}
                 </p>
               </div>
@@ -192,7 +194,7 @@ export function DrillClient({ initial }: Props) {
               {/* Reference */}
               <div className="space-y-1.5">
                 <div className="flex items-center justify-between">
-                  <p className="text-xs text-text-muted">参考版本（其中一种自然说法）</p>
+                  <p className="text-xs text-fg-tertiary">参考版本（其中一种自然说法）</p>
                   <span
                     className={cn(
                       "text-xs tabular font-mono",
@@ -206,7 +208,7 @@ export function DrillClient({ initial }: Props) {
                     字符匹配 {Math.round(feedback.matchRatio * 100)}%
                   </span>
                 </div>
-                <p className="font-jp-serif text-text-primary text-xl">
+                <p className="font-jp-serif text-fg text-xl">
                   <FuriganaText text={s.japanese} tokens={s.tokens} showRuby={true} />
                 </p>
               </div>
@@ -214,7 +216,7 @@ export function DrillClient({ initial }: Props) {
               {/* Diff highlight */}
               {feedback.matchRatio < 1 && (
                 <div className="space-y-1.5">
-                  <p className="text-xs text-text-muted">差异（红=多出，黄=替换，绿=缺失）</p>
+                  <p className="text-xs text-fg-tertiary">差异（红=多出，黄=替换，绿=缺失）</p>
                   <p lang="ja" className="font-jp text-base leading-relaxed">
                     {feedback.diffSegments.map((seg, i) => (
                       <DiffSpan key={i} segment={seg} />
@@ -223,7 +225,7 @@ export function DrillClient({ initial }: Props) {
                 </div>
               )}
 
-              <p className="text-xs text-text-muted leading-relaxed">
+              <p className="text-xs text-fg-tertiary leading-relaxed">
                 注：字符匹配只是粗信号——你的版本可能用词不同但意思一致也很好。**自评才是真实标准**。
               </p>
             </CardContent>
@@ -233,7 +235,7 @@ export function DrillClient({ initial }: Props) {
           {!feedback.rated && (
             <Card>
               <CardContent className="p-5 space-y-4">
-                <p className="text-sm text-text-primary">这次你的表现：</p>
+                <p className="text-sm text-fg">这次你的表现：</p>
                 <div className="grid grid-cols-3 gap-2">
                   <Button
                     variant="secondary"
@@ -263,7 +265,7 @@ export function DrillClient({ initial }: Props) {
                     <span>需要复习</span>
                   </Button>
                 </div>
-                <p className="text-xs text-text-muted">
+                <p className="text-xs text-fg-tertiary">
                   自评是 SM-2 间隔重复的输入。诚实评分=系统能精准安排你的下次复习。
                 </p>
               </CardContent>
@@ -271,10 +273,10 @@ export function DrillClient({ initial }: Props) {
           )}
 
           {feedback.rated && (
-            <div className="rounded-xl border border-border bg-bg-elevated px-5 py-3 flex items-center gap-3 animate-fade-in">
+            <div className="rounded-xl border border-border bg-surface px-5 py-3 flex items-center gap-3 animate-fade-in">
               <Sparkles className="h-4 w-4 text-accent" strokeWidth={1.75} />
-              <p className="text-sm text-text-secondary flex-1">
-                进度更新：<span className="text-text-primary">{feedback.ratingMessage}</span>
+              <p className="text-sm text-fg-secondary flex-1">
+                进度更新：<span className="text-fg">{feedback.ratingMessage}</span>
               </p>
             </div>
           )}
@@ -302,22 +304,20 @@ export function DrillClient({ initial }: Props) {
 function DiffSpan({ segment }: { segment: DiffSegment }) {
   switch (segment.op) {
     case "match":
-      return <span className="text-text-primary">{segment.user}</span>
-    case "delete": // user had extra, target doesn't
+      return <span className="text-fg">{segment.user}</span>
+    case "delete":
       return (
-        <span className="bg-danger/20 text-danger line-through decoration-2 rounded px-0.5">
+        <span className="bg-danger-soft text-danger line-through decoration-2 rounded px-0.5">
           {segment.user}
         </span>
       )
-    case "insert": // target has, user missed
+    case "insert":
       return (
-        <span className="bg-success/20 text-success rounded px-0.5">
-          {segment.target}
-        </span>
+        <span className="bg-success-soft text-success rounded px-0.5">{segment.target}</span>
       )
     case "replace":
       return (
-        <span className="bg-warning/20 text-warning rounded px-0.5">
+        <span className="bg-warning-soft text-warning rounded px-0.5">
           <span className="line-through decoration-2 mr-1">{segment.user}</span>
           <span className="opacity-90">{segment.target}</span>
         </span>
@@ -329,7 +329,7 @@ function EmptyState() {
   return (
     <div className="px-6 py-24 max-w-2xl mx-auto text-center space-y-4">
       <p className="text-2xl font-semibold tracking-tight">今天的 Drill 都做完了 🎯</p>
-      <p className="text-text-secondary">
+      <p className="text-fg-secondary">
         没有待复习的句子，新句子也都过了一遍。明天回来继续。
       </p>
       <Button asChild variant="secondary">

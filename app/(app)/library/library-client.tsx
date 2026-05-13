@@ -16,6 +16,8 @@ const CATEGORIES = [
   { value: "request", label: "请求" },
   { value: "apology", label: "道歉" },
   { value: "smalltalk", label: "杂谈" },
+  { value: "daily", label: "日常" },
+  { value: "grammar", label: "语法" },
   { value: "custom", label: "自建" },
 ] as const
 
@@ -57,7 +59,7 @@ export function LibraryClient({ sentences }: { sentences: Sentence[] }) {
           </TabsList>
         </Tabs>
         <div className="relative md:ml-auto md:w-72">
-          <Search className="absolute left-3 top-1/2 -translate-y-1/2 h-4 w-4 text-text-muted" />
+          <Search className="absolute left-3 top-1/2 -translate-y-1/2 h-4 w-4 text-fg-tertiary" />
           <Input
             value={q}
             onChange={(e) => setQ(e.target.value)}
@@ -67,15 +69,17 @@ export function LibraryClient({ sentences }: { sentences: Sentence[] }) {
         </div>
       </div>
 
-      <p className="text-xs text-text-muted">{filtered.length} 句</p>
+      <p className="text-xs text-fg-tertiary tabular font-mono">
+        {filtered.length} / {sentences.length} 句
+      </p>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
         {filtered.map((s) => (
-          <Card key={s.id} className="hover:border-border-strong transition-colors">
+          <Card key={s.id} className="hover:shadow-sm transition-shadow">
             <CardContent className="p-5 space-y-3">
-              <div className="flex items-center gap-2">
+              <div className="flex items-center justify-between">
                 <Badge>{categoryLabel(s.category)}</Badge>
-                <span className="text-xs text-text-muted tabular">
+                <span className="text-xs text-fg-tertiary tabular">
                   {DIFF_LABEL[s.difficulty]}
                 </span>
               </div>
@@ -90,7 +94,7 @@ export function LibraryClient({ sentences }: { sentences: Sentence[] }) {
       </div>
 
       {filtered.length === 0 && (
-        <p className="text-text-muted text-sm py-12 text-center">没有匹配的句子。</p>
+        <p className="text-fg-tertiary text-sm py-12 text-center">没有匹配的句子。</p>
       )}
     </div>
   )

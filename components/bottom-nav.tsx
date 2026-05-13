@@ -17,10 +17,10 @@ export function BottomNav() {
   const pathname = usePathname()
   return (
     <nav
-      className="lg:hidden fixed bottom-0 inset-x-0 z-40 border-t border-border bg-bg-base/95 backdrop-blur-md"
+      className="lg:hidden fixed bottom-0 inset-x-0 z-40 border-t border-border bg-surface/95 backdrop-blur-md"
       style={{ paddingBottom: "env(safe-area-inset-bottom)" }}
     >
-      <div className="grid grid-cols-5 h-16">
+      <div className="grid grid-cols-5 h-14">
         {NAV.map(({ href, label, icon: Icon }) => {
           const active = pathname === href || (href !== "/" && pathname.startsWith(href))
           return (
@@ -29,11 +29,11 @@ export function BottomNav() {
               href={href}
               className={cn(
                 "flex flex-col items-center justify-center gap-0.5 text-xs transition-colors",
-                active ? "text-accent" : "text-text-muted",
+                active ? "text-accent" : "text-fg-tertiary",
               )}
             >
               <Icon className="h-5 w-5" strokeWidth={active ? 2 : 1.75} />
-              <span>{label}</span>
+              <span className={cn(active && "font-medium")}>{label}</span>
             </Link>
           )
         })}

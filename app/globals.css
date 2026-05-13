@@ -4,60 +4,80 @@
 
 @layer base {
   :root {
-    /* Surface */
-    --bg-deep: #080b14;
-    --bg-base: #0b1020;
-    --bg-elevated: #131b2f;
-    --bg-overlay: #1a2238;
+    /* === Surfaces === */
+    --bg: #ffffff;
+    --bg-subtle: #f8f8f6;
+    --bg-muted: #f2f2ef;
+    --surface: #ffffff;
+    --surface-elevated: #ffffff;
 
-    /* Border */
-    --border: rgba(255, 255, 255, 0.06);
-    --border-strong: rgba(255, 255, 255, 0.12);
+    /* === Borders === */
+    --border: #ebebe5;
+    --border-strong: #d4d4cc;
+    --border-input: #e0e0da;
 
-    /* Text */
-    --text-primary: #f1f5f9;
-    --text-secondary: #94a3b8;
-    --text-muted: #64748b;
+    /* === Foreground === */
+    --fg: #1a1a1a;
+    --fg-secondary: #5f5f5a;
+    --fg-tertiary: #8e8e88;
+    --fg-on-accent: #ffffff;
 
-    /* Brand / state */
-    --accent: #5e6ad2;
-    --accent-hover: #6e7ae0;
-    --accent-glow: rgba(94, 106, 210, 0.18);
-    --success: #22c55e;
-    --warning: #f59e0b;
-    --danger: #dc2626;
-    --vermilion: #e0584c;
+    /* === Brand / state === */
+    --accent: #3b5bdb;
+    --accent-hover: #3650c8;
+    --accent-soft: #eef0fe;
+    --success: #0e8345;
+    --success-soft: #e7f5ee;
+    --warning: #b26b00;
+    --warning-soft: #fef6e6;
+    --danger: #c0392b;
+    --danger-soft: #fcedea;
+    --vermilion: #d14b3f;
 
-    /* Effects */
-    --shadow-card: inset 0 1px 0 rgba(255, 255, 255, 0.04);
-    --shadow-elevated: 0 8px 32px rgba(0, 0, 0, 0.5);
+    /* === Effects === */
+    --shadow-xs: 0 1px 2px 0 rgba(15, 23, 42, 0.04);
+    --shadow-sm: 0 1px 3px 0 rgba(15, 23, 42, 0.06), 0 1px 2px -1px rgba(15, 23, 42, 0.04);
+    --shadow-md: 0 4px 12px -2px rgba(15, 23, 42, 0.07), 0 2px 4px -2px rgba(15, 23, 42, 0.04);
+    --shadow-lg: 0 12px 32px -4px rgba(15, 23, 42, 0.1), 0 4px 8px -4px rgba(15, 23, 42, 0.06);
+    --shadow-focus: 0 0 0 4px rgba(59, 91, 219, 0.16);
 
+    color-scheme: light;
+  }
+
+  /* Display "ambient dark" mode — only on /display when user opts in. */
+  .ambient-dark {
+    --bg: #0f1115;
+    --bg-subtle: #16181d;
+    --surface: #16181d;
+    --border: rgba(255, 255, 255, 0.08);
+    --border-strong: rgba(255, 255, 255, 0.16);
+    --fg: #e8e8e5;
+    --fg-secondary: #9c9c95;
+    --fg-tertiary: #6e6e68;
     color-scheme: dark;
   }
 
   html,
   body {
-    background-color: var(--bg-base);
-    color: var(--text-primary);
+    background-color: var(--bg);
+    color: var(--fg);
     font-family: var(--font-inter), "Noto Sans SC", "Noto Sans JP", system-ui, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
   }
 
-  /* Selection */
   ::selection {
-    background-color: var(--accent-glow);
-    color: var(--text-primary);
+    background-color: var(--accent-soft);
+    color: var(--fg);
   }
 
-  /* Focus ring — keyboard only */
   :focus-visible {
     outline: 2px solid var(--accent);
     outline-offset: 2px;
     border-radius: 6px;
   }
 
-  /* Reduced motion */
   @media (prefers-reduced-motion: reduce) {
     *,
     *::before,
@@ -68,44 +88,63 @@
     }
   }
 
-  /* Tabular numerals for data */
+  /* Tabular numerals */
   .tabular {
     font-variant-numeric: tabular-nums;
   }
 
-  /* Ruby (furigana) styling */
+  /* Ruby (furigana) styling — calibrated for light bg */
   ruby {
     ruby-position: over;
     ruby-align: center;
   }
   rt {
-    font-size: 0.45em;
-    color: var(--text-secondary);
+    font-size: 0.5em;
+    color: var(--fg-tertiary);
     font-family: var(--font-jp), "Noto Sans JP", sans-serif;
     font-weight: 400;
-    letter-spacing: 0.02em;
+    letter-spacing: 0;
     line-height: 1;
+  }
+  /* In ambient-dark, ruby is brighter */
+  .ambient-dark rt {
+    color: var(--fg-secondary);
   }
 }
 
 @layer utilities {
-  .text-display {
-    font-size: clamp(3.25rem, 8vw, 7.5rem);
-    line-height: 1.08;
+  /* Display-mode ambient sizing (very large; not used elsewhere) */
+  .text-ambient {
+    font-size: clamp(3rem, 9vw, 8rem);
+    line-height: 1.1;
     letter-spacing: -0.01em;
   }
-  .text-hero {
-    font-size: clamp(2.25rem, 4.5vw, 4rem);
-    line-height: 1.15;
-    letter-spacing: -0.01em;
+  /* Training-page hero sentence */
+  .text-sentence {
+    font-size: clamp(2rem, 4vw, 3.5rem);
+    line-height: 1.2;
+    letter-spacing: -0.005em;
   }
-  .shadow-card {
-    box-shadow: var(--shadow-card);
+  /* Training-page Chinese prompt */
+  .text-prompt {
+    font-size: clamp(1.75rem, 3.5vw, 3rem);
+    line-height: 1.25;
+    letter-spacing: -0.005em;
   }
-  .shadow-elevated {
-    box-shadow: var(--shadow-elevated);
+
+  .shadow-xs {
+    box-shadow: var(--shadow-xs);
   }
-  .shadow-accent-glow {
-    box-shadow: 0 0 0 6px var(--accent-glow);
+  .shadow-sm-token {
+    box-shadow: var(--shadow-sm);
+  }
+  .shadow-md-token {
+    box-shadow: var(--shadow-md);
+  }
+  .shadow-lg-token {
+    box-shadow: var(--shadow-lg);
+  }
+  .shadow-focus {
+    box-shadow: var(--shadow-focus);
   }
 }

@@ -160,11 +160,11 @@ export function ReadAloudClient({ initial }: Props) {
   }
 
   return (
-    <div className="px-6 lg:px-12 py-10 lg:py-16 max-w-4xl mx-auto">
+    <div className="px-6 lg:px-12 py-8 lg:py-12 max-w-3xl mx-auto">
       {/* Header */}
-      <header className="flex items-center justify-between mb-10 lg:mb-12 gap-4 flex-wrap">
-        <div className="flex items-center gap-2 text-sm lg:text-base text-text-secondary">
-          <Volume2 className="h-5 w-5 text-accent" strokeWidth={1.75} />
+      <header className="flex items-center justify-between mb-8 gap-4 flex-wrap">
+        <div className="flex items-center gap-2 text-sm lg:text-base text-fg-secondary">
+          <Volume2 className="h-4 w-4 text-accent" strokeWidth={1.75} />
           <span className="font-medium">Stage 2.5 · 音読</span>
           {current.isReview && <Badge variant="warning">复习</Badge>}
           {!current.isUnlocked && (
@@ -175,20 +175,20 @@ export function ReadAloudClient({ initial }: Props) {
           <button
             type="button"
             onClick={() => setHideFurigana((v) => !v)}
-            className="text-sm text-text-muted hover:text-text-primary transition-colors"
+            className="text-sm text-fg-tertiary hover:text-fg transition-colors"
           >
             {hideFurigana ? "显示假名" : "隐藏假名"}
           </button>
-          <span className="text-sm text-text-muted tabular">本轮已完成 {completedIds.length}</span>
+          <span className="text-sm text-fg-tertiary tabular">本轮已完成 {completedIds.length}</span>
         </div>
       </header>
 
       {/* Sentence */}
-      <section className="my-10 py-14 lg:py-20 border-y border-border text-center">
-        <p className="font-jp-serif text-text-primary leading-[1.1] text-display font-medium">
+      <section className="my-8 py-10 lg:py-14 border-y border-border text-center">
+        <p className="font-jp-serif text-fg leading-[1.1] text-sentence font-medium">
           <FuriganaText text={s.japanese} tokens={s.tokens} showRuby={!hideFurigana} />
         </p>
-        <p className="text-text-secondary text-xl lg:text-2xl mt-10" lang="zh-CN">
+        <p className="text-fg-secondary text-xl lg:text-2xl mt-10" lang="zh-CN">
           {s.chinese}
         </p>
       </section>
@@ -232,9 +232,9 @@ export function ReadAloudClient({ initial }: Props) {
         </div>
 
         {phase === "listening-stt" && (
-          <p className="text-center text-sm text-text-secondary">
+          <p className="text-center text-sm text-fg-secondary">
             🎙 正在听... 朗读后浏览器会自动结束。
-            {transcript && <span className="block font-jp text-text-primary mt-2">{transcript}</span>}
+            {transcript && <span className="block font-jp text-fg mt-2">{transcript}</span>}
           </p>
         )}
 
@@ -245,7 +245,7 @@ export function ReadAloudClient({ initial }: Props) {
         )}
 
         {!sttSupported && (
-          <p className="text-xs text-text-muted text-center">
+          <p className="text-xs text-fg-tertiary text-center">
             你的浏览器不支持 Web Speech API。建议用 Chrome 或 macOS Safari。
           </p>
         )}
@@ -257,15 +257,15 @@ export function ReadAloudClient({ initial }: Props) {
           <Card>
             <CardContent className="p-6 space-y-5">
               <div className="space-y-1.5">
-                <p className="text-xs text-text-muted">浏览器识别到的</p>
-                <p lang="ja" className="font-jp text-text-primary text-lg">
+                <p className="text-xs text-fg-tertiary">浏览器识别到的</p>
+                <p lang="ja" className="font-jp text-fg text-lg">
                   {transcript}
                 </p>
               </div>
 
               <div className="space-y-1.5">
                 <div className="flex items-center justify-between">
-                  <p className="text-xs text-text-muted">原句</p>
+                  <p className="text-xs text-fg-tertiary">原句</p>
                   <span
                     className={cn(
                       "text-xs tabular font-mono",
@@ -279,14 +279,14 @@ export function ReadAloudClient({ initial }: Props) {
                     匹配 {Math.round(feedback.matchRatio * 100)}%
                   </span>
                 </div>
-                <p className="font-jp-serif text-text-primary text-xl">
+                <p className="font-jp-serif text-fg text-xl">
                   <FuriganaText text={s.japanese} tokens={s.tokens} showRuby={true} />
                 </p>
               </div>
 
               {feedback.matchRatio < 1 && (
                 <div className="space-y-1.5">
-                  <p className="text-xs text-text-muted">差异</p>
+                  <p className="text-xs text-fg-tertiary">差异</p>
                   <p lang="ja" className="font-jp text-base leading-relaxed">
                     {feedback.diffSegs.map((seg, i) => (
                       <DiffSpan key={i} segment={seg} />
@@ -295,7 +295,7 @@ export function ReadAloudClient({ initial }: Props) {
                 </div>
               )}
 
-              <p className="text-xs text-text-muted leading-relaxed">
+              <p className="text-xs text-fg-tertiary leading-relaxed">
                 注：浏览器 STT 不完美，识别错≠你读错。**自评才是真实信号**——感觉自己读出来了就给"完美"。
               </p>
             </CardContent>
@@ -304,7 +304,7 @@ export function ReadAloudClient({ initial }: Props) {
           {!feedback.rated && (
             <Card>
               <CardContent className="p-5 space-y-4">
-                <p className="text-sm text-text-primary">这次自己感觉：</p>
+                <p className="text-sm text-fg">这次自己感觉：</p>
                 <div className="grid grid-cols-3 gap-2">
                   <Button
                     variant="secondary"
@@ -339,10 +339,10 @@ export function ReadAloudClient({ initial }: Props) {
           )}
 
           {feedback.rated && (
-            <div className="rounded-xl border border-border bg-bg-elevated px-5 py-3 flex items-center gap-3 animate-fade-in">
+            <div className="rounded-xl border border-border bg-surface px-5 py-3 flex items-center gap-3 animate-fade-in">
               <Volume2 className="h-4 w-4 text-accent" strokeWidth={1.75} />
-              <p className="text-sm text-text-secondary flex-1">
-                进度更新：<span className="text-text-primary">{feedback.ratingMessage}</span>
+              <p className="text-sm text-fg-secondary flex-1">
+                进度更新：<span className="text-fg">{feedback.ratingMessage}</span>
               </p>
             </div>
           )}
@@ -361,20 +361,20 @@ export function ReadAloudClient({ initial }: Props) {
 function DiffSpan({ segment }: { segment: DiffSegment }) {
   switch (segment.op) {
     case "match":
-      return <span className="text-text-primary">{segment.user}</span>
+      return <span className="text-fg">{segment.user}</span>
     case "delete":
       return (
-        <span className="bg-danger/20 text-danger line-through decoration-2 rounded px-0.5">
+        <span className="bg-danger-soft text-danger line-through decoration-2 rounded px-0.5">
           {segment.user}
         </span>
       )
     case "insert":
       return (
-        <span className="bg-success/20 text-success rounded px-0.5">{segment.target}</span>
+        <span className="bg-success-soft text-success rounded px-0.5">{segment.target}</span>
       )
     case "replace":
       return (
-        <span className="bg-warning/20 text-warning rounded px-0.5">
+        <span className="bg-warning-soft text-warning rounded px-0.5">
           <span className="line-through decoration-2 mr-1">{segment.user}</span>
           <span className="opacity-90">{segment.target}</span>
         </span>
@@ -386,7 +386,7 @@ function EmptyState() {
   return (
     <div className="px-6 py-24 max-w-2xl mx-auto text-center space-y-4">
       <p className="text-2xl font-semibold tracking-tight">音読任务都做完了 🎤</p>
-      <p className="text-text-secondary">明天回来继续。或者去 Drill 解锁更多句子到 Stage 2。</p>
+      <p className="text-fg-secondary">明天回来继续。或者去 Drill 解锁更多句子到 Stage 2。</p>
       <Button asChild variant="secondary">
         <a href="/">回 Dashboard</a>
       </Button>

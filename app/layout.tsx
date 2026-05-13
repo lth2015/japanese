@@ -39,7 +39,7 @@ export const viewport: Viewport = {
   width: "device-width",
   initialScale: 1,
   maximumScale: 5,
-  themeColor: "#0B1020",
+  themeColor: "#FFFFFF",
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
@@ -48,7 +48,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       lang="zh-CN"
       className={`${inter.variable} ${notoJp.variable} ${notoSerifJp.variable} ${jetbrains.variable}`}
     >
-      <body className="min-h-dvh bg-bg-base text-text-primary antialiased">{children}</body>
+      <body className="min-h-dvh bg-bg text-fg antialiased">{children}</body>
     </html>
   )
 }

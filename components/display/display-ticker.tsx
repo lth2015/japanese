@@ -135,15 +135,19 @@ export function DisplayTicker({ sentences }: Props) {
         </Button>
       </div>
 
-      {/* Content */}
-      <div className="h-full grid place-items-center px-8 lg:px-20">
+      {/* Content — perfectly centered, JP dominant, CN small helper.
+       * Container is grid-place-center so the JP+CN block is dead-center
+       * both axes regardless of length. JP uses fluid clamp; CN scales
+       * proportionally but capped — JP stays at least 4-5x CN. */}
+      <div className="h-full grid place-items-center px-6 sm:px-12 lg:px-20">
         <div
           key={current.id}
-          className="flex flex-col items-center gap-8 sm:gap-10 lg:gap-14 animate-fade-in text-center max-w-[88vw]"
+          className="flex flex-col items-center gap-5 sm:gap-7 lg:gap-9 animate-fade-in text-center w-full max-w-[92vw]"
         >
           <p
+            lang="ja"
             className={cn(
-              "font-jp-serif text-fg tracking-wide font-medium leading-[1.08]",
+              "font-jp-serif text-fg tracking-wide font-medium leading-[1.08] text-balance",
               FONT_SIZE_CLASS[settings.fontSize],
             )}
           >
@@ -156,7 +160,7 @@ export function DisplayTicker({ sentences }: Props) {
           {settings.showKana && !current.tokens?.length && current.kana && (
             <p
               lang="ja"
-              className="font-mono text-fg-ruby text-base sm:text-lg lg:text-xl tracking-widest"
+              className="font-mono text-fg-ruby text-[clamp(0.875rem,1.6vw,1.5rem)] tracking-widest"
             >
               {current.kana}
             </p>
@@ -164,7 +168,7 @@ export function DisplayTicker({ sentences }: Props) {
           {settings.showChinese && (
             <p
               lang="zh-CN"
-              className="text-fg-cn text-lg sm:text-xl lg:text-2xl font-normal tracking-wide"
+              className="text-fg-cn text-[clamp(1.125rem,2.2vw,2rem)] font-normal tracking-wide text-balance"
             >
               {current.chinese}
             </p>

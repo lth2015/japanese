@@ -75,9 +75,12 @@ export function useDisplaySettings(): [DisplaySettings, typeof setDisplaySetting
  * one place in the app where extreme typography is the point —副屏挂机). The
  * non-ambient Display fallback uses .text-ambient (clamp 48-128px).
  */
+// Fluid clamp() — JP scales smoothly with viewport, no breakpoint dead zones.
+// Min ensures JP is substantial on mobile; max caps growth on huge monitors.
+// L (default): ~56px @ 320 mobile, ~106px @ 960 tablet, ~176px @ 1920 desktop.
 export const FONT_SIZE_CLASS: Record<FontSize, string> = {
-  S: "text-[3.5rem] sm:text-[5.5rem] lg:text-[9rem]",
-  M: "text-[4.5rem] sm:text-[7rem] lg:text-[12rem]",
-  L: "text-[5.5rem] sm:text-[8.5rem] lg:text-[15rem]",
-  XL: "text-[6.5rem] sm:text-[10rem] lg:text-[17rem]",
+  S: "text-[clamp(2.25rem,7vw,7.5rem)]",
+  M: "text-[clamp(2.75rem,9vw,10rem)]",
+  L: "text-[clamp(3.5rem,11vw,12.5rem)]",
+  XL: "text-[clamp(4.25rem,13.5vw,15rem)]",
 }

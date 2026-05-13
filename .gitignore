@@ -27,8 +27,8 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
-# data — local SQLite + generated audio
-data/
+# data — local SQLite + generated audio (project-root only; do NOT match seed/data)
+/data/
 
 # Claude Code local config + per-project skills clones (not part of source)
 .claude/

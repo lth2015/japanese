@@ -1,6 +1,15 @@
 "use client"
 
-import { BookOpen, Home, Mic, MonitorPlay, PencilLine, Settings, Sparkles } from "lucide-react"
+import {
+  BookOpen,
+  Headphones,
+  Home,
+  MonitorPlay,
+  PencilLine,
+  Settings,
+  Sparkles,
+  Volume2,
+} from "lucide-react"
 import Link from "next/link"
 import { usePathname } from "next/navigation"
 import { cn } from "@/lib/utils"
@@ -15,8 +24,9 @@ type NavItem = {
 const NAV: NavItem[] = [
   { href: "/", label: "Dashboard", icon: Home },
   { href: "/display", label: "Display", icon: MonitorPlay },
-  { href: "/drill", label: "写作 Drill", icon: PencilLine, soon: true },
-  { href: "/read", label: "跟读", icon: Mic, soon: true },
+  { href: "/drill", label: "写作 Drill", icon: PencilLine },
+  { href: "/read-aloud", label: "音読", icon: Volume2 },
+  { href: "/listen-write", label: "听写", icon: Headphones, soon: true },
   { href: "/talk", label: "对话", icon: Sparkles, soon: true },
   { href: "/library", label: "场景库", icon: BookOpen },
 ]

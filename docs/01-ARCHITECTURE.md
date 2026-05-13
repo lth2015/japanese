@@ -90,6 +90,8 @@ japanese/
 
 > 6 张表。能少则少。
 
+> **Phase 2 增量**：基于 [03-LEARNING-METHOD.md](./03-LEARNING-METHOD.md) §4，将在 sentence 表上添加 `tokens` (furigana JSON)、`register`、`frequency_rank`、`chunk_pattern`、`context_tags`、`mora_count`；新增 `dialogue`、`passage`、`user_progress` 三张表。具体字段定义见方法论文档。
+
 ### 3.1 ER 概览（Mermaid）
 
 ```mermaid

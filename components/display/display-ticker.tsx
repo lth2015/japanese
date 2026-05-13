@@ -2,6 +2,7 @@
 
 import { ChevronLeft, ChevronRight, Pause, Play } from "lucide-react"
 import { useCallback, useEffect, useMemo, useRef, useState } from "react"
+import { FuriganaText } from "@/components/furigana-text"
 import { Button } from "@/components/ui/button"
 import type { Sentence } from "@/lib/db/schema"
 import { cn } from "@/lib/utils"
@@ -134,15 +135,19 @@ export function DisplayTicker({ sentences }: Props) {
       <div className="h-full grid place-items-center px-6">
         <div key={current.id} className="flex flex-col items-center gap-12 animate-fade-in text-center">
           <p
-            lang="ja"
             className={cn(
               "font-jp-serif text-text-primary tracking-wide font-medium leading-[1.1]",
               FONT_SIZE_CLASS[settings.fontSize],
             )}
           >
-            {current.japanese}
+            <FuriganaText
+              text={current.japanese}
+              tokens={current.tokens}
+              showRuby={settings.showKana}
+            />
           </p>
-          {settings.showKana && current.kana && (
+          {/* Fallback: kana line when tokens unavailable */}
+          {settings.showKana && !current.tokens?.length && current.kana && (
             <p lang="ja" className="font-mono text-text-muted text-base sm:text-lg lg:text-xl tracking-widest">
               {current.kana}
             </p>

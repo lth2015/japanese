@@ -1,4 +1,6 @@
+import type { Token } from "@/lib/db/schema"
 import { cn } from "@/lib/utils"
+import { FuriganaText } from "./furigana-text"
 
 type Size = "sm" | "md" | "lg" | "display"
 
@@ -32,6 +34,7 @@ const SIZE_GAP: Record<Size, string> = {
 
 export type SentenceLike = {
   japanese: string
+  tokens?: Token[] | null
   kana?: string | null
   chinese: string
 }
@@ -39,7 +42,12 @@ export type SentenceLike = {
 interface Props {
   sentence: SentenceLike
   size?: Size
-  showKana?: boolean
+  /**
+   * "ruby" — show per-token furigana ruby above kanji (preferred).
+   * "line" — show a separate kana line below Japanese (legacy fallback).
+   * "none" — hide kana entirely (used once user reaches Stage 2+ to force kanji recall).
+   */
+  kanaDisplay?: "ruby" | "line" | "none"
   showChinese?: boolean
   className?: string
 }
@@ -47,10 +55,13 @@ interface Props {
 export function SentenceCard({
   sentence,
   size = "md",
-  showKana = true,
+  kanaDisplay = "ruby",
   showChinese = true,
   className,
 }: Props) {
+  const hasTokens = !!sentence.tokens && sentence.tokens.length > 0
+  const useRuby = kanaDisplay === "ruby" && hasTokens
+
   return (
     <div className={cn("flex flex-col items-center text-center", SIZE_GAP[size], className)}>
       <p
@@ -59,11 +70,15 @@ export function SentenceCard({
           SIZE_JP[size],
           size === "display" && "font-medium",
         )}
-        lang="ja"
       >
-        {sentence.japanese}
+        <FuriganaText
+          text={sentence.japanese}
+          tokens={sentence.tokens}
+          showRuby={useRuby}
+        />
       </p>
-      {showKana && sentence.kana && (
+      {/* Fallback kana line when tokens unavailable but kana exists */}
+      {kanaDisplay === "line" && sentence.kana && !useRuby && (
         <p
           className={cn(
             "font-mono text-text-muted tabular tracking-widest",

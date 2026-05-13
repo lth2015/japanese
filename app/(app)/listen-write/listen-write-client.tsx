@@ -215,7 +215,7 @@ export function ListenWriteClient({ initial }: Props) {
             <CardContent className="p-6 space-y-5">
               <div className="space-y-1.5">
                 <p className="text-xs text-fg-tertiary">你听到的</p>
-                <p lang="ja" className="font-jp text-fg text-lg">
+                <p lang="ja" className="font-jp text-fg text-2xl">
                   {input}
                 </p>
               </div>
@@ -236,7 +236,7 @@ export function ListenWriteClient({ initial }: Props) {
                     匹配 {Math.round(feedback.matchRatio * 100)}% · 重听 {replays} 次
                   </span>
                 </div>
-                <p className="font-jp-serif text-fg text-xl">
+                <p className="font-jp-serif text-fg text-3xl font-medium">
                   <FuriganaText text={s.japanese} tokens={s.tokens} showRuby={true} />
                 </p>
                 <p className="text-fg-secondary text-sm mt-1" lang="zh-CN">

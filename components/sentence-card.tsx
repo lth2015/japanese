@@ -4,18 +4,20 @@ import { FuriganaText } from "./furigana-text"
 
 type Size = "sm" | "md" | "lg" | "display"
 
+// Japanese is the primary content — significantly larger than Chinese (which
+// is a helper translation). Ratio target ~2x for cards, ~6x for Display.
 const SIZE_JP: Record<Size, string> = {
-  sm: "text-lg",
-  md: "text-2xl",
+  sm: "text-2xl",
+  md: "text-3xl",
   lg: "text-sentence",
   display: "text-ambient",
 }
 
 const SIZE_CN: Record<Size, string> = {
-  sm: "text-sm",
-  md: "text-base",
-  lg: "text-lg",
-  display: "text-xl",
+  sm: "text-xs",
+  md: "text-sm",
+  lg: "text-base",
+  display: "text-lg",
 }
 
 const SIZE_KANA: Record<Size, string> = {
@@ -26,10 +28,10 @@ const SIZE_KANA: Record<Size, string> = {
 }
 
 const SIZE_GAP: Record<Size, string> = {
-  sm: "gap-2",
-  md: "gap-3",
-  lg: "gap-4",
-  display: "gap-10",
+  sm: "gap-3",
+  md: "gap-4",
+  lg: "gap-5",
+  display: "gap-12",
 }
 
 export type SentenceLike = {
@@ -66,8 +68,8 @@ export function SentenceCard({
     <div className={cn("flex flex-col items-center text-center", SIZE_GAP[size], className)}>
       <p
         className={cn(
-          "font-jp-serif text-fg tracking-wide leading-snug",
-          size === "display" || size === "lg" ? "font-medium" : "font-normal",
+          // Japanese: dark ink, medium weight, biggest. The thing you actually learn.
+          "font-jp-serif text-fg tracking-wide leading-snug font-medium",
           SIZE_JP[size],
         )}
       >
@@ -90,7 +92,14 @@ export function SentenceCard({
         </p>
       )}
       {showChinese && (
-        <p className={cn("font-sans text-fg-secondary", SIZE_CN[size])} lang="zh-CN">
+        <p
+          className={cn(
+            // Chinese: helper translation. Smaller, lighter — never compete with JP for attention.
+            "font-sans text-fg-tertiary",
+            SIZE_CN[size],
+          )}
+          lang="zh-CN"
+        >
           {sentence.chinese}
         </p>
       )}

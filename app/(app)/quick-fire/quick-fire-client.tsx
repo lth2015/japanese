@@ -344,14 +344,14 @@ export function QuickFireClient({ initial }: Props) {
 
               <div className="space-y-1.5 pt-3 border-t border-border">
                 <p className="text-xs text-fg-tertiary">浏览器听到</p>
-                <p lang="ja" className="font-jp text-fg text-lg">
+                <p lang="ja" className="font-jp text-fg text-2xl">
                   {feedback.transcript || <span className="text-fg-tertiary">（没听到声音）</span>}
                 </p>
               </div>
 
               <div className="space-y-1.5">
                 <p className="text-xs text-fg-tertiary">原句</p>
-                <p className="font-jp-serif text-fg text-xl">
+                <p className="font-jp-serif text-fg text-3xl font-medium">
                   <FuriganaText text={s.japanese} tokens={s.tokens} showRuby={true} />
                 </p>
               </div>

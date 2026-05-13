@@ -116,20 +116,20 @@
 @layer utilities {
   /* Display-mode ambient sizing (very large; not used elsewhere) */
   .text-ambient {
-    font-size: clamp(3rem, 9vw, 8rem);
-    line-height: 1.1;
+    font-size: clamp(4rem, 11vw, 10rem);
+    line-height: 1.08;
+    letter-spacing: -0.015em;
+  }
+  /* Training-page hero sentence (read-aloud, listen-write) */
+  .text-sentence {
+    font-size: clamp(2.75rem, 5.5vw, 5rem);
+    line-height: 1.15;
     letter-spacing: -0.01em;
   }
-  /* Training-page hero sentence */
-  .text-sentence {
-    font-size: clamp(2rem, 4vw, 3.5rem);
-    line-height: 1.2;
-    letter-spacing: -0.005em;
-  }
-  /* Training-page Chinese prompt */
+  /* Training-page Chinese prompt (drill, quick-fire) */
   .text-prompt {
-    font-size: clamp(1.75rem, 3.5vw, 3rem);
-    line-height: 1.25;
+    font-size: clamp(2.25rem, 4.5vw, 4rem);
+    line-height: 1.2;
     letter-spacing: -0.005em;
   }
 

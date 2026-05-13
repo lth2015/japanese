@@ -186,7 +186,7 @@ export function DrillClient({ initial }: Props) {
               {/* Your input */}
               <div className="space-y-1.5">
                 <p className="text-xs text-fg-tertiary">你的版本</p>
-                <p lang="ja" className="font-jp text-fg text-lg">
+                <p lang="ja" className="font-jp text-fg text-2xl">
                   {input}
                 </p>
               </div>
@@ -208,7 +208,7 @@ export function DrillClient({ initial }: Props) {
                     字符匹配 {Math.round(feedback.matchRatio * 100)}%
                   </span>
                 </div>
-                <p className="font-jp-serif text-fg text-xl">
+                <p className="font-jp-serif text-fg text-3xl font-medium">
                   <FuriganaText text={s.japanese} tokens={s.tokens} showRuby={true} />
                 </p>
               </div>

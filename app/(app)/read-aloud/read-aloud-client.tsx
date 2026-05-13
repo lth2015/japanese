@@ -258,7 +258,7 @@ export function ReadAloudClient({ initial }: Props) {
             <CardContent className="p-6 space-y-5">
               <div className="space-y-1.5">
                 <p className="text-xs text-fg-tertiary">浏览器识别到的</p>
-                <p lang="ja" className="font-jp text-fg text-lg">
+                <p lang="ja" className="font-jp text-fg text-2xl">
                   {transcript}
                 </p>
               </div>
@@ -279,7 +279,7 @@ export function ReadAloudClient({ initial }: Props) {
                     匹配 {Math.round(feedback.matchRatio * 100)}%
                   </span>
                 </div>
-                <p className="font-jp-serif text-fg text-xl">
+                <p className="font-jp-serif text-fg text-3xl font-medium">
                   <FuriganaText text={s.japanese} tokens={s.tokens} showRuby={true} />
                 </p>
               </div>

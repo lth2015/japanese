@@ -76,8 +76,8 @@ export function useDisplaySettings(): [DisplaySettings, typeof setDisplaySetting
  * non-ambient Display fallback uses .text-ambient (clamp 48-128px).
  */
 export const FONT_SIZE_CLASS: Record<FontSize, string> = {
-  S: "text-[2.5rem] sm:text-[3.5rem] lg:text-[4.5rem]",
-  M: "text-[3rem] sm:text-[4.5rem] lg:text-[6rem]",
-  L: "text-[3.5rem] sm:text-[5.5rem] lg:text-[8rem]",
-  XL: "text-[4rem] sm:text-[6.5rem] lg:text-[10rem]",
+  S: "text-[3rem] sm:text-[4.5rem] lg:text-[7rem]",
+  M: "text-[3.5rem] sm:text-[5.5rem] lg:text-[9rem]",
+  L: "text-[4.5rem] sm:text-[7rem] lg:text-[12rem]",
+  XL: "text-[5.5rem] sm:text-[8.5rem] lg:text-[14rem]",
 }

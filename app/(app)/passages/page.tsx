@@ -17,36 +17,47 @@ const SOURCE_LABEL: Record<string, { label: string; icon: typeof FileText }> = {
 export default async function PassagesPage() {
   const passages = await listPassages()
   return (
-    <div className="px-6 lg:px-16 py-10 lg:py-16 max-w-5xl mx-auto space-y-8">
-      <header className="space-y-3">
-        <h1 className="text-4xl lg:text-5xl font-semibold tracking-tight">短文阅读</h1>
-        <p className="text-lg text-fg-secondary max-w-2xl leading-relaxed">
+    <div className="px-6 lg:px-10 py-8 lg:py-12 space-y-8">
+      <header className="space-y-2">
+        <p className="text-xs font-medium uppercase tracking-wider text-fg-tertiary">阅读</p>
+        <h1 className="text-3xl font-semibold tracking-tight text-fg">短文</h1>
+        <p className="text-base text-fg-secondary max-w-2xl">
           用你"读"的强项作为入口。读懂全文 → 用日语回答问题 → 输出。
         </p>
       </header>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+      <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4">
         {passages.map((p) => {
           const meta = SOURCE_LABEL[p.source] ?? SOURCE_LABEL.report
           const Icon = meta.icon
           return (
-            <Link key={p.id} href={`/passages/${p.id}`}>
-              <Card className="hover:border-border-strong transition-colors group h-full">
-                <CardContent className="p-5 space-y-3 h-full flex flex-col">
+            <Link key={p.id} href={`/passages/${p.id}`} className="group">
+              <Card className="hover:shadow-sm hover:-translate-y-px transition-all duration-200 h-full">
+                <CardContent className="p-6 space-y-4 h-full flex flex-col">
                   <div className="flex items-center justify-between">
+                    <div className="h-9 w-9 rounded-md bg-bg-subtle border border-border grid place-items-center shrink-0">
+                      <Icon className="h-4 w-4 text-fg-secondary" strokeWidth={1.75} />
+                    </div>
                     <Badge>{meta.label}</Badge>
-                    <Icon className="h-4 w-4 text-fg-tertiary" strokeWidth={1.75} />
                   </div>
-                  <h2 className="font-jp-serif text-lg text-fg leading-snug" lang="ja">
+                  <h2
+                    className="font-jp-serif text-lg text-fg leading-snug font-medium"
+                    lang="ja"
+                  >
                     {p.title}
                   </h2>
-                  <p className="text-fg-secondary text-sm line-clamp-2 flex-1" lang="zh-CN">
-                    {p.description ?? "—"}
-                  </p>
-                  <div className="flex items-center gap-3 text-xs text-fg-tertiary tabular pt-1">
+                  {p.description && (
+                    <p
+                      className="text-sm text-fg-secondary line-clamp-2 flex-1"
+                      lang="zh-CN"
+                    >
+                      {p.description}
+                    </p>
+                  )}
+                  <div className="flex items-center gap-3 text-xs text-fg-tertiary tabular pt-2 border-t border-border">
                     <span>难度 {p.difficulty}/5</span>
                     {p.lengthWords && <span>· {p.lengthWords} 字</span>}
-                    <span>· {p.questions?.length ?? 0} 道题</span>
+                    <span>· {p.questions?.length ?? 0} 题</span>
                   </div>
                 </CardContent>
               </Card>
@@ -56,7 +67,7 @@ export default async function PassagesPage() {
       </div>
 
       {passages.length === 0 && (
-        <p className="text-fg-tertiary text-sm py-12 text-center">还没有短文。</p>
+        <p className="text-fg-tertiary text-sm py-16 text-center">还没有短文。</p>
       )}
     </div>
   )

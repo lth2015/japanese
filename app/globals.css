@@ -99,12 +99,13 @@
     ruby-align: center;
   }
   rt {
-    font-size: 0.5em;
+    font-size: 0.55em;
     color: var(--fg-tertiary);
     font-family: var(--font-jp), "Noto Sans JP", sans-serif;
     font-weight: 400;
     letter-spacing: 0;
-    line-height: 1;
+    line-height: 1.1;
+    padding-bottom: 0.1em;
   }
   /* In ambient-dark, ruby is brighter */
   .ambient-dark rt {

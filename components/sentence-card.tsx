@@ -5,15 +5,15 @@ import { FuriganaText } from "./furigana-text"
 type Size = "sm" | "md" | "lg" | "display"
 
 const SIZE_JP: Record<Size, string> = {
-  sm: "text-base",
-  md: "text-xl",
+  sm: "text-lg",
+  md: "text-2xl",
   lg: "text-sentence",
   display: "text-ambient",
 }
 
 const SIZE_CN: Record<Size, string> = {
-  sm: "text-xs",
-  md: "text-sm",
+  sm: "text-sm",
+  md: "text-base",
   lg: "text-lg",
   display: "text-xl",
 }
@@ -26,8 +26,8 @@ const SIZE_KANA: Record<Size, string> = {
 }
 
 const SIZE_GAP: Record<Size, string> = {
-  sm: "gap-1",
-  md: "gap-1.5",
+  sm: "gap-2",
+  md: "gap-3",
   lg: "gap-4",
   display: "gap-10",
 }
@@ -66,7 +66,7 @@ export function SentenceCard({
     <div className={cn("flex flex-col items-center text-center", SIZE_GAP[size], className)}>
       <p
         className={cn(
-          "font-jp-serif text-fg tracking-wide",
+          "font-jp-serif text-fg tracking-wide leading-snug",
           size === "display" || size === "lg" ? "font-medium" : "font-normal",
           SIZE_JP[size],
         )}

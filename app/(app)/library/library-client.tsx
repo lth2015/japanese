@@ -8,6 +8,7 @@ import { Card, CardContent } from "@/components/ui/card"
 import { Input } from "@/components/ui/input"
 import { Tabs, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import type { Sentence } from "@/lib/db/schema"
+import { cn } from "@/lib/utils"
 
 const CATEGORIES = [
   { value: "all", label: "全部" },
@@ -37,7 +38,7 @@ export function LibraryClient({ sentences }: { sentences: Sentence[] }) {
         if (
           !s.japanese.toLowerCase().includes(needle) &&
           !s.chinese.toLowerCase().includes(needle) &&
-          !(s.kana?.toLowerCase().includes(needle))
+          !s.kana?.toLowerCase().includes(needle)
         ) {
           return false
         }
@@ -48,7 +49,8 @@ export function LibraryClient({ sentences }: { sentences: Sentence[] }) {
 
   return (
     <div className="space-y-6">
-      <div className="flex flex-col md:flex-row md:items-center gap-3">
+      {/* Filter bar */}
+      <div className="flex flex-col-reverse md:flex-row md:items-center gap-3">
         <Tabs value={tab} onValueChange={(v) => setTab(v as Category)}>
           <TabsList className="overflow-x-auto whitespace-nowrap max-w-full">
             {CATEGORIES.map((c) => (
@@ -59,7 +61,10 @@ export function LibraryClient({ sentences }: { sentences: Sentence[] }) {
           </TabsList>
         </Tabs>
         <div className="relative md:ml-auto md:w-72">
-          <Search className="absolute left-3 top-1/2 -translate-y-1/2 h-4 w-4 text-fg-tertiary" />
+          <Search
+            className="absolute left-3 top-1/2 -translate-y-1/2 h-4 w-4 text-fg-tertiary pointer-events-none"
+            strokeWidth={2}
+          />
           <Input
             value={q}
             onChange={(e) => setQ(e.target.value)}
@@ -73,28 +78,30 @@ export function LibraryClient({ sentences }: { sentences: Sentence[] }) {
         {filtered.length} / {sentences.length} 句
       </p>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+      {/* Card grid — denser on wide screens */}
+      <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4">
         {filtered.map((s) => (
-          <Card key={s.id} className="hover:shadow-sm transition-shadow">
-            <CardContent className="p-5 space-y-3">
+          <Card
+            key={s.id}
+            className={cn(
+              "group hover:shadow-sm hover:-translate-y-px transition-all duration-200",
+            )}
+          >
+            <CardContent className="p-6 space-y-4">
               <div className="flex items-center justify-between">
-                <Badge>{categoryLabel(s.category)}</Badge>
+                <Badge variant={categoryVariant(s.category)}>{categoryLabel(s.category)}</Badge>
                 <span className="text-xs text-fg-tertiary tabular">
                   {DIFF_LABEL[s.difficulty]}
                 </span>
               </div>
-              <SentenceCard
-                sentence={s}
-                size="sm"
-                className="!items-start text-left"
-              />
+              <SentenceCard sentence={s} size="sm" className="!items-start text-left" />
             </CardContent>
           </Card>
         ))}
       </div>
 
       {filtered.length === 0 && (
-        <p className="text-fg-tertiary text-sm py-12 text-center">没有匹配的句子。</p>
+        <p className="text-fg-tertiary text-sm py-16 text-center">没有匹配的句子。</p>
       )}
     </div>
   )
@@ -102,4 +109,18 @@ export function LibraryClient({ sentences }: { sentences: Sentence[] }) {
 
 function categoryLabel(c: string): string {
   return CATEGORIES.find((x) => x.value === c)?.label ?? c
+}
+
+function categoryVariant(c: string): "default" | "accent" | "warning" | "danger" {
+  // Subtle visual distinction via badge variant — same restrained palette.
+  switch (c) {
+    case "rescue":
+      return "warning"
+    case "apology":
+      return "danger"
+    case "request":
+      return "accent"
+    default:
+      return "default"
+  }
 }

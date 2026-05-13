@@ -52,7 +52,7 @@ export default async function DashboardPage() {
     .all()
 
   return (
-    <div className="px-6 sm:px-8 lg:px-12 py-10 lg:py-14 max-w-6xl mx-auto space-y-14">
+    <div className="px-6 lg:px-10 py-8 lg:py-12 max-w-6xl space-y-12">
       {/* Header */}
       <header className="space-y-3">
         <p className="text-sm text-fg-tertiary font-jp tracking-wide">おかえりなさい</p>
@@ -226,28 +226,28 @@ interface TrainingCardProps {
 function TrainingCard({ href, badge, badgeAccent, title, desc, icon: Icon, accent }: TrainingCardProps) {
   return (
     <Card className="overflow-hidden hover:shadow-sm hover:-translate-y-px transition-all duration-200">
-      <Link href={href} className="block p-5 h-full">
-        <div className="flex items-start justify-between gap-3 mb-4">
+      <Link href={href} className="block p-6 h-full">
+        <div className="flex items-start justify-between gap-3 mb-5">
           <div
             className={cn(
-              "h-9 w-9 rounded-md grid place-items-center shrink-0",
+              "h-10 w-10 rounded-md grid place-items-center shrink-0",
               accent === "vermilion"
                 ? "bg-vermilion/10 text-vermilion border border-vermilion/20"
                 : "bg-bg-subtle text-fg-secondary border border-border",
             )}
           >
-            <Icon className="h-4 w-4" strokeWidth={1.75} />
+            <Icon className="h-5 w-5" strokeWidth={1.75} />
           </div>
           <span
             className={cn(
-              "text-xs font-mono",
-              badgeAccent === "vermilion" ? "text-vermilion" : "text-fg-tertiary",
+              "text-xs font-mono mt-0.5",
+              badgeAccent === "vermilion" ? "text-vermilion font-medium" : "text-fg-tertiary",
             )}
           >
             {badge}
           </span>
         </div>
-        <h3 className="text-base font-semibold text-fg leading-snug mb-1.5">{title}</h3>
+        <h3 className="text-lg font-semibold text-fg leading-snug mb-2">{title}</h3>
         <p className="text-sm text-fg-secondary leading-relaxed">{desc}</p>
       </Link>
     </Card>

@@ -1,0 +1,197 @@
+{
+  "packVersion": 1,
+  "packId": "greetings-farewells-001",
+  "title": "Greetings and Farewells for Display 001",
+  "generatedBy": "claude-opus-4-7",
+  "generatedAt": "2026-05-14",
+  "targetProfile": "Display-optimized greetings and farewells, mix of 4-15 chars. Multiple registers (カジュアル + 丁寧). Cover the full day cycle: morning → work → leaving → home → night. The most foundational daily phrases.",
+  "reviewStatus": "reviewed",
+  "sentences": [
+    {
+      "externalId": "s001",
+      "japanese": "おはよう！",
+      "tokens": [
+        { "text": "おはよう！" }
+      ],
+      "kana": "おはよう",
+      "chinese": "早!",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 3,
+      "chunkPattern": "おはよう",
+      "tags": ["display", "greeting", "morning"]
+    },
+    {
+      "externalId": "s002",
+      "japanese": "おはようございます。",
+      "tokens": [
+        { "text": "おはようございます。" }
+      ],
+      "kana": "おはようございます",
+      "chinese": "早上好。",
+      "category": "smalltalk",
+      "register": "丁寧",
+      "difficulty": 1,
+      "frequencyRank": 5,
+      "chunkPattern": "おはようございます",
+      "tags": ["display", "greeting", "polite-morning"]
+    },
+    {
+      "externalId": "s003",
+      "japanese": "今日もありがとうございました。",
+      "tokens": [
+        { "text": "今日", "kana": "きょう" },
+        { "text": "もありがとうございました。" }
+      ],
+      "kana": "きょうもありがとうございました",
+      "chinese": "今天也谢谢您。",
+      "category": "smalltalk",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 28,
+      "chunkPattern": "今日もありがとうございました",
+      "tags": ["display", "end-of-day", "gratitude"]
+    },
+    {
+      "externalId": "s004",
+      "japanese": "お先に失礼します。",
+      "tokens": [
+        { "text": "お" },
+        { "text": "先", "kana": "さき" },
+        { "text": "に" },
+        { "text": "失礼", "kana": "しつれい" },
+        { "text": "します。" }
+      ],
+      "kana": "おさきにしつれいします",
+      "chinese": "我先告辞了。",
+      "category": "smalltalk",
+      "register": "丁寧",
+      "difficulty": 1,
+      "frequencyRank": 18,
+      "chunkPattern": "お先に失礼します",
+      "tags": ["display", "leaving-work", "polite"]
+    },
+    {
+      "externalId": "s005",
+      "japanese": "また明日！",
+      "tokens": [
+        { "text": "また" },
+        { "text": "明日", "kana": "あした" },
+        { "text": "！" }
+      ],
+      "kana": "またあした",
+      "chinese": "明天见!",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 12,
+      "chunkPattern": "また~",
+      "tags": ["display", "farewell", "tomorrow"]
+    },
+    {
+      "externalId": "s006",
+      "japanese": "行ってきます。",
+      "tokens": [
+        { "text": "行ってきます", "kana": "いってきます" },
+        { "text": "。" }
+      ],
+      "kana": "いってきます",
+      "chinese": "我出门了。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 8,
+      "chunkPattern": "行ってきます",
+      "tags": ["display", "leaving-home", "household"]
+    },
+    {
+      "externalId": "s007",
+      "japanese": "行ってらっしゃい。",
+      "tokens": [
+        { "text": "行ってらっしゃい", "kana": "いってらっしゃい" },
+        { "text": "。" }
+      ],
+      "kana": "いってらっしゃい",
+      "chinese": "路上小心。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 10,
+      "chunkPattern": "行ってらっしゃい",
+      "tags": ["display", "send-off", "household"]
+    },
+    {
+      "externalId": "s008",
+      "japanese": "ただいま！",
+      "tokens": [
+        { "text": "ただいま！" }
+      ],
+      "kana": "ただいま",
+      "chinese": "我回来了!",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 7,
+      "chunkPattern": "ただいま",
+      "tags": ["display", "return-home", "household"]
+    },
+    {
+      "externalId": "s009",
+      "japanese": "お帰りなさい。",
+      "tokens": [
+        { "text": "お" },
+        { "text": "帰りなさい", "kana": "かえりなさい" },
+        { "text": "。" }
+      ],
+      "kana": "おかえりなさい",
+      "chinese": "欢迎回来。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 9,
+      "chunkPattern": "お帰りなさい",
+      "tags": ["display", "welcome-back", "household"]
+    },
+    {
+      "externalId": "s010",
+      "japanese": "今日も一日お疲れ様でした。",
+      "tokens": [
+        { "text": "今日", "kana": "きょう" },
+        { "text": "も" },
+        { "text": "一日", "kana": "いちにち" },
+        { "text": "お疲れ様", "kana": "おつかれさま" },
+        { "text": "でした。" }
+      ],
+      "kana": "きょうもいちにちおつかれさまでした",
+      "chinese": "今天一天也辛苦了。",
+      "category": "smalltalk",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 22,
+      "chunkPattern": "今日も一日お疲れ様でした",
+      "tags": ["display", "end-of-day", "warm"]
+    },
+    {
+      "externalId": "s011",
+      "japanese": "お休みなさい、また明日。",
+      "tokens": [
+        { "text": "お" },
+        { "text": "休みなさい", "kana": "やすみなさい" },
+        { "text": "、また" },
+        { "text": "明日", "kana": "あした" },
+        { "text": "。" }
+      ],
+      "kana": "おやすみなさいまたあした",
+      "chinese": "晚安,明天见。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 25,
+      "chunkPattern": "お休みなさい、また~",
+      "tags": ["display", "good-night", "household"]
+    }
+  ],
+  "dialogues": [],
+  "passages": []
+}

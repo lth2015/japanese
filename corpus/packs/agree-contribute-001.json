@@ -1,0 +1,315 @@
+{
+  "packVersion": 1,
+  "packId": "agree-contribute-001",
+  "title": "Meeting Agreement and Constructive Contribution 001",
+  "generatedBy": "claude-opus-4-7",
+  "generatedAt": "2026-05-14",
+  "targetProfile": "Chinese native speaker, N1 reading, weak workplace Japanese. The mirror of soft-pushback-001 — instead of declining, here the user actively assents, builds on others' points, suggests alternatives constructively, signals engaged listening. Critical for meeting participation as an exec/manager who needs to look both decisive and collaborative.",
+  "reviewStatus": "reviewed",
+  "sentences": [
+    {
+      "externalId": "s001",
+      "japanese": "おっしゃる通りだと思います。",
+      "tokens": [
+        { "text": "おっしゃる" },
+        { "text": "通り", "kana": "とおり" },
+        { "text": "だと" },
+        { "text": "思います", "kana": "おもいます" },
+        { "text": "。" }
+      ],
+      "kana": "おっしゃるとおりだとおもいます",
+      "chinese": "我觉得您说得对。",
+      "category": "smalltalk",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 32,
+      "chunkPattern": "おっしゃる通りだと思います",
+      "tags": ["agree", "polite", "validate"]
+    },
+    {
+      "externalId": "s002",
+      "japanese": "同感です。",
+      "tokens": [
+        { "text": "同感", "kana": "どうかん" },
+        { "text": "です。" }
+      ],
+      "kana": "どうかんです",
+      "chinese": "同感。",
+      "category": "smalltalk",
+      "register": "丁寧",
+      "difficulty": 1,
+      "frequencyRank": 48,
+      "chunkPattern": "同感です",
+      "tags": ["agree", "concise", "peer"]
+    },
+    {
+      "externalId": "s003",
+      "japanese": "私も同じ意見です。",
+      "tokens": [
+        { "text": "私", "kana": "わたし" },
+        { "text": "も" },
+        { "text": "同じ", "kana": "おなじ" },
+        { "text": "意見", "kana": "いけん" },
+        { "text": "です。" }
+      ],
+      "kana": "わたしもおなじいけんです",
+      "chinese": "我也是同样的意见。",
+      "category": "smalltalk",
+      "register": "丁寧",
+      "difficulty": 1,
+      "frequencyRank": 42,
+      "chunkPattern": "私も同じ~です",
+      "tags": ["agree", "explicit", "second"]
+    },
+    {
+      "externalId": "s004",
+      "japanese": "補足させてください。",
+      "tokens": [
+        { "text": "補足", "kana": "ほそく" },
+        { "text": "させてください。" }
+      ],
+      "kana": "ほそくさせてください",
+      "chinese": "请允许我补充一下。",
+      "category": "request",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 55,
+      "chunkPattern": "~させてください",
+      "tags": ["contribute", "add", "build-on"]
+    },
+    {
+      "externalId": "s005",
+      "japanese": "別の観点もあるかと思います。",
+      "tokens": [
+        { "text": "別", "kana": "べつ" },
+        { "text": "の" },
+        { "text": "観点", "kana": "かんてん" },
+        { "text": "もあるかと" },
+        { "text": "思います", "kana": "おもいます" },
+        { "text": "。" }
+      ],
+      "kana": "べつのかんてんもあるかとおもいます",
+      "chinese": "我觉得也有别的视角。",
+      "category": "progress",
+      "register": "丁寧",
+      "difficulty": 3,
+      "frequencyRank": 78,
+      "chunkPattern": "別の~もあるかと思います",
+      "tags": ["contribute", "alt-view", "soft"]
+    },
+    {
+      "externalId": "s006",
+      "japanese": "一点付け加えるとすれば、優先度の整理も必要かと。",
+      "tokens": [
+        { "text": "一点", "kana": "いってん" },
+        { "text": "付け加える", "kana": "つけくわえる" },
+        { "text": "とすれば、" },
+        { "text": "優先度", "kana": "ゆうせんど" },
+        { "text": "の" },
+        { "text": "整理", "kana": "せいり" },
+        { "text": "も" },
+        { "text": "必要", "kana": "ひつよう" },
+        { "text": "かと。" }
+      ],
+      "kana": "いってんつけくわえるとすればゆうせんどのせいりもひつようかと",
+      "chinese": "再补一点的话,我觉得优先级也需要整理。",
+      "category": "progress",
+      "register": "丁寧",
+      "difficulty": 4,
+      "frequencyRank": 105,
+      "chunkPattern": "一点付け加えるとすれば、~",
+      "tags": ["contribute", "add-point", "expand"]
+    },
+    {
+      "externalId": "s007",
+      "japanese": "もう一つの選択肢として、こちらはいかがでしょうか。",
+      "tokens": [
+        { "text": "もう" },
+        { "text": "一つ", "kana": "ひとつ" },
+        { "text": "の" },
+        { "text": "選択肢", "kana": "せんたくし" },
+        { "text": "として、こちらはいかがでしょうか。" }
+      ],
+      "kana": "もうひとつのせんたくしとしてこちらはいかがでしょうか",
+      "chinese": "作为另一个选项,这个怎么样？",
+      "category": "request",
+      "register": "丁寧",
+      "difficulty": 3,
+      "frequencyRank": 92,
+      "chunkPattern": "もう一つの~として、~はいかがでしょうか",
+      "tags": ["contribute", "propose-alt", "options"]
+    },
+    {
+      "externalId": "s008",
+      "japanese": "その方向で進めるのはどうでしょうか。",
+      "tokens": [
+        { "text": "その" },
+        { "text": "方向", "kana": "ほうこう" },
+        { "text": "で" },
+        { "text": "進める", "kana": "すすめる" },
+        { "text": "のはどうでしょうか。" }
+      ],
+      "kana": "そのほうこうですすめるのはどうでしょうか",
+      "chinese": "按那个方向推进怎么样？",
+      "category": "request",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 68,
+      "chunkPattern": "その~で進めるのはどうでしょうか",
+      "tags": ["contribute", "propose-direction", "confirm"]
+    },
+    {
+      "externalId": "s009",
+      "japanese": "なるほど、それは興味深いですね。",
+      "tokens": [
+        { "text": "なるほど、それは" },
+        { "text": "興味深い", "kana": "きょうみぶかい" },
+        { "text": "ですね。" }
+      ],
+      "kana": "なるほどそれはきょうみぶかいですね",
+      "chinese": "原来如此,这个挺有意思的。",
+      "category": "smalltalk",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 58,
+      "chunkPattern": "なるほど、それは~ですね",
+      "tags": ["engage", "active-listen", "show-interest"]
+    },
+    {
+      "externalId": "s010",
+      "japanese": "確かに、その点は重要ですね。",
+      "tokens": [
+        { "text": "確かに", "kana": "たしかに" },
+        { "text": "、その" },
+        { "text": "点", "kana": "てん" },
+        { "text": "は" },
+        { "text": "重要", "kana": "じゅうよう" },
+        { "text": "ですね。" }
+      ],
+      "kana": "たしかにそのてんはじゅうようですね",
+      "chinese": "确实,那一点很重要。",
+      "category": "smalltalk",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 45,
+      "chunkPattern": "確かに、その~は~ですね",
+      "tags": ["agree", "emphasize", "validate"]
+    },
+    {
+      "externalId": "s011",
+      "japanese": "ぜひ進めましょう。",
+      "tokens": [
+        { "text": "ぜひ" },
+        { "text": "進めましょう", "kana": "すすめましょう" },
+        { "text": "。" }
+      ],
+      "kana": "ぜひすすめましょう",
+      "chinese": "我们就推进吧。",
+      "category": "progress",
+      "register": "丁寧",
+      "difficulty": 1,
+      "frequencyRank": 38,
+      "chunkPattern": "ぜひ~ましょう",
+      "tags": ["agree", "commit", "go-ahead"]
+    }
+  ],
+  "dialogues": [
+    {
+      "externalId": "d001",
+      "title": "提案への賛同と補足",
+      "scenario": "meeting",
+      "description": "メンバーが提案 → 別のメンバーが賛同 + 補足という会議の標準フロー。否定せず、共感 + 別観点を加える日本式の建設的参加。",
+      "difficulty": 3,
+      "register": "丁寧",
+      "tags": ["meeting", "agree", "build-on"],
+      "turns": [
+        {
+          "speaker": "A",
+          "japanese": "来期のリリース計画について、まず全体感を共有したいと思います。",
+          "tokens": [
+            { "text": "来期", "kana": "らいき" },
+            { "text": "のリリース" },
+            { "text": "計画", "kana": "けいかく" },
+            { "text": "について、まず" },
+            { "text": "全体感", "kana": "ぜんたいかん" },
+            { "text": "を" },
+            { "text": "共有", "kana": "きょうゆう" },
+            { "text": "したいと" },
+            { "text": "思います", "kana": "おもいます" },
+            { "text": "。" }
+          ],
+          "kana": "らいきのりりーすけいかくについてまずぜんたいかんをきょうゆうしたいとおもいます",
+          "chinese": "关于下期的发布计划,先想共享一下整体的感觉。"
+        },
+        {
+          "speaker": "B",
+          "japanese": "おっしゃる通りだと思います。私も同じ意見です。",
+          "tokens": [
+            { "text": "おっしゃる" },
+            { "text": "通り", "kana": "とおり" },
+            { "text": "だと" },
+            { "text": "思います", "kana": "おもいます" },
+            { "text": "。" },
+            { "text": "私", "kana": "わたし" },
+            { "text": "も" },
+            { "text": "同じ", "kana": "おなじ" },
+            { "text": "意見", "kana": "いけん" },
+            { "text": "です。" }
+          ],
+          "kana": "おっしゃるとおりだとおもいますわたしもおなじいけんです",
+          "chinese": "我觉得您说得对。我也是同样的意见。"
+        },
+        {
+          "speaker": "A",
+          "japanese": "ありがとうございます。",
+          "tokens": [
+            { "text": "ありがとうございます。" }
+          ],
+          "kana": "ありがとうございます",
+          "chinese": "谢谢。"
+        },
+        {
+          "speaker": "C",
+          "japanese": "一点付け加えるとすれば、優先度の整理も必要かと。別の観点もあるかと思います。",
+          "tokens": [
+            { "text": "一点", "kana": "いってん" },
+            { "text": "付け加える", "kana": "つけくわえる" },
+            { "text": "とすれば、" },
+            { "text": "優先度", "kana": "ゆうせんど" },
+            { "text": "の" },
+            { "text": "整理", "kana": "せいり" },
+            { "text": "も" },
+            { "text": "必要", "kana": "ひつよう" },
+            { "text": "かと。" },
+            { "text": "別", "kana": "べつ" },
+            { "text": "の" },
+            { "text": "観点", "kana": "かんてん" },
+            { "text": "もあるかと" },
+            { "text": "思います", "kana": "おもいます" },
+            { "text": "。" }
+          ],
+          "kana": "いってんつけくわえるとすればゆうせんどのせいりもひつようかとべつのかんてんもあるかとおもいます",
+          "chinese": "再补一点的话,我觉得优先级也需要整理。也有别的视角。"
+        },
+        {
+          "speaker": "B",
+          "japanese": "確かに、その点は重要ですね。ぜひ進めましょう。",
+          "tokens": [
+            { "text": "確かに", "kana": "たしかに" },
+            { "text": "、その" },
+            { "text": "点", "kana": "てん" },
+            { "text": "は" },
+            { "text": "重要", "kana": "じゅうよう" },
+            { "text": "ですね。" },
+            { "text": "ぜひ" },
+            { "text": "進めましょう", "kana": "すすめましょう" },
+            { "text": "。" }
+          ],
+          "kana": "たしかにそのてんはじゅうようですねぜひすすめましょう",
+          "chinese": "确实,那一点很重要。我们就推进吧。"
+        }
+      ]
+    }
+  ],
+  "passages": []
+}

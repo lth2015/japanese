@@ -1,0 +1,199 @@
+{
+  "packVersion": 1,
+  "packId": "body-feelings-001",
+  "title": "Body States and Inner Feelings for Display 001",
+  "generatedBy": "claude-opus-4-7",
+  "generatedAt": "2026-05-14",
+  "targetProfile": "Display-optimized phrases for body states (疲れた・眠い・お腹空いた) and inner feelings (嬉しい・緊張・楽しみ). Mix of 3-15 chars. Mostly カジュアル — these are inner-voice expressions you say to yourself or close coworkers.",
+  "reviewStatus": "reviewed",
+  "sentences": [
+    {
+      "externalId": "s001",
+      "japanese": "疲れた〜",
+      "tokens": [
+        { "text": "疲れた", "kana": "つかれた" },
+        { "text": "〜" }
+      ],
+      "kana": "つかれた",
+      "chinese": "好累~",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 8,
+      "chunkPattern": "疲れた",
+      "tags": ["display", "feeling", "tired"]
+    },
+    {
+      "externalId": "s002",
+      "japanese": "眠い。",
+      "tokens": [
+        { "text": "眠い", "kana": "ねむい" },
+        { "text": "。" }
+      ],
+      "kana": "ねむい",
+      "chinese": "好困。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 12,
+      "chunkPattern": "眠い",
+      "tags": ["display", "feeling", "sleepy"]
+    },
+    {
+      "externalId": "s003",
+      "japanese": "お腹空いた。",
+      "tokens": [
+        { "text": "お" },
+        { "text": "腹", "kana": "なか" },
+        { "text": "空いた", "kana": "すいた" },
+        { "text": "。" }
+      ],
+      "kana": "おなかすいた",
+      "chinese": "肚子饿了。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 15,
+      "chunkPattern": "お腹空いた",
+      "tags": ["display", "feeling", "hungry"]
+    },
+    {
+      "externalId": "s004",
+      "japanese": "今日はもう限界かも。",
+      "tokens": [
+        { "text": "今日", "kana": "きょう" },
+        { "text": "はもう" },
+        { "text": "限界", "kana": "げんかい" },
+        { "text": "かも。" }
+      ],
+      "kana": "きょうはもうげんかいかも",
+      "chinese": "今天可能已经到极限了。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 42,
+      "chunkPattern": "今日はもう~かも",
+      "tags": ["display", "feeling", "burned-out"]
+    },
+    {
+      "externalId": "s005",
+      "japanese": "嬉しい！",
+      "tokens": [
+        { "text": "嬉しい", "kana": "うれしい" },
+        { "text": "！" }
+      ],
+      "kana": "うれしい",
+      "chinese": "好开心!",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 14,
+      "chunkPattern": "嬉しい",
+      "tags": ["display", "feeling", "happy"]
+    },
+    {
+      "externalId": "s006",
+      "japanese": "ちょっと一息入れたい。",
+      "tokens": [
+        { "text": "ちょっと" },
+        { "text": "一息", "kana": "ひといき" },
+        { "text": "入れたい", "kana": "いれたい" },
+        { "text": "。" }
+      ],
+      "kana": "ちょっとひといきいれたい",
+      "chinese": "想小喘一下气。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 55,
+      "chunkPattern": "ちょっと一息入れたい",
+      "tags": ["display", "feeling", "need-break"]
+    },
+    {
+      "externalId": "s007",
+      "japanese": "緊張する。",
+      "tokens": [
+        { "text": "緊張", "kana": "きんちょう" },
+        { "text": "する。" }
+      ],
+      "kana": "きんちょうする",
+      "chinese": "好紧张。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 25,
+      "chunkPattern": "~する",
+      "tags": ["display", "feeling", "nervous"]
+    },
+    {
+      "externalId": "s008",
+      "japanese": "楽しみで仕方ない。",
+      "tokens": [
+        { "text": "楽しみ", "kana": "たのしみ" },
+        { "text": "で" },
+        { "text": "仕方ない", "kana": "しかたない" },
+        { "text": "。" }
+      ],
+      "kana": "たのしみでしかたない",
+      "chinese": "期待得不行。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 38,
+      "chunkPattern": "~で仕方ない",
+      "tags": ["display", "feeling", "excited"]
+    },
+    {
+      "externalId": "s009",
+      "japanese": "ホッとした。",
+      "tokens": [
+        { "text": "ホッとした。" }
+      ],
+      "kana": "ほっとした",
+      "chinese": "松了口气。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 28,
+      "chunkPattern": "ホッとした",
+      "tags": ["display", "feeling", "relief"]
+    },
+    {
+      "externalId": "s010",
+      "japanese": "困ったな〜どうしよう。",
+      "tokens": [
+        { "text": "困った", "kana": "こまった" },
+        { "text": "な〜どうしよう。" }
+      ],
+      "kana": "こまったなどうしよう",
+      "chinese": "困扰啊~怎么办。",
+      "category": "rescue",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 32,
+      "chunkPattern": "困ったな〜どうしよう",
+      "tags": ["display", "feeling", "stuck"]
+    },
+    {
+      "externalId": "s011",
+      "japanese": "やる気が出ないんだよね。",
+      "tokens": [
+        { "text": "やる" },
+        { "text": "気", "kana": "き" },
+        { "text": "が" },
+        { "text": "出ない", "kana": "でない" },
+        { "text": "んだよね。" }
+      ],
+      "kana": "やるきがでないんだよね",
+      "chinese": "提不起劲来呢。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 48,
+      "chunkPattern": "~が出ないんだよね",
+      "tags": ["display", "feeling", "low-motivation"]
+    }
+  ],
+  "dialogues": [],
+  "passages": []
+}

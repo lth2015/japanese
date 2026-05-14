@@ -1,0 +1,184 @@
+{
+  "packVersion": 1,
+  "packId": "emotional-reactions-001",
+  "title": "Emotional Reactions for Display 001",
+  "generatedBy": "claude-opus-4-7",
+  "generatedAt": "2026-05-14",
+  "targetProfile": "Display-optimized one-word/one-phrase emotional reactions. 3-8 char each, all カジュアル, mix of positive and negative emotion. The tiniest possible Japanese-native reactions that look striking at 100px+ on the Display page. Mastering these makes spontaneous conversation feel native.",
+  "reviewStatus": "reviewed",
+  "sentences": [
+    {
+      "externalId": "s001",
+      "japanese": "すごい！",
+      "tokens": [
+        { "text": "すごい！" }
+      ],
+      "kana": "すごい",
+      "chinese": "厉害!",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 5,
+      "chunkPattern": "すごい",
+      "tags": ["display", "emotion", "positive"]
+    },
+    {
+      "externalId": "s002",
+      "japanese": "やった！",
+      "tokens": [
+        { "text": "やった！" }
+      ],
+      "kana": "やった",
+      "chinese": "搞定! 太好了!",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 12,
+      "chunkPattern": "やった",
+      "tags": ["display", "emotion", "achievement"]
+    },
+    {
+      "externalId": "s003",
+      "japanese": "やばい！",
+      "tokens": [
+        { "text": "やばい！" }
+      ],
+      "kana": "やばい",
+      "chinese": "哇 / 糟了!",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 8,
+      "chunkPattern": "やばい",
+      "tags": ["display", "emotion", "versatile"]
+    },
+    {
+      "externalId": "s004",
+      "japanese": "え、まじで？",
+      "tokens": [
+        { "text": "え、まじで？" }
+      ],
+      "kana": "えまじで",
+      "chinese": "诶, 真的?",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 14,
+      "chunkPattern": "え、まじで？",
+      "tags": ["display", "emotion", "surprise"]
+    },
+    {
+      "externalId": "s005",
+      "japanese": "それはひどい。",
+      "tokens": [
+        { "text": "それはひどい。" }
+      ],
+      "kana": "それはひどい",
+      "chinese": "那也太过分了。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 38,
+      "chunkPattern": "それはひどい",
+      "tags": ["display", "emotion", "empathize-negative"]
+    },
+    {
+      "externalId": "s006",
+      "japanese": "お疲れ！",
+      "tokens": [
+        { "text": "お疲れ", "kana": "おつかれ" },
+        { "text": "！" }
+      ],
+      "kana": "おつかれ",
+      "chinese": "辛苦了!",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 4,
+      "chunkPattern": "お疲れ",
+      "tags": ["display", "emotion", "greeting-positive"]
+    },
+    {
+      "externalId": "s007",
+      "japanese": "うらやましい。",
+      "tokens": [
+        { "text": "うらやましい。" }
+      ],
+      "kana": "うらやましい",
+      "chinese": "好羡慕。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 32,
+      "chunkPattern": "うらやましい",
+      "tags": ["display", "emotion", "envy"]
+    },
+    {
+      "externalId": "s008",
+      "japanese": "残念。",
+      "tokens": [
+        { "text": "残念", "kana": "ざんねん" },
+        { "text": "。" }
+      ],
+      "kana": "ざんねん",
+      "chinese": "可惜。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 18,
+      "chunkPattern": "残念",
+      "tags": ["display", "emotion", "disappointment"]
+    },
+    {
+      "externalId": "s009",
+      "japanese": "信じられない。",
+      "tokens": [
+        { "text": "信じられない", "kana": "しんじられない" },
+        { "text": "。" }
+      ],
+      "kana": "しんじられない",
+      "chinese": "不敢相信。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 26,
+      "chunkPattern": "信じられない",
+      "tags": ["display", "emotion", "disbelief"]
+    },
+    {
+      "externalId": "s010",
+      "japanese": "助かった〜",
+      "tokens": [
+        { "text": "助かった", "kana": "たすかった" },
+        { "text": "〜" }
+      ],
+      "kana": "たすかった",
+      "chinese": "得救了~",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 15,
+      "chunkPattern": "助かった〜",
+      "tags": ["display", "emotion", "relief"]
+    },
+    {
+      "externalId": "s011",
+      "japanese": "もう無理。",
+      "tokens": [
+        { "text": "もう" },
+        { "text": "無理", "kana": "むり" },
+        { "text": "。" }
+      ],
+      "kana": "もうむり",
+      "chinese": "已经不行了。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 22,
+      "chunkPattern": "もう無理",
+      "tags": ["display", "emotion", "give-up"]
+    }
+  ],
+  "dialogues": [],
+  "passages": []
+}

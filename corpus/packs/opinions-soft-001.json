@@ -1,0 +1,205 @@
+{
+  "packVersion": 1,
+  "packId": "opinions-soft-001",
+  "title": "Soft Opinion Expression for Display 001",
+  "generatedBy": "claude-opus-4-7",
+  "generatedAt": "2026-05-14",
+  "targetProfile": "Display-optimized phrases for expressing opinions softly. 6-15 chars. Japanese speakers rarely declare opinions directly — they hedge with 個人的には / 気がします / 思うんですけど / かもしれません. Mastering these makes opinions land without sounding confrontational.",
+  "reviewStatus": "reviewed",
+  "sentences": [
+    {
+      "externalId": "s001",
+      "japanese": "個人的には、こちらが好きです。",
+      "tokens": [
+        { "text": "個人的", "kana": "こじんてき" },
+        { "text": "には、こちらが" },
+        { "text": "好き", "kana": "すき" },
+        { "text": "です。" }
+      ],
+      "kana": "こじんてきにはこちらがすきです",
+      "chinese": "个人来说,我更喜欢这个。",
+      "category": "smalltalk",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 42,
+      "chunkPattern": "個人的には、~",
+      "tags": ["display", "opinion", "personal"]
+    },
+    {
+      "externalId": "s002",
+      "japanese": "私としては、賛成です。",
+      "tokens": [
+        { "text": "私", "kana": "わたし" },
+        { "text": "としては、" },
+        { "text": "賛成", "kana": "さんせい" },
+        { "text": "です。" }
+      ],
+      "kana": "わたしとしてはさんせいです",
+      "chinese": "我个人来说是赞成的。",
+      "category": "smalltalk",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 38,
+      "chunkPattern": "私としては、~",
+      "tags": ["display", "opinion", "stance"]
+    },
+    {
+      "externalId": "s003",
+      "japanese": "なんとなく、いい気がします。",
+      "tokens": [
+        { "text": "なんとなく、いい" },
+        { "text": "気", "kana": "き" },
+        { "text": "がします。" }
+      ],
+      "kana": "なんとなくいいきがします",
+      "chinese": "总觉得,挺不错的。",
+      "category": "smalltalk",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 45,
+      "chunkPattern": "なんとなく、~気がします",
+      "tags": ["display", "opinion", "intuition"]
+    },
+    {
+      "externalId": "s004",
+      "japanese": "それでいいと思うんですけど。",
+      "tokens": [
+        { "text": "それでいいと" },
+        { "text": "思う", "kana": "おもう" },
+        { "text": "んですけど。" }
+      ],
+      "kana": "それでいいとおもうんですけど",
+      "chinese": "我觉得那样就行,不过…",
+      "category": "smalltalk",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 32,
+      "chunkPattern": "~と思うんですけど",
+      "tags": ["display", "opinion", "hedged-agree"]
+    },
+    {
+      "externalId": "s005",
+      "japanese": "ちょっと思ったんですけど。",
+      "tokens": [
+        { "text": "ちょっと" },
+        { "text": "思った", "kana": "おもった" },
+        { "text": "んですけど。" }
+      ],
+      "kana": "ちょっとおもったんですけど",
+      "chinese": "我刚才想到一下…",
+      "category": "smalltalk",
+      "register": "丁寧",
+      "difficulty": 1,
+      "frequencyRank": 25,
+      "chunkPattern": "ちょっと~んですけど",
+      "tags": ["display", "opinion", "open-soft"]
+    },
+    {
+      "externalId": "s006",
+      "japanese": "もしかして、心配ですか。",
+      "tokens": [
+        { "text": "もしかして、" },
+        { "text": "心配", "kana": "しんぱい" },
+        { "text": "ですか。" }
+      ],
+      "kana": "もしかしてしんぱいですか",
+      "chinese": "莫非,有什么担心吗？",
+      "category": "request",
+      "register": "丁寧",
+      "difficulty": 1,
+      "frequencyRank": 48,
+      "chunkPattern": "もしかして、~",
+      "tags": ["display", "opinion", "guess-check"]
+    },
+    {
+      "externalId": "s007",
+      "japanese": "うまく言えないんですが。",
+      "tokens": [
+        { "text": "うまく" },
+        { "text": "言えない", "kana": "いえない" },
+        { "text": "んですが。" }
+      ],
+      "kana": "うまくいえないんですが",
+      "chinese": "我说不太清楚,但是…",
+      "category": "smalltalk",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 55,
+      "chunkPattern": "うまく~ないんですが",
+      "tags": ["display", "opinion", "preface-soft"]
+    },
+    {
+      "externalId": "s008",
+      "japanese": "別の見方もあるかと。",
+      "tokens": [
+        { "text": "別", "kana": "べつ" },
+        { "text": "の" },
+        { "text": "見方", "kana": "みかた" },
+        { "text": "もあるかと。" }
+      ],
+      "kana": "べつのみかたもあるかと",
+      "chinese": "也有别的看法。",
+      "category": "smalltalk",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 68,
+      "chunkPattern": "別の~もあるかと",
+      "tags": ["display", "opinion", "alt-view"]
+    },
+    {
+      "externalId": "s009",
+      "japanese": "一概には言えませんね。",
+      "tokens": [
+        { "text": "一概", "kana": "いちがい" },
+        { "text": "には" },
+        { "text": "言えません", "kana": "いえません" },
+        { "text": "ね。" }
+      ],
+      "kana": "いちがいにはいえませんね",
+      "chinese": "不能一概而论呢。",
+      "category": "smalltalk",
+      "register": "丁寧",
+      "difficulty": 3,
+      "frequencyRank": 88,
+      "chunkPattern": "一概には言えません",
+      "tags": ["display", "opinion", "nuanced"]
+    },
+    {
+      "externalId": "s010",
+      "japanese": "ちょっと気になります。",
+      "tokens": [
+        { "text": "ちょっと" },
+        { "text": "気", "kana": "き" },
+        { "text": "になります。" }
+      ],
+      "kana": "ちょっときになります",
+      "chinese": "我有点在意。",
+      "category": "smalltalk",
+      "register": "丁寧",
+      "difficulty": 1,
+      "frequencyRank": 35,
+      "chunkPattern": "ちょっと気になります",
+      "tags": ["display", "opinion", "concern-soft"]
+    },
+    {
+      "externalId": "s011",
+      "japanese": "もう少し考えたいです。",
+      "tokens": [
+        { "text": "もう" },
+        { "text": "少し", "kana": "すこし" },
+        { "text": "考えたい", "kana": "かんがえたい" },
+        { "text": "です。" }
+      ],
+      "kana": "もうすこしかんがえたいです",
+      "chinese": "想再考虑一下。",
+      "category": "smalltalk",
+      "register": "丁寧",
+      "difficulty": 1,
+      "frequencyRank": 28,
+      "chunkPattern": "もう少し~たいです",
+      "tags": ["display", "opinion", "buy-time"]
+    }
+  ],
+  "dialogues": [],
+  "passages": []
+}

@@ -1,0 +1,198 @@
+{
+  "packVersion": 1,
+  "packId": "filler-hesitation-001",
+  "title": "Filler and Hesitation Phrases for Display 001",
+  "generatedBy": "claude-opus-4-7",
+  "generatedAt": "2026-05-14",
+  "targetProfile": "Display-optimized filler and hesitation phrases. Mix of 3-15 chars. Chinese L1 speakers chronically skip these — leading to abrupt, jerky conversation. Mastering えーと / なんていうか / そうですね / かもしれません bridges sounds way more native. Mix カジュアル + 丁寧.",
+  "reviewStatus": "reviewed",
+  "sentences": [
+    {
+      "externalId": "s001",
+      "japanese": "えーと。",
+      "tokens": [
+        { "text": "えーと。" }
+      ],
+      "kana": "えーと",
+      "chinese": "嗯…",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 6,
+      "chunkPattern": "えーと",
+      "tags": ["display", "filler", "thinking"]
+    },
+    {
+      "externalId": "s002",
+      "japanese": "そうですね、難しいですね。",
+      "tokens": [
+        { "text": "そうですね、" },
+        { "text": "難しい", "kana": "むずかしい" },
+        { "text": "ですね。" }
+      ],
+      "kana": "そうですねむずかしいですね",
+      "chinese": "嗯,挺难的呢。",
+      "category": "smalltalk",
+      "register": "丁寧",
+      "difficulty": 1,
+      "frequencyRank": 18,
+      "chunkPattern": "そうですね、~ですね",
+      "tags": ["display", "filler", "polite-think"]
+    },
+    {
+      "externalId": "s003",
+      "japanese": "なんていうか、上手く言えないな。",
+      "tokens": [
+        { "text": "なんていうか、" },
+        { "text": "上手く", "kana": "うまく" },
+        { "text": "言えない", "kana": "いえない" },
+        { "text": "な。" }
+      ],
+      "kana": "なんていうかうまくいえないな",
+      "chinese": "怎么说呢,不太会表达。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 42,
+      "chunkPattern": "なんていうか、~",
+      "tags": ["display", "filler", "struggling-to-express"]
+    },
+    {
+      "externalId": "s004",
+      "japanese": "ちょっと考えさせてください。",
+      "tokens": [
+        { "text": "ちょっと" },
+        { "text": "考えさせて", "kana": "かんがえさせて" },
+        { "text": "ください。" }
+      ],
+      "kana": "ちょっとかんがえさせてください",
+      "chinese": "请让我想一下。",
+      "category": "request",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 30,
+      "chunkPattern": "ちょっと~させてください",
+      "tags": ["display", "filler", "buy-time"]
+    },
+    {
+      "externalId": "s005",
+      "japanese": "うーん、難しいな。",
+      "tokens": [
+        { "text": "うーん、" },
+        { "text": "難しい", "kana": "むずかしい" },
+        { "text": "な。" }
+      ],
+      "kana": "うーんむずかしいな",
+      "chinese": "嗯…挺难的。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 22,
+      "chunkPattern": "うーん、~な",
+      "tags": ["display", "filler", "tough"]
+    },
+    {
+      "externalId": "s006",
+      "japanese": "たぶん大丈夫だと思うけど。",
+      "tokens": [
+        { "text": "たぶん" },
+        { "text": "大丈夫", "kana": "だいじょうぶ" },
+        { "text": "だと" },
+        { "text": "思う", "kana": "おもう" },
+        { "text": "けど。" }
+      ],
+      "kana": "たぶんだいじょうぶだとおもうけど",
+      "chinese": "应该没事吧。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 35,
+      "chunkPattern": "たぶん~だと思うけど",
+      "tags": ["display", "filler", "hedged-yes"]
+    },
+    {
+      "externalId": "s007",
+      "japanese": "かもしれませんね。",
+      "tokens": [
+        { "text": "かもしれませんね。" }
+      ],
+      "kana": "かもしれませんね",
+      "chinese": "也许吧。",
+      "category": "smalltalk",
+      "register": "丁寧",
+      "difficulty": 1,
+      "frequencyRank": 24,
+      "chunkPattern": "かもしれませんね",
+      "tags": ["display", "filler", "hedge"]
+    },
+    {
+      "externalId": "s008",
+      "japanese": "ちょっと違うかもしれません。",
+      "tokens": [
+        { "text": "ちょっと" },
+        { "text": "違う", "kana": "ちがう" },
+        { "text": "かもしれません。" }
+      ],
+      "kana": "ちょっとちがうかもしれません",
+      "chinese": "可能稍微有点不一样。",
+      "category": "smalltalk",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 52,
+      "chunkPattern": "ちょっと~かもしれません",
+      "tags": ["display", "filler", "soft-disagree"]
+    },
+    {
+      "externalId": "s009",
+      "japanese": "どうだろう、確認してみます。",
+      "tokens": [
+        { "text": "どうだろう、" },
+        { "text": "確認", "kana": "かくにん" },
+        { "text": "してみます。" }
+      ],
+      "kana": "どうだろうかくにんしてみます",
+      "chinese": "嗯…我确认下。",
+      "category": "request",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 45,
+      "chunkPattern": "どうだろう、~してみます",
+      "tags": ["display", "filler", "buy-time-check"]
+    },
+    {
+      "externalId": "s010",
+      "japanese": "そういえば、話変わるけど。",
+      "tokens": [
+        { "text": "そういえば、" },
+        { "text": "話", "kana": "はなし" },
+        { "text": "変わる", "kana": "かわる" },
+        { "text": "けど。" }
+      ],
+      "kana": "そういえばはなしかわるけど",
+      "chinese": "对了,换个话题。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 58,
+      "chunkPattern": "そういえば、~",
+      "tags": ["display", "filler", "topic-switch"]
+    },
+    {
+      "externalId": "s011",
+      "japanese": "なるほど、そういうことか。",
+      "tokens": [
+        { "text": "なるほど、そういうことか。" }
+      ],
+      "kana": "なるほどそういうことか",
+      "chinese": "原来如此,是这么回事啊。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 28,
+      "chunkPattern": "なるほど、そういうことか",
+      "tags": ["display", "filler", "realize"]
+    }
+  ],
+  "dialogues": [],
+  "passages": []
+}

@@ -1,0 +1,198 @@
+{
+  "packVersion": 1,
+  "packId": "conversation-bridges-001",
+  "title": "Conversation Bridges for Display 001",
+  "generatedBy": "claude-opus-4-7",
+  "generatedAt": "2026-05-14",
+  "targetProfile": "Display-optimized conversation bridges — phrases that connect ideas, switch topics, ask for elaboration, or set up examples. 5-20 chars. Mix カジュアル + 丁寧. Critical for flowing conversation rather than stop-and-start exchanges.",
+  "reviewStatus": "reviewed",
+  "sentences": [
+    {
+      "externalId": "s001",
+      "japanese": "ちなみに、これも見ておいてください。",
+      "tokens": [
+        { "text": "ちなみに、これも" },
+        { "text": "見て", "kana": "みて" },
+        { "text": "おいてください。" }
+      ],
+      "kana": "ちなみにこれもみておいてください",
+      "chinese": "顺带一提,这个也请看一下。",
+      "category": "request",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 32,
+      "chunkPattern": "ちなみに、~",
+      "tags": ["display", "bridge", "fyi-add"]
+    },
+    {
+      "externalId": "s002",
+      "japanese": "ところで、週末は何かありますか。",
+      "tokens": [
+        { "text": "ところで、" },
+        { "text": "週末", "kana": "しゅうまつ" },
+        { "text": "は" },
+        { "text": "何か", "kana": "なにか" },
+        { "text": "ありますか。" }
+      ],
+      "kana": "ところでしゅうまつはなにかありますか",
+      "chinese": "对了,周末有什么计划吗？",
+      "category": "request",
+      "register": "丁寧",
+      "difficulty": 1,
+      "frequencyRank": 28,
+      "chunkPattern": "ところで、~",
+      "tags": ["display", "bridge", "topic-switch"]
+    },
+    {
+      "externalId": "s003",
+      "japanese": "というか、もう一度確認しよう。",
+      "tokens": [
+        { "text": "というか、もう" },
+        { "text": "一度", "kana": "いちど" },
+        { "text": "確認", "kana": "かくにん" },
+        { "text": "しよう。" }
+      ],
+      "kana": "というかもういちどかくにんしよう",
+      "chinese": "说起来,再确认一次吧。",
+      "category": "progress",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 48,
+      "chunkPattern": "というか、~",
+      "tags": ["display", "bridge", "rethink"]
+    },
+    {
+      "externalId": "s004",
+      "japanese": "それで、結果はどうでしたか。",
+      "tokens": [
+        { "text": "それで、" },
+        { "text": "結果", "kana": "けっか" },
+        { "text": "はどうでしたか。" }
+      ],
+      "kana": "それでけっかはどうでしたか",
+      "chinese": "然后呢,结果怎么样？",
+      "category": "request",
+      "register": "丁寧",
+      "difficulty": 1,
+      "frequencyRank": 22,
+      "chunkPattern": "それで、~",
+      "tags": ["display", "bridge", "follow-up"]
+    },
+    {
+      "externalId": "s005",
+      "japanese": "で、どうする？",
+      "tokens": [
+        { "text": "で、どうする？" }
+      ],
+      "kana": "でどうする",
+      "chinese": "那,怎么办？",
+      "category": "request",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 15,
+      "chunkPattern": "で、~",
+      "tags": ["display", "bridge", "decide"]
+    },
+    {
+      "externalId": "s006",
+      "japanese": "ということは、結局どうなりますか。",
+      "tokens": [
+        { "text": "ということは、" },
+        { "text": "結局", "kana": "けっきょく" },
+        { "text": "どうなりますか。" }
+      ],
+      "kana": "ということはけっきょくどうなりますか",
+      "chinese": "也就是说,结果会怎样？",
+      "category": "request",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 58,
+      "chunkPattern": "ということは、~",
+      "tags": ["display", "bridge", "deduce"]
+    },
+    {
+      "externalId": "s007",
+      "japanese": "例えば、こんな感じです。",
+      "tokens": [
+        { "text": "例えば", "kana": "たとえば" },
+        { "text": "、こんな" },
+        { "text": "感じ", "kana": "かんじ" },
+        { "text": "です。" }
+      ],
+      "kana": "たとえばこんなかんじです",
+      "chinese": "比如,差不多就这样。",
+      "category": "progress",
+      "register": "丁寧",
+      "difficulty": 1,
+      "frequencyRank": 35,
+      "chunkPattern": "例えば、~",
+      "tags": ["display", "bridge", "exemplify"]
+    },
+    {
+      "externalId": "s008",
+      "japanese": "つまり、こういうことですね。",
+      "tokens": [
+        { "text": "つまり、こういうことですね。" }
+      ],
+      "kana": "つまりこういうことですね",
+      "chinese": "也就是说,是这样的呢。",
+      "category": "smalltalk",
+      "register": "丁寧",
+      "difficulty": 1,
+      "frequencyRank": 40,
+      "chunkPattern": "つまり、~",
+      "tags": ["display", "bridge", "summarize"]
+    },
+    {
+      "externalId": "s009",
+      "japanese": "やっぱり、これがいいかな。",
+      "tokens": [
+        { "text": "やっぱり、これがいいかな。" }
+      ],
+      "kana": "やっぱりこれがいいかな",
+      "chinese": "果然,还是这个好。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 38,
+      "chunkPattern": "やっぱり、~",
+      "tags": ["display", "bridge", "settle"]
+    },
+    {
+      "externalId": "s010",
+      "japanese": "そうそう、それで思い出した。",
+      "tokens": [
+        { "text": "そうそう、それで" },
+        { "text": "思い出した", "kana": "おもいだした" },
+        { "text": "。" }
+      ],
+      "kana": "そうそうそれでおもいだした",
+      "chinese": "对对,这么一说想起来了。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 52,
+      "chunkPattern": "そうそう、~",
+      "tags": ["display", "bridge", "recall"]
+    },
+    {
+      "externalId": "s011",
+      "japanese": "それと、もう一つあります。",
+      "tokens": [
+        { "text": "それと、もう" },
+        { "text": "一つ", "kana": "ひとつ" },
+        { "text": "あります。" }
+      ],
+      "kana": "それともうひとつあります",
+      "chinese": "还有,再一个。",
+      "category": "progress",
+      "register": "丁寧",
+      "difficulty": 1,
+      "frequencyRank": 30,
+      "chunkPattern": "それと、~",
+      "tags": ["display", "bridge", "add-item"]
+    }
+  ],
+  "dialogues": [],
+  "passages": []
+}

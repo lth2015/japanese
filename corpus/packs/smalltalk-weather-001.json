@@ -1,0 +1,294 @@
+{
+  "packVersion": 1,
+  "packId": "smalltalk-weather-001",
+  "title": "Seasonal Smalltalk and Wellness 001",
+  "generatedBy": "claude-opus-4-7",
+  "generatedAt": "2026-05-14",
+  "targetProfile": "Chinese native speaker, N1 reading, weak workplace Japanese. Japanese opens nearly every email/meeting/conversation with seasonal weather or wellness smalltalk before getting to business. Chinese L1 speakers commonly skip this and sound abrupt. This pack covers all 4 seasons + universal wellness checks. Mostly 丁寧 with 敬語 hints.",
+  "reviewStatus": "reviewed",
+  "sentences": [
+    {
+      "externalId": "s001",
+      "japanese": "季節の変わり目ですね。",
+      "tokens": [
+        { "text": "季節", "kana": "きせつ" },
+        { "text": "の" },
+        { "text": "変わり目", "kana": "かわりめ" },
+        { "text": "ですね。" }
+      ],
+      "kana": "きせつのかわりめですね",
+      "chinese": "正是换季的时候呢。",
+      "category": "smalltalk",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 48,
+      "chunkPattern": "季節の変わり目ですね",
+      "tags": ["weather", "transition", "universal"]
+    },
+    {
+      "externalId": "s002",
+      "japanese": "今日は冷え込みますね。",
+      "tokens": [
+        { "text": "今日", "kana": "きょう" },
+        { "text": "は" },
+        { "text": "冷え込みます", "kana": "ひえこみます" },
+        { "text": "ね。" }
+      ],
+      "kana": "きょうはひえこみますね",
+      "chinese": "今天好冷啊。",
+      "category": "smalltalk",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 35,
+      "chunkPattern": "今日は~ますね",
+      "tags": ["weather", "winter", "cold"]
+    },
+    {
+      "externalId": "s003",
+      "japanese": "暑い日が続きますね。",
+      "tokens": [
+        { "text": "暑い", "kana": "あつい" },
+        { "text": "日", "kana": "ひ" },
+        { "text": "が" },
+        { "text": "続きます", "kana": "つづきます" },
+        { "text": "ね。" }
+      ],
+      "kana": "あついひがつづきますね",
+      "chinese": "热的日子还在继续呢。",
+      "category": "smalltalk",
+      "register": "丁寧",
+      "difficulty": 1,
+      "frequencyRank": 32,
+      "chunkPattern": "~日が続きますね",
+      "tags": ["weather", "summer", "hot"]
+    },
+    {
+      "externalId": "s004",
+      "japanese": "桜が咲き始めましたね。",
+      "tokens": [
+        { "text": "桜", "kana": "さくら" },
+        { "text": "が" },
+        { "text": "咲き始めました", "kana": "さきはじめました" },
+        { "text": "ね。" }
+      ],
+      "kana": "さくらがさきはじめましたね",
+      "chinese": "樱花开始开了呢。",
+      "category": "smalltalk",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 65,
+      "chunkPattern": "~が咲き始めましたね",
+      "tags": ["weather", "spring", "sakura"]
+    },
+    {
+      "externalId": "s005",
+      "japanese": "お変わりありませんか。",
+      "tokens": [
+        { "text": "お" },
+        { "text": "変わり", "kana": "かわり" },
+        { "text": "ありませんか。" }
+      ],
+      "kana": "おかわりありませんか",
+      "chinese": "近来一切如常吗？",
+      "category": "smalltalk",
+      "register": "敬語",
+      "difficulty": 2,
+      "frequencyRank": 58,
+      "chunkPattern": "お変わりありませんか",
+      "tags": ["wellness", "polite-check", "universal"]
+    },
+    {
+      "externalId": "s006",
+      "japanese": "ご無沙汰しております、お元気ですか。",
+      "tokens": [
+        { "text": "ご" },
+        { "text": "無沙汰", "kana": "ぶさた" },
+        { "text": "しております、お" },
+        { "text": "元気", "kana": "げんき" },
+        { "text": "ですか。" }
+      ],
+      "kana": "ごぶさたしておりますおげんきですか",
+      "chinese": "好久不见,您还好吗？",
+      "category": "smalltalk",
+      "register": "敬語",
+      "difficulty": 2,
+      "frequencyRank": 40,
+      "chunkPattern": "ご無沙汰しております、お元気ですか",
+      "tags": ["wellness", "after-gap", "reconnect"]
+    },
+    {
+      "externalId": "s007",
+      "japanese": "体調を崩されていませんか。",
+      "tokens": [
+        { "text": "体調", "kana": "たいちょう" },
+        { "text": "を" },
+        { "text": "崩されて", "kana": "くずされて" },
+        { "text": "いませんか。" }
+      ],
+      "kana": "たいちょうをくずされていませんか",
+      "chinese": "身体没事吧？",
+      "category": "smalltalk",
+      "register": "敬語",
+      "difficulty": 3,
+      "frequencyRank": 78,
+      "chunkPattern": "~を崩されていませんか",
+      "tags": ["wellness", "concern", "polite"]
+    },
+    {
+      "externalId": "s008",
+      "japanese": "朝晩は冷えますので、ご自愛ください。",
+      "tokens": [
+        { "text": "朝晩", "kana": "あさばん" },
+        { "text": "は" },
+        { "text": "冷えます", "kana": "ひえます" },
+        { "text": "ので、ご" },
+        { "text": "自愛", "kana": "じあい" },
+        { "text": "ください。" }
+      ],
+      "kana": "あさばんはひえますのでごじあいください",
+      "chinese": "早晚很凉,请保重身体。",
+      "category": "smalltalk",
+      "register": "敬語",
+      "difficulty": 3,
+      "frequencyRank": 70,
+      "chunkPattern": "~ので、ご自愛ください",
+      "tags": ["wellness", "closing", "take-care"]
+    },
+    {
+      "externalId": "s009",
+      "japanese": "朝夕めっきり涼しくなりましたね。",
+      "tokens": [
+        { "text": "朝夕", "kana": "あさゆう" },
+        { "text": "めっきり" },
+        { "text": "涼しく", "kana": "すずしく" },
+        { "text": "なりましたね。" }
+      ],
+      "kana": "あさゆうめっきりすずしくなりましたね",
+      "chinese": "早晚一下凉快了不少呢。",
+      "category": "smalltalk",
+      "register": "丁寧",
+      "difficulty": 3,
+      "frequencyRank": 88,
+      "chunkPattern": "朝夕めっきり~なりましたね",
+      "tags": ["weather", "autumn", "transition"]
+    },
+    {
+      "externalId": "s010",
+      "japanese": "梅雨入りしましたね。",
+      "tokens": [
+        { "text": "梅雨入り", "kana": "つゆいり" },
+        { "text": "しましたね。" }
+      ],
+      "kana": "つゆいりしましたね",
+      "chinese": "进入梅雨季了呢。",
+      "category": "smalltalk",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 82,
+      "chunkPattern": "~しましたね",
+      "tags": ["weather", "rainy-season", "japan-specific"]
+    },
+    {
+      "externalId": "s011",
+      "japanese": "夏バテしていませんか。",
+      "tokens": [
+        { "text": "夏バテ", "kana": "なつばて" },
+        { "text": "していませんか。" }
+      ],
+      "kana": "なつばてしていませんか",
+      "chinese": "没中暑/没夏季倦怠吧？",
+      "category": "smalltalk",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 92,
+      "chunkPattern": "~していませんか",
+      "tags": ["wellness", "summer", "concern"]
+    }
+  ],
+  "dialogues": [
+    {
+      "externalId": "d001",
+      "title": "秋の到来のひとこと",
+      "scenario": "slack",
+      "description": "同僚同士の Slack で、季節の変わり目に体調を気遣う短いやり取り。日本職場の標準寒暄パターン。",
+      "difficulty": 2,
+      "register": "丁寧",
+      "tags": ["smalltalk", "weather", "wellness"],
+      "turns": [
+        {
+          "speaker": "A",
+          "japanese": "お疲れ様です。朝夕めっきり涼しくなりましたね。",
+          "tokens": [
+            { "text": "お疲れ様", "kana": "おつかれさま" },
+            { "text": "です。" },
+            { "text": "朝夕", "kana": "あさゆう" },
+            { "text": "めっきり" },
+            { "text": "涼しく", "kana": "すずしく" },
+            { "text": "なりましたね。" }
+          ],
+          "kana": "おつかれさまですあさゆうめっきりすずしくなりましたね",
+          "chinese": "辛苦了。早晚一下凉快了不少呢。"
+        },
+        {
+          "speaker": "B",
+          "japanese": "本当ですね。先週まで暑かったのに。",
+          "tokens": [
+            { "text": "本当", "kana": "ほんとう" },
+            { "text": "ですね。" },
+            { "text": "先週", "kana": "せんしゅう" },
+            { "text": "まで" },
+            { "text": "暑かった", "kana": "あつかった" },
+            { "text": "のに。" }
+          ],
+          "kana": "ほんとうですねせんしゅうまであつかったのに",
+          "chinese": "真的呢。上周还热得不行。"
+        },
+        {
+          "speaker": "A",
+          "japanese": "体調を崩されていませんか。",
+          "tokens": [
+            { "text": "体調", "kana": "たいちょう" },
+            { "text": "を" },
+            { "text": "崩されて", "kana": "くずされて" },
+            { "text": "いませんか。" }
+          ],
+          "kana": "たいちょうをくずされていませんか",
+          "chinese": "身体没事吧？"
+        },
+        {
+          "speaker": "B",
+          "japanese": "大丈夫です、ご心配ありがとうございます。山田さんも、朝晩は冷えますので、ご自愛ください。",
+          "tokens": [
+            { "text": "大丈夫", "kana": "だいじょうぶ" },
+            { "text": "です、ご" },
+            { "text": "心配", "kana": "しんぱい" },
+            { "text": "ありがとうございます。" },
+            { "text": "山田", "kana": "やまだ" },
+            { "text": "さんも、" },
+            { "text": "朝晩", "kana": "あさばん" },
+            { "text": "は" },
+            { "text": "冷えます", "kana": "ひえます" },
+            { "text": "ので、ご" },
+            { "text": "自愛", "kana": "じあい" },
+            { "text": "ください。" }
+          ],
+          "kana": "だいじょうぶですごしんぱいありがとうございますやまださんもあさばんはひえますのでごじあいください",
+          "chinese": "我没事,谢谢您关心。山田先生您也是,早晚很凉,请保重身体。"
+        },
+        {
+          "speaker": "A",
+          "japanese": "ありがとうございます。お互い気をつけましょう。",
+          "tokens": [
+            { "text": "ありがとうございます。お" },
+            { "text": "互い", "kana": "たがい" },
+            { "text": "気", "kana": "き" },
+            { "text": "をつけましょう。" }
+          ],
+          "kana": "ありがとうございますおたがいきをつけましょう",
+          "chinese": "谢谢。我们都注意。"
+        }
+      ]
+    }
+  ],
+  "passages": []
+}

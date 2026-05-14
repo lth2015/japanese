@@ -1,0 +1,196 @@
+{
+  "packVersion": 1,
+  "packId": "work-quick-replies-001",
+  "title": "Work Quick Replies for Display 001",
+  "generatedBy": "claude-opus-4-7",
+  "generatedAt": "2026-05-14",
+  "targetProfile": "Display-optimized work-day spoken phrases. 4-15 char each, 丁寧 register, said multiple times per workday as quick replies to coworkers/managers. Designed to become unconscious reflexes for daily workplace verbal interactions.",
+  "reviewStatus": "reviewed",
+  "sentences": [
+    {
+      "externalId": "s001",
+      "japanese": "承知しました。",
+      "tokens": [
+        { "text": "承知", "kana": "しょうち" },
+        { "text": "しました。" }
+      ],
+      "kana": "しょうちしました",
+      "chinese": "明白了。",
+      "category": "smalltalk",
+      "register": "丁寧",
+      "difficulty": 1,
+      "frequencyRank": 5,
+      "chunkPattern": "承知しました",
+      "tags": ["display", "work", "ack"]
+    },
+    {
+      "externalId": "s002",
+      "japanese": "了解です。",
+      "tokens": [
+        { "text": "了解", "kana": "りょうかい" },
+        { "text": "です。" }
+      ],
+      "kana": "りょうかいです",
+      "chinese": "收到。",
+      "category": "smalltalk",
+      "register": "丁寧",
+      "difficulty": 1,
+      "frequencyRank": 4,
+      "chunkPattern": "了解です",
+      "tags": ["display", "work", "ack-casual"]
+    },
+    {
+      "externalId": "s003",
+      "japanese": "すぐやります。",
+      "tokens": [
+        { "text": "すぐやります。" }
+      ],
+      "kana": "すぐやります",
+      "chinese": "我马上做。",
+      "category": "progress",
+      "register": "丁寧",
+      "difficulty": 1,
+      "frequencyRank": 18,
+      "chunkPattern": "すぐ~ます",
+      "tags": ["display", "work", "commit"]
+    },
+    {
+      "externalId": "s004",
+      "japanese": "確認しておきます。",
+      "tokens": [
+        { "text": "確認", "kana": "かくにん" },
+        { "text": "しておきます。" }
+      ],
+      "kana": "かくにんしておきます",
+      "chinese": "我会确认一下。",
+      "category": "progress",
+      "register": "丁寧",
+      "difficulty": 1,
+      "frequencyRank": 12,
+      "chunkPattern": "~しておきます",
+      "tags": ["display", "work", "check"]
+    },
+    {
+      "externalId": "s005",
+      "japanese": "共有しておきます。",
+      "tokens": [
+        { "text": "共有", "kana": "きょうゆう" },
+        { "text": "しておきます。" }
+      ],
+      "kana": "きょうゆうしておきます",
+      "chinese": "我会同步出去。",
+      "category": "progress",
+      "register": "丁寧",
+      "difficulty": 1,
+      "frequencyRank": 25,
+      "chunkPattern": "~しておきます",
+      "tags": ["display", "work", "share"]
+    },
+    {
+      "externalId": "s006",
+      "japanese": "念のため、確認させてください。",
+      "tokens": [
+        { "text": "念", "kana": "ねん" },
+        { "text": "のため、" },
+        { "text": "確認", "kana": "かくにん" },
+        { "text": "させてください。" }
+      ],
+      "kana": "ねんのためかくにんさせてください",
+      "chinese": "为以防万一,让我确认下。",
+      "category": "request",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 30,
+      "chunkPattern": "念のため、~させてください",
+      "tags": ["display", "work", "double-check"]
+    },
+    {
+      "externalId": "s007",
+      "japanese": "ありがとうございます、助かります。",
+      "tokens": [
+        { "text": "ありがとうございます、" },
+        { "text": "助かります", "kana": "たすかります" },
+        { "text": "。" }
+      ],
+      "kana": "ありがとうございますたすかります",
+      "chinese": "谢谢您,帮大忙了。",
+      "category": "smalltalk",
+      "register": "丁寧",
+      "difficulty": 1,
+      "frequencyRank": 14,
+      "chunkPattern": "ありがとうございます、助かります",
+      "tags": ["display", "work", "thanks"]
+    },
+    {
+      "externalId": "s008",
+      "japanese": "すみません、もう一度お願いします。",
+      "tokens": [
+        { "text": "すみません、もう" },
+        { "text": "一度", "kana": "いちど" },
+        { "text": "お" },
+        { "text": "願い", "kana": "ねがい" },
+        { "text": "します。" }
+      ],
+      "kana": "すみませんもういちどおねがいします",
+      "chinese": "不好意思,再说一次。",
+      "category": "request",
+      "register": "丁寧",
+      "difficulty": 1,
+      "frequencyRank": 22,
+      "chunkPattern": "すみません、もう一度~",
+      "tags": ["display", "work", "ask-repeat"]
+    },
+    {
+      "externalId": "s009",
+      "japanese": "後でかけ直します。",
+      "tokens": [
+        { "text": "後で", "kana": "あとで" },
+        { "text": "かけ直します", "kana": "かけなおします" },
+        { "text": "。" }
+      ],
+      "kana": "あとでかけなおします",
+      "chinese": "我等会儿回拨。",
+      "category": "progress",
+      "register": "丁寧",
+      "difficulty": 1,
+      "frequencyRank": 48,
+      "chunkPattern": "後で~ます",
+      "tags": ["display", "work", "callback"]
+    },
+    {
+      "externalId": "s010",
+      "japanese": "お任せください。",
+      "tokens": [
+        { "text": "お" },
+        { "text": "任せ", "kana": "まかせ" },
+        { "text": "ください。" }
+      ],
+      "kana": "おまかせください",
+      "chinese": "请放心交给我。",
+      "category": "smalltalk",
+      "register": "丁寧",
+      "difficulty": 1,
+      "frequencyRank": 35,
+      "chunkPattern": "お任せください",
+      "tags": ["display", "work", "take-charge"]
+    },
+    {
+      "externalId": "s011",
+      "japanese": "進めておきます。",
+      "tokens": [
+        { "text": "進めて", "kana": "すすめて" },
+        { "text": "おきます。" }
+      ],
+      "kana": "すすめておきます",
+      "chinese": "我会推进的。",
+      "category": "progress",
+      "register": "丁寧",
+      "difficulty": 1,
+      "frequencyRank": 28,
+      "chunkPattern": "~ておきます",
+      "tags": ["display", "work", "proceed"]
+    }
+  ],
+  "dialogues": [],
+  "passages": []
+}

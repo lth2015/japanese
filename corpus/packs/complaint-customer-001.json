@@ -1,0 +1,318 @@
+{
+  "packVersion": 1,
+  "packId": "complaint-customer-001",
+  "title": "Customer-Side Complaint and Service Issue 001",
+  "generatedBy": "claude-opus-4-7",
+  "generatedAt": "2026-05-14",
+  "targetProfile": "Chinese native speaker, N1 reading, weak workplace Japanese. The mirror of soft-pushback-001 — instead of being the polite decliner, here the user is the polite complainer (defective product, wrong order, billing error, refund, cancellation, escalation). Japanese-style complaining is MORE polite than English/Chinese, not less. All 丁寧.",
+  "reviewStatus": "reviewed",
+  "sentences": [
+    {
+      "externalId": "s001",
+      "japanese": "先ほど購入した商品に不具合がありまして。",
+      "tokens": [
+        { "text": "先ほど", "kana": "さきほど" },
+        { "text": "購入", "kana": "こうにゅう" },
+        { "text": "した" },
+        { "text": "商品", "kana": "しょうひん" },
+        { "text": "に" },
+        { "text": "不具合", "kana": "ふぐあい" },
+        { "text": "がありまして。" }
+      ],
+      "kana": "さきほどこうにゅうしたしょうひんにふぐあいがありまして",
+      "chinese": "刚刚买的商品有些问题。",
+      "category": "rescue",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 78,
+      "chunkPattern": "先ほど~した~に~がありまして",
+      "tags": ["complaint", "defect", "open"]
+    },
+    {
+      "externalId": "s002",
+      "japanese": "注文と違うものが届いたのですが。",
+      "tokens": [
+        { "text": "注文", "kana": "ちゅうもん" },
+        { "text": "と" },
+        { "text": "違う", "kana": "ちがう" },
+        { "text": "ものが" },
+        { "text": "届いた", "kana": "とどいた" },
+        { "text": "のですが。" }
+      ],
+      "kana": "ちゅうもんとちがうものがとどいたのですが",
+      "chinese": "和我下单的不一样。",
+      "category": "rescue",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 95,
+      "chunkPattern": "~と違うものが届いたのですが",
+      "tags": ["complaint", "wrong-item", "delivery"]
+    },
+    {
+      "externalId": "s003",
+      "japanese": "ご対応をお願いできますでしょうか。",
+      "tokens": [
+        { "text": "ご" },
+        { "text": "対応", "kana": "たいおう" },
+        { "text": "をお" },
+        { "text": "願い", "kana": "ねがい" },
+        { "text": "できますでしょうか。" }
+      ],
+      "kana": "ごたいおうをおねがいできますでしょうか",
+      "chinese": "能麻烦您处理一下吗？",
+      "category": "request",
+      "register": "敬語",
+      "difficulty": 2,
+      "frequencyRank": 52,
+      "chunkPattern": "ご~をお願いできますでしょうか",
+      "tags": ["complaint", "ask-action", "polite"]
+    },
+    {
+      "externalId": "s004",
+      "japanese": "返品させていただきたいのですが。",
+      "tokens": [
+        { "text": "返品", "kana": "へんぴん" },
+        { "text": "させていただきたいのですが。" }
+      ],
+      "kana": "へんぴんさせていただきたいのですが",
+      "chinese": "想要退货。",
+      "category": "request",
+      "register": "敬語",
+      "difficulty": 2,
+      "frequencyRank": 88,
+      "chunkPattern": "~させていただきたいのですが",
+      "tags": ["complaint", "return", "request"]
+    },
+    {
+      "externalId": "s005",
+      "japanese": "解約の手続きはどうすればいいですか。",
+      "tokens": [
+        { "text": "解約", "kana": "かいやく" },
+        { "text": "の" },
+        { "text": "手続き", "kana": "てつづき" },
+        { "text": "はどうすればいいですか。" }
+      ],
+      "kana": "かいやくのてつづきはどうすればいいですか",
+      "chinese": "解约的手续要怎么做？",
+      "category": "request",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 92,
+      "chunkPattern": "~の手続きはどうすればいいですか",
+      "tags": ["complaint", "cancel", "procedure"]
+    },
+    {
+      "externalId": "s006",
+      "japanese": "料金が請求書と違っていまして。",
+      "tokens": [
+        { "text": "料金", "kana": "りょうきん" },
+        { "text": "が" },
+        { "text": "請求書", "kana": "せいきゅうしょ" },
+        { "text": "と" },
+        { "text": "違って", "kana": "ちがって" },
+        { "text": "いまして。" }
+      ],
+      "kana": "りょうきんがせいきゅうしょとちがっていまして",
+      "chinese": "费用和账单不一致。",
+      "category": "rescue",
+      "register": "丁寧",
+      "difficulty": 3,
+      "frequencyRank": 105,
+      "chunkPattern": "~が~と違っていまして",
+      "tags": ["complaint", "billing", "discrepancy"]
+    },
+    {
+      "externalId": "s007",
+      "japanese": "なるべく早めの対応をお願いしたいのですが。",
+      "tokens": [
+        { "text": "なるべく" },
+        { "text": "早め", "kana": "はやめ" },
+        { "text": "の" },
+        { "text": "対応", "kana": "たいおう" },
+        { "text": "をお" },
+        { "text": "願い", "kana": "ねがい" },
+        { "text": "したいのですが。" }
+      ],
+      "kana": "なるべくはやめのたいおうをおねがいしたいのですが",
+      "chinese": "希望尽快处理。",
+      "category": "request",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 72,
+      "chunkPattern": "なるべく~の~をお願いしたいのですが",
+      "tags": ["complaint", "urgency", "soft-push"]
+    },
+    {
+      "externalId": "s008",
+      "japanese": "詳細を教えていただけますか。",
+      "tokens": [
+        { "text": "詳細", "kana": "しょうさい" },
+        { "text": "を" },
+        { "text": "教えて", "kana": "おしえて" },
+        { "text": "いただけますか。" }
+      ],
+      "kana": "しょうさいをおしえていただけますか",
+      "chinese": "能告诉我详细情况吗？",
+      "category": "request",
+      "register": "丁寧",
+      "difficulty": 1,
+      "frequencyRank": 38,
+      "chunkPattern": "~を教えていただけますか",
+      "tags": ["complaint", "ask-detail", "polite"]
+    },
+    {
+      "externalId": "s009",
+      "japanese": "担当の方に確認していただけますか。",
+      "tokens": [
+        { "text": "担当", "kana": "たんとう" },
+        { "text": "の" },
+        { "text": "方", "kana": "かた" },
+        { "text": "に" },
+        { "text": "確認", "kana": "かくにん" },
+        { "text": "していただけますか。" }
+      ],
+      "kana": "たんとうのかたにかくにんしていただけますか",
+      "chinese": "能让负责的人确认一下吗？",
+      "category": "request",
+      "register": "敬語",
+      "difficulty": 2,
+      "frequencyRank": 68,
+      "chunkPattern": "~の方に~していただけますか",
+      "tags": ["complaint", "escalate", "ask-handover"]
+    },
+    {
+      "externalId": "s010",
+      "japanese": "あまり納得できない部分がありまして。",
+      "tokens": [
+        { "text": "あまり" },
+        { "text": "納得", "kana": "なっとく" },
+        { "text": "できない" },
+        { "text": "部分", "kana": "ぶぶん" },
+        { "text": "がありまして。" }
+      ],
+      "kana": "あまりなっとくできないぶぶんがありまして",
+      "chinese": "有些地方我不太能接受。",
+      "category": "rescue",
+      "register": "丁寧",
+      "difficulty": 3,
+      "frequencyRank": 110,
+      "chunkPattern": "あまり~できない~がありまして",
+      "tags": ["complaint", "not-satisfied", "soft-disagree"]
+    },
+    {
+      "externalId": "s011",
+      "japanese": "別の方法を検討していただけないでしょうか。",
+      "tokens": [
+        { "text": "別", "kana": "べつ" },
+        { "text": "の" },
+        { "text": "方法", "kana": "ほうほう" },
+        { "text": "を" },
+        { "text": "検討", "kana": "けんとう" },
+        { "text": "していただけないでしょうか。" }
+      ],
+      "kana": "べつのほうほうをけんとうしていただけないでしょうか",
+      "chinese": "能否考虑别的方案？",
+      "category": "request",
+      "register": "敬語",
+      "difficulty": 3,
+      "frequencyRank": 98,
+      "chunkPattern": "別の~を~していただけないでしょうか",
+      "tags": ["complaint", "alternative", "counter-propose"]
+    }
+  ],
+  "dialogues": [
+    {
+      "externalId": "d001",
+      "title": "カスタマーサポートへの不具合報告",
+      "scenario": "phone",
+      "description": "オンラインで購入した商品に問題があり、サポートに電話して交換を依頼する場面。状況説明 → 詳細確認 → 交換手配の流れ。",
+      "difficulty": 3,
+      "register": "丁寧",
+      "tags": ["complaint", "phone", "exchange"],
+      "turns": [
+        {
+          "speaker": "客",
+          "japanese": "もしもし、先ほど購入した商品に不具合がありまして、ご対応をお願いできますでしょうか。",
+          "tokens": [
+            { "text": "もしもし、" },
+            { "text": "先ほど", "kana": "さきほど" },
+            { "text": "購入", "kana": "こうにゅう" },
+            { "text": "した" },
+            { "text": "商品", "kana": "しょうひん" },
+            { "text": "に" },
+            { "text": "不具合", "kana": "ふぐあい" },
+            { "text": "がありまして、ご" },
+            { "text": "対応", "kana": "たいおう" },
+            { "text": "をお" },
+            { "text": "願い", "kana": "ねがい" },
+            { "text": "できますでしょうか。" }
+          ],
+          "kana": "もしもしさきほどこうにゅうしたしょうひんにふぐあいがありましてごたいおうをおねがいできますでしょうか",
+          "chinese": "您好,刚刚买的商品有些问题,能麻烦您处理一下吗？"
+        },
+        {
+          "speaker": "サポート",
+          "japanese": "ご連絡ありがとうございます。詳細を教えていただけますか。",
+          "tokens": [
+            { "text": "ご" },
+            { "text": "連絡", "kana": "れんらく" },
+            { "text": "ありがとうございます。" },
+            { "text": "詳細", "kana": "しょうさい" },
+            { "text": "を" },
+            { "text": "教えて", "kana": "おしえて" },
+            { "text": "いただけますか。" }
+          ],
+          "kana": "ごれんらくありがとうございますしょうさいをおしえていただけますか",
+          "chinese": "感谢您的来电。能告诉我详细情况吗？"
+        },
+        {
+          "speaker": "客",
+          "japanese": "注文した商品と違うものが届いたんです。返品させていただきたいのですが。",
+          "tokens": [
+            { "text": "注文", "kana": "ちゅうもん" },
+            { "text": "した" },
+            { "text": "商品", "kana": "しょうひん" },
+            { "text": "と" },
+            { "text": "違う", "kana": "ちがう" },
+            { "text": "ものが" },
+            { "text": "届いた", "kana": "とどいた" },
+            { "text": "んです。" },
+            { "text": "返品", "kana": "へんぴん" },
+            { "text": "させていただきたいのですが。" }
+          ],
+          "kana": "ちゅうもんしたしょうひんとちがうものがとどいたんですへんぴんさせていただきたいのですが",
+          "chinese": "我下单的和送来的不一样。想要退货。"
+        },
+        {
+          "speaker": "サポート",
+          "japanese": "大変申し訳ございません。すぐに交換手配いたします。",
+          "tokens": [
+            { "text": "大変", "kana": "たいへん" },
+            { "text": "申し訳ございません", "kana": "もうしわけございません" },
+            { "text": "。すぐに" },
+            { "text": "交換手配", "kana": "こうかんてはい" },
+            { "text": "いたします。" }
+          ],
+          "kana": "たいへんもうしわけございませんすぐにこうかんてはいいたします",
+          "chinese": "非常抱歉。我们立刻安排更换。"
+        },
+        {
+          "speaker": "客",
+          "japanese": "なるべく早めの対応をお願いしたいのですが。",
+          "tokens": [
+            { "text": "なるべく" },
+            { "text": "早め", "kana": "はやめ" },
+            { "text": "の" },
+            { "text": "対応", "kana": "たいおう" },
+            { "text": "をお" },
+            { "text": "願い", "kana": "ねがい" },
+            { "text": "したいのですが。" }
+          ],
+          "kana": "なるべくはやめのたいおうをおねがいしたいのですが",
+          "chinese": "希望尽快处理。"
+        }
+      ]
+    }
+  ],
+  "passages": []
+}

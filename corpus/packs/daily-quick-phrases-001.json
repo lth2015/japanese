@@ -1,0 +1,187 @@
+{
+  "packVersion": 1,
+  "packId": "daily-quick-phrases-001",
+  "title": "Daily Quick Phrases for Display 001",
+  "generatedBy": "claude-opus-4-7",
+  "generatedAt": "2026-05-14",
+  "targetProfile": "Display-optimized everyday spoken phrases. 4-12 char each, カジュアル register, the kind of micro-reactions/responses said 5-20 times a day. Designed to flash big on Display and become unconscious daily reflexes.",
+  "reviewStatus": "reviewed",
+  "sentences": [
+    {
+      "externalId": "s001",
+      "japanese": "ちょっと待って。",
+      "tokens": [
+        { "text": "ちょっと" },
+        { "text": "待って", "kana": "まって" },
+        { "text": "。" }
+      ],
+      "kana": "ちょっとまって",
+      "chinese": "等一下。",
+      "category": "request",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 8,
+      "chunkPattern": "ちょっと待って",
+      "tags": ["display", "casual", "ubiquitous"]
+    },
+    {
+      "externalId": "s002",
+      "japanese": "それでいいよ。",
+      "tokens": [
+        { "text": "それでいいよ。" }
+      ],
+      "kana": "それでいいよ",
+      "chinese": "那样就行。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 18,
+      "chunkPattern": "それでいいよ",
+      "tags": ["display", "casual", "agree"]
+    },
+    {
+      "externalId": "s003",
+      "japanese": "うんうん、わかった。",
+      "tokens": [
+        { "text": "うんうん、わかった。" }
+      ],
+      "kana": "うんうんわかった",
+      "chinese": "嗯嗯,明白了。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 12,
+      "chunkPattern": "うんうん、わかった",
+      "tags": ["display", "casual", "ack"]
+    },
+    {
+      "externalId": "s004",
+      "japanese": "どっちでもいい。",
+      "tokens": [
+        { "text": "どっちでもいい。" }
+      ],
+      "kana": "どっちでもいい",
+      "chinese": "哪个都行。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 22,
+      "chunkPattern": "どっちでもいい",
+      "tags": ["display", "casual", "indifferent"]
+    },
+    {
+      "externalId": "s005",
+      "japanese": "なるほど。",
+      "tokens": [
+        { "text": "なるほど。" }
+      ],
+      "kana": "なるほど",
+      "chinese": "原来如此。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 6,
+      "chunkPattern": "なるほど",
+      "tags": ["display", "casual", "understand"]
+    },
+    {
+      "externalId": "s006",
+      "japanese": "やっぱりね。",
+      "tokens": [
+        { "text": "やっぱりね。" }
+      ],
+      "kana": "やっぱりね",
+      "chinese": "果然啊。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 35,
+      "chunkPattern": "やっぱりね",
+      "tags": ["display", "casual", "confirm-suspicion"]
+    },
+    {
+      "externalId": "s007",
+      "japanese": "え、本当に？",
+      "tokens": [
+        { "text": "え、" },
+        { "text": "本当", "kana": "ほんとう" },
+        { "text": "に？" }
+      ],
+      "kana": "えほんとうに",
+      "chinese": "诶,真的？",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 15,
+      "chunkPattern": "え、~に？",
+      "tags": ["display", "casual", "surprise"]
+    },
+    {
+      "externalId": "s008",
+      "japanese": "しょうがないね。",
+      "tokens": [
+        { "text": "しょうがないね。" }
+      ],
+      "kana": "しょうがないね",
+      "chinese": "没办法啊。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 42,
+      "chunkPattern": "しょうがないね",
+      "tags": ["display", "casual", "resignation"]
+    },
+    {
+      "externalId": "s009",
+      "japanese": "ありがとう、助かる。",
+      "tokens": [
+        { "text": "ありがとう、" },
+        { "text": "助かる", "kana": "たすかる" },
+        { "text": "。" }
+      ],
+      "kana": "ありがとうたすかる",
+      "chinese": "谢谢,真帮大忙了。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 20,
+      "chunkPattern": "ありがとう、助かる",
+      "tags": ["display", "casual", "thanks"]
+    },
+    {
+      "externalId": "s010",
+      "japanese": "ごめん、忘れてた。",
+      "tokens": [
+        { "text": "ごめん、" },
+        { "text": "忘れてた", "kana": "わすれてた" },
+        { "text": "。" }
+      ],
+      "kana": "ごめんわすれてた",
+      "chinese": "对不起,忘了。",
+      "category": "apology",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 28,
+      "chunkPattern": "ごめん、~てた",
+      "tags": ["display", "casual", "apology"]
+    },
+    {
+      "externalId": "s011",
+      "japanese": "確かに。",
+      "tokens": [
+        { "text": "確かに", "kana": "たしかに" },
+        { "text": "。" }
+      ],
+      "kana": "たしかに",
+      "chinese": "确实。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 10,
+      "chunkPattern": "確かに",
+      "tags": ["display", "casual", "agree"]
+    }
+  ],
+  "dialogues": [],
+  "passages": []
+}

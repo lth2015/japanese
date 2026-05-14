@@ -1,0 +1,324 @@
+{
+  "packVersion": 1,
+  "packId": "business-card-intro-001",
+  "title": "Business Card Exchange and Self-Intro 001",
+  "generatedBy": "claude-opus-4-7",
+  "generatedAt": "2026-05-14",
+  "targetProfile": "Chinese native speaker, N1 reading, weak workplace Japanese. User is executive who attends industry events, conferences, and customer meetings. This pack covers first-meeting greetings, business card exchange, brief role description, polite-interest in the other party, follow-up commitment. All 敬語 — networking is 100% formal register territory.",
+  "reviewStatus": "reviewed",
+  "sentences": [
+    {
+      "externalId": "s001",
+      "japanese": "はじめまして、〇〇株式会社の田中と申します。",
+      "tokens": [
+        { "text": "はじめまして、〇〇" },
+        { "text": "株式会社", "kana": "かぶしきがいしゃ" },
+        { "text": "の" },
+        { "text": "田中", "kana": "たなか" },
+        { "text": "と" },
+        { "text": "申します", "kana": "もうします" },
+        { "text": "。" }
+      ],
+      "kana": "はじめましてまるまるかぶしきがいしゃのたなかともうします",
+      "chinese": "初次见面,我是〇〇公司的田中。",
+      "category": "smalltalk",
+      "register": "敬語",
+      "difficulty": 2,
+      "frequencyRank": 22,
+      "chunkPattern": "はじめまして、~の~と申します",
+      "tags": ["networking", "first-meet", "self-intro"]
+    },
+    {
+      "externalId": "s002",
+      "japanese": "お名刺ちょうだいいたします。",
+      "tokens": [
+        { "text": "お" },
+        { "text": "名刺", "kana": "めいし" },
+        { "text": "ちょうだいいたします。" }
+      ],
+      "kana": "おめいしちょうだいいたします",
+      "chinese": "(收下)请收下您的名片。",
+      "category": "request",
+      "register": "敬語",
+      "difficulty": 3,
+      "frequencyRank": 58,
+      "chunkPattern": "お~ちょうだいいたします",
+      "tags": ["networking", "card-receive", "humble"]
+    },
+    {
+      "externalId": "s003",
+      "japanese": "こちら、私の名刺になります。",
+      "tokens": [
+        { "text": "こちら、" },
+        { "text": "私", "kana": "わたし" },
+        { "text": "の" },
+        { "text": "名刺", "kana": "めいし" },
+        { "text": "になります。" }
+      ],
+      "kana": "こちらわたしのめいしになります",
+      "chinese": "这是我的名片。",
+      "category": "progress",
+      "register": "敬語",
+      "difficulty": 2,
+      "frequencyRank": 45,
+      "chunkPattern": "こちら、~になります",
+      "tags": ["networking", "card-give", "polite"]
+    },
+    {
+      "externalId": "s004",
+      "japanese": "〇〇会社で技術部門を担当しております。",
+      "tokens": [
+        { "text": "〇〇" },
+        { "text": "会社", "kana": "かいしゃ" },
+        { "text": "で" },
+        { "text": "技術部門", "kana": "ぎじゅつぶもん" },
+        { "text": "を" },
+        { "text": "担当", "kana": "たんとう" },
+        { "text": "しております。" }
+      ],
+      "kana": "まるまるかいしゃでぎじゅつぶもんをたんとうしております",
+      "chinese": "在〇〇公司负责技术部门。",
+      "category": "progress",
+      "register": "敬語",
+      "difficulty": 2,
+      "frequencyRank": 48,
+      "chunkPattern": "~で~を担当しております",
+      "tags": ["networking", "role-describe", "elevator-pitch"]
+    },
+    {
+      "externalId": "s005",
+      "japanese": "主にインフラとSREを見ています。",
+      "tokens": [
+        { "text": "主", "kana": "おも" },
+        { "text": "にインフラとSREを" },
+        { "text": "見て", "kana": "みて" },
+        { "text": "います。" }
+      ],
+      "kana": "おもにいんふらとえすあーるいーをみています",
+      "chinese": "主要负责基础设施和 SRE。",
+      "category": "progress",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 78,
+      "chunkPattern": "主に~を見ています",
+      "tags": ["networking", "specialty", "elevator-pitch"]
+    },
+    {
+      "externalId": "s006",
+      "japanese": "ご一緒できて光栄です。",
+      "tokens": [
+        { "text": "ご" },
+        { "text": "一緒", "kana": "いっしょ" },
+        { "text": "できて" },
+        { "text": "光栄", "kana": "こうえい" },
+        { "text": "です。" }
+      ],
+      "kana": "ごいっしょできてこうえいです",
+      "chinese": "能与您共事是我的荣幸。",
+      "category": "smalltalk",
+      "register": "敬語",
+      "difficulty": 3,
+      "frequencyRank": 88,
+      "chunkPattern": "ご~できて光栄です",
+      "tags": ["networking", "honor", "flatter"]
+    },
+    {
+      "externalId": "s007",
+      "japanese": "何かご質問があれば、いつでもお声がけください。",
+      "tokens": [
+        { "text": "何か", "kana": "なにか" },
+        { "text": "ご" },
+        { "text": "質問", "kana": "しつもん" },
+        { "text": "があれば、いつでもお" },
+        { "text": "声がけ", "kana": "こえがけ" },
+        { "text": "ください。" }
+      ],
+      "kana": "なにかごしつもんがあればいつでもおこえがけください",
+      "chinese": "如有什么问题,随时跟我说一声。",
+      "category": "request",
+      "register": "敬語",
+      "difficulty": 3,
+      "frequencyRank": 65,
+      "chunkPattern": "何か~があれば、いつでもお声がけください",
+      "tags": ["networking", "open-door", "offer-help"]
+    },
+    {
+      "externalId": "s008",
+      "japanese": "御社のサービス、以前から拝見しております。",
+      "tokens": [
+        { "text": "御社", "kana": "おんしゃ" },
+        { "text": "のサービス、" },
+        { "text": "以前", "kana": "いぜん" },
+        { "text": "から" },
+        { "text": "拝見", "kana": "はいけん" },
+        { "text": "しております。" }
+      ],
+      "kana": "おんしゃのさーびすいぜんからはいけんしております",
+      "chinese": "贵公司的服务,我之前就在关注。",
+      "category": "smalltalk",
+      "register": "敬語",
+      "difficulty": 3,
+      "frequencyRank": 72,
+      "chunkPattern": "御社の~、以前から拝見しております",
+      "tags": ["networking", "flattery", "show-interest"]
+    },
+    {
+      "externalId": "s009",
+      "japanese": "ぜひ一度お話を聞かせていただきたいです。",
+      "tokens": [
+        { "text": "ぜひ" },
+        { "text": "一度", "kana": "いちど" },
+        { "text": "お" },
+        { "text": "話", "kana": "はなし" },
+        { "text": "を" },
+        { "text": "聞かせて", "kana": "きかせて" },
+        { "text": "いただきたいです。" }
+      ],
+      "kana": "ぜひいちどおはなしをきかせていただきたいです",
+      "chinese": "希望有机会能听您聊聊。",
+      "category": "request",
+      "register": "敬語",
+      "difficulty": 3,
+      "frequencyRank": 82,
+      "chunkPattern": "ぜひ一度~いただきたいです",
+      "tags": ["networking", "follow-up-ask", "interest"]
+    },
+    {
+      "externalId": "s010",
+      "japanese": "お忙しい中、お時間いただきありがとうございました。",
+      "tokens": [
+        { "text": "お" },
+        { "text": "忙しい", "kana": "いそがしい" },
+        { "text": "中", "kana": "なか" },
+        { "text": "、お" },
+        { "text": "時間", "kana": "じかん" },
+        { "text": "いただきありがとうございました。" }
+      ],
+      "kana": "おいそがしいなかおじかんいただきありがとうございました",
+      "chinese": "百忙之中给我时间,非常感谢。",
+      "category": "smalltalk",
+      "register": "敬語",
+      "difficulty": 2,
+      "frequencyRank": 38,
+      "chunkPattern": "お忙しい中、~いただきありがとうございました",
+      "tags": ["networking", "close", "thanks"]
+    },
+    {
+      "externalId": "s011",
+      "japanese": "後ほど改めてご連絡させていただきます。",
+      "tokens": [
+        { "text": "後ほど", "kana": "のちほど" },
+        { "text": "改めて", "kana": "あらためて" },
+        { "text": "ご" },
+        { "text": "連絡", "kana": "れんらく" },
+        { "text": "させていただきます。" }
+      ],
+      "kana": "のちほどあらためてごれんらくさせていただきます",
+      "chinese": "稍后再正式联系您。",
+      "category": "progress",
+      "register": "敬語",
+      "difficulty": 3,
+      "frequencyRank": 56,
+      "chunkPattern": "後ほど改めて~させていただきます",
+      "tags": ["networking", "follow-up-commit", "close"]
+    }
+  ],
+  "dialogues": [
+    {
+      "externalId": "d001",
+      "title": "業界カンファレンスでの名刺交換",
+      "scenario": "1on1",
+      "description": "業界カンファレンスの懇親会で初対面の相手と名刺交換し、軽く自己紹介して次のアクション(後日連絡)につなげる典型的な流れ。",
+      "difficulty": 4,
+      "register": "敬語",
+      "tags": ["networking", "conference", "first-meet"],
+      "turns": [
+        {
+          "speaker": "本人",
+          "japanese": "はじめまして、〇〇株式会社の田中と申します。お名刺ちょうだいいたします。",
+          "tokens": [
+            { "text": "はじめまして、〇〇" },
+            { "text": "株式会社", "kana": "かぶしきがいしゃ" },
+            { "text": "の" },
+            { "text": "田中", "kana": "たなか" },
+            { "text": "と" },
+            { "text": "申します", "kana": "もうします" },
+            { "text": "。お" },
+            { "text": "名刺", "kana": "めいし" },
+            { "text": "ちょうだいいたします。" }
+          ],
+          "kana": "はじめましてまるまるかぶしきがいしゃのたなかともうしますおめいしちょうだいいたします",
+          "chinese": "初次见面,我是〇〇公司的田中。请收下您的名片。"
+        },
+        {
+          "speaker": "相手",
+          "japanese": "鈴木と申します。こちら、私の名刺になります。",
+          "tokens": [
+            { "text": "鈴木", "kana": "すずき" },
+            { "text": "と" },
+            { "text": "申します", "kana": "もうします" },
+            { "text": "。こちら、" },
+            { "text": "私", "kana": "わたし" },
+            { "text": "の" },
+            { "text": "名刺", "kana": "めいし" },
+            { "text": "になります。" }
+          ],
+          "kana": "すずきともうしますこちらわたしのめいしになります",
+          "chinese": "我是铃木。这是我的名片。"
+        },
+        {
+          "speaker": "本人",
+          "japanese": "ありがとうございます。御社のサービス、以前から拝見しております。ぜひ一度お話を聞かせていただきたいです。",
+          "tokens": [
+            { "text": "ありがとうございます。" },
+            { "text": "御社", "kana": "おんしゃ" },
+            { "text": "のサービス、" },
+            { "text": "以前", "kana": "いぜん" },
+            { "text": "から" },
+            { "text": "拝見", "kana": "はいけん" },
+            { "text": "しております。" },
+            { "text": "ぜひ" },
+            { "text": "一度", "kana": "いちど" },
+            { "text": "お" },
+            { "text": "話", "kana": "はなし" },
+            { "text": "を" },
+            { "text": "聞かせて", "kana": "きかせて" },
+            { "text": "いただきたいです。" }
+          ],
+          "kana": "ありがとうございますおんしゃのさーびすいぜんからはいけんしておりますぜひいちどおはなしをきかせていただきたいです",
+          "chinese": "谢谢。贵公司的服务我之前就关注。希望有机会能听您聊聊。"
+        },
+        {
+          "speaker": "相手",
+          "japanese": "恐縮です。ぜひこちらこそ。後ほど改めてご連絡させていただきます。",
+          "tokens": [
+            { "text": "恐縮", "kana": "きょうしゅく" },
+            { "text": "です。ぜひこちらこそ。" },
+            { "text": "後ほど", "kana": "のちほど" },
+            { "text": "改めて", "kana": "あらためて" },
+            { "text": "ご" },
+            { "text": "連絡", "kana": "れんらく" },
+            { "text": "させていただきます。" }
+          ],
+          "kana": "きょうしゅくですぜひこちらこそのちほどあらためてごれんらくさせていただきます",
+          "chinese": "不敢当。彼此彼此。稍后再正式联系您。"
+        },
+        {
+          "speaker": "本人",
+          "japanese": "お忙しい中、お時間いただきありがとうございました。",
+          "tokens": [
+            { "text": "お" },
+            { "text": "忙しい", "kana": "いそがしい" },
+            { "text": "中", "kana": "なか" },
+            { "text": "、お" },
+            { "text": "時間", "kana": "じかん" },
+            { "text": "いただきありがとうございました。" }
+          ],
+          "kana": "おいそがしいなかおじかんいただきありがとうございました",
+          "chinese": "百忙之中给我时间,非常感谢。"
+        }
+      ]
+    }
+  ],
+  "passages": []
+}

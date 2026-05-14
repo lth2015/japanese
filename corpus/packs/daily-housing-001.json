@@ -1,0 +1,320 @@
+{
+  "packVersion": 1,
+  "packId": "daily-housing-001",
+  "title": "Daily Housing and Landlord 001",
+  "generatedBy": "claude-opus-4-7",
+  "generatedAt": "2026-05-14",
+  "targetProfile": "Chinese native speaker, N1 reading, weak spoken daily Japanese — tenant interactions with property manager / landlord: rent issues, contract renewal, repairs, lost keys, trash rules, noise complaints, move-out. Specialized vocab for daily living.",
+  "reviewStatus": "reviewed",
+  "sentences": [
+    {
+      "externalId": "s001",
+      "japanese": "家賃の振込が遅れてしまいまして、申し訳ありません。",
+      "tokens": [
+        { "text": "家賃", "kana": "やちん" },
+        { "text": "の" },
+        { "text": "振込", "kana": "ふりこみ" },
+        { "text": "が" },
+        { "text": "遅れて", "kana": "おくれて" },
+        { "text": "しまいまして、" },
+        { "text": "申し訳ありません", "kana": "もうしわけありません" },
+        { "text": "。" }
+      ],
+      "kana": "やちんのふりこみがおくれてしまいましてもうしわけありません",
+      "chinese": "房租转账延误了,非常抱歉。",
+      "category": "apology",
+      "register": "丁寧",
+      "difficulty": 3,
+      "frequencyRank": 102,
+      "chunkPattern": "~が遅れてしまいまして、申し訳ありません",
+      "tags": ["housing", "rent", "apology"]
+    },
+    {
+      "externalId": "s002",
+      "japanese": "契約更新の手続きについて教えていただけますか。",
+      "tokens": [
+        { "text": "契約更新", "kana": "けいやくこうしん" },
+        { "text": "の" },
+        { "text": "手続き", "kana": "てつづき" },
+        { "text": "について" },
+        { "text": "教えて", "kana": "おしえて" },
+        { "text": "いただけますか。" }
+      ],
+      "kana": "けいやくこうしんのてつづきについておしえていただけますか",
+      "chinese": "能告诉我合同更新的手续吗？",
+      "category": "request",
+      "register": "丁寧",
+      "difficulty": 3,
+      "frequencyRank": 86,
+      "chunkPattern": "~の手続きについて教えていただけますか",
+      "tags": ["housing", "renewal", "process"]
+    },
+    {
+      "externalId": "s003",
+      "japanese": "エアコンが故障しているようで、修理をお願いできますか。",
+      "tokens": [
+        { "text": "エアコンが" },
+        { "text": "故障", "kana": "こしょう" },
+        { "text": "しているようで、" },
+        { "text": "修理", "kana": "しゅうり" },
+        { "text": "をお" },
+        { "text": "願い", "kana": "ねがい" },
+        { "text": "できますか。" }
+      ],
+      "kana": "えあこんがこしょうしているようでしゅうりをおねがいできますか",
+      "chinese": "空调好像坏了,能帮忙修理吗？",
+      "category": "rescue",
+      "register": "丁寧",
+      "difficulty": 3,
+      "frequencyRank": 78,
+      "chunkPattern": "~が故障しているようで、修理をお願いできますか",
+      "tags": ["housing", "repair", "appliance"]
+    },
+    {
+      "externalId": "s004",
+      "japanese": "鍵を失くしてしまいました。",
+      "tokens": [
+        { "text": "鍵", "kana": "かぎ" },
+        { "text": "を" },
+        { "text": "失くして", "kana": "なくして" },
+        { "text": "しまいました。" }
+      ],
+      "kana": "かぎをなくしてしまいました",
+      "chinese": "我把钥匙弄丢了。",
+      "category": "rescue",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 95,
+      "chunkPattern": "~を失くしてしまいました",
+      "tags": ["housing", "lost-key", "trouble"]
+    },
+    {
+      "externalId": "s005",
+      "japanese": "ゴミ出しのルールを教えていただけますか。",
+      "tokens": [
+        { "text": "ゴミ" },
+        { "text": "出し", "kana": "だし" },
+        { "text": "のルールを" },
+        { "text": "教えて", "kana": "おしえて" },
+        { "text": "いただけますか。" }
+      ],
+      "kana": "ごみだしのるーるをおしえていただけますか",
+      "chinese": "能告诉我倒垃圾的规则吗？",
+      "category": "request",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 64,
+      "chunkPattern": "~のルールを教えていただけますか",
+      "tags": ["housing", "trash", "rules"]
+    },
+    {
+      "externalId": "s006",
+      "japanese": "退去の連絡はいつまでにすればいいですか。",
+      "tokens": [
+        { "text": "退去", "kana": "たいきょ" },
+        { "text": "の" },
+        { "text": "連絡", "kana": "れんらく" },
+        { "text": "はいつまでにすればいいですか。" }
+      ],
+      "kana": "たいきょのれんらくはいつまでにすればいいですか",
+      "chinese": "退租通知什么时候之前要告知？",
+      "category": "request",
+      "register": "丁寧",
+      "difficulty": 3,
+      "frequencyRank": 118,
+      "chunkPattern": "~の連絡はいつまでにすればいいですか",
+      "tags": ["housing", "move-out", "deadline"]
+    },
+    {
+      "externalId": "s007",
+      "japanese": "共益費に何が含まれていますか。",
+      "tokens": [
+        { "text": "共益費", "kana": "きょうえきひ" },
+        { "text": "に" },
+        { "text": "何", "kana": "なに" },
+        { "text": "が" },
+        { "text": "含まれて", "kana": "ふくまれて" },
+        { "text": "いますか。" }
+      ],
+      "kana": "きょうえきひになにがふくまれていますか",
+      "chinese": "管理费里包含什么？",
+      "category": "request",
+      "register": "丁寧",
+      "difficulty": 3,
+      "frequencyRank": 125,
+      "chunkPattern": "~に何が含まれていますか",
+      "tags": ["housing", "fees", "ask"]
+    },
+    {
+      "externalId": "s008",
+      "japanese": "内見をお願いしたいんですが。",
+      "tokens": [
+        { "text": "内見", "kana": "ないけん" },
+        { "text": "をお" },
+        { "text": "願い", "kana": "ねがい" },
+        { "text": "したいんですが。" }
+      ],
+      "kana": "ないけんをおねがいしたいんですが",
+      "chinese": "想看一下房。",
+      "category": "request",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 88,
+      "chunkPattern": "~をお願いしたいんですが",
+      "tags": ["housing", "viewing", "before-move"]
+    },
+    {
+      "externalId": "s009",
+      "japanese": "保証人の書類は揃っています。",
+      "tokens": [
+        { "text": "保証人", "kana": "ほしょうにん" },
+        { "text": "の" },
+        { "text": "書類", "kana": "しょるい" },
+        { "text": "は" },
+        { "text": "揃って", "kana": "そろって" },
+        { "text": "います。" }
+      ],
+      "kana": "ほしょうにんのしょるいはそろっています",
+      "chinese": "担保人的资料齐全了。",
+      "category": "progress",
+      "register": "丁寧",
+      "difficulty": 3,
+      "frequencyRank": 132,
+      "chunkPattern": "~は揃っています",
+      "tags": ["housing", "guarantor", "docs"]
+    },
+    {
+      "externalId": "s010",
+      "japanese": "礼金は更新時にも必要ですか。",
+      "tokens": [
+        { "text": "礼金", "kana": "れいきん" },
+        { "text": "は" },
+        { "text": "更新時", "kana": "こうしんじ" },
+        { "text": "にも" },
+        { "text": "必要", "kana": "ひつよう" },
+        { "text": "ですか。" }
+      ],
+      "kana": "れいきんはこうしんじにもひつようですか",
+      "chinese": "续约时也要交礼金吗？",
+      "category": "request",
+      "register": "丁寧",
+      "difficulty": 3,
+      "frequencyRank": 142,
+      "chunkPattern": "~は~にも必要ですか",
+      "tags": ["housing", "fees", "renewal"]
+    },
+    {
+      "externalId": "s011",
+      "japanese": "上の階の音が気になっています。",
+      "tokens": [
+        { "text": "上", "kana": "うえ" },
+        { "text": "の" },
+        { "text": "階", "kana": "かい" },
+        { "text": "の" },
+        { "text": "音", "kana": "おと" },
+        { "text": "が" },
+        { "text": "気", "kana": "き" },
+        { "text": "になっています。" }
+      ],
+      "kana": "うえのかいのおとがきになっています",
+      "chinese": "楼上的声音让我有点在意。",
+      "category": "rescue",
+      "register": "丁寧",
+      "difficulty": 3,
+      "frequencyRank": 108,
+      "chunkPattern": "~が気になっています",
+      "tags": ["housing", "noise", "complaint"]
+    }
+  ],
+  "dialogues": [
+    {
+      "externalId": "d001",
+      "title": "不動産屋にエアコン修理を依頼",
+      "scenario": "phone",
+      "description": "賃貸物件のエアコンが故障し、不動産管理会社に電話して修理手配を依頼する流れ。症状の説明 → 訪問日時の調整。",
+      "difficulty": 3,
+      "register": "丁寧",
+      "tags": ["housing", "phone", "repair"],
+      "turns": [
+        {
+          "speaker": "入居者",
+          "japanese": "もしもし、〇〇マンションの田中です。エアコンが故障しているようで、修理をお願いできますか。",
+          "tokens": [
+            { "text": "もしもし、〇〇マンションの" },
+            { "text": "田中", "kana": "たなか" },
+            { "text": "です。エアコンが" },
+            { "text": "故障", "kana": "こしょう" },
+            { "text": "しているようで、" },
+            { "text": "修理", "kana": "しゅうり" },
+            { "text": "をお" },
+            { "text": "願い", "kana": "ねがい" },
+            { "text": "できますか。" }
+          ],
+          "kana": "もしもしまるまるまんしょんのたなかですえあこんがこしょうしているようでしゅうりをおねがいできますか",
+          "chinese": "您好,我是〇〇公寓的田中。空调好像坏了,能帮忙修理吗？"
+        },
+        {
+          "speaker": "担当者",
+          "japanese": "かしこまりました。症状を詳しく教えていただけますか。",
+          "tokens": [
+            { "text": "かしこまりました。" },
+            { "text": "症状", "kana": "しょうじょう" },
+            { "text": "を" },
+            { "text": "詳しく", "kana": "くわしく" },
+            { "text": "教えて", "kana": "おしえて" },
+            { "text": "いただけますか。" }
+          ],
+          "kana": "かしこまりましたしょうじょうをくわしくおしえていただけますか",
+          "chinese": "好的。能详细说说情况吗？"
+        },
+        {
+          "speaker": "入居者",
+          "japanese": "冷房が効かなくなりました。一昨日からです。",
+          "tokens": [
+            { "text": "冷房", "kana": "れいぼう" },
+            { "text": "が" },
+            { "text": "効かなく", "kana": "きかなく" },
+            { "text": "なりました。" },
+            { "text": "一昨日", "kana": "おととい" },
+            { "text": "からです。" }
+          ],
+          "kana": "れいぼうがきかなくなりましたおとといからです",
+          "chinese": "制冷不工作了。前天开始的。"
+        },
+        {
+          "speaker": "担当者",
+          "japanese": "業者の手配をいたします。明日の午後ご訪問できますが、ご都合はいかがでしょうか。",
+          "tokens": [
+            { "text": "業者", "kana": "ぎょうしゃ" },
+            { "text": "の" },
+            { "text": "手配", "kana": "てはい" },
+            { "text": "をいたします。" },
+            { "text": "明日", "kana": "あした" },
+            { "text": "の" },
+            { "text": "午後", "kana": "ごご" },
+            { "text": "ご" },
+            { "text": "訪問", "kana": "ほうもん" },
+            { "text": "できますが、ご" },
+            { "text": "都合", "kana": "つごう" },
+            { "text": "はいかがでしょうか。" }
+          ],
+          "kana": "ぎょうしゃのてはいをいたしますあしたのごごごほうもんできますがごつごうはいかがでしょうか",
+          "chinese": "我们安排维修商。明天下午可以上门,您方便吗？"
+        },
+        {
+          "speaker": "入居者",
+          "japanese": "大丈夫です、よろしくお願いします。",
+          "tokens": [
+            { "text": "大丈夫", "kana": "だいじょうぶ" },
+            { "text": "です、よろしくお" },
+            { "text": "願い", "kana": "ねがい" },
+            { "text": "します。" }
+          ],
+          "kana": "だいじょうぶですよろしくおねがいします",
+          "chinese": "可以,麻烦您了。"
+        }
+      ]
+    }
+  ],
+  "passages": []
+}

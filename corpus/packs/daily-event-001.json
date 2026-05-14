@@ -1,0 +1,282 @@
+{
+  "packVersion": 1,
+  "packId": "daily-event-001",
+  "title": "Daily Drinking Party and Networking Event 001",
+  "generatedBy": "claude-opus-4-7",
+  "generatedAt": "2026-05-14",
+  "targetProfile": "Chinese native speaker, N1 reading, weak spoken daily Japanese — drinking parties (飲み会), end-of-year parties (忘年会), networking events. Host gestures, toasts, splitting bills, declining drinks, polite exits. Critical for an executive who attends events regularly.",
+  "reviewStatus": "reviewed",
+  "sentences": [
+    {
+      "externalId": "s001",
+      "japanese": "乾杯！",
+      "tokens": [
+        { "text": "乾杯", "kana": "かんぱい" },
+        { "text": "！" }
+      ],
+      "kana": "かんぱい",
+      "chinese": "干杯！",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 12,
+      "chunkPattern": "乾杯",
+      "tags": ["event", "toast", "universal"]
+    },
+    {
+      "externalId": "s002",
+      "japanese": "みなさん、お疲れ様でした！",
+      "tokens": [
+        { "text": "みなさん、" },
+        { "text": "お疲れ様", "kana": "おつかれさま" },
+        { "text": "でした！" }
+      ],
+      "kana": "みなさんおつかれさまでした",
+      "chinese": "大家辛苦啦！",
+      "category": "smalltalk",
+      "register": "丁寧",
+      "difficulty": 1,
+      "frequencyRank": 25,
+      "chunkPattern": "みなさん、お疲れ様でした",
+      "tags": ["event", "opener", "group"]
+    },
+    {
+      "externalId": "s003",
+      "japanese": "今日は私が払います。",
+      "tokens": [
+        { "text": "今日", "kana": "きょう" },
+        { "text": "は" },
+        { "text": "私", "kana": "わたし" },
+        { "text": "が" },
+        { "text": "払います", "kana": "はらいます" },
+        { "text": "。" }
+      ],
+      "kana": "きょうはわたしがはらいます",
+      "chinese": "今天我请客。",
+      "category": "smalltalk",
+      "register": "丁寧",
+      "difficulty": 1,
+      "frequencyRank": 58,
+      "chunkPattern": "今日は私が~ます",
+      "tags": ["event", "host-pay", "treat"]
+    },
+    {
+      "externalId": "s004",
+      "japanese": "割り勘でいきましょう。",
+      "tokens": [
+        { "text": "割り勘", "kana": "わりかん" },
+        { "text": "でいきましょう。" }
+      ],
+      "kana": "わりかんでいきましょう",
+      "chinese": "AA 制吧。",
+      "category": "request",
+      "register": "丁寧",
+      "difficulty": 1,
+      "frequencyRank": 72,
+      "chunkPattern": "~でいきましょう",
+      "tags": ["event", "split-bill", "casual"]
+    },
+    {
+      "externalId": "s005",
+      "japanese": "もう一杯いかがですか。",
+      "tokens": [
+        { "text": "もう" },
+        { "text": "一杯", "kana": "いっぱい" },
+        { "text": "いかがですか。" }
+      ],
+      "kana": "もういっぱいいかがですか",
+      "chinese": "再来一杯怎么样？",
+      "category": "request",
+      "register": "丁寧",
+      "difficulty": 1,
+      "frequencyRank": 45,
+      "chunkPattern": "もう~いかがですか",
+      "tags": ["event", "offer-drink", "polite"]
+    },
+    {
+      "externalId": "s006",
+      "japanese": "二次会、行きましょうか。",
+      "tokens": [
+        { "text": "二次会", "kana": "にじかい" },
+        { "text": "、" },
+        { "text": "行きましょうか", "kana": "いきましょうか" },
+        { "text": "。" }
+      ],
+      "kana": "にじかいいきましょうか",
+      "chinese": "去续摊吗？",
+      "category": "request",
+      "register": "丁寧",
+      "difficulty": 1,
+      "frequencyRank": 65,
+      "chunkPattern": "~、行きましょうか",
+      "tags": ["event", "after-party", "invite"]
+    },
+    {
+      "externalId": "s007",
+      "japanese": "すいません、お酒は控えています。",
+      "tokens": [
+        { "text": "すいません、お" },
+        { "text": "酒", "kana": "さけ" },
+        { "text": "は" },
+        { "text": "控えて", "kana": "ひかえて" },
+        { "text": "います。" }
+      ],
+      "kana": "すいませんおさけはひかえています",
+      "chinese": "不好意思,我在节酒。",
+      "category": "request",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 88,
+      "chunkPattern": "すいません、~は控えています",
+      "tags": ["event", "decline-alcohol", "polite"]
+    },
+    {
+      "externalId": "s008",
+      "japanese": "ちょっと飲み過ぎたかも。",
+      "tokens": [
+        { "text": "ちょっと" },
+        { "text": "飲み過ぎた", "kana": "のみすぎた" },
+        { "text": "かも。" }
+      ],
+      "kana": "ちょっとのみすぎたかも",
+      "chinese": "好像有点喝多了。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 78,
+      "chunkPattern": "ちょっと~たかも",
+      "tags": ["event", "vent", "drank-too-much"]
+    },
+    {
+      "externalId": "s009",
+      "japanese": "ご馳走様でした。",
+      "tokens": [
+        { "text": "ご" },
+        { "text": "馳走様", "kana": "ちそうさま" },
+        { "text": "でした。" }
+      ],
+      "kana": "ごちそうさまでした",
+      "chinese": "谢谢款待。",
+      "category": "smalltalk",
+      "register": "丁寧",
+      "difficulty": 1,
+      "frequencyRank": 15,
+      "chunkPattern": "ご馳走様でした",
+      "tags": ["event", "thanks-meal", "universal"]
+    },
+    {
+      "externalId": "s010",
+      "japanese": "楽しい時間でした、ありがとうございました。",
+      "tokens": [
+        { "text": "楽しい", "kana": "たのしい" },
+        { "text": "時間", "kana": "じかん" },
+        { "text": "でした、ありがとうございました。" }
+      ],
+      "kana": "たのしいじかんでしたありがとうございました",
+      "chinese": "今天很愉快,谢谢。",
+      "category": "smalltalk",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 52,
+      "chunkPattern": "~時間でした、ありがとうございました",
+      "tags": ["event", "thanks-end", "polite"]
+    },
+    {
+      "externalId": "s011",
+      "japanese": "お先に失礼します。",
+      "tokens": [
+        { "text": "お" },
+        { "text": "先", "kana": "さき" },
+        { "text": "に" },
+        { "text": "失礼", "kana": "しつれい" },
+        { "text": "します。" }
+      ],
+      "kana": "おさきにしつれいします",
+      "chinese": "我先告辞了。",
+      "category": "smalltalk",
+      "register": "丁寧",
+      "difficulty": 1,
+      "frequencyRank": 35,
+      "chunkPattern": "お先に失礼します",
+      "tags": ["event", "leave-first", "polite"]
+    }
+  ],
+  "dialogues": [
+    {
+      "externalId": "d001",
+      "title": "部内忘年会の冒頭と〆",
+      "scenario": "1on1",
+      "description": "幹事の乾杯挨拶から、上司の奢り宣言、最後の締めまでの飲み会全体の流れ。",
+      "difficulty": 2,
+      "register": "丁寧",
+      "tags": ["event", "nomikai", "company-party"],
+      "turns": [
+        {
+          "speaker": "幹事",
+          "japanese": "みなさん、お疲れ様でした！それでは乾杯！",
+          "tokens": [
+            { "text": "みなさん、" },
+            { "text": "お疲れ様", "kana": "おつかれさま" },
+            { "text": "でした！それでは" },
+            { "text": "乾杯", "kana": "かんぱい" },
+            { "text": "！" }
+          ],
+          "kana": "みなさんおつかれさまでしたそれではかんぱい",
+          "chinese": "大家辛苦了！那么干杯！"
+        },
+        {
+          "speaker": "全員",
+          "japanese": "乾杯！",
+          "tokens": [
+            { "text": "乾杯", "kana": "かんぱい" },
+            { "text": "！" }
+          ],
+          "kana": "かんぱい",
+          "chinese": "干杯！"
+        },
+        {
+          "speaker": "上司",
+          "japanese": "今日は私が払います。割り勘なしで！",
+          "tokens": [
+            { "text": "今日", "kana": "きょう" },
+            { "text": "は" },
+            { "text": "私", "kana": "わたし" },
+            { "text": "が" },
+            { "text": "払います", "kana": "はらいます" },
+            { "text": "。" },
+            { "text": "割り勘", "kana": "わりかん" },
+            { "text": "なしで！" }
+          ],
+          "kana": "きょうはわたしがはらいますわりかんなしで",
+          "chinese": "今天我请。不 AA 制！"
+        },
+        {
+          "speaker": "メンバー",
+          "japanese": "ありがとうございます！ご馳走様でした。",
+          "tokens": [
+            { "text": "ありがとうございます！" },
+            { "text": "ご" },
+            { "text": "馳走様", "kana": "ちそうさま" },
+            { "text": "でした。" }
+          ],
+          "kana": "ありがとうございますごちそうさまでした",
+          "chinese": "谢谢！谢谢款待。"
+        },
+        {
+          "speaker": "上司",
+          "japanese": "楽しい時間でした、ありがとうございました。お疲れ様！",
+          "tokens": [
+            { "text": "楽しい", "kana": "たのしい" },
+            { "text": "時間", "kana": "じかん" },
+            { "text": "でした、ありがとうございました。" },
+            { "text": "お疲れ様", "kana": "おつかれさま" },
+            { "text": "！" }
+          ],
+          "kana": "たのしいじかんでしたありがとうございましたおつかれさま",
+          "chinese": "今天很愉快,谢谢大家。辛苦了！"
+        }
+      ]
+    }
+  ],
+  "passages": []
+}

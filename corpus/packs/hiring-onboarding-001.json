@@ -1,0 +1,306 @@
+{
+  "packVersion": 1,
+  "packId": "hiring-onboarding-001",
+  "title": "Hiring Onboarding from Manager Side 001",
+  "generatedBy": "claude-opus-4-7",
+  "generatedAt": "2026-05-14",
+  "targetProfile": "Chinese native speaker, N1 reading, weak workplace Japanese. User is manager onboarding new hires. This pack covers welcome greeting, team intro, OJT framing, mentor assignment, 1on1 cadence, low-pressure first month framing, eval cycle, open floor. All 丁寧, manager → new hire register.",
+  "reviewStatus": "reviewed",
+  "sentences": [
+    {
+      "externalId": "s001",
+      "japanese": "入社おめでとうございます。",
+      "tokens": [
+        { "text": "入社", "kana": "にゅうしゃ" },
+        { "text": "おめでとうございます。" }
+      ],
+      "kana": "にゅうしゃおめでとうございます",
+      "chinese": "恭喜入职。",
+      "category": "smalltalk",
+      "register": "丁寧",
+      "difficulty": 1,
+      "frequencyRank": 38,
+      "chunkPattern": "入社おめでとうございます",
+      "tags": ["onboarding", "welcome", "open"]
+    },
+    {
+      "externalId": "s002",
+      "japanese": "簡単にチーム紹介させてください。",
+      "tokens": [
+        { "text": "簡単", "kana": "かんたん" },
+        { "text": "にチーム" },
+        { "text": "紹介", "kana": "しょうかい" },
+        { "text": "させてください。" }
+      ],
+      "kana": "かんたんにちーむしょうかいさせてください",
+      "chinese": "我简单介绍下团队。",
+      "category": "progress",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 56,
+      "chunkPattern": "簡単に~させてください",
+      "tags": ["onboarding", "team-intro", "first-day"]
+    },
+    {
+      "externalId": "s003",
+      "japanese": "当面はOJTで業務を覚えていただきます。",
+      "tokens": [
+        { "text": "当面", "kana": "とうめん" },
+        { "text": "はOJTで" },
+        { "text": "業務", "kana": "ぎょうむ" },
+        { "text": "を" },
+        { "text": "覚えて", "kana": "おぼえて" },
+        { "text": "いただきます。" }
+      ],
+      "kana": "とうめんはおーじぇーてぃーでぎょうむをおぼえていただきます",
+      "chinese": "暂时通过 OJT 来熟悉业务。",
+      "category": "progress",
+      "register": "丁寧",
+      "difficulty": 3,
+      "frequencyRank": 75,
+      "chunkPattern": "当面は~で~を覚えていただきます",
+      "tags": ["onboarding", "ojt", "learning-mode"]
+    },
+    {
+      "externalId": "s004",
+      "japanese": "何かわからないことがあれば、いつでも聞いてください。",
+      "tokens": [
+        { "text": "何か", "kana": "なにか" },
+        { "text": "わからないことがあれば、いつでも" },
+        { "text": "聞いて", "kana": "きいて" },
+        { "text": "ください。" }
+      ],
+      "kana": "なにかわからないことがあればいつでもきいてください",
+      "chinese": "有什么不懂的随时问。",
+      "category": "request",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 42,
+      "chunkPattern": "何かわからないことがあれば、いつでも~てください",
+      "tags": ["onboarding", "open-door", "support"]
+    },
+    {
+      "externalId": "s005",
+      "japanese": "メンターは田中さんに担当してもらいます。",
+      "tokens": [
+        { "text": "メンターは" },
+        { "text": "田中", "kana": "たなか" },
+        { "text": "さんに" },
+        { "text": "担当", "kana": "たんとう" },
+        { "text": "してもらいます。" }
+      ],
+      "kana": "めんたーはたなかさんにたんとうしてもらいます",
+      "chinese": "导师由田中担任。",
+      "category": "progress",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 68,
+      "chunkPattern": "~は~さんに担当してもらいます",
+      "tags": ["onboarding", "mentor", "assign"]
+    },
+    {
+      "externalId": "s006",
+      "japanese": "1on1は週次で実施しています。",
+      "tokens": [
+        { "text": "1on1は" },
+        { "text": "週次", "kana": "しゅうじ" },
+        { "text": "で" },
+        { "text": "実施", "kana": "じっし" },
+        { "text": "しています。" }
+      ],
+      "kana": "わんおんわんはしゅうじでじっししています",
+      "chinese": "1on1 是每周做的。",
+      "category": "progress",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 82,
+      "chunkPattern": "~は~で実施しています",
+      "tags": ["onboarding", "1on1", "cadence"]
+    },
+    {
+      "externalId": "s007",
+      "japanese": "最初の1ヶ月は無理せず慣れることを優先してください。",
+      "tokens": [
+        { "text": "最初", "kana": "さいしょ" },
+        { "text": "の" },
+        { "text": "1ヶ月", "kana": "いっかげつ" },
+        { "text": "は" },
+        { "text": "無理", "kana": "むり" },
+        { "text": "せず" },
+        { "text": "慣れる", "kana": "なれる" },
+        { "text": "ことを" },
+        { "text": "優先", "kana": "ゆうせん" },
+        { "text": "してください。" }
+      ],
+      "kana": "さいしょのいっかげつはむりせずなれることをゆうせんしてください",
+      "chinese": "最初一个月先优先适应,别太勉强。",
+      "category": "request",
+      "register": "丁寧",
+      "difficulty": 3,
+      "frequencyRank": 95,
+      "chunkPattern": "最初の~は無理せず~ことを優先してください",
+      "tags": ["onboarding", "first-month", "low-pressure"]
+    },
+    {
+      "externalId": "s008",
+      "japanese": "困ったときはSlackで気軽に相談してください。",
+      "tokens": [
+        { "text": "困った", "kana": "こまった" },
+        { "text": "ときはSlackで" },
+        { "text": "気軽", "kana": "きがる" },
+        { "text": "に" },
+        { "text": "相談", "kana": "そうだん" },
+        { "text": "してください。" }
+      ],
+      "kana": "こまったときはすらっくできがるにそうだんしてください",
+      "chinese": "有困难就在 Slack 上随时找我。",
+      "category": "request",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 72,
+      "chunkPattern": "困ったときは~で気軽に~てください",
+      "tags": ["onboarding", "help-channel", "support"]
+    },
+    {
+      "externalId": "s009",
+      "japanese": "評価サイクルは半年ごとです。",
+      "tokens": [
+        { "text": "評価", "kana": "ひょうか" },
+        { "text": "サイクルは" },
+        { "text": "半年", "kana": "はんとし" },
+        { "text": "ごとです。" }
+      ],
+      "kana": "ひょうかさいくるははんとしごとです",
+      "chinese": "评估周期是每半年。",
+      "category": "progress",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 108,
+      "chunkPattern": "~は~ごとです",
+      "tags": ["onboarding", "evaluation", "cycle"]
+    },
+    {
+      "externalId": "s010",
+      "japanese": "何か質問はありますか。",
+      "tokens": [
+        { "text": "何か", "kana": "なにか" },
+        { "text": "質問", "kana": "しつもん" },
+        { "text": "はありますか。" }
+      ],
+      "kana": "なにかしつもんはありますか",
+      "chinese": "有什么问题吗？",
+      "category": "request",
+      "register": "丁寧",
+      "difficulty": 1,
+      "frequencyRank": 28,
+      "chunkPattern": "何か~はありますか",
+      "tags": ["onboarding", "open-floor", "close"]
+    },
+    {
+      "externalId": "s011",
+      "japanese": "これからよろしくお願いします。",
+      "tokens": [
+        { "text": "これからよろしくお" },
+        { "text": "願い", "kana": "ねがい" },
+        { "text": "します。" }
+      ],
+      "kana": "これからよろしくおねがいします",
+      "chinese": "今后请多关照。",
+      "category": "smalltalk",
+      "register": "丁寧",
+      "difficulty": 1,
+      "frequencyRank": 22,
+      "chunkPattern": "これからよろしくお願いします",
+      "tags": ["onboarding", "close", "welcome"]
+    }
+  ],
+  "dialogues": [
+    {
+      "externalId": "d001",
+      "title": "新入社員のオリエンテーション",
+      "scenario": "1on1",
+      "description": "新入社員の初日に上司が行うオリエンテーション。歓迎挨拶 → チーム/OJT 説明 → メンター割当 → 最初の1ヶ月の指針 → 質問受付。",
+      "difficulty": 3,
+      "register": "丁寧",
+      "tags": ["onboarding", "first-day", "manager-side"],
+      "turns": [
+        {
+          "speaker": "上司",
+          "japanese": "入社おめでとうございます。簡単にチーム紹介させてください。",
+          "tokens": [
+            { "text": "入社", "kana": "にゅうしゃ" },
+            { "text": "おめでとうございます。" },
+            { "text": "簡単", "kana": "かんたん" },
+            { "text": "にチーム" },
+            { "text": "紹介", "kana": "しょうかい" },
+            { "text": "させてください。" }
+          ],
+          "kana": "にゅうしゃおめでとうございますかんたんにちーむしょうかいさせてください",
+          "chinese": "恭喜入职。我简单介绍下团队。"
+        },
+        {
+          "speaker": "新入社員",
+          "japanese": "ありがとうございます。よろしくお願いします。",
+          "tokens": [
+            { "text": "ありがとうございます。よろしくお" },
+            { "text": "願い", "kana": "ねがい" },
+            { "text": "します。" }
+          ],
+          "kana": "ありがとうございますよろしくおねがいします",
+          "chinese": "谢谢您。请多关照。"
+        },
+        {
+          "speaker": "上司",
+          "japanese": "当面はOJTで業務を覚えていただきます。メンターは田中さんに担当してもらいます。",
+          "tokens": [
+            { "text": "当面", "kana": "とうめん" },
+            { "text": "はOJTで" },
+            { "text": "業務", "kana": "ぎょうむ" },
+            { "text": "を" },
+            { "text": "覚えて", "kana": "おぼえて" },
+            { "text": "いただきます。" },
+            { "text": "メンターは" },
+            { "text": "田中", "kana": "たなか" },
+            { "text": "さんに" },
+            { "text": "担当", "kana": "たんとう" },
+            { "text": "してもらいます。" }
+          ],
+          "kana": "とうめんはおーじぇーてぃーでぎょうむをおぼえていただきますめんたーはたなかさんにたんとうしてもらいます",
+          "chinese": "暂时通过 OJT 来熟悉业务。导师由田中担任。"
+        },
+        {
+          "speaker": "新入社員",
+          "japanese": "承知しました。",
+          "tokens": [
+            { "text": "承知", "kana": "しょうち" },
+            { "text": "しました。" }
+          ],
+          "kana": "しょうちしました",
+          "chinese": "明白了。"
+        },
+        {
+          "speaker": "上司",
+          "japanese": "最初の1ヶ月は無理せず慣れることを優先してください。何か質問はありますか。",
+          "tokens": [
+            { "text": "最初", "kana": "さいしょ" },
+            { "text": "の" },
+            { "text": "1ヶ月", "kana": "いっかげつ" },
+            { "text": "は" },
+            { "text": "無理", "kana": "むり" },
+            { "text": "せず" },
+            { "text": "慣れる", "kana": "なれる" },
+            { "text": "ことを" },
+            { "text": "優先", "kana": "ゆうせん" },
+            { "text": "してください。" },
+            { "text": "何か", "kana": "なにか" },
+            { "text": "質問", "kana": "しつもん" },
+            { "text": "はありますか。" }
+          ],
+          "kana": "さいしょのいっかげつはむりせずなれることをゆうせんしてくださいなにかしつもんはありますか",
+          "chinese": "最初一个月先优先适应,别太勉强。有什么问题吗？"
+        }
+      ]
+    }
+  ],
+  "passages": []
+}

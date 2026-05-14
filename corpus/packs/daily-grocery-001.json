@@ -1,0 +1,266 @@
+{
+  "packVersion": 1,
+  "packId": "daily-grocery-001",
+  "title": "Daily Grocery and Supermarket 001",
+  "generatedBy": "claude-opus-4-7",
+  "generatedAt": "2026-05-14",
+  "targetProfile": "Chinese native speaker, N1 reading, weak spoken daily Japanese — supermarket scenarios: finding items, expiration questions, sampling, discounts, bagging preferences, coupons, point cards. High frequency for anyone shopping in Japan.",
+  "reviewStatus": "reviewed",
+  "sentences": [
+    {
+      "externalId": "s001",
+      "japanese": "醤油はどこにありますか。",
+      "tokens": [
+        { "text": "醤油", "kana": "しょうゆ" },
+        { "text": "はどこにありますか。" }
+      ],
+      "kana": "しょうゆはどこにありますか",
+      "chinese": "酱油在哪里？",
+      "category": "request",
+      "register": "丁寧",
+      "difficulty": 1,
+      "frequencyRank": 45,
+      "chunkPattern": "~はどこにありますか",
+      "tags": ["grocery", "find-item", "ask"]
+    },
+    {
+      "externalId": "s002",
+      "japanese": "これ、賞味期限はいつまでですか。",
+      "tokens": [
+        { "text": "これ、" },
+        { "text": "賞味期限", "kana": "しょうみきげん" },
+        { "text": "はいつまでですか。" }
+      ],
+      "kana": "これしょうみきげんはいつまでですか",
+      "chinese": "这个保质期到什么时候？",
+      "category": "request",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 88,
+      "chunkPattern": "これ、~はいつまでですか",
+      "tags": ["grocery", "expiration", "ask"]
+    },
+    {
+      "externalId": "s003",
+      "japanese": "量り売りはできますか。",
+      "tokens": [
+        { "text": "量り売り", "kana": "はかりうり" },
+        { "text": "はできますか。" }
+      ],
+      "kana": "はかりうりはできますか",
+      "chinese": "可以按重量买吗？",
+      "category": "request",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 138,
+      "chunkPattern": "~はできますか",
+      "tags": ["grocery", "by-weight", "ask"]
+    },
+    {
+      "externalId": "s004",
+      "japanese": "試食できますか。",
+      "tokens": [
+        { "text": "試食", "kana": "ししょく" },
+        { "text": "できますか。" }
+      ],
+      "kana": "ししょくできますか",
+      "chinese": "可以试吃吗？",
+      "category": "request",
+      "register": "丁寧",
+      "difficulty": 1,
+      "frequencyRank": 95,
+      "chunkPattern": "~できますか",
+      "tags": ["grocery", "sample", "ask"]
+    },
+    {
+      "externalId": "s005",
+      "japanese": "これ、半額になっていますか。",
+      "tokens": [
+        { "text": "これ、" },
+        { "text": "半額", "kana": "はんがく" },
+        { "text": "になっていますか。" }
+      ],
+      "kana": "これはんがくになっていますか",
+      "chinese": "这个是半价吗？",
+      "category": "request",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 75,
+      "chunkPattern": "これ、~になっていますか",
+      "tags": ["grocery", "discount", "verify"]
+    },
+    {
+      "externalId": "s006",
+      "japanese": "袋を別々にしていただけますか。",
+      "tokens": [
+        { "text": "袋", "kana": "ふくろ" },
+        { "text": "を" },
+        { "text": "別々", "kana": "べつべつ" },
+        { "text": "にしていただけますか。" }
+      ],
+      "kana": "ふくろをべつべつにしていただけますか",
+      "chinese": "能分开装袋吗？",
+      "category": "request",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 102,
+      "chunkPattern": "~を別々にしていただけますか",
+      "tags": ["grocery", "bagging", "request"]
+    },
+    {
+      "externalId": "s007",
+      "japanese": "レジ袋はいりません。",
+      "tokens": [
+        { "text": "レジ" },
+        { "text": "袋", "kana": "ぶくろ" },
+        { "text": "はいりません。" }
+      ],
+      "kana": "れじぶくろはいりません",
+      "chinese": "不要塑料袋。",
+      "category": "request",
+      "register": "丁寧",
+      "difficulty": 1,
+      "frequencyRank": 32,
+      "chunkPattern": "~はいりません",
+      "tags": ["grocery", "no-bag", "checkout"]
+    },
+    {
+      "externalId": "s008",
+      "japanese": "クーポンは使えますか。",
+      "tokens": [
+        { "text": "クーポンは" },
+        { "text": "使えます", "kana": "つかえます" },
+        { "text": "か。" }
+      ],
+      "kana": "くーぽんはつかえますか",
+      "chinese": "优惠券能用吗？",
+      "category": "request",
+      "register": "丁寧",
+      "difficulty": 1,
+      "frequencyRank": 68,
+      "chunkPattern": "~は使えますか",
+      "tags": ["grocery", "coupon", "ask"]
+    },
+    {
+      "externalId": "s009",
+      "japanese": "ポイントカードはこちらです。",
+      "tokens": [
+        { "text": "ポイントカードはこちらです。" }
+      ],
+      "kana": "ぽいんとかーどはこちらです",
+      "chinese": "积分卡在这里。",
+      "category": "progress",
+      "register": "丁寧",
+      "difficulty": 1,
+      "frequencyRank": 42,
+      "chunkPattern": "~はこちらです",
+      "tags": ["grocery", "point-card", "checkout"]
+    },
+    {
+      "externalId": "s010",
+      "japanese": "レシートはいりません。",
+      "tokens": [
+        { "text": "レシートはいりません。" }
+      ],
+      "kana": "れしーとはいりません",
+      "chinese": "不要小票。",
+      "category": "request",
+      "register": "丁寧",
+      "difficulty": 1,
+      "frequencyRank": 38,
+      "chunkPattern": "~はいりません",
+      "tags": ["grocery", "no-receipt", "checkout"]
+    },
+    {
+      "externalId": "s011",
+      "japanese": "もう少し新しいものはありますか。",
+      "tokens": [
+        { "text": "もう" },
+        { "text": "少し", "kana": "すこし" },
+        { "text": "新しい", "kana": "あたらしい" },
+        { "text": "ものはありますか。" }
+      ],
+      "kana": "もうすこしあたらしいものはありますか",
+      "chinese": "有更新一点的吗？",
+      "category": "request",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 92,
+      "chunkPattern": "もう少し~ものはありますか",
+      "tags": ["grocery", "freshness", "ask"]
+    }
+  ],
+  "dialogues": [
+    {
+      "externalId": "d001",
+      "title": "スーパーのレジで",
+      "scenario": "1on1",
+      "description": "スーパーの会計時にポイントカード、袋、クーポンを一通りやり取りする会話。",
+      "difficulty": 2,
+      "register": "丁寧",
+      "tags": ["grocery", "checkout", "supermarket"],
+      "turns": [
+        {
+          "speaker": "レジ係",
+          "japanese": "いらっしゃいませ。ポイントカードはお持ちですか。",
+          "tokens": [
+            { "text": "いらっしゃいませ。ポイントカードはお" },
+            { "text": "持ち", "kana": "もち" },
+            { "text": "ですか。" }
+          ],
+          "kana": "いらっしゃいませぽいんとかーどはおもちですか",
+          "chinese": "欢迎光临。有积分卡吗？"
+        },
+        {
+          "speaker": "客",
+          "japanese": "ポイントカードはこちらです。",
+          "tokens": [
+            { "text": "ポイントカードはこちらです。" }
+          ],
+          "kana": "ぽいんとかーどはこちらです",
+          "chinese": "积分卡在这里。"
+        },
+        {
+          "speaker": "レジ係",
+          "japanese": "ありがとうございます。袋はご利用になりますか。",
+          "tokens": [
+            { "text": "ありがとうございます。" },
+            { "text": "袋", "kana": "ふくろ" },
+            { "text": "はご" },
+            { "text": "利用", "kana": "りよう" },
+            { "text": "になりますか。" }
+          ],
+          "kana": "ありがとうございますふくろはごりようになりますか",
+          "chinese": "谢谢。需要袋子吗？"
+        },
+        {
+          "speaker": "客",
+          "japanese": "レジ袋はいりません。あ、ちょっと待ってください、クーポンは使えますか。",
+          "tokens": [
+            { "text": "レジ" },
+            { "text": "袋", "kana": "ぶくろ" },
+            { "text": "はいりません。あ、ちょっと" },
+            { "text": "待って", "kana": "まって" },
+            { "text": "ください、クーポンは" },
+            { "text": "使えます", "kana": "つかえます" },
+            { "text": "か。" }
+          ],
+          "kana": "れじぶくろはいりませんあちょっとまってくださいくーぽんはつかえますか",
+          "chinese": "不要塑料袋。啊,等一下,优惠券能用吗？"
+        },
+        {
+          "speaker": "レジ係",
+          "japanese": "はい、こちらでお受けいたします。",
+          "tokens": [
+            { "text": "はい、こちらでお" },
+            { "text": "受け", "kana": "うけ" },
+            { "text": "いたします。" }
+          ],
+          "kana": "はいこちらでおうけいたします",
+          "chinese": "好的,可以使用。"
+        }
+      ]
+    }
+  ],
+  "passages": []
+}

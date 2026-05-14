@@ -1,0 +1,196 @@
+{
+  "packVersion": 1,
+  "packId": "gratitude-multiple-001",
+  "title": "Gratitude Register Ladder for Display 001",
+  "generatedBy": "claude-opus-4-7",
+  "generatedAt": "2026-05-14",
+  "targetProfile": "Display-optimized gratitude phrases across all register levels — from casual ありがとう to 敬語 心より感謝申し上げます. 4-18 chars. Picking the right thanks for the right situation is a core social skill Chinese L1 speakers often flatten.",
+  "reviewStatus": "reviewed",
+  "sentences": [
+    {
+      "externalId": "s001",
+      "japanese": "ありがとう！",
+      "tokens": [
+        { "text": "ありがとう！" }
+      ],
+      "kana": "ありがとう",
+      "chinese": "谢谢!",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 2,
+      "chunkPattern": "ありがとう",
+      "tags": ["display", "gratitude", "casual"]
+    },
+    {
+      "externalId": "s002",
+      "japanese": "ありがとう、本当に！",
+      "tokens": [
+        { "text": "ありがとう、" },
+        { "text": "本当", "kana": "ほんとう" },
+        { "text": "に！" }
+      ],
+      "kana": "ありがとうほんとうに",
+      "chinese": "真的太谢谢了!",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 18,
+      "chunkPattern": "ありがとう、本当に",
+      "tags": ["display", "gratitude", "emphasized"]
+    },
+    {
+      "externalId": "s003",
+      "japanese": "ありがとうございます。",
+      "tokens": [
+        { "text": "ありがとうございます。" }
+      ],
+      "kana": "ありがとうございます",
+      "chinese": "谢谢您。",
+      "category": "smalltalk",
+      "register": "丁寧",
+      "difficulty": 1,
+      "frequencyRank": 3,
+      "chunkPattern": "ありがとうございます",
+      "tags": ["display", "gratitude", "polite-standard"]
+    },
+    {
+      "externalId": "s004",
+      "japanese": "本当に助かりました。",
+      "tokens": [
+        { "text": "本当", "kana": "ほんとう" },
+        { "text": "に" },
+        { "text": "助かりました", "kana": "たすかりました" },
+        { "text": "。" }
+      ],
+      "kana": "ほんとうにたすかりました",
+      "chinese": "真的帮大忙了。",
+      "category": "smalltalk",
+      "register": "丁寧",
+      "difficulty": 1,
+      "frequencyRank": 15,
+      "chunkPattern": "本当に~ました",
+      "tags": ["display", "gratitude", "real-help"]
+    },
+    {
+      "externalId": "s005",
+      "japanese": "感謝しております。",
+      "tokens": [
+        { "text": "感謝", "kana": "かんしゃ" },
+        { "text": "しております。" }
+      ],
+      "kana": "かんしゃしております",
+      "chinese": "深表感谢。",
+      "category": "smalltalk",
+      "register": "敬語",
+      "difficulty": 2,
+      "frequencyRank": 38,
+      "chunkPattern": "~しております",
+      "tags": ["display", "gratitude", "formal"]
+    },
+    {
+      "externalId": "s006",
+      "japanese": "おかげさまで助かりました。",
+      "tokens": [
+        { "text": "おかげさまで" },
+        { "text": "助かりました", "kana": "たすかりました" },
+        { "text": "。" }
+      ],
+      "kana": "おかげさまでたすかりました",
+      "chinese": "托您的福,帮大忙了。",
+      "category": "smalltalk",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 32,
+      "chunkPattern": "おかげさまで~",
+      "tags": ["display", "gratitude", "thanks-to-you"]
+    },
+    {
+      "externalId": "s007",
+      "japanese": "心より御礼申し上げます。",
+      "tokens": [
+        { "text": "心", "kana": "こころ" },
+        { "text": "より" },
+        { "text": "御礼", "kana": "おんれい" },
+        { "text": "申し上げます", "kana": "もうしあげます" },
+        { "text": "。" }
+      ],
+      "kana": "こころよりおんれいもうしあげます",
+      "chinese": "由衷致谢。",
+      "category": "smalltalk",
+      "register": "敬語",
+      "difficulty": 3,
+      "frequencyRank": 78,
+      "chunkPattern": "心より~申し上げます",
+      "tags": ["display", "gratitude", "most-formal"]
+    },
+    {
+      "externalId": "s008",
+      "japanese": "ご親切にありがとうございます。",
+      "tokens": [
+        { "text": "ご" },
+        { "text": "親切", "kana": "しんせつ" },
+        { "text": "にありがとうございます。" }
+      ],
+      "kana": "ごしんせつにありがとうございます",
+      "chinese": "感谢您的好意。",
+      "category": "smalltalk",
+      "register": "敬語",
+      "difficulty": 2,
+      "frequencyRank": 45,
+      "chunkPattern": "ご~にありがとうございます",
+      "tags": ["display", "gratitude", "for-kindness"]
+    },
+    {
+      "externalId": "s009",
+      "japanese": "ご対応ありがとうございました。",
+      "tokens": [
+        { "text": "ご" },
+        { "text": "対応", "kana": "たいおう" },
+        { "text": "ありがとうございました。" }
+      ],
+      "kana": "ごたいおうありがとうございました",
+      "chinese": "感谢您的处理。",
+      "category": "smalltalk",
+      "register": "敬語",
+      "difficulty": 1,
+      "frequencyRank": 22,
+      "chunkPattern": "ご~ありがとうございました",
+      "tags": ["display", "gratitude", "for-action"]
+    },
+    {
+      "externalId": "s010",
+      "japanese": "いつもお世話になっております。",
+      "tokens": [
+        { "text": "いつもお" },
+        { "text": "世話", "kana": "せわ" },
+        { "text": "になっております。" }
+      ],
+      "kana": "いつもおせわになっております",
+      "chinese": "一直承蒙关照。",
+      "category": "smalltalk",
+      "register": "敬語",
+      "difficulty": 1,
+      "frequencyRank": 12,
+      "chunkPattern": "いつもお世話になっております",
+      "tags": ["display", "gratitude", "ongoing-relation"]
+    },
+    {
+      "externalId": "s011",
+      "japanese": "サンキュー！",
+      "tokens": [
+        { "text": "サンキュー！" }
+      ],
+      "kana": "さんきゅー",
+      "chinese": "thank you!",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 28,
+      "chunkPattern": "サンキュー",
+      "tags": ["display", "gratitude", "casual-loan"]
+    }
+  ],
+  "dialogues": [],
+  "passages": []
+}

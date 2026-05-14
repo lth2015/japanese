@@ -1,0 +1,195 @@
+{
+  "packVersion": 1,
+  "packId": "decisions-001",
+  "title": "Decisions and Commitments for Display 001",
+  "generatedBy": "claude-opus-4-7",
+  "generatedAt": "2026-05-14",
+  "targetProfile": "Display-optimized decision-making phrases. 5-15 chars. The signal-rich short phrases that close discussions and commit to action: そうしましょう / 即決します / 一旦これで進めます / 見送ります. Critical exec/manager toolkit.",
+  "reviewStatus": "reviewed",
+  "sentences": [
+    {
+      "externalId": "s001",
+      "japanese": "そうしましょう。",
+      "tokens": [
+        { "text": "そうしましょう。" }
+      ],
+      "kana": "そうしましょう",
+      "chinese": "就这么办吧。",
+      "category": "progress",
+      "register": "丁寧",
+      "difficulty": 1,
+      "frequencyRank": 12,
+      "chunkPattern": "そうしましょう",
+      "tags": ["display", "decide", "agree-do"]
+    },
+    {
+      "externalId": "s002",
+      "japanese": "それで決めましょう。",
+      "tokens": [
+        { "text": "それで" },
+        { "text": "決めましょう", "kana": "きめましょう" },
+        { "text": "。" }
+      ],
+      "kana": "それできめましょう",
+      "chinese": "就那个定下来吧。",
+      "category": "progress",
+      "register": "丁寧",
+      "difficulty": 1,
+      "frequencyRank": 22,
+      "chunkPattern": "それで決めましょう",
+      "tags": ["display", "decide", "settle-on"]
+    },
+    {
+      "externalId": "s003",
+      "japanese": "一旦これで進めます。",
+      "tokens": [
+        { "text": "一旦", "kana": "いったん" },
+        { "text": "これで" },
+        { "text": "進めます", "kana": "すすめます" },
+        { "text": "。" }
+      ],
+      "kana": "いったんこれですすめます",
+      "chinese": "先按这个推进。",
+      "category": "progress",
+      "register": "丁寧",
+      "difficulty": 1,
+      "frequencyRank": 28,
+      "chunkPattern": "一旦これで~ます",
+      "tags": ["display", "decide", "proceed-with"]
+    },
+    {
+      "externalId": "s004",
+      "japanese": "やってみます。",
+      "tokens": [
+        { "text": "やってみます。" }
+      ],
+      "kana": "やってみます",
+      "chinese": "我试试看。",
+      "category": "progress",
+      "register": "丁寧",
+      "difficulty": 1,
+      "frequencyRank": 15,
+      "chunkPattern": "やってみます",
+      "tags": ["display", "decide", "give-try"]
+    },
+    {
+      "externalId": "s005",
+      "japanese": "任せてください。",
+      "tokens": [
+        { "text": "任せて", "kana": "まかせて" },
+        { "text": "ください。" }
+      ],
+      "kana": "まかせてください",
+      "chinese": "请交给我。",
+      "category": "progress",
+      "register": "丁寧",
+      "difficulty": 1,
+      "frequencyRank": 18,
+      "chunkPattern": "任せてください",
+      "tags": ["display", "decide", "i-will-do"]
+    },
+    {
+      "externalId": "s006",
+      "japanese": "これでいきます。",
+      "tokens": [
+        { "text": "これでいきます。" }
+      ],
+      "kana": "これでいきます",
+      "chinese": "就用这个。",
+      "category": "progress",
+      "register": "丁寧",
+      "difficulty": 1,
+      "frequencyRank": 25,
+      "chunkPattern": "これでいきます",
+      "tags": ["display", "decide", "go-with-this"]
+    },
+    {
+      "externalId": "s007",
+      "japanese": "後回しにします。",
+      "tokens": [
+        { "text": "後回し", "kana": "あとまわし" },
+        { "text": "にします。" }
+      ],
+      "kana": "あとまわしにします",
+      "chinese": "先放后面。",
+      "category": "progress",
+      "register": "丁寧",
+      "difficulty": 1,
+      "frequencyRank": 45,
+      "chunkPattern": "~にします",
+      "tags": ["display", "decide", "deprioritize"]
+    },
+    {
+      "externalId": "s008",
+      "japanese": "今回は見送ります。",
+      "tokens": [
+        { "text": "今回", "kana": "こんかい" },
+        { "text": "は" },
+        { "text": "見送ります", "kana": "みおくります" },
+        { "text": "。" }
+      ],
+      "kana": "こんかいはみおくります",
+      "chinese": "这次先不参与。",
+      "category": "progress",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 52,
+      "chunkPattern": "今回は~ます",
+      "tags": ["display", "decide", "pass-this-time"]
+    },
+    {
+      "externalId": "s009",
+      "japanese": "来週まで持ち越します。",
+      "tokens": [
+        { "text": "来週", "kana": "らいしゅう" },
+        { "text": "まで" },
+        { "text": "持ち越します", "kana": "もちこします" },
+        { "text": "。" }
+      ],
+      "kana": "らいしゅうまでもちこします",
+      "chinese": "推到下周。",
+      "category": "progress",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 65,
+      "chunkPattern": "~まで持ち越します",
+      "tags": ["display", "decide", "carry-over"]
+    },
+    {
+      "externalId": "s010",
+      "japanese": "即決します。",
+      "tokens": [
+        { "text": "即決", "kana": "そっけつ" },
+        { "text": "します。" }
+      ],
+      "kana": "そっけつします",
+      "chinese": "当场拍板。",
+      "category": "progress",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 72,
+      "chunkPattern": "即決します",
+      "tags": ["display", "decide", "decisive"]
+    },
+    {
+      "externalId": "s011",
+      "japanese": "ちょっと寝かせて考えます。",
+      "tokens": [
+        { "text": "ちょっと" },
+        { "text": "寝かせて", "kana": "ねかせて" },
+        { "text": "考えます", "kana": "かんがえます" },
+        { "text": "。" }
+      ],
+      "kana": "ちょっとねかせてかんがえます",
+      "chinese": "稍微放一下再想。",
+      "category": "progress",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 88,
+      "chunkPattern": "ちょっと寝かせて~ます",
+      "tags": ["display", "decide", "sleep-on-it"]
+    }
+  ],
+  "dialogues": [],
+  "passages": []
+}

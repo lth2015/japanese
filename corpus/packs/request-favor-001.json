@@ -1,0 +1,203 @@
+{
+  "packVersion": 1,
+  "packId": "request-favor-001",
+  "title": "Asking for Favors for Display 001",
+  "generatedBy": "claude-opus-4-7",
+  "generatedAt": "2026-05-14",
+  "targetProfile": "Display-optimized phrases for asking favors / requesting help. 6-18 chars. Range from casual (手伝ってもらえる？) to polite (お手数ですが、よろしくお願いします). Used 5-10 times a day in work + daily life.",
+  "reviewStatus": "reviewed",
+  "sentences": [
+    {
+      "externalId": "s001",
+      "japanese": "ちょっとお願いがあって。",
+      "tokens": [
+        { "text": "ちょっとお" },
+        { "text": "願い", "kana": "ねがい" },
+        { "text": "があって。" }
+      ],
+      "kana": "ちょっとおねがいがあって",
+      "chinese": "有点事想拜托…",
+      "category": "request",
+      "register": "丁寧",
+      "difficulty": 1,
+      "frequencyRank": 22,
+      "chunkPattern": "ちょっとお願いがあって",
+      "tags": ["display", "request", "open"]
+    },
+    {
+      "externalId": "s002",
+      "japanese": "教えてもらえますか。",
+      "tokens": [
+        { "text": "教えて", "kana": "おしえて" },
+        { "text": "もらえますか。" }
+      ],
+      "kana": "おしえてもらえますか",
+      "chinese": "能告诉我吗？",
+      "category": "request",
+      "register": "丁寧",
+      "difficulty": 1,
+      "frequencyRank": 16,
+      "chunkPattern": "~てもらえますか",
+      "tags": ["display", "request", "teach"]
+    },
+    {
+      "externalId": "s003",
+      "japanese": "手伝ってもらえる？",
+      "tokens": [
+        { "text": "手伝って", "kana": "てつだって" },
+        { "text": "もらえる？" }
+      ],
+      "kana": "てつだってもらえる",
+      "chinese": "能帮个忙吗？",
+      "category": "request",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 18,
+      "chunkPattern": "~てもらえる？",
+      "tags": ["display", "request", "casual-help"]
+    },
+    {
+      "externalId": "s004",
+      "japanese": "お時間少しいいですか。",
+      "tokens": [
+        { "text": "お" },
+        { "text": "時間", "kana": "じかん" },
+        { "text": "少し", "kana": "すこし" },
+        { "text": "いいですか。" }
+      ],
+      "kana": "おじかんすこしいいですか",
+      "chinese": "您有点时间吗？",
+      "category": "request",
+      "register": "丁寧",
+      "difficulty": 1,
+      "frequencyRank": 32,
+      "chunkPattern": "お時間少しいいですか",
+      "tags": ["display", "request", "time"]
+    },
+    {
+      "externalId": "s005",
+      "japanese": "確認してもらえますか。",
+      "tokens": [
+        { "text": "確認", "kana": "かくにん" },
+        { "text": "してもらえますか。" }
+      ],
+      "kana": "かくにんしてもらえますか",
+      "chinese": "能帮我确认下吗？",
+      "category": "request",
+      "register": "丁寧",
+      "difficulty": 1,
+      "frequencyRank": 14,
+      "chunkPattern": "~してもらえますか",
+      "tags": ["display", "request", "check"]
+    },
+    {
+      "externalId": "s006",
+      "japanese": "もう一度言ってもらえますか。",
+      "tokens": [
+        { "text": "もう" },
+        { "text": "一度", "kana": "いちど" },
+        { "text": "言って", "kana": "いって" },
+        { "text": "もらえますか。" }
+      ],
+      "kana": "もういちどいってもらえますか",
+      "chinese": "能再说一次吗？",
+      "category": "request",
+      "register": "丁寧",
+      "difficulty": 1,
+      "frequencyRank": 38,
+      "chunkPattern": "もう一度~てもらえますか",
+      "tags": ["display", "request", "repeat"]
+    },
+    {
+      "externalId": "s007",
+      "japanese": "メモを共有してもらえますか。",
+      "tokens": [
+        { "text": "メモを" },
+        { "text": "共有", "kana": "きょうゆう" },
+        { "text": "してもらえますか。" }
+      ],
+      "kana": "めもをきょうゆうしてもらえますか",
+      "chinese": "能把笔记同步下吗？",
+      "category": "request",
+      "register": "丁寧",
+      "difficulty": 1,
+      "frequencyRank": 55,
+      "chunkPattern": "~を共有してもらえますか",
+      "tags": ["display", "request", "share"]
+    },
+    {
+      "externalId": "s008",
+      "japanese": "一緒に確認しませんか。",
+      "tokens": [
+        { "text": "一緒", "kana": "いっしょ" },
+        { "text": "に" },
+        { "text": "確認", "kana": "かくにん" },
+        { "text": "しませんか。" }
+      ],
+      "kana": "いっしょにかくにんしませんか",
+      "chinese": "要不要一起确认？",
+      "category": "request",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 48,
+      "chunkPattern": "一緒に~しませんか",
+      "tags": ["display", "request", "invite-together"]
+    },
+    {
+      "externalId": "s009",
+      "japanese": "ちょっとアドバイスいただけますか。",
+      "tokens": [
+        { "text": "ちょっとアドバイスいただけますか。" }
+      ],
+      "kana": "ちょっとあどばいすいただけますか",
+      "chinese": "能给点建议吗？",
+      "category": "request",
+      "register": "敬語",
+      "difficulty": 2,
+      "frequencyRank": 65,
+      "chunkPattern": "ちょっと~いただけますか",
+      "tags": ["display", "request", "advice"]
+    },
+    {
+      "externalId": "s010",
+      "japanese": "急なお願いで恐縮ですが。",
+      "tokens": [
+        { "text": "急", "kana": "きゅう" },
+        { "text": "なお" },
+        { "text": "願い", "kana": "ねがい" },
+        { "text": "で" },
+        { "text": "恐縮", "kana": "きょうしゅく" },
+        { "text": "ですが。" }
+      ],
+      "kana": "きゅうなおねがいできょうしゅくですが",
+      "chinese": "突然拜托不好意思,但是…",
+      "category": "apology",
+      "register": "敬語",
+      "difficulty": 3,
+      "frequencyRank": 72,
+      "chunkPattern": "急なお願いで恐縮ですが",
+      "tags": ["display", "request", "urgent-apology"]
+    },
+    {
+      "externalId": "s011",
+      "japanese": "お手数ですが、よろしくお願いします。",
+      "tokens": [
+        { "text": "お" },
+        { "text": "手数", "kana": "てすう" },
+        { "text": "ですが、よろしくお" },
+        { "text": "願い", "kana": "ねがい" },
+        { "text": "します。" }
+      ],
+      "kana": "おてすうですがよろしくおねがいします",
+      "chinese": "麻烦您了,拜托。",
+      "category": "request",
+      "register": "敬語",
+      "difficulty": 2,
+      "frequencyRank": 26,
+      "chunkPattern": "お手数ですが、よろしくお願いします",
+      "tags": ["display", "request", "close-polite"]
+    }
+  ],
+  "dialogues": [],
+  "passages": []
+}

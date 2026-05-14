@@ -1,0 +1,206 @@
+{
+  "packVersion": 1,
+  "packId": "home-routine-001",
+  "title": "Home Routine for Display 001",
+  "generatedBy": "claude-opus-4-7",
+  "generatedAt": "2026-05-14",
+  "targetProfile": "Display-optimized household routine phrases. 5-15 chars. Daily life at home — brushing teeth, shower, breakfast, laundry, trash, locking up, tomorrow's prep. All カジュアル as these are inner-voice or family-talk.",
+  "reviewStatus": "reviewed",
+  "sentences": [
+    {
+      "externalId": "s001",
+      "japanese": "歯を磨きます。",
+      "tokens": [
+        { "text": "歯", "kana": "は" },
+        { "text": "を" },
+        { "text": "磨きます", "kana": "みがきます" },
+        { "text": "。" }
+      ],
+      "kana": "はをみがきます",
+      "chinese": "刷牙。",
+      "category": "daily",
+      "register": "丁寧",
+      "difficulty": 1,
+      "frequencyRank": 12,
+      "chunkPattern": "~を磨きます",
+      "tags": ["display", "home", "brush-teeth"]
+    },
+    {
+      "externalId": "s002",
+      "japanese": "シャワーを浴びます。",
+      "tokens": [
+        { "text": "シャワーを" },
+        { "text": "浴びます", "kana": "あびます" },
+        { "text": "。" }
+      ],
+      "kana": "しゃわーをあびます",
+      "chinese": "洗澡。",
+      "category": "daily",
+      "register": "丁寧",
+      "difficulty": 1,
+      "frequencyRank": 18,
+      "chunkPattern": "~を浴びます",
+      "tags": ["display", "home", "shower"]
+    },
+    {
+      "externalId": "s003",
+      "japanese": "朝ご飯を食べます。",
+      "tokens": [
+        { "text": "朝ご飯", "kana": "あさごはん" },
+        { "text": "を" },
+        { "text": "食べます", "kana": "たべます" },
+        { "text": "。" }
+      ],
+      "kana": "あさごはんをたべます",
+      "chinese": "吃早饭。",
+      "category": "daily",
+      "register": "丁寧",
+      "difficulty": 1,
+      "frequencyRank": 15,
+      "chunkPattern": "~を食べます",
+      "tags": ["display", "home", "breakfast"]
+    },
+    {
+      "externalId": "s004",
+      "japanese": "洗濯物を干します。",
+      "tokens": [
+        { "text": "洗濯物", "kana": "せんたくもの" },
+        { "text": "を" },
+        { "text": "干します", "kana": "ほします" },
+        { "text": "。" }
+      ],
+      "kana": "せんたくものをほします",
+      "chinese": "晾衣服。",
+      "category": "daily",
+      "register": "丁寧",
+      "difficulty": 1,
+      "frequencyRank": 32,
+      "chunkPattern": "~を干します",
+      "tags": ["display", "home", "laundry"]
+    },
+    {
+      "externalId": "s005",
+      "japanese": "ゴミ出ししないと。",
+      "tokens": [
+        { "text": "ゴミ" },
+        { "text": "出し", "kana": "だし" },
+        { "text": "しないと。" }
+      ],
+      "kana": "ごみだししないと",
+      "chinese": "得倒垃圾啊。",
+      "category": "daily",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 25,
+      "chunkPattern": "~しないと",
+      "tags": ["display", "home", "trash"]
+    },
+    {
+      "externalId": "s006",
+      "japanese": "お風呂沸かしておいたよ。",
+      "tokens": [
+        { "text": "お" },
+        { "text": "風呂", "kana": "ふろ" },
+        { "text": "沸かして", "kana": "わかして" },
+        { "text": "おいたよ。" }
+      ],
+      "kana": "おふろわかしておいたよ",
+      "chinese": "我把澡水放好了哦。",
+      "category": "daily",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 45,
+      "chunkPattern": "~おいたよ",
+      "tags": ["display", "home", "bath-ready"]
+    },
+    {
+      "externalId": "s007",
+      "japanese": "部屋を片付けないと。",
+      "tokens": [
+        { "text": "部屋", "kana": "へや" },
+        { "text": "を" },
+        { "text": "片付けない", "kana": "かたづけない" },
+        { "text": "と。" }
+      ],
+      "kana": "へやをかたづけないと",
+      "chinese": "得收拾房间了。",
+      "category": "daily",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 38,
+      "chunkPattern": "~を片付けないと",
+      "tags": ["display", "home", "tidy"]
+    },
+    {
+      "externalId": "s008",
+      "japanese": "電気消し忘れた。",
+      "tokens": [
+        { "text": "電気", "kana": "でんき" },
+        { "text": "消し忘れた", "kana": "けしわすれた" },
+        { "text": "。" }
+      ],
+      "kana": "でんきけしわすれた",
+      "chinese": "灯忘关了。",
+      "category": "daily",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 52,
+      "chunkPattern": "~消し忘れた",
+      "tags": ["display", "home", "forgot-light"]
+    },
+    {
+      "externalId": "s009",
+      "japanese": "鍵かけた？",
+      "tokens": [
+        { "text": "鍵", "kana": "かぎ" },
+        { "text": "かけた？" }
+      ],
+      "kana": "かぎかけた",
+      "chinese": "门锁了吗？",
+      "category": "daily",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 28,
+      "chunkPattern": "~かけた？",
+      "tags": ["display", "home", "lock-check"]
+    },
+    {
+      "externalId": "s010",
+      "japanese": "明日のお弁当作っとく？",
+      "tokens": [
+        { "text": "明日", "kana": "あした" },
+        { "text": "のお" },
+        { "text": "弁当", "kana": "べんとう" },
+        { "text": "作っとく", "kana": "つくっとく" },
+        { "text": "？" }
+      ],
+      "kana": "あしたのおべんとうつくっとく",
+      "chinese": "明天的便当要做吗？",
+      "category": "request",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 62,
+      "chunkPattern": "明日の~作っとく？",
+      "tags": ["display", "home", "bento-prep"]
+    },
+    {
+      "externalId": "s011",
+      "japanese": "早く寝ようかな。",
+      "tokens": [
+        { "text": "早く", "kana": "はやく" },
+        { "text": "寝よう", "kana": "ねよう" },
+        { "text": "かな。" }
+      ],
+      "kana": "はやくねようかな",
+      "chinese": "早点睡吧。",
+      "category": "daily",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 35,
+      "chunkPattern": "早く~ようかな",
+      "tags": ["display", "home", "early-sleep"]
+    }
+  ],
+  "dialogues": [],
+  "passages": []
+}

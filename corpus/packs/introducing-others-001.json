@@ -1,0 +1,213 @@
+{
+  "packVersion": 1,
+  "packId": "introducing-others-001",
+  "title": "Introducing Others for Display 001",
+  "generatedBy": "claude-opus-4-7",
+  "generatedAt": "2026-05-14",
+  "targetProfile": "Display-optimized phrases for introducing one person to another. 6-18 chars. The exec's networking superpower — bridging contacts is a core function. All 敬語 since introducing always involves a polite tone.",
+  "reviewStatus": "reviewed",
+  "sentences": [
+    {
+      "externalId": "s001",
+      "japanese": "ご紹介させてください。",
+      "tokens": [
+        { "text": "ご" },
+        { "text": "紹介", "kana": "しょうかい" },
+        { "text": "させてください。" }
+      ],
+      "kana": "ごしょうかいさせてください",
+      "chinese": "请允许我介绍。",
+      "category": "request",
+      "register": "敬語",
+      "difficulty": 1,
+      "frequencyRank": 22,
+      "chunkPattern": "ご~させてください",
+      "tags": ["display", "intro", "open"]
+    },
+    {
+      "externalId": "s002",
+      "japanese": "こちらが〇〇さんです。",
+      "tokens": [
+        { "text": "こちらが〇〇さんです。" }
+      ],
+      "kana": "こちらがまるまるさんです",
+      "chinese": "这位是〇〇先生。",
+      "category": "smalltalk",
+      "register": "丁寧",
+      "difficulty": 1,
+      "frequencyRank": 18,
+      "chunkPattern": "こちらが~さんです",
+      "tags": ["display", "intro", "name-point"]
+    },
+    {
+      "externalId": "s003",
+      "japanese": "〇〇会社の田中さんです。",
+      "tokens": [
+        { "text": "〇〇" },
+        { "text": "会社", "kana": "かいしゃ" },
+        { "text": "の" },
+        { "text": "田中", "kana": "たなか" },
+        { "text": "さんです。" }
+      ],
+      "kana": "まるまるかいしゃのたなかさんです",
+      "chinese": "〇〇公司的田中先生。",
+      "category": "smalltalk",
+      "register": "丁寧",
+      "difficulty": 1,
+      "frequencyRank": 25,
+      "chunkPattern": "~会社の~さんです",
+      "tags": ["display", "intro", "company-name"]
+    },
+    {
+      "externalId": "s004",
+      "japanese": "開発チームの鈴木さんです。",
+      "tokens": [
+        { "text": "開発", "kana": "かいはつ" },
+        { "text": "チームの" },
+        { "text": "鈴木", "kana": "すずき" },
+        { "text": "さんです。" }
+      ],
+      "kana": "かいはつちーむのすずきさんです",
+      "chinese": "开发组的铃木先生。",
+      "category": "smalltalk",
+      "register": "丁寧",
+      "difficulty": 1,
+      "frequencyRank": 35,
+      "chunkPattern": "~チームの~さんです",
+      "tags": ["display", "intro", "team-internal"]
+    },
+    {
+      "externalId": "s005",
+      "japanese": "弊社の山田と申します。",
+      "tokens": [
+        { "text": "弊社", "kana": "へいしゃ" },
+        { "text": "の" },
+        { "text": "山田", "kana": "やまだ" },
+        { "text": "と" },
+        { "text": "申します", "kana": "もうします" },
+        { "text": "。" }
+      ],
+      "kana": "へいしゃのやまだともうします",
+      "chinese": "我是敝公司的山田。",
+      "category": "smalltalk",
+      "register": "敬語",
+      "difficulty": 2,
+      "frequencyRank": 28,
+      "chunkPattern": "弊社の~と申します",
+      "tags": ["display", "intro", "self-intro"]
+    },
+    {
+      "externalId": "s006",
+      "japanese": "お二人、お会いになったことはありますか。",
+      "tokens": [
+        { "text": "お" },
+        { "text": "二人", "kana": "ふたり" },
+        { "text": "、お" },
+        { "text": "会い", "kana": "あい" },
+        { "text": "になったことはありますか。" }
+      ],
+      "kana": "おふたりおあいになったことはありますか",
+      "chinese": "您二位见过面吗？",
+      "category": "request",
+      "register": "敬語",
+      "difficulty": 2,
+      "frequencyRank": 58,
+      "chunkPattern": "お二人、~たことはありますか",
+      "tags": ["display", "intro", "ask-acquainted"]
+    },
+    {
+      "externalId": "s007",
+      "japanese": "〇〇でお世話になっている方です。",
+      "tokens": [
+        { "text": "〇〇でお" },
+        { "text": "世話", "kana": "せわ" },
+        { "text": "になっている" },
+        { "text": "方", "kana": "かた" },
+        { "text": "です。" }
+      ],
+      "kana": "まるまるでおせわになっているかたです",
+      "chinese": "在〇〇方面一直关照我的人。",
+      "category": "smalltalk",
+      "register": "敬語",
+      "difficulty": 2,
+      "frequencyRank": 65,
+      "chunkPattern": "~でお世話になっている方です",
+      "tags": ["display", "intro", "context-relationship"]
+    },
+    {
+      "externalId": "s008",
+      "japanese": "後ほど詳しくご紹介します。",
+      "tokens": [
+        { "text": "後ほど", "kana": "のちほど" },
+        { "text": "詳しく", "kana": "くわしく" },
+        { "text": "ご" },
+        { "text": "紹介", "kana": "しょうかい" },
+        { "text": "します。" }
+      ],
+      "kana": "のちほどくわしくごしょうかいします",
+      "chinese": "稍后再详细介绍。",
+      "category": "progress",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 75,
+      "chunkPattern": "後ほど詳しくご~します",
+      "tags": ["display", "intro", "defer-detail"]
+    },
+    {
+      "externalId": "s009",
+      "japanese": "ぜひ仲良くしてあげてください。",
+      "tokens": [
+        { "text": "ぜひ" },
+        { "text": "仲良く", "kana": "なかよく" },
+        { "text": "してあげてください。" }
+      ],
+      "kana": "ぜひなかよくしてあげてください",
+      "chinese": "请二位多多关照。",
+      "category": "request",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 82,
+      "chunkPattern": "ぜひ~してあげてください",
+      "tags": ["display", "intro", "wish-getting-along"]
+    },
+    {
+      "externalId": "s010",
+      "japanese": "お話、楽しんでいただければ。",
+      "tokens": [
+        { "text": "お" },
+        { "text": "話", "kana": "はなし" },
+        { "text": "、" },
+        { "text": "楽しんで", "kana": "たのしんで" },
+        { "text": "いただければ。" }
+      ],
+      "kana": "おはなしたのしんでいただければ",
+      "chinese": "希望您们聊得开心。",
+      "category": "smalltalk",
+      "register": "敬語",
+      "difficulty": 3,
+      "frequencyRank": 95,
+      "chunkPattern": "お~、~いただければ",
+      "tags": ["display", "intro", "wish-enjoy"]
+    },
+    {
+      "externalId": "s011",
+      "japanese": "改めてご挨拶させていただきます。",
+      "tokens": [
+        { "text": "改めて", "kana": "あらためて" },
+        { "text": "ご" },
+        { "text": "挨拶", "kana": "あいさつ" },
+        { "text": "させていただきます。" }
+      ],
+      "kana": "あらためてごあいさつさせていただきます",
+      "chinese": "稍后会正式问候。",
+      "category": "smalltalk",
+      "register": "敬語",
+      "difficulty": 2,
+      "frequencyRank": 48,
+      "chunkPattern": "改めて~させていただきます",
+      "tags": ["display", "intro", "formal-greet-later"]
+    }
+  ],
+  "dialogues": [],
+  "passages": []
+}

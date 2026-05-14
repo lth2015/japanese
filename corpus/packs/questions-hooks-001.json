@@ -1,0 +1,190 @@
+{
+  "packVersion": 1,
+  "packId": "questions-hooks-001",
+  "title": "Question Hooks for Display 001",
+  "generatedBy": "claude-opus-4-7",
+  "generatedAt": "2026-05-14",
+  "targetProfile": "Display-optimized everyday question hooks. 5-15 chars. The most foundational ways to ask 'how / when / where / why / who' in Japanese, plus polite check-ins and confirmation questions. Mix カジュアル + 丁寧.",
+  "reviewStatus": "reviewed",
+  "sentences": [
+    {
+      "externalId": "s001",
+      "japanese": "どうですか？",
+      "tokens": [
+        { "text": "どうですか？" }
+      ],
+      "kana": "どうですか",
+      "chinese": "怎么样？",
+      "category": "request",
+      "register": "丁寧",
+      "difficulty": 1,
+      "frequencyRank": 6,
+      "chunkPattern": "どうですか",
+      "tags": ["display", "question", "how"]
+    },
+    {
+      "externalId": "s002",
+      "japanese": "いかがですか。",
+      "tokens": [
+        { "text": "いかがですか。" }
+      ],
+      "kana": "いかがですか",
+      "chinese": "您觉得如何？",
+      "category": "request",
+      "register": "敬語",
+      "difficulty": 1,
+      "frequencyRank": 14,
+      "chunkPattern": "いかがですか",
+      "tags": ["display", "question", "polite-how"]
+    },
+    {
+      "externalId": "s003",
+      "japanese": "よろしいですか。",
+      "tokens": [
+        { "text": "よろしいですか。" }
+      ],
+      "kana": "よろしいですか",
+      "chinese": "可以吗？",
+      "category": "request",
+      "register": "敬語",
+      "difficulty": 1,
+      "frequencyRank": 18,
+      "chunkPattern": "よろしいですか",
+      "tags": ["display", "question", "ok"]
+    },
+    {
+      "externalId": "s004",
+      "japanese": "大丈夫ですか。",
+      "tokens": [
+        { "text": "大丈夫", "kana": "だいじょうぶ" },
+        { "text": "ですか。" }
+      ],
+      "kana": "だいじょうぶですか",
+      "chinese": "没事吗？",
+      "category": "request",
+      "register": "丁寧",
+      "difficulty": 1,
+      "frequencyRank": 8,
+      "chunkPattern": "大丈夫ですか",
+      "tags": ["display", "question", "check-in"]
+    },
+    {
+      "externalId": "s005",
+      "japanese": "何時頃ですか。",
+      "tokens": [
+        { "text": "何時頃", "kana": "なんじごろ" },
+        { "text": "ですか。" }
+      ],
+      "kana": "なんじごろですか",
+      "chinese": "几点左右？",
+      "category": "request",
+      "register": "丁寧",
+      "difficulty": 1,
+      "frequencyRank": 35,
+      "chunkPattern": "~頃ですか",
+      "tags": ["display", "question", "when"]
+    },
+    {
+      "externalId": "s006",
+      "japanese": "どこですか。",
+      "tokens": [
+        { "text": "どこですか。" }
+      ],
+      "kana": "どこですか",
+      "chinese": "在哪里？",
+      "category": "request",
+      "register": "丁寧",
+      "difficulty": 1,
+      "frequencyRank": 12,
+      "chunkPattern": "どこですか",
+      "tags": ["display", "question", "where"]
+    },
+    {
+      "externalId": "s007",
+      "japanese": "なんでですか。",
+      "tokens": [
+        { "text": "なんでですか。" }
+      ],
+      "kana": "なんでですか",
+      "chinese": "为什么？",
+      "category": "request",
+      "register": "丁寧",
+      "difficulty": 1,
+      "frequencyRank": 20,
+      "chunkPattern": "なんでですか",
+      "tags": ["display", "question", "why-casual"]
+    },
+    {
+      "externalId": "s008",
+      "japanese": "誰が担当ですか。",
+      "tokens": [
+        { "text": "誰", "kana": "だれ" },
+        { "text": "が" },
+        { "text": "担当", "kana": "たんとう" },
+        { "text": "ですか。" }
+      ],
+      "kana": "だれがたんとうですか",
+      "chinese": "谁负责？",
+      "category": "request",
+      "register": "丁寧",
+      "difficulty": 1,
+      "frequencyRank": 38,
+      "chunkPattern": "誰が~ですか",
+      "tags": ["display", "question", "who"]
+    },
+    {
+      "externalId": "s009",
+      "japanese": "ちょっと聞いてもいいですか。",
+      "tokens": [
+        { "text": "ちょっと" },
+        { "text": "聞いて", "kana": "きいて" },
+        { "text": "もいいですか。" }
+      ],
+      "kana": "ちょっときいてもいいですか",
+      "chinese": "我能问下吗？",
+      "category": "request",
+      "register": "丁寧",
+      "difficulty": 1,
+      "frequencyRank": 24,
+      "chunkPattern": "ちょっと~てもいいですか",
+      "tags": ["display", "question", "ask-permission"]
+    },
+    {
+      "externalId": "s010",
+      "japanese": "もう少し時間かかりますか。",
+      "tokens": [
+        { "text": "もう" },
+        { "text": "少し", "kana": "すこし" },
+        { "text": "時間", "kana": "じかん" },
+        { "text": "かかりますか。" }
+      ],
+      "kana": "もうすこしじかんかかりますか",
+      "chinese": "还要花点时间吗？",
+      "category": "request",
+      "register": "丁寧",
+      "difficulty": 1,
+      "frequencyRank": 45,
+      "chunkPattern": "もう少し~かかりますか",
+      "tags": ["display", "question", "duration"]
+    },
+    {
+      "externalId": "s011",
+      "japanese": "これで合っていますか。",
+      "tokens": [
+        { "text": "これで" },
+        { "text": "合って", "kana": "あって" },
+        { "text": "いますか。" }
+      ],
+      "kana": "これであっていますか",
+      "chinese": "这样对吗？",
+      "category": "request",
+      "register": "丁寧",
+      "difficulty": 1,
+      "frequencyRank": 28,
+      "chunkPattern": "これで~ていますか",
+      "tags": ["display", "question", "verify"]
+    }
+  ],
+  "dialogues": [],
+  "passages": []
+}

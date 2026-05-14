@@ -1,0 +1,193 @@
+{
+  "packVersion": 1,
+  "packId": "apology-multiple-001",
+  "title": "Apology Register Ladder for Display 001",
+  "generatedBy": "claude-opus-4-7",
+  "generatedAt": "2026-05-14",
+  "targetProfile": "Display-optimized apologies across all register levels — from casual ごめん to 敬語 大変申し訳ございませんでした. 4-18 chars. Choosing the right apology level for the severity of mistake is a daily survival skill in Japanese.",
+  "reviewStatus": "reviewed",
+  "sentences": [
+    {
+      "externalId": "s001",
+      "japanese": "ごめん！",
+      "tokens": [
+        { "text": "ごめん！" }
+      ],
+      "kana": "ごめん",
+      "chinese": "对不起!",
+      "category": "apology",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 3,
+      "chunkPattern": "ごめん",
+      "tags": ["display", "apology", "casual"]
+    },
+    {
+      "externalId": "s002",
+      "japanese": "ごめんね、忘れてた。",
+      "tokens": [
+        { "text": "ごめんね、" },
+        { "text": "忘れてた", "kana": "わすれてた" },
+        { "text": "。" }
+      ],
+      "kana": "ごめんねわすれてた",
+      "chinese": "对不起,忘了。",
+      "category": "apology",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 18,
+      "chunkPattern": "ごめんね、~",
+      "tags": ["display", "apology", "casual-explain"]
+    },
+    {
+      "externalId": "s003",
+      "japanese": "すみません。",
+      "tokens": [
+        { "text": "すみません。" }
+      ],
+      "kana": "すみません",
+      "chinese": "不好意思。",
+      "category": "apology",
+      "register": "丁寧",
+      "difficulty": 1,
+      "frequencyRank": 2,
+      "chunkPattern": "すみません",
+      "tags": ["display", "apology", "universal"]
+    },
+    {
+      "externalId": "s004",
+      "japanese": "すみません、遅れました。",
+      "tokens": [
+        { "text": "すみません、" },
+        { "text": "遅れました", "kana": "おくれました" },
+        { "text": "。" }
+      ],
+      "kana": "すみませんおくれました",
+      "chinese": "不好意思,迟到了。",
+      "category": "apology",
+      "register": "丁寧",
+      "difficulty": 1,
+      "frequencyRank": 22,
+      "chunkPattern": "すみません、~",
+      "tags": ["display", "apology", "polite-explain"]
+    },
+    {
+      "externalId": "s005",
+      "japanese": "申し訳ありません。",
+      "tokens": [
+        { "text": "申し訳ありません", "kana": "もうしわけありません" },
+        { "text": "。" }
+      ],
+      "kana": "もうしわけありません",
+      "chinese": "非常抱歉。",
+      "category": "apology",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 12,
+      "chunkPattern": "申し訳ありません",
+      "tags": ["display", "apology", "work-standard"]
+    },
+    {
+      "externalId": "s006",
+      "japanese": "申し訳ございません。",
+      "tokens": [
+        { "text": "申し訳ございません", "kana": "もうしわけございません" },
+        { "text": "。" }
+      ],
+      "kana": "もうしわけございません",
+      "chinese": "万分抱歉。",
+      "category": "apology",
+      "register": "敬語",
+      "difficulty": 2,
+      "frequencyRank": 15,
+      "chunkPattern": "申し訳ございません",
+      "tags": ["display", "apology", "formal"]
+    },
+    {
+      "externalId": "s007",
+      "japanese": "大変申し訳ございませんでした。",
+      "tokens": [
+        { "text": "大変", "kana": "たいへん" },
+        { "text": "申し訳ございませんでした", "kana": "もうしわけございませんでした" },
+        { "text": "。" }
+      ],
+      "kana": "たいへんもうしわけございませんでした",
+      "chinese": "深表歉意。",
+      "category": "apology",
+      "register": "敬語",
+      "difficulty": 3,
+      "frequencyRank": 45,
+      "chunkPattern": "大変申し訳ございませんでした",
+      "tags": ["display", "apology", "most-formal"]
+    },
+    {
+      "externalId": "s008",
+      "japanese": "ご迷惑をおかけしました。",
+      "tokens": [
+        { "text": "ご" },
+        { "text": "迷惑", "kana": "めいわく" },
+        { "text": "をおかけしました。" }
+      ],
+      "kana": "ごめいわくをおかけしました",
+      "chinese": "给您添麻烦了。",
+      "category": "apology",
+      "register": "敬語",
+      "difficulty": 2,
+      "frequencyRank": 28,
+      "chunkPattern": "ご~をおかけしました",
+      "tags": ["display", "apology", "inconvenience"]
+    },
+    {
+      "externalId": "s009",
+      "japanese": "今後気をつけます。",
+      "tokens": [
+        { "text": "今後", "kana": "こんご" },
+        { "text": "気", "kana": "き" },
+        { "text": "をつけます。" }
+      ],
+      "kana": "こんごきをつけます",
+      "chinese": "今后我会注意。",
+      "category": "apology",
+      "register": "丁寧",
+      "difficulty": 1,
+      "frequencyRank": 32,
+      "chunkPattern": "今後~ます",
+      "tags": ["display", "apology", "commit-improvement"]
+    },
+    {
+      "externalId": "s010",
+      "japanese": "二度と起こさないようにいたします。",
+      "tokens": [
+        { "text": "二度と", "kana": "にどと" },
+        { "text": "起こさない", "kana": "おこさない" },
+        { "text": "ようにいたします。" }
+      ],
+      "kana": "にどとおこさないようにいたします",
+      "chinese": "保证不再发生。",
+      "category": "apology",
+      "register": "敬語",
+      "difficulty": 3,
+      "frequencyRank": 58,
+      "chunkPattern": "二度と~ないようにいたします",
+      "tags": ["display", "apology", "promise-not-again"]
+    },
+    {
+      "externalId": "s011",
+      "japanese": "失礼いたしました。",
+      "tokens": [
+        { "text": "失礼", "kana": "しつれい" },
+        { "text": "いたしました。" }
+      ],
+      "kana": "しつれいいたしました",
+      "chinese": "失礼了。",
+      "category": "apology",
+      "register": "敬語",
+      "difficulty": 1,
+      "frequencyRank": 25,
+      "chunkPattern": "失礼いたしました",
+      "tags": ["display", "apology", "minor-formal"]
+    }
+  ],
+  "dialogues": [],
+  "passages": []
+}

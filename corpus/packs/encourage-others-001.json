@@ -1,0 +1,187 @@
+{
+  "packVersion": 1,
+  "packId": "encourage-others-001",
+  "title": "Encouraging Others for Display 001",
+  "generatedBy": "claude-opus-4-7",
+  "generatedAt": "2026-05-14",
+  "targetProfile": "Display-optimized phrases for encouraging others — praise, well-wishes, take-care. 3-12 chars. Critical for manager/exec who needs to motivate team daily but Chinese L1 speakers often skip these moments altogether.",
+  "reviewStatus": "reviewed",
+  "sentences": [
+    {
+      "externalId": "s001",
+      "japanese": "頑張って！",
+      "tokens": [
+        { "text": "頑張って", "kana": "がんばって" },
+        { "text": "！" }
+      ],
+      "kana": "がんばって",
+      "chinese": "加油!",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 4,
+      "chunkPattern": "頑張って",
+      "tags": ["display", "encourage", "go-for-it"]
+    },
+    {
+      "externalId": "s002",
+      "japanese": "お疲れ様！",
+      "tokens": [
+        { "text": "お疲れ様", "kana": "おつかれさま" },
+        { "text": "！" }
+      ],
+      "kana": "おつかれさま",
+      "chinese": "辛苦了!",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 3,
+      "chunkPattern": "お疲れ様",
+      "tags": ["display", "encourage", "well-done"]
+    },
+    {
+      "externalId": "s003",
+      "japanese": "いいですね！",
+      "tokens": [
+        { "text": "いいですね！" }
+      ],
+      "kana": "いいですね",
+      "chinese": "好啊!",
+      "category": "smalltalk",
+      "register": "丁寧",
+      "difficulty": 1,
+      "frequencyRank": 8,
+      "chunkPattern": "いいですね",
+      "tags": ["display", "encourage", "approve"]
+    },
+    {
+      "externalId": "s004",
+      "japanese": "すごいですね。",
+      "tokens": [
+        { "text": "すごいですね。" }
+      ],
+      "kana": "すごいですね",
+      "chinese": "厉害啊。",
+      "category": "smalltalk",
+      "register": "丁寧",
+      "difficulty": 1,
+      "frequencyRank": 15,
+      "chunkPattern": "すごいですね",
+      "tags": ["display", "encourage", "amazed"]
+    },
+    {
+      "externalId": "s005",
+      "japanese": "さすがですね。",
+      "tokens": [
+        { "text": "さすがですね。" }
+      ],
+      "kana": "さすがですね",
+      "chinese": "果然厉害。",
+      "category": "smalltalk",
+      "register": "丁寧",
+      "difficulty": 1,
+      "frequencyRank": 22,
+      "chunkPattern": "さすがですね",
+      "tags": ["display", "encourage", "as-expected"]
+    },
+    {
+      "externalId": "s006",
+      "japanese": "大丈夫、できるよ。",
+      "tokens": [
+        { "text": "大丈夫", "kana": "だいじょうぶ" },
+        { "text": "、できるよ。" }
+      ],
+      "kana": "だいじょうぶできるよ",
+      "chinese": "没事,你可以的。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 38,
+      "chunkPattern": "大丈夫、~よ",
+      "tags": ["display", "encourage", "reassure"]
+    },
+    {
+      "externalId": "s007",
+      "japanese": "応援しています。",
+      "tokens": [
+        { "text": "応援", "kana": "おうえん" },
+        { "text": "しています。" }
+      ],
+      "kana": "おうえんしています",
+      "chinese": "我支持你。",
+      "category": "smalltalk",
+      "register": "丁寧",
+      "difficulty": 1,
+      "frequencyRank": 28,
+      "chunkPattern": "~しています",
+      "tags": ["display", "encourage", "rooting-for"]
+    },
+    {
+      "externalId": "s008",
+      "japanese": "楽しんできてね。",
+      "tokens": [
+        { "text": "楽しんで", "kana": "たのしんで" },
+        { "text": "きてね。" }
+      ],
+      "kana": "たのしんできてね",
+      "chinese": "玩得开心哦。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 42,
+      "chunkPattern": "~てきてね",
+      "tags": ["display", "encourage", "have-fun"]
+    },
+    {
+      "externalId": "s009",
+      "japanese": "無理しないでね。",
+      "tokens": [
+        { "text": "無理", "kana": "むり" },
+        { "text": "しないでね。" }
+      ],
+      "kana": "むりしないでね",
+      "chinese": "别太勉强哦。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 18,
+      "chunkPattern": "無理しないでね",
+      "tags": ["display", "encourage", "take-care"]
+    },
+    {
+      "externalId": "s010",
+      "japanese": "気をつけて。",
+      "tokens": [
+        { "text": "気", "kana": "き" },
+        { "text": "をつけて。" }
+      ],
+      "kana": "きをつけて",
+      "chinese": "小心点。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 12,
+      "chunkPattern": "気をつけて",
+      "tags": ["display", "encourage", "take-care"]
+    },
+    {
+      "externalId": "s011",
+      "japanese": "その調子で！",
+      "tokens": [
+        { "text": "その" },
+        { "text": "調子", "kana": "ちょうし" },
+        { "text": "で！" }
+      ],
+      "kana": "そのちょうしで",
+      "chinese": "保持这个状态!",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 45,
+      "chunkPattern": "その~で",
+      "tags": ["display", "encourage", "keep-going"]
+    }
+  ],
+  "dialogues": [],
+  "passages": []
+}

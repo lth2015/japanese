@@ -1,0 +1,208 @@
+{
+  "packVersion": 1,
+  "packId": "time-markers-001",
+  "title": "Time Markers for Display 001",
+  "generatedBy": "claude-opus-4-7",
+  "generatedAt": "2026-05-14",
+  "targetProfile": "Display-optimized time-related work phrases. 6-15 chars. The core vocabulary for talking about WHEN things happen: 今すぐ・後ほど・先ほど・来週以降・月末まで. Foundational for any task coordination.",
+  "reviewStatus": "reviewed",
+  "sentences": [
+    {
+      "externalId": "s001",
+      "japanese": "今すぐやります。",
+      "tokens": [
+        { "text": "今", "kana": "いま" },
+        { "text": "すぐやります。" }
+      ],
+      "kana": "いますぐやります",
+      "chinese": "我马上做。",
+      "category": "progress",
+      "register": "丁寧",
+      "difficulty": 1,
+      "frequencyRank": 14,
+      "chunkPattern": "今すぐ~ます",
+      "tags": ["display", "time", "right-now"]
+    },
+    {
+      "externalId": "s002",
+      "japanese": "後ほど共有します。",
+      "tokens": [
+        { "text": "後ほど", "kana": "のちほど" },
+        { "text": "共有", "kana": "きょうゆう" },
+        { "text": "します。" }
+      ],
+      "kana": "のちほどきょうゆうします",
+      "chinese": "稍后同步给您。",
+      "category": "progress",
+      "register": "丁寧",
+      "difficulty": 1,
+      "frequencyRank": 22,
+      "chunkPattern": "後ほど~します",
+      "tags": ["display", "time", "later"]
+    },
+    {
+      "externalId": "s003",
+      "japanese": "先ほどの件ですが。",
+      "tokens": [
+        { "text": "先ほど", "kana": "さきほど" },
+        { "text": "の" },
+        { "text": "件", "kana": "けん" },
+        { "text": "ですが。" }
+      ],
+      "kana": "さきほどのけんですが",
+      "chinese": "刚才那件事…",
+      "category": "smalltalk",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 28,
+      "chunkPattern": "先ほどの~ですが",
+      "tags": ["display", "time", "callback-earlier"]
+    },
+    {
+      "externalId": "s004",
+      "japanese": "ちょうど今、終わりました。",
+      "tokens": [
+        { "text": "ちょうど" },
+        { "text": "今", "kana": "いま" },
+        { "text": "、" },
+        { "text": "終わりました", "kana": "おわりました" },
+        { "text": "。" }
+      ],
+      "kana": "ちょうどいまおわりました",
+      "chinese": "刚刚做完。",
+      "category": "progress",
+      "register": "丁寧",
+      "difficulty": 1,
+      "frequencyRank": 38,
+      "chunkPattern": "ちょうど今、~ました",
+      "tags": ["display", "time", "just-now"]
+    },
+    {
+      "externalId": "s005",
+      "japanese": "もう少し時間ください。",
+      "tokens": [
+        { "text": "もう" },
+        { "text": "少し", "kana": "すこし" },
+        { "text": "時間", "kana": "じかん" },
+        { "text": "ください。" }
+      ],
+      "kana": "もうすこしじかんください",
+      "chinese": "再给我点时间。",
+      "category": "request",
+      "register": "丁寧",
+      "difficulty": 1,
+      "frequencyRank": 25,
+      "chunkPattern": "もう少し~ください",
+      "tags": ["display", "time", "more-time"]
+    },
+    {
+      "externalId": "s006",
+      "japanese": "そろそろ始めましょう。",
+      "tokens": [
+        { "text": "そろそろ" },
+        { "text": "始めましょう", "kana": "はじめましょう" },
+        { "text": "。" }
+      ],
+      "kana": "そろそろはじめましょう",
+      "chinese": "差不多开始吧。",
+      "category": "request",
+      "register": "丁寧",
+      "difficulty": 1,
+      "frequencyRank": 32,
+      "chunkPattern": "そろそろ~ましょう",
+      "tags": ["display", "time", "about-to"]
+    },
+    {
+      "externalId": "s007",
+      "japanese": "明日の朝にお願いします。",
+      "tokens": [
+        { "text": "明日", "kana": "あした" },
+        { "text": "の" },
+        { "text": "朝", "kana": "あさ" },
+        { "text": "にお" },
+        { "text": "願い", "kana": "ねがい" },
+        { "text": "します。" }
+      ],
+      "kana": "あしたのあさにおねがいします",
+      "chinese": "明早麻烦您了。",
+      "category": "request",
+      "register": "丁寧",
+      "difficulty": 1,
+      "frequencyRank": 45,
+      "chunkPattern": "~の朝にお願いします",
+      "tags": ["display", "time", "tomorrow"]
+    },
+    {
+      "externalId": "s008",
+      "japanese": "今週中に終わらせます。",
+      "tokens": [
+        { "text": "今週中", "kana": "こんしゅうちゅう" },
+        { "text": "に" },
+        { "text": "終わらせます", "kana": "おわらせます" },
+        { "text": "。" }
+      ],
+      "kana": "こんしゅうちゅうにおわらせます",
+      "chinese": "本周内做完。",
+      "category": "progress",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 35,
+      "chunkPattern": "~中に終わらせます",
+      "tags": ["display", "time", "this-week"]
+    },
+    {
+      "externalId": "s009",
+      "japanese": "来週以降になります。",
+      "tokens": [
+        { "text": "来週以降", "kana": "らいしゅういこう" },
+        { "text": "になります。" }
+      ],
+      "kana": "らいしゅういこうになります",
+      "chinese": "要下周之后了。",
+      "category": "progress",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 58,
+      "chunkPattern": "~以降になります",
+      "tags": ["display", "time", "next-week-onward"]
+    },
+    {
+      "externalId": "s010",
+      "japanese": "数日お時間ください。",
+      "tokens": [
+        { "text": "数日", "kana": "すうじつ" },
+        { "text": "お" },
+        { "text": "時間", "kana": "じかん" },
+        { "text": "ください。" }
+      ],
+      "kana": "すうじつおじかんください",
+      "chinese": "请给几天时间。",
+      "category": "request",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 62,
+      "chunkPattern": "~お時間ください",
+      "tags": ["display", "time", "few-days"]
+    },
+    {
+      "externalId": "s011",
+      "japanese": "月末までに対応します。",
+      "tokens": [
+        { "text": "月末", "kana": "げつまつ" },
+        { "text": "までに" },
+        { "text": "対応", "kana": "たいおう" },
+        { "text": "します。" }
+      ],
+      "kana": "げつまつまでにたいおうします",
+      "chinese": "月底之前处理。",
+      "category": "progress",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 48,
+      "chunkPattern": "~までに対応します",
+      "tags": ["display", "time", "end-of-month"]
+    }
+  ],
+  "dialogues": [],
+  "passages": []
+}

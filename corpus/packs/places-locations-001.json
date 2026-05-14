@@ -1,0 +1,197 @@
+{
+  "packVersion": 1,
+  "packId": "places-locations-001",
+  "title": "Places and Locations for Display 001",
+  "generatedBy": "claude-opus-4-7",
+  "generatedAt": "2026-05-14",
+  "targetProfile": "Display-optimized place/location/direction phrases. 5-15 chars. The deictic system (こちら/あちら/向こう/隣/近く/奥) plus floor + corner + nearby vocabulary that comes up multiple times a day when navigating offices, restaurants, and streets.",
+  "reviewStatus": "reviewed",
+  "sentences": [
+    {
+      "externalId": "s001",
+      "japanese": "こちらです。",
+      "tokens": [
+        { "text": "こちらです。" }
+      ],
+      "kana": "こちらです",
+      "chinese": "在这边。",
+      "category": "progress",
+      "register": "丁寧",
+      "difficulty": 1,
+      "frequencyRank": 8,
+      "chunkPattern": "こちらです",
+      "tags": ["display", "place", "here"]
+    },
+    {
+      "externalId": "s002",
+      "japanese": "あちらに置いてください。",
+      "tokens": [
+        { "text": "あちらに" },
+        { "text": "置いて", "kana": "おいて" },
+        { "text": "ください。" }
+      ],
+      "kana": "あちらにおいてください",
+      "chinese": "请放在那边。",
+      "category": "request",
+      "register": "丁寧",
+      "difficulty": 1,
+      "frequencyRank": 32,
+      "chunkPattern": "あちらに~ください",
+      "tags": ["display", "place", "over-there"]
+    },
+    {
+      "externalId": "s003",
+      "japanese": "向こうから来ます。",
+      "tokens": [
+        { "text": "向こう", "kana": "むこう" },
+        { "text": "から" },
+        { "text": "来ます", "kana": "きます" },
+        { "text": "。" }
+      ],
+      "kana": "むこうからきます",
+      "chinese": "从那边过来。",
+      "category": "progress",
+      "register": "丁寧",
+      "difficulty": 1,
+      "frequencyRank": 48,
+      "chunkPattern": "~から来ます",
+      "tags": ["display", "place", "from-far"]
+    },
+    {
+      "externalId": "s004",
+      "japanese": "隣の部屋にあります。",
+      "tokens": [
+        { "text": "隣", "kana": "となり" },
+        { "text": "の" },
+        { "text": "部屋", "kana": "へや" },
+        { "text": "にあります。" }
+      ],
+      "kana": "となりのへやにあります",
+      "chinese": "在隔壁房间。",
+      "category": "progress",
+      "register": "丁寧",
+      "difficulty": 1,
+      "frequencyRank": 28,
+      "chunkPattern": "隣の~にあります",
+      "tags": ["display", "place", "next-room"]
+    },
+    {
+      "externalId": "s005",
+      "japanese": "近くにコンビニありますか。",
+      "tokens": [
+        { "text": "近く", "kana": "ちかく" },
+        { "text": "にコンビニありますか。" }
+      ],
+      "kana": "ちかくにこんびにありますか",
+      "chinese": "附近有便利店吗？",
+      "category": "request",
+      "register": "丁寧",
+      "difficulty": 1,
+      "frequencyRank": 22,
+      "chunkPattern": "近くに~ありますか",
+      "tags": ["display", "place", "nearby"]
+    },
+    {
+      "externalId": "s006",
+      "japanese": "二階に上がります。",
+      "tokens": [
+        { "text": "二階", "kana": "にかい" },
+        { "text": "に" },
+        { "text": "上がります", "kana": "あがります" },
+        { "text": "。" }
+      ],
+      "kana": "にかいにあがります",
+      "chinese": "上二楼。",
+      "category": "progress",
+      "register": "丁寧",
+      "difficulty": 1,
+      "frequencyRank": 42,
+      "chunkPattern": "~階に上がります",
+      "tags": ["display", "place", "floor-up"]
+    },
+    {
+      "externalId": "s007",
+      "japanese": "エレベーターはあそこです。",
+      "tokens": [
+        { "text": "エレベーターはあそこです。" }
+      ],
+      "kana": "えれべーたーはあそこです",
+      "chinese": "电梯在那里。",
+      "category": "progress",
+      "register": "丁寧",
+      "difficulty": 1,
+      "frequencyRank": 38,
+      "chunkPattern": "~はあそこです",
+      "tags": ["display", "place", "elevator"]
+    },
+    {
+      "externalId": "s008",
+      "japanese": "角を曲がって右です。",
+      "tokens": [
+        { "text": "角", "kana": "かど" },
+        { "text": "を" },
+        { "text": "曲がって", "kana": "まがって" },
+        { "text": "右", "kana": "みぎ" },
+        { "text": "です。" }
+      ],
+      "kana": "かどをまがってみぎです",
+      "chinese": "拐过角往右。",
+      "category": "progress",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 55,
+      "chunkPattern": "~を曲がって~です",
+      "tags": ["display", "place", "directions"]
+    },
+    {
+      "externalId": "s009",
+      "japanese": "すぐそこです。",
+      "tokens": [
+        { "text": "すぐそこです。" }
+      ],
+      "kana": "すぐそこです",
+      "chinese": "就在那儿。",
+      "category": "progress",
+      "register": "丁寧",
+      "difficulty": 1,
+      "frequencyRank": 18,
+      "chunkPattern": "すぐそこです",
+      "tags": ["display", "place", "right-there"]
+    },
+    {
+      "externalId": "s010",
+      "japanese": "もう少し奥にあります。",
+      "tokens": [
+        { "text": "もう" },
+        { "text": "少し", "kana": "すこし" },
+        { "text": "奥", "kana": "おく" },
+        { "text": "にあります。" }
+      ],
+      "kana": "もうすこしおくにあります",
+      "chinese": "再往里一点。",
+      "category": "progress",
+      "register": "丁寧",
+      "difficulty": 1,
+      "frequencyRank": 62,
+      "chunkPattern": "もう少し~にあります",
+      "tags": ["display", "place", "deeper-in"]
+    },
+    {
+      "externalId": "s011",
+      "japanese": "どちらにありますか。",
+      "tokens": [
+        { "text": "どちらにありますか。" }
+      ],
+      "kana": "どちらにありますか",
+      "chinese": "在哪边？",
+      "category": "request",
+      "register": "敬語",
+      "difficulty": 1,
+      "frequencyRank": 25,
+      "chunkPattern": "どちらにありますか",
+      "tags": ["display", "place", "ask-where"]
+    }
+  ],
+  "dialogues": [],
+  "passages": []
+}

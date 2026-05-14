@@ -1,0 +1,208 @@
+{
+  "packVersion": 1,
+  "packId": "phone-quick-001",
+  "title": "Phone Quick Phrases for Display 001",
+  "generatedBy": "claude-opus-4-7",
+  "generatedAt": "2026-05-14",
+  "targetProfile": "Display-optimized phone micro-phrases. 4-15 chars. Complements phone-handoff-001 (which is dialogue-flow chunks) with shorter standalone snippets: もしもし系 / 担当者へつなぎ / かけ間違え / 聞き取りづらい. All 敬語.",
+  "reviewStatus": "reviewed",
+  "sentences": [
+    {
+      "externalId": "s001",
+      "japanese": "もしもし。",
+      "tokens": [
+        { "text": "もしもし。" }
+      ],
+      "kana": "もしもし",
+      "chinese": "喂。",
+      "category": "smalltalk",
+      "register": "丁寧",
+      "difficulty": 1,
+      "frequencyRank": 5,
+      "chunkPattern": "もしもし",
+      "tags": ["display", "phone", "answer"]
+    },
+    {
+      "externalId": "s002",
+      "japanese": "もしもし、田中ですが。",
+      "tokens": [
+        { "text": "もしもし、" },
+        { "text": "田中", "kana": "たなか" },
+        { "text": "ですが。" }
+      ],
+      "kana": "もしもしたなかですが",
+      "chinese": "您好,我是田中。",
+      "category": "smalltalk",
+      "register": "丁寧",
+      "difficulty": 1,
+      "frequencyRank": 14,
+      "chunkPattern": "もしもし、~ですが",
+      "tags": ["display", "phone", "caller-intro"]
+    },
+    {
+      "externalId": "s003",
+      "japanese": "お電話替わりました。",
+      "tokens": [
+        { "text": "お" },
+        { "text": "電話", "kana": "でんわ" },
+        { "text": "替わりました", "kana": "かわりました" },
+        { "text": "。" }
+      ],
+      "kana": "おでんわかわりました",
+      "chinese": "电话已转给我。",
+      "category": "smalltalk",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 38,
+      "chunkPattern": "お電話替わりました",
+      "tags": ["display", "phone", "handover-to"]
+    },
+    {
+      "externalId": "s004",
+      "japanese": "担当者におつなぎします。",
+      "tokens": [
+        { "text": "担当者", "kana": "たんとうしゃ" },
+        { "text": "におつなぎします。" }
+      ],
+      "kana": "たんとうしゃにおつなぎします",
+      "chinese": "为您转接负责人。",
+      "category": "progress",
+      "register": "敬語",
+      "difficulty": 2,
+      "frequencyRank": 42,
+      "chunkPattern": "~におつなぎします",
+      "tags": ["display", "phone", "transfer-call"]
+    },
+    {
+      "externalId": "s005",
+      "japanese": "折り返しお電話します。",
+      "tokens": [
+        { "text": "折り返し", "kana": "おりかえし" },
+        { "text": "お" },
+        { "text": "電話", "kana": "でんわ" },
+        { "text": "します。" }
+      ],
+      "kana": "おりかえしおでんわします",
+      "chinese": "稍后回电。",
+      "category": "progress",
+      "register": "丁寧",
+      "difficulty": 1,
+      "frequencyRank": 28,
+      "chunkPattern": "折り返し~します",
+      "tags": ["display", "phone", "call-back"]
+    },
+    {
+      "externalId": "s006",
+      "japanese": "お電話遠いようですが。",
+      "tokens": [
+        { "text": "お" },
+        { "text": "電話", "kana": "でんわ" },
+        { "text": "遠い", "kana": "とおい" },
+        { "text": "ようですが。" }
+      ],
+      "kana": "おでんわとおいようですが",
+      "chinese": "电话好像有点远…",
+      "category": "rescue",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 65,
+      "chunkPattern": "お~遠いようですが",
+      "tags": ["display", "phone", "bad-signal"]
+    },
+    {
+      "externalId": "s007",
+      "japanese": "かけ間違えました、失礼します。",
+      "tokens": [
+        { "text": "かけ" },
+        { "text": "間違えました", "kana": "まちがえました" },
+        { "text": "、" },
+        { "text": "失礼", "kana": "しつれい" },
+        { "text": "します。" }
+      ],
+      "kana": "かけまちがえましたしつれいします",
+      "chinese": "打错了,失礼。",
+      "category": "apology",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 78,
+      "chunkPattern": "かけ間違えました、~",
+      "tags": ["display", "phone", "wrong-number"]
+    },
+    {
+      "externalId": "s008",
+      "japanese": "お声が聞き取りづらくて。",
+      "tokens": [
+        { "text": "お" },
+        { "text": "声", "kana": "こえ" },
+        { "text": "が" },
+        { "text": "聞き取りづらくて", "kana": "ききとりづらくて" },
+        { "text": "。" }
+      ],
+      "kana": "おこえがききとりづらくて",
+      "chinese": "您的声音听不太清。",
+      "category": "rescue",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 72,
+      "chunkPattern": "お~が聞き取りづらくて",
+      "tags": ["display", "phone", "cant-hear"]
+    },
+    {
+      "externalId": "s009",
+      "japanese": "内線〇〇番をお願いします。",
+      "tokens": [
+        { "text": "内線", "kana": "ないせん" },
+        { "text": "〇〇" },
+        { "text": "番", "kana": "ばん" },
+        { "text": "をお" },
+        { "text": "願い", "kana": "ねがい" },
+        { "text": "します。" }
+      ],
+      "kana": "ないせんまるまるばんをおねがいします",
+      "chinese": "请转分机〇〇号。",
+      "category": "request",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 88,
+      "chunkPattern": "内線~番をお願いします",
+      "tags": ["display", "phone", "extension"]
+    },
+    {
+      "externalId": "s010",
+      "japanese": "お電話ありがとうございました。",
+      "tokens": [
+        { "text": "お" },
+        { "text": "電話", "kana": "でんわ" },
+        { "text": "ありがとうございました。" }
+      ],
+      "kana": "おでんわありがとうございました",
+      "chinese": "感谢您来电。",
+      "category": "smalltalk",
+      "register": "敬語",
+      "difficulty": 1,
+      "frequencyRank": 18,
+      "chunkPattern": "お~ありがとうございました",
+      "tags": ["display", "phone", "thanks-end"]
+    },
+    {
+      "externalId": "s011",
+      "japanese": "改めてご連絡いたします。",
+      "tokens": [
+        { "text": "改めて", "kana": "あらためて" },
+        { "text": "ご" },
+        { "text": "連絡", "kana": "れんらく" },
+        { "text": "いたします。" }
+      ],
+      "kana": "あらためてごれんらくいたします",
+      "chinese": "我会重新联系您。",
+      "category": "progress",
+      "register": "敬語",
+      "difficulty": 1,
+      "frequencyRank": 32,
+      "chunkPattern": "改めて~いたします",
+      "tags": ["display", "phone", "follow-up"]
+    }
+  ],
+  "dialogues": [],
+  "passages": []
+}

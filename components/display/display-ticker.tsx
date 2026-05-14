@@ -1,6 +1,6 @@
 "use client"
 
-import { ChevronLeft, ChevronRight, Pause, Play } from "lucide-react"
+import { ChevronLeft, ChevronRight, Keyboard, Pause, Play } from "lucide-react"
 import { useCallback, useEffect, useMemo, useRef, useState } from "react"
 import { FuriganaText } from "@/components/furigana-text"
 import { Button } from "@/components/ui/button"
@@ -15,10 +15,11 @@ import { DisplaySettingsSheet } from "./display-settings"
 type Props = { sentences: Sentence[] }
 
 export function DisplayTicker({ sentences }: Props) {
-  const [settings] = useDisplaySettings()
+  const [settings, setDisplaySettings] = useDisplaySettings()
   const [index, setIndex] = useState(0)
   const [paused, setPaused] = useState(false)
   const [showChrome, setShowChrome] = useState(true)
+  const [showShortcuts, setShowShortcuts] = useState(false)
   const chromeTimer = useRef<ReturnType<typeof setTimeout> | null>(null)
 
   const queue = useMemo(() => {
@@ -92,21 +93,48 @@ export function DisplayTicker({ sentences }: Props) {
 
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
-      if (e.key === "ArrowRight") {
+      // Overlay open: only close keys
+      if (showShortcuts) {
+        if (e.key === "Escape" || e.key === "?") {
+          e.preventDefault()
+          setShowShortcuts(false)
+        }
+        return
+      }
+
+      const next = () => {
         setIndex((i) => (i + 1) % queue.length)
         bumpChrome()
-      } else if (e.key === "ArrowLeft") {
+      }
+      const prev = () => {
         setIndex((i) => (i - 1 + queue.length) % queue.length)
         bumpChrome()
+      }
+
+      // Vim-style + arrow: h/k/← prev, j/l/→ next
+      if (e.key === "ArrowRight" || e.key === "l" || e.key === "j") {
+        next()
+      } else if (e.key === "ArrowLeft" || e.key === "h" || e.key === "k") {
+        prev()
       } else if (e.code === "Space") {
         e.preventDefault()
         setPaused((p) => !p)
         bumpChrome()
+      } else if (e.key === "r") {
+        // Random jump
+        setIndex(Math.floor(Math.random() * queue.length))
+        bumpChrome()
+      } else if (e.key === "f") {
+        setDisplaySettings({ focusMode: !settings.focusMode })
+      } else if (e.key === "?") {
+        setShowShortcuts(true)
+      } else if (e.key === "q") {
+        window.location.href = "/"
       }
     }
     window.addEventListener("keydown", onKey)
     return () => window.removeEventListener("keydown", onKey)
-  }, [queue.length, bumpChrome])
+  }, [queue.length, bumpChrome, showShortcuts, settings.focusMode, setDisplaySettings])
 
   if (queue.length === 0) {
     return (
@@ -129,6 +157,15 @@ export function DisplayTicker({ sentences }: Props) {
           showChrome ? "opacity-100" : "opacity-0 pointer-events-none",
         )}
       >
+        <Button
+          variant="ghost"
+          size="icon"
+          onClick={() => setShowShortcuts(true)}
+          aria-label="キーボードショートカット"
+          title="キーボードショートカット (?)"
+        >
+          <Keyboard className="h-4 w-4" />
+        </Button>
         <DisplaySettingsSheet />
         <Button asChild variant="ghost" size="sm">
           <a href="/">退出</a>
@@ -225,6 +262,64 @@ export function DisplayTicker({ sentences }: Props) {
           {(index % queue.length) + 1} / {queue.length}
         </div>
       </div>
+
+      {/* Keyboard shortcuts overlay */}
+      {showShortcuts && (
+        <button
+          type="button"
+          className="fixed inset-0 z-50 bg-black/40 backdrop-blur-sm flex items-center justify-center p-6 animate-fade-in cursor-default"
+          onClick={() => setShowShortcuts(false)}
+          aria-label="ショートカットを閉じる"
+        >
+          <div
+            className="bg-surface border border-border rounded-2xl shadow-lg-token p-8 max-w-md w-full text-left"
+            onClick={(e) => e.stopPropagation()}
+            onKeyDown={(e) => e.stopPropagation()}
+            role="dialog"
+            aria-modal="true"
+            aria-labelledby="shortcuts-title"
+          >
+            <h2
+              id="shortcuts-title"
+              className="text-lg font-semibold mb-5 text-fg flex items-center gap-2"
+            >
+              <Keyboard className="h-4 w-4" />
+              キーボードショートカット
+            </h2>
+            <dl className="space-y-2.5 text-sm">
+              <ShortcutRow keys={["j", "l", "→"]} desc="次の文へ" />
+              <ShortcutRow keys={["k", "h", "←"]} desc="前の文へ" />
+              <ShortcutRow keys={["Space"]} desc="一時停止 / 再生" />
+              <ShortcutRow keys={["r"]} desc="ランダムにジャンプ" />
+              <ShortcutRow keys={["f"]} desc="フォーカスモード切替" />
+              <ShortcutRow keys={["?"]} desc="このヘルプを表示" />
+              <ShortcutRow keys={["Esc"]} desc="閉じる" />
+              <ShortcutRow keys={["q"]} desc="ホームへ戻る" />
+            </dl>
+            <p className="mt-5 text-xs text-fg-tertiary">
+              Esc または ? でこのパネルを閉じます
+            </p>
+          </div>
+        </button>
+      )}
     </main>
+  )
+}
+
+function ShortcutRow({ keys, desc }: { keys: string[]; desc: string }) {
+  return (
+    <div className="flex items-center justify-between gap-4">
+      <div className="flex gap-1.5 shrink-0">
+        {keys.map((k) => (
+          <kbd
+            key={k}
+            className="min-w-[1.75rem] px-2 py-0.5 text-xs font-mono bg-bg-subtle border border-border rounded text-center text-fg"
+          >
+            {k}
+          </kbd>
+        ))}
+      </div>
+      <span className="text-fg-secondary text-right">{desc}</span>
+    </div>
   )
 }

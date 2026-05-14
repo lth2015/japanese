@@ -1,870 +1,312 @@
-# Nihongo Studio — 个人用日语开口训练系统
+# Nihongo Studio
 
-## 在本地跑起来
+> Open-source Japanese spoken-output training system for "reads-fluently-but-can't-speak" learners.
+>
+> 面向「读得懂但说不出口」学习者的开源日语口语训练系统。
+>
+> 「読めるけど話せない」学習者のためのオープンソース日本語アウトプット訓練システム。
+
+**Language jump**: [🇨🇳 中文](#-中文) · [🇬🇧 English](#-english) · [🇯🇵 日本語](#-日本語)
+
+---
+
+## 🇨🇳 中文
+
+### 这是什么
+
+Nihongo Studio 是一个**本地运行**的开源日语训练系统，专门服务于这样的学习者：
+
+- 已经有 N2/N1 阅读水平
+- 但**口语 / 听力跟不上阅读**
+- 想在真实职场 / 生活里能自然开口
+
+不是教语法的工具——是把"看得懂"和"说得出"之间的鸿沟，用结构化训练补上的系统。
+
+### 训练方法
+
+把高频日语 chunk 通过 **4 阶段循环**：
+
+1. **Stage 2 — Drill**：中→日 翻译/写作
+2. **Stage 2.5 — 音読**：朗读、练发音和节奏
+3. **Stage 3 — Listen-Write**：听音 → 写出来
+4. **Stage 4 — Quick-Fire**：限时口语反应
+
+错题进入间隔重复队列（SM-2 算法）。
+
+### 内置语料
+
+**26 个主题 pack，约 380 句 / 35 段对话 / 6 段短文**，全部敬語/丁寧/カジュアル三档 register 覆盖。
+
+| 类别 | 主题 |
+|---|---|
+| 职场 | 会议・Slack・邮件・电话・1on1・招聘・稟議・婉拒・调度・报告・事故沟通・供应商・反馈 |
+| 日常 | 咖啡店・便利店・出行・医院・美容室・宅配・餐厅・银行・房东・超市・飲み会・入职 |
+| 沉浸 | 日本谚语・每日 mantra（专门为大字 Display 模式优化） |
+
+### 快速开始
 
 ```bash
+node -v             # 推荐 22.x（仓库带 .node-version）
 pnpm install
-pnpm db:push      # 创建 SQLite schema (./data/app.db)
-pnpm db:seed      # 灌入 44 句预置场景
-pnpm dev          # 启动 dev server (http://localhost:3000)
+pnpm db:push        # 创建 SQLite schema（./data/app.db）
+pnpm db:seed        # 灌入 seed 内容
+pnpm corpus:import  # 导入 corpus/packs/ 里全部 pack
+pnpm dev            # http://localhost:3000
 ```
 
-> 第一次装 pnpm 11+ 时，若提示 `pnpm approve-builds`，运行一次并放行 `better-sqlite3 / @biomejs/biome / esbuild / sharp`。本仓库 `.npmrc` 已禁用每次脚本前的 deps 检查。
+> 首次装 pnpm 11+ 时，若提示 `pnpm approve-builds`，运行一次并放行 `better-sqlite3 / @biomejs/biome / esbuild / sharp`。
 
-**当前可用页面**：
-- `/` Dashboard（bento 概览）
-- `/display` 全屏轮播（副屏 / 手机挂机；← → 切换，Space 暂停）
+### 主要页面
+
+- `/` 今日训练台
+- `/drill` Stage 2 写作 Drill
+- `/read-aloud` Stage 2.5 音読
+- `/listen-write` Stage 3 听写
+- `/quick-fire` Stage 4 Quick-Fire
+- `/display` **全屏轮播**（副屏 / 手机挂机；Vim 键全开）
 - `/library` 场景库（按分类筛选、搜索）
+- `/passages` 短文阅读 + 日语回答
+- `/corpus` AI 语料工坊
 
-**待实现（Phase 2+）**：写作 Drill / 跟读 / 对话 / 语料本——需要 Gemini + Google STT/TTS 的 key（见 `.env.example`）。
+### Display 模式键盘
 
-## 设计文档
+| 键 | 动作 |
+|---|---|
+| `j` / `l` / `→` | 下一句 |
+| `k` / `h` / `←` | 上一句 |
+| `Space` | 暂停 / 播放 |
+| `r` | 随机跳转 |
+| `f` | 切换 focus mode |
+| `?` | 显示全部快捷键 |
+| `q` | 退出回首页 |
 
-详细设计稿在 [docs/](./docs/)：
-- [00-DESIGN.md](./docs/00-DESIGN.md) 愿景、V1 范围、与原 PRD 偏离
-- [01-ARCHITECTURE.md](./docs/01-ARCHITECTURE.md) 技术栈、数据模型、AI 集成
+### 自己加语料
+
+按 [corpus/AGENT_GUIDE.md](corpus/AGENT_GUIDE.md) 让 AI 生成 JSON pack，扔进 `corpus/packs/`：
+
+```bash
+pnpm corpus:import --dry-run   # 校验 schema + token 拼接
+pnpm corpus:import             # 正式入库
+```
+
+幂等导入——重复运行不会重复入库（按内容 hash 去重）。
+
+### 设计文档
+
+详细设计在 [docs/](./docs/)：
+
+- [00-DESIGN.md](./docs/00-DESIGN.md) 愿景 + V1 范围
+- [01-ARCHITECTURE.md](./docs/01-ARCHITECTURE.md) 技术栈 + 数据模型
 - [02-UI-UX.md](./docs/02-UI-UX.md) 设计系统 + 页面 mockup
+- [03-LEARNING-METHOD.md](./docs/03-LEARNING-METHOD.md) 训练方法学
+- [04-DESIGN-SYSTEM.md](./docs/04-DESIGN-SYSTEM.md) 视觉规范
+
+### 贡献
+
+欢迎 PR——尤其是**语料 pack**。一个新 pack 的成本就是写 11 句左右的 JSON 加一段对话。看 `corpus/AGENT_GUIDE.md` + `corpus/examples/`。
+
+### License
+
+[Apache License 2.0](./LICENSE)
 
 ---
 
-## 原始 PRD（V1.0）
+## 🇬🇧 English
 
-> 保留作为需求来源参考；最终实现以 `docs/` 为准。
+### What is this
 
-版本：V1.0
-目标用户：已有日语基础、能阅读但“不会说 / 不会读顺”的职场人士
-部署环境：本地（V1）/ Vercel（V2 可选）
-客户端：Web（PC + 手机浏览器自适应）
-开发方式：Claude Code 辅助开发
+Nihongo Studio is a **locally-run** open-source Japanese training system built for learners who:
 
----
+- Read at N2/N1 level
+- But **speak / listen at a noticeably lower level**
+- Want to express themselves naturally at work or in daily life in Japan
 
-# 一、产品定位
+This isn't a grammar app — it's a system for closing the gap between "I understand" and "I can produce."
 
-## 1.1 产品目标
+### How it trains you
 
-本系统不是传统日语学习软件，而是：
+High-frequency Japanese chunks cycle through a **4-stage loop**:
 
-> 一个专门帮助“能看懂日语但说不出口”的用户进行真实场景开口训练的 AI 日语训练系统。
+1. **Stage 2 — Drill**: Chinese → Japanese translation
+2. **Stage 2.5 — Read Aloud**: pronunciation + rhythm
+3. **Stage 3 — Listen-Write**: audio → transcribe
+4. **Stage 4 — Quick-Fire**: timed spoken response
 
-核心目标：
+Errors enter a spaced-repetition queue (SM-2 algorithm).
 
-* 提升真实工作场景中的日语表达能力
-* 提升朗读流畅度
-* 提升即时反应能力
-* 减少“脑子知道但嘴说不出来”
-* 解决会议中卡壳、断句、表达不自然的问题
+### Built-in corpus
 
----
+**26 thematic packs, ~380 sentences / 35 dialogues / 6 passages**, fully covering 敬語 / 丁寧 / カジュアル registers.
 
-# 二、目标用户
+| Category | Themes |
+|---|---|
+| Workplace | Meetings, Slack, email, phone, 1on1s, hiring, ringi (稟議), soft pushback, scheduling, reports, incident comm, vendor coordination, feedback |
+| Daily life | Cafe, conbini, transit, clinic, salon, delivery, restaurant, bank, landlord, supermarket, drinking parties, onboarding |
+| Ambient | Japanese proverbs + daily mantras (optimized for the big-text Display mode) |
 
-## 用户画像
+### Quick start
 
-用户已经：
-
-* 学过多年日语
-* 阅读能力较强
-* 能看懂文章
-* 具备 N2/N1 左右阅读水平
-
-但存在：
-
-* 不敢开口
-* 反应慢
-* 句子组织困难
-* 中文脑翻译
-* 发音不流畅
-* 职场交流紧张
-* 会议中容易卡壳
-
----
-
-# 三、核心设计理念
-
-## 3.1 不是“学语法”
-
-而是：
-
-* 开口训练
-* 跟读训练
-* 场景反应训练
-* 会议表达训练
-* 卡壳恢复训练
-
----
-
-## 3.2 高频短时训练
-
-设计原则：
-
-* 每次训练 5~15 分钟
-* 支持碎片化学习
-* 支持会议室训练
-* 支持第二屏轮播输入
-
----
-
-## 3.3 AI 个性化
-
-系统根据：
-
-* 用户错误
-* 用户卡壳内容
-* 用户朗读问题
-* 用户常用场景
-
-动态生成内容。
-
----
-
-# 四、产品模块
-
----
-
-# 4.1 首页 Dashboard
-
-## 功能
-
-显示：
-
-* 今日学习进度
-* 今日推荐训练
-* 最近错误句子
-* 连续学习天数
-* 今日单词轮播入口
-* 快速开始按钮
-
----
-
-## 页面元素
-
-### 顶部
-
-* Logo
-* 用户信息
-* 学习天数
-* 今日完成率
-
-### 中间
-
-卡片：
-
-* 开始跟读训练
-* 开始 AI 对话
-* 今日复习
-* 会议室模式
-
-### 底部
-
-学习统计：
-
-* 本周开口时长
-* 本周朗读次数
-* 常错表达
-* 高频卡壳句
-
----
-
-# 4.2 单词 / 短句轮播屏（Display Mode）
-
-## 目标
-
-用于：
-
-* 第二显示器
-* 手机挂机
-* 工作时碎片输入
-
----
-
-## 页面路径
-
-`/display`
-
----
-
-## 功能
-
-自动轮播：
-
-* 单词
-* 短句
-* 中文翻译
-* 假名
-* 例句
-
----
-
-## 支持模式
-
-### 模式1：单词模式
-
-显示：
-
-* 日语单词
-* 假名
-* 中文
-* 例句
-
----
-
-### 模式2：短句模式
-
-显示：
-
-* 工作日语短句
-* 中文翻译
-* 发音按钮
-
----
-
-### 模式3：会议模式
-
-显示：
-
-* 高频会议表达
-* 确认句
-* 救命句
-* 缓冲表达
-
-例如：
-
-* 少し確認させてください
-* もう一度お願いできますか
-* 現時点では未確認です
-
----
-
-## 参数
-
-用户可设置：
-
-* 自动切换时间
-* 是否显示中文
-* 是否自动播放语音
-* 字体大小
-* 深色模式
-
----
-
-# 4.3 跟读训练（Reading Training）
-
-## 页面路径
-
-`/read`
-
----
-
-## 核心目标
-
-训练：
-
-* 朗读流畅度
-* 发音
-* 语调
-* 停顿
-* 嘴部肌肉记忆
-
----
-
-## 流程
-
-### Step1
-
-系统展示一句日语：
-
-```text
-この件について確認させてください。
+```bash
+node -v             # 22.x recommended (.node-version included)
+pnpm install
+pnpm db:push        # create SQLite schema (./data/app.db)
+pnpm db:seed        # load seed content
+pnpm corpus:import  # import all packs in corpus/packs/
+pnpm dev            # http://localhost:3000
 ```
 
----
+> On first install with pnpm 11+, if prompted `pnpm approve-builds`, run it once and approve `better-sqlite3 / @biomejs/biome / esbuild / sharp`.
 
-### Step2
+### Main pages
 
-播放标准发音
+- `/` Today's training dashboard
+- `/drill` Stage 2 Writing Drill
+- `/read-aloud` Stage 2.5 Read Aloud
+- `/listen-write` Stage 3 Listen-Write
+- `/quick-fire` Stage 4 Quick-Fire
+- `/display` **Full-screen rotation** (secondary monitor / ambient; Vim keys fully supported)
+- `/library` Scenario library (filter, search)
+- `/passages` Passage reading + Japanese Q&A
+- `/corpus` AI corpus workshop
 
-使用 Google Cloud Text-to-Speech
+### Display mode keyboard
 
----
+| Key | Action |
+|---|---|
+| `j` / `l` / `→` | Next sentence |
+| `k` / `h` / `←` | Previous sentence |
+| `Space` | Pause / play |
+| `r` | Random jump |
+| `f` | Toggle focus mode |
+| `?` | Show all shortcuts |
+| `q` | Exit to home |
 
-### Step3
+### Add your own corpus
 
-用户点击录音
+Follow [corpus/AGENT_GUIDE.md](corpus/AGENT_GUIDE.md) to have an AI generate a JSON pack, drop it in `corpus/packs/`:
 
-浏览器录音：
-
-* PC 麦克风
-* 手机麦克风
-
----
-
-### Step4
-
-上传音频
-
-调用：
-
-Google Speech-to-Text
-
-得到：
-
-* 用户实际朗读文本
-
----
-
-### Step5
-
-Gemini 分析
-
-输出：
-
-* 发音问题
-* 停顿问题
-* 不自然部分
-* 建议跟读
-
----
-
-## AI反馈示例
-
-```text
-你整体发音正确，但：
-
-- 「確認」停顿不自然
-- 「させてください」语速偏快
-- 整句语调偏平
-
-建议放慢后半句。
+```bash
+pnpm corpus:import --dry-run   # validate schema + token concatenation
+pnpm corpus:import             # commit to DB
 ```
 
----
+Idempotent — re-importing doesn't duplicate entries (content-hash dedup).
 
-# 4.4 AI 对话训练（Talk Mode）
+### Design docs
 
-## 页面路径
+Detailed design in [docs/](./docs/):
 
-`/talk`
+- [00-DESIGN.md](./docs/00-DESIGN.md) Vision + V1 scope
+- [01-ARCHITECTURE.md](./docs/01-ARCHITECTURE.md) Stack + data model
+- [02-UI-UX.md](./docs/02-UI-UX.md) Design system + page mockups
+- [03-LEARNING-METHOD.md](./docs/03-LEARNING-METHOD.md) Pedagogy
+- [04-DESIGN-SYSTEM.md](./docs/04-DESIGN-SYSTEM.md) Visual spec
 
----
+### Contributing
 
-## 核心目标
+PRs welcome — especially **new corpus packs**. A new pack is roughly 11 sentences of JSON plus an optional dialogue. See `corpus/AGENT_GUIDE.md` and `corpus/examples/`.
 
-训练真实职场开口。
+### License
 
----
-
-## 场景分类
-
-### 会议场景
-
-* 汇报进度
-* 提需求
-* 确认问题
-* 表达风险
+[Apache License 2.0](./LICENSE)
 
 ---
 
-### 同事沟通
+## 🇯🇵 日本語
 
-* 请求协助
-* 说明问题
-* 闲聊
+### これは何
 
----
+Nihongo Studio は、以下のような学習者のために設計された**ローカル実行型**のオープンソース日本語訓練システムです：
 
-### 技术场景
+- N2/N1 レベルで読める
+- しかし**話す・聞くがそのレベルに追いついていない**
+- 職場や日常生活で自然に発話できるようになりたい
 
-* Bug 分析
-* 需求变更
-* 系统说明
+文法アプリではなく、「読める」と「話せる」のギャップを埋めるための構造化訓練システムです。
 
----
+### 訓練方法
 
-### 生存场景
+高頻度の日本語チャンクを **4 段階のループ**で回します：
 
-* 听不懂
-* 请求重复
-* 卡壳恢复
+1. **Stage 2 — Drill**：中国語 → 日本語の翻訳
+2. **Stage 2.5 — 音読**：発音とリズム
+3. **Stage 3 — ディクテーション**：音声 → 書き起こし
+4. **Stage 4 — Quick-Fire**：時間制限付き発話
 
----
+誤答は間隔反復キュー（SM-2 アルゴリズム）に入ります。
 
-## 对话模式
+### 内蔵コーパス
 
-### AI 扮演对方
+**26 の主題パック、約 380 文 / 35 対話 / 6 段落**、敬語 / 丁寧 / カジュアルの三レジスターをカバー。
 
-用户用语音回答。
+| カテゴリ | テーマ |
+|---|---|
+| 職場 | 会議・Slack・メール・電話・1on1・面接・稟議・ソフトプッシュバック・スケジュール調整・レポート・インシデント連絡・ベンダー調整・フィードバック |
+| 日常 | カフェ・コンビニ・交通・クリニック・美容室・宅配・レストラン・銀行・不動産・スーパー・飲み会・オンボーディング |
+| アンビエント | 日本のことわざ + 日常の心構え（Display モードの大文字表示用） |
 
----
+### クイックスタート
 
-## 流程
-
-### Step1
-
-AI 给出问题：
-
-```text
-このタスクの進捗はいかがですか？
+```bash
+node -v             # 22.x 推奨（.node-version 同梱）
+pnpm install
+pnpm db:push        # SQLite スキーマを作成（./data/app.db）
+pnpm db:seed        # シードコンテンツを投入
+pnpm corpus:import  # corpus/packs/ の全パックをインポート
+pnpm dev            # http://localhost:3000
 ```
 
----
+> pnpm 11+ の初回インストールで `pnpm approve-builds` を促された場合、一度実行して `better-sqlite3 / @biomejs/biome / esbuild / sharp` を承認してください。
 
-### Step2
+### 主なページ
 
-用户语音回答
+- `/` 今日の訓練ダッシュボード
+- `/drill` Stage 2 ライティング Drill
+- `/read-aloud` Stage 2.5 音読
+- `/listen-write` Stage 3 ディクテーション
+- `/quick-fire` Stage 4 Quick-Fire
+- `/display` **全画面ローテーション**（サブモニター / アンビエント；Vim キー対応）
+- `/library` シナリオライブラリ（フィルター、検索）
+- `/passages` 段落読解 + 日本語Q&A
+- `/corpus` AI コーパスワークショップ
 
----
+### Display モードのキーボード
 
-### Step3
+| キー | アクション |
+|---|---|
+| `j` / `l` / `→` | 次の文へ |
+| `k` / `h` / `←` | 前の文へ |
+| `Space` | 一時停止 / 再生 |
+| `r` | ランダムにジャンプ |
+| `f` | フォーカスモード切替 |
+| `?` | 全ショートカット表示 |
+| `q` | ホームへ戻る |
 
-Speech-to-Text 转文字
+### 独自コーパスを追加する
 
----
+[corpus/AGENT_GUIDE.md](corpus/AGENT_GUIDE.md) に従って AI に JSON パックを生成させ、`corpus/packs/` に置きます：
 
-### Step4
-
-Gemini 分析：
-
-* 是否自然
-* 是否符合商务场景
-* 更自然表达
-* 中文解释
-
----
-
-## AI纠正示例
-
-用户：
-
-```text
-まだちょっと...
+```bash
+pnpm corpus:import --dry-run   # スキーマ + トークン連結を検証
+pnpm corpus:import             # DB にコミット
 ```
 
-AI：
+冪等インポート — 再実行しても重複登録されません（コンテンツハッシュで重複排除）。
 
-```text
-表达不完整。
+### 設計ドキュメント
 
-更自然：
+詳細設計は [docs/](./docs/)：
 
-まだ確認中ですが、明日までに共有できると思います。
-```
+- [00-DESIGN.md](./docs/00-DESIGN.md) ビジョン + V1 スコープ
+- [01-ARCHITECTURE.md](./docs/01-ARCHITECTURE.md) スタック + データモデル
+- [02-UI-UX.md](./docs/02-UI-UX.md) デザインシステム + 画面モックアップ
+- [03-LEARNING-METHOD.md](./docs/03-LEARNING-METHOD.md) 学習方法論
+- [04-DESIGN-SYSTEM.md](./docs/04-DESIGN-SYSTEM.md) ビジュアル仕様
 
----
+### コントリビュート
 
-# 4.5 中文 → 日语表达训练（核心模块）
+PR を歓迎します — 特に**新しいコーパスパック**。新しいパックは概ね 11 文の JSON にオプションで対話を一つ追加するだけです。`corpus/AGENT_GUIDE.md` と `corpus/examples/` を参照してください。
 
-## 页面路径
+### License
 
-`/convert`
-
----
-
-## 核心目标
-
-解决：
-
-> “知道意思但说不出来”
-
----
-
-## 流程
-
-系统显示中文：
-
-```text
-我想再确认一下这个需求。
-```
-
-用户必须自己说日语。
-
----
-
-## AI反馈
-
-### 输出：
-
-* 用户表达
-* 更自然表达
-* 商务表达
-* 更口语表达
-
----
-
-## 示例
-
-用户：
-
-```text
-この要求をもう確認したいです
-```
-
-AI：
-
-```text
-可以理解，但更自然：
-
-この要件について、もう一度確認させてください。
-```
-
----
-
-# 4.6 卡壳恢复训练（重要）
-
-## 页面路径
-
-`/rescue`
-
----
-
-## 目标
-
-训练：
-
-* 不会说时如何接话
-* 如何拖时间
-* 如何维持对话
-
----
-
-## 内容
-
-高频“救命句”：
-
-* 少し考えさせてください
-* うまく説明できないのですが
-* 現時点では
-* 確認してから共有します
-
----
-
-## 模式
-
-AI 模拟压力对话。
-
-用户必须：
-
-* 接话
-* 拖延
-* 请求重复
-* 重新组织语言
-
----
-
-# 4.7 错题复习系统
-
-## 页面路径
-
-`/review`
-
----
-
-## 自动记录：
-
-* 发音错误
-* 常错表达
-* 卡壳句
-* 不自然表达
-
----
-
-## 自动复习
-
-采用：
-
-* 艾宾浩斯记忆
-* 间隔重复
-
----
-
-# 五、课程系统
-
----
-
-# 5.1 30天课程体系
-
----
-
-## 第一阶段（Day1~7）
-
-基础工作表达
-
----
-
-## 第二阶段（Day8~14）
-
-会议表达
-
----
-
-## 第三阶段（Day15~21）
-
-汇报与确认
-
----
-
-## 第四阶段（Day22~30）
-
-自由对话
-
----
-
-# 六、技术架构
-
----
-
-# 6.1 前端
-
-## 技术
-
-* Next.js
-* TypeScript
-* TailwindCSS
-
----
-
-## 要求
-
-* 响应式
-* 手机适配
-* PWA 支持
-
----
-
-# 6.2 后端
-
-## 推荐
-
-Next.js API Routes
-
-或：
-
-NestJS
-
----
-
-# 6.3 AI服务
-
-## Gemini API
-
-用途：
-
-* 对话生成
-* 表达纠正
-* 反馈分析
-
----
-
-## Google Speech-to-Text
-
-用途：
-
-* 日语语音识别
-
----
-
-## Google Text-to-Speech
-
-用途：
-
-* 标准发音生成
-
----
-
-# 6.4 数据库
-
-推荐：
-
-## MVP
-
-Supabase
-
-后续：
-
-PostgreSQL
-
----
-
-# 6.5 AWS部署
-
-推荐：
-
-## 前端
-
-Vercel 或 AWS Amplify
-
----
-
-## 后端
-
-AWS ECS / Lambda / App Runner
-
----
-
-## 数据库
-
-RDS PostgreSQL
-
----
-
-## 文件存储
-
-S3
-
----
-
-# 七、数据结构（简版）
-
----
-
-# User
-
-```ts
-{
-  id
-  name
-  level
-  streakDays
-}
-```
-
----
-
-# Sentence
-
-```ts
-{
-  id
-  japanese
-  chinese
-  kana
-  category
-  difficulty
-}
-```
-
----
-
-# UserRecord
-
-```ts
-{
-  id
-  userId
-  sentenceId
-  audioUrl
-  transcript
-  feedback
-  score
-}
-```
-
----
-
-# ReviewItem
-
-```ts
-{
-  id
-  userId
-  type
-  nextReviewAt
-}
-```
-
----
-
-# 八、MVP开发优先级
-
----
-
-# Phase 1（必须）
-
-## 功能
-
-* 登录
-* Dashboard
-* Display轮播
-* 跟读训练
-* Gemini反馈
-* 录音
-* Speech-to-Text
-
----
-
-# Phase 2
-
-* AI对话
-* 错题复习
-* 课程系统
-
----
-
-# Phase 3
-
-* 个性化学习
-* 发音评分
-* 学习分析
-* Shadowing模式
-
----
-
-# 九、Prompt设计（关键）
-
----
-
-# 朗读纠正 Prompt
-
-```text
-你是一位日语口语教练。
-
-请分析用户朗读的自然度。
-
-重点分析：
-
-1. 是否像中国人口音
-2. 停顿是否自然
-3. 是否符合日本职场语感
-4. 哪部分最需要重读
-
-请用中文回答。
-```
-
----
-
-# 商务表达纠正 Prompt
-
-```text
-请将用户的表达：
-
-1. 修正为自然日语
-2. 给出商务表达版本
-3. 给出口语版本
-4. 解释差异
-
-请用中文解释。
-```
-
----
-
-# 十、最终产品目标
-
-最终目标：
-
-让用户从：
-
-> “看得懂但说不出来”
-
-变成：
-
-> “可以在真实工作场景中自然开口”。
-
-重点不是考试。
-
-重点是：
-
-* 开会
-* 汇报
-* 讨论
-* 临场表达
-* 不再害怕说日语。
+[Apache License 2.0](./LICENSE)

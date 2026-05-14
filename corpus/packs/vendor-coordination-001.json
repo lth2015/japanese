@@ -1,0 +1,341 @@
+{
+  "packVersion": 1,
+  "packId": "vendor-coordination-001",
+  "title": "Vendor and Partner Coordination 001",
+  "generatedBy": "claude-opus-4-7",
+  "generatedAt": "2026-05-14",
+  "targetProfile": "Chinese native speaker, N1 reading, weak workplace Japanese. User is executive coordinating with external vendors, suppliers, partners. This pack covers quote requests, delivery negotiation, scope clarification, urgent asks, payment terms, follow-up — all in 敬語 since these are 社外 interactions.",
+  "reviewStatus": "reviewed",
+  "sentences": [
+    {
+      "externalId": "s001",
+      "japanese": "御社の対応スピードに大変感謝しております。",
+      "tokens": [
+        { "text": "御社", "kana": "おんしゃ" },
+        { "text": "の" },
+        { "text": "対応", "kana": "たいおう" },
+        { "text": "スピードに" },
+        { "text": "大変", "kana": "たいへん" },
+        { "text": "感謝", "kana": "かんしゃ" },
+        { "text": "しております。" }
+      ],
+      "kana": "おんしゃのたいおうすぴーどにたいへんかんしゃしております",
+      "chinese": "非常感谢贵公司的响应速度。",
+      "category": "smalltalk",
+      "register": "敬語",
+      "difficulty": 3,
+      "frequencyRank": 62,
+      "chunkPattern": "御社の~に大変感謝しております",
+      "tags": ["vendor", "appreciation", "open"]
+    },
+    {
+      "externalId": "s002",
+      "japanese": "お見積もりをいただけますでしょうか。",
+      "tokens": [
+        { "text": "お" },
+        { "text": "見積もり", "kana": "みつもり" },
+        { "text": "をいただけますでしょうか。" }
+      ],
+      "kana": "おみつもりをいただけますでしょうか",
+      "chinese": "能给我们一份报价吗？",
+      "category": "request",
+      "register": "敬語",
+      "difficulty": 2,
+      "frequencyRank": 31,
+      "chunkPattern": "お~をいただけますでしょうか",
+      "tags": ["vendor", "quote", "request"]
+    },
+    {
+      "externalId": "s003",
+      "japanese": "納期はいつ頃になりますでしょうか。",
+      "tokens": [
+        { "text": "納期", "kana": "のうき" },
+        { "text": "はいつ" },
+        { "text": "頃", "kana": "ごろ" },
+        { "text": "になりますでしょうか。" }
+      ],
+      "kana": "のうきはいつごろになりますでしょうか",
+      "chinese": "交期大概什么时候？",
+      "category": "request",
+      "register": "敬語",
+      "difficulty": 2,
+      "frequencyRank": 42,
+      "chunkPattern": "~はいつ頃になりますでしょうか",
+      "tags": ["vendor", "delivery-date", "ask"]
+    },
+    {
+      "externalId": "s004",
+      "japanese": "ご対応可能な範囲を教えていただけますか。",
+      "tokens": [
+        { "text": "ご" },
+        { "text": "対応可能", "kana": "たいおうかのう" },
+        { "text": "な" },
+        { "text": "範囲", "kana": "はんい" },
+        { "text": "を" },
+        { "text": "教えて", "kana": "おしえて" },
+        { "text": "いただけますか。" }
+      ],
+      "kana": "ごたいおうかのうなはんいをおしえていただけますか",
+      "chinese": "能告诉我们贵方能支持的范围吗？",
+      "category": "request",
+      "register": "敬語",
+      "difficulty": 3,
+      "frequencyRank": 75,
+      "chunkPattern": "ご対応可能な~を教えていただけますか",
+      "tags": ["vendor", "scope", "capability"]
+    },
+    {
+      "externalId": "s005",
+      "japanese": "仕様について、念のため再度確認させてください。",
+      "tokens": [
+        { "text": "仕様", "kana": "しよう" },
+        { "text": "について、" },
+        { "text": "念", "kana": "ねん" },
+        { "text": "のため" },
+        { "text": "再度", "kana": "さいど" },
+        { "text": "確認", "kana": "かくにん" },
+        { "text": "させてください。" }
+      ],
+      "kana": "しようについてねんのためさいどかくにんさせてください",
+      "chinese": "关于规格,为以防万一请让我再确认一遍。",
+      "category": "request",
+      "register": "丁寧",
+      "difficulty": 3,
+      "frequencyRank": 68,
+      "chunkPattern": "~について、念のため再度確認させてください",
+      "tags": ["vendor", "spec", "clarify"]
+    },
+    {
+      "externalId": "s006",
+      "japanese": "お忙しいところ申し訳ございませんが、急ぎでご対応いただきたく。",
+      "tokens": [
+        { "text": "お" },
+        { "text": "忙しい", "kana": "いそがしい" },
+        { "text": "ところ" },
+        { "text": "申し訳ございません", "kana": "もうしわけございません" },
+        { "text": "が、" },
+        { "text": "急ぎ", "kana": "いそぎ" },
+        { "text": "でご" },
+        { "text": "対応", "kana": "たいおう" },
+        { "text": "いただきたく。" }
+      ],
+      "kana": "おいそがしいところもうしわけございませんがいそぎでごたいおういただきたく",
+      "chinese": "百忙之中不好意思,希望您能加急处理。",
+      "category": "apology",
+      "register": "敬語",
+      "difficulty": 4,
+      "frequencyRank": 89,
+      "chunkPattern": "お忙しいところ申し訳ございませんが、~ご~いただきたく",
+      "tags": ["vendor", "urgent", "apologetic"]
+    },
+    {
+      "externalId": "s007",
+      "japanese": "進捗状況をご共有いただけますと幸いです。",
+      "tokens": [
+        { "text": "進捗状況", "kana": "しんちょくじょうきょう" },
+        { "text": "をご" },
+        { "text": "共有", "kana": "きょうゆう" },
+        { "text": "いただけますと" },
+        { "text": "幸い", "kana": "さいわい" },
+        { "text": "です。" }
+      ],
+      "kana": "しんちょくじょうきょうをごきょうゆういただけますとさいわいです",
+      "chinese": "如能告知进度,我们将非常感谢。",
+      "category": "request",
+      "register": "敬語",
+      "difficulty": 3,
+      "frequencyRank": 71,
+      "chunkPattern": "~をご~いただけますと幸いです",
+      "tags": ["vendor", "follow-up", "update"]
+    },
+    {
+      "externalId": "s008",
+      "japanese": "契約内容について、少々確認したい点がございます。",
+      "tokens": [
+        { "text": "契約内容", "kana": "けいやくないよう" },
+        { "text": "について、" },
+        { "text": "少々", "kana": "しょうしょう" },
+        { "text": "確認", "kana": "かくにん" },
+        { "text": "したい" },
+        { "text": "点", "kana": "てん" },
+        { "text": "がございます。" }
+      ],
+      "kana": "けいやくないようについてしょうしょうかくにんしたいてんがございます",
+      "chinese": "关于合同内容,有几点想确认一下。",
+      "category": "request",
+      "register": "敬語",
+      "difficulty": 3,
+      "frequencyRank": 96,
+      "chunkPattern": "~について、少々確認したい点がございます",
+      "tags": ["vendor", "contract", "clarify"]
+    },
+    {
+      "externalId": "s009",
+      "japanese": "双方にメリットのある形で進めたいと考えております。",
+      "tokens": [
+        { "text": "双方", "kana": "そうほう" },
+        { "text": "にメリットのある" },
+        { "text": "形", "kana": "かたち" },
+        { "text": "で" },
+        { "text": "進めたい", "kana": "すすめたい" },
+        { "text": "と" },
+        { "text": "考えて", "kana": "かんがえて" },
+        { "text": "おります。" }
+      ],
+      "kana": "そうほうにめりっとのあるかたちですすめたいとかんがえております",
+      "chinese": "希望以双方互利的方式推进。",
+      "category": "progress",
+      "register": "敬語",
+      "difficulty": 4,
+      "frequencyRank": 102,
+      "chunkPattern": "双方にメリットのある形で~たいと考えております",
+      "tags": ["vendor", "win-win", "frame"]
+    },
+    {
+      "externalId": "s010",
+      "japanese": "お支払い条件についてご相談させていただきたいです。",
+      "tokens": [
+        { "text": "お" },
+        { "text": "支払い条件", "kana": "しはらいじょうけん" },
+        { "text": "についてご" },
+        { "text": "相談", "kana": "そうだん" },
+        { "text": "させていただきたいです。" }
+      ],
+      "kana": "おしはらいじょうけんについてごそうだんさせていただきたいです",
+      "chinese": "想就付款条件跟您商量一下。",
+      "category": "request",
+      "register": "敬語",
+      "difficulty": 3,
+      "frequencyRank": 85,
+      "chunkPattern": "~についてご相談させていただきたいです",
+      "tags": ["vendor", "payment-terms", "negotiate"]
+    },
+    {
+      "externalId": "s011",
+      "japanese": "次回のお打ち合わせは来週でいかがでしょうか。",
+      "tokens": [
+        { "text": "次回", "kana": "じかい" },
+        { "text": "のお" },
+        { "text": "打ち合わせ", "kana": "うちあわせ" },
+        { "text": "は" },
+        { "text": "来週", "kana": "らいしゅう" },
+        { "text": "でいかがでしょうか。" }
+      ],
+      "kana": "じかいのおうちあわせはらいしゅうでいかがでしょうか",
+      "chinese": "下次开会下周方便吗？",
+      "category": "request",
+      "register": "敬語",
+      "difficulty": 2,
+      "frequencyRank": 56,
+      "chunkPattern": "次回の~は~でいかがでしょうか",
+      "tags": ["vendor", "scheduling", "next-meeting"]
+    }
+  ],
+  "dialogues": [
+    {
+      "externalId": "d001",
+      "title": "外注先との見積もりと納期調整",
+      "scenario": "meeting",
+      "description": "外注ベンダーへ見積もりと納期を依頼しつつ、急ぎ対応の余地を交渉する典型的な打合せ場面。win-win フレーミングで締める。",
+      "difficulty": 4,
+      "register": "敬語",
+      "tags": ["vendor", "negotiation", "quote"],
+      "turns": [
+        {
+          "speaker": "本人",
+          "japanese": "お見積もりをいただけますでしょうか。納期はいつ頃になりますでしょうか。",
+          "tokens": [
+            { "text": "お" },
+            { "text": "見積もり", "kana": "みつもり" },
+            { "text": "をいただけますでしょうか。" },
+            { "text": "納期", "kana": "のうき" },
+            { "text": "はいつ" },
+            { "text": "頃", "kana": "ごろ" },
+            { "text": "になりますでしょうか。" }
+          ],
+          "kana": "おみつもりをいただけますでしょうかのうきはいつごろになりますでしょうか",
+          "chinese": "能给我们一份报价吗？交期大概什么时候？"
+        },
+        {
+          "speaker": "ベンダー",
+          "japanese": "見積もりは来週初めにお送りいたします。納期は3週間ほどいただきたく。",
+          "tokens": [
+            { "text": "見積もり", "kana": "みつもり" },
+            { "text": "は" },
+            { "text": "来週", "kana": "らいしゅう" },
+            { "text": "初め", "kana": "はじめ" },
+            { "text": "にお" },
+            { "text": "送り", "kana": "おくり" },
+            { "text": "いたします。" },
+            { "text": "納期", "kana": "のうき" },
+            { "text": "は3" },
+            { "text": "週間", "kana": "しゅうかん" },
+            { "text": "ほどいただきたく。" }
+          ],
+          "kana": "みつもりはらいしゅうはじめにおおくりいたしますのうきはさんしゅうかんほどいただきたく",
+          "chinese": "报价下周初发您。交期希望给我们 3 周左右。"
+        },
+        {
+          "speaker": "本人",
+          "japanese": "お忙しいところ申し訳ございませんが、急ぎでご対応いただきたく。",
+          "tokens": [
+            { "text": "お" },
+            { "text": "忙しい", "kana": "いそがしい" },
+            { "text": "ところ" },
+            { "text": "申し訳ございません", "kana": "もうしわけございません" },
+            { "text": "が、" },
+            { "text": "急ぎ", "kana": "いそぎ" },
+            { "text": "でご" },
+            { "text": "対応", "kana": "たいおう" },
+            { "text": "いただきたく。" }
+          ],
+          "kana": "おいそがしいところもうしわけございませんがいそぎでごたいおういただきたく",
+          "chinese": "百忙之中不好意思,希望您能加急。"
+        },
+        {
+          "speaker": "ベンダー",
+          "japanese": "仕様にもよりますが、優先度を上げて対応可能か社内で確認いたします。",
+          "tokens": [
+            { "text": "仕様", "kana": "しよう" },
+            { "text": "にもよりますが、" },
+            { "text": "優先度", "kana": "ゆうせんど" },
+            { "text": "を" },
+            { "text": "上げて", "kana": "あげて" },
+            { "text": "対応可能", "kana": "たいおうかのう" },
+            { "text": "か" },
+            { "text": "社内", "kana": "しゃない" },
+            { "text": "で" },
+            { "text": "確認", "kana": "かくにん" },
+            { "text": "いたします。" }
+          ],
+          "kana": "しようにもよりますがゆうせんどをあげてたいおうかのうかしゃないでかくにんいたします",
+          "chinese": "看具体规格,我们内部确认下能否提高优先级。"
+        },
+        {
+          "speaker": "本人",
+          "japanese": "ご対応可能な範囲を教えていただけますか。双方にメリットのある形で進めたいと考えております。",
+          "tokens": [
+            { "text": "ご" },
+            { "text": "対応可能", "kana": "たいおうかのう" },
+            { "text": "な" },
+            { "text": "範囲", "kana": "はんい" },
+            { "text": "を" },
+            { "text": "教えて", "kana": "おしえて" },
+            { "text": "いただけますか。" },
+            { "text": "双方", "kana": "そうほう" },
+            { "text": "にメリットのある" },
+            { "text": "形", "kana": "かたち" },
+            { "text": "で" },
+            { "text": "進めたい", "kana": "すすめたい" },
+            { "text": "と" },
+            { "text": "考えて", "kana": "かんがえて" },
+            { "text": "おります。" }
+          ],
+          "kana": "ごたいおうかのうなはんいをおしえていただけますかそうほうにめりっとのあるかたちですすめたいとかんがえております",
+          "chinese": "能告诉我们贵方支持的范围吗？希望以双方互利的方式推进。"
+        }
+      ]
+    }
+  ],
+  "passages": []
+}

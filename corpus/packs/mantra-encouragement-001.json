@@ -1,0 +1,201 @@
+{
+  "packVersion": 1,
+  "packId": "mantra-encouragement-001",
+  "title": "Mantras for Display 001",
+  "generatedBy": "claude-opus-4-7",
+  "generatedAt": "2026-05-14",
+  "targetProfile": "Display-optimized content: short self-talk / inner-voice mantras for daily grounding. Each line is 4-12 chars Japanese, designed to look impactful at 100px+ on the ambient Display page. カジュアル register since these are inner monologue.",
+  "reviewStatus": "reviewed",
+  "sentences": [
+    {
+      "externalId": "s001",
+      "japanese": "一歩ずつ前へ。",
+      "tokens": [
+        { "text": "一歩", "kana": "いっぽ" },
+        { "text": "ずつ" },
+        { "text": "前", "kana": "まえ" },
+        { "text": "へ。" }
+      ],
+      "kana": "いっぽずつまえへ",
+      "chinese": "一步一步往前。",
+      "category": "daily",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 110,
+      "chunkPattern": "一歩ずつ前へ",
+      "tags": ["display", "mantra", "step-forward"]
+    },
+    {
+      "externalId": "s002",
+      "japanese": "今日も無理せずに。",
+      "tokens": [
+        { "text": "今日", "kana": "きょう" },
+        { "text": "も" },
+        { "text": "無理", "kana": "むり" },
+        { "text": "せずに。" }
+      ],
+      "kana": "きょうもむりせずに",
+      "chinese": "今天也别太勉强。",
+      "category": "daily",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 115,
+      "chunkPattern": "~も無理せずに",
+      "tags": ["display", "mantra", "self-care"]
+    },
+    {
+      "externalId": "s003",
+      "japanese": "焦らずいこう。",
+      "tokens": [
+        { "text": "焦らず", "kana": "あせらず" },
+        { "text": "いこう。" }
+      ],
+      "kana": "あせらずいこう",
+      "chinese": "不慌不忙地走。",
+      "category": "daily",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 105,
+      "chunkPattern": "焦らずいこう",
+      "tags": ["display", "mantra", "no-rush"]
+    },
+    {
+      "externalId": "s004",
+      "japanese": "まあ、なんとかなるさ。",
+      "tokens": [
+        { "text": "まあ、なんとかなるさ。" }
+      ],
+      "kana": "まあなんとかなるさ",
+      "chinese": "嗯,总会有办法的。",
+      "category": "daily",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 102,
+      "chunkPattern": "まあ、なんとかなるさ",
+      "tags": ["display", "mantra", "letting-go"]
+    },
+    {
+      "externalId": "s005",
+      "japanese": "完璧じゃなくていい。",
+      "tokens": [
+        { "text": "完璧", "kana": "かんぺき" },
+        { "text": "じゃなくていい。" }
+      ],
+      "kana": "かんぺきじゃなくていい",
+      "chinese": "不用完美也可以。",
+      "category": "daily",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 118,
+      "chunkPattern": "~じゃなくていい",
+      "tags": ["display", "mantra", "good-enough"]
+    },
+    {
+      "externalId": "s006",
+      "japanese": "自分のペースで。",
+      "tokens": [
+        { "text": "自分", "kana": "じぶん" },
+        { "text": "のペースで。" }
+      ],
+      "kana": "じぶんのぺーすで",
+      "chinese": "按自己的节奏。",
+      "category": "daily",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 99,
+      "chunkPattern": "自分のペースで",
+      "tags": ["display", "mantra", "own-pace"]
+    },
+    {
+      "externalId": "s007",
+      "japanese": "大丈夫、大丈夫。",
+      "tokens": [
+        { "text": "大丈夫", "kana": "だいじょうぶ" },
+        { "text": "、" },
+        { "text": "大丈夫", "kana": "だいじょうぶ" },
+        { "text": "。" }
+      ],
+      "kana": "だいじょうぶだいじょうぶ",
+      "chinese": "没事的,没事的。",
+      "category": "daily",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 95,
+      "chunkPattern": "大丈夫、大丈夫",
+      "tags": ["display", "mantra", "reassure"]
+    },
+    {
+      "externalId": "s008",
+      "japanese": "今ここに集中。",
+      "tokens": [
+        { "text": "今", "kana": "いま" },
+        { "text": "ここに" },
+        { "text": "集中", "kana": "しゅうちゅう" },
+        { "text": "。" }
+      ],
+      "kana": "いまここにしゅうちゅう",
+      "chinese": "专注于此时此地。",
+      "category": "daily",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 125,
+      "chunkPattern": "今ここに~",
+      "tags": ["display", "mantra", "presence"]
+    },
+    {
+      "externalId": "s009",
+      "japanese": "小さな一歩でいい。",
+      "tokens": [
+        { "text": "小さな", "kana": "ちいさな" },
+        { "text": "一歩", "kana": "いっぽ" },
+        { "text": "でいい。" }
+      ],
+      "kana": "ちいさないっぽでいい",
+      "chinese": "小小一步就好。",
+      "category": "daily",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 112,
+      "chunkPattern": "小さな~でいい",
+      "tags": ["display", "mantra", "small-step"]
+    },
+    {
+      "externalId": "s010",
+      "japanese": "続けることが力になる。",
+      "tokens": [
+        { "text": "続けること", "kana": "つづけること" },
+        { "text": "が" },
+        { "text": "力", "kana": "ちから" },
+        { "text": "になる。" }
+      ],
+      "kana": "つづけることがちからになる",
+      "chinese": "持续做下去就是力量。",
+      "category": "daily",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 128,
+      "chunkPattern": "続けることが~になる",
+      "tags": ["display", "mantra", "consistency"]
+    },
+    {
+      "externalId": "s011",
+      "japanese": "深呼吸して、もう一度。",
+      "tokens": [
+        { "text": "深呼吸", "kana": "しんこきゅう" },
+        { "text": "して、もう" },
+        { "text": "一度", "kana": "いちど" },
+        { "text": "。" }
+      ],
+      "kana": "しんこきゅうしてもういちど",
+      "chinese": "深呼吸,再来一次。",
+      "category": "daily",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 122,
+      "chunkPattern": "深呼吸して、~",
+      "tags": ["display", "mantra", "reset"]
+    }
+  ],
+  "dialogues": [],
+  "passages": []
+}

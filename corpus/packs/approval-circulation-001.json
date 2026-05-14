@@ -1,0 +1,302 @@
+{
+  "packVersion": 1,
+  "packId": "approval-circulation-001",
+  "title": "Approval and Ringi Circulation 001",
+  "generatedBy": "claude-opus-4-7",
+  "generatedAt": "2026-05-14",
+  "targetProfile": "Chinese native speaker, N1 reading, weak workplace Japanese. User is executive, both an approver of downstream ringi and a submitter to board / 取締役. This pack covers Japan-specific 稟議・承認・回覧・決裁 vocabulary in both directions, plus status states. All 敬語.",
+  "reviewStatus": "reviewed",
+  "sentences": [
+    {
+      "externalId": "s001",
+      "japanese": "稟議書を回覧させていただきます。",
+      "tokens": [
+        { "text": "稟議書", "kana": "りんぎしょ" },
+        { "text": "を" },
+        { "text": "回覧", "kana": "かいらん" },
+        { "text": "させていただきます。" }
+      ],
+      "kana": "りんぎしょをかいらんさせていただきます",
+      "chinese": "请允许我将稟議书传阅。",
+      "category": "progress",
+      "register": "敬語",
+      "difficulty": 3,
+      "frequencyRank": 65,
+      "chunkPattern": "~を回覧させていただきます",
+      "tags": ["ringi", "submit", "circulate"]
+    },
+    {
+      "externalId": "s002",
+      "japanese": "ご承認のほど、よろしくお願いいたします。",
+      "tokens": [
+        { "text": "ご" },
+        { "text": "承認", "kana": "しょうにん" },
+        { "text": "のほど、よろしくお" },
+        { "text": "願い", "kana": "ねがい" },
+        { "text": "いたします。" }
+      ],
+      "kana": "ごしょうにんのほどよろしくおねがいいたします",
+      "chinese": "请您审批,拜托了。",
+      "category": "request",
+      "register": "敬語",
+      "difficulty": 2,
+      "frequencyRank": 38,
+      "chunkPattern": "ご~のほど、よろしくお願いいたします",
+      "tags": ["ringi", "ask-approval", "close"]
+    },
+    {
+      "externalId": "s003",
+      "japanese": "ご決裁いただきたく、稟議申請いたします。",
+      "tokens": [
+        { "text": "ご" },
+        { "text": "決裁", "kana": "けっさい" },
+        { "text": "いただきたく、" },
+        { "text": "稟議申請", "kana": "りんぎしんせい" },
+        { "text": "いたします。" }
+      ],
+      "kana": "ごけっさいいただきたくりんぎしんせいいたします",
+      "chinese": "希望您裁决,特此申请稟議。",
+      "category": "request",
+      "register": "敬語",
+      "difficulty": 4,
+      "frequencyRank": 78,
+      "chunkPattern": "ご~いただきたく、~いたします",
+      "tags": ["ringi", "submit-formal", "ask-decision"]
+    },
+    {
+      "externalId": "s004",
+      "japanese": "内容を確認させていただきました。",
+      "tokens": [
+        { "text": "内容", "kana": "ないよう" },
+        { "text": "を" },
+        { "text": "確認", "kana": "かくにん" },
+        { "text": "させていただきました。" }
+      ],
+      "kana": "ないようをかくにんさせていただきました",
+      "chinese": "内容已确认。",
+      "category": "progress",
+      "register": "敬語",
+      "difficulty": 2,
+      "frequencyRank": 42,
+      "chunkPattern": "~を確認させていただきました",
+      "tags": ["ringi", "approver", "confirm"]
+    },
+    {
+      "externalId": "s005",
+      "japanese": "条件付きで承認いたします。",
+      "tokens": [
+        { "text": "条件付き", "kana": "じょうけんつき" },
+        { "text": "で" },
+        { "text": "承認", "kana": "しょうにん" },
+        { "text": "いたします。" }
+      ],
+      "kana": "じょうけんつきでしょうにんいたします",
+      "chinese": "有条件批准。",
+      "category": "progress",
+      "register": "敬語",
+      "difficulty": 3,
+      "frequencyRank": 88,
+      "chunkPattern": "条件付きで~いたします",
+      "tags": ["ringi", "approver", "conditional"]
+    },
+    {
+      "externalId": "s006",
+      "japanese": "一点コメントを付けて差し戻します。",
+      "tokens": [
+        { "text": "一点", "kana": "いってん" },
+        { "text": "コメントを" },
+        { "text": "付けて", "kana": "つけて" },
+        { "text": "差し戻します", "kana": "さしもどします" },
+        { "text": "。" }
+      ],
+      "kana": "いってんこめんとをつけてさしもどします",
+      "chinese": "附一条评论后打回。",
+      "category": "progress",
+      "register": "丁寧",
+      "difficulty": 3,
+      "frequencyRank": 95,
+      "chunkPattern": "一点~を付けて差し戻します",
+      "tags": ["ringi", "approver", "send-back"]
+    },
+    {
+      "externalId": "s007",
+      "japanese": "修正のうえ再提出いたします。",
+      "tokens": [
+        { "text": "修正", "kana": "しゅうせい" },
+        { "text": "のうえ" },
+        { "text": "再提出", "kana": "さいていしゅつ" },
+        { "text": "いたします。" }
+      ],
+      "kana": "しゅうせいのうえさいていしゅついたします",
+      "chinese": "修改后再次提交。",
+      "category": "progress",
+      "register": "敬語",
+      "difficulty": 3,
+      "frequencyRank": 82,
+      "chunkPattern": "~のうえ~いたします",
+      "tags": ["ringi", "submitter", "resubmit"]
+    },
+    {
+      "externalId": "s008",
+      "japanese": "承認待ちとなっております。",
+      "tokens": [
+        { "text": "承認待ち", "kana": "しょうにんまち" },
+        { "text": "となっております。" }
+      ],
+      "kana": "しょうにんまちとなっております",
+      "chinese": "目前是审批待状态。",
+      "category": "progress",
+      "register": "敬語",
+      "difficulty": 2,
+      "frequencyRank": 56,
+      "chunkPattern": "~となっております",
+      "tags": ["ringi", "status", "pending"]
+    },
+    {
+      "externalId": "s009",
+      "japanese": "稟議が下りました。",
+      "tokens": [
+        { "text": "稟議", "kana": "りんぎ" },
+        { "text": "が" },
+        { "text": "下りました", "kana": "おりました" },
+        { "text": "。" }
+      ],
+      "kana": "りんぎがおりました",
+      "chinese": "稟議下来了。",
+      "category": "progress",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 75,
+      "chunkPattern": "~が下りました",
+      "tags": ["ringi", "status", "approved"]
+    },
+    {
+      "externalId": "s010",
+      "japanese": "否決となりましたので、別案を検討いたします。",
+      "tokens": [
+        { "text": "否決", "kana": "ひけつ" },
+        { "text": "となりましたので、" },
+        { "text": "別案", "kana": "べつあん" },
+        { "text": "を" },
+        { "text": "検討", "kana": "けんとう" },
+        { "text": "いたします。" }
+      ],
+      "kana": "ひけつとなりましたのでべつあんをけんとういたします",
+      "chinese": "未通过,我们再考虑别的方案。",
+      "category": "progress",
+      "register": "敬語",
+      "difficulty": 3,
+      "frequencyRank": 108,
+      "chunkPattern": "~となりましたので、~いたします",
+      "tags": ["ringi", "status", "rejected"]
+    },
+    {
+      "externalId": "s011",
+      "japanese": "押印をお願いいたします。",
+      "tokens": [
+        { "text": "押印", "kana": "おういん" },
+        { "text": "をお" },
+        { "text": "願い", "kana": "ねがい" },
+        { "text": "いたします。" }
+      ],
+      "kana": "おういんをおねがいいたします",
+      "chinese": "请您盖章。",
+      "category": "request",
+      "register": "敬語",
+      "difficulty": 2,
+      "frequencyRank": 71,
+      "chunkPattern": "~をお願いいたします",
+      "tags": ["ringi", "stamp", "request"]
+    }
+  ],
+  "dialogues": [
+    {
+      "externalId": "d001",
+      "title": "稟議書の差し戻しと再提出",
+      "scenario": "slack",
+      "description": "稟議申請 → 内容確認 → 差し戻し → 修正再提出 → 条件付き承認、という標準的な稟議サイクルの会話例。",
+      "difficulty": 4,
+      "register": "敬語",
+      "tags": ["ringi", "cycle", "approver-submitter"],
+      "turns": [
+        {
+          "speaker": "申請者",
+          "japanese": "ご決裁いただきたく、稟議申請いたします。ご確認のほど、よろしくお願いいたします。",
+          "tokens": [
+            { "text": "ご" },
+            { "text": "決裁", "kana": "けっさい" },
+            { "text": "いただきたく、" },
+            { "text": "稟議申請", "kana": "りんぎしんせい" },
+            { "text": "いたします。" },
+            { "text": "ご" },
+            { "text": "確認", "kana": "かくにん" },
+            { "text": "のほど、よろしくお" },
+            { "text": "願い", "kana": "ねがい" },
+            { "text": "いたします。" }
+          ],
+          "kana": "ごけっさいいただきたくりんぎしんせいいたしますごかくにんのほどよろしくおねがいいたします",
+          "chinese": "希望您裁决,特此申请稟議。请您过目,拜托了。"
+        },
+        {
+          "speaker": "承認者",
+          "japanese": "内容を確認させていただきました。一点コメントを付けて差し戻します。",
+          "tokens": [
+            { "text": "内容", "kana": "ないよう" },
+            { "text": "を" },
+            { "text": "確認", "kana": "かくにん" },
+            { "text": "させていただきました。" },
+            { "text": "一点", "kana": "いってん" },
+            { "text": "コメントを" },
+            { "text": "付けて", "kana": "つけて" },
+            { "text": "差し戻します", "kana": "さしもどします" },
+            { "text": "。" }
+          ],
+          "kana": "ないようをかくにんさせていただきましたいってんこめんとをつけてさしもどします",
+          "chinese": "内容已确认。附一条评论后打回。"
+        },
+        {
+          "speaker": "申請者",
+          "japanese": "承知いたしました。修正のうえ再提出いたします。",
+          "tokens": [
+            { "text": "承知", "kana": "しょうち" },
+            { "text": "いたしました。" },
+            { "text": "修正", "kana": "しゅうせい" },
+            { "text": "のうえ" },
+            { "text": "再提出", "kana": "さいていしゅつ" },
+            { "text": "いたします。" }
+          ],
+          "kana": "しょうちいたしましたしゅうせいのうえさいていしゅついたします",
+          "chinese": "明白了。修改后再次提交。"
+        },
+        {
+          "speaker": "承認者",
+          "japanese": "確認しました。条件付きで承認いたします。",
+          "tokens": [
+            { "text": "確認", "kana": "かくにん" },
+            { "text": "しました。" },
+            { "text": "条件付き", "kana": "じょうけんつき" },
+            { "text": "で" },
+            { "text": "承認", "kana": "しょうにん" },
+            { "text": "いたします。" }
+          ],
+          "kana": "かくにんしましたじょうけんつきでしょうにんいたします",
+          "chinese": "确认了。有条件批准。"
+        },
+        {
+          "speaker": "申請者",
+          "japanese": "ありがとうございます。引き続きよろしくお願いいたします。",
+          "tokens": [
+            { "text": "ありがとうございます。" },
+            { "text": "引き続き", "kana": "ひきつづき" },
+            { "text": "よろしくお" },
+            { "text": "願い", "kana": "ねがい" },
+            { "text": "いたします。" }
+          ],
+          "kana": "ありがとうございますひきつづきよろしくおねがいいたします",
+          "chinese": "感谢。今后也请多关照。"
+        }
+      ]
+    }
+  ],
+  "passages": []
+}

@@ -1,0 +1,296 @@
+{
+  "packVersion": 1,
+  "packId": "daily-pickup-delivery-001",
+  "title": "Daily Pickup and Delivery 001",
+  "generatedBy": "claude-opus-4-7",
+  "generatedAt": "2026-05-14",
+  "targetProfile": "Chinese native speaker, N1 reading, weak spoken daily Japanese — package delivery, redelivery scheduling, delivery-box requests, pickup arrangements, COD shipping. Very high frequency for anyone living in Japan.",
+  "reviewStatus": "reviewed",
+  "sentences": [
+    {
+      "externalId": "s001",
+      "japanese": "再配達をお願いできますか。",
+      "tokens": [
+        { "text": "再配達", "kana": "さいはいたつ" },
+        { "text": "をお" },
+        { "text": "願い", "kana": "ねがい" },
+        { "text": "できますか。" }
+      ],
+      "kana": "さいはいたつをおねがいできますか",
+      "chinese": "能帮我安排再次投递吗？",
+      "category": "request",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 24,
+      "chunkPattern": "~をお願いできますか",
+      "tags": ["delivery", "redelivery", "core"]
+    },
+    {
+      "externalId": "s002",
+      "japanese": "明日の午前中でお願いします。",
+      "tokens": [
+        { "text": "明日", "kana": "あした" },
+        { "text": "の" },
+        { "text": "午前中", "kana": "ごぜんちゅう" },
+        { "text": "でお" },
+        { "text": "願い", "kana": "ねがい" },
+        { "text": "します。" }
+      ],
+      "kana": "あしたのごぜんちゅうでおねがいします",
+      "chinese": "明天上午就好。",
+      "category": "request",
+      "register": "丁寧",
+      "difficulty": 1,
+      "frequencyRank": 31,
+      "chunkPattern": "~の~でお願いします",
+      "tags": ["delivery", "time-slot", "schedule"]
+    },
+    {
+      "externalId": "s003",
+      "japanese": "玄関先に置いていただけますか。",
+      "tokens": [
+        { "text": "玄関先", "kana": "げんかんさき" },
+        { "text": "に" },
+        { "text": "置いて", "kana": "おいて" },
+        { "text": "いただけますか。" }
+      ],
+      "kana": "げんかんさきにおいていただけますか",
+      "chinese": "能放在门口吗？",
+      "category": "request",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 56,
+      "chunkPattern": "~に置いていただけますか",
+      "tags": ["delivery", "place-at", "contactless"]
+    },
+    {
+      "externalId": "s004",
+      "japanese": "印鑑とサイン、どちらでも大丈夫です。",
+      "tokens": [
+        { "text": "印鑑", "kana": "いんかん" },
+        { "text": "とサイン、どちらでも" },
+        { "text": "大丈夫", "kana": "だいじょうぶ" },
+        { "text": "です。" }
+      ],
+      "kana": "いんかんとさいんどちらでもだいじょうぶです",
+      "chinese": "印章和签名都可以。",
+      "category": "progress",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 64,
+      "chunkPattern": "~と~、どちらでも大丈夫です",
+      "tags": ["delivery", "receipt-method", "flexible"]
+    },
+    {
+      "externalId": "s005",
+      "japanese": "不在票が入っていました。",
+      "tokens": [
+        { "text": "不在票", "kana": "ふざいひょう" },
+        { "text": "が" },
+        { "text": "入って", "kana": "はいって" },
+        { "text": "いました。" }
+      ],
+      "kana": "ふざいひょうがはいっていました",
+      "chinese": "信箱里有一张暂存票。",
+      "category": "progress",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 41,
+      "chunkPattern": "~が入っていました",
+      "tags": ["delivery", "missed", "slip"]
+    },
+    {
+      "externalId": "s006",
+      "japanese": "受取人は同じで、田中です。",
+      "tokens": [
+        { "text": "受取人", "kana": "うけとりにん" },
+        { "text": "は" },
+        { "text": "同じ", "kana": "おなじ" },
+        { "text": "で、" },
+        { "text": "田中", "kana": "たなか" },
+        { "text": "です。" }
+      ],
+      "kana": "うけとりにんはおなじでたなかです",
+      "chinese": "收件人不变,是田中。",
+      "category": "progress",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 78,
+      "chunkPattern": "受取人は同じで、~です",
+      "tags": ["delivery", "recipient", "confirm"]
+    },
+    {
+      "externalId": "s007",
+      "japanese": "宅配ボックスに入れていただけますか。",
+      "tokens": [
+        { "text": "宅配", "kana": "たくはい" },
+        { "text": "ボックスに" },
+        { "text": "入れて", "kana": "いれて" },
+        { "text": "いただけますか。" }
+      ],
+      "kana": "たくはいぼっくすにいれていただけますか",
+      "chinese": "能放到快递柜里吗？",
+      "category": "request",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 49,
+      "chunkPattern": "~に入れていただけますか",
+      "tags": ["delivery", "delivery-box", "contactless"]
+    },
+    {
+      "externalId": "s008",
+      "japanese": "このサイズだと、料金はおいくらですか。",
+      "tokens": [
+        { "text": "このサイズだと、" },
+        { "text": "料金", "kana": "りょうきん" },
+        { "text": "はおいくらですか。" }
+      ],
+      "kana": "このさいずだとりょうきんはおいくらですか",
+      "chinese": "这个尺寸的话,运费多少？",
+      "category": "request",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 73,
+      "chunkPattern": "この~だと、~はおいくらですか",
+      "tags": ["shipping", "ask-price", "size"]
+    },
+    {
+      "externalId": "s009",
+      "japanese": "集荷をお願いしたいんですが。",
+      "tokens": [
+        { "text": "集荷", "kana": "しゅうか" },
+        { "text": "をお" },
+        { "text": "願い", "kana": "ねがい" },
+        { "text": "したいんですが。" }
+      ],
+      "kana": "しゅうかをおねがいしたいんですが",
+      "chinese": "想叫上门取件。",
+      "category": "request",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 67,
+      "chunkPattern": "~をお願いしたいんですが",
+      "tags": ["shipping", "pickup", "schedule"]
+    },
+    {
+      "externalId": "s010",
+      "japanese": "着払いで送りたいです。",
+      "tokens": [
+        { "text": "着払い", "kana": "ちゃくばらい" },
+        { "text": "で" },
+        { "text": "送りたい", "kana": "おくりたい" },
+        { "text": "です。" }
+      ],
+      "kana": "ちゃくばらいでおくりたいです",
+      "chinese": "想用到付寄。",
+      "category": "request",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 92,
+      "chunkPattern": "~で送りたいです",
+      "tags": ["shipping", "cod", "method"]
+    },
+    {
+      "externalId": "s011",
+      "japanese": "伝票はこれでよろしいでしょうか。",
+      "tokens": [
+        { "text": "伝票", "kana": "でんぴょう" },
+        { "text": "はこれでよろしいでしょうか。" }
+      ],
+      "kana": "でんぴょうはこれでよろしいでしょうか",
+      "chinese": "运单这样写可以吗？",
+      "category": "request",
+      "register": "敬語",
+      "difficulty": 2,
+      "frequencyRank": 85,
+      "chunkPattern": "~はこれでよろしいでしょうか",
+      "tags": ["shipping", "slip", "confirm"]
+    }
+  ],
+  "dialogues": [
+    {
+      "externalId": "d001",
+      "title": "再配達の依頼",
+      "scenario": "phone",
+      "description": "不在票を見て配送会社に電話し、明日の時間帯を指定して再配達を依頼する短い電話。",
+      "difficulty": 2,
+      "register": "丁寧",
+      "tags": ["delivery", "phone", "redelivery"],
+      "turns": [
+        {
+          "speaker": "客",
+          "japanese": "もしもし、不在票が入っていました。再配達をお願いできますか。",
+          "tokens": [
+            { "text": "もしもし、" },
+            { "text": "不在票", "kana": "ふざいひょう" },
+            { "text": "が" },
+            { "text": "入って", "kana": "はいって" },
+            { "text": "いました。" },
+            { "text": "再配達", "kana": "さいはいたつ" },
+            { "text": "をお" },
+            { "text": "願い", "kana": "ねがい" },
+            { "text": "できますか。" }
+          ],
+          "kana": "もしもしふざいひょうがはいっていましたさいはいたつをおねがいできますか",
+          "chinese": "您好,我信箱里有暂存票。能安排再次投递吗？"
+        },
+        {
+          "speaker": "配送員",
+          "japanese": "お問い合わせ番号をお願いします。",
+          "tokens": [
+            { "text": "お" },
+            { "text": "問い合わせ番号", "kana": "といあわせばんごう" },
+            { "text": "をお" },
+            { "text": "願い", "kana": "ねがい" },
+            { "text": "します。" }
+          ],
+          "kana": "おといあわせばんごうをおねがいします",
+          "chinese": "请告知您的查询编号。"
+        },
+        {
+          "speaker": "客",
+          "japanese": "えーと、1234です。受取人は同じで、田中です。",
+          "tokens": [
+            { "text": "えーと、1234です。" },
+            { "text": "受取人", "kana": "うけとりにん" },
+            { "text": "は" },
+            { "text": "同じ", "kana": "おなじ" },
+            { "text": "で、" },
+            { "text": "田中", "kana": "たなか" },
+            { "text": "です。" }
+          ],
+          "kana": "えーといちにさんよんですうけとりにんはおなじでたなかです",
+          "chinese": "嗯,1234。收件人不变,田中。"
+        },
+        {
+          "speaker": "配送員",
+          "japanese": "ありがとうございます。明日のお時間帯はいかがしましょうか。",
+          "tokens": [
+            { "text": "ありがとうございます。" },
+            { "text": "明日", "kana": "あした" },
+            { "text": "のお" },
+            { "text": "時間帯", "kana": "じかんたい" },
+            { "text": "はいかがしましょうか。" }
+          ],
+          "kana": "ありがとうございますあしたのおじかんたいはいかがしましょうか",
+          "chinese": "谢谢。明天的时间段您希望什么时候？"
+        },
+        {
+          "speaker": "客",
+          "japanese": "明日の午前中でお願いします。",
+          "tokens": [
+            { "text": "明日", "kana": "あした" },
+            { "text": "の" },
+            { "text": "午前中", "kana": "ごぜんちゅう" },
+            { "text": "でお" },
+            { "text": "願い", "kana": "ねがい" },
+            { "text": "します。" }
+          ],
+          "kana": "あしたのごぜんちゅうでおねがいします",
+          "chinese": "明天上午就好。"
+        }
+      ]
+    }
+  ],
+  "passages": []
+}

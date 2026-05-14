@@ -1,0 +1,318 @@
+{
+  "packVersion": 1,
+  "packId": "feedback-1on1-001",
+  "title": "Manager 1on1 Feedback 001",
+  "generatedBy": "claude-opus-4-7",
+  "generatedAt": "2026-05-14",
+  "targetProfile": "Chinese native speaker, N1 reading, weak workplace Japanese. User is manager / executive doing 1on1s with direct reports. This pack covers four feedback modes — concrete praise, soft suggestion, expectation-setting, careful critical feedback. All 丁寧 (manager → report is polite-but-not-formal).",
+  "reviewStatus": "reviewed",
+  "sentences": [
+    {
+      "externalId": "s001",
+      "japanese": "先週のリリース対応、非常に助かりました。",
+      "tokens": [
+        { "text": "先週", "kana": "せんしゅう" },
+        { "text": "のリリース" },
+        { "text": "対応", "kana": "たいおう" },
+        { "text": "、" },
+        { "text": "非常", "kana": "ひじょう" },
+        { "text": "に" },
+        { "text": "助かりました", "kana": "たすかりました" },
+        { "text": "。" }
+      ],
+      "kana": "せんしゅうのりりーすたいおうひじょうにたすかりました",
+      "chinese": "上周的发版处理,真的帮大忙了。",
+      "category": "smalltalk",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 45,
+      "chunkPattern": "~の~、非常に助かりました",
+      "tags": ["1on1", "praise", "concrete"]
+    },
+    {
+      "externalId": "s002",
+      "japanese": "期待以上の成果でした。",
+      "tokens": [
+        { "text": "期待以上", "kana": "きたいいじょう" },
+        { "text": "の" },
+        { "text": "成果", "kana": "せいか" },
+        { "text": "でした。" }
+      ],
+      "kana": "きたいいじょうのせいかでした",
+      "chinese": "成果超出预期。",
+      "category": "smalltalk",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 67,
+      "chunkPattern": "期待以上の~でした",
+      "tags": ["1on1", "praise", "exceeded"]
+    },
+    {
+      "externalId": "s003",
+      "japanese": "ここはもう少し丁寧に説明してみてもいいかもしれません。",
+      "tokens": [
+        { "text": "ここはもう" },
+        { "text": "少し", "kana": "すこし" },
+        { "text": "丁寧", "kana": "ていねい" },
+        { "text": "に" },
+        { "text": "説明", "kana": "せつめい" },
+        { "text": "してみてもいいかもしれません。" }
+      ],
+      "kana": "ここはもうすこしていねいにせつめいしてみてもいいかもしれません",
+      "chinese": "这一块可以再稍微仔细一点说明。",
+      "category": "request",
+      "register": "丁寧",
+      "difficulty": 3,
+      "frequencyRank": 78,
+      "chunkPattern": "ここはもう少し~してみてもいいかもしれません",
+      "tags": ["1on1", "suggestion", "soft"]
+    },
+    {
+      "externalId": "s004",
+      "japanese": "次回は事前共有を意識してみてください。",
+      "tokens": [
+        { "text": "次回", "kana": "じかい" },
+        { "text": "は" },
+        { "text": "事前共有", "kana": "じぜんきょうゆう" },
+        { "text": "を" },
+        { "text": "意識", "kana": "いしき" },
+        { "text": "してみてください。" }
+      ],
+      "kana": "じかいはじぜんきょうゆうをいしきしてみてください",
+      "chinese": "下次留意一下提前同步。",
+      "category": "request",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 71,
+      "chunkPattern": "次回は~を意識してみてください",
+      "tags": ["1on1", "instruction", "next-time"]
+    },
+    {
+      "externalId": "s005",
+      "japanese": "これからはチーム全体のリードを任せたいと思っています。",
+      "tokens": [
+        { "text": "これからはチーム" },
+        { "text": "全体", "kana": "ぜんたい" },
+        { "text": "のリードを" },
+        { "text": "任せたい", "kana": "まかせたい" },
+        { "text": "と" },
+        { "text": "思って", "kana": "おもって" },
+        { "text": "います。" }
+      ],
+      "kana": "これからはちーむぜんたいのりーどをまかせたいとおもっています",
+      "chinese": "今后想让你来带整个团队。",
+      "category": "progress",
+      "register": "丁寧",
+      "difficulty": 3,
+      "frequencyRank": 84,
+      "chunkPattern": "これからは~を任せたいと思っています",
+      "tags": ["1on1", "expectation", "assign-trust"]
+    },
+    {
+      "externalId": "s006",
+      "japanese": "設計の領域でもっと挑戦してほしいです。",
+      "tokens": [
+        { "text": "設計", "kana": "せっけい" },
+        { "text": "の" },
+        { "text": "領域", "kana": "りょういき" },
+        { "text": "でもっと" },
+        { "text": "挑戦", "kana": "ちょうせん" },
+        { "text": "してほしいです。" }
+      ],
+      "kana": "せっけいのりょういきでもっとちょうせんしてほしいです",
+      "chinese": "希望你在设计这一块多挑战。",
+      "category": "request",
+      "register": "丁寧",
+      "difficulty": 3,
+      "frequencyRank": 88,
+      "chunkPattern": "~の領域でもっと~してほしいです",
+      "tags": ["1on1", "stretch", "encourage"]
+    },
+    {
+      "externalId": "s007",
+      "japanese": "今後のキャリアについて、何か考えていることはありますか。",
+      "tokens": [
+        { "text": "今後", "kana": "こんご" },
+        { "text": "のキャリアについて、" },
+        { "text": "何か", "kana": "なにか" },
+        { "text": "考えて", "kana": "かんがえて" },
+        { "text": "いることはありますか。" }
+      ],
+      "kana": "こんごのきゃりあについてなにかかんがえていることはありますか",
+      "chinese": "关于今后的发展,你有什么想法吗？",
+      "category": "request",
+      "register": "丁寧",
+      "difficulty": 3,
+      "frequencyRank": 55,
+      "chunkPattern": "今後の~について、何か考えていることはありますか",
+      "tags": ["1on1", "career", "open"]
+    },
+    {
+      "externalId": "s008",
+      "japanese": "マネジメントの経験を積むのが次のステップだと思います。",
+      "tokens": [
+        { "text": "マネジメントの" },
+        { "text": "経験", "kana": "けいけん" },
+        { "text": "を" },
+        { "text": "積む", "kana": "つむ" },
+        { "text": "のが" },
+        { "text": "次", "kana": "つぎ" },
+        { "text": "のステップだと" },
+        { "text": "思います", "kana": "おもいます" },
+        { "text": "。" }
+      ],
+      "kana": "まねじめんとのけいけんをつむのがつぎのすてっぷだとおもいます",
+      "chinese": "我觉得积累管理经验是下一步。",
+      "category": "progress",
+      "register": "丁寧",
+      "difficulty": 3,
+      "frequencyRank": 92,
+      "chunkPattern": "~の経験を積むのが次のステップだと思います",
+      "tags": ["1on1", "career", "recommend"]
+    },
+    {
+      "externalId": "s009",
+      "japanese": "一点気になったところがあって、共有させてください。",
+      "tokens": [
+        { "text": "一点", "kana": "いってん" },
+        { "text": "気", "kana": "き" },
+        { "text": "になったところがあって、" },
+        { "text": "共有", "kana": "きょうゆう" },
+        { "text": "させてください。" }
+      ],
+      "kana": "いってんきになったところがあってきょうゆうさせてください",
+      "chinese": "有一点我比较在意,想跟你说一下。",
+      "category": "rescue",
+      "register": "丁寧",
+      "difficulty": 3,
+      "frequencyRank": 73,
+      "chunkPattern": "一点気になったところがあって、~",
+      "tags": ["1on1", "critical-open", "soft-critique"]
+    },
+    {
+      "externalId": "s010",
+      "japanese": "周りからのフィードバックも踏まえると、コミュニケーションの量を増やすといいかもしれません。",
+      "tokens": [
+        { "text": "周り", "kana": "まわり" },
+        { "text": "からのフィードバックも" },
+        { "text": "踏まえる", "kana": "ふまえる" },
+        { "text": "と、コミュニケーションの" },
+        { "text": "量", "kana": "りょう" },
+        { "text": "を" },
+        { "text": "増やす", "kana": "ふやす" },
+        { "text": "といいかもしれません。" }
+      ],
+      "kana": "まわりからのふぃーどばっくもふまえるとこみゅにけーしょんのりょうをふやすといいかもしれません",
+      "chinese": "结合周围的反馈来看,沟通的量再多一点会更好。",
+      "category": "request",
+      "register": "丁寧",
+      "difficulty": 4,
+      "frequencyRank": 105,
+      "chunkPattern": "周りからのフィードバックも踏まえると、~",
+      "tags": ["1on1", "360-input", "delicate"]
+    },
+    {
+      "externalId": "s011",
+      "japanese": "他に気になっていることはありますか。",
+      "tokens": [
+        { "text": "他", "kana": "ほか" },
+        { "text": "に" },
+        { "text": "気", "kana": "き" },
+        { "text": "になっていることはありますか。" }
+      ],
+      "kana": "ほかにきになっていることはありますか",
+      "chinese": "其他还有什么在意的事情吗？",
+      "category": "request",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 48,
+      "chunkPattern": "他に~ていることはありますか",
+      "tags": ["1on1", "close", "open-floor"]
+    }
+  ],
+  "dialogues": [
+    {
+      "externalId": "d001",
+      "title": "部下との週次1on1(フィードバックとキャリア)",
+      "scenario": "1on1",
+      "description": "上司から部下への週次1on1。具体的な praise → soft critique → キャリア conversation 開始という標準フロー。",
+      "difficulty": 4,
+      "register": "丁寧",
+      "tags": ["1on1", "manager-side", "feedback"],
+      "turns": [
+        {
+          "speaker": "上司",
+          "japanese": "先週のリリース対応、非常に助かりました。期待以上の成果でした。",
+          "tokens": [
+            { "text": "先週", "kana": "せんしゅう" },
+            { "text": "のリリース" },
+            { "text": "対応", "kana": "たいおう" },
+            { "text": "、" },
+            { "text": "非常", "kana": "ひじょう" },
+            { "text": "に" },
+            { "text": "助かりました", "kana": "たすかりました" },
+            { "text": "。" },
+            { "text": "期待以上", "kana": "きたいいじょう" },
+            { "text": "の" },
+            { "text": "成果", "kana": "せいか" },
+            { "text": "でした。" }
+          ],
+          "kana": "せんしゅうのりりーすたいおうひじょうにたすかりましたきたいいじょうのせいかでした",
+          "chinese": "上周的发版处理,真的帮大忙了。成果超出预期。"
+        },
+        {
+          "speaker": "部下",
+          "japanese": "ありがとうございます。",
+          "tokens": [
+            { "text": "ありがとうございます。" }
+          ],
+          "kana": "ありがとうございます",
+          "chinese": "谢谢您。"
+        },
+        {
+          "speaker": "上司",
+          "japanese": "一点気になったところがあって、共有させてください。次回は事前共有を意識してみてください。",
+          "tokens": [
+            { "text": "一点", "kana": "いってん" },
+            { "text": "気", "kana": "き" },
+            { "text": "になったところがあって、" },
+            { "text": "共有", "kana": "きょうゆう" },
+            { "text": "させてください。" },
+            { "text": "次回", "kana": "じかい" },
+            { "text": "は" },
+            { "text": "事前共有", "kana": "じぜんきょうゆう" },
+            { "text": "を" },
+            { "text": "意識", "kana": "いしき" },
+            { "text": "してみてください。" }
+          ],
+          "kana": "いってんきになったところがあってきょうゆうさせてくださいじかいはじぜんきょうゆうをいしきしてみてください",
+          "chinese": "有一点我比较在意,想跟你说一下。下次留意一下提前同步。"
+        },
+        {
+          "speaker": "部下",
+          "japanese": "承知しました。",
+          "tokens": [
+            { "text": "承知", "kana": "しょうち" },
+            { "text": "しました。" }
+          ],
+          "kana": "しょうちしました",
+          "chinese": "明白了。"
+        },
+        {
+          "speaker": "上司",
+          "japanese": "今後のキャリアについて、何か考えていることはありますか。",
+          "tokens": [
+            { "text": "今後", "kana": "こんご" },
+            { "text": "のキャリアについて、" },
+            { "text": "何か", "kana": "なにか" },
+            { "text": "考えて", "kana": "かんがえて" },
+            { "text": "いることはありますか。" }
+          ],
+          "kana": "こんごのきゃりあについてなにかかんがえていることはありますか",
+          "chinese": "关于今后的发展,你有什么想法吗？"
+        }
+      ]
+    }
+  ],
+  "passages": []
+}

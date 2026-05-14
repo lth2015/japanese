@@ -1,0 +1,289 @@
+{
+  "packVersion": 1,
+  "packId": "daily-haircut-001",
+  "title": "Daily Haircut and Salon 001",
+  "generatedBy": "claude-opus-4-7",
+  "generatedAt": "2026-05-14",
+  "targetProfile": "Chinese native speaker, N1 reading, weak spoken daily Japanese — booking a salon appointment, describing desired length and style, requesting specific stylist, declining/accepting add-ons. Periodic but vocabulary-specific scenario.",
+  "reviewStatus": "reviewed",
+  "sentences": [
+    {
+      "externalId": "s001",
+      "japanese": "予約をお願いしたいんですが。",
+      "tokens": [
+        { "text": "予約", "kana": "よやく" },
+        { "text": "をお" },
+        { "text": "願い", "kana": "ねがい" },
+        { "text": "したいんですが。" }
+      ],
+      "kana": "よやくをおねがいしたいんですが",
+      "chinese": "想预约一下。",
+      "category": "request",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 47,
+      "chunkPattern": "~をお願いしたいんですが",
+      "tags": ["salon", "booking", "open"]
+    },
+    {
+      "externalId": "s002",
+      "japanese": "今週の土曜日、空いていますか。",
+      "tokens": [
+        { "text": "今週", "kana": "こんしゅう" },
+        { "text": "の" },
+        { "text": "土曜日", "kana": "どようび" },
+        { "text": "、" },
+        { "text": "空いて", "kana": "あいて" },
+        { "text": "いますか。" }
+      ],
+      "kana": "こんしゅうのどようびあいていますか",
+      "chinese": "这周六有空位吗？",
+      "category": "request",
+      "register": "丁寧",
+      "difficulty": 1,
+      "frequencyRank": 55,
+      "chunkPattern": "~の~曜日、空いていますか",
+      "tags": ["salon", "booking", "ask-date"]
+    },
+    {
+      "externalId": "s003",
+      "japanese": "カットだけでお願いします。",
+      "tokens": [
+        { "text": "カットだけでお" },
+        { "text": "願い", "kana": "ねがい" },
+        { "text": "します。" }
+      ],
+      "kana": "かっとだけでおねがいします",
+      "chinese": "只剪发就好。",
+      "category": "request",
+      "register": "丁寧",
+      "difficulty": 1,
+      "frequencyRank": 33,
+      "chunkPattern": "~だけでお願いします",
+      "tags": ["salon", "service-select", "minimum"]
+    },
+    {
+      "externalId": "s004",
+      "japanese": "前髪を少し短くしてください。",
+      "tokens": [
+        { "text": "前髪", "kana": "まえがみ" },
+        { "text": "を" },
+        { "text": "少し", "kana": "すこし" },
+        { "text": "短く", "kana": "みじかく" },
+        { "text": "してください。" }
+      ],
+      "kana": "まえがみをすこしみじかくしてください",
+      "chinese": "刘海稍微剪短一点。",
+      "category": "request",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 62,
+      "chunkPattern": "~を少し短くしてください",
+      "tags": ["salon", "length", "front"]
+    },
+    {
+      "externalId": "s005",
+      "japanese": "後ろは伸ばしたままで。",
+      "tokens": [
+        { "text": "後ろ", "kana": "うしろ" },
+        { "text": "は" },
+        { "text": "伸ばした", "kana": "のばした" },
+        { "text": "ままで。" }
+      ],
+      "kana": "うしろはのばしたままで",
+      "chinese": "后面留长不动。",
+      "category": "request",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 78,
+      "chunkPattern": "~は~たままで",
+      "tags": ["salon", "keep-length", "back"]
+    },
+    {
+      "externalId": "s006",
+      "japanese": "このくらいの長さにしてください。",
+      "tokens": [
+        { "text": "このくらいの" },
+        { "text": "長さ", "kana": "ながさ" },
+        { "text": "にしてください。" }
+      ],
+      "kana": "このくらいのながさにしてください",
+      "chinese": "剪到这个长度。",
+      "category": "request",
+      "register": "丁寧",
+      "difficulty": 1,
+      "frequencyRank": 50,
+      "chunkPattern": "このくらいの~にしてください",
+      "tags": ["salon", "length", "show-gesture"]
+    },
+    {
+      "externalId": "s007",
+      "japanese": "耳が見えるくらいで。",
+      "tokens": [
+        { "text": "耳", "kana": "みみ" },
+        { "text": "が" },
+        { "text": "見える", "kana": "みえる" },
+        { "text": "くらいで。" }
+      ],
+      "kana": "みみがみえるくらいで",
+      "chinese": "差不多能露出耳朵。",
+      "category": "request",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 84,
+      "chunkPattern": "~が見えるくらいで",
+      "tags": ["salon", "side", "show-area"]
+    },
+    {
+      "externalId": "s008",
+      "japanese": "田中さんでお願いします。",
+      "tokens": [
+        { "text": "田中", "kana": "たなか" },
+        { "text": "さんでお" },
+        { "text": "願い", "kana": "ねがい" },
+        { "text": "します。" }
+      ],
+      "kana": "たなかさんでおねがいします",
+      "chinese": "希望田中先生剪。",
+      "category": "request",
+      "register": "丁寧",
+      "difficulty": 1,
+      "frequencyRank": 40,
+      "chunkPattern": "~さんでお願いします",
+      "tags": ["salon", "stylist", "request-by-name"]
+    },
+    {
+      "externalId": "s009",
+      "japanese": "すいてもらえますか。",
+      "tokens": [
+        { "text": "すいてもらえますか。" }
+      ],
+      "kana": "すいてもらえますか",
+      "chinese": "能帮我打薄一点吗？",
+      "category": "request",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 88,
+      "chunkPattern": "~てもらえますか",
+      "tags": ["salon", "thin-out", "modify"]
+    },
+    {
+      "externalId": "s010",
+      "japanese": "シャンプーもお願いします。",
+      "tokens": [
+        { "text": "シャンプーもお" },
+        { "text": "願い", "kana": "ねがい" },
+        { "text": "します。" }
+      ],
+      "kana": "しゃんぷーもおねがいします",
+      "chinese": "也帮我洗一下吧。",
+      "category": "request",
+      "register": "丁寧",
+      "difficulty": 1,
+      "frequencyRank": 58,
+      "chunkPattern": "~もお願いします",
+      "tags": ["salon", "add-on", "shampoo"]
+    },
+    {
+      "externalId": "s011",
+      "japanese": "お任せします。",
+      "tokens": [
+        { "text": "お" },
+        { "text": "任せ", "kana": "まかせ" },
+        { "text": "します。" }
+      ],
+      "kana": "おまかせします",
+      "chinese": "全权交给您。",
+      "category": "request",
+      "register": "丁寧",
+      "difficulty": 1,
+      "frequencyRank": 38,
+      "chunkPattern": "お任せします",
+      "tags": ["salon", "leave-to-pro", "trust"]
+    }
+  ],
+  "dialogues": [
+    {
+      "externalId": "d001",
+      "title": "美容室での要望伝え",
+      "scenario": "1on1",
+      "description": "美容室で席に着いてから、今日の希望を美容師に伝えるまでの会話。サービス選択 → 部分別の長さ指定 → サイドオプション追加。",
+      "difficulty": 2,
+      "register": "丁寧",
+      "tags": ["salon", "in-chair", "instructions"],
+      "turns": [
+        {
+          "speaker": "客",
+          "japanese": "カットだけでお願いします。",
+          "tokens": [
+            { "text": "カットだけでお" },
+            { "text": "願い", "kana": "ねがい" },
+            { "text": "します。" }
+          ],
+          "kana": "かっとだけでおねがいします",
+          "chinese": "只剪发就好。"
+        },
+        {
+          "speaker": "店員",
+          "japanese": "かしこまりました。今日はどんな感じにしましょうか。",
+          "tokens": [
+            { "text": "かしこまりました。" },
+            { "text": "今日", "kana": "きょう" },
+            { "text": "はどんな" },
+            { "text": "感じ", "kana": "かんじ" },
+            { "text": "にしましょうか。" }
+          ],
+          "kana": "かしこまりましたきょうはどんなかんじにしましょうか",
+          "chinese": "好的。今天想剪成什么样？"
+        },
+        {
+          "speaker": "客",
+          "japanese": "前髪を少し短くしてください。後ろは伸ばしたままで。",
+          "tokens": [
+            { "text": "前髪", "kana": "まえがみ" },
+            { "text": "を" },
+            { "text": "少し", "kana": "すこし" },
+            { "text": "短く", "kana": "みじかく" },
+            { "text": "してください。" },
+            { "text": "後ろ", "kana": "うしろ" },
+            { "text": "は" },
+            { "text": "伸ばした", "kana": "のばした" },
+            { "text": "ままで。" }
+          ],
+          "kana": "まえがみをすこしみじかくしてくださいうしろはのばしたままで",
+          "chinese": "刘海稍微剪短一点。后面留长不动。"
+        },
+        {
+          "speaker": "店員",
+          "japanese": "耳は出しますか。",
+          "tokens": [
+            { "text": "耳", "kana": "みみ" },
+            { "text": "は" },
+            { "text": "出します", "kana": "だします" },
+            { "text": "か。" }
+          ],
+          "kana": "みみはだしますか",
+          "chinese": "耳朵要露出来吗？"
+        },
+        {
+          "speaker": "客",
+          "japanese": "耳が見えるくらいでお願いします。あと、シャンプーもお願いします。",
+          "tokens": [
+            { "text": "耳", "kana": "みみ" },
+            { "text": "が" },
+            { "text": "見える", "kana": "みえる" },
+            { "text": "くらいでお" },
+            { "text": "願い", "kana": "ねがい" },
+            { "text": "します。" },
+            { "text": "あと、シャンプーもお" },
+            { "text": "願い", "kana": "ねがい" },
+            { "text": "します。" }
+          ],
+          "kana": "みみがみえるくらいでおねがいしますあとしゃんぷーもおねがいします",
+          "chinese": "差不多能露出耳朵就行。再加洗头。"
+        }
+      ]
+    }
+  ],
+  "passages": []
+}

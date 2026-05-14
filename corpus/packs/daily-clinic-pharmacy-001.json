@@ -1,0 +1,301 @@
+{
+  "packVersion": 1,
+  "packId": "daily-clinic-pharmacy-001",
+  "title": "Daily Clinic and Pharmacy 001",
+  "generatedBy": "claude-opus-4-7",
+  "generatedAt": "2026-05-14",
+  "targetProfile": "Chinese native speaker, N1 reading, weak spoken daily Japanese — describing symptoms at clinic, insurance handoff, pharmacy questions about dosage/timing/side effects. Low frequency but high-stakes scenarios where exact words matter under stress.",
+  "reviewStatus": "reviewed",
+  "sentences": [
+    {
+      "externalId": "s001",
+      "japanese": "風邪をひいたみたいで、診ていただけますか。",
+      "tokens": [
+        { "text": "風邪", "kana": "かぜ" },
+        { "text": "をひいたみたいで、" },
+        { "text": "診て", "kana": "みて" },
+        { "text": "いただけますか。" }
+      ],
+      "kana": "かぜをひいたみたいでみていただけますか",
+      "chinese": "好像感冒了,能给我看一下吗？",
+      "category": "request",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 71,
+      "chunkPattern": "~みたいで、~ていただけますか",
+      "tags": ["clinic", "open", "symptom-soft"]
+    },
+    {
+      "externalId": "s002",
+      "japanese": "喉が痛くて、熱もあります。",
+      "tokens": [
+        { "text": "喉", "kana": "のど" },
+        { "text": "が" },
+        { "text": "痛くて", "kana": "いたくて" },
+        { "text": "、" },
+        { "text": "熱", "kana": "ねつ" },
+        { "text": "もあります。" }
+      ],
+      "kana": "のどがいたくてねつもあります",
+      "chinese": "嗓子疼,还发烧。",
+      "category": "progress",
+      "register": "丁寧",
+      "difficulty": 1,
+      "frequencyRank": 52,
+      "chunkPattern": "~が痛くて、~もあります",
+      "tags": ["clinic", "symptom", "describe"]
+    },
+    {
+      "externalId": "s003",
+      "japanese": "保険証はこちらです。",
+      "tokens": [
+        { "text": "保険証", "kana": "ほけんしょう" },
+        { "text": "はこちらです。" }
+      ],
+      "kana": "ほけんしょうはこちらです",
+      "chinese": "这是我的医保卡。",
+      "category": "progress",
+      "register": "丁寧",
+      "difficulty": 1,
+      "frequencyRank": 35,
+      "chunkPattern": "~はこちらです",
+      "tags": ["clinic", "reception", "handoff"]
+    },
+    {
+      "externalId": "s004",
+      "japanese": "食欲もなくて、眠れません。",
+      "tokens": [
+        { "text": "食欲", "kana": "しょくよく" },
+        { "text": "もなくて、" },
+        { "text": "眠れません", "kana": "ねむれません" },
+        { "text": "。" }
+      ],
+      "kana": "しょくよくもなくてねむれません",
+      "chinese": "没什么食欲,也睡不好。",
+      "category": "progress",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 92,
+      "chunkPattern": "~もなくて、~ません",
+      "tags": ["clinic", "symptom", "describe"]
+    },
+    {
+      "externalId": "s005",
+      "japanese": "5日くらい前から咳が止まりません。",
+      "tokens": [
+        { "text": "5" },
+        { "text": "日", "kana": "にち" },
+        { "text": "くらい" },
+        { "text": "前", "kana": "まえ" },
+        { "text": "から" },
+        { "text": "咳", "kana": "せき" },
+        { "text": "が" },
+        { "text": "止まりません", "kana": "とまりません" },
+        { "text": "。" }
+      ],
+      "kana": "いつかくらいまえからせきがとまりません",
+      "chinese": "大概 5 天前开始一直咳。",
+      "category": "progress",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 85,
+      "chunkPattern": "~くらい前から~ません",
+      "tags": ["clinic", "symptom", "duration"]
+    },
+    {
+      "externalId": "s006",
+      "japanese": "アレルギーは特にありません。",
+      "tokens": [
+        { "text": "アレルギーは" },
+        { "text": "特", "kana": "とく" },
+        { "text": "にありません。" }
+      ],
+      "kana": "あれるぎーはとくにありません",
+      "chinese": "没有特别的过敏。",
+      "category": "progress",
+      "register": "丁寧",
+      "difficulty": 1,
+      "frequencyRank": 64,
+      "chunkPattern": "~は特にありません",
+      "tags": ["clinic", "history", "allergy"]
+    },
+    {
+      "externalId": "s007",
+      "japanese": "薬は1日に何回飲めばいいですか。",
+      "tokens": [
+        { "text": "薬", "kana": "くすり" },
+        { "text": "は1" },
+        { "text": "日", "kana": "にち" },
+        { "text": "に" },
+        { "text": "何回", "kana": "なんかい" },
+        { "text": "飲めば", "kana": "のめば" },
+        { "text": "いいですか。" }
+      ],
+      "kana": "くすりはいちにちになんかいのめばいいですか",
+      "chinese": "药一天吃几次？",
+      "category": "request",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 67,
+      "chunkPattern": "~は1日に何回~ばいいですか",
+      "tags": ["pharmacy", "dosage", "ask"]
+    },
+    {
+      "externalId": "s008",
+      "japanese": "食後でいいですか。",
+      "tokens": [
+        { "text": "食後", "kana": "しょくご" },
+        { "text": "でいいですか。" }
+      ],
+      "kana": "しょくごでいいですか",
+      "chinese": "饭后吃可以吗？",
+      "category": "request",
+      "register": "丁寧",
+      "difficulty": 1,
+      "frequencyRank": 78,
+      "chunkPattern": "~でいいですか",
+      "tags": ["pharmacy", "timing", "confirm"]
+    },
+    {
+      "externalId": "s009",
+      "japanese": "副作用はありますか。",
+      "tokens": [
+        { "text": "副作用", "kana": "ふくさよう" },
+        { "text": "はありますか。" }
+      ],
+      "kana": "ふくさようはありますか",
+      "chinese": "有什么副作用吗？",
+      "category": "request",
+      "register": "丁寧",
+      "difficulty": 1,
+      "frequencyRank": 89,
+      "chunkPattern": "~はありますか",
+      "tags": ["pharmacy", "side-effects", "ask"]
+    },
+    {
+      "externalId": "s010",
+      "japanese": "もう少し様子を見てもいいでしょうか。",
+      "tokens": [
+        { "text": "もう" },
+        { "text": "少し", "kana": "すこし" },
+        { "text": "様子", "kana": "ようす" },
+        { "text": "を" },
+        { "text": "見て", "kana": "みて" },
+        { "text": "もいいでしょうか。" }
+      ],
+      "kana": "もうすこしようすをみてもいいでしょうか",
+      "chinese": "可以再观察一段时间吗？",
+      "category": "request",
+      "register": "丁寧",
+      "difficulty": 3,
+      "frequencyRank": 96,
+      "chunkPattern": "もう少し~てもいいでしょうか",
+      "tags": ["clinic", "wait-see", "soft-ask"]
+    },
+    {
+      "externalId": "s011",
+      "japanese": "痛み止めをいただけますか。",
+      "tokens": [
+        { "text": "痛み止め", "kana": "いたみどめ" },
+        { "text": "をいただけますか。" }
+      ],
+      "kana": "いたみどめをいただけますか",
+      "chinese": "能给我开点止痛药吗？",
+      "category": "request",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 73,
+      "chunkPattern": "~をいただけますか",
+      "tags": ["clinic", "request-medication", "painkiller"]
+    }
+  ],
+  "dialogues": [
+    {
+      "externalId": "d001",
+      "title": "クリニックでの診察",
+      "scenario": "1on1",
+      "description": "風邪症状でクリニックを受診するときの一連の流れ。受付 → 保険証 → 医師への症状説明 → アレルギー確認 → 処方。",
+      "difficulty": 3,
+      "register": "丁寧",
+      "tags": ["clinic", "visit", "end-to-end"],
+      "turns": [
+        {
+          "speaker": "患者",
+          "japanese": "風邪をひいたみたいで、診ていただけますか。保険証はこちらです。",
+          "tokens": [
+            { "text": "風邪", "kana": "かぜ" },
+            { "text": "をひいたみたいで、" },
+            { "text": "診て", "kana": "みて" },
+            { "text": "いただけますか。" },
+            { "text": "保険証", "kana": "ほけんしょう" },
+            { "text": "はこちらです。" }
+          ],
+          "kana": "かぜをひいたみたいでみていただけますかほけんしょうはこちらです",
+          "chinese": "好像感冒了,能给我看一下吗？这是医保卡。"
+        },
+        {
+          "speaker": "受付",
+          "japanese": "ありがとうございます。少々お待ちください。",
+          "tokens": [
+            { "text": "ありがとうございます。" },
+            { "text": "少々", "kana": "しょうしょう" },
+            { "text": "お" },
+            { "text": "待ち", "kana": "まち" },
+            { "text": "ください。" }
+          ],
+          "kana": "ありがとうございますしょうしょうおまちください",
+          "chinese": "谢谢。请稍等。"
+        },
+        {
+          "speaker": "医師",
+          "japanese": "どうされましたか。",
+          "tokens": [
+            { "text": "どうされましたか。" }
+          ],
+          "kana": "どうされましたか",
+          "chinese": "怎么了？"
+        },
+        {
+          "speaker": "患者",
+          "japanese": "喉が痛くて、熱もあります。5日くらい前から咳が止まりません。アレルギーは特にありません。",
+          "tokens": [
+            { "text": "喉", "kana": "のど" },
+            { "text": "が" },
+            { "text": "痛くて", "kana": "いたくて" },
+            { "text": "、" },
+            { "text": "熱", "kana": "ねつ" },
+            { "text": "もあります。5" },
+            { "text": "日", "kana": "にち" },
+            { "text": "くらい" },
+            { "text": "前", "kana": "まえ" },
+            { "text": "から" },
+            { "text": "咳", "kana": "せき" },
+            { "text": "が" },
+            { "text": "止まりません", "kana": "とまりません" },
+            { "text": "。アレルギーは" },
+            { "text": "特", "kana": "とく" },
+            { "text": "にありません。" }
+          ],
+          "kana": "のどがいたくてねつもありますいつかくらいまえからせきがとまりませんあれるぎーはとくにありません",
+          "chinese": "嗓子疼,还发烧。大概 5 天前开始一直咳。没有特别的过敏。"
+        },
+        {
+          "speaker": "医師",
+          "japanese": "わかりました。痛み止めと風邪薬を処方しますね。",
+          "tokens": [
+            { "text": "わかりました。" },
+            { "text": "痛み止め", "kana": "いたみどめ" },
+            { "text": "と" },
+            { "text": "風邪薬", "kana": "かぜぐすり" },
+            { "text": "を" },
+            { "text": "処方", "kana": "しょほう" },
+            { "text": "しますね。" }
+          ],
+          "kana": "わかりましたいたみどめとかぜぐすりをしょほうしますね",
+          "chinese": "好的。给您开止痛药和感冒药。"
+        }
+      ]
+    }
+  ],
+  "passages": []
+}

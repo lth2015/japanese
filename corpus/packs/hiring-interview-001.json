@@ -1,0 +1,329 @@
+{
+  "packVersion": 1,
+  "packId": "hiring-interview-001",
+  "title": "Hiring Interview from Interviewer Side 001",
+  "generatedBy": "claude-opus-4-7",
+  "generatedAt": "2026-05-14",
+  "targetProfile": "Chinese native speaker, N1 reading, weak workplace Japanese. User is hiring manager / executive. This pack covers the INTERVIEWER side — opening greeting, asking for self-intro, drilling down on experience, motivation questions, open floor at end, polite closure. All 敬語.",
+  "reviewStatus": "reviewed",
+  "sentences": [
+    {
+      "externalId": "s001",
+      "japanese": "本日はお越しいただきありがとうございます。",
+      "tokens": [
+        { "text": "本日", "kana": "ほんじつ" },
+        { "text": "はお" },
+        { "text": "越し", "kana": "こし" },
+        { "text": "いただきありがとうございます。" }
+      ],
+      "kana": "ほんじつはおこしいただきありがとうございます",
+      "chinese": "今天感谢您到访。",
+      "category": "smalltalk",
+      "register": "敬語",
+      "difficulty": 2,
+      "frequencyRank": 41,
+      "chunkPattern": "本日はお~いただきありがとうございます",
+      "tags": ["interview", "opener", "thanks-visit"]
+    },
+    {
+      "externalId": "s002",
+      "japanese": "簡単に自己紹介をお願いできますか。",
+      "tokens": [
+        { "text": "簡単", "kana": "かんたん" },
+        { "text": "に" },
+        { "text": "自己紹介", "kana": "じこしょうかい" },
+        { "text": "をお" },
+        { "text": "願い", "kana": "ねがい" },
+        { "text": "できますか。" }
+      ],
+      "kana": "かんたんにじこしょうかいをおねがいできますか",
+      "chinese": "能简单做一下自我介绍吗？",
+      "category": "request",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 32,
+      "chunkPattern": "簡単に~をお願いできますか",
+      "tags": ["interview", "ask-intro", "open"]
+    },
+    {
+      "externalId": "s003",
+      "japanese": "これまでのご経歴を伺ってもよろしいでしょうか。",
+      "tokens": [
+        { "text": "これまでのご" },
+        { "text": "経歴", "kana": "けいれき" },
+        { "text": "を" },
+        { "text": "伺って", "kana": "うかがって" },
+        { "text": "もよろしいでしょうか。" }
+      ],
+      "kana": "これまでのごけいれきをうかがってもよろしいでしょうか",
+      "chinese": "能请您聊一下您之前的经历吗？",
+      "category": "request",
+      "register": "敬語",
+      "difficulty": 3,
+      "frequencyRank": 57,
+      "chunkPattern": "これまでのご~を伺ってもよろしいでしょうか",
+      "tags": ["interview", "ask-background", "drill"]
+    },
+    {
+      "externalId": "s004",
+      "japanese": "SREの経験について、もう少し詳しく教えていただけますか。",
+      "tokens": [
+        { "text": "SRE" },
+        { "text": "の" },
+        { "text": "経験", "kana": "けいけん" },
+        { "text": "について、もう" },
+        { "text": "少し", "kana": "すこし" },
+        { "text": "詳しく", "kana": "くわしく" },
+        { "text": "教えて", "kana": "おしえて" },
+        { "text": "いただけますか。" }
+      ],
+      "kana": "えすあーるいーのけいけんについてもうすこしくわしくおしえていただけますか",
+      "chinese": "SRE 的经验能再详细讲讲吗？",
+      "category": "request",
+      "register": "丁寧",
+      "difficulty": 3,
+      "frequencyRank": 75,
+      "chunkPattern": "~について、もう少し詳しく教えていただけますか",
+      "tags": ["interview", "drill-down", "deep-dive"]
+    },
+    {
+      "externalId": "s005",
+      "japanese": "なぜ弊社にご応募いただいたのでしょうか。",
+      "tokens": [
+        { "text": "なぜ" },
+        { "text": "弊社", "kana": "へいしゃ" },
+        { "text": "に" },
+        { "text": "ご" },
+        { "text": "応募", "kana": "おうぼ" },
+        { "text": "いただいたのでしょうか。" }
+      ],
+      "kana": "なぜへいしゃにごおうぼいただいたのでしょうか",
+      "chinese": "您为什么应聘我们公司呢？",
+      "category": "request",
+      "register": "敬語",
+      "difficulty": 3,
+      "frequencyRank": 82,
+      "chunkPattern": "なぜ弊社にご~いただいたのでしょうか",
+      "tags": ["interview", "motivation", "why-us"]
+    },
+    {
+      "externalId": "s006",
+      "japanese": "入社後はどのような役割を担いたいとお考えですか。",
+      "tokens": [
+        { "text": "入社後", "kana": "にゅうしゃご" },
+        { "text": "はどのような" },
+        { "text": "役割", "kana": "やくわり" },
+        { "text": "を" },
+        { "text": "担いたい", "kana": "になりたい" },
+        { "text": "とお" },
+        { "text": "考え", "kana": "かんがえ" },
+        { "text": "ですか。" }
+      ],
+      "kana": "にゅうしゃごはどのようなやくわりをになりたいとおかんがえですか",
+      "chinese": "入职后您想承担什么样的角色？",
+      "category": "request",
+      "register": "敬語",
+      "difficulty": 4,
+      "frequencyRank": 98,
+      "chunkPattern": "入社後はどのような~を担いたいとお考えですか",
+      "tags": ["interview", "aspiration", "role"]
+    },
+    {
+      "externalId": "s007",
+      "japanese": "これまでで一番難しかった課題は何ですか。",
+      "tokens": [
+        { "text": "これまでで" },
+        { "text": "一番", "kana": "いちばん" },
+        { "text": "難しかった", "kana": "むずかしかった" },
+        { "text": "課題", "kana": "かだい" },
+        { "text": "は" },
+        { "text": "何", "kana": "なん" },
+        { "text": "ですか。" }
+      ],
+      "kana": "これまででいちばんむずかしかったかだいはなんですか",
+      "chinese": "至今为止最难的课题是什么？",
+      "category": "request",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 64,
+      "chunkPattern": "これまでで一番~った~は何ですか",
+      "tags": ["interview", "behavioral", "challenge"]
+    },
+    {
+      "externalId": "s008",
+      "japanese": "何かこちらに質問はございますか。",
+      "tokens": [
+        { "text": "何か", "kana": "なにか" },
+        { "text": "こちらに" },
+        { "text": "質問", "kana": "しつもん" },
+        { "text": "はございますか。" }
+      ],
+      "kana": "なにかこちらにしつもんはございますか",
+      "chinese": "您有什么想问我们的吗？",
+      "category": "request",
+      "register": "敬語",
+      "difficulty": 2,
+      "frequencyRank": 38,
+      "chunkPattern": "何か~に質問はございますか",
+      "tags": ["interview", "open-floor", "close-section"]
+    },
+    {
+      "externalId": "s009",
+      "japanese": "結果については追ってご連絡いたします。",
+      "tokens": [
+        { "text": "結果", "kana": "けっか" },
+        { "text": "については" },
+        { "text": "追って", "kana": "おって" },
+        { "text": "ご" },
+        { "text": "連絡", "kana": "れんらく" },
+        { "text": "いたします。" }
+      ],
+      "kana": "けっかについてはおってごれんらくいたします",
+      "chinese": "结果稍后再联系您。",
+      "category": "progress",
+      "register": "敬語",
+      "difficulty": 2,
+      "frequencyRank": 49,
+      "chunkPattern": "~については追ってご連絡いたします",
+      "tags": ["interview", "next-steps", "close"]
+    },
+    {
+      "externalId": "s010",
+      "japanese": "本日はお時間いただきありがとうございました。",
+      "tokens": [
+        { "text": "本日", "kana": "ほんじつ" },
+        { "text": "はお" },
+        { "text": "時間", "kana": "じかん" },
+        { "text": "いただきありがとうございました。" }
+      ],
+      "kana": "ほんじつはおじかんいただきありがとうございました",
+      "chinese": "今天感谢您抽时间。",
+      "category": "smalltalk",
+      "register": "敬語",
+      "difficulty": 2,
+      "frequencyRank": 26,
+      "chunkPattern": "本日はお時間いただきありがとうございました",
+      "tags": ["interview", "close", "thanks-final"]
+    },
+    {
+      "externalId": "s011",
+      "japanese": "ご縁があればまたお会いできれば幸いです。",
+      "tokens": [
+        { "text": "ご" },
+        { "text": "縁", "kana": "えん" },
+        { "text": "があればまたお" },
+        { "text": "会い", "kana": "あい" },
+        { "text": "できれば" },
+        { "text": "幸い", "kana": "さいわい" },
+        { "text": "です。" }
+      ],
+      "kana": "ごえんがあればまたおあいできればさいわいです",
+      "chinese": "如果有缘的话希望能再见面。",
+      "category": "smalltalk",
+      "register": "敬語",
+      "difficulty": 3,
+      "frequencyRank": 108,
+      "chunkPattern": "ご縁があればまた~できれば幸いです",
+      "tags": ["interview", "graceful-close", "reject-or-future"]
+    }
+  ],
+  "dialogues": [
+    {
+      "externalId": "d001",
+      "title": "SRE職の面接(冒頭〜締め)",
+      "scenario": "1on1",
+      "description": "技術職の面接における面接官側のフロー。歓迎挨拶 → 自己紹介依頼 → 経験への深掘り → 候補者の質問受付 → 締めの定型句。",
+      "difficulty": 4,
+      "register": "敬語",
+      "tags": ["interview", "hiring", "interviewer-side"],
+      "turns": [
+        {
+          "speaker": "面接官",
+          "japanese": "本日はお越しいただきありがとうございます。簡単に自己紹介をお願いできますか。",
+          "tokens": [
+            { "text": "本日", "kana": "ほんじつ" },
+            { "text": "はお" },
+            { "text": "越し", "kana": "こし" },
+            { "text": "いただきありがとうございます。" },
+            { "text": "簡単", "kana": "かんたん" },
+            { "text": "に" },
+            { "text": "自己紹介", "kana": "じこしょうかい" },
+            { "text": "をお" },
+            { "text": "願い", "kana": "ねがい" },
+            { "text": "できますか。" }
+          ],
+          "kana": "ほんじつはおこしいただきありがとうございますかんたんにじこしょうかいをおねがいできますか",
+          "chinese": "今天感谢您到访。能简单做一下自我介绍吗？"
+        },
+        {
+          "speaker": "候補者",
+          "japanese": "山田と申します。前職ではインフラエンジニアを5年ほどしておりました。",
+          "tokens": [
+            { "text": "山田", "kana": "やまだ" },
+            { "text": "と" },
+            { "text": "申します", "kana": "もうします" },
+            { "text": "。" },
+            { "text": "前職", "kana": "ぜんしょく" },
+            { "text": "ではインフラエンジニアを5" },
+            { "text": "年", "kana": "ねん" },
+            { "text": "ほどしておりました。" }
+          ],
+          "kana": "やまだともうしますぜんしょくではいんふらえんじにあをごねんほどしておりました",
+          "chinese": "我叫山田。前一份工作做了 5 年左右的基础设施工程师。"
+        },
+        {
+          "speaker": "面接官",
+          "japanese": "SREの経験について、もう少し詳しく教えていただけますか。",
+          "tokens": [
+            { "text": "SRE" },
+            { "text": "の" },
+            { "text": "経験", "kana": "けいけん" },
+            { "text": "について、もう" },
+            { "text": "少し", "kana": "すこし" },
+            { "text": "詳しく", "kana": "くわしく" },
+            { "text": "教えて", "kana": "おしえて" },
+            { "text": "いただけますか。" }
+          ],
+          "kana": "えすあーるいーのけいけんについてもうすこしくわしくおしえていただけますか",
+          "chinese": "SRE 的经验能再详细讲讲吗？"
+        },
+        {
+          "speaker": "候補者",
+          "japanese": "本番運用の自動化と障害対応を中心にやってまいりました。",
+          "tokens": [
+            { "text": "本番運用", "kana": "ほんばんうんよう" },
+            { "text": "の" },
+            { "text": "自動化", "kana": "じどうか" },
+            { "text": "と" },
+            { "text": "障害対応", "kana": "しょうがいたいおう" },
+            { "text": "を" },
+            { "text": "中心", "kana": "ちゅうしん" },
+            { "text": "にやってまいりました。" }
+          ],
+          "kana": "ほんばんうんようのじどうかとしょうがいたいおうをちゅうしんにやってまいりました",
+          "chinese": "主要做生产环境的自动化和事故对应。"
+        },
+        {
+          "speaker": "面接官",
+          "japanese": "ありがとうございます。結果については追ってご連絡いたします。本日はお時間いただきありがとうございました。",
+          "tokens": [
+            { "text": "ありがとうございます。" },
+            { "text": "結果", "kana": "けっか" },
+            { "text": "については" },
+            { "text": "追って", "kana": "おって" },
+            { "text": "ご" },
+            { "text": "連絡", "kana": "れんらく" },
+            { "text": "いたします。" },
+            { "text": "本日", "kana": "ほんじつ" },
+            { "text": "はお" },
+            { "text": "時間", "kana": "じかん" },
+            { "text": "いただきありがとうございました。" }
+          ],
+          "kana": "ありがとうございますけっかについてはおってごれんらくいたしますほんじつはおじかんいただきありがとうございました",
+          "chinese": "谢谢。结果稍后再联系您。今天感谢您抽时间。"
+        }
+      ]
+    }
+  ],
+  "passages": []
+}

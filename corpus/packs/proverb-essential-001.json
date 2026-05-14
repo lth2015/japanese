@@ -1,0 +1,224 @@
+{
+  "packVersion": 1,
+  "packId": "proverb-essential-001",
+  "title": "Essential Japanese Proverbs 001",
+  "generatedBy": "claude-opus-4-7",
+  "generatedAt": "2026-05-14",
+  "targetProfile": "Display-optimized content: high-frequency Japanese proverbs (ことわざ) used in modern workplace and life. Each line is short, visually striking, and culturally resonant. Looks impactful at 100px+ on the Display page. Helps a Chinese-L1 learner internalize Japanese rhythm and idiom.",
+  "reviewStatus": "reviewed",
+  "sentences": [
+    {
+      "externalId": "s001",
+      "japanese": "急がば回れ。",
+      "tokens": [
+        { "text": "急がば", "kana": "いそがば" },
+        { "text": "回れ", "kana": "まわれ" },
+        { "text": "。" }
+      ],
+      "kana": "いそがばまわれ",
+      "chinese": "欲速则不达 / 走捷径反而绕远。",
+      "category": "daily",
+      "register": "丁寧",
+      "difficulty": 3,
+      "frequencyRank": 145,
+      "chunkPattern": "急がば回れ",
+      "tags": ["display", "proverb", "patience"]
+    },
+    {
+      "externalId": "s002",
+      "japanese": "石の上にも三年。",
+      "tokens": [
+        { "text": "石", "kana": "いし" },
+        { "text": "の" },
+        { "text": "上", "kana": "うえ" },
+        { "text": "にも" },
+        { "text": "三年", "kana": "さんねん" },
+        { "text": "。" }
+      ],
+      "kana": "いしのうえにもさんねん",
+      "chinese": "石上坐三年也会暖 / 持之以恒终有成。",
+      "category": "daily",
+      "register": "丁寧",
+      "difficulty": 3,
+      "frequencyRank": 150,
+      "chunkPattern": "石の上にも三年",
+      "tags": ["display", "proverb", "perseverance"]
+    },
+    {
+      "externalId": "s003",
+      "japanese": "失敗は成功のもと。",
+      "tokens": [
+        { "text": "失敗", "kana": "しっぱい" },
+        { "text": "は" },
+        { "text": "成功", "kana": "せいこう" },
+        { "text": "のもと" },
+        { "text": "。" }
+      ],
+      "kana": "しっぱいはせいこうのもと",
+      "chinese": "失败是成功之母。",
+      "category": "daily",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 132,
+      "chunkPattern": "~は~のもと",
+      "tags": ["display", "proverb", "failure-learning"]
+    },
+    {
+      "externalId": "s004",
+      "japanese": "案ずるより産むが易し。",
+      "tokens": [
+        { "text": "案ずる", "kana": "あんずる" },
+        { "text": "より" },
+        { "text": "産む", "kana": "うむ" },
+        { "text": "が" },
+        { "text": "易し", "kana": "やすし" },
+        { "text": "。" }
+      ],
+      "kana": "あんずるよりうむがやすし",
+      "chinese": "做起来比想象的容易 / 怕慌反误事。",
+      "category": "daily",
+      "register": "丁寧",
+      "difficulty": 4,
+      "frequencyRank": 168,
+      "chunkPattern": "案ずるより~が易し",
+      "tags": ["display", "proverb", "courage"]
+    },
+    {
+      "externalId": "s005",
+      "japanese": "七転び八起き。",
+      "tokens": [
+        { "text": "七転び", "kana": "ななころび" },
+        { "text": "八起き", "kana": "やおき" },
+        { "text": "。" }
+      ],
+      "kana": "ななころびやおき",
+      "chinese": "百折不挠 / 跌倒七次爬起来八次。",
+      "category": "daily",
+      "register": "丁寧",
+      "difficulty": 3,
+      "frequencyRank": 142,
+      "chunkPattern": "七転び八起き",
+      "tags": ["display", "proverb", "resilience"]
+    },
+    {
+      "externalId": "s006",
+      "japanese": "千里の道も一歩から。",
+      "tokens": [
+        { "text": "千里", "kana": "せんり" },
+        { "text": "の" },
+        { "text": "道", "kana": "みち" },
+        { "text": "も" },
+        { "text": "一歩", "kana": "いっぽ" },
+        { "text": "から" },
+        { "text": "。" }
+      ],
+      "kana": "せんりのみちもいっぽから",
+      "chinese": "千里之行,始于足下。",
+      "category": "daily",
+      "register": "丁寧",
+      "difficulty": 3,
+      "frequencyRank": 138,
+      "chunkPattern": "~の~も一歩から",
+      "tags": ["display", "proverb", "beginning"]
+    },
+    {
+      "externalId": "s007",
+      "japanese": "継続は力なり。",
+      "tokens": [
+        { "text": "継続", "kana": "けいぞく" },
+        { "text": "は" },
+        { "text": "力", "kana": "ちから" },
+        { "text": "なり" },
+        { "text": "。" }
+      ],
+      "kana": "けいぞくはちからなり",
+      "chinese": "坚持就是力量。",
+      "category": "daily",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 128,
+      "chunkPattern": "継続は力なり",
+      "tags": ["display", "proverb", "consistency"]
+    },
+    {
+      "externalId": "s008",
+      "japanese": "笑う門には福来る。",
+      "tokens": [
+        { "text": "笑う", "kana": "わらう" },
+        { "text": "門", "kana": "かど" },
+        { "text": "には" },
+        { "text": "福", "kana": "ふく" },
+        { "text": "来る", "kana": "きたる" },
+        { "text": "。" }
+      ],
+      "kana": "わらうかどにはふくきたる",
+      "chinese": "笑口常开,福气自来。",
+      "category": "daily",
+      "register": "丁寧",
+      "difficulty": 3,
+      "frequencyRank": 155,
+      "chunkPattern": "笑う門には福来る",
+      "tags": ["display", "proverb", "positivity"]
+    },
+    {
+      "externalId": "s009",
+      "japanese": "塵も積もれば山となる。",
+      "tokens": [
+        { "text": "塵", "kana": "ちり" },
+        { "text": "も" },
+        { "text": "積もれば", "kana": "つもれば" },
+        { "text": "山", "kana": "やま" },
+        { "text": "となる" },
+        { "text": "。" }
+      ],
+      "kana": "ちりもつもればやまとなる",
+      "chinese": "积少成多 / 聚沙成塔。",
+      "category": "daily",
+      "register": "丁寧",
+      "difficulty": 3,
+      "frequencyRank": 148,
+      "chunkPattern": "~も積もれば~となる",
+      "tags": ["display", "proverb", "accumulation"]
+    },
+    {
+      "externalId": "s010",
+      "japanese": "後悔先に立たず。",
+      "tokens": [
+        { "text": "後悔", "kana": "こうかい" },
+        { "text": "先", "kana": "さき" },
+        { "text": "に" },
+        { "text": "立たず", "kana": "たたず" },
+        { "text": "。" }
+      ],
+      "kana": "こうかいさきにたたず",
+      "chinese": "后悔莫及 / 后悔不能在事前。",
+      "category": "daily",
+      "register": "丁寧",
+      "difficulty": 3,
+      "frequencyRank": 161,
+      "chunkPattern": "後悔先に立たず",
+      "tags": ["display", "proverb", "regret"]
+    },
+    {
+      "externalId": "s011",
+      "japanese": "ローマは一日にして成らず。",
+      "tokens": [
+        { "text": "ローマは" },
+        { "text": "一日", "kana": "いちにち" },
+        { "text": "にして" },
+        { "text": "成らず", "kana": "ならず" },
+        { "text": "。" }
+      ],
+      "kana": "ろーまはいちにちにしてならず",
+      "chinese": "罗马不是一天建成的。",
+      "category": "daily",
+      "register": "丁寧",
+      "difficulty": 3,
+      "frequencyRank": 172,
+      "chunkPattern": "~は一日にして成らず",
+      "tags": ["display", "proverb", "long-term"]
+    }
+  ],
+  "dialogues": [],
+  "passages": []
+}

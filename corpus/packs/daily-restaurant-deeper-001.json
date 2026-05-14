@@ -1,0 +1,302 @@
+{
+  "packVersion": 1,
+  "packId": "daily-restaurant-deeper-001",
+  "title": "Daily Restaurant Deeper 001",
+  "generatedBy": "claude-opus-4-7",
+  "generatedAt": "2026-05-14",
+  "targetProfile": "Chinese native speaker, N1 reading, weak spoken daily Japanese — restaurant beyond cafe basics: phone reservation, asking for recommendations, dietary adjustments, sharing plates, missing-order complaints, reheat requests. Networking dinners and family meals.",
+  "reviewStatus": "reviewed",
+  "sentences": [
+    {
+      "externalId": "s001",
+      "japanese": "7時に4名で予約をお願いしたいんですが。",
+      "tokens": [
+        { "text": "7" },
+        { "text": "時", "kana": "じ" },
+        { "text": "に4" },
+        { "text": "名", "kana": "めい" },
+        { "text": "で" },
+        { "text": "予約", "kana": "よやく" },
+        { "text": "をお" },
+        { "text": "願い", "kana": "ねがい" },
+        { "text": "したいんですが。" }
+      ],
+      "kana": "しちじによんめいでよやくをおねがいしたいんですが",
+      "chinese": "想预约 7 点 4 个人。",
+      "category": "request",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 39,
+      "chunkPattern": "~時に~名で予約をお願いしたいんですが",
+      "tags": ["restaurant", "booking", "phone"]
+    },
+    {
+      "externalId": "s002",
+      "japanese": "個室はありますか。",
+      "tokens": [
+        { "text": "個室", "kana": "こしつ" },
+        { "text": "はありますか。" }
+      ],
+      "kana": "こしつはありますか",
+      "chinese": "有包间吗？",
+      "category": "request",
+      "register": "丁寧",
+      "difficulty": 1,
+      "frequencyRank": 58,
+      "chunkPattern": "~はありますか",
+      "tags": ["restaurant", "private-room", "ask"]
+    },
+    {
+      "externalId": "s003",
+      "japanese": "おすすめは何ですか。",
+      "tokens": [
+        { "text": "おすすめは" },
+        { "text": "何", "kana": "なん" },
+        { "text": "ですか。" }
+      ],
+      "kana": "おすすめはなんですか",
+      "chinese": "推荐什么？",
+      "category": "request",
+      "register": "丁寧",
+      "difficulty": 1,
+      "frequencyRank": 26,
+      "chunkPattern": "おすすめは何ですか",
+      "tags": ["restaurant", "recommend", "ask"]
+    },
+    {
+      "externalId": "s004",
+      "japanese": "このメニューはどのくらいの量ですか。",
+      "tokens": [
+        { "text": "このメニューはどのくらいの" },
+        { "text": "量", "kana": "りょう" },
+        { "text": "ですか。" }
+      ],
+      "kana": "このめにゅーはどのくらいのりょうですか",
+      "chinese": "这道菜分量大概多少？",
+      "category": "request",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 81,
+      "chunkPattern": "この~はどのくらいの~ですか",
+      "tags": ["restaurant", "portion", "ask"]
+    },
+    {
+      "externalId": "s005",
+      "japanese": "辛さは控えめでお願いします。",
+      "tokens": [
+        { "text": "辛さ", "kana": "からさ" },
+        { "text": "は" },
+        { "text": "控えめ", "kana": "ひかえめ" },
+        { "text": "でお" },
+        { "text": "願い", "kana": "ねがい" },
+        { "text": "します。" }
+      ],
+      "kana": "からさはひかえめでおねがいします",
+      "chinese": "辣度麻烦少一些。",
+      "category": "request",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 73,
+      "chunkPattern": "~は控えめでお願いします",
+      "tags": ["restaurant", "adjust", "spice"]
+    },
+    {
+      "externalId": "s006",
+      "japanese": "アレルギーがあるので、ピーナッツを抜いていただけますか。",
+      "tokens": [
+        { "text": "アレルギーがあるので、ピーナッツを" },
+        { "text": "抜いて", "kana": "ぬいて" },
+        { "text": "いただけますか。" }
+      ],
+      "kana": "あれるぎーがあるのでぴーなっつをぬいていただけますか",
+      "chinese": "有过敏,能不放花生吗？",
+      "category": "request",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 92,
+      "chunkPattern": "アレルギーがあるので、~を抜いていただけますか",
+      "tags": ["restaurant", "allergy", "remove"]
+    },
+    {
+      "externalId": "s007",
+      "japanese": "ベジタリアン向けのメニューはありますか。",
+      "tokens": [
+        { "text": "ベジタリアン" },
+        { "text": "向け", "kana": "むけ" },
+        { "text": "のメニューはありますか。" }
+      ],
+      "kana": "べじたりあんむけのめにゅーはありますか",
+      "chinese": "有素食的菜单吗？",
+      "category": "request",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 95,
+      "chunkPattern": "~向けのメニューはありますか",
+      "tags": ["restaurant", "dietary", "vegetarian"]
+    },
+    {
+      "externalId": "s008",
+      "japanese": "取り分け用のお皿をいただけますか。",
+      "tokens": [
+        { "text": "取り分け用", "kana": "とりわけよう" },
+        { "text": "のお" },
+        { "text": "皿", "kana": "さら" },
+        { "text": "をいただけますか。" }
+      ],
+      "kana": "とりわけようのおさらをいただけますか",
+      "chinese": "能给几个分餐盘吗？",
+      "category": "request",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 68,
+      "chunkPattern": "~用の~をいただけますか",
+      "tags": ["restaurant", "sharing", "tableware"]
+    },
+    {
+      "externalId": "s009",
+      "japanese": "もう一度メニューを見せていただけますか。",
+      "tokens": [
+        { "text": "もう" },
+        { "text": "一度", "kana": "いちど" },
+        { "text": "メニューを" },
+        { "text": "見せて", "kana": "みせて" },
+        { "text": "いただけますか。" }
+      ],
+      "kana": "もういちどめにゅーをみせていただけますか",
+      "chinese": "能再看一下菜单吗？",
+      "category": "request",
+      "register": "丁寧",
+      "difficulty": 1,
+      "frequencyRank": 48,
+      "chunkPattern": "もう一度~を見せていただけますか",
+      "tags": ["restaurant", "menu-again", "ask"]
+    },
+    {
+      "externalId": "s010",
+      "japanese": "これ、まだ来ていないようなんですが。",
+      "tokens": [
+        { "text": "これ、まだ" },
+        { "text": "来て", "kana": "きて" },
+        { "text": "いないようなんですが。" }
+      ],
+      "kana": "これまだきていないようなんですが",
+      "chinese": "这道菜好像还没上。",
+      "category": "rescue",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 79,
+      "chunkPattern": "これ、まだ~ていないようなんですが",
+      "tags": ["restaurant", "missing-order", "soft-complaint"]
+    },
+    {
+      "externalId": "s011",
+      "japanese": "温め直していただけますか。",
+      "tokens": [
+        { "text": "温め直して", "kana": "あたためなおして" },
+        { "text": "いただけますか。" }
+      ],
+      "kana": "あたためなおしていただけますか",
+      "chinese": "能帮我重新加热一下吗？",
+      "category": "request",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 86,
+      "chunkPattern": "~ていただけますか",
+      "tags": ["restaurant", "reheat", "polite-request"]
+    }
+  ],
+  "dialogues": [
+    {
+      "externalId": "d001",
+      "title": "電話でのレストラン予約",
+      "scenario": "phone",
+      "description": "金曜の夜に4人で予約を入れる電話。人数・時間 → 個室の希望 → テーブル席で確定までのシンプルなやり取り。",
+      "difficulty": 3,
+      "register": "丁寧",
+      "tags": ["restaurant", "phone", "booking"],
+      "turns": [
+        {
+          "speaker": "客",
+          "japanese": "もしもし、来週の金曜の7時に4名で予約をお願いしたいんですが。",
+          "tokens": [
+            { "text": "もしもし、" },
+            { "text": "来週", "kana": "らいしゅう" },
+            { "text": "の" },
+            { "text": "金曜", "kana": "きんよう" },
+            { "text": "の7" },
+            { "text": "時", "kana": "じ" },
+            { "text": "に4" },
+            { "text": "名", "kana": "めい" },
+            { "text": "で" },
+            { "text": "予約", "kana": "よやく" },
+            { "text": "をお" },
+            { "text": "願い", "kana": "ねがい" },
+            { "text": "したいんですが。" }
+          ],
+          "kana": "もしもしらいしゅうのきんようのしちじによんめいでよやくをおねがいしたいんですが",
+          "chinese": "您好,想预约下周五 7 点 4 个人。"
+        },
+        {
+          "speaker": "店員",
+          "japanese": "来週金曜日19時、4名様でございますね。お席のご希望はございますか。",
+          "tokens": [
+            { "text": "来週", "kana": "らいしゅう" },
+            { "text": "金曜日", "kana": "きんようび" },
+            { "text": "19" },
+            { "text": "時", "kana": "じ" },
+            { "text": "、4" },
+            { "text": "名様", "kana": "めいさま" },
+            { "text": "でございますね。お" },
+            { "text": "席", "kana": "せき" },
+            { "text": "のご" },
+            { "text": "希望", "kana": "きぼう" },
+            { "text": "はございますか。" }
+          ],
+          "kana": "らいしゅうきんようびじゅうくじよんめいさまでございますねおせきのごきぼうはございますか",
+          "chinese": "下周五 19 点 4 位是吧。座位有什么偏好吗？"
+        },
+        {
+          "speaker": "客",
+          "japanese": "個室はありますか。",
+          "tokens": [
+            { "text": "個室", "kana": "こしつ" },
+            { "text": "はありますか。" }
+          ],
+          "kana": "こしつはありますか",
+          "chinese": "有包间吗？"
+        },
+        {
+          "speaker": "店員",
+          "japanese": "あいにく個室は埋まっておりまして、テーブル席でしたらご用意できます。",
+          "tokens": [
+            { "text": "あいにく" },
+            { "text": "個室", "kana": "こしつ" },
+            { "text": "は" },
+            { "text": "埋まって", "kana": "うまって" },
+            { "text": "おりまして、テーブル" },
+            { "text": "席", "kana": "せき" },
+            { "text": "でしたらご" },
+            { "text": "用意", "kana": "ようい" },
+            { "text": "できます。" }
+          ],
+          "kana": "あいにくこしつはうまっておりましててーぶるせきでしたらごよういできます",
+          "chinese": "不巧包间满了,大堂的话可以安排。"
+        },
+        {
+          "speaker": "客",
+          "japanese": "ではテーブル席でお願いします。",
+          "tokens": [
+            { "text": "ではテーブル" },
+            { "text": "席", "kana": "せき" },
+            { "text": "でお" },
+            { "text": "願い", "kana": "ねがい" },
+            { "text": "します。" }
+          ],
+          "kana": "ではてーぶるせきでおねがいします",
+          "chinese": "那大堂就好。"
+        }
+      ]
+    }
+  ],
+  "passages": []
+}

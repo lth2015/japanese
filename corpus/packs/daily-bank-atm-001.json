@@ -1,0 +1,290 @@
+{
+  "packVersion": 1,
+  "packId": "daily-bank-atm-001",
+  "title": "Daily Bank and ATM 001",
+  "generatedBy": "claude-opus-4-7",
+  "generatedAt": "2026-05-14",
+  "targetProfile": "Chinese native speaker, N1 reading, weak spoken daily Japanese — bank counter and ATM scenarios: wire transfers, account operations, passbook update, address change, card reissue, ATM trouble. Specialized vocab needed for daily living in Japan.",
+  "reviewStatus": "reviewed",
+  "sentences": [
+    {
+      "externalId": "s001",
+      "japanese": "振込をお願いしたいんですが。",
+      "tokens": [
+        { "text": "振込", "kana": "ふりこみ" },
+        { "text": "をお" },
+        { "text": "願い", "kana": "ねがい" },
+        { "text": "したいんですが。" }
+      ],
+      "kana": "ふりこみをおねがいしたいんですが",
+      "chinese": "想做转账。",
+      "category": "request",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 48,
+      "chunkPattern": "~をお願いしたいんですが",
+      "tags": ["bank", "wire", "core"]
+    },
+    {
+      "externalId": "s002",
+      "japanese": "口座を開設したいです。",
+      "tokens": [
+        { "text": "口座", "kana": "こうざ" },
+        { "text": "を" },
+        { "text": "開設", "kana": "かいせつ" },
+        { "text": "したいです。" }
+      ],
+      "kana": "こうざをかいせつしたいです",
+      "chinese": "想开个账户。",
+      "category": "request",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 62,
+      "chunkPattern": "~を~したいです",
+      "tags": ["bank", "open-account"]
+    },
+    {
+      "externalId": "s003",
+      "japanese": "通帳記入をお願いします。",
+      "tokens": [
+        { "text": "通帳記入", "kana": "つうちょうきにゅう" },
+        { "text": "をお" },
+        { "text": "願い", "kana": "ねがい" },
+        { "text": "します。" }
+      ],
+      "kana": "つうちょうきにゅうをおねがいします",
+      "chinese": "麻烦帮我补一下存折。",
+      "category": "request",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 74,
+      "chunkPattern": "~をお願いします",
+      "tags": ["bank", "passbook", "update"]
+    },
+    {
+      "externalId": "s004",
+      "japanese": "暗証番号を忘れてしまいました。",
+      "tokens": [
+        { "text": "暗証番号", "kana": "あんしょうばんごう" },
+        { "text": "を" },
+        { "text": "忘れて", "kana": "わすれて" },
+        { "text": "しまいました。" }
+      ],
+      "kana": "あんしょうばんごうをわすれてしまいました",
+      "chinese": "我把密码忘了。",
+      "category": "rescue",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 88,
+      "chunkPattern": "~を忘れてしまいました",
+      "tags": ["bank", "trouble", "pin"]
+    },
+    {
+      "externalId": "s005",
+      "japanese": "残高照会をしたいです。",
+      "tokens": [
+        { "text": "残高照会", "kana": "ざんだかしょうかい" },
+        { "text": "をしたいです。" }
+      ],
+      "kana": "ざんだかしょうかいをしたいです",
+      "chinese": "想查一下余额。",
+      "category": "request",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 95,
+      "chunkPattern": "~をしたいです",
+      "tags": ["bank", "balance", "check"]
+    },
+    {
+      "externalId": "s006",
+      "japanese": "住所変更の手続きをお願いします。",
+      "tokens": [
+        { "text": "住所変更", "kana": "じゅうしょへんこう" },
+        { "text": "の" },
+        { "text": "手続き", "kana": "てつづき" },
+        { "text": "をお" },
+        { "text": "願い", "kana": "ねがい" },
+        { "text": "します。" }
+      ],
+      "kana": "じゅうしょへんこうのてつづきをおねがいします",
+      "chinese": "麻烦帮我办住址变更。",
+      "category": "request",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 67,
+      "chunkPattern": "~の手続きをお願いします",
+      "tags": ["bank", "address-change", "form"]
+    },
+    {
+      "externalId": "s007",
+      "japanese": "キャッシュカードを再発行したいんですが。",
+      "tokens": [
+        { "text": "キャッシュカードを" },
+        { "text": "再発行", "kana": "さいはっこう" },
+        { "text": "したいんですが。" }
+      ],
+      "kana": "きゃっしゅかーどをさいはっこうしたいんですが",
+      "chinese": "想补办一张银行卡。",
+      "category": "request",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 83,
+      "chunkPattern": "~を再発行したいんですが",
+      "tags": ["bank", "reissue", "card"]
+    },
+    {
+      "externalId": "s008",
+      "japanese": "ATMが故障しているようです。",
+      "tokens": [
+        { "text": "ATMが" },
+        { "text": "故障", "kana": "こしょう" },
+        { "text": "しているようです。" }
+      ],
+      "kana": "えーてぃーえむがこしょうしているようです",
+      "chinese": "ATM 好像坏了。",
+      "category": "rescue",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 98,
+      "chunkPattern": "~が故障しているようです",
+      "tags": ["bank", "trouble", "atm"]
+    },
+    {
+      "externalId": "s009",
+      "japanese": "印鑑も必要ですか。",
+      "tokens": [
+        { "text": "印鑑", "kana": "いんかん" },
+        { "text": "も" },
+        { "text": "必要", "kana": "ひつよう" },
+        { "text": "ですか。" }
+      ],
+      "kana": "いんかんもひつようですか",
+      "chinese": "印章也需要吗？",
+      "category": "request",
+      "register": "丁寧",
+      "difficulty": 1,
+      "frequencyRank": 55,
+      "chunkPattern": "~も必要ですか",
+      "tags": ["bank", "ask", "stamp"]
+    },
+    {
+      "externalId": "s010",
+      "japanese": "振込手数料はいくらですか。",
+      "tokens": [
+        { "text": "振込手数料", "kana": "ふりこみてすうりょう" },
+        { "text": "はいくらですか。" }
+      ],
+      "kana": "ふりこみてすうりょうはいくらですか",
+      "chinese": "转账手续费多少？",
+      "category": "request",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 79,
+      "chunkPattern": "~はいくらですか",
+      "tags": ["bank", "fee", "ask"]
+    },
+    {
+      "externalId": "s011",
+      "japanese": "今日は以上でお願いします。",
+      "tokens": [
+        { "text": "今日", "kana": "きょう" },
+        { "text": "は" },
+        { "text": "以上", "kana": "いじょう" },
+        { "text": "でお" },
+        { "text": "願い", "kana": "ねがい" },
+        { "text": "します。" }
+      ],
+      "kana": "きょうはいじょうでおねがいします",
+      "chinese": "今天就办这些。",
+      "category": "progress",
+      "register": "丁寧",
+      "difficulty": 1,
+      "frequencyRank": 64,
+      "chunkPattern": "~は以上でお願いします",
+      "tags": ["bank", "wrap", "close"]
+    }
+  ],
+  "dialogues": [
+    {
+      "externalId": "d001",
+      "title": "銀行窓口で住所変更",
+      "scenario": "1on1",
+      "description": "引越し後に銀行の窓口で住所変更手続きをする会話。必要書類の確認 → 印鑑の有無 → 追加質問という流れ。",
+      "difficulty": 3,
+      "register": "丁寧",
+      "tags": ["bank", "counter", "address-change"],
+      "turns": [
+        {
+          "speaker": "客",
+          "japanese": "住所変更の手続きをお願いします。",
+          "tokens": [
+            { "text": "住所変更", "kana": "じゅうしょへんこう" },
+            { "text": "の" },
+            { "text": "手続き", "kana": "てつづき" },
+            { "text": "をお" },
+            { "text": "願い", "kana": "ねがい" },
+            { "text": "します。" }
+          ],
+          "kana": "じゅうしょへんこうのてつづきをおねがいします",
+          "chinese": "麻烦帮我办住址变更。"
+        },
+        {
+          "speaker": "窓口",
+          "japanese": "かしこまりました。通帳とキャッシュカード、本人確認書類をお願いします。",
+          "tokens": [
+            { "text": "かしこまりました。" },
+            { "text": "通帳", "kana": "つうちょう" },
+            { "text": "とキャッシュカード、" },
+            { "text": "本人確認書類", "kana": "ほんにんかくにんしょるい" },
+            { "text": "をお" },
+            { "text": "願い", "kana": "ねがい" },
+            { "text": "します。" }
+          ],
+          "kana": "かしこまりましたつうちょうときゃっしゅかーどほんにんかくにんしょるいをおねがいします",
+          "chinese": "好的。请出示存折、银行卡和身份证明。"
+        },
+        {
+          "speaker": "客",
+          "japanese": "こちらでお願いします。印鑑も必要ですか。",
+          "tokens": [
+            { "text": "こちらでお" },
+            { "text": "願い", "kana": "ねがい" },
+            { "text": "します。" },
+            { "text": "印鑑", "kana": "いんかん" },
+            { "text": "も" },
+            { "text": "必要", "kana": "ひつよう" },
+            { "text": "ですか。" }
+          ],
+          "kana": "こちらでおねがいしますいんかんもひつようですか",
+          "chinese": "都在这里。印章也需要吗？"
+        },
+        {
+          "speaker": "窓口",
+          "japanese": "お届け印もお願いいたします。",
+          "tokens": [
+            { "text": "お" },
+            { "text": "届け印", "kana": "とどけいん" },
+            { "text": "もお" },
+            { "text": "願い", "kana": "ねがい" },
+            { "text": "いたします。" }
+          ],
+          "kana": "おとどけいんもおねがいいたします",
+          "chinese": "也需要您预留的银行印。"
+        },
+        {
+          "speaker": "客",
+          "japanese": "承知しました。あと、振込手数料はいくらですか。",
+          "tokens": [
+            { "text": "承知", "kana": "しょうち" },
+            { "text": "しました。あと、" },
+            { "text": "振込手数料", "kana": "ふりこみてすうりょう" },
+            { "text": "はいくらですか。" }
+          ],
+          "kana": "しょうちしましたあとふりこみてすうりょうはいくらですか",
+          "chinese": "明白了。另外,转账手续费多少？"
+        }
+      ]
+    }
+  ],
+  "passages": []
+}

@@ -1,0 +1,278 @@
+{
+  "packVersion": 1,
+  "packId": "daily-transport-001",
+  "title": "Daily Transport and Wayfinding 001",
+  "generatedBy": "claude-opus-4-7",
+  "generatedAt": "2026-05-14",
+  "targetProfile": "Chinese native speaker, N1 reading, weak spoken daily Japanese — train/subway questions, taxi instructions, IC card and ticket interactions, lost item, wayfinding. All 丁寧 register.",
+  "reviewStatus": "reviewed",
+  "sentences": [
+    {
+      "externalId": "s001",
+      "japanese": "渋谷駅まで何分くらいですか。",
+      "tokens": [
+        { "text": "渋谷駅", "kana": "しぶやえき" },
+        { "text": "まで" },
+        { "text": "何分", "kana": "なんぷん" },
+        { "text": "くらいですか。" }
+      ],
+      "kana": "しぶやえきまでなんぷんくらいですか",
+      "chinese": "到涩谷站大概要几分钟？",
+      "category": "request",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 42,
+      "chunkPattern": "~まで何分くらいですか",
+      "tags": ["train", "ask-duration", "directions"]
+    },
+    {
+      "externalId": "s002",
+      "japanese": "乗り換えは必要ですか。",
+      "tokens": [
+        { "text": "乗り換え", "kana": "のりかえ" },
+        { "text": "は" },
+        { "text": "必要", "kana": "ひつよう" },
+        { "text": "ですか。" }
+      ],
+      "kana": "のりかえはひつようですか",
+      "chinese": "需要换乘吗？",
+      "category": "request",
+      "register": "丁寧",
+      "difficulty": 1,
+      "frequencyRank": 38,
+      "chunkPattern": "~は必要ですか",
+      "tags": ["train", "transfer", "ask"]
+    },
+    {
+      "externalId": "s003",
+      "japanese": "始発は何時ですか。",
+      "tokens": [
+        { "text": "始発", "kana": "しはつ" },
+        { "text": "は" },
+        { "text": "何時", "kana": "なんじ" },
+        { "text": "ですか。" }
+      ],
+      "kana": "しはつはなんじですか",
+      "chinese": "首班车几点？",
+      "category": "request",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 86,
+      "chunkPattern": "~は何時ですか",
+      "tags": ["train", "schedule", "first-train"]
+    },
+    {
+      "externalId": "s004",
+      "japanese": "このICカードでチャージできますか。",
+      "tokens": [
+        { "text": "このICカードでチャージできますか。" }
+      ],
+      "kana": "このあいしーかーどでちゃーじできますか",
+      "chinese": "这张 IC 卡能充值吗？",
+      "category": "request",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 71,
+      "chunkPattern": "この~でチャージできますか",
+      "tags": ["ic-card", "recharge", "machine"]
+    },
+    {
+      "externalId": "s005",
+      "japanese": "東京駅まで、お願いします。",
+      "tokens": [
+        { "text": "東京駅", "kana": "とうきょうえき" },
+        { "text": "まで、お" },
+        { "text": "願い", "kana": "ねがい" },
+        { "text": "します。" }
+      ],
+      "kana": "とうきょうえきまでおねがいします",
+      "chinese": "麻烦到东京站。",
+      "category": "request",
+      "register": "丁寧",
+      "difficulty": 1,
+      "frequencyRank": 33,
+      "chunkPattern": "~まで、お願いします",
+      "tags": ["taxi", "destination", "core"]
+    },
+    {
+      "externalId": "s006",
+      "japanese": "急いでいるので、最短ルートでお願いします。",
+      "tokens": [
+        { "text": "急いで", "kana": "いそいで" },
+        { "text": "いるので、" },
+        { "text": "最短", "kana": "さいたん" },
+        { "text": "ルートでお" },
+        { "text": "願い", "kana": "ねがい" },
+        { "text": "します。" }
+      ],
+      "kana": "いそいでいるのでさいたんるーとでおねがいします",
+      "chinese": "我有点赶,麻烦走最短路线。",
+      "category": "request",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 75,
+      "chunkPattern": "急いでいるので、~でお願いします",
+      "tags": ["taxi", "urgent", "instruction"]
+    },
+    {
+      "externalId": "s007",
+      "japanese": "このあたりで降ろしていただけますか。",
+      "tokens": [
+        { "text": "このあたりで" },
+        { "text": "降ろして", "kana": "おろして" },
+        { "text": "いただけますか。" }
+      ],
+      "kana": "このあたりでおろしていただけますか",
+      "chinese": "能在这附近让我下车吗？",
+      "category": "request",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 63,
+      "chunkPattern": "このあたりで~ていただけますか",
+      "tags": ["taxi", "drop-off", "polite-request"]
+    },
+    {
+      "externalId": "s008",
+      "japanese": "領収書をいただけますか。",
+      "tokens": [
+        { "text": "領収書", "kana": "りょうしゅうしょ" },
+        { "text": "をいただけますか。" }
+      ],
+      "kana": "りょうしゅうしょをいただけますか",
+      "chinese": "能给我开收据吗？",
+      "category": "request",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 28,
+      "chunkPattern": "~をいただけますか",
+      "tags": ["taxi", "receipt", "expense"]
+    },
+    {
+      "externalId": "s009",
+      "japanese": "すみません、Suicaを落としてしまったみたいです。",
+      "tokens": [
+        { "text": "すみません、Suicaを" },
+        { "text": "落として", "kana": "おとして" },
+        { "text": "しまったみたいです。" }
+      ],
+      "kana": "すみませんすいかをおとしてしまったみたいです",
+      "chinese": "不好意思,我好像把 Suica 弄丢了。",
+      "category": "rescue",
+      "register": "丁寧",
+      "difficulty": 3,
+      "frequencyRank": 98,
+      "chunkPattern": "すみません、~を落としてしまったみたいです",
+      "tags": ["lost-item", "station-staff", "trouble"]
+    },
+    {
+      "externalId": "s010",
+      "japanese": "このバスは新宿駅に止まりますか。",
+      "tokens": [
+        { "text": "このバスは" },
+        { "text": "新宿駅", "kana": "しんじゅくえき" },
+        { "text": "に" },
+        { "text": "止まりますか", "kana": "とまりますか" },
+        { "text": "。" }
+      ],
+      "kana": "このばすはしんじゅくえきにとまりますか",
+      "chinese": "这辆巴士到新宿站吗？",
+      "category": "request",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 80,
+      "chunkPattern": "この~は~に止まりますか",
+      "tags": ["bus", "ask-stop", "wayfinding"]
+    },
+    {
+      "externalId": "s011",
+      "japanese": "最寄りのコンビニはどこですか。",
+      "tokens": [
+        { "text": "最寄り", "kana": "もより" },
+        { "text": "のコンビニはどこですか。" }
+      ],
+      "kana": "もよりのこんびにはどこですか",
+      "chinese": "最近的便利店在哪里？",
+      "category": "request",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 51,
+      "chunkPattern": "最寄りの~はどこですか",
+      "tags": ["wayfinding", "ask-location", "nearest"]
+    }
+  ],
+  "dialogues": [
+    {
+      "externalId": "d001",
+      "title": "タクシーで目的地まで",
+      "scenario": "1on1",
+      "description": "タクシーに乗ってから降りるまでの典型的なやり取り。行き先指定 → 所要時間確認 → 降車位置指定 → 支払い + 領収書。",
+      "difficulty": 2,
+      "register": "丁寧",
+      "tags": ["taxi", "ride", "end-to-end"],
+      "turns": [
+        {
+          "speaker": "客",
+          "japanese": "東京駅まで、お願いします。急いでいるので、最短ルートでお願いします。",
+          "tokens": [
+            { "text": "東京駅", "kana": "とうきょうえき" },
+            { "text": "まで、お" },
+            { "text": "願い", "kana": "ねがい" },
+            { "text": "します。" },
+            { "text": "急いで", "kana": "いそいで" },
+            { "text": "いるので、" },
+            { "text": "最短", "kana": "さいたん" },
+            { "text": "ルートでお" },
+            { "text": "願い", "kana": "ねがい" },
+            { "text": "します。" }
+          ],
+          "kana": "とうきょうえきまでおねがいしますいそいでいるのでさいたんるーとでおねがいします",
+          "chinese": "麻烦到东京站。我有点赶,走最短路线。"
+        },
+        {
+          "speaker": "運転手",
+          "japanese": "かしこまりました。20分くらいかかります。",
+          "tokens": [
+            { "text": "かしこまりました。20" },
+            { "text": "分", "kana": "ふん" },
+            { "text": "くらいかかります。" }
+          ],
+          "kana": "かしこまりましたにじゅっぷんくらいかかります",
+          "chinese": "好的。大约 20 分钟。"
+        },
+        {
+          "speaker": "客",
+          "japanese": "このあたりで降ろしていただけますか。",
+          "tokens": [
+            { "text": "このあたりで" },
+            { "text": "降ろして", "kana": "おろして" },
+            { "text": "いただけますか。" }
+          ],
+          "kana": "このあたりでおろしていただけますか",
+          "chinese": "能在这附近让我下车吗？"
+        },
+        {
+          "speaker": "運転手",
+          "japanese": "はい、1,580円です。",
+          "tokens": [
+            { "text": "はい、1,580" },
+            { "text": "円", "kana": "えん" },
+            { "text": "です。" }
+          ],
+          "kana": "はいせんごひゃくはちじゅうえんです",
+          "chinese": "好,1580 日元。"
+        },
+        {
+          "speaker": "客",
+          "japanese": "領収書をいただけますか。",
+          "tokens": [
+            { "text": "領収書", "kana": "りょうしゅうしょ" },
+            { "text": "をいただけますか。" }
+          ],
+          "kana": "りょうしゅうしょをいただけますか",
+          "chinese": "能给我开收据吗？"
+        }
+      ]
+    }
+  ],
+  "passages": []
+}

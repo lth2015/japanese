@@ -1,0 +1,288 @@
+{
+  "packVersion": 1,
+  "packId": "daily-shopping-001",
+  "title": "Daily Shopping and Service 001",
+  "generatedBy": "claude-opus-4-7",
+  "generatedAt": "2026-05-14",
+  "targetProfile": "Chinese native speaker, N1 reading, weak spoken daily Japanese — high-frequency customer-facing micro-interactions: cafe orders, conbini checkout, restaurant settlement, asking staff for directions. All 丁寧 register.",
+  "reviewStatus": "reviewed",
+  "sentences": [
+    {
+      "externalId": "s001",
+      "japanese": "ホットコーヒーのMサイズをお願いします。",
+      "tokens": [
+        { "text": "ホットコーヒーのMサイズをお" },
+        { "text": "願い", "kana": "ねがい" },
+        { "text": "します。" }
+      ],
+      "kana": "ほっとこーひーのえむさいずをおねがいします",
+      "chinese": "请给我一杯中杯热咖啡。",
+      "category": "request",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 30,
+      "chunkPattern": "~の~サイズをお願いします",
+      "tags": ["cafe", "order", "size"]
+    },
+    {
+      "externalId": "s002",
+      "japanese": "お持ち帰りでお願いします。",
+      "tokens": [
+        { "text": "お" },
+        { "text": "持ち帰り", "kana": "もちかえり" },
+        { "text": "でお" },
+        { "text": "願い", "kana": "ねがい" },
+        { "text": "します。" }
+      ],
+      "kana": "おもちかえりでおねがいします",
+      "chinese": "我外带,谢谢。",
+      "category": "request",
+      "register": "丁寧",
+      "difficulty": 1,
+      "frequencyRank": 26,
+      "chunkPattern": "お持ち帰りでお願いします",
+      "tags": ["cafe", "takeout", "core"]
+    },
+    {
+      "externalId": "s003",
+      "japanese": "砂糖とミルクは別でいただけますか。",
+      "tokens": [
+        { "text": "砂糖", "kana": "さとう" },
+        { "text": "とミルクは" },
+        { "text": "別", "kana": "べつ" },
+        { "text": "でいただけますか。" }
+      ],
+      "kana": "さとうとみるくはべつでいただけますか",
+      "chinese": "糖和奶能分开装吗？",
+      "category": "request",
+      "register": "丁寧",
+      "difficulty": 3,
+      "frequencyRank": 78,
+      "chunkPattern": "~は別でいただけますか",
+      "tags": ["cafe", "modify", "polite-request"]
+    },
+    {
+      "externalId": "s004",
+      "japanese": "お箸は1膳でお願いします。",
+      "tokens": [
+        { "text": "お" },
+        { "text": "箸", "kana": "はし" },
+        { "text": "は1" },
+        { "text": "膳", "kana": "ぜん" },
+        { "text": "でお" },
+        { "text": "願い", "kana": "ねがい" },
+        { "text": "します。" }
+      ],
+      "kana": "おはしはいちぜんでおねがいします",
+      "chinese": "筷子要一双就够了。",
+      "category": "request",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 56,
+      "chunkPattern": "お箸は~膳でお願いします",
+      "tags": ["conbini", "utensils", "counter"]
+    },
+    {
+      "externalId": "s005",
+      "japanese": "温めなくて大丈夫です。",
+      "tokens": [
+        { "text": "温めなくて", "kana": "あたためなくて" },
+        { "text": "大丈夫", "kana": "だいじょうぶ" },
+        { "text": "です。" }
+      ],
+      "kana": "あたためなくてだいじょうぶです",
+      "chinese": "不用加热,谢谢。",
+      "category": "request",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 32,
+      "chunkPattern": "~なくて大丈夫です",
+      "tags": ["conbini", "decline", "no-heat"]
+    },
+    {
+      "externalId": "s006",
+      "japanese": "袋はいりません。",
+      "tokens": [
+        { "text": "袋", "kana": "ふくろ" },
+        { "text": "はいりません。" }
+      ],
+      "kana": "ふくろはいりません",
+      "chinese": "不需要袋子。",
+      "category": "request",
+      "register": "丁寧",
+      "difficulty": 1,
+      "frequencyRank": 18,
+      "chunkPattern": "~はいりません",
+      "tags": ["conbini", "decline", "no-bag"]
+    },
+    {
+      "externalId": "s007",
+      "japanese": "ポイントカードはありません。",
+      "tokens": [
+        { "text": "ポイントカードはありません。" }
+      ],
+      "kana": "ぽいんとかーどはありません",
+      "chinese": "没有积分卡。",
+      "category": "request",
+      "register": "丁寧",
+      "difficulty": 1,
+      "frequencyRank": 24,
+      "chunkPattern": "~はありません",
+      "tags": ["conbini", "decline", "no-card"]
+    },
+    {
+      "externalId": "s008",
+      "japanese": "お会計お願いします。",
+      "tokens": [
+        { "text": "お" },
+        { "text": "会計", "kana": "かいけい" },
+        { "text": "お" },
+        { "text": "願い", "kana": "ねがい" },
+        { "text": "します。" }
+      ],
+      "kana": "おかいけいおねがいします",
+      "chinese": "买单。",
+      "category": "request",
+      "register": "丁寧",
+      "difficulty": 1,
+      "frequencyRank": 21,
+      "chunkPattern": "お会計お願いします",
+      "tags": ["restaurant", "settle", "core"]
+    },
+    {
+      "externalId": "s009",
+      "japanese": "別々でお願いします。",
+      "tokens": [
+        { "text": "別々", "kana": "べつべつ" },
+        { "text": "でお" },
+        { "text": "願い", "kana": "ねがい" },
+        { "text": "します。" }
+      ],
+      "kana": "べつべつでおねがいします",
+      "chinese": "请分开结。",
+      "category": "request",
+      "register": "丁寧",
+      "difficulty": 1,
+      "frequencyRank": 40,
+      "chunkPattern": "別々でお願いします",
+      "tags": ["restaurant", "split-bill"]
+    },
+    {
+      "externalId": "s010",
+      "japanese": "すみません、お手洗いはどこですか。",
+      "tokens": [
+        { "text": "すみません、お" },
+        { "text": "手洗い", "kana": "てあらい" },
+        { "text": "はどこですか。" }
+      ],
+      "kana": "すみませんおてあらいはどこですか",
+      "chinese": "不好意思,洗手间在哪里？",
+      "category": "request",
+      "register": "丁寧",
+      "difficulty": 1,
+      "frequencyRank": 19,
+      "chunkPattern": "すみません、~はどこですか",
+      "tags": ["ask-staff", "location", "directions"]
+    },
+    {
+      "externalId": "s011",
+      "japanese": "これも一緒でお願いします。",
+      "tokens": [
+        { "text": "これも" },
+        { "text": "一緒", "kana": "いっしょ" },
+        { "text": "でお" },
+        { "text": "願い", "kana": "ねがい" },
+        { "text": "します。" }
+      ],
+      "kana": "これもいっしょでおねがいします",
+      "chinese": "这个也一起。",
+      "category": "request",
+      "register": "丁寧",
+      "difficulty": 1,
+      "frequencyRank": 35,
+      "chunkPattern": "これも一緒でお願いします",
+      "tags": ["conbini", "add-item", "counter"]
+    }
+  ],
+  "dialogues": [
+    {
+      "externalId": "d001",
+      "title": "カフェで注文",
+      "scenario": "1on1",
+      "description": "カフェで店員とコーヒーを注文するときの典型的な対話。サイズ・テイクアウト指定・サイドアイテム調整・会計まで一通り。",
+      "difficulty": 2,
+      "register": "丁寧",
+      "tags": ["cafe", "order", "service"],
+      "turns": [
+        {
+          "speaker": "店員",
+          "japanese": "いらっしゃいませ。ご注文をどうぞ。",
+          "tokens": [
+            { "text": "いらっしゃいませ。ご" },
+            { "text": "注文", "kana": "ちゅうもん" },
+            { "text": "をどうぞ。" }
+          ],
+          "kana": "いらっしゃいませごちゅうもんをどうぞ",
+          "chinese": "欢迎光临。请点单。"
+        },
+        {
+          "speaker": "客",
+          "japanese": "ホットコーヒーのMサイズをお願いします。",
+          "tokens": [
+            { "text": "ホットコーヒーのMサイズをお" },
+            { "text": "願い", "kana": "ねがい" },
+            { "text": "します。" }
+          ],
+          "kana": "ほっとこーひーのえむさいずをおねがいします",
+          "chinese": "请给我一杯中杯热咖啡。"
+        },
+        {
+          "speaker": "店員",
+          "japanese": "お持ち帰りですか、店内でお召し上がりですか。",
+          "tokens": [
+            { "text": "お" },
+            { "text": "持ち帰り", "kana": "もちかえり" },
+            { "text": "ですか、" },
+            { "text": "店内", "kana": "てんない" },
+            { "text": "でお" },
+            { "text": "召し上がり", "kana": "めしあがり" },
+            { "text": "ですか。" }
+          ],
+          "kana": "おもちかえりですかてんないでおめしあがりですか",
+          "chinese": "外带还是堂食？"
+        },
+        {
+          "speaker": "客",
+          "japanese": "お持ち帰りでお願いします。砂糖とミルクは別でいただけますか。",
+          "tokens": [
+            { "text": "お" },
+            { "text": "持ち帰り", "kana": "もちかえり" },
+            { "text": "でお" },
+            { "text": "願い", "kana": "ねがい" },
+            { "text": "します。" },
+            { "text": "砂糖", "kana": "さとう" },
+            { "text": "とミルクは" },
+            { "text": "別", "kana": "べつ" },
+            { "text": "でいただけますか。" }
+          ],
+          "kana": "おもちかえりでおねがいしますさとうとみるくはべつでいただけますか",
+          "chinese": "外带,谢谢。糖和奶能分开装吗？"
+        },
+        {
+          "speaker": "店員",
+          "japanese": "かしこまりました。お会計は490円です。",
+          "tokens": [
+            { "text": "かしこまりました。お" },
+            { "text": "会計", "kana": "かいけい" },
+            { "text": "は490" },
+            { "text": "円", "kana": "えん" },
+            { "text": "です。" }
+          ],
+          "kana": "かしこまりましたおかいけいはよんひゃくきゅうじゅうえんです",
+          "chinese": "好的。一共 490 日元。"
+        }
+      ]
+    }
+  ],
+  "passages": []
+}

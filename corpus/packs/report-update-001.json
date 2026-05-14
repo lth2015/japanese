@@ -1,0 +1,364 @@
+{
+  "packVersion": 1,
+  "packId": "report-update-001",
+  "title": "Report and Status Update 001",
+  "generatedBy": "claude-opus-4-7",
+  "generatedAt": "2026-05-14",
+  "targetProfile": "Chinese native speaker, N1 reading, weak spoken/written workplace Japanese — daily/weekly progress reporting and 1on1 status updates. Mostly 敬語, reusable forecast/issue/ask-direction chunks.",
+  "reviewStatus": "reviewed",
+  "sentences": [
+    {
+      "externalId": "s001",
+      "japanese": "本日の業務をご報告いたします。",
+      "tokens": [
+        { "text": "本日", "kana": "ほんじつ" },
+        { "text": "の" },
+        { "text": "業務", "kana": "ぎょうむ" },
+        { "text": "をご" },
+        { "text": "報告", "kana": "ほうこく" },
+        { "text": "いたします。" }
+      ],
+      "kana": "ほんじつのぎょうむをごほうこくいたします",
+      "chinese": "为您汇报今天的工作内容。",
+      "category": "progress",
+      "register": "敬語",
+      "difficulty": 2,
+      "frequencyRank": 46,
+      "chunkPattern": "本日の~をご報告いたします",
+      "tags": ["report", "open", "daily"]
+    },
+    {
+      "externalId": "s002",
+      "japanese": "該当の不具合については現在対応中です。",
+      "tokens": [
+        { "text": "該当", "kana": "がいとう" },
+        { "text": "の" },
+        { "text": "不具合", "kana": "ふぐあい" },
+        { "text": "については" },
+        { "text": "現在", "kana": "げんざい" },
+        { "text": "対応中", "kana": "たいおうちゅう" },
+        { "text": "です。" }
+      ],
+      "kana": "がいとうのふぐあいについてはげんざいたいおうちゅうです",
+      "chinese": "目前正在处理相关的故障。",
+      "category": "progress",
+      "register": "丁寧",
+      "difficulty": 3,
+      "frequencyRank": 58,
+      "chunkPattern": "~については現在対応中です",
+      "tags": ["report", "in-progress", "status"]
+    },
+    {
+      "externalId": "s003",
+      "japanese": "来週中に完了する見込みです。",
+      "tokens": [
+        { "text": "来週中", "kana": "らいしゅうちゅう" },
+        { "text": "に" },
+        { "text": "完了", "kana": "かんりょう" },
+        { "text": "する" },
+        { "text": "見込み", "kana": "みこみ" },
+        { "text": "です。" }
+      ],
+      "kana": "らいしゅうちゅうにかんりょうするみこみです",
+      "chinese": "预计下周内可以完成。",
+      "category": "progress",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 51,
+      "chunkPattern": "~中に~する見込みです",
+      "tags": ["report", "forecast", "deadline"]
+    },
+    {
+      "externalId": "s004",
+      "japanese": "スケジュールは予定通り進んでおります。",
+      "tokens": [
+        { "text": "スケジュールは" },
+        { "text": "予定通り", "kana": "よていどおり" },
+        { "text": "進んで", "kana": "すすんで" },
+        { "text": "おります。" }
+      ],
+      "kana": "すけじゅーるはよていどおりすすんでおります",
+      "chinese": "进度按计划推进中。",
+      "category": "progress",
+      "register": "敬語",
+      "difficulty": 2,
+      "frequencyRank": 43,
+      "chunkPattern": "~は予定通り進んでおります",
+      "tags": ["report", "on-track", "positive"]
+    },
+    {
+      "externalId": "s005",
+      "japanese": "想定外の事象が発生しました。",
+      "tokens": [
+        { "text": "想定外", "kana": "そうていがい" },
+        { "text": "の" },
+        { "text": "事象", "kana": "じしょう" },
+        { "text": "が" },
+        { "text": "発生", "kana": "はっせい" },
+        { "text": "しました。" }
+      ],
+      "kana": "そうていがいのじしょうがはっせいしました",
+      "chinese": "出现了预料之外的状况。",
+      "category": "rescue",
+      "register": "丁寧",
+      "difficulty": 3,
+      "frequencyRank": 67,
+      "chunkPattern": "想定外の~が発生しました",
+      "tags": ["report", "issue", "risk"]
+    },
+    {
+      "externalId": "s006",
+      "japanese": "詳細は別途共有いたします。",
+      "tokens": [
+        { "text": "詳細", "kana": "しょうさい" },
+        { "text": "は" },
+        { "text": "別途", "kana": "べっと" },
+        { "text": "共有", "kana": "きょうゆう" },
+        { "text": "いたします。" }
+      ],
+      "kana": "しょうさいはべっときょうゆういたします",
+      "chinese": "详细情况另行同步。",
+      "category": "progress",
+      "register": "敬語",
+      "difficulty": 2,
+      "frequencyRank": 38,
+      "chunkPattern": "~は別途~いたします",
+      "tags": ["report", "defer", "detail"]
+    },
+    {
+      "externalId": "s007",
+      "japanese": "引き続き状況を注視いたします。",
+      "tokens": [
+        { "text": "引き続き", "kana": "ひきつづき" },
+        { "text": "状況", "kana": "じょうきょう" },
+        { "text": "を" },
+        { "text": "注視", "kana": "ちゅうし" },
+        { "text": "いたします。" }
+      ],
+      "kana": "ひきつづきじょうきょうをちゅうしいたします",
+      "chinese": "将持续关注状况。",
+      "category": "progress",
+      "register": "敬語",
+      "difficulty": 3,
+      "frequencyRank": 72,
+      "chunkPattern": "引き続き~を~いたします",
+      "tags": ["report", "ongoing", "monitor"]
+    },
+    {
+      "externalId": "s008",
+      "japanese": "担当を切り分けたいと考えております。",
+      "tokens": [
+        { "text": "担当", "kana": "たんとう" },
+        { "text": "を" },
+        { "text": "切り分けたい", "kana": "きりわけたい" },
+        { "text": "と" },
+        { "text": "考えて", "kana": "かんがえて" },
+        { "text": "おります。" }
+      ],
+      "kana": "たんとうをきりわけたいとかんがえております",
+      "chinese": "考虑将职责拆分一下。",
+      "category": "progress",
+      "register": "敬語",
+      "difficulty": 3,
+      "frequencyRank": 95,
+      "chunkPattern": "~を~たいと考えております",
+      "tags": ["report", "proposal", "ownership"]
+    },
+    {
+      "externalId": "s009",
+      "japanese": "影響範囲を確認いたしました。",
+      "tokens": [
+        { "text": "影響範囲", "kana": "えいきょうはんい" },
+        { "text": "を" },
+        { "text": "確認", "kana": "かくにん" },
+        { "text": "いたしました。" }
+      ],
+      "kana": "えいきょうはんいをかくにんいたしました",
+      "chinese": "影响范围已经确认。",
+      "category": "progress",
+      "register": "敬語",
+      "difficulty": 3,
+      "frequencyRank": 61,
+      "chunkPattern": "~を確認いたしました",
+      "tags": ["report", "impact", "scope"]
+    },
+    {
+      "externalId": "s010",
+      "japanese": "今後の対応方針として、再発防止策を整理しております。",
+      "tokens": [
+        { "text": "今後", "kana": "こんご" },
+        { "text": "の" },
+        { "text": "対応方針", "kana": "たいおうほうしん" },
+        { "text": "として、" },
+        { "text": "再発防止策", "kana": "さいはつぼうしさく" },
+        { "text": "を" },
+        { "text": "整理", "kana": "せいり" },
+        { "text": "しております。" }
+      ],
+      "kana": "こんごのたいおうほうしんとしてさいはつぼうしさくをせいりしております",
+      "chinese": "作为今后的应对方针,正在整理再发防止措施。",
+      "category": "progress",
+      "register": "敬語",
+      "difficulty": 4,
+      "frequencyRank": 108,
+      "chunkPattern": "今後の対応方針として、~を~しております",
+      "tags": ["report", "forward-plan", "recovery"]
+    },
+    {
+      "externalId": "s011",
+      "japanese": "ご指示のほど、よろしくお願いいたします。",
+      "tokens": [
+        { "text": "ご" },
+        { "text": "指示", "kana": "しじ" },
+        { "text": "のほど、よろしくお" },
+        { "text": "願い", "kana": "ねがい" },
+        { "text": "いたします。" }
+      ],
+      "kana": "ごしじのほどよろしくおねがいいたします",
+      "chinese": "请您指示,拜托了。",
+      "category": "request",
+      "register": "敬語",
+      "difficulty": 3,
+      "frequencyRank": 49,
+      "chunkPattern": "ご~のほど、よろしくお願いいたします",
+      "tags": ["report", "close", "ask-direction"]
+    }
+  ],
+  "dialogues": [
+    {
+      "externalId": "d001",
+      "title": "週次1on1での状況共有",
+      "scenario": "1on1",
+      "description": "上司との週次1on1で、進捗・課題・今後の方針を簡潔に共有し、判断を仰ぐ短い対話。",
+      "difficulty": 3,
+      "register": "敬語",
+      "tags": ["1on1", "report", "ask-direction"],
+      "turns": [
+        {
+          "speaker": "上司",
+          "japanese": "進捗いかがですか。",
+          "tokens": [
+            { "text": "進捗", "kana": "しんちょく" },
+            { "text": "いかがですか。" }
+          ],
+          "kana": "しんちょくいかがですか",
+          "chinese": "进度怎么样？"
+        },
+        {
+          "speaker": "田中",
+          "japanese": "スケジュールは予定通り進んでおります。一部、想定外の事象が発生しましたが、影響範囲は確認済みです。",
+          "tokens": [
+            { "text": "スケジュールは" },
+            { "text": "予定通り", "kana": "よていどおり" },
+            { "text": "進んで", "kana": "すすんで" },
+            { "text": "おります。" },
+            { "text": "一部", "kana": "いちぶ" },
+            { "text": "、" },
+            { "text": "想定外", "kana": "そうていがい" },
+            { "text": "の" },
+            { "text": "事象", "kana": "じしょう" },
+            { "text": "が" },
+            { "text": "発生", "kana": "はっせい" },
+            { "text": "しましたが、" },
+            { "text": "影響範囲", "kana": "えいきょうはんい" },
+            { "text": "は" },
+            { "text": "確認済み", "kana": "かくにんずみ" },
+            { "text": "です。" }
+          ],
+          "kana": "すけじゅーるはよていどおりすすんでおりますいちぶそうていがいのじしょうがはっせいしましたがえいきょうはんいはかくにんずみです",
+          "chinese": "进度按计划推进。中间出现了一些预料外的状况,但影响范围已经确认。"
+        },
+        {
+          "speaker": "上司",
+          "japanese": "対応方針は？",
+          "tokens": [
+            { "text": "対応方針", "kana": "たいおうほうしん" },
+            { "text": "は？" }
+          ],
+          "kana": "たいおうほうしんは",
+          "chinese": "应对方针呢？"
+        },
+        {
+          "speaker": "田中",
+          "japanese": "再発防止策を整理しております。担当の切り分けについて、ご指示のほどよろしくお願いいたします。",
+          "tokens": [
+            { "text": "再発防止策", "kana": "さいはつぼうしさく" },
+            { "text": "を" },
+            { "text": "整理", "kana": "せいり" },
+            { "text": "しております。" },
+            { "text": "担当", "kana": "たんとう" },
+            { "text": "の" },
+            { "text": "切り分け", "kana": "きりわけ" },
+            { "text": "について、ご" },
+            { "text": "指示", "kana": "しじ" },
+            { "text": "のほどよろしくお" },
+            { "text": "願い", "kana": "ねがい" },
+            { "text": "いたします。" }
+          ],
+          "kana": "さいはつぼうしさくをせいりしておりますたんとうのきりわけについてごしじのほどよろしくおねがいいたします",
+          "chinese": "正在整理再发防止措施。关于职责拆分,请您指示。"
+        },
+        {
+          "speaker": "上司",
+          "japanese": "承知しました。詳細は別途共有してください。",
+          "tokens": [
+            { "text": "承知", "kana": "しょうち" },
+            { "text": "しました。" },
+            { "text": "詳細", "kana": "しょうさい" },
+            { "text": "は" },
+            { "text": "別途", "kana": "べっと" },
+            { "text": "共有", "kana": "きょうゆう" },
+            { "text": "してください。" }
+          ],
+          "kana": "しょうちしましたしょうさいはべっときょうゆうしてください",
+          "chinese": "明白了。详细的另行同步给我。"
+        }
+      ]
+    }
+  ],
+  "passages": [
+    {
+      "externalId": "p001",
+      "title": "週次ステータスレポート",
+      "source": "report",
+      "description": "改修プロジェクトの週次定例向けステータスレポート。完了・進行中・課題・次週の四項目構成で、報告の標準骨格を示す。",
+      "body": "■ 今週のステータスレポート\n日付:2026年5月14日\n担当:田中\n\n【完了】\n- ログイン画面リファクタが想定通り完了。テストも一通り通過。\n\n【進行中】\n- 該当の不具合については現在対応中です。原因は環境設定の不整合と判明。\n- 来週中に完了する見込みです。\n\n【課題】\n- 一部、想定外の事象が発生しました。影響範囲を確認したところ、関連3モジュールに波及。\n- 今後の対応方針として、再発防止策を整理しております。\n\n【次週】\n- 引き続き状況を注視いたします。詳細は別途共有いたします。\n- 担当を切り分けたいと考えております。ご指示のほど、よろしくお願いいたします。\n\n田中",
+      "vocabulary": [
+        { "word": "リファクタ", "meaning": "重构 (IT 语境,refactor 简称)" },
+        { "word": "不具合", "kana": "ふぐあい", "meaning": "故障, 缺陷" },
+        { "word": "環境設定", "kana": "かんきょうせってい", "meaning": "环境配置" },
+        { "word": "不整合", "kana": "ふせいごう", "meaning": "不一致, 冲突" },
+        { "word": "影響範囲", "kana": "えいきょうはんい", "meaning": "影响范围" },
+        { "word": "波及", "kana": "はきゅう", "meaning": "波及, 牵连" },
+        { "word": "再発防止", "kana": "さいはつぼうし", "meaning": "再发防止, 防止再次发生" },
+        { "word": "注視", "kana": "ちゅうし", "meaning": "密切关注" },
+        { "word": "見込み", "kana": "みこみ", "meaning": "预期, 估计" }
+      ],
+      "questions": [
+        {
+          "q": "このレポートが報告している主な内容は何ですか。",
+          "a": "改修プロジェクトの今週の状況。完了、進行中、課題、次週の予定の四項目。",
+          "type": "summary"
+        },
+        {
+          "q": "該当の不具合の原因は何だと書かれていますか。",
+          "a": "環境設定の不整合。",
+          "type": "fact"
+        },
+        {
+          "q": "想定外の事象は何モジュールに影響していますか。",
+          "a": "関連3モジュール。",
+          "type": "fact"
+        },
+        {
+          "q": "報告者は上司に何をお願いしていますか。",
+          "a": "担当の切り分けについての指示。",
+          "type": "fact"
+        }
+      ],
+      "difficulty": 3,
+      "lengthWords": 155,
+      "tags": ["report", "weekly", "internal"]
+    }
+  ]
+}

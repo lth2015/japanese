@@ -1,0 +1,396 @@
+{
+  "packVersion": 1,
+  "packId": "soft-pushback-001",
+  "title": "Soft Pushback and Priority Negotiation 001",
+  "generatedBy": "claude-opus-4-7",
+  "generatedAt": "2026-05-14",
+  "targetProfile": "Chinese native speaker, N1 reading, weak workplace Japanese. User is executive + cross-functional organizer. This pack covers softly declining requests, agreeing-then-negotiating, deferring decisions, and counter-proposing scope — patterns where direct Chinese L1 'NO' transfers badly into Japanese.",
+  "reviewStatus": "reviewed",
+  "sentences": [
+    {
+      "externalId": "s001",
+      "japanese": "正直、現状では厳しいです。",
+      "tokens": [
+        { "text": "正直", "kana": "しょうじき" },
+        { "text": "、" },
+        { "text": "現状", "kana": "げんじょう" },
+        { "text": "では" },
+        { "text": "厳しい", "kana": "きびしい" },
+        { "text": "です。" }
+      ],
+      "kana": "しょうじきげんじょうではきびしいです",
+      "chinese": "说实话,现在的情况比较吃紧。",
+      "category": "progress",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 54,
+      "chunkPattern": "正直、~では厳しいです",
+      "tags": ["pushback", "direct", "honest"]
+    },
+    {
+      "externalId": "s002",
+      "japanese": "リソースの関係で、今期は対応が難しい状況です。",
+      "tokens": [
+        { "text": "リソースの" },
+        { "text": "関係", "kana": "かんけい" },
+        { "text": "で、" },
+        { "text": "今期", "kana": "こんき" },
+        { "text": "は" },
+        { "text": "対応", "kana": "たいおう" },
+        { "text": "が" },
+        { "text": "難しい", "kana": "むずかしい" },
+        { "text": "状況", "kana": "じょうきょう" },
+        { "text": "です。" }
+      ],
+      "kana": "りそーすのかんけいでこんきはたいおうがむずかしいじょうきょうです",
+      "chinese": "由于资源情况,本季度对应比较困难。",
+      "category": "progress",
+      "register": "丁寧",
+      "difficulty": 3,
+      "frequencyRank": 68,
+      "chunkPattern": "~の関係で、~は~が難しい状況です",
+      "tags": ["pushback", "with-reason", "decline"]
+    },
+    {
+      "externalId": "s003",
+      "japanese": "おっしゃる通りですが、優先度の調整が必要かもしれません。",
+      "tokens": [
+        { "text": "おっしゃる" },
+        { "text": "通り", "kana": "とおり" },
+        { "text": "ですが、" },
+        { "text": "優先度", "kana": "ゆうせんど" },
+        { "text": "の" },
+        { "text": "調整", "kana": "ちょうせい" },
+        { "text": "が" },
+        { "text": "必要", "kana": "ひつよう" },
+        { "text": "かもしれません。" }
+      ],
+      "kana": "おっしゃるとおりですがゆうせんどのちょうせいがひつようかもしれません",
+      "chinese": "您说的没错,不过优先级可能需要调整一下。",
+      "category": "request",
+      "register": "丁寧",
+      "difficulty": 3,
+      "frequencyRank": 76,
+      "chunkPattern": "おっしゃる通りですが、~かもしれません",
+      "tags": ["pushback", "agree-but", "negotiate"]
+    },
+    {
+      "externalId": "s004",
+      "japanese": "一度持ち帰って検討させてください。",
+      "tokens": [
+        { "text": "一度", "kana": "いちど" },
+        { "text": "持ち帰って", "kana": "もちかえって" },
+        { "text": "検討", "kana": "けんとう" },
+        { "text": "させてください。" }
+      ],
+      "kana": "いちどもちかえってけんとうさせてください",
+      "chinese": "请允许我先带回去研究一下。",
+      "category": "request",
+      "register": "敬語",
+      "difficulty": 2,
+      "frequencyRank": 41,
+      "chunkPattern": "一度持ち帰って~させてください",
+      "tags": ["pushback", "defer", "buy-time"]
+    },
+    {
+      "externalId": "s005",
+      "japanese": "別のアプローチも検討できればと思います。",
+      "tokens": [
+        { "text": "別", "kana": "べつ" },
+        { "text": "のアプローチも" },
+        { "text": "検討", "kana": "けんとう" },
+        { "text": "できればと" },
+        { "text": "思います", "kana": "おもいます" },
+        { "text": "。" }
+      ],
+      "kana": "べつのあぷろーちもけんとうできればとおもいます",
+      "chinese": "希望也能讨论一下其他的做法。",
+      "category": "request",
+      "register": "丁寧",
+      "difficulty": 3,
+      "frequencyRank": 87,
+      "chunkPattern": "別の~も検討できればと思います",
+      "tags": ["pushback", "reframe", "alternative"]
+    },
+    {
+      "externalId": "s006",
+      "japanese": "他案件への影響も含めて、再度整理させてください。",
+      "tokens": [
+        { "text": "他案件", "kana": "たあんけん" },
+        { "text": "への" },
+        { "text": "影響", "kana": "えいきょう" },
+        { "text": "も" },
+        { "text": "含めて", "kana": "ふくめて" },
+        { "text": "、" },
+        { "text": "再度", "kana": "さいど" },
+        { "text": "整理", "kana": "せいり" },
+        { "text": "させてください。" }
+      ],
+      "kana": "たあんけんへのえいきょうもふくめてさいどせいりさせてください",
+      "chinese": "包含对其他项目的影响,请让我再梳理一下。",
+      "category": "request",
+      "register": "丁寧",
+      "difficulty": 3,
+      "frequencyRank": 94,
+      "chunkPattern": "~への影響も含めて、再度~させてください",
+      "tags": ["pushback", "expand-scope", "thoughtful"]
+    },
+    {
+      "externalId": "s007",
+      "japanese": "ご期待に沿えず申し訳ございませんが、今回は見送らせていただきます。",
+      "tokens": [
+        { "text": "ご" },
+        { "text": "期待", "kana": "きたい" },
+        { "text": "に" },
+        { "text": "沿えず", "kana": "そえず" },
+        { "text": "申し訳ございません", "kana": "もうしわけございません" },
+        { "text": "が、" },
+        { "text": "今回", "kana": "こんかい" },
+        { "text": "は" },
+        { "text": "見送らせて", "kana": "みおくらせて" },
+        { "text": "いただきます。" }
+      ],
+      "kana": "ごきたいにそえずもうしわけございませんがこんかいはみおくらせていただきます",
+      "chinese": "未能满足您的期待非常抱歉,这次就先不参与了。",
+      "category": "apology",
+      "register": "敬語",
+      "difficulty": 4,
+      "frequencyRank": 102,
+      "chunkPattern": "ご期待に沿えず申し訳ございませんが、~見送らせていただきます",
+      "tags": ["pushback", "formal-decline", "preserve-relation"]
+    },
+    {
+      "externalId": "s008",
+      "japanese": "私の判断では難しく、上長と相談させていただきたいです。",
+      "tokens": [
+        { "text": "私", "kana": "わたし" },
+        { "text": "の" },
+        { "text": "判断", "kana": "はんだん" },
+        { "text": "では" },
+        { "text": "難しく", "kana": "むずかしく" },
+        { "text": "、" },
+        { "text": "上長", "kana": "じょうちょう" },
+        { "text": "と" },
+        { "text": "相談", "kana": "そうだん" },
+        { "text": "させていただきたいです。" }
+      ],
+      "kana": "わたしのはんだんではむずかしくじょうちょうとそうだんさせていただきたいです",
+      "chinese": "我个人不好判断,想跟上级商量一下。",
+      "category": "request",
+      "register": "敬語",
+      "difficulty": 3,
+      "frequencyRank": 88,
+      "chunkPattern": "私の判断では難しく、~と相談させていただきたいです",
+      "tags": ["pushback", "escalate-up", "buy-time"]
+    },
+    {
+      "externalId": "s009",
+      "japanese": "スコープを絞っていただければ、対応の余地があるかもしれません。",
+      "tokens": [
+        { "text": "スコープを" },
+        { "text": "絞って", "kana": "しぼって" },
+        { "text": "いただければ、" },
+        { "text": "対応", "kana": "たいおう" },
+        { "text": "の" },
+        { "text": "余地", "kana": "よち" },
+        { "text": "があるかもしれません。" }
+      ],
+      "kana": "すこーぷをしぼっていただければたいおうのよちがあるかもしれません",
+      "chinese": "如果能把范围缩小一下,可能就有处理的余地。",
+      "category": "request",
+      "register": "丁寧",
+      "difficulty": 3,
+      "frequencyRank": 109,
+      "chunkPattern": "~を絞っていただければ、~の余地があるかもしれません",
+      "tags": ["pushback", "counter-propose", "conditional-yes"]
+    },
+    {
+      "externalId": "s010",
+      "japanese": "現時点では難しいですが、状況が変われば改めて検討させてください。",
+      "tokens": [
+        { "text": "現時点", "kana": "げんじてん" },
+        { "text": "では" },
+        { "text": "難しい", "kana": "むずかしい" },
+        { "text": "ですが、" },
+        { "text": "状況", "kana": "じょうきょう" },
+        { "text": "が" },
+        { "text": "変われば", "kana": "かわれば" },
+        { "text": "改めて", "kana": "あらためて" },
+        { "text": "検討", "kana": "けんとう" },
+        { "text": "させてください。" }
+      ],
+      "kana": "げんじてんではむずかしいですがじょうきょうがかわればあらためてけんとうさせてください",
+      "chinese": "目前比较困难,如果情况有变,请允许我们再讨论。",
+      "category": "request",
+      "register": "丁寧",
+      "difficulty": 3,
+      "frequencyRank": 81,
+      "chunkPattern": "現時点では難しいですが、~改めて検討させてください",
+      "tags": ["pushback", "preserve-relation", "soft-no"]
+    },
+    {
+      "externalId": "s011",
+      "japanese": "スケジュールについて再度すり合わせをお願いできますか。",
+      "tokens": [
+        { "text": "スケジュールについて" },
+        { "text": "再度", "kana": "さいど" },
+        { "text": "すり合わせをお" },
+        { "text": "願い", "kana": "ねがい" },
+        { "text": "できますか。" }
+      ],
+      "kana": "すけじゅーるについてさいどすりあわせをおねがいできますか",
+      "chinese": "关于日程能再对一次吗？",
+      "category": "request",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 64,
+      "chunkPattern": "~について再度すり合わせをお願いできますか",
+      "tags": ["pushback", "renegotiate", "schedule"]
+    }
+  ],
+  "dialogues": [
+    {
+      "externalId": "d001",
+      "title": "営業からの要望に対する優先度交渉",
+      "scenario": "meeting",
+      "description": "営業から強い顧客要望が上がってきた場面で、技術側がすぐに即決せず、条件付き対応の可能性を示しつつ持ち帰りで整理を約束する典型的な部門横断交渉。",
+      "difficulty": 4,
+      "register": "丁寧",
+      "tags": ["cross-functional", "pushback", "priority"],
+      "turns": [
+        {
+          "speaker": "営業",
+          "japanese": "顧客から強い要望があって、来月までにこの機能を追加できませんか。",
+          "tokens": [
+            { "text": "顧客", "kana": "こきゃく" },
+            { "text": "から" },
+            { "text": "強い", "kana": "つよい" },
+            { "text": "要望", "kana": "ようぼう" },
+            { "text": "があって、" },
+            { "text": "来月", "kana": "らいげつ" },
+            { "text": "までにこの" },
+            { "text": "機能", "kana": "きのう" },
+            { "text": "を" },
+            { "text": "追加", "kana": "ついか" },
+            { "text": "できませんか。" }
+          ],
+          "kana": "こきゃくからつよいようぼうがあってらいげつまでにこのきのうをついかできませんか",
+          "chinese": "客户那边有强烈要求,下个月之前能加这个功能吗？"
+        },
+        {
+          "speaker": "田中",
+          "japanese": "おっしゃる通り、重要なご要望と理解しております。ただ、リソースの関係で、今期は対応が難しい状況です。",
+          "tokens": [
+            { "text": "おっしゃる" },
+            { "text": "通り", "kana": "とおり" },
+            { "text": "、" },
+            { "text": "重要", "kana": "じゅうよう" },
+            { "text": "なご" },
+            { "text": "要望", "kana": "ようぼう" },
+            { "text": "と" },
+            { "text": "理解", "kana": "りかい" },
+            { "text": "しております。ただ、リソースの" },
+            { "text": "関係", "kana": "かんけい" },
+            { "text": "で、" },
+            { "text": "今期", "kana": "こんき" },
+            { "text": "は" },
+            { "text": "対応", "kana": "たいおう" },
+            { "text": "が" },
+            { "text": "難しい", "kana": "むずかしい" },
+            { "text": "状況", "kana": "じょうきょう" },
+            { "text": "です。" }
+          ],
+          "kana": "おっしゃるとおりじゅうようなごようぼうとりかいしておりますただりそーすのかんけいでこんきはたいおうがむずかしいじょうきょうです",
+          "chinese": "您说的没错,确实是重要的需求。不过资源情况,本季度对应比较困难。"
+        },
+        {
+          "speaker": "営業",
+          "japanese": "何か方法はないですか。",
+          "tokens": [
+            { "text": "何か", "kana": "なにか" },
+            { "text": "方法", "kana": "ほうほう" },
+            { "text": "はないですか。" }
+          ],
+          "kana": "なにかほうほうはないですか",
+          "chinese": "有没有什么办法呢？"
+        },
+        {
+          "speaker": "田中",
+          "japanese": "スコープを絞っていただければ、対応の余地があるかもしれません。一度持ち帰って、他案件への影響も含めて整理させてください。",
+          "tokens": [
+            { "text": "スコープを" },
+            { "text": "絞って", "kana": "しぼって" },
+            { "text": "いただければ、" },
+            { "text": "対応", "kana": "たいおう" },
+            { "text": "の" },
+            { "text": "余地", "kana": "よち" },
+            { "text": "があるかもしれません。" },
+            { "text": "一度", "kana": "いちど" },
+            { "text": "持ち帰って", "kana": "もちかえって" },
+            { "text": "、" },
+            { "text": "他案件", "kana": "たあんけん" },
+            { "text": "への" },
+            { "text": "影響", "kana": "えいきょう" },
+            { "text": "も" },
+            { "text": "含めて", "kana": "ふくめて" },
+            { "text": "整理", "kana": "せいり" },
+            { "text": "させてください。" }
+          ],
+          "kana": "すこーぷをしぼっていただければたいおうのよちがあるかもしれませんいちどもちかえってたあんけんへのえいきょうもふくめてせいりさせてください",
+          "chinese": "如果能把范围缩小一下,可能就有处理的余地。请让我先带回去,把对其他项目的影响也一并梳理一下。"
+        },
+        {
+          "speaker": "営業",
+          "japanese": "助かります。来週までにお願いします。",
+          "tokens": [
+            { "text": "助かります", "kana": "たすかります" },
+            { "text": "。" },
+            { "text": "来週", "kana": "らいしゅう" },
+            { "text": "までにお" },
+            { "text": "願い", "kana": "ねがい" },
+            { "text": "します。" }
+          ],
+          "kana": "たすかりますらいしゅうまでにおねがいします",
+          "chinese": "帮大忙了。下周之前麻烦你了。"
+        }
+      ]
+    }
+  ],
+  "passages": [
+    {
+      "externalId": "p001",
+      "title": "Slack DM での丁寧なお断り + 別解提示",
+      "source": "slack",
+      "description": "依頼に対して即断せず、率直に厳しさを伝えつつ、条件付き対応の余地と再検討の時間を要求する Slack DM のテンプレ。pushback を文章化するときの骨格。",
+      "body": "お疲れ様です、田中です。\n\n先ほどの要望の件、確認しました。\n率直に申し上げますと、リソースの関係で今期内の対応は厳しい状況です。\n\nただ、スコープを絞っていただければ部分対応の余地はあると考えています。\n一度持ち帰って、他案件への影響も含めて整理いたしますので、来週までに別途共有させてください。\n\n何卒よろしくお願いいたします。",
+      "vocabulary": [
+        { "word": "率直", "kana": "そっちょく", "meaning": "坦率, 直率" },
+        { "word": "申し上げる", "kana": "もうしあげる", "meaning": "讲(谦让语)" },
+        { "word": "スコープ", "meaning": "范围, scope (loan word)" },
+        { "word": "余地", "kana": "よち", "meaning": "余地, 空间" },
+        { "word": "持ち帰る", "kana": "もちかえる", "meaning": "带回(去研究/讨论)" },
+        { "word": "別途", "kana": "べっと", "meaning": "另行" }
+      ],
+      "questions": [
+        {
+          "q": "このメッセージの主な目的は何ですか。",
+          "a": "今期内の対応は厳しいと丁寧に伝えつつ、条件付き(スコープを絞ること)で部分対応の余地があることを示し、再検討の時間を求めること。",
+          "type": "summary"
+        },
+        {
+          "q": "部分対応が可能になる条件として何が挙げられていますか。",
+          "a": "スコープを絞っていただくこと。",
+          "type": "fact"
+        },
+        {
+          "q": "送信者はいつまでに整理結果を共有すると言っていますか。",
+          "a": "来週まで。",
+          "type": "fact"
+        }
+      ],
+      "difficulty": 3,
+      "lengthWords": 95,
+      "tags": ["pushback", "slack", "written-template"]
+    }
+  ]
+}

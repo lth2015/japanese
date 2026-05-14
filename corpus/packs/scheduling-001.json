@@ -1,0 +1,331 @@
+{
+  "packVersion": 1,
+  "packId": "scheduling-001",
+  "title": "Scheduling and Meeting Coordination 001",
+  "generatedBy": "claude-opus-4-7",
+  "generatedAt": "2026-05-14",
+  "targetProfile": "Chinese native speaker, N1 reading, weak workplace Japanese — meeting scheduling chunks: asking for time, sending options, availability reply, rescheduling, tentative holds, calendar invites. Daily high-frequency for organizer/executive role.",
+  "reviewStatus": "reviewed",
+  "sentences": [
+    {
+      "externalId": "s001",
+      "japanese": "来週、お打ち合わせのお時間をいただけますか。",
+      "tokens": [
+        { "text": "来週", "kana": "らいしゅう" },
+        { "text": "、お" },
+        { "text": "打ち合わせ", "kana": "うちあわせ" },
+        { "text": "のお" },
+        { "text": "時間", "kana": "じかん" },
+        { "text": "をいただけますか。" }
+      ],
+      "kana": "らいしゅうおうちあわせのおじかんをいただけますか",
+      "chinese": "下周能给我一段开会的时间吗？",
+      "category": "request",
+      "register": "敬語",
+      "difficulty": 2,
+      "frequencyRank": 37,
+      "chunkPattern": "~、お打ち合わせのお時間をいただけますか",
+      "tags": ["scheduling", "ask-time", "initial"]
+    },
+    {
+      "externalId": "s002",
+      "japanese": "候補日を3つほどお送りします。",
+      "tokens": [
+        { "text": "候補日", "kana": "こうほび" },
+        { "text": "を3つほどお" },
+        { "text": "送り", "kana": "おくり" },
+        { "text": "します。" }
+      ],
+      "kana": "こうほびをみっつほどおおくりします",
+      "chinese": "我发三个候选日期给您。",
+      "category": "progress",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 58,
+      "chunkPattern": "候補日を~ほどお送りします",
+      "tags": ["scheduling", "options", "offer"]
+    },
+    {
+      "externalId": "s003",
+      "japanese": "30分ほどお時間いただければと思います。",
+      "tokens": [
+        { "text": "30" },
+        { "text": "分", "kana": "ふん" },
+        { "text": "ほどお" },
+        { "text": "時間", "kana": "じかん" },
+        { "text": "いただければと" },
+        { "text": "思います", "kana": "おもいます" },
+        { "text": "。" }
+      ],
+      "kana": "さんじゅっぷんほどおじかんいただければとおもいます",
+      "chinese": "希望能占用您 30 分钟左右。",
+      "category": "request",
+      "register": "丁寧",
+      "difficulty": 3,
+      "frequencyRank": 49,
+      "chunkPattern": "~分ほどお時間いただければと思います",
+      "tags": ["scheduling", "duration", "soft-request"]
+    },
+    {
+      "externalId": "s004",
+      "japanese": "木曜の14時から16時の間でしたら空いております。",
+      "tokens": [
+        { "text": "木曜", "kana": "もくよう" },
+        { "text": "の14" },
+        { "text": "時", "kana": "じ" },
+        { "text": "から16" },
+        { "text": "時", "kana": "じ" },
+        { "text": "の" },
+        { "text": "間", "kana": "あいだ" },
+        { "text": "でしたら" },
+        { "text": "空いて", "kana": "あいて" },
+        { "text": "おります。" }
+      ],
+      "kana": "もくようのじゅうよじからじゅうろくじのあいだでしたらあいております",
+      "chinese": "周四 14 点到 16 点之间我有空。",
+      "category": "progress",
+      "register": "敬語",
+      "difficulty": 3,
+      "frequencyRank": 72,
+      "chunkPattern": "~の~時から~時の間でしたら空いております",
+      "tags": ["scheduling", "availability", "reply"]
+    },
+    {
+      "externalId": "s005",
+      "japanese": "ご都合のよろしい時間帯はございますか。",
+      "tokens": [
+        { "text": "ご" },
+        { "text": "都合", "kana": "つごう" },
+        { "text": "のよろしい" },
+        { "text": "時間帯", "kana": "じかんたい" },
+        { "text": "はございますか。" }
+      ],
+      "kana": "ごつごうのよろしいじかんたいはございますか",
+      "chinese": "您方便的时间段是？",
+      "category": "request",
+      "register": "敬語",
+      "difficulty": 3,
+      "frequencyRank": 44,
+      "chunkPattern": "ご都合のよろしい~はございますか",
+      "tags": ["scheduling", "ask-availability", "polite"]
+    },
+    {
+      "externalId": "s006",
+      "japanese": "別件と重なってしまいまして、リスケをお願いできますか。",
+      "tokens": [
+        { "text": "別件", "kana": "べっけん" },
+        { "text": "と" },
+        { "text": "重なって", "kana": "かさなって" },
+        { "text": "しまいまして、リスケをお" },
+        { "text": "願い", "kana": "ねがい" },
+        { "text": "できますか。" }
+      ],
+      "kana": "べっけんとかさなってしまいましてりすけをおねがいできますか",
+      "chinese": "和别的事情冲了,能改个时间吗？",
+      "category": "apology",
+      "register": "丁寧",
+      "difficulty": 3,
+      "frequencyRank": 81,
+      "chunkPattern": "別件と重なってしまいまして、~",
+      "tags": ["scheduling", "reschedule", "apology"]
+    },
+    {
+      "externalId": "s007",
+      "japanese": "直前で恐縮ですが、開始時間を変更させていただけますでしょうか。",
+      "tokens": [
+        { "text": "直前", "kana": "ちょくぜん" },
+        { "text": "で" },
+        { "text": "恐縮", "kana": "きょうしゅく" },
+        { "text": "ですが、" },
+        { "text": "開始時間", "kana": "かいしじかん" },
+        { "text": "を" },
+        { "text": "変更", "kana": "へんこう" },
+        { "text": "させていただけますでしょうか。" }
+      ],
+      "kana": "ちょくぜんできょうしゅくですがかいしじかんをへんこうさせていただけますでしょうか",
+      "chinese": "临时不好意思,能调整一下开始时间吗？",
+      "category": "apology",
+      "register": "敬語",
+      "difficulty": 4,
+      "frequencyRank": 96,
+      "chunkPattern": "直前で恐縮ですが、~させていただけますでしょうか",
+      "tags": ["scheduling", "last-minute", "change"]
+    },
+    {
+      "externalId": "s008",
+      "japanese": "会議室は別途確保いたします。",
+      "tokens": [
+        { "text": "会議室", "kana": "かいぎしつ" },
+        { "text": "は" },
+        { "text": "別途", "kana": "べっと" },
+        { "text": "確保", "kana": "かくほ" },
+        { "text": "いたします。" }
+      ],
+      "kana": "かいぎしつはべっとかくほいたします",
+      "chinese": "会议室我另行预约。",
+      "category": "progress",
+      "register": "敬語",
+      "difficulty": 2,
+      "frequencyRank": 67,
+      "chunkPattern": "~は別途~いたします",
+      "tags": ["scheduling", "venue", "owner"]
+    },
+    {
+      "externalId": "s009",
+      "japanese": "オンラインで参加させていただいてもよろしいでしょうか。",
+      "tokens": [
+        { "text": "オンラインで" },
+        { "text": "参加", "kana": "さんか" },
+        { "text": "させていただいてもよろしいでしょうか。" }
+      ],
+      "kana": "おんらいんでさんかさせていただいてもよろしいでしょうか",
+      "chinese": "我能在线参加吗？",
+      "category": "request",
+      "register": "敬語",
+      "difficulty": 3,
+      "frequencyRank": 55,
+      "chunkPattern": "~で参加させていただいてもよろしいでしょうか",
+      "tags": ["scheduling", "online", "ask-mode"]
+    },
+    {
+      "externalId": "s010",
+      "japanese": "一旦、仮で押さえさせていただきます。",
+      "tokens": [
+        { "text": "一旦", "kana": "いったん" },
+        { "text": "、" },
+        { "text": "仮", "kana": "かり" },
+        { "text": "で" },
+        { "text": "押さえ", "kana": "おさえ" },
+        { "text": "させていただきます。" }
+      ],
+      "kana": "いったんかりでおさえさせていただきます",
+      "chinese": "先暂时占着这个时间。",
+      "category": "progress",
+      "register": "敬語",
+      "difficulty": 3,
+      "frequencyRank": 89,
+      "chunkPattern": "一旦、仮で~させていただきます",
+      "tags": ["scheduling", "tentative", "hold"]
+    },
+    {
+      "externalId": "s011",
+      "japanese": "カレンダーに招待をお送りしました。",
+      "tokens": [
+        { "text": "カレンダーに" },
+        { "text": "招待", "kana": "しょうたい" },
+        { "text": "をお" },
+        { "text": "送り", "kana": "おくり" },
+        { "text": "しました。" }
+      ],
+      "kana": "かれんだーにしょうたいをおおくりしました",
+      "chinese": "已经发了日历邀请。",
+      "category": "progress",
+      "register": "敬語",
+      "difficulty": 2,
+      "frequencyRank": 31,
+      "chunkPattern": "カレンダーに招待をお送りしました",
+      "tags": ["scheduling", "calendar", "invite-sent"]
+    }
+  ],
+  "dialogues": [
+    {
+      "externalId": "d001",
+      "title": "打合せの候補日調整",
+      "scenario": "slack",
+      "description": "30分の打合せをセットするための Slack スレッド。候補日提示 → 相手都合 → 確定 → 招待送付までの一連の流れ。",
+      "difficulty": 3,
+      "register": "丁寧",
+      "tags": ["scheduling", "slack", "team-internal"],
+      "turns": [
+        {
+          "speaker": "A",
+          "japanese": "来週、30分ほどお打ち合わせのお時間をいただけますか。候補日を3つほどお送りします。",
+          "tokens": [
+            { "text": "来週", "kana": "らいしゅう" },
+            { "text": "、30" },
+            { "text": "分", "kana": "ふん" },
+            { "text": "ほどお" },
+            { "text": "打ち合わせ", "kana": "うちあわせ" },
+            { "text": "のお" },
+            { "text": "時間", "kana": "じかん" },
+            { "text": "をいただけますか。" },
+            { "text": "候補日", "kana": "こうほび" },
+            { "text": "を3つほどお" },
+            { "text": "送り", "kana": "おくり" },
+            { "text": "します。" }
+          ],
+          "kana": "らいしゅうさんじゅっぷんほどおうちあわせのおじかんをいただけますかこうほびをみっつほどおおくりします",
+          "chinese": "下周想占您 30 分钟开会,可以吗？我发三个候选日期给您。"
+        },
+        {
+          "speaker": "B",
+          "japanese": "内容によりますが、火曜の午後か木曜の午前ならいけそうです。",
+          "tokens": [
+            { "text": "内容", "kana": "ないよう" },
+            { "text": "によりますが、" },
+            { "text": "火曜", "kana": "かよう" },
+            { "text": "の" },
+            { "text": "午後", "kana": "ごご" },
+            { "text": "か" },
+            { "text": "木曜", "kana": "もくよう" },
+            { "text": "の" },
+            { "text": "午前", "kana": "ごぜん" },
+            { "text": "ならいけそうです。" }
+          ],
+          "kana": "ないようによりますがかようのごごかもくようのごぜんならいけそうです",
+          "chinese": "看具体内容,周二下午或周四上午都行。"
+        },
+        {
+          "speaker": "A",
+          "japanese": "では、木曜の10時からでお願いできますか。会議室は別途確保いたします。",
+          "tokens": [
+            { "text": "では、" },
+            { "text": "木曜", "kana": "もくよう" },
+            { "text": "の10" },
+            { "text": "時", "kana": "じ" },
+            { "text": "からでお" },
+            { "text": "願い", "kana": "ねがい" },
+            { "text": "できますか。" },
+            { "text": "会議室", "kana": "かいぎしつ" },
+            { "text": "は" },
+            { "text": "別途", "kana": "べっと" },
+            { "text": "確保", "kana": "かくほ" },
+            { "text": "いたします。" }
+          ],
+          "kana": "ではもくようのじゅうじからでおねがいできますかかいぎしつはべっとかくほいたします",
+          "chinese": "那定周四 10 点开始可以吗？会议室我另行预约。"
+        },
+        {
+          "speaker": "B",
+          "japanese": "承知しました。カレンダーに招待お願いします。",
+          "tokens": [
+            { "text": "承知", "kana": "しょうち" },
+            { "text": "しました。カレンダーに" },
+            { "text": "招待", "kana": "しょうたい" },
+            { "text": "お" },
+            { "text": "願い", "kana": "ねがい" },
+            { "text": "します。" }
+          ],
+          "kana": "しょうちしましたかれんだーにしょうたいおねがいします",
+          "chinese": "明白了。日历邀请麻烦你了。"
+        },
+        {
+          "speaker": "A",
+          "japanese": "カレンダーに招待をお送りしました。よろしくお願いします。",
+          "tokens": [
+            { "text": "カレンダーに" },
+            { "text": "招待", "kana": "しょうたい" },
+            { "text": "をお" },
+            { "text": "送り", "kana": "おくり" },
+            { "text": "しました。よろしくお" },
+            { "text": "願い", "kana": "ねがい" },
+            { "text": "します。" }
+          ],
+          "kana": "かれんだーにしょうたいをおおくりしましたよろしくおねがいします",
+          "chinese": "已经发了日历邀请。麻烦您了。"
+        }
+      ]
+    }
+  ],
+  "passages": []
+}

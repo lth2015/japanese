@@ -1,0 +1,386 @@
+{
+  "packVersion": 1,
+  "packId": "incident-comm-001",
+  "title": "Incident Communication 001",
+  "generatedBy": "claude-opus-4-7",
+  "generatedAt": "2026-05-14",
+  "targetProfile": "Chinese native speaker, N1 reading, weak workplace Japanese. User is SRE expert + tech decision maker + executive. This pack targets incident communication: alert acknowledgment, war-room direction (down), executive escalation (up), recovery announcement, postmortem commitment.",
+  "reviewStatus": "reviewed",
+  "sentences": [
+    {
+      "externalId": "s001",
+      "japanese": "本番でアラートが発火しました。",
+      "tokens": [
+        { "text": "本番", "kana": "ほんばん" },
+        { "text": "でアラートが" },
+        { "text": "発火", "kana": "はっか" },
+        { "text": "しました。" }
+      ],
+      "kana": "ほんばんであらーとがはっかしました",
+      "chinese": "生产环境告警触发了。",
+      "category": "rescue",
+      "register": "丁寧",
+      "difficulty": 3,
+      "frequencyRank": 76,
+      "chunkPattern": "本番で~が発火しました",
+      "tags": ["incident", "detection", "alert"]
+    },
+    {
+      "externalId": "s002",
+      "japanese": "決済サービスで異常を検知しました。",
+      "tokens": [
+        { "text": "決済", "kana": "けっさい" },
+        { "text": "サービスで" },
+        { "text": "異常", "kana": "いじょう" },
+        { "text": "を" },
+        { "text": "検知", "kana": "けんち" },
+        { "text": "しました。" }
+      ],
+      "kana": "けっさいさーびすでいじょうをけんちしました",
+      "chinese": "在支付服务上检测到异常。",
+      "category": "rescue",
+      "register": "丁寧",
+      "difficulty": 3,
+      "frequencyRank": 81,
+      "chunkPattern": "~で異常を検知しました",
+      "tags": ["incident", "detection", "formal"]
+    },
+    {
+      "externalId": "s003",
+      "japanese": "影響範囲を切り分け中です。",
+      "tokens": [
+        { "text": "影響範囲", "kana": "えいきょうはんい" },
+        { "text": "を" },
+        { "text": "切り分け中", "kana": "きりわけちゅう" },
+        { "text": "です。" }
+      ],
+      "kana": "えいきょうはんいをきりわけちゅうです",
+      "chinese": "正在划定影响范围。",
+      "category": "progress",
+      "register": "丁寧",
+      "difficulty": 3,
+      "frequencyRank": 68,
+      "chunkPattern": "~を切り分け中です",
+      "tags": ["incident", "triage", "scope"]
+    },
+    {
+      "externalId": "s004",
+      "japanese": "暫定対応を優先しましょう。",
+      "tokens": [
+        { "text": "暫定対応", "kana": "ざんていたいおう" },
+        { "text": "を" },
+        { "text": "優先", "kana": "ゆうせん" },
+        { "text": "しましょう。" }
+      ],
+      "kana": "ざんていたいおうをゆうせんしましょう",
+      "chinese": "我们先优先做临时应对吧。",
+      "category": "progress",
+      "register": "丁寧",
+      "difficulty": 3,
+      "frequencyRank": 73,
+      "chunkPattern": "~を優先しましょう",
+      "tags": ["incident", "war-room", "down"]
+    },
+    {
+      "externalId": "s005",
+      "japanese": "障害対応チャンネルに集約しましょう。",
+      "tokens": [
+        { "text": "障害対応", "kana": "しょうがいたいおう" },
+        { "text": "チャンネルに" },
+        { "text": "集約", "kana": "しゅうやく" },
+        { "text": "しましょう。" }
+      ],
+      "kana": "しょうがいたいおうちゃんねるにしゅうやくしましょう",
+      "chinese": "信息汇总到故障对应频道上吧。",
+      "category": "progress",
+      "register": "丁寧",
+      "difficulty": 3,
+      "frequencyRank": 88,
+      "chunkPattern": "~チャンネルに集約しましょう",
+      "tags": ["incident", "war-room", "process"]
+    },
+    {
+      "externalId": "s006",
+      "japanese": "一次切り分けの結果、外部APIのレート制限が原因と見られます。",
+      "tokens": [
+        { "text": "一次", "kana": "いちじ" },
+        { "text": "切り分け", "kana": "きりわけ" },
+        { "text": "の" },
+        { "text": "結果", "kana": "けっか" },
+        { "text": "、" },
+        { "text": "外部", "kana": "がいぶ" },
+        { "text": "APIのレート" },
+        { "text": "制限", "kana": "せいげん" },
+        { "text": "が" },
+        { "text": "原因", "kana": "げんいん" },
+        { "text": "と" },
+        { "text": "見られます", "kana": "みられます" },
+        { "text": "。" }
+      ],
+      "kana": "いちじきりわけのけっかがいぶえーぴーあいのれーとせいげんがげんいんとみられます",
+      "chinese": "初步分析的结果,看起来原因是外部 API 的速率限制。",
+      "category": "progress",
+      "register": "丁寧",
+      "difficulty": 4,
+      "frequencyRank": 98,
+      "chunkPattern": "一次切り分けの結果、~が原因と見られます",
+      "tags": ["incident", "diagnosis", "hypothesis"]
+    },
+    {
+      "externalId": "s007",
+      "japanese": "影響度は中程度です。",
+      "tokens": [
+        { "text": "影響度", "kana": "えいきょうど" },
+        { "text": "は" },
+        { "text": "中程度", "kana": "ちゅうていど" },
+        { "text": "です。" }
+      ],
+      "kana": "えいきょうどはちゅうていどです",
+      "chinese": "影响程度为中等。",
+      "category": "progress",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 62,
+      "chunkPattern": "影響度は~です",
+      "tags": ["incident", "severity", "assessment"]
+    },
+    {
+      "externalId": "s008",
+      "japanese": "暫定復旧の見込みは16時頃です。",
+      "tokens": [
+        { "text": "暫定復旧", "kana": "ざんていふっきゅう" },
+        { "text": "の" },
+        { "text": "見込み", "kana": "みこみ" },
+        { "text": "は16" },
+        { "text": "時", "kana": "じ" },
+        { "text": "頃", "kana": "ごろ" },
+        { "text": "です。" }
+      ],
+      "kana": "ざんていふっきゅうのみこみはじゅうろくじごろです",
+      "chinese": "临时恢复预计在 16 点左右。",
+      "category": "progress",
+      "register": "丁寧",
+      "difficulty": 3,
+      "frequencyRank": 85,
+      "chunkPattern": "暫定復旧の見込みは~頃です",
+      "tags": ["incident", "eta", "recovery"]
+    },
+    {
+      "externalId": "s009",
+      "japanese": "全面復旧いたしました。",
+      "tokens": [
+        { "text": "全面", "kana": "ぜんめん" },
+        { "text": "復旧", "kana": "ふっきゅう" },
+        { "text": "いたしました。" }
+      ],
+      "kana": "ぜんめんふっきゅういたしました",
+      "chinese": "已经全面恢复。",
+      "category": "progress",
+      "register": "敬語",
+      "difficulty": 2,
+      "frequencyRank": 70,
+      "chunkPattern": "全面~いたしました",
+      "tags": ["incident", "recovery", "announce"]
+    },
+    {
+      "externalId": "s010",
+      "japanese": "恒久対応については別途整理いたします。",
+      "tokens": [
+        { "text": "恒久対応", "kana": "こうきゅうたいおう" },
+        { "text": "については" },
+        { "text": "別途", "kana": "べっと" },
+        { "text": "整理", "kana": "せいり" },
+        { "text": "いたします。" }
+      ],
+      "kana": "こうきゅうたいおうについてはべっとせいりいたします",
+      "chinese": "永久对策另行整理。",
+      "category": "progress",
+      "register": "敬語",
+      "difficulty": 3,
+      "frequencyRank": 92,
+      "chunkPattern": "~については別途整理いたします",
+      "tags": ["incident", "post", "permanent-fix"]
+    },
+    {
+      "externalId": "s011",
+      "japanese": "ポストモーテムは今週中に共有いたします。",
+      "tokens": [
+        { "text": "ポストモーテムは" },
+        { "text": "今週中", "kana": "こんしゅうちゅう" },
+        { "text": "に" },
+        { "text": "共有", "kana": "きょうゆう" },
+        { "text": "いたします。" }
+      ],
+      "kana": "ぽすともーてむはこんしゅうちゅうにきょうゆういたします",
+      "chinese": "Postmortem 本周内同步。",
+      "category": "progress",
+      "register": "敬語",
+      "difficulty": 3,
+      "frequencyRank": 105,
+      "chunkPattern": "ポストモーテムは~に共有いたします",
+      "tags": ["incident", "post", "postmortem"]
+    }
+  ],
+  "dialogues": [
+    {
+      "externalId": "d001",
+      "title": "障害発生時のエスカレーション",
+      "scenario": "slack",
+      "description": "本番障害発生時、SRE が上司(経営層)にエスカレーションする初動DM。事象 → 影響度 → 原因見立て → 復旧見込み → 続報の約束、という標準フロー。",
+      "difficulty": 4,
+      "register": "敬語",
+      "tags": ["incident", "escalation", "exec-facing"],
+      "turns": [
+        {
+          "speaker": "SRE",
+          "japanese": "障害発生のご報告です。15時20分より、決済サービスに一部影響が出ています。",
+          "tokens": [
+            { "text": "障害発生", "kana": "しょうがいはっせい" },
+            { "text": "のご" },
+            { "text": "報告", "kana": "ほうこく" },
+            { "text": "です。" },
+            { "text": "15" },
+            { "text": "時", "kana": "じ" },
+            { "text": "20" },
+            { "text": "分", "kana": "ふん" },
+            { "text": "より、" },
+            { "text": "決済", "kana": "けっさい" },
+            { "text": "サービスに" },
+            { "text": "一部", "kana": "いちぶ" },
+            { "text": "影響", "kana": "えいきょう" },
+            { "text": "が" },
+            { "text": "出て", "kana": "でて" },
+            { "text": "います。" }
+          ],
+          "kana": "しょうがいはっせいのごほうこくですじゅうごじにじゅっぷんよりけっさいさーびすにいちぶえいきょうがでています",
+          "chinese": "事故初步报告:15:20 起,支付服务出现部分影响。"
+        },
+        {
+          "speaker": "上司",
+          "japanese": "状況は？",
+          "tokens": [
+            { "text": "状況", "kana": "じょうきょう" },
+            { "text": "は？" }
+          ],
+          "kana": "じょうきょうは",
+          "chinese": "情况怎么样？"
+        },
+        {
+          "speaker": "SRE",
+          "japanese": "影響度は中程度、現在は決済の約30%が失敗している状況です。原因は外部APIのレート制限と見られます。暫定対応に着手しました。",
+          "tokens": [
+            { "text": "影響度", "kana": "えいきょうど" },
+            { "text": "は" },
+            { "text": "中程度", "kana": "ちゅうていど" },
+            { "text": "、" },
+            { "text": "現在", "kana": "げんざい" },
+            { "text": "は" },
+            { "text": "決済", "kana": "けっさい" },
+            { "text": "の" },
+            { "text": "約", "kana": "やく" },
+            { "text": "30%が" },
+            { "text": "失敗", "kana": "しっぱい" },
+            { "text": "している" },
+            { "text": "状況", "kana": "じょうきょう" },
+            { "text": "です。" },
+            { "text": "原因", "kana": "げんいん" },
+            { "text": "は" },
+            { "text": "外部", "kana": "がいぶ" },
+            { "text": "APIのレート" },
+            { "text": "制限", "kana": "せいげん" },
+            { "text": "と" },
+            { "text": "見られます", "kana": "みられます" },
+            { "text": "。" },
+            { "text": "暫定対応", "kana": "ざんていたいおう" },
+            { "text": "に" },
+            { "text": "着手", "kana": "ちゃくしゅ" },
+            { "text": "しました。" }
+          ],
+          "kana": "えいきょうどはちゅうていどげんざいはけっさいのやくさんじゅっぱーせんとがしっぱいしているじょうきょうですげんいんはがいぶえーぴーあいのれーとせいげんとみられますざんていたいおうにちゃくしゅしました",
+          "chinese": "影响程度中等,目前约 30% 的支付失败。原因看起来是外部 API 的速率限制。已经开始临时应对。"
+        },
+        {
+          "speaker": "上司",
+          "japanese": "復旧見込みは。",
+          "tokens": [
+            { "text": "復旧見込み", "kana": "ふっきゅうみこみ" },
+            { "text": "は。" }
+          ],
+          "kana": "ふっきゅうみこみは",
+          "chinese": "恢复预期呢？"
+        },
+        {
+          "speaker": "SRE",
+          "japanese": "暫定復旧は16時頃の見込みです。恒久対応とポストモーテムは別途整理いたします。続報します。",
+          "tokens": [
+            { "text": "暫定復旧", "kana": "ざんていふっきゅう" },
+            { "text": "は16" },
+            { "text": "時", "kana": "じ" },
+            { "text": "頃", "kana": "ごろ" },
+            { "text": "の" },
+            { "text": "見込み", "kana": "みこみ" },
+            { "text": "です。" },
+            { "text": "恒久対応", "kana": "こうきゅうたいおう" },
+            { "text": "とポストモーテムは" },
+            { "text": "別途", "kana": "べっと" },
+            { "text": "整理", "kana": "せいり" },
+            { "text": "いたします。" },
+            { "text": "続報", "kana": "ぞくほう" },
+            { "text": "します。" }
+          ],
+          "kana": "ざんていふっきゅうはじゅうろくじごろのみこみですこうきゅうたいおうとぽすともーてむはべっとせいりいたしますぞくほうします",
+          "chinese": "临时恢复预计 16 点左右。永久对策和 postmortem 另行整理。续报。"
+        }
+      ]
+    }
+  ],
+  "passages": [
+    {
+      "externalId": "p001",
+      "title": "インシデント初動報告 第一報",
+      "source": "slack",
+      "description": "経営層・関係部署への初動エスカレーションテンプレート。事象 → 影響 → 暫定原因 → 対応状況 → 次の更新時刻、という SRE 業界標準の第一報フォーマット。",
+      "body": "【インシデント発生:第一報】\n発生時刻:2026/05/14 15:20\n対象:決済サービス\n影響:カード決済の約30%が失敗している状況。コンビニ・銀行振込は正常稼働中。\n原因(暫定):外部決済APIのレート制限超過と見られます。詳細切り分け中。\n対応:現在、リトライ間隔の調整による暫定対応を実施中。SRE2名がwar roomに集合済。\n次の更新:16時頃に第二報を共有いたします。\n\n田中 (SRE)",
+      "vocabulary": [
+        { "word": "第一報", "kana": "だいいっぽう", "meaning": "第一报, 初动报告" },
+        { "word": "暫定", "kana": "ざんてい", "meaning": "暂定, 临时" },
+        { "word": "切り分け", "kana": "きりわけ", "meaning": "划分, 故障定位/triage" },
+        { "word": "レート制限", "kana": "れーとせいげん", "meaning": "速率限制, rate limit" },
+        { "word": "リトライ間隔", "kana": "りとらいかんかく", "meaning": "重试间隔" },
+        { "word": "稼働", "kana": "かどう", "meaning": "(系统)运作, 工作状态" },
+        { "word": "war room", "meaning": "(IT 业界标准词)集中处理事故的临时指挥所" },
+        { "word": "続報", "kana": "ぞくほう", "meaning": "续报, 后续更新" }
+      ],
+      "questions": [
+        {
+          "q": "何のサービスで障害が発生していますか。",
+          "a": "決済サービス。特にカード決済で影響が出ている。",
+          "type": "fact"
+        },
+        {
+          "q": "現在どれくらいの割合の決済が失敗していますか。",
+          "a": "約30%。",
+          "type": "fact"
+        },
+        {
+          "q": "コンビニ・銀行振込は影響を受けていますか。",
+          "a": "受けていない。正常稼働中。",
+          "type": "fact"
+        },
+        {
+          "q": "暫定原因として何が挙げられていますか。",
+          "a": "外部決済APIのレート制限超過。",
+          "type": "fact"
+        },
+        {
+          "q": "この第一報の構成を要約すると、どんな順序になっていますか。",
+          "a": "事象(発生時刻+対象+影響)→ 暫定原因 → 対応状況 → 次の更新時刻、という順序。SRE 業界標準の初動フォーマット。",
+          "type": "summary"
+        }
+      ],
+      "difficulty": 4,
+      "lengthWords": 125,
+      "tags": ["incident", "first-report", "sre-template"]
+    }
+  ]
+}

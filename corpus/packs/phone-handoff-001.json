@@ -1,0 +1,312 @@
+{
+  "packVersion": 1,
+  "packId": "phone-handoff-001",
+  "title": "Phone Handoff and Callback 001",
+  "generatedBy": "claude-opus-4-7",
+  "generatedAt": "2026-05-14",
+  "targetProfile": "Chinese native speaker, N1 reading, weak spoken workplace Japanese — phone transfer, message taking, callback protocols (the canonical 敬語 training ground)",
+  "reviewStatus": "reviewed",
+  "sentences": [
+    {
+      "externalId": "s001",
+      "japanese": "お電話ありがとうございます。営業部の田中です。",
+      "tokens": [
+        { "text": "お" },
+        { "text": "電話", "kana": "でんわ" },
+        { "text": "ありがとうございます。" },
+        { "text": "営業部", "kana": "えいぎょうぶ" },
+        { "text": "の" },
+        { "text": "田中", "kana": "たなか" },
+        { "text": "です。" }
+      ],
+      "kana": "おでんわありがとうございますえいぎょうぶのたなかです",
+      "chinese": "感谢您来电。我是营业部的田中。",
+      "category": "smalltalk",
+      "register": "敬語",
+      "difficulty": 2,
+      "frequencyRank": 36,
+      "chunkPattern": "お電話ありがとうございます。~部の~です",
+      "tags": ["phone", "open", "receive"]
+    },
+    {
+      "externalId": "s002",
+      "japanese": "お世話になっております。",
+      "tokens": [
+        { "text": "お" },
+        { "text": "世話", "kana": "せわ" },
+        { "text": "になっております。" }
+      ],
+      "kana": "おせわになっております",
+      "chinese": "承蒙关照。",
+      "category": "smalltalk",
+      "register": "敬語",
+      "difficulty": 1,
+      "frequencyRank": 18,
+      "chunkPattern": "お世話になっております",
+      "tags": ["phone", "greeting", "universal"]
+    },
+    {
+      "externalId": "s003",
+      "japanese": "鈴木様はいらっしゃいますでしょうか。",
+      "tokens": [
+        { "text": "鈴木", "kana": "すずき" },
+        { "text": "様", "kana": "さま" },
+        { "text": "はいらっしゃいますでしょうか。" }
+      ],
+      "kana": "すずきさまはいらっしゃいますでしょうか",
+      "chinese": "请问铃木先生在吗？",
+      "category": "request",
+      "register": "敬語",
+      "difficulty": 3,
+      "frequencyRank": 55,
+      "chunkPattern": "~様はいらっしゃいますでしょうか",
+      "tags": ["phone", "ask-person", "caller"]
+    },
+    {
+      "externalId": "s004",
+      "japanese": "少々お待ちください。",
+      "tokens": [
+        { "text": "少々", "kana": "しょうしょう" },
+        { "text": "お" },
+        { "text": "待ち", "kana": "まち" },
+        { "text": "ください。" }
+      ],
+      "kana": "しょうしょうおまちください",
+      "chinese": "请稍等。",
+      "category": "request",
+      "register": "敬語",
+      "difficulty": 1,
+      "frequencyRank": 24,
+      "chunkPattern": "少々お待ちください",
+      "tags": ["phone", "hold", "transfer"]
+    },
+    {
+      "externalId": "s005",
+      "japanese": "あいにく席を外しております。",
+      "tokens": [
+        { "text": "あいにく" },
+        { "text": "席", "kana": "せき" },
+        { "text": "を" },
+        { "text": "外して", "kana": "はずして" },
+        { "text": "おります。" }
+      ],
+      "kana": "あいにくせきをはずしております",
+      "chinese": "不巧他不在座位上。",
+      "category": "progress",
+      "register": "敬語",
+      "difficulty": 3,
+      "frequencyRank": 61,
+      "chunkPattern": "あいにく~ております",
+      "tags": ["phone", "unavailable", "status"]
+    },
+    {
+      "externalId": "s006",
+      "japanese": "折り返しご連絡いたします。",
+      "tokens": [
+        { "text": "折り返し", "kana": "おりかえし" },
+        { "text": "ご" },
+        { "text": "連絡", "kana": "れんらく" },
+        { "text": "いたします。" }
+      ],
+      "kana": "おりかえしごれんらくいたします",
+      "chinese": "稍后我回电给您。",
+      "category": "progress",
+      "register": "敬語",
+      "difficulty": 3,
+      "frequencyRank": 47,
+      "chunkPattern": "折り返し~いたします",
+      "tags": ["phone", "callback", "promise"]
+    },
+    {
+      "externalId": "s007",
+      "japanese": "お伝えしておきます。",
+      "tokens": [
+        { "text": "お" },
+        { "text": "伝え", "kana": "つたえ" },
+        { "text": "しておきます。" }
+      ],
+      "kana": "おつたえしておきます",
+      "chinese": "我会转告的。",
+      "category": "progress",
+      "register": "敬語",
+      "difficulty": 2,
+      "frequencyRank": 52,
+      "chunkPattern": "お~しておきます",
+      "tags": ["phone", "message", "relay"]
+    },
+    {
+      "externalId": "s008",
+      "japanese": "ご用件をお伺いしてもよろしいでしょうか。",
+      "tokens": [
+        { "text": "ご" },
+        { "text": "用件", "kana": "ようけん" },
+        { "text": "をお" },
+        { "text": "伺い", "kana": "うかがい" },
+        { "text": "してもよろしいでしょうか。" }
+      ],
+      "kana": "ごようけんをおうかがいしてもよろしいでしょうか",
+      "chinese": "请问可以告诉我您找他什么事吗？",
+      "category": "request",
+      "register": "敬語",
+      "difficulty": 4,
+      "frequencyRank": 84,
+      "chunkPattern": "~をお伺いしてもよろしいでしょうか",
+      "tags": ["phone", "ask-purpose", "screen"]
+    },
+    {
+      "externalId": "s009",
+      "japanese": "念のため、お電話番号をお願いしてもよろしいですか。",
+      "tokens": [
+        { "text": "念", "kana": "ねん" },
+        { "text": "のため、お" },
+        { "text": "電話番号", "kana": "でんわばんごう" },
+        { "text": "をお" },
+        { "text": "願い", "kana": "ねがい" },
+        { "text": "してもよろしいですか。" }
+      ],
+      "kana": "ねんのためおでんわばんごうをおねがいしてもよろしいですか",
+      "chinese": "为以防万一，能否告知一下您的电话号码？",
+      "category": "request",
+      "register": "敬語",
+      "difficulty": 4,
+      "frequencyRank": 92,
+      "chunkPattern": "念のため、~をお願いしてもよろしいですか",
+      "tags": ["phone", "ask-number", "confirm"]
+    },
+    {
+      "externalId": "s010",
+      "japanese": "お忙しいところ恐れ入ります。",
+      "tokens": [
+        { "text": "お" },
+        { "text": "忙しい", "kana": "いそがしい" },
+        { "text": "ところ" },
+        { "text": "恐れ入ります", "kana": "おそれいります" },
+        { "text": "。" }
+      ],
+      "kana": "おいそがしいところおそれいります",
+      "chinese": "百忙中打扰您不好意思。",
+      "category": "smalltalk",
+      "register": "敬語",
+      "difficulty": 3,
+      "frequencyRank": 44,
+      "chunkPattern": "お忙しいところ恐れ入ります",
+      "tags": ["phone", "open", "apologetic"]
+    },
+    {
+      "externalId": "s011",
+      "japanese": "失礼いたします。",
+      "tokens": [
+        { "text": "失礼", "kana": "しつれい" },
+        { "text": "いたします。" }
+      ],
+      "kana": "しつれいいたします",
+      "chinese": "那么先这样，再见。",
+      "category": "smalltalk",
+      "register": "敬語",
+      "difficulty": 1,
+      "frequencyRank": 20,
+      "chunkPattern": "失礼いたします",
+      "tags": ["phone", "close", "goodbye"]
+    }
+  ],
+  "dialogues": [
+    {
+      "externalId": "d001",
+      "title": "取次と折り返しの依頼",
+      "scenario": "phone",
+      "description": "社外からの電話を受け、担当者が不在のため伝言と折り返しを約束する取次フロー。",
+      "difficulty": 3,
+      "register": "敬語",
+      "tags": ["phone", "handoff", "callback"],
+      "turns": [
+        {
+          "speaker": "田中(受)",
+          "japanese": "お電話ありがとうございます。営業部の田中です。",
+          "tokens": [
+            { "text": "お" },
+            { "text": "電話", "kana": "でんわ" },
+            { "text": "ありがとうございます。" },
+            { "text": "営業部", "kana": "えいぎょうぶ" },
+            { "text": "の" },
+            { "text": "田中", "kana": "たなか" },
+            { "text": "です。" }
+          ],
+          "kana": "おでんわありがとうございますえいぎょうぶのたなかです",
+          "chinese": "感谢您来电。我是营业部的田中。"
+        },
+        {
+          "speaker": "山田(掛)",
+          "japanese": "お世話になっております。東京商事の山田と申します。鈴木様はいらっしゃいますでしょうか。",
+          "tokens": [
+            { "text": "お" },
+            { "text": "世話", "kana": "せわ" },
+            { "text": "になっております。" },
+            { "text": "東京商事", "kana": "とうきょうしょうじ" },
+            { "text": "の" },
+            { "text": "山田", "kana": "やまだ" },
+            { "text": "と" },
+            { "text": "申します", "kana": "もうします" },
+            { "text": "。" },
+            { "text": "鈴木", "kana": "すずき" },
+            { "text": "様", "kana": "さま" },
+            { "text": "はいらっしゃいますでしょうか。" }
+          ],
+          "kana": "おせわになっておりますとうきょうしょうじのやまだともうしますすずきさまはいらっしゃいますでしょうか",
+          "chinese": "承蒙关照。我是东京商事的山田。请问铃木先生在吗？"
+        },
+        {
+          "speaker": "田中(受)",
+          "japanese": "申し訳ございません、鈴木はあいにく席を外しております。戻り次第、折り返しご連絡するよう伝えます。",
+          "tokens": [
+            { "text": "申し訳ございません", "kana": "もうしわけございません" },
+            { "text": "、" },
+            { "text": "鈴木", "kana": "すずき" },
+            { "text": "はあいにく" },
+            { "text": "席", "kana": "せき" },
+            { "text": "を" },
+            { "text": "外して", "kana": "はずして" },
+            { "text": "おります。" },
+            { "text": "戻り次第", "kana": "もどりしだい" },
+            { "text": "、" },
+            { "text": "折り返し", "kana": "おりかえし" },
+            { "text": "ご" },
+            { "text": "連絡", "kana": "れんらく" },
+            { "text": "するよう" },
+            { "text": "伝えます", "kana": "つたえます" },
+            { "text": "。" }
+          ],
+          "kana": "もうしわけございませんすずきはあいにくせきをはずしておりますもどりしだいおりかえしごれんらくするようつたえます",
+          "chinese": "非常抱歉，铃木现在不在座位上。等他回来我会让他回电给您。"
+        },
+        {
+          "speaker": "山田(掛)",
+          "japanese": "お忙しいところ恐れ入ります。それではよろしくお願いいたします。",
+          "tokens": [
+            { "text": "お" },
+            { "text": "忙しい", "kana": "いそがしい" },
+            { "text": "ところ" },
+            { "text": "恐れ入ります", "kana": "おそれいります" },
+            { "text": "。それではよろしくお" },
+            { "text": "願い", "kana": "ねがい" },
+            { "text": "いたします。" }
+          ],
+          "kana": "おいそがしいところおそれいりますそれではよろしくおねがいいたします",
+          "chinese": "百忙中打扰您不好意思，那就麻烦您了。"
+        },
+        {
+          "speaker": "田中(受)",
+          "japanese": "承知いたしました。失礼いたします。",
+          "tokens": [
+            { "text": "承知", "kana": "しょうち" },
+            { "text": "いたしました。" },
+            { "text": "失礼", "kana": "しつれい" },
+            { "text": "いたします。" }
+          ],
+          "kana": "しょうちいたしましたしつれいいたします",
+          "chinese": "明白了。再见。"
+        }
+      ]
+    }
+  ],
+  "passages": []
+}

@@ -1,0 +1,170 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://nihongo-studio.local/corpus-pack.schema.json",
+  "title": "Nihongo Studio Corpus Pack",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["packVersion", "packId", "title", "generatedBy", "generatedAt", "targetProfile"],
+  "properties": {
+    "packVersion": { "const": 1 },
+    "packId": { "type": "string", "minLength": 3 },
+    "title": { "type": "string", "minLength": 1 },
+    "generatedBy": { "type": "string", "minLength": 1 },
+    "generatedAt": { "type": "string", "minLength": 1 },
+    "targetProfile": { "type": "string", "minLength": 1 },
+    "reviewStatus": { "enum": ["draft", "reviewed"], "default": "draft" },
+    "sentences": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/sentence" },
+      "default": []
+    },
+    "dialogues": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/dialogue" },
+      "default": []
+    },
+    "passages": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/passage" },
+      "default": []
+    }
+  },
+  "$defs": {
+    "token": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["text"],
+      "properties": {
+        "text": { "type": "string", "minLength": 1 },
+        "kana": { "type": "string", "minLength": 1 }
+      }
+    },
+    "sentence": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["japanese", "tokens", "chinese", "category", "difficulty"],
+      "properties": {
+        "externalId": { "type": "string", "minLength": 1 },
+        "japanese": { "type": "string", "minLength": 1 },
+        "tokens": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "$ref": "#/$defs/token" }
+        },
+        "kana": { "type": "string", "minLength": 1 },
+        "chinese": { "type": "string", "minLength": 1 },
+        "category": {
+          "enum": [
+            "rescue",
+            "progress",
+            "request",
+            "apology",
+            "smalltalk",
+            "daily",
+            "grammar",
+            "custom"
+          ]
+        },
+        "register": { "enum": ["敬語", "丁寧", "カジュアル"] },
+        "difficulty": { "type": "integer", "minimum": 1, "maximum": 5 },
+        "frequencyRank": { "type": "integer", "minimum": 1, "maximum": 1000 },
+        "chunkPattern": { "type": "string", "minLength": 1 },
+        "tags": {
+          "type": "array",
+          "items": { "type": "string", "minLength": 1 },
+          "default": []
+        }
+      }
+    },
+    "dialogue": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["title", "scenario", "difficulty", "turns"],
+      "properties": {
+        "externalId": { "type": "string", "minLength": 1 },
+        "title": { "type": "string", "minLength": 1 },
+        "scenario": { "enum": ["1on1", "meeting", "slack", "email", "phone"] },
+        "description": { "type": "string" },
+        "difficulty": { "type": "integer", "minimum": 1, "maximum": 5 },
+        "register": { "enum": ["敬語", "丁寧", "カジュアル"] },
+        "turns": {
+          "type": "array",
+          "minItems": 2,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["speaker", "japanese", "chinese"],
+            "properties": {
+              "speaker": { "type": "string", "minLength": 1 },
+              "japanese": { "type": "string", "minLength": 1 },
+              "tokens": {
+                "type": "array",
+                "items": { "$ref": "#/$defs/token" }
+              },
+              "kana": { "type": "string", "minLength": 1 },
+              "chinese": { "type": "string", "minLength": 1 }
+            }
+          }
+        },
+        "tags": {
+          "type": "array",
+          "items": { "type": "string", "minLength": 1 },
+          "default": []
+        }
+      }
+    },
+    "passage": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["title", "source", "body", "difficulty"],
+      "properties": {
+        "externalId": { "type": "string", "minLength": 1 },
+        "title": { "type": "string", "minLength": 1 },
+        "source": {
+          "enum": ["email", "slack", "meeting-minutes", "report", "news"]
+        },
+        "description": { "type": "string" },
+        "body": { "type": "string", "minLength": 1 },
+        "tokens": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/token" }
+        },
+        "vocabulary": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["word", "meaning"],
+            "properties": {
+              "word": { "type": "string", "minLength": 1 },
+              "kana": { "type": "string", "minLength": 1 },
+              "meaning": { "type": "string", "minLength": 1 }
+            }
+          },
+          "default": []
+        },
+        "questions": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["q", "a", "type"],
+            "properties": {
+              "q": { "type": "string", "minLength": 1 },
+              "a": { "type": "string", "minLength": 1 },
+              "type": { "enum": ["fact", "open", "summary", "rewrite"] }
+            }
+          },
+          "default": []
+        },
+        "difficulty": { "type": "integer", "minimum": 1, "maximum": 5 },
+        "lengthWords": { "type": "integer", "minimum": 1 },
+        "tags": {
+          "type": "array",
+          "items": { "type": "string", "minLength": 1 },
+          "default": []
+        }
+      }
+    }
+  }
+}

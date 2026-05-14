@@ -1,0 +1,265 @@
+{
+  "packVersion": 1,
+  "packId": "email-staples-001",
+  "title": "Email Staples 001",
+  "generatedBy": "claude-opus-4-7",
+  "generatedAt": "2026-05-14",
+  "targetProfile": "Chinese native speaker, N1 reading, weak written workplace Japanese — email opening/pivot/closing staples plus a sample weekly progress email passage. Fills the 0-passage gap.",
+  "reviewStatus": "reviewed",
+  "sentences": [
+    {
+      "externalId": "s001",
+      "japanese": "平素より大変お世話になっております。",
+      "tokens": [
+        { "text": "平素", "kana": "へいそ" },
+        { "text": "より" },
+        { "text": "大変", "kana": "たいへん" },
+        { "text": "お" },
+        { "text": "世話", "kana": "せわ" },
+        { "text": "になっております。" }
+      ],
+      "kana": "へいそよりたいへんおせわになっております",
+      "chinese": "平日承蒙关照,十分感谢。",
+      "category": "smalltalk",
+      "register": "敬語",
+      "difficulty": 2,
+      "frequencyRank": 25,
+      "chunkPattern": "平素より大変お世話になっております",
+      "tags": ["email", "open", "external"]
+    },
+    {
+      "externalId": "s002",
+      "japanese": "お疲れ様です。営業部の田中です。",
+      "tokens": [
+        { "text": "お疲れ様", "kana": "おつかれさま" },
+        { "text": "です。" },
+        { "text": "営業部", "kana": "えいぎょうぶ" },
+        { "text": "の" },
+        { "text": "田中", "kana": "たなか" },
+        { "text": "です。" }
+      ],
+      "kana": "おつかれさまですえいぎょうぶのたなかです",
+      "chinese": "辛苦了,我是营业部的田中。",
+      "category": "smalltalk",
+      "register": "丁寧",
+      "difficulty": 1,
+      "frequencyRank": 21,
+      "chunkPattern": "お疲れ様です。~部の~です",
+      "tags": ["email", "open", "internal"]
+    },
+    {
+      "externalId": "s003",
+      "japanese": "お忙しいところ恐縮ですが、ご確認いただけますでしょうか。",
+      "tokens": [
+        { "text": "お" },
+        { "text": "忙しい", "kana": "いそがしい" },
+        { "text": "ところ" },
+        { "text": "恐縮", "kana": "きょうしゅく" },
+        { "text": "ですが、ご" },
+        { "text": "確認", "kana": "かくにん" },
+        { "text": "いただけますでしょうか。" }
+      ],
+      "kana": "おいそがしいところきょうしゅくですがごかくにんいただけますでしょうか",
+      "chinese": "百忙之中不好意思,能否帮忙确认一下？",
+      "category": "request",
+      "register": "敬語",
+      "difficulty": 4,
+      "frequencyRank": 48,
+      "chunkPattern": "お忙しいところ恐縮ですが、~いただけますでしょうか",
+      "tags": ["email", "ask-favor", "pivot"]
+    },
+    {
+      "externalId": "s004",
+      "japanese": "ご無沙汰しております。",
+      "tokens": [
+        { "text": "ご" },
+        { "text": "無沙汰", "kana": "ぶさた" },
+        { "text": "しております。" }
+      ],
+      "kana": "ごぶさたしております",
+      "chinese": "好久没联系了。",
+      "category": "smalltalk",
+      "register": "敬語",
+      "difficulty": 2,
+      "frequencyRank": 39,
+      "chunkPattern": "ご無沙汰しております",
+      "tags": ["email", "open", "after-gap"]
+    },
+    {
+      "externalId": "s005",
+      "japanese": "取り急ぎご連絡まで。",
+      "tokens": [
+        { "text": "取り急ぎ", "kana": "とりいそぎ" },
+        { "text": "ご" },
+        { "text": "連絡", "kana": "れんらく" },
+        { "text": "まで。" }
+      ],
+      "kana": "とりいそぎごれんらくまで",
+      "chinese": "先紧急通知一下。",
+      "category": "progress",
+      "register": "敬語",
+      "difficulty": 3,
+      "frequencyRank": 64,
+      "chunkPattern": "取り急ぎ~まで",
+      "tags": ["email", "close", "quick-fyi"]
+    },
+    {
+      "externalId": "s006",
+      "japanese": "ご確認のほど、よろしくお願いいたします。",
+      "tokens": [
+        { "text": "ご" },
+        { "text": "確認", "kana": "かくにん" },
+        { "text": "のほど、よろしくお" },
+        { "text": "願い", "kana": "ねがい" },
+        { "text": "いたします。" }
+      ],
+      "kana": "ごかくにんのほどよろしくおねがいいたします",
+      "chinese": "麻烦您过目确认,谢谢。",
+      "category": "request",
+      "register": "敬語",
+      "difficulty": 3,
+      "frequencyRank": 32,
+      "chunkPattern": "ご~のほど、よろしくお願いいたします",
+      "tags": ["email", "close", "ask-confirm"]
+    },
+    {
+      "externalId": "s007",
+      "japanese": "ご返信お待ちしております。",
+      "tokens": [
+        { "text": "ご" },
+        { "text": "返信", "kana": "へんしん" },
+        { "text": "お" },
+        { "text": "待ち", "kana": "まち" },
+        { "text": "しております。" }
+      ],
+      "kana": "ごへんしんおまちしております",
+      "chinese": "期待您的回复。",
+      "category": "request",
+      "register": "敬語",
+      "difficulty": 3,
+      "frequencyRank": 57,
+      "chunkPattern": "ご~お待ちしております",
+      "tags": ["email", "close", "await-reply"]
+    },
+    {
+      "externalId": "s008",
+      "japanese": "ご迷惑をおかけし、申し訳ございません。",
+      "tokens": [
+        { "text": "ご" },
+        { "text": "迷惑", "kana": "めいわく" },
+        { "text": "をおかけし、" },
+        { "text": "申し訳ございません", "kana": "もうしわけございません" },
+        { "text": "。" }
+      ],
+      "kana": "ごめいわくをおかけしもうしわけございません",
+      "chinese": "给您添麻烦了,非常抱歉。",
+      "category": "apology",
+      "register": "敬語",
+      "difficulty": 3,
+      "frequencyRank": 42,
+      "chunkPattern": "ご~をおかけし、申し訳ございません",
+      "tags": ["email", "apology", "core"]
+    },
+    {
+      "externalId": "s009",
+      "japanese": "ご検討のほどよろしくお願いいたします。",
+      "tokens": [
+        { "text": "ご" },
+        { "text": "検討", "kana": "けんとう" },
+        { "text": "のほどよろしくお" },
+        { "text": "願い", "kana": "ねがい" },
+        { "text": "いたします。" }
+      ],
+      "kana": "ごけんとうのほどよろしくおねがいいたします",
+      "chinese": "请您斟酌考虑,拜托了。",
+      "category": "request",
+      "register": "敬語",
+      "difficulty": 3,
+      "frequencyRank": 71,
+      "chunkPattern": "ご検討のほどよろしくお願いいたします",
+      "tags": ["email", "close", "ask-consider"]
+    },
+    {
+      "externalId": "s010",
+      "japanese": "何卒よろしくお願い申し上げます。",
+      "tokens": [
+        { "text": "何卒", "kana": "なにとぞ" },
+        { "text": "よろしくお" },
+        { "text": "願い申し上げます", "kana": "ねがいもうしあげます" },
+        { "text": "。" }
+      ],
+      "kana": "なにとぞよろしくおねがいもうしあげます",
+      "chinese": "无论如何,拜托您了。",
+      "category": "smalltalk",
+      "register": "敬語",
+      "difficulty": 3,
+      "frequencyRank": 53,
+      "chunkPattern": "何卒よろしくお願い申し上げます",
+      "tags": ["email", "close", "most-formal"]
+    },
+    {
+      "externalId": "s011",
+      "japanese": "引き続きどうぞよろしくお願いいたします。",
+      "tokens": [
+        { "text": "引き続き", "kana": "ひきつづき" },
+        { "text": "どうぞよろしくお" },
+        { "text": "願い", "kana": "ねがい" },
+        { "text": "いたします。" }
+      ],
+      "kana": "ひきつづきどうぞよろしくおねがいいたします",
+      "chinese": "今后也请多多关照。",
+      "category": "smalltalk",
+      "register": "敬語",
+      "difficulty": 2,
+      "frequencyRank": 47,
+      "chunkPattern": "引き続きどうぞよろしくお願いいたします",
+      "tags": ["email", "close", "ongoing"]
+    }
+  ],
+  "dialogues": [],
+  "passages": [
+    {
+      "externalId": "p001",
+      "title": "週次進捗報告メール",
+      "source": "email",
+      "description": "三件の案件についての週次進捗報告。冒頭挨拶 → 箇条書きの三点 → 確認依頼 → 締めの定型句、という典型的な社外向け進捗メールの骨格。",
+      "body": "○○株式会社 山田様\n\n平素より大変お世話になっております。\n△△の田中です。\n\n今週の進捗をお送りいたします。\n\n1. A案件:設計レビューが完了し、来週から実装フェーズに入ります。\n2. B案件:お客様からの追加要件を整理中です。来週中に方針を共有させていただきます。\n3. C案件:現時点では未確認です。明日担当より連絡が入る予定です。\n\nご確認のほど、よろしくお願いいたします。\n\n田中",
+      "vocabulary": [
+        { "word": "平素", "kana": "へいそ", "meaning": "平时, 平日 (商务套语)" },
+        { "word": "進捗", "kana": "しんちょく", "meaning": "进度, 进展" },
+        { "word": "案件", "kana": "あんけん", "meaning": "项目, 议题, 案件" },
+        { "word": "設計", "kana": "せっけい", "meaning": "设计" },
+        { "word": "実装", "kana": "じっそう", "meaning": "实施, 实现 (IT 语境为编码实装)" },
+        { "word": "要件", "kana": "ようけん", "meaning": "需求, 要点" },
+        { "word": "整理", "kana": "せいり", "meaning": "整理, 梳理" },
+        { "word": "方針", "kana": "ほうしん", "meaning": "方针, 方向性" },
+        { "word": "未確認", "kana": "みかくにん", "meaning": "尚未确认" }
+      ],
+      "questions": [
+        {
+          "q": "このメールの主な目的は何ですか。",
+          "a": "三件の案件について今週の進捗を報告し、確認を依頼すること。",
+          "type": "summary"
+        },
+        {
+          "q": "A案件は現在どの段階に入ろうとしていますか。",
+          "a": "設計レビューが完了し、来週から実装フェーズに入る段階。",
+          "type": "fact"
+        },
+        {
+          "q": "C案件の状況はどうなっていますか。",
+          "a": "現時点では未確認で、明日担当者からの連絡が予定されている。",
+          "type": "fact"
+        },
+        {
+          "q": "B案件で来週中に共有されると言われているものは何ですか。",
+          "a": "追加要件への対応方針。",
+          "type": "fact"
+        }
+      ],
+      "difficulty": 3,
+      "lengthWords": 110,
+      "tags": ["email", "report", "weekly", "external"]
+    }
+  ]
+}

@@ -1,0 +1,302 @@
+{
+  "packVersion": 1,
+  "packId": "slack-chat-staples-001",
+  "title": "Slack Chat Staples 001",
+  "generatedBy": "claude-opus-4-7",
+  "generatedAt": "2026-05-14",
+  "targetProfile": "Chinese native speaker, N1 reading, weak spoken/typed workplace Japanese — Slack micro-response chunks for daily team coordination",
+  "reviewStatus": "reviewed",
+  "sentences": [
+    {
+      "externalId": "s001",
+      "japanese": "すぐ確認します！",
+      "tokens": [
+        { "text": "すぐ" },
+        { "text": "確認", "kana": "かくにん" },
+        { "text": "します！" }
+      ],
+      "kana": "すぐかくにんします",
+      "chinese": "我马上确认！",
+      "category": "progress",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 38,
+      "chunkPattern": "すぐ~ます",
+      "tags": ["slack", "ack", "quick-reply"]
+    },
+    {
+      "externalId": "s002",
+      "japanese": "一度確認させてください。",
+      "tokens": [
+        { "text": "一度", "kana": "いちど" },
+        { "text": "確認", "kana": "かくにん" },
+        { "text": "させてください。" }
+      ],
+      "kana": "いちどかくにんさせてください",
+      "chinese": "请让我先确认一下。",
+      "category": "request",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 56,
+      "chunkPattern": "一度~させてください",
+      "tags": ["slack", "buy-time", "clarify"]
+    },
+    {
+      "externalId": "s003",
+      "japanese": "ちょっと相談したいんですけど、お時間ありますか。",
+      "tokens": [
+        { "text": "ちょっと" },
+        { "text": "相談", "kana": "そうだん" },
+        { "text": "したいんですけど、お" },
+        { "text": "時間", "kana": "じかん" },
+        { "text": "ありますか。" }
+      ],
+      "kana": "ちょっとそうだんしたいんですけどおじかんありますか",
+      "chinese": "想跟你商量一下，方便吗？",
+      "category": "request",
+      "register": "丁寧",
+      "difficulty": 3,
+      "frequencyRank": 42,
+      "chunkPattern": "ちょっと~たいんですけど、お時間ありますか",
+      "tags": ["slack", "open-conversation", "ask-time"]
+    },
+    {
+      "externalId": "s004",
+      "japanese": "今ちょうど対応中です。",
+      "tokens": [
+        { "text": "今", "kana": "いま" },
+        { "text": "ちょうど" },
+        { "text": "対応中", "kana": "たいおうちゅう" },
+        { "text": "です。" }
+      ],
+      "kana": "いまちょうどたいおうちゅうです",
+      "chinese": "我现在正好在处理。",
+      "category": "progress",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 64,
+      "chunkPattern": "今ちょうど~中です",
+      "tags": ["slack", "status", "in-progress"]
+    },
+    {
+      "externalId": "s005",
+      "japanese": "こちらの理解で合っていますか。",
+      "tokens": [
+        { "text": "こちらの" },
+        { "text": "理解", "kana": "りかい" },
+        { "text": "で" },
+        { "text": "合って", "kana": "あって" },
+        { "text": "いますか。" }
+      ],
+      "kana": "こちらのりかいであっていますか",
+      "chinese": "我这边的理解对吗？",
+      "category": "request",
+      "register": "丁寧",
+      "difficulty": 3,
+      "frequencyRank": 71,
+      "chunkPattern": "こちらの~で合っていますか",
+      "tags": ["slack", "clarify", "alignment"]
+    },
+    {
+      "externalId": "s006",
+      "japanese": "助かりました、ありがとうございます。",
+      "tokens": [
+        { "text": "助かりました", "kana": "たすかりました" },
+        { "text": "、ありがとうございます。" }
+      ],
+      "kana": "たすかりましたありがとうございます",
+      "chinese": "帮大忙了，谢谢你。",
+      "category": "smalltalk",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 33,
+      "chunkPattern": "助かりました、~",
+      "tags": ["slack", "thanks", "after-help"]
+    },
+    {
+      "externalId": "s007",
+      "japanese": "一旦こちらで巻き取ります。",
+      "tokens": [
+        { "text": "一旦", "kana": "いったん" },
+        { "text": "こちらで" },
+        { "text": "巻き取ります", "kana": "まきとります" },
+        { "text": "。" }
+      ],
+      "kana": "いったんこちらでまきとります",
+      "chinese": "先由我这边接手处理。",
+      "category": "rescue",
+      "register": "丁寧",
+      "difficulty": 3,
+      "frequencyRank": 102,
+      "chunkPattern": "一旦こちらで~ます",
+      "tags": ["slack", "take-over", "responsibility"]
+    },
+    {
+      "externalId": "s008",
+      "japanese": "別件と並行で進めています。",
+      "tokens": [
+        { "text": "別件", "kana": "べっけん" },
+        { "text": "と" },
+        { "text": "並行", "kana": "へいこう" },
+        { "text": "で" },
+        { "text": "進めて", "kana": "すすめて" },
+        { "text": "います。" }
+      ],
+      "kana": "べっけんとへいこうですすめています",
+      "chinese": "在和其他事项并行推进。",
+      "category": "progress",
+      "register": "丁寧",
+      "difficulty": 3,
+      "frequencyRank": 118,
+      "chunkPattern": "~と並行で進めています",
+      "tags": ["slack", "status", "multitask"]
+    },
+    {
+      "externalId": "s009",
+      "japanese": "何かあれば一声かけてください。",
+      "tokens": [
+        { "text": "何か", "kana": "なにか" },
+        { "text": "あれば" },
+        { "text": "一声", "kana": "ひとこえ" },
+        { "text": "かけてください。" }
+      ],
+      "kana": "なにかあればひとこえかけてください",
+      "chinese": "有什么事跟我说一声就行。",
+      "category": "smalltalk",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 49,
+      "chunkPattern": "何かあれば~てください",
+      "tags": ["slack", "open-door", "offer-help"]
+    },
+    {
+      "externalId": "s010",
+      "japanese": "一旦切り上げて、明日続きを進めます。",
+      "tokens": [
+        { "text": "一旦", "kana": "いったん" },
+        { "text": "切り上げて", "kana": "きりあげて" },
+        { "text": "、" },
+        { "text": "明日", "kana": "あした" },
+        { "text": "続き", "kana": "つづき" },
+        { "text": "を" },
+        { "text": "進めます", "kana": "すすめます" },
+        { "text": "。" }
+      ],
+      "kana": "いったんきりあげてあしたつづきをすすめます",
+      "chinese": "今天先告一段落，明天接着推进。",
+      "category": "progress",
+      "register": "丁寧",
+      "difficulty": 3,
+      "frequencyRank": 132,
+      "chunkPattern": "一旦切り上げて、明日続きを~",
+      "tags": ["slack", "end-of-day", "handoff"]
+    },
+    {
+      "externalId": "s011",
+      "japanese": "ちょっと混んでて、夕方までに返します。",
+      "tokens": [
+        { "text": "ちょっと" },
+        { "text": "混んでて", "kana": "こんでて" },
+        { "text": "、" },
+        { "text": "夕方", "kana": "ゆうがた" },
+        { "text": "までに" },
+        { "text": "返します", "kana": "かえします" },
+        { "text": "。" }
+      ],
+      "kana": "ちょっとこんでてゆうがたまでにかえします",
+      "chinese": "现在有点忙，傍晚之前回你。",
+      "category": "progress",
+      "register": "丁寧",
+      "difficulty": 3,
+      "frequencyRank": 89,
+      "chunkPattern": "ちょっと混んでて、~までに~ます",
+      "tags": ["slack", "delay", "promise-back"]
+    }
+  ],
+  "dialogues": [
+    {
+      "externalId": "d001",
+      "title": "進捗のすり合わせ",
+      "scenario": "slack",
+      "description": "チームメンバーに5分だけ確認の時間をもらう Slack スレッド。",
+      "difficulty": 3,
+      "register": "丁寧",
+      "tags": ["slack", "alignment", "5min-sync"],
+      "turns": [
+        {
+          "speaker": "本人",
+          "japanese": "お疲れ様です！ちょっと相談したいんですけど、お時間ありますか。",
+          "tokens": [
+            { "text": "お疲れ様", "kana": "おつかれさま" },
+            { "text": "です！ちょっと" },
+            { "text": "相談", "kana": "そうだん" },
+            { "text": "したいんですけど、お" },
+            { "text": "時間", "kana": "じかん" },
+            { "text": "ありますか。" }
+          ],
+          "kana": "おつかれさまですちょっとそうだんしたいんですけどおじかんありますか",
+          "chinese": "辛苦了！想跟你商量一下,方便吗？"
+        },
+        {
+          "speaker": "田中",
+          "japanese": "お疲れ様です。今ちょっと立て込んでて、夕方までならいけそうです！",
+          "tokens": [
+            { "text": "お疲れ様", "kana": "おつかれさま" },
+            { "text": "です。" },
+            { "text": "今", "kana": "いま" },
+            { "text": "ちょっと" },
+            { "text": "立て込んでて", "kana": "たてこんでて" },
+            { "text": "、" },
+            { "text": "夕方", "kana": "ゆうがた" },
+            { "text": "までならいけそうです！" }
+          ],
+          "kana": "おつかれさまですいまちょっとたてこんででゆうがたまでならいけそうです",
+          "chinese": "辛苦了。现在有点忙，傍晚之前应该可以！"
+        },
+        {
+          "speaker": "本人",
+          "japanese": "ありがとうございます。認識合わせだけしたくて、5分くらいで終わります。",
+          "tokens": [
+            { "text": "ありがとうございます。" },
+            { "text": "認識", "kana": "にんしき" },
+            { "text": "合わせ", "kana": "あわせ" },
+            { "text": "だけしたくて、5" },
+            { "text": "分", "kana": "ふん" },
+            { "text": "くらいで" },
+            { "text": "終わります", "kana": "おわります" },
+            { "text": "。" }
+          ],
+          "kana": "ありがとうございますにんしきあわせだけしたくてごふんくらいでおわります",
+          "chinese": "谢谢。只想对一下认识，五分钟左右就好。"
+        },
+        {
+          "speaker": "田中",
+          "japanese": "了解です。じゃあ16時にDM投げますね。",
+          "tokens": [
+            { "text": "了解", "kana": "りょうかい" },
+            { "text": "です。じゃあ16" },
+            { "text": "時", "kana": "じ" },
+            { "text": "にDM" },
+            { "text": "投げます", "kana": "なげます" },
+            { "text": "ね。" }
+          ],
+          "kana": "りょうかいですじゃあじゅうろくじにでぃーえむなげますね",
+          "chinese": "好的。那我16点 DM 你。"
+        },
+        {
+          "speaker": "本人",
+          "japanese": "助かります、よろしくお願いします。",
+          "tokens": [
+            { "text": "助かります", "kana": "たすかります" },
+            { "text": "、よろしくお" },
+            { "text": "願いします", "kana": "ねがいします" },
+            { "text": "。" }
+          ],
+          "kana": "たすかりますよろしくおねがいします",
+          "chinese": "帮大忙了，麻烦你了。"
+        }
+      ]
+    }
+  ],
+  "passages": []
+}

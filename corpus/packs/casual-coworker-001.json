@@ -1,0 +1,273 @@
+{
+  "packVersion": 1,
+  "packId": "casual-coworker-001",
+  "title": "Casual Coworker Banter 001",
+  "generatedBy": "claude-opus-4-7",
+  "generatedAt": "2026-05-14",
+  "targetProfile": "Chinese native speaker, N1 reading, weak casual spoken Japanese — same-rank coworker banter, end-of-day venting, mild empathy. First カジュアル pack: filling the largest register gap.",
+  "reviewStatus": "reviewed",
+  "sentences": [
+    {
+      "externalId": "s001",
+      "japanese": "ねえ、ちょっと聞いてもいい？",
+      "tokens": [
+        { "text": "ねえ、ちょっと" },
+        { "text": "聞いて", "kana": "きいて" },
+        { "text": "もいい？" }
+      ],
+      "kana": "ねえちょっときいてもいい",
+      "chinese": "诶，能问你一下吗？",
+      "category": "request",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 40,
+      "chunkPattern": "ねえ、ちょっと~てもいい？",
+      "tags": ["casual", "ask", "open"]
+    },
+    {
+      "externalId": "s002",
+      "japanese": "今日めっちゃ忙しかった〜。",
+      "tokens": [
+        { "text": "今日", "kana": "きょう" },
+        { "text": "めっちゃ" },
+        { "text": "忙しかった", "kana": "いそがしかった" },
+        { "text": "〜。" }
+      ],
+      "kana": "きょうめっちゃいそがしかった",
+      "chinese": "今天忙死了~",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 35,
+      "chunkPattern": "今日めっちゃ~った",
+      "tags": ["casual", "vent", "end-of-day"]
+    },
+    {
+      "externalId": "s003",
+      "japanese": "マジで助かった、ありがと！",
+      "tokens": [
+        { "text": "マジで" },
+        { "text": "助かった", "kana": "たすかった" },
+        { "text": "、ありがと！" }
+      ],
+      "kana": "まじでたすかったありがと",
+      "chinese": "真的帮大忙了，谢啦！",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 28,
+      "chunkPattern": "マジで~、ありがと",
+      "tags": ["casual", "thanks", "after-help"]
+    },
+    {
+      "externalId": "s004",
+      "japanese": "それ、わかる。",
+      "tokens": [
+        { "text": "それ、" },
+        { "text": "わかる。" }
+      ],
+      "kana": "それわかる",
+      "chinese": "懂，那种感觉。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 22,
+      "chunkPattern": "それ、わかる",
+      "tags": ["casual", "empathy", "agree"]
+    },
+    {
+      "externalId": "s005",
+      "japanese": "一緒にランチ行く？",
+      "tokens": [
+        { "text": "一緒", "kana": "いっしょ" },
+        { "text": "にランチ" },
+        { "text": "行く", "kana": "いく" },
+        { "text": "？" }
+      ],
+      "kana": "いっしょにらんちいく",
+      "chinese": "一起去吃午饭？",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 38,
+      "chunkPattern": "一緒に~行く？",
+      "tags": ["casual", "invite", "lunch"]
+    },
+    {
+      "externalId": "s006",
+      "japanese": "お疲れ〜。",
+      "tokens": [
+        { "text": "お疲れ", "kana": "おつかれ" },
+        { "text": "〜。" }
+      ],
+      "kana": "おつかれ",
+      "chinese": "辛苦啦~",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 14,
+      "chunkPattern": "お疲れ〜",
+      "tags": ["casual", "greeting", "ubiquitous"]
+    },
+    {
+      "externalId": "s007",
+      "japanese": "なんか疲れたなあ。",
+      "tokens": [
+        { "text": "なんか" },
+        { "text": "疲れた", "kana": "つかれた" },
+        { "text": "なあ。" }
+      ],
+      "kana": "なんかつかれたなあ",
+      "chinese": "总觉得有点累啊。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 51,
+      "chunkPattern": "なんか~たなあ",
+      "tags": ["casual", "vent", "to-self"]
+    },
+    {
+      "externalId": "s008",
+      "japanese": "詳しく聞かせて。",
+      "tokens": [
+        { "text": "詳しく", "kana": "くわしく" },
+        { "text": "聞かせて", "kana": "きかせて" },
+        { "text": "。" }
+      ],
+      "kana": "くわしくきかせて",
+      "chinese": "详细说说看。",
+      "category": "request",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 62,
+      "chunkPattern": "詳しく~せて",
+      "tags": ["casual", "interest", "follow-up"]
+    },
+    {
+      "externalId": "s009",
+      "japanese": "ぼちぼちやってる。",
+      "tokens": [
+        { "text": "ぼちぼちやってる。" }
+      ],
+      "kana": "ぼちぼちやってる",
+      "chinese": "马马虎虎做着呗。",
+      "category": "progress",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 79,
+      "chunkPattern": "ぼちぼちやってる",
+      "tags": ["casual", "status", "modest"]
+    },
+    {
+      "externalId": "s010",
+      "japanese": "お先〜。",
+      "tokens": [
+        { "text": "お先", "kana": "おさき" },
+        { "text": "〜。" }
+      ],
+      "kana": "おさき",
+      "chinese": "我先走啦~",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 19,
+      "chunkPattern": "お先〜",
+      "tags": ["casual", "leave", "end-of-day"]
+    },
+    {
+      "externalId": "s011",
+      "japanese": "それヤバいやつじゃん。",
+      "tokens": [
+        { "text": "それヤバいやつじゃん。" }
+      ],
+      "kana": "それやばいやつじゃん",
+      "chinese": "那不就是个坑吗。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 88,
+      "chunkPattern": "それ~やつじゃん",
+      "tags": ["casual", "react", "concerned"]
+    }
+  ],
+  "dialogues": [
+    {
+      "externalId": "d001",
+      "title": "退勤前のひとこと",
+      "scenario": "slack",
+      "description": "同期との退勤前カジュアル雑談。今日の疲れをサクッと共有して終わる軽いやり取り。",
+      "difficulty": 2,
+      "register": "カジュアル",
+      "tags": ["casual", "end-of-day", "same-rank"],
+      "turns": [
+        {
+          "speaker": "A",
+          "japanese": "お疲れ〜！今日めっちゃ忙しかったね。",
+          "tokens": [
+            { "text": "お疲れ", "kana": "おつかれ" },
+            { "text": "〜！" },
+            { "text": "今日", "kana": "きょう" },
+            { "text": "めっちゃ" },
+            { "text": "忙しかった", "kana": "いそがしかった" },
+            { "text": "ね。" }
+          ],
+          "kana": "おつかれきょうめっちゃいそがしかったね",
+          "chinese": "辛苦啦！今天真是忙死了。"
+        },
+        {
+          "speaker": "B",
+          "japanese": "ほんとそれ。途中で心折れかけた〜。",
+          "tokens": [
+            { "text": "ほんとそれ。" },
+            { "text": "途中", "kana": "とちゅう" },
+            { "text": "で" },
+            { "text": "心", "kana": "こころ" },
+            { "text": "折れかけた", "kana": "おれかけた" },
+            { "text": "〜。" }
+          ],
+          "kana": "ほんとそれとちゅうでこころおれかけた",
+          "chinese": "真的，中途差点崩了~"
+        },
+        {
+          "speaker": "A",
+          "japanese": "そういう日もあるって。明日に持ち越そ〜。",
+          "tokens": [
+            { "text": "そういう" },
+            { "text": "日", "kana": "ひ" },
+            { "text": "もあるって。" },
+            { "text": "明日", "kana": "あした" },
+            { "text": "に" },
+            { "text": "持ち越そ", "kana": "もちこそ" },
+            { "text": "〜。" }
+          ],
+          "kana": "そういうひもあるってあしたにもちこそ",
+          "chinese": "总有这种日子嘛。留到明天吧~"
+        },
+        {
+          "speaker": "B",
+          "japanese": "そうする！お先〜。",
+          "tokens": [
+            { "text": "そうする！" },
+            { "text": "お先", "kana": "おさき" },
+            { "text": "〜。" }
+          ],
+          "kana": "そうするおさき",
+          "chinese": "就这样！我先走啦~"
+        },
+        {
+          "speaker": "A",
+          "japanese": "お疲れ！また明日。",
+          "tokens": [
+            { "text": "お疲れ", "kana": "おつかれ" },
+            { "text": "！また" },
+            { "text": "明日", "kana": "あした" },
+            { "text": "。" }
+          ],
+          "kana": "おつかれまたあした",
+          "chinese": "辛苦！明天见。"
+        }
+      ]
+    }
+  ],
+  "passages": []
+}

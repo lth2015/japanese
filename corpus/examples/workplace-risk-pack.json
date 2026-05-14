@@ -1,0 +1,122 @@
+{
+  "packVersion": 1,
+  "packId": "workplace-risk-001",
+  "title": "Workplace Risk Reporting 001",
+  "generatedBy": "codex",
+  "generatedAt": "2026-05-14",
+  "targetProfile": "Chinese native speaker, N2/N1 reading, weak spoken workplace Japanese",
+  "reviewStatus": "reviewed",
+  "sentences": [
+    {
+      "externalId": "s001",
+      "japanese": "一点リスクを共有させてください。",
+      "tokens": [
+        { "text": "一点", "kana": "いってん" },
+        { "text": "リスクを" },
+        { "text": "共有", "kana": "きょうゆう" },
+        { "text": "させてください。" }
+      ],
+      "kana": "いってんりすくをきょうゆうさせてください",
+      "chinese": "请允许我分享一个风险点。",
+      "category": "progress",
+      "register": "丁寧",
+      "difficulty": 3,
+      "frequencyRank": 72,
+      "chunkPattern": "一点~を共有させてください",
+      "tags": ["meeting", "risk", "report"]
+    },
+    {
+      "externalId": "s002",
+      "japanese": "このままだと期限に間に合わない可能性があります。",
+      "tokens": [
+        { "text": "このままだと" },
+        { "text": "期限", "kana": "きげん" },
+        { "text": "に" },
+        { "text": "間に合わない", "kana": "まにあわない" },
+        { "text": "可能性", "kana": "かのうせい" },
+        { "text": "があります。" }
+      ],
+      "kana": "このままだときげんにまにあわないかのうせいがあります",
+      "chinese": "照这样下去，可能赶不上期限。",
+      "category": "progress",
+      "register": "丁寧",
+      "difficulty": 3,
+      "frequencyRank": 88,
+      "chunkPattern": "このままだと~可能性があります",
+      "tags": ["deadline", "risk", "meeting"]
+    },
+    {
+      "externalId": "s003",
+      "japanese": "優先度を上げてもよろしいでしょうか。",
+      "tokens": [
+        { "text": "優先度", "kana": "ゆうせんど" },
+        { "text": "を" },
+        { "text": "上げて", "kana": "あげて" },
+        { "text": "もよろしいでしょうか。" }
+      ],
+      "kana": "ゆうせんどをあげてもよろしいでしょうか",
+      "chinese": "可以把优先级提高吗？",
+      "category": "request",
+      "register": "敬語",
+      "difficulty": 3,
+      "frequencyRank": 96,
+      "chunkPattern": "~てもよろしいでしょうか",
+      "tags": ["priority", "request", "meeting"]
+    }
+  ],
+  "dialogues": [
+    {
+      "externalId": "d001",
+      "title": "進捗会議でリスクを共有する",
+      "scenario": "meeting",
+      "description": "进度会上说明期限风险，并请求调整优先级。",
+      "difficulty": 3,
+      "register": "丁寧",
+      "tags": ["meeting", "risk", "deadline"],
+      "turns": [
+        {
+          "speaker": "上司",
+          "japanese": "進捗はいかがですか。",
+          "tokens": [{ "text": "進捗", "kana": "しんちょく" }, { "text": "はいかがですか。" }],
+          "kana": "しんちょくはいかがですか",
+          "chinese": "进展怎么样？"
+        },
+        {
+          "speaker": "あなた",
+          "japanese": "一点リスクを共有させてください。",
+          "tokens": [
+            { "text": "一点", "kana": "いってん" },
+            { "text": "リスクを" },
+            { "text": "共有", "kana": "きょうゆう" },
+            { "text": "させてください。" }
+          ],
+          "kana": "いってんりすくをきょうゆうさせてください",
+          "chinese": "请允许我分享一个风险点。"
+        }
+      ]
+    }
+  ],
+  "passages": [
+    {
+      "externalId": "p001",
+      "title": "期限リスクの共有",
+      "source": "email",
+      "description": "用邮件简短说明延期风险。",
+      "body": "お疲れさまです。\n現時点では実装は進んでいますが、レビュー待ちの項目が多く、このままだと期限に間に合わない可能性があります。\n優先度を上げてもよろしいでしょうか。",
+      "vocabulary": [
+        { "word": "現時点", "kana": "げんじてん", "meaning": "当前时间点" },
+        { "word": "期限", "kana": "きげん", "meaning": "截止日期" }
+      ],
+      "questions": [
+        {
+          "q": "何がリスクになっていますか。",
+          "a": "レビュー待ちの項目が多いことです。",
+          "type": "fact"
+        }
+      ],
+      "difficulty": 3,
+      "lengthWords": 75,
+      "tags": ["email", "risk", "deadline"]
+    }
+  ]
+}

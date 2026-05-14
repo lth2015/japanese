@@ -1,0 +1,302 @@
+{
+  "packVersion": 1,
+  "packId": "meeting-bookends-001",
+  "title": "Meeting Bookends 001",
+  "generatedBy": "claude-opus-4-7",
+  "generatedAt": "2026-05-14",
+  "targetProfile": "Chinese native speaker, N1 reading, weak spoken workplace Japanese — meeting opening and closing chunks, high frequency and predictable structure",
+  "reviewStatus": "reviewed",
+  "sentences": [
+    {
+      "externalId": "s001",
+      "japanese": "今日のアジェンダを共有させてください。",
+      "tokens": [
+        { "text": "今日", "kana": "きょう" },
+        { "text": "のアジェンダを" },
+        { "text": "共有", "kana": "きょうゆう" },
+        { "text": "させてください。" }
+      ],
+      "kana": "きょうのあじぇんだをきょうゆうさせてください",
+      "chinese": "请允许我同步今天的议程。",
+      "category": "progress",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 41,
+      "chunkPattern": "~を共有させてください",
+      "tags": ["meeting", "open", "agenda"]
+    },
+    {
+      "externalId": "s002",
+      "japanese": "本日はお時間いただきありがとうございます。",
+      "tokens": [
+        { "text": "本日", "kana": "ほんじつ" },
+        { "text": "はお" },
+        { "text": "時間", "kana": "じかん" },
+        { "text": "いただきありがとうございます。" }
+      ],
+      "kana": "ほんじつはおじかんいただきありがとうございます",
+      "chinese": "今天感谢您抽时间。",
+      "category": "smalltalk",
+      "register": "敬語",
+      "difficulty": 2,
+      "frequencyRank": 28,
+      "chunkPattern": "本日はお~いただきありがとうございます",
+      "tags": ["meeting", "open", "thanks"]
+    },
+    {
+      "externalId": "s003",
+      "japanese": "それでは始めさせていただきます。",
+      "tokens": [
+        { "text": "それでは" },
+        { "text": "始め", "kana": "はじめ" },
+        { "text": "させていただきます。" }
+      ],
+      "kana": "それではじめさせていただきます",
+      "chinese": "那么我们开始吧。",
+      "category": "smalltalk",
+      "register": "敬語",
+      "difficulty": 2,
+      "frequencyRank": 35,
+      "chunkPattern": "それでは~させていただきます",
+      "tags": ["meeting", "open", "kickoff"]
+    },
+    {
+      "externalId": "s004",
+      "japanese": "まず近況のアップデートから入りましょうか。",
+      "tokens": [
+        { "text": "まず" },
+        { "text": "近況", "kana": "きんきょう" },
+        { "text": "のアップデートから" },
+        { "text": "入りましょうか", "kana": "はいりましょうか" },
+        { "text": "。" }
+      ],
+      "kana": "まずきんきょうのあっぷでーとからはいりましょうか",
+      "chinese": "我们先从近况更新开始吧？",
+      "category": "progress",
+      "register": "丁寧",
+      "difficulty": 3,
+      "frequencyRank": 78,
+      "chunkPattern": "まず~から入りましょうか",
+      "tags": ["meeting", "open", "transition"]
+    },
+    {
+      "externalId": "s005",
+      "japanese": "お忙しいところすみません、よろしくお願いします。",
+      "tokens": [
+        { "text": "お" },
+        { "text": "忙しい", "kana": "いそがしい" },
+        { "text": "ところすみません、よろしくお" },
+        { "text": "願いします", "kana": "ねがいします" },
+        { "text": "。" }
+      ],
+      "kana": "おいそがしいところすみませんよろしくおねがいします",
+      "chinese": "百忙之中不好意思，麻烦您了。",
+      "category": "smalltalk",
+      "register": "敬語",
+      "difficulty": 2,
+      "frequencyRank": 31,
+      "chunkPattern": "お忙しいところすみません、~",
+      "tags": ["meeting", "open", "thanks"]
+    },
+    {
+      "externalId": "s006",
+      "japanese": "次のアクションをまとめると、こちらの三点です。",
+      "tokens": [
+        { "text": "次", "kana": "つぎ" },
+        { "text": "のアクションをまとめると、こちらの" },
+        { "text": "三点", "kana": "さんてん" },
+        { "text": "です。" }
+      ],
+      "kana": "つぎのあくしょんをまとめるとこちらのさんてんです",
+      "chinese": "下一步行动归纳起来，是这三点。",
+      "category": "progress",
+      "register": "丁寧",
+      "difficulty": 3,
+      "frequencyRank": 52,
+      "chunkPattern": "次のアクションをまとめると、~です",
+      "tags": ["meeting", "close", "summary"]
+    },
+    {
+      "externalId": "s007",
+      "japanese": "担当と期限はこのあと共有します。",
+      "tokens": [
+        { "text": "担当", "kana": "たんとう" },
+        { "text": "と" },
+        { "text": "期限", "kana": "きげん" },
+        { "text": "はこのあと" },
+        { "text": "共有", "kana": "きょうゆう" },
+        { "text": "します。" }
+      ],
+      "kana": "たんとうときげんはこのあときょうゆうします",
+      "chinese": "负责人和期限稍后同步。",
+      "category": "progress",
+      "register": "丁寧",
+      "difficulty": 3,
+      "frequencyRank": 67,
+      "chunkPattern": "~と~はこのあと共有します",
+      "tags": ["meeting", "close", "owner-deadline"]
+    },
+    {
+      "externalId": "s008",
+      "japanese": "何か追加で確認しておきたいことはありますか。",
+      "tokens": [
+        { "text": "何か", "kana": "なにか" },
+        { "text": "追加", "kana": "ついか" },
+        { "text": "で" },
+        { "text": "確認", "kana": "かくにん" },
+        { "text": "しておきたいことはありますか。" }
+      ],
+      "kana": "なにかついかでかくにんしておきたいことはありますか",
+      "chinese": "还有什么需要再确认一下的吗？",
+      "category": "request",
+      "register": "丁寧",
+      "difficulty": 3,
+      "frequencyRank": 73,
+      "chunkPattern": "何か追加で~たいことはありますか",
+      "tags": ["meeting", "close", "open-floor"]
+    },
+    {
+      "externalId": "s009",
+      "japanese": "では、お疲れ様でした。",
+      "tokens": [
+        { "text": "では、" },
+        { "text": "お疲れ様", "kana": "おつかれさま" },
+        { "text": "でした。" }
+      ],
+      "kana": "ではおつかれさまでした",
+      "chinese": "那么，辛苦了。",
+      "category": "smalltalk",
+      "register": "丁寧",
+      "difficulty": 1,
+      "frequencyRank": 22,
+      "chunkPattern": "では、お疲れ様でした",
+      "tags": ["meeting", "close", "wrap"]
+    },
+    {
+      "externalId": "s010",
+      "japanese": "残りはチャットで詰めましょう。",
+      "tokens": [
+        { "text": "残り", "kana": "のこり" },
+        { "text": "はチャットで" },
+        { "text": "詰めましょう", "kana": "つめましょう" },
+        { "text": "。" }
+      ],
+      "kana": "のこりはちゃっとでつめましょう",
+      "chinese": "剩下的部分在群里继续敲定吧。",
+      "category": "progress",
+      "register": "丁寧",
+      "difficulty": 3,
+      "frequencyRank": 95,
+      "chunkPattern": "残りは~で詰めましょう",
+      "tags": ["meeting", "close", "follow-up"]
+    },
+    {
+      "externalId": "s011",
+      "japanese": "議事録はあとで共有します。",
+      "tokens": [
+        { "text": "議事録", "kana": "ぎじろく" },
+        { "text": "はあとで" },
+        { "text": "共有", "kana": "きょうゆう" },
+        { "text": "します。" }
+      ],
+      "kana": "ぎじろくはあとできょうゆうします",
+      "chinese": "会议纪要稍后同步。",
+      "category": "progress",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 58,
+      "chunkPattern": "~はあとで共有します",
+      "tags": ["meeting", "close", "minutes"]
+    }
+  ],
+  "dialogues": [
+    {
+      "externalId": "d001",
+      "title": "5分ミーティングの冒頭と締めくくり",
+      "scenario": "meeting",
+      "description": "短いチームミーティングの開始挨拶からアクション確認、締めまで一通り流れる進行例。",
+      "difficulty": 3,
+      "register": "丁寧",
+      "tags": ["meeting", "bookend", "facilitator"],
+      "turns": [
+        {
+          "speaker": "ファシリ",
+          "japanese": "本日はお時間いただきありがとうございます。早速ですが、アジェンダを共有させてください。",
+          "tokens": [
+            { "text": "本日", "kana": "ほんじつ" },
+            { "text": "はお" },
+            { "text": "時間", "kana": "じかん" },
+            { "text": "いただきありがとうございます。" },
+            { "text": "早速", "kana": "さっそく" },
+            { "text": "ですが、アジェンダを" },
+            { "text": "共有", "kana": "きょうゆう" },
+            { "text": "させてください。" }
+          ],
+          "kana": "ほんじつはおじかんいただきありがとうございますさっそくですがあじぇんだをきょうゆうさせてください",
+          "chinese": "今天感谢您抽时间。那我们直接开始，请允许我同步一下议程。"
+        },
+        {
+          "speaker": "メンバー",
+          "japanese": "お願いします。",
+          "tokens": [
+            { "text": "お" },
+            { "text": "願いします", "kana": "ねがいします" },
+            { "text": "。" }
+          ],
+          "kana": "おねがいします",
+          "chinese": "麻烦了。"
+        },
+        {
+          "speaker": "ファシリ",
+          "japanese": "次のアクションをまとめると、認識合わせと進捗共有の二点です。担当はこのあと個別に連携します。",
+          "tokens": [
+            { "text": "次", "kana": "つぎ" },
+            { "text": "のアクションをまとめると、" },
+            { "text": "認識", "kana": "にんしき" },
+            { "text": "合わせ", "kana": "あわせ" },
+            { "text": "と" },
+            { "text": "進捗", "kana": "しんちょく" },
+            { "text": "共有", "kana": "きょうゆう" },
+            { "text": "の" },
+            { "text": "二点", "kana": "にてん" },
+            { "text": "です。" },
+            { "text": "担当", "kana": "たんとう" },
+            { "text": "はこのあと" },
+            { "text": "個別", "kana": "こべつ" },
+            { "text": "に" },
+            { "text": "連携", "kana": "れんけい" },
+            { "text": "します。" }
+          ],
+          "kana": "つぎのあくしょんをまとめるとにんしきあわせとしんちょくきょうゆうのにてんですたんとうはこのあとこべつにれんけいします",
+          "chinese": "下一步行动归纳起来是两点：对认识 和 同步进度。负责人稍后单独联系。"
+        },
+        {
+          "speaker": "メンバー",
+          "japanese": "承知しました。議事録お待ちしています。",
+          "tokens": [
+            { "text": "承知", "kana": "しょうち" },
+            { "text": "しました。" },
+            { "text": "議事録", "kana": "ぎじろく" },
+            { "text": "お" },
+            { "text": "待ち", "kana": "まち" },
+            { "text": "しています。" }
+          ],
+          "kana": "しょうちしましたぎじろくおまちしています",
+          "chinese": "明白了。等您的会议纪要。"
+        },
+        {
+          "speaker": "ファシリ",
+          "japanese": "ありがとうございました。お疲れ様でした。",
+          "tokens": [
+            { "text": "ありがとうございました。" },
+            { "text": "お疲れ様", "kana": "おつかれさま" },
+            { "text": "でした。" }
+          ],
+          "kana": "ありがとうございましたおつかれさまでした",
+          "chinese": "感谢各位。辛苦了。"
+        }
+      ]
+    }
+  ],
+  "passages": []
+}

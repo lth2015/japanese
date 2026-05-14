@@ -7,6 +7,7 @@ const config: Config = {
     "./app/**/*.{ts,tsx}",
     "./components/**/*.{ts,tsx}",
     "./lib/**/*.{ts,tsx}",
+    "./store/**/*.{ts,tsx}",
   ],
   theme: {
     extend: {
@@ -16,6 +17,7 @@ const config: Config = {
         "bg-subtle": "var(--bg-subtle)",
         "bg-muted": "var(--bg-muted)",
         surface: "var(--surface)",
+        "surface-tint": "var(--surface-tint)",
 
         // Borders
         border: "var(--border)",

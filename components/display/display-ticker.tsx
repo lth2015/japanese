@@ -135,19 +135,18 @@ export function DisplayTicker({ sentences }: Props) {
         </Button>
       </div>
 
-      {/* Content — perfectly centered, JP dominant, CN small helper.
-       * Container is grid-place-center so the JP+CN block is dead-center
-       * both axes regardless of length. JP uses fluid clamp; CN scales
-       * proportionally but capped — JP stays at least 4-5x CN. */}
-      <div className="h-full grid place-items-center px-6 sm:px-12 lg:px-20">
+      {/* Content — JP dominant, CN tiny helper. The wrapper uses
+       * `absolute inset-0 flex` to fill the parent `fixed inset-0`
+       * main directly, avoiding any height-inheritance ambiguity. */}
+      <div className="absolute inset-0 flex items-center justify-center px-6 sm:px-12 lg:px-20">
         <div
           key={current.id}
-          className="flex flex-col items-center gap-5 sm:gap-7 lg:gap-9 animate-fade-in text-center w-full max-w-[92vw]"
+          className="flex flex-col items-center gap-[clamp(1.25rem,2.5vw,2.5rem)] animate-fade-in text-center w-full max-w-[94vw]"
         >
           <p
             lang="ja"
             className={cn(
-              "font-jp-serif text-fg tracking-wide font-medium leading-[1.08] text-balance",
+              "font-jp-serif text-fg tracking-wide font-semibold leading-[1.1] text-balance",
               FONT_SIZE_CLASS[settings.fontSize],
             )}
           >
@@ -160,7 +159,7 @@ export function DisplayTicker({ sentences }: Props) {
           {settings.showKana && !current.tokens?.length && current.kana && (
             <p
               lang="ja"
-              className="font-mono text-fg-ruby text-[clamp(0.875rem,1.6vw,1.5rem)] tracking-widest"
+              className="font-mono text-fg-ruby text-[clamp(0.875rem,1.5vw,1.375rem)] tracking-widest"
             >
               {current.kana}
             </p>
@@ -168,7 +167,7 @@ export function DisplayTicker({ sentences }: Props) {
           {settings.showChinese && (
             <p
               lang="zh-CN"
-              className="text-fg-cn text-[clamp(1.125rem,2.2vw,2rem)] font-normal tracking-wide text-balance"
+              className="text-fg-cn text-[clamp(1rem,1.8vw,1.625rem)] font-normal tracking-wide text-balance"
             >
               {current.chinese}
             </p>

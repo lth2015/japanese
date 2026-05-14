@@ -71,16 +71,21 @@ export function useDisplaySettings(): [DisplaySettings, typeof setDisplaySetting
 }
 
 /**
- * Font size for Display ambient mode. These ARE allowed to be huge (this is the
- * one place in the app where extreme typography is the point —副屏挂机). The
- * non-ambient Display fallback uses .text-ambient (clamp 48-128px).
+ * Font size for Display ambient mode. The one place in the app where extreme
+ * typography is the point — JP must dominate at every viewport. CN sits at a
+ * fixed small range (see display-ticker), so these are calibrated to keep
+ * JP ≥3x CN even at the smallest setting on the narrowest screen.
  */
-// Fluid clamp() — JP scales smoothly with viewport, no breakpoint dead zones.
-// Min ensures JP is substantial on mobile; max caps growth on huge monitors.
-// L (default): ~56px @ 320 mobile, ~106px @ 960 tablet, ~176px @ 1920 desktop.
+// L (default): ~60px @ 320 mobile, ~115px @ 1280 desktop, 152px cap @ 1700+.
+// Calibrated so a 6-10 char JP sentence fits in 1-2 lines on a 1500px screen
+// — dominant but not overwhelming. JP/CN ratio stays ≥3.5x at every viewport.
+// NOTE: `length:` prefix is REQUIRED — without it, tailwind-merge sees
+// `text-[clamp(...)]` next to `text-fg` (color) and can't disambiguate,
+// dropping the font-size class. The literal `length:` tells twMerge this
+// is unambiguously a size. Don't remove it.
 export const FONT_SIZE_CLASS: Record<FontSize, string> = {
-  S: "text-[clamp(2.25rem,7vw,7.5rem)]",
-  M: "text-[clamp(2.75rem,9vw,10rem)]",
-  L: "text-[clamp(3.5rem,11vw,12.5rem)]",
-  XL: "text-[clamp(4.25rem,13.5vw,15rem)]",
+  S: "text-[length:clamp(2.75rem,6vw,6rem)]",
+  M: "text-[length:clamp(3.25rem,7.5vw,7.5rem)]",
+  L: "text-[length:clamp(3.75rem,9vw,9.5rem)]",
+  XL: "text-[length:clamp(4.5rem,11vw,12rem)]",
 }

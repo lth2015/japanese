@@ -1,0 +1,372 @@
+{
+  "packVersion": 1,
+  "packId": "display-process-explain-001",
+  "title": "Display Process Explanation 001",
+  "generatedBy": "claude-opus-4-7",
+  "generatedAt": "2026-05-15",
+  "targetProfile": "Display-optimized moderate-length sequencing / process phrases — まずは・次に・最後に・つまり. 6-15 chars. Mix カジュアル + 丁寧. Useful for walking through steps in meetings or to yourself when solving a task.",
+  "reviewStatus": "reviewed",
+  "sentences": [
+    {
+      "externalId": "s001",
+      "japanese": "まずは確認から始めよう。",
+      "tokens": [
+        { "text": "まずは" },
+        { "text": "確認", "kana": "かくにん" },
+        { "text": "から" },
+        { "text": "始めよう", "kana": "はじめよう" },
+        { "text": "。" }
+      ],
+      "kana": "まずはかくにんからはじめよう",
+      "chinese": "先从确认开始。",
+      "category": "progress",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 1,
+      "chunkPattern": "まずは〜から始めよう",
+      "tags": ["display", "process", "step-one"]
+    },
+    {
+      "externalId": "s002",
+      "japanese": "次のステップは何？",
+      "tokens": [
+        { "text": "次", "kana": "つぎ" },
+        { "text": "のステップは" },
+        { "text": "何", "kana": "なに" },
+        { "text": "？" }
+      ],
+      "kana": "つぎのすてっぷはなに",
+      "chinese": "下一步是什么？",
+      "category": "request",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 2,
+      "chunkPattern": "次のステップは〜",
+      "tags": ["display", "process", "next-step"]
+    },
+    {
+      "externalId": "s003",
+      "japanese": "最後にもう一回チェック。",
+      "tokens": [
+        { "text": "最後", "kana": "さいご" },
+        { "text": "にもう" },
+        { "text": "一回", "kana": "いっかい" },
+        { "text": "チェック。" }
+      ],
+      "kana": "さいごにもういっかいちぇっく",
+      "chinese": "最后再检查一遍。",
+      "category": "progress",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 3,
+      "chunkPattern": "最後に〜",
+      "tags": ["display", "process", "final-check"]
+    },
+    {
+      "externalId": "s004",
+      "japanese": "つまり、こういうこと。",
+      "tokens": [
+        { "text": "つまり、こういうこと。" }
+      ],
+      "kana": "つまりこういうこと",
+      "chinese": "也就是说,这么回事。",
+      "category": "progress",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 4,
+      "chunkPattern": "つまり、〜",
+      "tags": ["display", "process", "in-other-words"]
+    },
+    {
+      "externalId": "s005",
+      "japanese": "順番にやっていこう。",
+      "tokens": [
+        { "text": "順番", "kana": "じゅんばん" },
+        { "text": "にやっていこう。" }
+      ],
+      "kana": "じゅんばんにやっていこう",
+      "chinese": "按顺序来吧。",
+      "category": "progress",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 5,
+      "chunkPattern": "順番に〜",
+      "tags": ["display", "process", "in-order"]
+    },
+    {
+      "externalId": "s006",
+      "japanese": "まず手順を整理する。",
+      "tokens": [
+        { "text": "まず" },
+        { "text": "手順", "kana": "てじゅん" },
+        { "text": "を" },
+        { "text": "整理", "kana": "せいり" },
+        { "text": "する。" }
+      ],
+      "kana": "まずてじゅんをせいりする",
+      "chinese": "先把流程理一下。",
+      "category": "progress",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 6,
+      "chunkPattern": "まず〜整理する",
+      "tags": ["display", "process", "organize"]
+    },
+    {
+      "externalId": "s007",
+      "japanese": "これが第一段階。",
+      "tokens": [
+        { "text": "これが" },
+        { "text": "第一", "kana": "だいいち" },
+        { "text": "段階", "kana": "だんかい" },
+        { "text": "。" }
+      ],
+      "kana": "これがだいいちだんかい",
+      "chinese": "这是第一阶段。",
+      "category": "progress",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 7,
+      "chunkPattern": "これが第〜段階",
+      "tags": ["display", "process", "phase"]
+    },
+    {
+      "externalId": "s008",
+      "japanese": "その次にこれをやる。",
+      "tokens": [
+        { "text": "その" },
+        { "text": "次", "kana": "つぎ" },
+        { "text": "にこれをやる。" }
+      ],
+      "kana": "そのつぎにこれをやる",
+      "chinese": "接下来做这个。",
+      "category": "progress",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 8,
+      "chunkPattern": "その次に〜",
+      "tags": ["display", "process", "next"]
+    },
+    {
+      "externalId": "s009",
+      "japanese": "一回ここで区切ろう。",
+      "tokens": [
+        { "text": "一回", "kana": "いっかい" },
+        { "text": "ここで" },
+        { "text": "区切ろう", "kana": "くぎろう" },
+        { "text": "。" }
+      ],
+      "kana": "いっかいここでくぎろう",
+      "chinese": "在这里告一段落。",
+      "category": "progress",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 9,
+      "chunkPattern": "一回〜区切ろう",
+      "tags": ["display", "process", "break"]
+    },
+    {
+      "externalId": "s010",
+      "japanese": "続きは明日に。",
+      "tokens": [
+        { "text": "続き", "kana": "つづき" },
+        { "text": "は" },
+        { "text": "明日", "kana": "あした" },
+        { "text": "に。" }
+      ],
+      "kana": "つづきはあしたに",
+      "chinese": "剩下的明天再说。",
+      "category": "progress",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 10,
+      "chunkPattern": "続きは〜",
+      "tags": ["display", "process", "tomorrow"]
+    },
+    {
+      "externalId": "s011",
+      "japanese": "まずは小さいことから。",
+      "tokens": [
+        { "text": "まずは" },
+        { "text": "小さい", "kana": "ちいさい" },
+        { "text": "ことから。" }
+      ],
+      "kana": "まずはちいさいことから",
+      "chinese": "先从小事开始。",
+      "category": "progress",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 11,
+      "chunkPattern": "まずは〜から",
+      "tags": ["display", "process", "small-start"]
+    },
+    {
+      "externalId": "s012",
+      "japanese": "全体の流れを見る。",
+      "tokens": [
+        { "text": "全体", "kana": "ぜんたい" },
+        { "text": "の" },
+        { "text": "流れ", "kana": "ながれ" },
+        { "text": "を" },
+        { "text": "見る", "kana": "みる" },
+        { "text": "。" }
+      ],
+      "kana": "ぜんたいのながれをみる",
+      "chinese": "看一下整体流程。",
+      "category": "progress",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 12,
+      "chunkPattern": "全体の〜を見る",
+      "tags": ["display", "process", "big-picture"]
+    },
+    {
+      "externalId": "s013",
+      "japanese": "細かい所は後で。",
+      "tokens": [
+        { "text": "細かい", "kana": "こまかい" },
+        { "text": "所", "kana": "ところ" },
+        { "text": "は" },
+        { "text": "後", "kana": "あと" },
+        { "text": "で。" }
+      ],
+      "kana": "こまかいところはあとで",
+      "chinese": "细节稍后说。",
+      "category": "progress",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 13,
+      "chunkPattern": "細かい所は〜",
+      "tags": ["display", "process", "details-later"]
+    },
+    {
+      "externalId": "s014",
+      "japanese": "一個ずつ片付けよう。",
+      "tokens": [
+        { "text": "一個", "kana": "いっこ" },
+        { "text": "ずつ" },
+        { "text": "片付けよう", "kana": "かたづけよう" },
+        { "text": "。" }
+      ],
+      "kana": "いっこずつかたづけよう",
+      "chinese": "一个一个解决。",
+      "category": "progress",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 14,
+      "chunkPattern": "一個ずつ〜",
+      "tags": ["display", "process", "one-by-one"]
+    },
+    {
+      "externalId": "s015",
+      "japanese": "これで準備完了。",
+      "tokens": [
+        { "text": "これで" },
+        { "text": "準備", "kana": "じゅんび" },
+        { "text": "完了", "kana": "かんりょう" },
+        { "text": "。" }
+      ],
+      "kana": "これでじゅんびかんりょう",
+      "chinese": "这下准备好了。",
+      "category": "progress",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 15,
+      "chunkPattern": "これで〜完了",
+      "tags": ["display", "process", "ready"]
+    },
+    {
+      "externalId": "s016",
+      "japanese": "結論から先に言う。",
+      "tokens": [
+        { "text": "結論", "kana": "けつろん" },
+        { "text": "から" },
+        { "text": "先", "kana": "さき" },
+        { "text": "に" },
+        { "text": "言う", "kana": "いう" },
+        { "text": "。" }
+      ],
+      "kana": "けつろんからさきにいう",
+      "chinese": "先说结论。",
+      "category": "progress",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 16,
+      "chunkPattern": "結論から先に〜",
+      "tags": ["display", "process", "conclusion-first"]
+    },
+    {
+      "externalId": "s017",
+      "japanese": "その後で詳しく説明。",
+      "tokens": [
+        { "text": "その" },
+        { "text": "後", "kana": "あと" },
+        { "text": "で" },
+        { "text": "詳しく", "kana": "くわしく" },
+        { "text": "説明", "kana": "せつめい" },
+        { "text": "。" }
+      ],
+      "kana": "そのあとでくわしくせつめい",
+      "chinese": "之后再详细说明。",
+      "category": "progress",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 17,
+      "chunkPattern": "その後で詳しく〜",
+      "tags": ["display", "process", "elaborate"]
+    },
+    {
+      "externalId": "s018",
+      "japanese": "簡単に流れを言うと。",
+      "tokens": [
+        { "text": "簡単", "kana": "かんたん" },
+        { "text": "に" },
+        { "text": "流れ", "kana": "ながれ" },
+        { "text": "を" },
+        { "text": "言う", "kana": "いう" },
+        { "text": "と。" }
+      ],
+      "kana": "かんたんにながれをいうと",
+      "chinese": "简单说一下流程。",
+      "category": "progress",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 18,
+      "chunkPattern": "簡単に〜と",
+      "tags": ["display", "process", "summary"]
+    },
+    {
+      "externalId": "s019",
+      "japanese": "ここがポイント。",
+      "tokens": [
+        { "text": "ここがポイント。" }
+      ],
+      "kana": "ここがぽいんと",
+      "chinese": "这里是要点。",
+      "category": "progress",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 19,
+      "chunkPattern": "ここが〜",
+      "tags": ["display", "process", "key-point"]
+    },
+    {
+      "externalId": "s020",
+      "japanese": "最終的にはこうなる。",
+      "tokens": [
+        { "text": "最終的", "kana": "さいしゅうてき" },
+        { "text": "にはこうなる。" }
+      ],
+      "kana": "さいしゅうてきにはこうなる",
+      "chinese": "最终就会变成这样。",
+      "category": "progress",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 20,
+      "chunkPattern": "最終的には〜",
+      "tags": ["display", "process", "end-state"]
+    }
+  ],
+  "dialogues": [],
+  "passages": []
+}

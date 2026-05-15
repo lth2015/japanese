@@ -1,0 +1,367 @@
+{
+  "packVersion": 1,
+  "packId": "display-life-balance-001",
+  "title": "Display Life Balance 001",
+  "generatedBy": "claude-opus-4-7",
+  "generatedAt": "2026-05-15",
+  "targetProfile": "Display-optimized moderate-length phrases about rest, burnout, balance, and self-care. 5-15 chars. Mostly カジュアル. The kind of phrases that help you talk about (and notice) the need to slow down.",
+  "reviewStatus": "reviewed",
+  "sentences": [
+    {
+      "externalId": "s001",
+      "japanese": "今日はもう休む。",
+      "tokens": [
+        { "text": "今日", "kana": "きょう" },
+        { "text": "はもう" },
+        { "text": "休む", "kana": "やすむ" },
+        { "text": "。" }
+      ],
+      "kana": "きょうはもうやすむ",
+      "chinese": "今天就休息了。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 1000,
+      "chunkPattern": "今日はもう〜",
+      "tags": ["display", "balance", "rest"]
+    },
+    {
+      "externalId": "s002",
+      "japanese": "無理は禁物。",
+      "tokens": [
+        { "text": "無理", "kana": "むり" },
+        { "text": "は" },
+        { "text": "禁物", "kana": "きんもつ" },
+        { "text": "。" }
+      ],
+      "kana": "むりはきんもつ",
+      "chinese": "勉强可不行。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 3,
+      "frequencyRank": 999,
+      "chunkPattern": "〜は禁物",
+      "tags": ["display", "balance", "wise"]
+    },
+    {
+      "externalId": "s003",
+      "japanese": "ちゃんと寝ようね。",
+      "tokens": [
+        { "text": "ちゃんと" },
+        { "text": "寝よう", "kana": "ねよう" },
+        { "text": "ね。" }
+      ],
+      "kana": "ちゃんとねようね",
+      "chinese": "好好睡觉吧。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 997,
+      "chunkPattern": "ちゃんと〜",
+      "tags": ["display", "balance", "sleep"]
+    },
+    {
+      "externalId": "s004",
+      "japanese": "燃え尽きそう。",
+      "tokens": [
+        { "text": "燃え尽きそう", "kana": "もえつきそう" },
+        { "text": "。" }
+      ],
+      "kana": "もえつきそう",
+      "chinese": "快烧光了。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 3,
+      "frequencyRank": 993,
+      "chunkPattern": "〜尽きそう",
+      "tags": ["display", "balance", "burnout"]
+    },
+    {
+      "externalId": "s005",
+      "japanese": "たまには休もう。",
+      "tokens": [
+        { "text": "たまには" },
+        { "text": "休もう", "kana": "やすもう" },
+        { "text": "。" }
+      ],
+      "kana": "たまにはやすもう",
+      "chinese": "偶尔休息一下吧。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 991,
+      "chunkPattern": "たまには〜",
+      "tags": ["display", "balance", "occasional"]
+    },
+    {
+      "externalId": "s006",
+      "japanese": "心が休まらない。",
+      "tokens": [
+        { "text": "心", "kana": "こころ" },
+        { "text": "が" },
+        { "text": "休まらない", "kana": "やすまらない" },
+        { "text": "。" }
+      ],
+      "kana": "こころがやすまらない",
+      "chinese": "心静不下来。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 989,
+      "chunkPattern": "心が〜ない",
+      "tags": ["display", "balance", "restless"]
+    },
+    {
+      "externalId": "s007",
+      "japanese": "ちょっと深呼吸。",
+      "tokens": [
+        { "text": "ちょっと" },
+        { "text": "深呼吸", "kana": "しんこきゅう" },
+        { "text": "。" }
+      ],
+      "kana": "ちょっとしんこきゅう",
+      "chinese": "稍微深呼吸一下。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 987,
+      "chunkPattern": "ちょっと〜",
+      "tags": ["display", "balance", "breathe"]
+    },
+    {
+      "externalId": "s008",
+      "japanese": "オンとオフ切り替え。",
+      "tokens": [
+        { "text": "オンとオフ" },
+        { "text": "切り替え", "kana": "きりかえ" },
+        { "text": "。" }
+      ],
+      "kana": "おんとおふきりかえ",
+      "chinese": "切换 on / off 状态。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 983,
+      "chunkPattern": "オンとオフ〜",
+      "tags": ["display", "balance", "switch"]
+    },
+    {
+      "externalId": "s009",
+      "japanese": "自分時間が必要。",
+      "tokens": [
+        { "text": "自分時間", "kana": "じぶんじかん" },
+        { "text": "が" },
+        { "text": "必要", "kana": "ひつよう" },
+        { "text": "。" }
+      ],
+      "kana": "じぶんじかんがひつよう",
+      "chinese": "需要自己的时间。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 981,
+      "chunkPattern": "〜時間が必要",
+      "tags": ["display", "balance", "me-time"]
+    },
+    {
+      "externalId": "s010",
+      "japanese": "仕事のことは忘れる。",
+      "tokens": [
+        { "text": "仕事", "kana": "しごと" },
+        { "text": "のことは" },
+        { "text": "忘れる", "kana": "わすれる" },
+        { "text": "。" }
+      ],
+      "kana": "しごとのことはわすれる",
+      "chinese": "把工作忘了吧。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 979,
+      "chunkPattern": "〜のことは忘れる",
+      "tags": ["display", "balance", "disconnect"]
+    },
+    {
+      "externalId": "s011",
+      "japanese": "今は休む時。",
+      "tokens": [
+        { "text": "今", "kana": "いま" },
+        { "text": "は" },
+        { "text": "休む", "kana": "やすむ" },
+        { "text": "時", "kana": "とき" },
+        { "text": "。" }
+      ],
+      "kana": "いまはやすむとき",
+      "chinese": "现在是休息的时候。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 977,
+      "chunkPattern": "今は〜時",
+      "tags": ["display", "balance", "rest-now"]
+    },
+    {
+      "externalId": "s012",
+      "japanese": "ちょっと散歩しよう。",
+      "tokens": [
+        { "text": "ちょっと" },
+        { "text": "散歩", "kana": "さんぽ" },
+        { "text": "しよう。" }
+      ],
+      "kana": "ちょっとさんぽしよう",
+      "chinese": "稍微散个步吧。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 973,
+      "chunkPattern": "ちょっと〜しよう",
+      "tags": ["display", "balance", "walk"]
+    },
+    {
+      "externalId": "s013",
+      "japanese": "早寝早起きしたい。",
+      "tokens": [
+        { "text": "早寝早起き", "kana": "はやねはやおき" },
+        { "text": "したい。" }
+      ],
+      "kana": "はやねはやおきしたい",
+      "chinese": "想早睡早起。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 971,
+      "chunkPattern": "〜したい",
+      "tags": ["display", "balance", "routine"]
+    },
+    {
+      "externalId": "s014",
+      "japanese": "もう少し力を抜こう。",
+      "tokens": [
+        { "text": "もう" },
+        { "text": "少し", "kana": "すこし" },
+        { "text": "力", "kana": "ちから" },
+        { "text": "を" },
+        { "text": "抜こう", "kana": "ぬこう" },
+        { "text": "。" }
+      ],
+      "kana": "もうすこしちからをぬこう",
+      "chinese": "稍微放松一点吧。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 969,
+      "chunkPattern": "もう少し力〜抜こう",
+      "tags": ["display", "balance", "ease-up"]
+    },
+    {
+      "externalId": "s015",
+      "japanese": "やりすぎないで。",
+      "tokens": [
+        { "text": "やりすぎないで。" }
+      ],
+      "kana": "やりすぎないで",
+      "chinese": "别做得太过头。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 967,
+      "chunkPattern": "やりすぎ〜",
+      "tags": ["display", "balance", "moderation"]
+    },
+    {
+      "externalId": "s016",
+      "japanese": "しっかり食事しよう。",
+      "tokens": [
+        { "text": "しっかり" },
+        { "text": "食事", "kana": "しょくじ" },
+        { "text": "しよう。" }
+      ],
+      "kana": "しっかりしょくじしよう",
+      "chinese": "好好吃饭吧。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 963,
+      "chunkPattern": "しっかり〜しよう",
+      "tags": ["display", "balance", "eat-well"]
+    },
+    {
+      "externalId": "s017",
+      "japanese": "気分転換が必要。",
+      "tokens": [
+        { "text": "気分転換", "kana": "きぶんてんかん" },
+        { "text": "が" },
+        { "text": "必要", "kana": "ひつよう" },
+        { "text": "。" }
+      ],
+      "kana": "きぶんてんかんがひつよう",
+      "chinese": "需要换换心情。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 961,
+      "chunkPattern": "〜が必要",
+      "tags": ["display", "balance", "refresh"]
+    },
+    {
+      "externalId": "s018",
+      "japanese": "今日は早く寝る。",
+      "tokens": [
+        { "text": "今日", "kana": "きょう" },
+        { "text": "は" },
+        { "text": "早く", "kana": "はやく" },
+        { "text": "寝る", "kana": "ねる" },
+        { "text": "。" }
+      ],
+      "kana": "きょうははやくねる",
+      "chinese": "今天早点睡。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 959,
+      "chunkPattern": "今日は早く〜",
+      "tags": ["display", "balance", "early-bed"]
+    },
+    {
+      "externalId": "s019",
+      "japanese": "自分を大切に。",
+      "tokens": [
+        { "text": "自分", "kana": "じぶん" },
+        { "text": "を" },
+        { "text": "大切", "kana": "たいせつ" },
+        { "text": "に。" }
+      ],
+      "kana": "じぶんをたいせつに",
+      "chinese": "好好爱自己。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 957,
+      "chunkPattern": "自分を〜に",
+      "tags": ["display", "balance", "self-care"]
+    },
+    {
+      "externalId": "s020",
+      "japanese": "もう少し肩の力抜いて。",
+      "tokens": [
+        { "text": "もう" },
+        { "text": "少し", "kana": "すこし" },
+        { "text": "肩", "kana": "かた" },
+        { "text": "の" },
+        { "text": "力", "kana": "ちから" },
+        { "text": "抜いて", "kana": "ぬいて" },
+        { "text": "。" }
+      ],
+      "kana": "もうすこしかたのちからぬいて",
+      "chinese": "稍微放松肩膀。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 3,
+      "frequencyRank": 953,
+      "chunkPattern": "肩の力〜",
+      "tags": ["display", "balance", "loosen"]
+    }
+  ],
+  "dialogues": [],
+  "passages": []
+}

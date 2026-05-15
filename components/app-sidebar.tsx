@@ -5,6 +5,7 @@ import {
   FileText,
   Headphones,
   Home,
+  MessageSquare,
   MonitorPlay,
   PencilLine,
   Settings,
@@ -37,12 +38,13 @@ const TRAINING: NavItem[] = [
 
 const LIBRARY: NavItem[] = [
   { href: "/passages", label: "短文", icon: FileText },
+  { href: "/dialogues", label: "情景对话", icon: MessageSquare },
   { href: "/library", label: "场景库", icon: BookOpen },
   { href: "/display", label: "Display", icon: MonitorPlay },
 ]
 
 const COMING: NavItem[] = [
-  { href: "/talk", label: "对话", icon: Sparkles, soon: true },
+  { href: "/talk", label: "AI 对话", icon: Sparkles, soon: true },
 ]
 
 export function AppSidebar() {

@@ -1,0 +1,367 @@
+{
+  "packVersion": 1,
+  "packId": "display-commute-phrases-001",
+  "title": "Display Commute Phrases 001",
+  "generatedBy": "claude-opus-4-7",
+  "generatedAt": "2026-05-15",
+  "targetProfile": "Display-optimized moderate-length commute / transit phrases — packed trains, delays, transfers, missed stops. 5-15 chars. Mix カジュアル. Specific to daily transit life in Japan / urban commuting.",
+  "reviewStatus": "reviewed",
+  "sentences": [
+    {
+      "externalId": "s001",
+      "japanese": "満員電車辛い。",
+      "tokens": [
+        { "text": "満員電車", "kana": "まんいんでんしゃ" },
+        { "text": "辛い", "kana": "つらい" },
+        { "text": "。" }
+      ],
+      "kana": "まんいんでんしゃつらい",
+      "chinese": "满员电车好难受。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 141,
+      "chunkPattern": "〜辛い",
+      "tags": ["display", "commute", "crowded"]
+    },
+    {
+      "externalId": "s002",
+      "japanese": "乗り換え何分？",
+      "tokens": [
+        { "text": "乗り換え", "kana": "のりかえ" },
+        { "text": "何分", "kana": "なんぷん" },
+        { "text": "？" }
+      ],
+      "kana": "のりかえなんぷん",
+      "chinese": "换乘几分钟？",
+      "category": "request",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 142,
+      "chunkPattern": "乗り換え〜",
+      "tags": ["display", "commute", "transfer"]
+    },
+    {
+      "externalId": "s003",
+      "japanese": "電車遅延してる。",
+      "tokens": [
+        { "text": "電車", "kana": "でんしゃ" },
+        { "text": "遅延", "kana": "ちえん" },
+        { "text": "してる。" }
+      ],
+      "kana": "でんしゃちえんしてる",
+      "chinese": "电车晚点了。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 143,
+      "chunkPattern": "〜遅延してる",
+      "tags": ["display", "commute", "delay"]
+    },
+    {
+      "externalId": "s004",
+      "japanese": "次の駅で降りる。",
+      "tokens": [
+        { "text": "次", "kana": "つぎ" },
+        { "text": "の" },
+        { "text": "駅", "kana": "えき" },
+        { "text": "で" },
+        { "text": "降りる", "kana": "おりる" },
+        { "text": "。" }
+      ],
+      "kana": "つぎのえきでおりる",
+      "chinese": "下一站下车。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 144,
+      "chunkPattern": "次の駅で〜",
+      "tags": ["display", "commute", "next-stop"]
+    },
+    {
+      "externalId": "s005",
+      "japanese": "ホーム混んでる。",
+      "tokens": [
+        { "text": "ホーム" },
+        { "text": "混んでる", "kana": "こんでる" },
+        { "text": "。" }
+      ],
+      "kana": "ほーむこんでる",
+      "chinese": "站台很挤。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 145,
+      "chunkPattern": "〜混んでる",
+      "tags": ["display", "commute", "platform"]
+    },
+    {
+      "externalId": "s006",
+      "japanese": "始発に間に合った。",
+      "tokens": [
+        { "text": "始発", "kana": "しはつ" },
+        { "text": "に" },
+        { "text": "間に合った", "kana": "まにあった" },
+        { "text": "。" }
+      ],
+      "kana": "しはつにまにあった",
+      "chinese": "赶上了首班。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 146,
+      "chunkPattern": "〜に間に合った",
+      "tags": ["display", "commute", "first-train"]
+    },
+    {
+      "externalId": "s007",
+      "japanese": "最終電車逃した。",
+      "tokens": [
+        { "text": "最終電車", "kana": "さいしゅうでんしゃ" },
+        { "text": "逃した", "kana": "のがした" },
+        { "text": "。" }
+      ],
+      "kana": "さいしゅうでんしゃのがした",
+      "chinese": "错过了末班车。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 147,
+      "chunkPattern": "〜逃した",
+      "tags": ["display", "commute", "last-train"]
+    },
+    {
+      "externalId": "s008",
+      "japanese": "改札ですれ違った。",
+      "tokens": [
+        { "text": "改札", "kana": "かいさつ" },
+        { "text": "で" },
+        { "text": "すれ違った", "kana": "すれちがった" },
+        { "text": "。" }
+      ],
+      "kana": "かいさつですれちがった",
+      "chinese": "在检票口擦肩而过。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 148,
+      "chunkPattern": "〜ですれ違った",
+      "tags": ["display", "commute", "missed-each-other"]
+    },
+    {
+      "externalId": "s009",
+      "japanese": "自転車で行く。",
+      "tokens": [
+        { "text": "自転車", "kana": "じてんしゃ" },
+        { "text": "で" },
+        { "text": "行く", "kana": "いく" },
+        { "text": "。" }
+      ],
+      "kana": "じてんしゃでいく",
+      "chinese": "骑自行车去。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 149,
+      "chunkPattern": "〜で行く",
+      "tags": ["display", "commute", "bicycle"]
+    },
+    {
+      "externalId": "s010",
+      "japanese": "バス時間ぴったり。",
+      "tokens": [
+        { "text": "バス" },
+        { "text": "時間", "kana": "じかん" },
+        { "text": "ぴったり。" }
+      ],
+      "kana": "ばすじかんぴったり",
+      "chinese": "巴士时间正好。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 150,
+      "chunkPattern": "〜時間ぴったり",
+      "tags": ["display", "commute", "on-time"]
+    },
+    {
+      "externalId": "s011",
+      "japanese": "渋滞にハマった。",
+      "tokens": [
+        { "text": "渋滞", "kana": "じゅうたい" },
+        { "text": "にハマった。" }
+      ],
+      "kana": "じゅうたいにはまった",
+      "chinese": "堵车了。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 151,
+      "chunkPattern": "〜にハマった",
+      "tags": ["display", "commute", "traffic-jam"]
+    },
+    {
+      "externalId": "s012",
+      "japanese": "朝の通勤ラッシュ。",
+      "tokens": [
+        { "text": "朝", "kana": "あさ" },
+        { "text": "の" },
+        { "text": "通勤", "kana": "つうきん" },
+        { "text": "ラッシュ。" }
+      ],
+      "kana": "あさのつうきんらっしゅ",
+      "chinese": "早高峰。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 152,
+      "chunkPattern": "朝の〜ラッシュ",
+      "tags": ["display", "commute", "rush-hour"]
+    },
+    {
+      "externalId": "s013",
+      "japanese": "雨で電車止まった。",
+      "tokens": [
+        { "text": "雨", "kana": "あめ" },
+        { "text": "で" },
+        { "text": "電車", "kana": "でんしゃ" },
+        { "text": "止まった", "kana": "とまった" },
+        { "text": "。" }
+      ],
+      "kana": "あめででんしゃとまった",
+      "chinese": "因为雨电车停了。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 153,
+      "chunkPattern": "〜で電車〜",
+      "tags": ["display", "commute", "rain-stop"]
+    },
+    {
+      "externalId": "s014",
+      "japanese": "駅員に聞こう。",
+      "tokens": [
+        { "text": "駅員", "kana": "えきいん" },
+        { "text": "に" },
+        { "text": "聞こう", "kana": "きこう" },
+        { "text": "。" }
+      ],
+      "kana": "えきいんにきこう",
+      "chinese": "问下站员。",
+      "category": "progress",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 154,
+      "chunkPattern": "駅員に〜",
+      "tags": ["display", "commute", "ask-staff"]
+    },
+    {
+      "externalId": "s015",
+      "japanese": "定期券更新しないと。",
+      "tokens": [
+        { "text": "定期券", "kana": "ていきけん" },
+        { "text": "更新", "kana": "こうしん" },
+        { "text": "しないと。" }
+      ],
+      "kana": "ていきけんこうしんしないと",
+      "chinese": "得续月票了。",
+      "category": "progress",
+      "register": "カジュアル",
+      "difficulty": 3,
+      "frequencyRank": 155,
+      "chunkPattern": "定期券〜",
+      "tags": ["display", "commute", "renew-pass"]
+    },
+    {
+      "externalId": "s016",
+      "japanese": "階段使った方が早い。",
+      "tokens": [
+        { "text": "階段", "kana": "かいだん" },
+        { "text": "使った", "kana": "つかった" },
+        { "text": "方", "kana": "ほう" },
+        { "text": "が" },
+        { "text": "早い", "kana": "はやい" },
+        { "text": "。" }
+      ],
+      "kana": "かいだんつかったほうがはやい",
+      "chinese": "走楼梯快一些。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 156,
+      "chunkPattern": "〜方が早い",
+      "tags": ["display", "commute", "stairs-faster"]
+    },
+    {
+      "externalId": "s017",
+      "japanese": "一駅歩いて帰る。",
+      "tokens": [
+        { "text": "一駅", "kana": "ひとえき" },
+        { "text": "歩いて", "kana": "あるいて" },
+        { "text": "帰る", "kana": "かえる" },
+        { "text": "。" }
+      ],
+      "kana": "ひとえきあるいてかえる",
+      "chinese": "走一站回家。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 157,
+      "chunkPattern": "〜歩いて帰る",
+      "tags": ["display", "commute", "walk-home"]
+    },
+    {
+      "externalId": "s018",
+      "japanese": "乗り過ごしたかも。",
+      "tokens": [
+        { "text": "乗り過ごした", "kana": "のりすごした" },
+        { "text": "かも。" }
+      ],
+      "kana": "のりすごしたかも",
+      "chinese": "可能坐过站了。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 158,
+      "chunkPattern": "〜過ごしたかも",
+      "tags": ["display", "commute", "missed-stop"]
+    },
+    {
+      "externalId": "s019",
+      "japanese": "急行に乗ろう。",
+      "tokens": [
+        { "text": "急行", "kana": "きゅうこう" },
+        { "text": "に" },
+        { "text": "乗ろう", "kana": "のろう" },
+        { "text": "。" }
+      ],
+      "kana": "きゅうこうにのろう",
+      "chinese": "坐快车吧。",
+      "category": "progress",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 159,
+      "chunkPattern": "〜に乗ろう",
+      "tags": ["display", "commute", "express"]
+    },
+    {
+      "externalId": "s020",
+      "japanese": "通勤時間が長い。",
+      "tokens": [
+        { "text": "通勤時間", "kana": "つうきんじかん" },
+        { "text": "が" },
+        { "text": "長い", "kana": "ながい" },
+        { "text": "。" }
+      ],
+      "kana": "つうきんじかんがながい",
+      "chinese": "通勤时间很长。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 160,
+      "chunkPattern": "通勤時間が〜",
+      "tags": ["display", "commute", "long"]
+    }
+  ],
+  "dialogues": [],
+  "passages": []
+}

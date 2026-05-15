@@ -1,0 +1,347 @@
+{
+  "packVersion": 1,
+  "packId": "display-weighing-001",
+  "title": "Display Weighing Options 001",
+  "generatedBy": "claude-opus-4-7",
+  "generatedAt": "2026-05-15",
+  "targetProfile": "Display-optimized moderate-length comparing/choosing phrases. 6-16 chars. Mix カジュアル + 丁寧. The kind of phrases you say when weighing options at work or in daily decisions.",
+  "reviewStatus": "reviewed",
+  "sentences": [
+    {
+      "externalId": "s001",
+      "japanese": "どっちが楽かな。",
+      "tokens": [
+        { "text": "どっちが" },
+        { "text": "楽", "kana": "らく" },
+        { "text": "かな。" }
+      ],
+      "kana": "どっちがらくかな",
+      "chinese": "哪个更轻松呢。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 435,
+      "chunkPattern": "どっちが〜かな",
+      "tags": ["display", "weighing", "compare"]
+    },
+    {
+      "externalId": "s002",
+      "japanese": "Aの方がよさそう。",
+      "tokens": [
+        { "text": "A" },
+        { "text": "の" },
+        { "text": "方", "kana": "ほう" },
+        { "text": "がよさそう。" }
+      ],
+      "kana": "Aのほうがよさそう",
+      "chinese": "A 那个看起来更好。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 440,
+      "chunkPattern": "〜の方がよさそう",
+      "tags": ["display", "weighing", "prefer"]
+    },
+    {
+      "externalId": "s003",
+      "japanese": "どっちでもいいか。",
+      "tokens": [
+        { "text": "どっちでもいいか。" }
+      ],
+      "kana": "どっちでもいいか",
+      "chinese": "哪个都行吧。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 445,
+      "chunkPattern": "どっちでもいい",
+      "tags": ["display", "weighing", "indifferent"]
+    },
+    {
+      "externalId": "s004",
+      "japanese": "迷うところだな。",
+      "tokens": [
+        { "text": "迷う", "kana": "まよう" },
+        { "text": "ところだな。" }
+      ],
+      "kana": "まようところだな",
+      "chinese": "这地方挺纠结的。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 450,
+      "chunkPattern": "〜ところだな",
+      "tags": ["display", "weighing", "torn"]
+    },
+    {
+      "externalId": "s005",
+      "japanese": "やっぱりこっちかな。",
+      "tokens": [
+        { "text": "やっぱりこっちかな。" }
+      ],
+      "kana": "やっぱりこっちかな",
+      "chinese": "还是这个吧。",
+      "category": "progress",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 455,
+      "chunkPattern": "やっぱり〜かな",
+      "tags": ["display", "weighing", "settle"]
+    },
+    {
+      "externalId": "s006",
+      "japanese": "それともこっち？",
+      "tokens": [
+        { "text": "それともこっち？" }
+      ],
+      "kana": "それともこっち",
+      "chinese": "还是这个？",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 460,
+      "chunkPattern": "それとも〜",
+      "tags": ["display", "weighing", "alternative"]
+    },
+    {
+      "externalId": "s007",
+      "japanese": "安い方にしよう。",
+      "tokens": [
+        { "text": "安い", "kana": "やすい" },
+        { "text": "方", "kana": "ほう" },
+        { "text": "にしよう。" }
+      ],
+      "kana": "やすいほうにしよう",
+      "chinese": "选便宜的吧。",
+      "category": "progress",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 465,
+      "chunkPattern": "〜方にしよう",
+      "tags": ["display", "weighing", "price"]
+    },
+    {
+      "externalId": "s008",
+      "japanese": "早い方が助かる。",
+      "tokens": [
+        { "text": "早い", "kana": "はやい" },
+        { "text": "方", "kana": "ほう" },
+        { "text": "が" },
+        { "text": "助かる", "kana": "たすかる" },
+        { "text": "。" }
+      ],
+      "kana": "はやいほうがたすかる",
+      "chinese": "早一点更好。",
+      "category": "request",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 470,
+      "chunkPattern": "〜方が助かる",
+      "tags": ["display", "weighing", "time"]
+    },
+    {
+      "externalId": "s009",
+      "japanese": "ちょっと考えさせて。",
+      "tokens": [
+        { "text": "ちょっと" },
+        { "text": "考え", "kana": "かんがえ" },
+        { "text": "させて。" }
+      ],
+      "kana": "ちょっとかんがえさせて",
+      "chinese": "让我稍微想想。",
+      "category": "request",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 475,
+      "chunkPattern": "ちょっと〜させて",
+      "tags": ["display", "weighing", "think-time"]
+    },
+    {
+      "externalId": "s010",
+      "japanese": "どっちにしようかな。",
+      "tokens": [
+        { "text": "どっちにしようかな。" }
+      ],
+      "kana": "どっちにしようかな",
+      "chinese": "选哪个呢。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 480,
+      "chunkPattern": "どっちにしよう",
+      "tags": ["display", "weighing", "decide"]
+    },
+    {
+      "externalId": "s011",
+      "japanese": "比べると、Aがいい。",
+      "tokens": [
+        { "text": "比べる", "kana": "くらべる" },
+        { "text": "と、Aがいい。" }
+      ],
+      "kana": "くらべるとAがいい",
+      "chinese": "比起来,A 比较好。",
+      "category": "progress",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 485,
+      "chunkPattern": "比べると、〜",
+      "tags": ["display", "weighing", "compare"]
+    },
+    {
+      "externalId": "s012",
+      "japanese": "両方やる手もある。",
+      "tokens": [
+        { "text": "両方", "kana": "りょうほう" },
+        { "text": "やる" },
+        { "text": "手", "kana": "て" },
+        { "text": "もある。" }
+      ],
+      "kana": "りょうほうやるてもある",
+      "chinese": "也可以两个都做。",
+      "category": "progress",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 490,
+      "chunkPattern": "〜手もある",
+      "tags": ["display", "weighing", "both-options"]
+    },
+    {
+      "externalId": "s013",
+      "japanese": "AかBか、どっち？",
+      "tokens": [
+        { "text": "AかBか、どっち？" }
+      ],
+      "kana": "AかBかどっち",
+      "chinese": "A 还是 B,哪个？",
+      "category": "request",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 495,
+      "chunkPattern": "〜か〜か、どっち",
+      "tags": ["display", "weighing", "ask"]
+    },
+    {
+      "externalId": "s014",
+      "japanese": "もう少し時間ほしい。",
+      "tokens": [
+        { "text": "もう" },
+        { "text": "少し", "kana": "すこし" },
+        { "text": "時間", "kana": "じかん" },
+        { "text": "ほしい。" }
+      ],
+      "kana": "もうすこしじかんほしい",
+      "chinese": "想再要点时间。",
+      "category": "request",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 500,
+      "chunkPattern": "もう少し〜ほしい",
+      "tags": ["display", "weighing", "delay"]
+    },
+    {
+      "externalId": "s015",
+      "japanese": "急がない方がいいかも。",
+      "tokens": [
+        { "text": "急がない", "kana": "いそがない" },
+        { "text": "方", "kana": "ほう" },
+        { "text": "がいいかも。" }
+      ],
+      "kana": "いそがないほうがいいかも",
+      "chinese": "不着急或许更好。",
+      "category": "progress",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 505,
+      "chunkPattern": "〜方がいいかも",
+      "tags": ["display", "weighing", "slow-down"]
+    },
+    {
+      "externalId": "s016",
+      "japanese": "一度試してみるか。",
+      "tokens": [
+        { "text": "一度", "kana": "いちど" },
+        { "text": "試して", "kana": "ためして" },
+        { "text": "みるか。" }
+      ],
+      "kana": "いちどためしてみるか",
+      "chinese": "先试一次吧。",
+      "category": "progress",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 510,
+      "chunkPattern": "一度〜みるか",
+      "tags": ["display", "weighing", "experiment"]
+    },
+    {
+      "externalId": "s017",
+      "japanese": "これで進めよう。",
+      "tokens": [
+        { "text": "これで" },
+        { "text": "進めよう", "kana": "すすめよう" },
+        { "text": "。" }
+      ],
+      "kana": "これですすめよう",
+      "chinese": "就按这个推进吧。",
+      "category": "progress",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 515,
+      "chunkPattern": "これで〜",
+      "tags": ["display", "weighing", "commit"]
+    },
+    {
+      "externalId": "s018",
+      "japanese": "別の方法もあるよ。",
+      "tokens": [
+        { "text": "別", "kana": "べつ" },
+        { "text": "の" },
+        { "text": "方法", "kana": "ほうほう" },
+        { "text": "もあるよ。" }
+      ],
+      "kana": "べつのほうほうもあるよ",
+      "chinese": "还有别的办法。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 520,
+      "chunkPattern": "別の〜もある",
+      "tags": ["display", "weighing", "alternatives"]
+    },
+    {
+      "externalId": "s019",
+      "japanese": "時間ないし、これで。",
+      "tokens": [
+        { "text": "時間", "kana": "じかん" },
+        { "text": "ないし、これで。" }
+      ],
+      "kana": "じかんないしこれで",
+      "chinese": "没时间了,就这样吧。",
+      "category": "progress",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 525,
+      "chunkPattern": "〜ないし、これで",
+      "tags": ["display", "weighing", "time-up"]
+    },
+    {
+      "externalId": "s020",
+      "japanese": "後悔しない方を。",
+      "tokens": [
+        { "text": "後悔", "kana": "こうかい" },
+        { "text": "しない" },
+        { "text": "方", "kana": "ほう" },
+        { "text": "を。" }
+      ],
+      "kana": "こうかいしないほうを",
+      "chinese": "选不会后悔的那个。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 530,
+      "chunkPattern": "後悔しない方を",
+      "tags": ["display", "weighing", "regret-free"]
+    }
+  ],
+  "dialogues": [],
+  "passages": []
+}

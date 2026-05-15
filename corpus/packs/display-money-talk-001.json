@@ -1,0 +1,360 @@
+{
+  "packVersion": 1,
+  "packId": "display-money-talk-001",
+  "title": "Display Money Talk 001",
+  "generatedBy": "claude-opus-4-7",
+  "generatedAt": "2026-05-15",
+  "targetProfile": "Display-optimized moderate-length phrases about money, prices, budget, and value judgments in daily life. 6-15 chars. Mostly カジュアル. Useful for everyday spending decisions, shopping with friends, splitting bills.",
+  "reviewStatus": "reviewed",
+  "sentences": [
+    {
+      "externalId": "s001",
+      "japanese": "ちょっと高いな。",
+      "tokens": [
+        { "text": "ちょっと" },
+        { "text": "高い", "kana": "たかい" },
+        { "text": "な。" }
+      ],
+      "kana": "ちょっとたかいな",
+      "chinese": "有点贵啊。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 750,
+      "chunkPattern": "ちょっと〜な",
+      "tags": ["display", "money", "expensive"]
+    },
+    {
+      "externalId": "s002",
+      "japanese": "安くてびっくり。",
+      "tokens": [
+        { "text": "安くて", "kana": "やすくて" },
+        { "text": "びっくり。" }
+      ],
+      "kana": "やすくてびっくり",
+      "chinese": "便宜得吓我一跳。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 755,
+      "chunkPattern": "〜くて〜",
+      "tags": ["display", "money", "cheap"]
+    },
+    {
+      "externalId": "s003",
+      "japanese": "予算オーバーしそう。",
+      "tokens": [
+        { "text": "予算", "kana": "よさん" },
+        { "text": "オーバーしそう。" }
+      ],
+      "kana": "よさんおーばーしそう",
+      "chinese": "好像要超预算了。",
+      "category": "progress",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 760,
+      "chunkPattern": "予算〜",
+      "tags": ["display", "money", "budget"]
+    },
+    {
+      "externalId": "s004",
+      "japanese": "もう少し安いのある？",
+      "tokens": [
+        { "text": "もう" },
+        { "text": "少し", "kana": "すこし" },
+        { "text": "安い", "kana": "やすい" },
+        { "text": "のある？" }
+      ],
+      "kana": "もうすこしやすいのある",
+      "chinese": "有更便宜的吗？",
+      "category": "request",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 765,
+      "chunkPattern": "もう少し〜ある",
+      "tags": ["display", "money", "shopping"]
+    },
+    {
+      "externalId": "s005",
+      "japanese": "それ買う価値ある？",
+      "tokens": [
+        { "text": "それ" },
+        { "text": "買う", "kana": "かう" },
+        { "text": "価値", "kana": "かち" },
+        { "text": "ある？" }
+      ],
+      "kana": "それかうかちある",
+      "chinese": "那个值得买吗？",
+      "category": "request",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 770,
+      "chunkPattern": "〜価値ある",
+      "tags": ["display", "money", "worth-it"]
+    },
+    {
+      "externalId": "s006",
+      "japanese": "お金足りないかも。",
+      "tokens": [
+        { "text": "お金", "kana": "おかね" },
+        { "text": "足りない", "kana": "たりない" },
+        { "text": "かも。" }
+      ],
+      "kana": "おかねたりないかも",
+      "chinese": "钱可能不够。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 775,
+      "chunkPattern": "お金〜かも",
+      "tags": ["display", "money", "short"]
+    },
+    {
+      "externalId": "s007",
+      "japanese": "今月は節約モード。",
+      "tokens": [
+        { "text": "今月", "kana": "こんげつ" },
+        { "text": "は" },
+        { "text": "節約", "kana": "せつやく" },
+        { "text": "モード。" }
+      ],
+      "kana": "こんげつはせつやくもーど",
+      "chinese": "这个月省钱模式。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 780,
+      "chunkPattern": "今月は〜モード",
+      "tags": ["display", "money", "frugal"]
+    },
+    {
+      "externalId": "s008",
+      "japanese": "半額シール狙う。",
+      "tokens": [
+        { "text": "半額", "kana": "はんがく" },
+        { "text": "シール" },
+        { "text": "狙う", "kana": "ねらう" },
+        { "text": "。" }
+      ],
+      "kana": "はんがくしーるねらう",
+      "chinese": "盯着半价标签。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 785,
+      "chunkPattern": "半額〜狙う",
+      "tags": ["display", "money", "discount"]
+    },
+    {
+      "externalId": "s009",
+      "japanese": "ポイント貯まった！",
+      "tokens": [
+        { "text": "ポイント" },
+        { "text": "貯まった", "kana": "たまった" },
+        { "text": "！" }
+      ],
+      "kana": "ぽいんとたまった",
+      "chinese": "积分攒够了!",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 790,
+      "chunkPattern": "〜貯まった",
+      "tags": ["display", "money", "points"]
+    },
+    {
+      "externalId": "s010",
+      "japanese": "これコスパ良いね。",
+      "tokens": [
+        { "text": "これ" },
+        { "text": "コスパ" },
+        { "text": "良い", "kana": "よい" },
+        { "text": "ね。" }
+      ],
+      "kana": "これこすぱよいね",
+      "chinese": "这个性价比不错。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 795,
+      "chunkPattern": "〜コスパ良い",
+      "tags": ["display", "money", "value"]
+    },
+    {
+      "externalId": "s011",
+      "japanese": "ちょっと贅沢しちゃう。",
+      "tokens": [
+        { "text": "ちょっと" },
+        { "text": "贅沢", "kana": "ぜいたく" },
+        { "text": "しちゃう。" }
+      ],
+      "kana": "ちょっとぜいたくしちゃう",
+      "chinese": "稍微奢侈一下。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 800,
+      "chunkPattern": "ちょっと〜",
+      "tags": ["display", "money", "treat-yourself"]
+    },
+    {
+      "externalId": "s012",
+      "japanese": "給料日まで我慢。",
+      "tokens": [
+        { "text": "給料日", "kana": "きゅうりょうび" },
+        { "text": "まで" },
+        { "text": "我慢", "kana": "がまん" },
+        { "text": "。" }
+      ],
+      "kana": "きゅうりょうびまでがまん",
+      "chinese": "忍到发工资。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 805,
+      "chunkPattern": "〜まで我慢",
+      "tags": ["display", "money", "payday"]
+    },
+    {
+      "externalId": "s013",
+      "japanese": "これ無料らしいよ。",
+      "tokens": [
+        { "text": "これ" },
+        { "text": "無料", "kana": "むりょう" },
+        { "text": "らしいよ。" }
+      ],
+      "kana": "これむりょうらしいよ",
+      "chinese": "听说这个是免费的。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 810,
+      "chunkPattern": "これ〜らしい",
+      "tags": ["display", "money", "free"]
+    },
+    {
+      "externalId": "s014",
+      "japanese": "もう一回見て考える。",
+      "tokens": [
+        { "text": "もう" },
+        { "text": "一回", "kana": "いっかい" },
+        { "text": "見て", "kana": "みて" },
+        { "text": "考える", "kana": "かんがえる" },
+        { "text": "。" }
+      ],
+      "kana": "もういっかいみてかんがえる",
+      "chinese": "再看一次,想想再说。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 815,
+      "chunkPattern": "もう一回〜",
+      "tags": ["display", "money", "deliberate"]
+    },
+    {
+      "externalId": "s015",
+      "japanese": "衝動買いやめよう。",
+      "tokens": [
+        { "text": "衝動買い", "kana": "しょうどうがい" },
+        { "text": "やめよう。" }
+      ],
+      "kana": "しょうどうがいやめよう",
+      "chinese": "别冲动消费。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 820,
+      "chunkPattern": "〜やめよう",
+      "tags": ["display", "money", "impulse"]
+    },
+    {
+      "externalId": "s016",
+      "japanese": "クーポン使える？",
+      "tokens": [
+        { "text": "クーポン" },
+        { "text": "使える", "kana": "つかえる" },
+        { "text": "？" }
+      ],
+      "kana": "くーぽんつかえる",
+      "chinese": "优惠券能用吗？",
+      "category": "request",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 825,
+      "chunkPattern": "〜使える",
+      "tags": ["display", "money", "coupon"]
+    },
+    {
+      "externalId": "s017",
+      "japanese": "値段見て驚いた。",
+      "tokens": [
+        { "text": "値段", "kana": "ねだん" },
+        { "text": "見て", "kana": "みて" },
+        { "text": "驚いた", "kana": "おどろいた" },
+        { "text": "。" }
+      ],
+      "kana": "ねだんみておどろいた",
+      "chinese": "看了价格吓一跳。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 830,
+      "chunkPattern": "〜見て驚いた",
+      "tags": ["display", "money", "shocked"]
+    },
+    {
+      "externalId": "s018",
+      "japanese": "ちょっと贅沢な日。",
+      "tokens": [
+        { "text": "ちょっと" },
+        { "text": "贅沢", "kana": "ぜいたく" },
+        { "text": "な" },
+        { "text": "日", "kana": "ひ" },
+        { "text": "。" }
+      ],
+      "kana": "ちょっとぜいたくなひ",
+      "chinese": "稍微奢侈一天。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 835,
+      "chunkPattern": "ちょっと〜な日",
+      "tags": ["display", "money", "splurge-day"]
+    },
+    {
+      "externalId": "s019",
+      "japanese": "お小遣い使い切った。",
+      "tokens": [
+        { "text": "お小遣い", "kana": "おこづかい" },
+        { "text": "使い切った", "kana": "つかいきった" },
+        { "text": "。" }
+      ],
+      "kana": "おこづかいつかいきった",
+      "chinese": "零花钱花光了。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 840,
+      "chunkPattern": "〜使い切った",
+      "tags": ["display", "money", "spent-all"]
+    },
+    {
+      "externalId": "s020",
+      "japanese": "割り勘でいい？",
+      "tokens": [
+        { "text": "割り勘", "kana": "わりかん" },
+        { "text": "でいい？" }
+      ],
+      "kana": "わりかんでいい",
+      "chinese": "AA 制可以吗？",
+      "category": "request",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 845,
+      "chunkPattern": "〜でいい",
+      "tags": ["display", "money", "split-bill"]
+    }
+  ],
+  "dialogues": [],
+  "passages": []
+}

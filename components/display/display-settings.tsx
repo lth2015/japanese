@@ -137,8 +137,7 @@ export function DisplaySettingsSheet() {
             label="自动播放朗读 (TTS)"
             checked={s.autoPlayTTS}
             onChange={(v) => set({ autoPlayTTS: v })}
-            hint="Phase 2 启用"
-            disabled
+            hint="浏览器系统语音（ja-JP）"
           />
           <Toggle
             label="深度专注（隐藏所有 UI）"

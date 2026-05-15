@@ -4,6 +4,11 @@ import { and, asc, eq, isNull, or, sql } from "drizzle-orm"
 import { id } from "@/lib/id"
 import { db, schema } from "@/lib/db/client"
 import { diffStats } from "@/lib/diff"
+import {
+  type DrillNaturalnessFeedback,
+  generateDrillNaturalnessFeedback,
+  isGeminiConfigured,
+} from "@/lib/gemini"
 
 /**
  * Pick the next sentence to drill at Stage 2.
@@ -102,5 +107,74 @@ export async function submitDrillAttempt(
     attemptId,
     matchRatio: stats.matchRatio,
     edits: stats.edits,
+  }
+}
+
+export type DrillFeedbackResult =
+  | { status: "ok"; feedback: DrillNaturalnessFeedback }
+  | { status: "not-configured" }
+  | { status: "error"; message: string }
+
+export async function requestDrillFeedback(attemptId: string): Promise<DrillFeedbackResult> {
+  if (!isGeminiConfigured()) {
+    return { status: "not-configured" }
+  }
+
+  const row = db
+    .select({
+      attempt: schema.drillAttempt,
+      sentence: schema.sentence,
+    })
+    .from(schema.drillAttempt)
+    .innerJoin(schema.sentence, eq(schema.sentence.id, schema.drillAttempt.sentenceId))
+    .where(eq(schema.drillAttempt.id, attemptId))
+    .get()
+
+  if (!row) {
+    return { status: "error", message: "Attempt not found" }
+  }
+
+  const { attempt, sentence } = row
+
+  if (
+    attempt.naturalVersion &&
+    attempt.businessVersion &&
+    attempt.casualVersion &&
+    attempt.explanation
+  ) {
+    return {
+      status: "ok",
+      feedback: {
+        naturalVersion: attempt.naturalVersion,
+        businessVersion: attempt.businessVersion,
+        casualVersion: attempt.casualVersion,
+        explanation: attempt.explanation,
+      },
+    }
+  }
+
+  try {
+    const feedback = await generateDrillNaturalnessFeedback({
+      chinese: sentence.chinese,
+      userInput: attempt.userInput,
+      reference: sentence.japanese,
+    })
+    if (!feedback) return { status: "not-configured" }
+
+    db.update(schema.drillAttempt)
+      .set({
+        naturalVersion: feedback.naturalVersion,
+        businessVersion: feedback.businessVersion,
+        casualVersion: feedback.casualVersion,
+        explanation: feedback.explanation,
+      })
+      .where(eq(schema.drillAttempt.id, attemptId))
+      .run()
+
+    return { status: "ok", feedback }
+  } catch (err) {
+    const message = err instanceof Error ? err.message : String(err)
+    console.error("[drill] Gemini feedback failed", message)
+    return { status: "error", message }
   }
 }

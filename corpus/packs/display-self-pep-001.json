@@ -1,0 +1,359 @@
+{
+  "packVersion": 1,
+  "packId": "display-self-pep-001",
+  "title": "Display Self Pep Talk 001",
+  "generatedBy": "claude-opus-4-7",
+  "generatedAt": "2026-05-15",
+  "targetProfile": "Display-optimized moderate-length self-pep phrases — concrete things you say to yourself when you're tired or doubting. 6-15 chars, カジュアル. Distinct from broader mantras: these are specifically inner-voice 自己声援.",
+  "reviewStatus": "reviewed",
+  "sentences": [
+    {
+      "externalId": "s001",
+      "japanese": "自分ならできる。",
+      "tokens": [
+        { "text": "自分", "kana": "じぶん" },
+        { "text": "ならできる。" }
+      ],
+      "kana": "じぶんならできる",
+      "chinese": "我能做到。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 935,
+      "chunkPattern": "自分なら〜",
+      "tags": ["display", "self-pep", "confidence"]
+    },
+    {
+      "externalId": "s002",
+      "japanese": "焦らず一歩ずつ。",
+      "tokens": [
+        { "text": "焦らず", "kana": "あせらず" },
+        { "text": "一歩", "kana": "いっぽ" },
+        { "text": "ずつ。" }
+      ],
+      "kana": "あせらずいっぽずつ",
+      "chinese": "不慌不忙,一步一步来。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 940,
+      "chunkPattern": "焦らず〜",
+      "tags": ["display", "self-pep", "patience"]
+    },
+    {
+      "externalId": "s003",
+      "japanese": "ここで投げ出すな。",
+      "tokens": [
+        { "text": "ここで" },
+        { "text": "投げ出す", "kana": "なげだす" },
+        { "text": "な。" }
+      ],
+      "kana": "ここでなげだすな",
+      "chinese": "别在这里放弃。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 945,
+      "chunkPattern": "ここで〜な",
+      "tags": ["display", "self-pep", "perseverance"]
+    },
+    {
+      "externalId": "s004",
+      "japanese": "やればやるだけ近づく。",
+      "tokens": [
+        { "text": "やればやるだけ" },
+        { "text": "近づく", "kana": "ちかづく" },
+        { "text": "。" }
+      ],
+      "kana": "やればやるだけちかづく",
+      "chinese": "做就能更近一步。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 950,
+      "chunkPattern": "やればやるだけ〜",
+      "tags": ["display", "self-pep", "progress"]
+    },
+    {
+      "externalId": "s005",
+      "japanese": "今日できることをやる。",
+      "tokens": [
+        { "text": "今日", "kana": "きょう" },
+        { "text": "できることをやる。" }
+      ],
+      "kana": "きょうできることをやる",
+      "chinese": "做今天能做的事。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 955,
+      "chunkPattern": "今日〜をやる",
+      "tags": ["display", "self-pep", "present"]
+    },
+    {
+      "externalId": "s006",
+      "japanese": "小さな一歩でいい。",
+      "tokens": [
+        { "text": "小さな", "kana": "ちいさな" },
+        { "text": "一歩", "kana": "いっぽ" },
+        { "text": "でいい。" }
+      ],
+      "kana": "ちいさないっぽでいい",
+      "chinese": "一小步也行。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 960,
+      "chunkPattern": "〜でいい",
+      "tags": ["display", "self-pep", "small-wins"]
+    },
+    {
+      "externalId": "s007",
+      "japanese": "失敗してもまた挑む。",
+      "tokens": [
+        { "text": "失敗", "kana": "しっぱい" },
+        { "text": "してもまた" },
+        { "text": "挑む", "kana": "いどむ" },
+        { "text": "。" }
+      ],
+      "kana": "しっぱいしてもまたいどむ",
+      "chinese": "失败了再挑战。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 965,
+      "chunkPattern": "〜してもまた〜",
+      "tags": ["display", "self-pep", "resilience"]
+    },
+    {
+      "externalId": "s008",
+      "japanese": "続ければ必ず慣れる。",
+      "tokens": [
+        { "text": "続ければ", "kana": "つづければ" },
+        { "text": "必ず", "kana": "かならず" },
+        { "text": "慣れる", "kana": "なれる" },
+        { "text": "。" }
+      ],
+      "kana": "つづければかならずなれる",
+      "chinese": "坚持下去一定会习惯。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 970,
+      "chunkPattern": "続ければ必ず〜",
+      "tags": ["display", "self-pep", "consistency"]
+    },
+    {
+      "externalId": "s009",
+      "japanese": "完璧じゃなくていい。",
+      "tokens": [
+        { "text": "完璧", "kana": "かんぺき" },
+        { "text": "じゃなくていい。" }
+      ],
+      "kana": "かんぺきじゃなくていい",
+      "chinese": "不完美也没关系。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 975,
+      "chunkPattern": "〜じゃなくていい",
+      "tags": ["display", "self-pep", "good-enough"]
+    },
+    {
+      "externalId": "s010",
+      "japanese": "自分のペースで進む。",
+      "tokens": [
+        { "text": "自分", "kana": "じぶん" },
+        { "text": "のペースで" },
+        { "text": "進む", "kana": "すすむ" },
+        { "text": "。" }
+      ],
+      "kana": "じぶんのぺーすですすむ",
+      "chinese": "按自己的节奏前进。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 980,
+      "chunkPattern": "自分のペースで〜",
+      "tags": ["display", "self-pep", "own-pace"]
+    },
+    {
+      "externalId": "s011",
+      "japanese": "比べるのは昨日の自分。",
+      "tokens": [
+        { "text": "比べる", "kana": "くらべる" },
+        { "text": "のは" },
+        { "text": "昨日", "kana": "きのう" },
+        { "text": "の" },
+        { "text": "自分", "kana": "じぶん" },
+        { "text": "。" }
+      ],
+      "kana": "くらべるのはきのうのじぶん",
+      "chinese": "要比就跟昨天的自己比。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 985,
+      "chunkPattern": "比べるのは〜",
+      "tags": ["display", "self-pep", "self-comparison"]
+    },
+    {
+      "externalId": "s012",
+      "japanese": "一回深呼吸しよう。",
+      "tokens": [
+        { "text": "一回", "kana": "いっかい" },
+        { "text": "深呼吸", "kana": "しんこきゅう" },
+        { "text": "しよう。" }
+      ],
+      "kana": "いっかいしんこきゅうしよう",
+      "chinese": "先深呼吸一下。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 990,
+      "chunkPattern": "一回〜しよう",
+      "tags": ["display", "self-pep", "calm"]
+    },
+    {
+      "externalId": "s013",
+      "japanese": "これも経験になる。",
+      "tokens": [
+        { "text": "これも" },
+        { "text": "経験", "kana": "けいけん" },
+        { "text": "になる。" }
+      ],
+      "kana": "これもけいけんになる",
+      "chinese": "这也会成为经验。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 995,
+      "chunkPattern": "これも〜になる",
+      "tags": ["display", "self-pep", "reframe"]
+    },
+    {
+      "externalId": "s014",
+      "japanese": "もう少しで形になる。",
+      "tokens": [
+        { "text": "もう" },
+        { "text": "少し", "kana": "すこし" },
+        { "text": "で" },
+        { "text": "形", "kana": "かたち" },
+        { "text": "になる。" }
+      ],
+      "kana": "もうすこしでかたちになる",
+      "chinese": "再一会儿就有眉目了。",
+      "category": "progress",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 1000,
+      "chunkPattern": "もう少しで〜",
+      "tags": ["display", "self-pep", "shape"]
+    },
+    {
+      "externalId": "s015",
+      "japanese": "やれるだけやろう。",
+      "tokens": [
+        { "text": "やれるだけやろう。" }
+      ],
+      "kana": "やれるだけやろう",
+      "chinese": "能做多少做多少。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 998,
+      "chunkPattern": "やれるだけ〜",
+      "tags": ["display", "self-pep", "do-what-i-can"]
+    },
+    {
+      "externalId": "s016",
+      "japanese": "一日一個でも前進。",
+      "tokens": [
+        { "text": "一日", "kana": "いちにち" },
+        { "text": "一個", "kana": "いっこ" },
+        { "text": "でも" },
+        { "text": "前進", "kana": "ぜんしん" },
+        { "text": "。" }
+      ],
+      "kana": "いちにちいっこでもぜんしん",
+      "chinese": "一天一个也是前进。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 996,
+      "chunkPattern": "一日一〜でも前進",
+      "tags": ["display", "self-pep", "incremental"]
+    },
+    {
+      "externalId": "s017",
+      "japanese": "諦めなければ続く。",
+      "tokens": [
+        { "text": "諦めなければ", "kana": "あきらめなければ" },
+        { "text": "続く", "kana": "つづく" },
+        { "text": "。" }
+      ],
+      "kana": "あきらめなければつづく",
+      "chinese": "只要不放弃就能继续。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 3,
+      "frequencyRank": 994,
+      "chunkPattern": "諦めなければ〜",
+      "tags": ["display", "self-pep", "perseverance"]
+    },
+    {
+      "externalId": "s018",
+      "japanese": "自分を信じよう。",
+      "tokens": [
+        { "text": "自分", "kana": "じぶん" },
+        { "text": "を" },
+        { "text": "信じよう", "kana": "しんじよう" },
+        { "text": "。" }
+      ],
+      "kana": "じぶんをしんじよう",
+      "chinese": "相信自己。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 992,
+      "chunkPattern": "自分を〜",
+      "tags": ["display", "self-pep", "trust"]
+    },
+    {
+      "externalId": "s019",
+      "japanese": "怖がらず進もう。",
+      "tokens": [
+        { "text": "怖がらず", "kana": "こわがらず" },
+        { "text": "進もう", "kana": "すすもう" },
+        { "text": "。" }
+      ],
+      "kana": "こわがらずすすもう",
+      "chinese": "不要怕,前进吧。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 988,
+      "chunkPattern": "怖がらず〜",
+      "tags": ["display", "self-pep", "courage"]
+    },
+    {
+      "externalId": "s020",
+      "japanese": "できる、絶対できる。",
+      "tokens": [
+        { "text": "できる、" },
+        { "text": "絶対", "kana": "ぜったい" },
+        { "text": "できる。" }
+      ],
+      "kana": "できるぜったいできる",
+      "chinese": "能行,绝对能行。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 986,
+      "chunkPattern": "できる、絶対〜",
+      "tags": ["display", "self-pep", "affirmation"]
+    }
+  ],
+  "dialogues": [],
+  "passages": []
+}

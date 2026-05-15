@@ -1,13 +1,26 @@
 "use client"
 
-import { ArrowRight, BookmarkPlus, Check, Loader2, RotateCcw, Sparkles } from "lucide-react"
+import {
+  AlertCircle,
+  ArrowRight,
+  BookmarkPlus,
+  Check,
+  Loader2,
+  RotateCcw,
+  Sparkles,
+} from "lucide-react"
 import { useEffect, useRef, useState, useTransition } from "react"
 import { FuriganaText } from "@/components/furigana-text"
 import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
 import { diff, type DiffSegment } from "@/lib/diff"
-import { getNextDrillSentence, submitDrillAttempt } from "@/lib/actions/drill"
+import {
+  type DrillFeedbackResult,
+  getNextDrillSentence,
+  requestDrillFeedback,
+  submitDrillAttempt,
+} from "@/lib/actions/drill"
 import { applyRating as applyRatingAction } from "@/lib/actions/progress"
 import type { Sentence } from "@/lib/db/schema"
 import { stageLabel } from "@/lib/progress"
@@ -22,6 +35,7 @@ interface Props {
 type Phase = "input" | "submitted"
 
 type FeedbackState = {
+  attemptId: string
   matchRatio: number
   edits: number
   diffSegments: DiffSegment[]
@@ -29,11 +43,16 @@ type FeedbackState = {
   ratingMessage?: string
 }
 
+type AiFeedbackState =
+  | { status: "loading" }
+  | { status: "ok"; result: DrillFeedbackResult }
+
 export function DrillClient({ initial }: Props) {
   const [current, setCurrent] = useState<Next>(initial)
   const [input, setInput] = useState("")
   const [phase, setPhase] = useState<Phase>("input")
   const [feedback, setFeedback] = useState<FeedbackState | null>(null)
+  const [aiFeedback, setAiFeedback] = useState<AiFeedbackState | null>(null)
   const [completedIds, setCompletedIds] = useState<string[]>([])
   const [isPending, startTransition] = useTransition()
   const [isRating, startRatingTransition] = useTransition()
@@ -51,17 +70,29 @@ export function DrillClient({ initial }: Props) {
 
   const s = current.sentence
 
+  function loadAiFeedback(attemptId: string) {
+    setAiFeedback({ status: "loading" })
+    requestDrillFeedback(attemptId)
+      .then((result) => setAiFeedback({ status: "ok", result }))
+      .catch((err) => {
+        const message = err instanceof Error ? err.message : String(err)
+        setAiFeedback({ status: "ok", result: { status: "error", message } })
+      })
+  }
+
   function handleSubmit() {
     if (!input.trim()) return
     startTransition(async () => {
       const res = await submitDrillAttempt(s.id, input)
       setFeedback({
+        attemptId: res.attemptId,
         matchRatio: res.matchRatio,
         edits: res.edits,
         diffSegments: diff(input, s.japanese),
         rated: false,
       })
       setPhase("submitted")
+      loadAiFeedback(res.attemptId)
     })
   }
 
@@ -88,6 +119,7 @@ export function DrillClient({ initial }: Props) {
       setCurrent(next)
       setInput("")
       setFeedback(null)
+      setAiFeedback(null)
       setPhase("input")
     })
   }
@@ -100,6 +132,7 @@ export function DrillClient({ initial }: Props) {
       setCurrent(next)
       setInput("")
       setFeedback(null)
+      setAiFeedback(null)
       setPhase("input")
     })
   }
@@ -241,6 +274,14 @@ export function DrillClient({ initial }: Props) {
             </CardContent>
           </Card>
 
+          {/* AI feedback */}
+          {aiFeedback && (
+            <AiFeedbackCard
+              state={aiFeedback}
+              onRetry={() => feedback && loadAiFeedback(feedback.attemptId)}
+            />
+          )}
+
           {/* Self-rating */}
           {!feedback.rated && (
             <Card>
@@ -334,6 +375,91 @@ function DiffSpan({ segment }: { segment: DiffSegment }) {
         </span>
       )
   }
+}
+
+function AiFeedbackCard({
+  state,
+  onRetry,
+}: {
+  state: AiFeedbackState
+  onRetry: () => void
+}) {
+  return (
+    <Card>
+      <CardContent className="p-6 space-y-4">
+        <div className="flex items-center gap-2">
+          <Sparkles className="h-4 w-4 text-accent" strokeWidth={1.75} />
+          <p className="text-xs text-fg-tertiary uppercase tracking-wider font-medium">
+            AI 自然度反馈
+          </p>
+          <span className="text-xs text-fg-tertiary font-mono">gemini-2.5-flash</span>
+        </div>
+
+        {state.status === "loading" && (
+          <div className="space-y-3">
+            <div className="flex items-center gap-2 text-sm text-fg-secondary">
+              <Loader2 className="h-4 w-4 animate-spin" />
+              <span>正在分析...</span>
+            </div>
+            <div className="space-y-2">
+              <div className="h-4 rounded bg-bg-subtle animate-pulse" />
+              <div className="h-4 rounded bg-bg-subtle animate-pulse w-5/6" />
+              <div className="h-4 rounded bg-bg-subtle animate-pulse w-4/6" />
+            </div>
+          </div>
+        )}
+
+        {state.status === "ok" && state.result.status === "not-configured" && (
+          <div className="rounded-lg border border-dashed border-border bg-bg-subtle px-4 py-3 text-sm text-fg-secondary">
+            未配置 <code className="font-mono text-xs text-fg">GEMINI_API_KEY</code>
+            。在项目根目录的 <code className="font-mono text-xs text-fg">.env</code>
+            里填入后重启 dev server 即可启用 AI 反馈。
+          </div>
+        )}
+
+        {state.status === "ok" && state.result.status === "error" && (
+          <div className="flex items-start gap-3 rounded-lg border border-danger/30 bg-danger-soft px-4 py-3">
+            <AlertCircle className="h-4 w-4 text-danger shrink-0 mt-0.5" strokeWidth={1.75} />
+            <div className="flex-1 space-y-2">
+              <p className="text-sm text-danger">AI 反馈生成失败</p>
+              <p className="text-xs text-fg-secondary break-words">{state.result.message}</p>
+              <Button variant="secondary" size="sm" onClick={onRetry}>
+                <RotateCcw className="h-3.5 w-3.5" />
+                重试
+              </Button>
+            </div>
+          </div>
+        )}
+
+        {state.status === "ok" && state.result.status === "ok" && (
+          <div className="space-y-4">
+            <RegisterRow label="自然" text={state.result.feedback.naturalVersion} />
+            <RegisterRow label="商务敬語" text={state.result.feedback.businessVersion} />
+            <RegisterRow label="朋友口语" text={state.result.feedback.casualVersion} />
+            <div className="border-t border-border pt-4 space-y-1.5">
+              <p className="text-xs text-fg-tertiary">点评</p>
+              <p className="text-sm leading-relaxed text-fg-secondary">
+                {state.result.feedback.explanation}
+              </p>
+            </div>
+          </div>
+        )}
+      </CardContent>
+    </Card>
+  )
+}
+
+function RegisterRow({ label, text }: { label: string; text: string }) {
+  return (
+    <div className="space-y-1.5">
+      <Badge variant="outline" className="text-[10px] uppercase tracking-wider">
+        {label}
+      </Badge>
+      <p lang="ja" className="font-jp text-xl text-fg leading-relaxed">
+        {text}
+      </p>
+    </div>
+  )
 }
 
 function EmptyState() {

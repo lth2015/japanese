@@ -1,0 +1,362 @@
+{
+  "packVersion": 1,
+  "packId": "display-future-plans-001",
+  "title": "Display Future Plans 001",
+  "generatedBy": "claude-opus-4-7",
+  "generatedAt": "2026-05-15",
+  "targetProfile": "Display-optimized moderate-length future-plan / intention phrases — いつか・来週・今度・〜したい・〜つもり. 7-16 chars. Mostly カジュアル. The kind of soft forward-looking utterances that punctuate everyday conversation.",
+  "reviewStatus": "reviewed",
+  "sentences": [
+    {
+      "externalId": "s001",
+      "japanese": "いつか日本行きたい。",
+      "tokens": [
+        { "text": "いつか" },
+        { "text": "日本", "kana": "にほん" },
+        { "text": "行きたい", "kana": "いきたい" },
+        { "text": "。" }
+      ],
+      "kana": "いつかにほんいきたい",
+      "chinese": "总有一天想去日本。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 450,
+      "chunkPattern": "いつか〜したい",
+      "tags": ["display", "future-plans", "dream"]
+    },
+    {
+      "externalId": "s002",
+      "japanese": "来週から始めよう。",
+      "tokens": [
+        { "text": "来週", "kana": "らいしゅう" },
+        { "text": "から" },
+        { "text": "始めよう", "kana": "はじめよう" },
+        { "text": "。" }
+      ],
+      "kana": "らいしゅうからはじめよう",
+      "chinese": "下周开始吧。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 455,
+      "chunkPattern": "来週から〜",
+      "tags": ["display", "future-plans", "kickoff"]
+    },
+    {
+      "externalId": "s003",
+      "japanese": "今度ゆっくり話そう。",
+      "tokens": [
+        { "text": "今度", "kana": "こんど" },
+        { "text": "ゆっくり" },
+        { "text": "話そう", "kana": "はなそう" },
+        { "text": "。" }
+      ],
+      "kana": "こんどゆっくりはなそう",
+      "chinese": "下次慢慢聊。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 460,
+      "chunkPattern": "今度〜しよう",
+      "tags": ["display", "future-plans", "catch-up"]
+    },
+    {
+      "externalId": "s004",
+      "japanese": "春になったら旅行。",
+      "tokens": [
+        { "text": "春", "kana": "はる" },
+        { "text": "になったら" },
+        { "text": "旅行", "kana": "りょこう" },
+        { "text": "。" }
+      ],
+      "kana": "はるになったらりょこう",
+      "chinese": "等到春天就去旅行。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 465,
+      "chunkPattern": "〜になったら〜",
+      "tags": ["display", "future-plans", "season"]
+    },
+    {
+      "externalId": "s005",
+      "japanese": "もっと勉強したい。",
+      "tokens": [
+        { "text": "もっと" },
+        { "text": "勉強", "kana": "べんきょう" },
+        { "text": "したい。" }
+      ],
+      "kana": "もっとべんきょうしたい",
+      "chinese": "想多学一些。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 470,
+      "chunkPattern": "もっと〜したい",
+      "tags": ["display", "future-plans", "growth"]
+    },
+    {
+      "externalId": "s006",
+      "japanese": "これから頑張る。",
+      "tokens": [
+        { "text": "これから" },
+        { "text": "頑張る", "kana": "がんばる" },
+        { "text": "。" }
+      ],
+      "kana": "これからがんばる",
+      "chinese": "之后会加油的。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 475,
+      "chunkPattern": "これから〜",
+      "tags": ["display", "future-plans", "commit"]
+    },
+    {
+      "externalId": "s007",
+      "japanese": "今年こそやり切る。",
+      "tokens": [
+        { "text": "今年", "kana": "ことし" },
+        { "text": "こそ" },
+        { "text": "やり切る", "kana": "やりきる" },
+        { "text": "。" }
+      ],
+      "kana": "ことしこそやりきる",
+      "chinese": "今年一定要做完。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 480,
+      "chunkPattern": "今年こそ〜",
+      "tags": ["display", "future-plans", "resolve"]
+    },
+    {
+      "externalId": "s008",
+      "japanese": "いつかやってみたい。",
+      "tokens": [
+        { "text": "いつかやってみたい。" }
+      ],
+      "kana": "いつかやってみたい",
+      "chinese": "什么时候想试一下。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 485,
+      "chunkPattern": "いつかやって〜",
+      "tags": ["display", "future-plans", "wish"]
+    },
+    {
+      "externalId": "s009",
+      "japanese": "来月引っ越す予定。",
+      "tokens": [
+        { "text": "来月", "kana": "らいげつ" },
+        { "text": "引っ越す", "kana": "ひっこす" },
+        { "text": "予定", "kana": "よてい" },
+        { "text": "。" }
+      ],
+      "kana": "らいげつひっこすよてい",
+      "chinese": "下月打算搬家。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 490,
+      "chunkPattern": "〜予定",
+      "tags": ["display", "future-plans", "move"]
+    },
+    {
+      "externalId": "s010",
+      "japanese": "早く帰りたいな。",
+      "tokens": [
+        { "text": "早く", "kana": "はやく" },
+        { "text": "帰りたいな", "kana": "かえりたいな" },
+        { "text": "。" }
+      ],
+      "kana": "はやくかえりたいな",
+      "chinese": "想早点回去啊。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 495,
+      "chunkPattern": "早く〜たいな",
+      "tags": ["display", "future-plans", "go-home"]
+    },
+    {
+      "externalId": "s011",
+      "japanese": "夏休みが楽しみ。",
+      "tokens": [
+        { "text": "夏休み", "kana": "なつやすみ" },
+        { "text": "が" },
+        { "text": "楽しみ", "kana": "たのしみ" },
+        { "text": "。" }
+      ],
+      "kana": "なつやすみがたのしみ",
+      "chinese": "期待暑假。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 500,
+      "chunkPattern": "〜が楽しみ",
+      "tags": ["display", "future-plans", "anticipation"]
+    },
+    {
+      "externalId": "s012",
+      "japanese": "明日は早く起きる。",
+      "tokens": [
+        { "text": "明日", "kana": "あした" },
+        { "text": "は" },
+        { "text": "早く", "kana": "はやく" },
+        { "text": "起きる", "kana": "おきる" },
+        { "text": "。" }
+      ],
+      "kana": "あしたははやくおきる",
+      "chinese": "明天要早起。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 505,
+      "chunkPattern": "明日は〜",
+      "tags": ["display", "future-plans", "tomorrow"]
+    },
+    {
+      "externalId": "s013",
+      "japanese": "もう一回チャレンジする。",
+      "tokens": [
+        { "text": "もう" },
+        { "text": "一回", "kana": "いっかい" },
+        { "text": "チャレンジする。" }
+      ],
+      "kana": "もういっかいちゃれんじする",
+      "chinese": "再挑战一次。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 510,
+      "chunkPattern": "もう一回〜",
+      "tags": ["display", "future-plans", "retry"]
+    },
+    {
+      "externalId": "s014",
+      "japanese": "今度こそ成功させる。",
+      "tokens": [
+        { "text": "今度", "kana": "こんど" },
+        { "text": "こそ" },
+        { "text": "成功", "kana": "せいこう" },
+        { "text": "させる。" }
+      ],
+      "kana": "こんどこそせいこうさせる",
+      "chinese": "这次一定要成功。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 515,
+      "chunkPattern": "今度こそ〜",
+      "tags": ["display", "future-plans", "this-time"]
+    },
+    {
+      "externalId": "s015",
+      "japanese": "来年は変わりたい。",
+      "tokens": [
+        { "text": "来年", "kana": "らいねん" },
+        { "text": "は" },
+        { "text": "変わりたい", "kana": "かわりたい" },
+        { "text": "。" }
+      ],
+      "kana": "らいねんはかわりたい",
+      "chinese": "明年想改变。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 520,
+      "chunkPattern": "〜は変わりたい",
+      "tags": ["display", "future-plans", "change"]
+    },
+    {
+      "externalId": "s016",
+      "japanese": "これからどうする？",
+      "tokens": [
+        { "text": "これからどうする？" }
+      ],
+      "kana": "これからどうする",
+      "chinese": "之后怎么办？",
+      "category": "request",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 525,
+      "chunkPattern": "これから〜",
+      "tags": ["display", "future-plans", "next-step"]
+    },
+    {
+      "externalId": "s017",
+      "japanese": "そのうち落ち着く。",
+      "tokens": [
+        { "text": "そのうち" },
+        { "text": "落ち着く", "kana": "おちつく" },
+        { "text": "。" }
+      ],
+      "kana": "そのうちおちつく",
+      "chinese": "迟早会平静下来。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 530,
+      "chunkPattern": "そのうち〜",
+      "tags": ["display", "future-plans", "patience"]
+    },
+    {
+      "externalId": "s018",
+      "japanese": "もう少し続けてみる。",
+      "tokens": [
+        { "text": "もう" },
+        { "text": "少し", "kana": "すこし" },
+        { "text": "続けて", "kana": "つづけて" },
+        { "text": "みる。" }
+      ],
+      "kana": "もうすこしつづけてみる",
+      "chinese": "再继续一段时间看看。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 535,
+      "chunkPattern": "もう少し続けて〜",
+      "tags": ["display", "future-plans", "persist"]
+    },
+    {
+      "externalId": "s019",
+      "japanese": "週末に会おうよ。",
+      "tokens": [
+        { "text": "週末", "kana": "しゅうまつ" },
+        { "text": "に" },
+        { "text": "会おう", "kana": "あおう" },
+        { "text": "よ。" }
+      ],
+      "kana": "しゅうまつにあおうよ",
+      "chinese": "周末见吧。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 540,
+      "chunkPattern": "週末に〜",
+      "tags": ["display", "future-plans", "meet-up"]
+    },
+    {
+      "externalId": "s020",
+      "japanese": "来週連絡するね。",
+      "tokens": [
+        { "text": "来週", "kana": "らいしゅう" },
+        { "text": "連絡", "kana": "れんらく" },
+        { "text": "するね。" }
+      ],
+      "kana": "らいしゅうれんらくするね",
+      "chinese": "下周联系你。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 545,
+      "chunkPattern": "〜連絡するね",
+      "tags": ["display", "future-plans", "follow-up"]
+    }
+  ],
+  "dialogues": [],
+  "passages": []
+}

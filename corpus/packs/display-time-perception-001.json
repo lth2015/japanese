@@ -1,0 +1,378 @@
+{
+  "packVersion": 1,
+  "packId": "display-time-perception-001",
+  "title": "Display Time Perception 001",
+  "generatedBy": "claude-opus-4-7",
+  "generatedAt": "2026-05-15",
+  "targetProfile": "Display-optimized moderate-length time-perception phrases — how time feels fast / slow / stretched / wasted. 5-14 chars. Mostly カジュアル. Different from plans-aloud which is about future timing — this is about subjective experience of time.",
+  "reviewStatus": "reviewed",
+  "sentences": [
+    {
+      "externalId": "s001",
+      "japanese": "一日早かった。",
+      "tokens": [
+        { "text": "一日", "kana": "いちにち" },
+        { "text": "早かった", "kana": "はやかった" },
+        { "text": "。" }
+      ],
+      "kana": "いちにちはやかった",
+      "chinese": "这一天过得真快。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 101,
+      "chunkPattern": "〜早かった",
+      "tags": ["display", "time", "fast"]
+    },
+    {
+      "externalId": "s002",
+      "japanese": "あっという間に終わった。",
+      "tokens": [
+        { "text": "あっという" },
+        { "text": "間", "kana": "ま" },
+        { "text": "に" },
+        { "text": "終わった", "kana": "おわった" },
+        { "text": "。" }
+      ],
+      "kana": "あっというまにおわった",
+      "chinese": "一瞬间就结束了。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 102,
+      "chunkPattern": "あっという間に〜",
+      "tags": ["display", "time", "in-a-flash"]
+    },
+    {
+      "externalId": "s003",
+      "japanese": "永遠に感じた。",
+      "tokens": [
+        { "text": "永遠", "kana": "えいえん" },
+        { "text": "に" },
+        { "text": "感じた", "kana": "かんじた" },
+        { "text": "。" }
+      ],
+      "kana": "えいえんにかんじた",
+      "chinese": "感觉好久。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 103,
+      "chunkPattern": "永遠に〜",
+      "tags": ["display", "time", "forever"]
+    },
+    {
+      "externalId": "s004",
+      "japanese": "もう一週間経った？",
+      "tokens": [
+        { "text": "もう" },
+        { "text": "一週間", "kana": "いっしゅうかん" },
+        { "text": "経った", "kana": "たった" },
+        { "text": "？" }
+      ],
+      "kana": "もういっしゅうかんたった",
+      "chinese": "一周已经过去了？",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 104,
+      "chunkPattern": "もう〜経った",
+      "tags": ["display", "time", "already"]
+    },
+    {
+      "externalId": "s005",
+      "japanese": "時間が足りない。",
+      "tokens": [
+        { "text": "時間", "kana": "じかん" },
+        { "text": "が" },
+        { "text": "足りない", "kana": "たりない" },
+        { "text": "。" }
+      ],
+      "kana": "じかんがたりない",
+      "chinese": "时间不够。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 105,
+      "chunkPattern": "時間が〜",
+      "tags": ["display", "time", "not-enough"]
+    },
+    {
+      "externalId": "s006",
+      "japanese": "一瞬で過ぎた。",
+      "tokens": [
+        { "text": "一瞬", "kana": "いっしゅん" },
+        { "text": "で" },
+        { "text": "過ぎた", "kana": "すぎた" },
+        { "text": "。" }
+      ],
+      "kana": "いっしゅんですぎた",
+      "chinese": "一下子就过去了。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 106,
+      "chunkPattern": "一瞬で〜",
+      "tags": ["display", "time", "instant"]
+    },
+    {
+      "externalId": "s007",
+      "japanese": "もう今年も半分。",
+      "tokens": [
+        { "text": "もう" },
+        { "text": "今年", "kana": "ことし" },
+        { "text": "も" },
+        { "text": "半分", "kana": "はんぶん" },
+        { "text": "。" }
+      ],
+      "kana": "もうことしもはんぶん",
+      "chinese": "今年都过半了。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 107,
+      "chunkPattern": "もう〜も半分",
+      "tags": ["display", "time", "halfway"]
+    },
+    {
+      "externalId": "s008",
+      "japanese": "時間が経つの早い。",
+      "tokens": [
+        { "text": "時間", "kana": "じかん" },
+        { "text": "が" },
+        { "text": "経つ", "kana": "たつ" },
+        { "text": "の" },
+        { "text": "早い", "kana": "はやい" },
+        { "text": "。" }
+      ],
+      "kana": "じかんがたつのはやい",
+      "chinese": "时间过得真快。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 108,
+      "chunkPattern": "時間が経つの〜",
+      "tags": ["display", "time", "flies"]
+    },
+    {
+      "externalId": "s009",
+      "japanese": "思ったより長かった。",
+      "tokens": [
+        { "text": "思った", "kana": "おもった" },
+        { "text": "より" },
+        { "text": "長かった", "kana": "ながかった" },
+        { "text": "。" }
+      ],
+      "kana": "おもったよりながかった",
+      "chinese": "比想象中长。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 109,
+      "chunkPattern": "思ったより〜",
+      "tags": ["display", "time", "longer"]
+    },
+    {
+      "externalId": "s010",
+      "japanese": "なんかゆっくり過ぎる。",
+      "tokens": [
+        { "text": "なんかゆっくり" },
+        { "text": "過ぎる", "kana": "すぎる" },
+        { "text": "。" }
+      ],
+      "kana": "なんかゆっくりすぎる",
+      "chinese": "总觉得过得慢。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 110,
+      "chunkPattern": "なんか〜過ぎる",
+      "tags": ["display", "time", "slow"]
+    },
+    {
+      "externalId": "s011",
+      "japanese": "久しぶりの感覚。",
+      "tokens": [
+        { "text": "久しぶり", "kana": "ひさしぶり" },
+        { "text": "の" },
+        { "text": "感覚", "kana": "かんかく" },
+        { "text": "。" }
+      ],
+      "kana": "ひさしぶりのかんかく",
+      "chinese": "久违的感觉。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 111,
+      "chunkPattern": "久しぶりの〜",
+      "tags": ["display", "time", "missed"]
+    },
+    {
+      "externalId": "s012",
+      "japanese": "もう年末か。",
+      "tokens": [
+        { "text": "もう" },
+        { "text": "年末", "kana": "ねんまつ" },
+        { "text": "か。" }
+      ],
+      "kana": "もうねんまつか",
+      "chinese": "都年末了啊。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 112,
+      "chunkPattern": "もう〜か",
+      "tags": ["display", "time", "year-end"]
+    },
+    {
+      "externalId": "s013",
+      "japanese": "朝が早く感じた。",
+      "tokens": [
+        { "text": "朝", "kana": "あさ" },
+        { "text": "が" },
+        { "text": "早く", "kana": "はやく" },
+        { "text": "感じた", "kana": "かんじた" },
+        { "text": "。" }
+      ],
+      "kana": "あさがはやくかんじた",
+      "chinese": "早晨过得快。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 113,
+      "chunkPattern": "〜早く感じた",
+      "tags": ["display", "time", "morning"]
+    },
+    {
+      "externalId": "s014",
+      "japanese": "もう少しで終わる。",
+      "tokens": [
+        { "text": "もう" },
+        { "text": "少し", "kana": "すこし" },
+        { "text": "で" },
+        { "text": "終わる", "kana": "おわる" },
+        { "text": "。" }
+      ],
+      "kana": "もうすこしでおわる",
+      "chinese": "再一会儿就完。",
+      "category": "progress",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 114,
+      "chunkPattern": "もう少しで〜",
+      "tags": ["display", "time", "almost-done"]
+    },
+    {
+      "externalId": "s015",
+      "japanese": "まだ時間あるよ。",
+      "tokens": [
+        { "text": "まだ" },
+        { "text": "時間", "kana": "じかん" },
+        { "text": "あるよ。" }
+      ],
+      "kana": "まだじかんあるよ",
+      "chinese": "还有时间。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 115,
+      "chunkPattern": "まだ〜ある",
+      "tags": ["display", "time", "still-have"]
+    },
+    {
+      "externalId": "s016",
+      "japanese": "時計が止まったみたい。",
+      "tokens": [
+        { "text": "時計", "kana": "とけい" },
+        { "text": "が" },
+        { "text": "止まった", "kana": "とまった" },
+        { "text": "みたい。" }
+      ],
+      "kana": "とけいがとまったみたい",
+      "chinese": "像时钟停了一样。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 116,
+      "chunkPattern": "時計が〜みたい",
+      "tags": ["display", "time", "stopped"]
+    },
+    {
+      "externalId": "s017",
+      "japanese": "一年があっという間。",
+      "tokens": [
+        { "text": "一年", "kana": "いちねん" },
+        { "text": "があっという" },
+        { "text": "間", "kana": "ま" },
+        { "text": "。" }
+      ],
+      "kana": "いちねんがあっというま",
+      "chinese": "一年眨眼就过。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 117,
+      "chunkPattern": "〜があっという間",
+      "tags": ["display", "time", "year-fast"]
+    },
+    {
+      "externalId": "s018",
+      "japanese": "時間泥棒に取られた。",
+      "tokens": [
+        { "text": "時間", "kana": "じかん" },
+        { "text": "泥棒", "kana": "どろぼう" },
+        { "text": "に" },
+        { "text": "取られた", "kana": "とられた" },
+        { "text": "。" }
+      ],
+      "kana": "じかんどろぼうにとられた",
+      "chinese": "时间被偷走了。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 3,
+      "frequencyRank": 118,
+      "chunkPattern": "時間泥棒〜",
+      "tags": ["display", "time", "stolen"]
+    },
+    {
+      "externalId": "s019",
+      "japanese": "もう寝る時間。",
+      "tokens": [
+        { "text": "もう" },
+        { "text": "寝る", "kana": "ねる" },
+        { "text": "時間", "kana": "じかん" },
+        { "text": "。" }
+      ],
+      "kana": "もうねるじかん",
+      "chinese": "该睡觉了。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 119,
+      "chunkPattern": "もう〜時間",
+      "tags": ["display", "time", "bedtime"]
+    },
+    {
+      "externalId": "s020",
+      "japanese": "朝が来るの早い。",
+      "tokens": [
+        { "text": "朝", "kana": "あさ" },
+        { "text": "が" },
+        { "text": "来る", "kana": "くる" },
+        { "text": "の" },
+        { "text": "早い", "kana": "はやい" },
+        { "text": "。" }
+      ],
+      "kana": "あさがくるのはやい",
+      "chinese": "早晨来得快。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 120,
+      "chunkPattern": "〜が来るの早い",
+      "tags": ["display", "time", "morning-fast"]
+    }
+  ],
+  "dialogues": [],
+  "passages": []
+}

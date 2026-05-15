@@ -1,0 +1,350 @@
+{
+  "packVersion": 1,
+  "packId": "display-wondering-001",
+  "title": "Display Wondering Aloud 001",
+  "generatedBy": "claude-opus-4-7",
+  "generatedAt": "2026-05-15",
+  "targetProfile": "Display-optimized moderate-length wondering/puzzling phrases — なんで・どうして・〜かな・どこ・誰. 9-18 chars, カジュアル. The kind of musings you mutter when you're trying to figure something out at work or in daily life.",
+  "reviewStatus": "reviewed",
+  "sentences": [
+    {
+      "externalId": "s001",
+      "japanese": "なんで失敗したんだろう。",
+      "tokens": [
+        { "text": "なんで" },
+        { "text": "失敗", "kana": "しっぱい" },
+        { "text": "したんだろう。" }
+      ],
+      "kana": "なんでしっぱいしたんだろう",
+      "chinese": "为什么会失败呢。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 150,
+      "chunkPattern": "なんで〜だろう",
+      "tags": ["display", "wondering", "self-talk"]
+    },
+    {
+      "externalId": "s002",
+      "japanese": "どうしてこうなるのかな。",
+      "tokens": [
+        { "text": "どうしてこうなるのかな。" }
+      ],
+      "kana": "どうしてこうなるのかな",
+      "chinese": "怎么会变成这样呢。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 155,
+      "chunkPattern": "どうして〜のかな",
+      "tags": ["display", "wondering", "puzzle"]
+    },
+    {
+      "externalId": "s003",
+      "japanese": "これで合ってるかな。",
+      "tokens": [
+        { "text": "これで" },
+        { "text": "合ってる", "kana": "あってる" },
+        { "text": "かな。" }
+      ],
+      "kana": "これであってるかな",
+      "chinese": "这样对吗。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 160,
+      "chunkPattern": "〜合ってるかな",
+      "tags": ["display", "wondering", "check"]
+    },
+    {
+      "externalId": "s004",
+      "japanese": "どうしたらいいかな。",
+      "tokens": [
+        { "text": "どうしたらいいかな。" }
+      ],
+      "kana": "どうしたらいいかな",
+      "chinese": "该怎么办呢。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 165,
+      "chunkPattern": "どうしたら〜",
+      "tags": ["display", "wondering", "what-to-do"]
+    },
+    {
+      "externalId": "s005",
+      "japanese": "何か忘れてる気がする。",
+      "tokens": [
+        { "text": "何か", "kana": "なにか" },
+        { "text": "忘れてる", "kana": "わすれてる" },
+        { "text": "気", "kana": "き" },
+        { "text": "がする。" }
+      ],
+      "kana": "なにかわすれてるきがする",
+      "chinese": "总感觉忘了什么。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 170,
+      "chunkPattern": "〜気がする",
+      "tags": ["display", "wondering", "suspect"]
+    },
+    {
+      "externalId": "s006",
+      "japanese": "これ前にもなかったっけ。",
+      "tokens": [
+        { "text": "これ" },
+        { "text": "前", "kana": "まえ" },
+        { "text": "にもなかったっけ。" }
+      ],
+      "kana": "これまえにもなかったっけ",
+      "chinese": "这之前是不是也有过。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 175,
+      "chunkPattern": "〜なかったっけ",
+      "tags": ["display", "wondering", "deja-vu"]
+    },
+    {
+      "externalId": "s007",
+      "japanese": "なんでだろう、変だな。",
+      "tokens": [
+        { "text": "なんでだろう、" },
+        { "text": "変", "kana": "へん" },
+        { "text": "だな。" }
+      ],
+      "kana": "なんでだろうへんだな",
+      "chinese": "为什么呢,奇怪啊。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 180,
+      "chunkPattern": "なんでだろう",
+      "tags": ["display", "wondering", "strange"]
+    },
+    {
+      "externalId": "s008",
+      "japanese": "どこに置いたかな。",
+      "tokens": [
+        { "text": "どこに" },
+        { "text": "置いた", "kana": "おいた" },
+        { "text": "かな。" }
+      ],
+      "kana": "どこにおいたかな",
+      "chinese": "放在哪儿了呢。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 185,
+      "chunkPattern": "どこに〜かな",
+      "tags": ["display", "wondering", "lost"]
+    },
+    {
+      "externalId": "s009",
+      "japanese": "誰に聞けばいいかな。",
+      "tokens": [
+        { "text": "誰", "kana": "だれ" },
+        { "text": "に" },
+        { "text": "聞けば", "kana": "きけば" },
+        { "text": "いいかな。" }
+      ],
+      "kana": "だれにきけばいいかな",
+      "chinese": "该问谁呢。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 190,
+      "chunkPattern": "誰に〜いいかな",
+      "tags": ["display", "wondering", "who-to-ask"]
+    },
+    {
+      "externalId": "s010",
+      "japanese": "これって合ってる？",
+      "tokens": [
+        { "text": "これって" },
+        { "text": "合ってる", "kana": "あってる" },
+        { "text": "？" }
+      ],
+      "kana": "これってあってる",
+      "chinese": "这样对吗？",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 195,
+      "chunkPattern": "〜って合ってる",
+      "tags": ["display", "wondering", "check"]
+    },
+    {
+      "externalId": "s011",
+      "japanese": "何が原因だろう。",
+      "tokens": [
+        { "text": "何", "kana": "なに" },
+        { "text": "が" },
+        { "text": "原因", "kana": "げんいん" },
+        { "text": "だろう。" }
+      ],
+      "kana": "なにがげんいんだろう",
+      "chinese": "是什么原因呢。",
+      "category": "progress",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 200,
+      "chunkPattern": "何が〜だろう",
+      "tags": ["display", "wondering", "root-cause"]
+    },
+    {
+      "externalId": "s012",
+      "japanese": "もしかして勘違いかも。",
+      "tokens": [
+        { "text": "もしかして" },
+        { "text": "勘違い", "kana": "かんちがい" },
+        { "text": "かも。" }
+      ],
+      "kana": "もしかしてかんちがいかも",
+      "chinese": "该不会是我误会了。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 205,
+      "chunkPattern": "もしかして〜かも",
+      "tags": ["display", "wondering", "doubt"]
+    },
+    {
+      "externalId": "s013",
+      "japanese": "なぜ気づかなかったんだろう。",
+      "tokens": [
+        { "text": "なぜ" },
+        { "text": "気づか", "kana": "きづか" },
+        { "text": "なかったんだろう。" }
+      ],
+      "kana": "なぜきづかなかったんだろう",
+      "chinese": "为什么之前没注意到呢。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 210,
+      "chunkPattern": "なぜ〜なかったんだろう",
+      "tags": ["display", "wondering", "regret"]
+    },
+    {
+      "externalId": "s014",
+      "japanese": "どっちが先だったっけ。",
+      "tokens": [
+        { "text": "どっちが" },
+        { "text": "先", "kana": "さき" },
+        { "text": "だったっけ。" }
+      ],
+      "kana": "どっちがさきだったっけ",
+      "chinese": "哪个是先来着。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 215,
+      "chunkPattern": "どっちが〜だっけ",
+      "tags": ["display", "wondering", "order"]
+    },
+    {
+      "externalId": "s015",
+      "japanese": "もしかして、もうやった？",
+      "tokens": [
+        { "text": "もしかして、もうやった？" }
+      ],
+      "kana": "もしかしてもうやった",
+      "chinese": "难道已经做过了？",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 220,
+      "chunkPattern": "もしかして〜？",
+      "tags": ["display", "wondering", "already-done"]
+    },
+    {
+      "externalId": "s016",
+      "japanese": "これでいいのか不安だな。",
+      "tokens": [
+        { "text": "これでいいのか" },
+        { "text": "不安", "kana": "ふあん" },
+        { "text": "だな。" }
+      ],
+      "kana": "これでいいのかふあんだな",
+      "chinese": "这样可以吗,有点不安啊。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 225,
+      "chunkPattern": "〜不安だな",
+      "tags": ["display", "wondering", "uncertain"]
+    },
+    {
+      "externalId": "s017",
+      "japanese": "何時に行けばいい？",
+      "tokens": [
+        { "text": "何時", "kana": "なんじ" },
+        { "text": "に" },
+        { "text": "行けば", "kana": "いけば" },
+        { "text": "いい？" }
+      ],
+      "kana": "なんじにいけばいい",
+      "chinese": "几点去合适？",
+      "category": "request",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 230,
+      "chunkPattern": "何時に〜",
+      "tags": ["display", "wondering", "timing"]
+    },
+    {
+      "externalId": "s018",
+      "japanese": "なんでまた同じこと？",
+      "tokens": [
+        { "text": "なんでまた" },
+        { "text": "同じ", "kana": "おなじ" },
+        { "text": "こと？" }
+      ],
+      "kana": "なんでまたおなじこと",
+      "chinese": "怎么又是同样的事？",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 235,
+      "chunkPattern": "なんでまた〜",
+      "tags": ["display", "wondering", "again"]
+    },
+    {
+      "externalId": "s019",
+      "japanese": "どこから手をつけよう。",
+      "tokens": [
+        { "text": "どこから" },
+        { "text": "手", "kana": "て" },
+        { "text": "をつけよう。" }
+      ],
+      "kana": "どこからてをつけよう",
+      "chinese": "从哪儿下手呢。",
+      "category": "progress",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 240,
+      "chunkPattern": "どこから〜",
+      "tags": ["display", "wondering", "where-to-start"]
+    },
+    {
+      "externalId": "s020",
+      "japanese": "本当にそれでいい？",
+      "tokens": [
+        { "text": "本当", "kana": "ほんとう" },
+        { "text": "にそれでいい？" }
+      ],
+      "kana": "ほんとうにそれでいい",
+      "chinese": "真的那样就行吗？",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 245,
+      "chunkPattern": "本当に〜",
+      "tags": ["display", "wondering", "double-check"]
+    }
+  ],
+  "dialogues": [],
+  "passages": []
+}

@@ -1,0 +1,349 @@
+{
+  "packVersion": 1,
+  "packId": "display-shopping-decisions-001",
+  "title": "Display Shopping Decisions 001",
+  "generatedBy": "claude-opus-4-7",
+  "generatedAt": "2026-05-15",
+  "targetProfile": "Display-optimized moderate-length shopping-moment phrases — at the register, in the fitting room, deciding whether to buy. 5-13 chars. Mix カジュアル + 丁寧. Different from money-talk which is about prices; this is the live decision moment.",
+  "reviewStatus": "reviewed",
+  "sentences": [
+    {
+      "externalId": "s001",
+      "japanese": "買うか迷ってる。",
+      "tokens": [
+        { "text": "買う", "kana": "かう" },
+        { "text": "か" },
+        { "text": "迷ってる", "kana": "まよってる" },
+        { "text": "。" }
+      ],
+      "kana": "かうかまよってる",
+      "chinese": "在犹豫要不要买。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 121,
+      "chunkPattern": "買うか〜",
+      "tags": ["display", "shopping", "torn"]
+    },
+    {
+      "externalId": "s002",
+      "japanese": "やっぱり買おう。",
+      "tokens": [
+        { "text": "やっぱり" },
+        { "text": "買おう", "kana": "かおう" },
+        { "text": "。" }
+      ],
+      "kana": "やっぱりかおう",
+      "chinese": "还是买吧。",
+      "category": "progress",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 122,
+      "chunkPattern": "やっぱり〜",
+      "tags": ["display", "shopping", "decide-buy"]
+    },
+    {
+      "externalId": "s003",
+      "japanese": "また今度にする。",
+      "tokens": [
+        { "text": "また" },
+        { "text": "今度", "kana": "こんど" },
+        { "text": "にする。" }
+      ],
+      "kana": "またこんどにする",
+      "chinese": "下次再说。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 123,
+      "chunkPattern": "また〜にする",
+      "tags": ["display", "shopping", "next-time"]
+    },
+    {
+      "externalId": "s004",
+      "japanese": "試着していい？",
+      "tokens": [
+        { "text": "試着", "kana": "しちゃく" },
+        { "text": "していい？" }
+      ],
+      "kana": "しちゃくしていい",
+      "chinese": "能试穿吗？",
+      "category": "request",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 124,
+      "chunkPattern": "〜していい",
+      "tags": ["display", "shopping", "try-on"]
+    },
+    {
+      "externalId": "s005",
+      "japanese": "これ売り切れ？",
+      "tokens": [
+        { "text": "これ" },
+        { "text": "売り切れ", "kana": "うりきれ" },
+        { "text": "？" }
+      ],
+      "kana": "これうりきれ",
+      "chinese": "这个卖完了？",
+      "category": "request",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 125,
+      "chunkPattern": "これ〜",
+      "tags": ["display", "shopping", "sold-out"]
+    },
+    {
+      "externalId": "s006",
+      "japanese": "もう一度考える。",
+      "tokens": [
+        { "text": "もう" },
+        { "text": "一度", "kana": "いちど" },
+        { "text": "考える", "kana": "かんがえる" },
+        { "text": "。" }
+      ],
+      "kana": "もういちどかんがえる",
+      "chinese": "再想想。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 126,
+      "chunkPattern": "もう一度〜",
+      "tags": ["display", "shopping", "reconsider"]
+    },
+    {
+      "externalId": "s007",
+      "japanese": "サイズ違うかも。",
+      "tokens": [
+        { "text": "サイズ" },
+        { "text": "違う", "kana": "ちがう" },
+        { "text": "かも。" }
+      ],
+      "kana": "さいずちがうかも",
+      "chinese": "尺寸可能不对。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 127,
+      "chunkPattern": "サイズ〜",
+      "tags": ["display", "shopping", "size"]
+    },
+    {
+      "externalId": "s008",
+      "japanese": "在庫確認します。",
+      "tokens": [
+        { "text": "在庫", "kana": "ざいこ" },
+        { "text": "確認", "kana": "かくにん" },
+        { "text": "します。" }
+      ],
+      "kana": "ざいこかくにんします",
+      "chinese": "我查一下库存。",
+      "category": "progress",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 128,
+      "chunkPattern": "〜確認します",
+      "tags": ["display", "shopping", "stock-check"]
+    },
+    {
+      "externalId": "s009",
+      "japanese": "これ、レジまで。",
+      "tokens": [
+        { "text": "これ、レジまで。" }
+      ],
+      "kana": "これれじまで",
+      "chinese": "这个,我去结账。",
+      "category": "progress",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 129,
+      "chunkPattern": "これ、〜まで",
+      "tags": ["display", "shopping", "checkout"]
+    },
+    {
+      "externalId": "s010",
+      "japanese": "袋いりますか？",
+      "tokens": [
+        { "text": "袋", "kana": "ふくろ" },
+        { "text": "いりますか？" }
+      ],
+      "kana": "ふくろいりますか",
+      "chinese": "需要袋子吗？",
+      "category": "request",
+      "register": "丁寧",
+      "difficulty": 1,
+      "frequencyRank": 130,
+      "chunkPattern": "〜いりますか",
+      "tags": ["display", "shopping", "bag"]
+    },
+    {
+      "externalId": "s011",
+      "japanese": "ポイントカードある？",
+      "tokens": [
+        { "text": "ポイントカードある？" }
+      ],
+      "kana": "ぽいんとかーどある",
+      "chinese": "有积分卡吗？",
+      "category": "request",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 131,
+      "chunkPattern": "〜ある",
+      "tags": ["display", "shopping", "loyalty"]
+    },
+    {
+      "externalId": "s012",
+      "japanese": "やっぱりやめとく。",
+      "tokens": [
+        { "text": "やっぱりやめとく。" }
+      ],
+      "kana": "やっぱりやめとく",
+      "chinese": "还是不买了。",
+      "category": "progress",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 132,
+      "chunkPattern": "やっぱり〜",
+      "tags": ["display", "shopping", "skip"]
+    },
+    {
+      "externalId": "s013",
+      "japanese": "これ私にぴったり。",
+      "tokens": [
+        { "text": "これ" },
+        { "text": "私", "kana": "わたし" },
+        { "text": "にぴったり。" }
+      ],
+      "kana": "これわたしにぴったり",
+      "chinese": "这个正合我意。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 133,
+      "chunkPattern": "〜にぴったり",
+      "tags": ["display", "shopping", "perfect"]
+    },
+    {
+      "externalId": "s014",
+      "japanese": "ちょっと派手すぎ。",
+      "tokens": [
+        { "text": "ちょっと" },
+        { "text": "派手", "kana": "はで" },
+        { "text": "すぎ。" }
+      ],
+      "kana": "ちょっとはですぎ",
+      "chinese": "有点太花了。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 134,
+      "chunkPattern": "ちょっと〜すぎ",
+      "tags": ["display", "shopping", "flashy"]
+    },
+    {
+      "externalId": "s015",
+      "japanese": "これ似合うかな？",
+      "tokens": [
+        { "text": "これ" },
+        { "text": "似合う", "kana": "にあう" },
+        { "text": "かな？" }
+      ],
+      "kana": "これにあうかな",
+      "chinese": "适合我吗？",
+      "category": "request",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 135,
+      "chunkPattern": "〜似合うかな",
+      "tags": ["display", "shopping", "suit"]
+    },
+    {
+      "externalId": "s016",
+      "japanese": "別の色ある？",
+      "tokens": [
+        { "text": "別", "kana": "べつ" },
+        { "text": "の" },
+        { "text": "色", "kana": "いろ" },
+        { "text": "ある？" }
+      ],
+      "kana": "べつのいろある",
+      "chinese": "有别的颜色吗？",
+      "category": "request",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 136,
+      "chunkPattern": "別の〜ある",
+      "tags": ["display", "shopping", "other-color"]
+    },
+    {
+      "externalId": "s017",
+      "japanese": "ちょっと考えさせて。",
+      "tokens": [
+        { "text": "ちょっと" },
+        { "text": "考え", "kana": "かんがえ" },
+        { "text": "させて。" }
+      ],
+      "kana": "ちょっとかんがえさせて",
+      "chinese": "让我想想。",
+      "category": "request",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 137,
+      "chunkPattern": "ちょっと〜させて",
+      "tags": ["display", "shopping", "think"]
+    },
+    {
+      "externalId": "s018",
+      "japanese": "安くなったら買う。",
+      "tokens": [
+        { "text": "安く", "kana": "やすく" },
+        { "text": "なったら" },
+        { "text": "買う", "kana": "かう" },
+        { "text": "。" }
+      ],
+      "kana": "やすくなったらかう",
+      "chinese": "便宜了就买。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 138,
+      "chunkPattern": "〜なったら〜",
+      "tags": ["display", "shopping", "wait-discount"]
+    },
+    {
+      "externalId": "s019",
+      "japanese": "試してから決める。",
+      "tokens": [
+        { "text": "試して", "kana": "ためして" },
+        { "text": "から" },
+        { "text": "決める", "kana": "きめる" },
+        { "text": "。" }
+      ],
+      "kana": "ためしてからきめる",
+      "chinese": "试过再决定。",
+      "category": "progress",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 139,
+      "chunkPattern": "〜から決める",
+      "tags": ["display", "shopping", "try-first"]
+    },
+    {
+      "externalId": "s020",
+      "japanese": "後悔したくない。",
+      "tokens": [
+        { "text": "後悔", "kana": "こうかい" },
+        { "text": "したくない。" }
+      ],
+      "kana": "こうかいしたくない",
+      "chinese": "不想后悔。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 140,
+      "chunkPattern": "後悔〜",
+      "tags": ["display", "shopping", "no-regret"]
+    }
+  ],
+  "dialogues": [],
+  "passages": []
+}

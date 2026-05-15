@@ -1,0 +1,366 @@
+{
+  "packVersion": 1,
+  "packId": "display-discoveries-001",
+  "title": "Display Small Discoveries 001",
+  "generatedBy": "claude-opus-4-7",
+  "generatedAt": "2026-05-15",
+  "targetProfile": "Display-optimized moderate-length micro-discovery phrases — あれ・意外と・そういえば・お・へえ. 6-16 chars. Mostly カジュアル. The kind of phrases that fall out of your mouth when you notice something during the day.",
+  "reviewStatus": "reviewed",
+  "sentences": [
+    {
+      "externalId": "s001",
+      "japanese": "あれ、これ前と違う。",
+      "tokens": [
+        { "text": "あれ、これ" },
+        { "text": "前", "kana": "まえ" },
+        { "text": "と" },
+        { "text": "違う", "kana": "ちがう" },
+        { "text": "。" }
+      ],
+      "kana": "あれこれまえとちがう",
+      "chinese": "咦,这个跟以前不一样。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 635,
+      "chunkPattern": "あれ、〜と違う",
+      "tags": ["display", "discovery", "noticing"]
+    },
+    {
+      "externalId": "s002",
+      "japanese": "意外と簡単だった。",
+      "tokens": [
+        { "text": "意外", "kana": "いがい" },
+        { "text": "と" },
+        { "text": "簡単", "kana": "かんたん" },
+        { "text": "だった。" }
+      ],
+      "kana": "いがいとかんたんだった",
+      "chinese": "意外地很简单。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 640,
+      "chunkPattern": "意外と〜だった",
+      "tags": ["display", "discovery", "easier-than-expected"]
+    },
+    {
+      "externalId": "s003",
+      "japanese": "そういえば、忘れてた。",
+      "tokens": [
+        { "text": "そういえば、" },
+        { "text": "忘れてた", "kana": "わすれてた" },
+        { "text": "。" }
+      ],
+      "kana": "そういえばわすれてた",
+      "chinese": "这么一说,忘了。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 645,
+      "chunkPattern": "そういえば、〜",
+      "tags": ["display", "discovery", "remember"]
+    },
+    {
+      "externalId": "s004",
+      "japanese": "あ、ここにあった。",
+      "tokens": [
+        { "text": "あ、ここにあった。" }
+      ],
+      "kana": "あここにあった",
+      "chinese": "啊,在这里。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 650,
+      "chunkPattern": "あ、〜あった",
+      "tags": ["display", "discovery", "found"]
+    },
+    {
+      "externalId": "s005",
+      "japanese": "思ったより早く終わった。",
+      "tokens": [
+        { "text": "思った", "kana": "おもった" },
+        { "text": "より" },
+        { "text": "早く", "kana": "はやく" },
+        { "text": "終わった", "kana": "おわった" },
+        { "text": "。" }
+      ],
+      "kana": "おもったよりはやくおわった",
+      "chinese": "比想象中早结束。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 655,
+      "chunkPattern": "思ったより〜",
+      "tags": ["display", "discovery", "surprise"]
+    },
+    {
+      "externalId": "s006",
+      "japanese": "これ、いい感じだね。",
+      "tokens": [
+        { "text": "これ、いい" },
+        { "text": "感じ", "kana": "かんじ" },
+        { "text": "だね。" }
+      ],
+      "kana": "これいいかんじだね",
+      "chinese": "这个,感觉不错呢。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 660,
+      "chunkPattern": "これ、いい感じ",
+      "tags": ["display", "discovery", "positive"]
+    },
+    {
+      "externalId": "s007",
+      "japanese": "あ、もうこんな時間。",
+      "tokens": [
+        { "text": "あ、もうこんな" },
+        { "text": "時間", "kana": "じかん" },
+        { "text": "。" }
+      ],
+      "kana": "あもうこんなじかん",
+      "chinese": "啊,都这个时间了。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 665,
+      "chunkPattern": "あ、もうこんな〜",
+      "tags": ["display", "discovery", "time-flew"]
+    },
+    {
+      "externalId": "s008",
+      "japanese": "へえ、知らなかった。",
+      "tokens": [
+        { "text": "へえ、" },
+        { "text": "知らなかった", "kana": "しらなかった" },
+        { "text": "。" }
+      ],
+      "kana": "へえしらなかった",
+      "chinese": "哎,我不知道。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 670,
+      "chunkPattern": "へえ、〜",
+      "tags": ["display", "discovery", "new-info"]
+    },
+    {
+      "externalId": "s009",
+      "japanese": "ちょうど今欲しかった。",
+      "tokens": [
+        { "text": "ちょうど" },
+        { "text": "今", "kana": "いま" },
+        { "text": "欲しかった", "kana": "ほしかった" },
+        { "text": "。" }
+      ],
+      "kana": "ちょうどいまほしかった",
+      "chinese": "正好现在想要的。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 675,
+      "chunkPattern": "ちょうど〜欲しかった",
+      "tags": ["display", "discovery", "perfect-timing"]
+    },
+    {
+      "externalId": "s010",
+      "japanese": "これ、結構いいね。",
+      "tokens": [
+        { "text": "これ、" },
+        { "text": "結構", "kana": "けっこう" },
+        { "text": "いいね。" }
+      ],
+      "kana": "これけっこういいね",
+      "chinese": "这个,挺不错的。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 680,
+      "chunkPattern": "これ、結構〜",
+      "tags": ["display", "discovery", "approval"]
+    },
+    {
+      "externalId": "s011",
+      "japanese": "あ、これ私の好き。",
+      "tokens": [
+        { "text": "あ、これ" },
+        { "text": "私", "kana": "わたし" },
+        { "text": "の" },
+        { "text": "好き", "kana": "すき" },
+        { "text": "。" }
+      ],
+      "kana": "あこれわたしのすき",
+      "chinese": "啊,这个我喜欢。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 685,
+      "chunkPattern": "あ、これ〜好き",
+      "tags": ["display", "discovery", "like"]
+    },
+    {
+      "externalId": "s012",
+      "japanese": "意外と疲れてないな。",
+      "tokens": [
+        { "text": "意外", "kana": "いがい" },
+        { "text": "と" },
+        { "text": "疲れて", "kana": "つかれて" },
+        { "text": "ないな。" }
+      ],
+      "kana": "いがいとつかれてないな",
+      "chinese": "意外地没那么累。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 690,
+      "chunkPattern": "意外と〜ない",
+      "tags": ["display", "discovery", "not-tired"]
+    },
+    {
+      "externalId": "s013",
+      "japanese": "あれ、いつの間に？",
+      "tokens": [
+        { "text": "あれ、いつの" },
+        { "text": "間", "kana": "ま" },
+        { "text": "に？" }
+      ],
+      "kana": "あれいつのまに",
+      "chinese": "咦,什么时候？",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 695,
+      "chunkPattern": "あれ、いつの間に",
+      "tags": ["display", "discovery", "when-did-this"]
+    },
+    {
+      "externalId": "s014",
+      "japanese": "お、これ便利そう。",
+      "tokens": [
+        { "text": "お、これ" },
+        { "text": "便利", "kana": "べんり" },
+        { "text": "そう。" }
+      ],
+      "kana": "おこれべんりそう",
+      "chinese": "哦,这个看起来很方便。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 700,
+      "chunkPattern": "お、〜そう",
+      "tags": ["display", "discovery", "useful"]
+    },
+    {
+      "externalId": "s015",
+      "japanese": "そうだ、明日休みだ。",
+      "tokens": [
+        { "text": "そうだ、" },
+        { "text": "明日", "kana": "あした" },
+        { "text": "休み", "kana": "やすみ" },
+        { "text": "だ。" }
+      ],
+      "kana": "そうだあしたやすみだ",
+      "chinese": "对了,明天放假。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 705,
+      "chunkPattern": "そうだ、〜",
+      "tags": ["display", "discovery", "recall"]
+    },
+    {
+      "externalId": "s016",
+      "japanese": "これ意外と難しい。",
+      "tokens": [
+        { "text": "これ" },
+        { "text": "意外", "kana": "いがい" },
+        { "text": "と" },
+        { "text": "難しい", "kana": "むずかしい" },
+        { "text": "。" }
+      ],
+      "kana": "これいがいとむずかしい",
+      "chinese": "这个意外地难。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 710,
+      "chunkPattern": "〜意外と難しい",
+      "tags": ["display", "discovery", "harder-than-expected"]
+    },
+    {
+      "externalId": "s017",
+      "japanese": "あ、雨降ってきた。",
+      "tokens": [
+        { "text": "あ、" },
+        { "text": "雨", "kana": "あめ" },
+        { "text": "降って", "kana": "ふって" },
+        { "text": "きた。" }
+      ],
+      "kana": "あ、あめふってきた",
+      "chinese": "啊,下雨了。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 715,
+      "chunkPattern": "あ、〜きた",
+      "tags": ["display", "discovery", "weather"]
+    },
+    {
+      "externalId": "s018",
+      "japanese": "これ前にも見たな。",
+      "tokens": [
+        { "text": "これ" },
+        { "text": "前", "kana": "まえ" },
+        { "text": "にも" },
+        { "text": "見た", "kana": "みた" },
+        { "text": "な。" }
+      ],
+      "kana": "これまえにもみたな",
+      "chinese": "这个以前看过。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 720,
+      "chunkPattern": "〜前にも〜",
+      "tags": ["display", "discovery", "deja-vu"]
+    },
+    {
+      "externalId": "s019",
+      "japanese": "あ、これいい色。",
+      "tokens": [
+        { "text": "あ、これいい" },
+        { "text": "色", "kana": "いろ" },
+        { "text": "。" }
+      ],
+      "kana": "あこれいいいろ",
+      "chinese": "啊,这个颜色不错。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 725,
+      "chunkPattern": "あ、〜いい〜",
+      "tags": ["display", "discovery", "aesthetic"]
+    },
+    {
+      "externalId": "s020",
+      "japanese": "やっと見つかった。",
+      "tokens": [
+        { "text": "やっと" },
+        { "text": "見つかった", "kana": "みつかった" },
+        { "text": "。" }
+      ],
+      "kana": "やっとみつかった",
+      "chinese": "终于找到了。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 730,
+      "chunkPattern": "やっと〜",
+      "tags": ["display", "discovery", "found"]
+    }
+  ],
+  "dialogues": [],
+  "passages": []
+}

@@ -38,3 +38,7 @@ drizzle/meta/
 
 # OS
 Thumbs.db
+
+# Standalone build output — keep the shipped .zip artifact, ignore the
+# unpacked 170MB+ working folder (it's reproducible from `pnpm build`).
+dist/nihongo-studio/

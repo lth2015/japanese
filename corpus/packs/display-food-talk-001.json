@@ -1,0 +1,359 @@
+{
+  "packVersion": 1,
+  "packId": "display-food-talk-001",
+  "title": "Display Food Talk 001",
+  "generatedBy": "claude-opus-4-7",
+  "generatedAt": "2026-05-15",
+  "targetProfile": "Display-optimized moderate-length food and meal phrases — what to eat, how it tastes, asking for refills. 5-16 chars. Mostly カジュアル. The kind of phrases that come up multiple times a day at the cafeteria, izakaya, or at home.",
+  "reviewStatus": "reviewed",
+  "sentences": [
+    {
+      "externalId": "s001",
+      "japanese": "今日何食べる？",
+      "tokens": [
+        { "text": "今日", "kana": "きょう" },
+        { "text": "何", "kana": "なに" },
+        { "text": "食べる", "kana": "たべる" },
+        { "text": "？" }
+      ],
+      "kana": "きょうなにたべる",
+      "chinese": "今天吃什么？",
+      "category": "request",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 650,
+      "chunkPattern": "今日〜食べる",
+      "tags": ["display", "food", "what-to-eat"]
+    },
+    {
+      "externalId": "s002",
+      "japanese": "美味しそう、食べたい。",
+      "tokens": [
+        { "text": "美味しそう", "kana": "おいしそう" },
+        { "text": "、" },
+        { "text": "食べたい", "kana": "たべたい" },
+        { "text": "。" }
+      ],
+      "kana": "おいしそうたべたい",
+      "chinese": "看起来好吃,想吃。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 655,
+      "chunkPattern": "美味しそう、〜",
+      "tags": ["display", "food", "craving"]
+    },
+    {
+      "externalId": "s003",
+      "japanese": "ちょっと味薄いかも。",
+      "tokens": [
+        { "text": "ちょっと" },
+        { "text": "味", "kana": "あじ" },
+        { "text": "薄い", "kana": "うすい" },
+        { "text": "かも。" }
+      ],
+      "kana": "ちょっとあじうすいかも",
+      "chinese": "味道有点淡。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 660,
+      "chunkPattern": "ちょっと味〜",
+      "tags": ["display", "food", "taste"]
+    },
+    {
+      "externalId": "s004",
+      "japanese": "お腹いっぱいすぎる。",
+      "tokens": [
+        { "text": "お腹", "kana": "おなか" },
+        { "text": "いっぱい" },
+        { "text": "すぎる。" }
+      ],
+      "kana": "おなかいっぱいすぎる",
+      "chinese": "肚子太饱了。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 665,
+      "chunkPattern": "お腹〜すぎる",
+      "tags": ["display", "food", "stuffed"]
+    },
+    {
+      "externalId": "s005",
+      "japanese": "これ甘すぎ。",
+      "tokens": [
+        { "text": "これ" },
+        { "text": "甘すぎ", "kana": "あますぎ" },
+        { "text": "。" }
+      ],
+      "kana": "これあますぎ",
+      "chinese": "这个太甜了。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 670,
+      "chunkPattern": "これ〜すぎ",
+      "tags": ["display", "food", "too-sweet"]
+    },
+    {
+      "externalId": "s006",
+      "japanese": "今日はラーメン気分。",
+      "tokens": [
+        { "text": "今日", "kana": "きょう" },
+        { "text": "はラーメン" },
+        { "text": "気分", "kana": "きぶん" },
+        { "text": "。" }
+      ],
+      "kana": "きょうはらーめんきぶん",
+      "chinese": "今天想吃拉面。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 675,
+      "chunkPattern": "今日は〜気分",
+      "tags": ["display", "food", "in-the-mood"]
+    },
+    {
+      "externalId": "s007",
+      "japanese": "もう一杯いいかな。",
+      "tokens": [
+        { "text": "もう" },
+        { "text": "一杯", "kana": "いっぱい" },
+        { "text": "いいかな。" }
+      ],
+      "kana": "もういっぱいいいかな",
+      "chinese": "再来一杯可以吗。",
+      "category": "request",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 680,
+      "chunkPattern": "もう一杯〜",
+      "tags": ["display", "food", "refill"]
+    },
+    {
+      "externalId": "s008",
+      "japanese": "量多すぎ、残しちゃった。",
+      "tokens": [
+        { "text": "量", "kana": "りょう" },
+        { "text": "多すぎ", "kana": "おおすぎ" },
+        { "text": "、" },
+        { "text": "残しちゃった", "kana": "のこしちゃった" },
+        { "text": "。" }
+      ],
+      "kana": "りょうおおすぎのこしちゃった",
+      "chinese": "量太多,剩下了。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 685,
+      "chunkPattern": "量〜すぎ、〜",
+      "tags": ["display", "food", "portion"]
+    },
+    {
+      "externalId": "s009",
+      "japanese": "これ、めっちゃ美味い。",
+      "tokens": [
+        { "text": "これ、めっちゃ" },
+        { "text": "美味い", "kana": "うまい" },
+        { "text": "。" }
+      ],
+      "kana": "これめっちゃうまい",
+      "chinese": "这个,超好吃。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 690,
+      "chunkPattern": "これ、めっちゃ〜",
+      "tags": ["display", "food", "delicious"]
+    },
+    {
+      "externalId": "s010",
+      "japanese": "お代わりお願いします。",
+      "tokens": [
+        { "text": "お代わり", "kana": "おかわり" },
+        { "text": "お" },
+        { "text": "願いします", "kana": "ねがいします" },
+        { "text": "。" }
+      ],
+      "kana": "おかわりおねがいします",
+      "chinese": "再来一份,谢谢。",
+      "category": "request",
+      "register": "丁寧",
+      "difficulty": 1,
+      "frequencyRank": 695,
+      "chunkPattern": "〜お願いします",
+      "tags": ["display", "food", "refill"]
+    },
+    {
+      "externalId": "s011",
+      "japanese": "辛すぎて舌が痛い。",
+      "tokens": [
+        { "text": "辛すぎて", "kana": "からすぎて" },
+        { "text": "舌", "kana": "した" },
+        { "text": "が" },
+        { "text": "痛い", "kana": "いたい" },
+        { "text": "。" }
+      ],
+      "kana": "からすぎてしたがいたい",
+      "chinese": "太辣了舌头疼。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 700,
+      "chunkPattern": "〜すぎて〜痛い",
+      "tags": ["display", "food", "spicy"]
+    },
+    {
+      "externalId": "s012",
+      "japanese": "ちょっとだけ味見。",
+      "tokens": [
+        { "text": "ちょっとだけ" },
+        { "text": "味見", "kana": "あじみ" },
+        { "text": "。" }
+      ],
+      "kana": "ちょっとだけあじみ",
+      "chinese": "稍微尝一下。",
+      "category": "request",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 705,
+      "chunkPattern": "ちょっとだけ〜",
+      "tags": ["display", "food", "taste-test"]
+    },
+    {
+      "externalId": "s013",
+      "japanese": "デザートは別腹。",
+      "tokens": [
+        { "text": "デザートは" },
+        { "text": "別腹", "kana": "べつばら" },
+        { "text": "。" }
+      ],
+      "kana": "でざーとはべつばら",
+      "chinese": "甜点是另一个胃。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 710,
+      "chunkPattern": "〜は別腹",
+      "tags": ["display", "food", "dessert"]
+    },
+    {
+      "externalId": "s014",
+      "japanese": "これ温かいうちに。",
+      "tokens": [
+        { "text": "これ" },
+        { "text": "温かい", "kana": "あたたかい" },
+        { "text": "うちに。" }
+      ],
+      "kana": "これあたたかいうちに",
+      "chinese": "趁热吃。",
+      "category": "request",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 715,
+      "chunkPattern": "〜うちに",
+      "tags": ["display", "food", "while-warm"]
+    },
+    {
+      "externalId": "s015",
+      "japanese": "何頼んだ？",
+      "tokens": [
+        { "text": "何", "kana": "なに" },
+        { "text": "頼んだ", "kana": "たのんだ" },
+        { "text": "？" }
+      ],
+      "kana": "なにたのんだ",
+      "chinese": "点了什么？",
+      "category": "request",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 720,
+      "chunkPattern": "何頼んだ",
+      "tags": ["display", "food", "order"]
+    },
+    {
+      "externalId": "s016",
+      "japanese": "飲み物どうする？",
+      "tokens": [
+        { "text": "飲み物", "kana": "のみもの" },
+        { "text": "どうする？" }
+      ],
+      "kana": "のみものどうする",
+      "chinese": "饮料怎么办？",
+      "category": "request",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 725,
+      "chunkPattern": "〜どうする",
+      "tags": ["display", "food", "drink-choice"]
+    },
+    {
+      "externalId": "s017",
+      "japanese": "一口ちょうだい。",
+      "tokens": [
+        { "text": "一口", "kana": "ひとくち" },
+        { "text": "ちょうだい。" }
+      ],
+      "kana": "ひとくちちょうだい",
+      "chinese": "给我一口。",
+      "category": "request",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 730,
+      "chunkPattern": "一口〜",
+      "tags": ["display", "food", "share-bite"]
+    },
+    {
+      "externalId": "s018",
+      "japanese": "お弁当持ってきた。",
+      "tokens": [
+        { "text": "お弁当", "kana": "おべんとう" },
+        { "text": "持ってきた", "kana": "もってきた" },
+        { "text": "。" }
+      ],
+      "kana": "おべんとうもってきた",
+      "chinese": "我带便当了。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 735,
+      "chunkPattern": "〜持ってきた",
+      "tags": ["display", "food", "bento"]
+    },
+    {
+      "externalId": "s019",
+      "japanese": "もう食べられない。",
+      "tokens": [
+        { "text": "もう" },
+        { "text": "食べられない", "kana": "たべられない" },
+        { "text": "。" }
+      ],
+      "kana": "もうたべられない",
+      "chinese": "再也吃不下了。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 740,
+      "chunkPattern": "もう〜られない",
+      "tags": ["display", "food", "full"]
+    },
+    {
+      "externalId": "s020",
+      "japanese": "ご飯おかわり！",
+      "tokens": [
+        { "text": "ご飯", "kana": "ごはん" },
+        { "text": "おかわり！" }
+      ],
+      "kana": "ごはんおかわり",
+      "chinese": "再来一碗饭!",
+      "category": "request",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 745,
+      "chunkPattern": "〜おかわり",
+      "tags": ["display", "food", "seconds"]
+    }
+  ],
+  "dialogues": [],
+  "passages": []
+}

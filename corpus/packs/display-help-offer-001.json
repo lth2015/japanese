@@ -1,0 +1,358 @@
+{
+  "packVersion": 1,
+  "packId": "display-help-offer-001",
+  "title": "Display Offering Help 001",
+  "generatedBy": "claude-opus-4-7",
+  "generatedAt": "2026-05-15",
+  "targetProfile": "Display-optimized moderate-length proactive help-offering phrases for the workplace. 9-18 chars. Mix カジュアル + 丁寧. The kind of phrases that signal you're a generous teammate — flashing them surfaces useful proactive register vocabulary.",
+  "reviewStatus": "reviewed",
+  "sentences": [
+    {
+      "externalId": "s001",
+      "japanese": "何か手伝いましょうか。",
+      "tokens": [
+        { "text": "何か", "kana": "なにか" },
+        { "text": "手伝いましょうか", "kana": "てつだいましょうか" },
+        { "text": "。" }
+      ],
+      "kana": "なにかてつだいましょうか",
+      "chinese": "有什么需要帮忙的吗。",
+      "category": "request",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 50,
+      "chunkPattern": "何か〜ましょうか",
+      "tags": ["display", "help-offer", "work"]
+    },
+    {
+      "externalId": "s002",
+      "japanese": "私がやっておきますね。",
+      "tokens": [
+        { "text": "私", "kana": "わたし" },
+        { "text": "がやっておきますね。" }
+      ],
+      "kana": "わたしがやっておきますね",
+      "chinese": "我来做吧。",
+      "category": "progress",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 55,
+      "chunkPattern": "私が〜ておきますね",
+      "tags": ["display", "help-offer", "take-on"]
+    },
+    {
+      "externalId": "s003",
+      "japanese": "代わりにやろうか。",
+      "tokens": [
+        { "text": "代わり", "kana": "かわり" },
+        { "text": "にやろうか。" }
+      ],
+      "kana": "かわりにやろうか",
+      "chinese": "我替你做吧？",
+      "category": "request",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 345,
+      "chunkPattern": "代わりに〜",
+      "tags": ["display", "help-offer", "substitute"]
+    },
+    {
+      "externalId": "s004",
+      "japanese": "それ、こっちで引き取るよ。",
+      "tokens": [
+        { "text": "それ、こっちで" },
+        { "text": "引き取る", "kana": "ひきとる" },
+        { "text": "よ。" }
+      ],
+      "kana": "それこっちでひきとるよ",
+      "chinese": "那个我接过来吧。",
+      "category": "progress",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 350,
+      "chunkPattern": "こっちで〜",
+      "tags": ["display", "help-offer", "take-over"]
+    },
+    {
+      "externalId": "s005",
+      "japanese": "必要なら声かけて。",
+      "tokens": [
+        { "text": "必要", "kana": "ひつよう" },
+        { "text": "なら" },
+        { "text": "声", "kana": "こえ" },
+        { "text": "かけて。" }
+      ],
+      "kana": "ひつようならこえかけて",
+      "chinese": "需要的话叫我一声。",
+      "category": "request",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 355,
+      "chunkPattern": "〜なら声かけて",
+      "tags": ["display", "help-offer", "open-door"]
+    },
+    {
+      "externalId": "s006",
+      "japanese": "ちょっと見てみますね。",
+      "tokens": [
+        { "text": "ちょっと" },
+        { "text": "見て", "kana": "みて" },
+        { "text": "みますね。" }
+      ],
+      "kana": "ちょっとみてみますね",
+      "chinese": "我看看吧。",
+      "category": "progress",
+      "register": "丁寧",
+      "difficulty": 1,
+      "frequencyRank": 360,
+      "chunkPattern": "ちょっと〜みますね",
+      "tags": ["display", "help-offer", "investigate"]
+    },
+    {
+      "externalId": "s007",
+      "japanese": "何かあれば言ってください。",
+      "tokens": [
+        { "text": "何か", "kana": "なにか" },
+        { "text": "あれば" },
+        { "text": "言って", "kana": "いって" },
+        { "text": "ください。" }
+      ],
+      "kana": "なにかあればいってください",
+      "chinese": "有什么事请告诉我。",
+      "category": "request",
+      "register": "丁寧",
+      "difficulty": 1,
+      "frequencyRank": 365,
+      "chunkPattern": "何かあれば〜",
+      "tags": ["display", "help-offer", "polite"]
+    },
+    {
+      "externalId": "s008",
+      "japanese": "一緒にやろうか。",
+      "tokens": [
+        { "text": "一緒", "kana": "いっしょ" },
+        { "text": "にやろうか。" }
+      ],
+      "kana": "いっしょにやろうか",
+      "chinese": "一起做吧。",
+      "category": "request",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 370,
+      "chunkPattern": "一緒に〜",
+      "tags": ["display", "help-offer", "pair-up"]
+    },
+    {
+      "externalId": "s009",
+      "japanese": "お手伝いしましょうか。",
+      "tokens": [
+        { "text": "お" },
+        { "text": "手伝い", "kana": "てつだい" },
+        { "text": "しましょうか。" }
+      ],
+      "kana": "おてつだいしましょうか",
+      "chinese": "我来帮您吧。",
+      "category": "request",
+      "register": "敬語",
+      "difficulty": 2,
+      "frequencyRank": 375,
+      "chunkPattern": "お〜しましょうか",
+      "tags": ["display", "help-offer", "polite"]
+    },
+    {
+      "externalId": "s010",
+      "japanese": "それ、私やりますよ。",
+      "tokens": [
+        { "text": "それ、" },
+        { "text": "私", "kana": "わたし" },
+        { "text": "やりますよ。" }
+      ],
+      "kana": "それわたしやりますよ",
+      "chinese": "那个我来做吧。",
+      "category": "progress",
+      "register": "丁寧",
+      "difficulty": 1,
+      "frequencyRank": 380,
+      "chunkPattern": "それ、〜やりますよ",
+      "tags": ["display", "help-offer", "volunteer"]
+    },
+    {
+      "externalId": "s011",
+      "japanese": "必要なら手伝うよ。",
+      "tokens": [
+        { "text": "必要", "kana": "ひつよう" },
+        { "text": "なら" },
+        { "text": "手伝う", "kana": "てつだう" },
+        { "text": "よ。" }
+      ],
+      "kana": "ひつようならてつだうよ",
+      "chinese": "需要的话我帮你。",
+      "category": "request",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 385,
+      "chunkPattern": "必要なら〜",
+      "tags": ["display", "help-offer", "casual"]
+    },
+    {
+      "externalId": "s012",
+      "japanese": "これ、預かりましょうか。",
+      "tokens": [
+        { "text": "これ、" },
+        { "text": "預かりましょうか", "kana": "あずかりましょうか" },
+        { "text": "。" }
+      ],
+      "kana": "これあずかりましょうか",
+      "chinese": "这个让我保管吧？",
+      "category": "request",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 390,
+      "chunkPattern": "これ、〜ましょうか",
+      "tags": ["display", "help-offer", "hold-for-you"]
+    },
+    {
+      "externalId": "s013",
+      "japanese": "手が空いてるよ。",
+      "tokens": [
+        { "text": "手", "kana": "て" },
+        { "text": "が" },
+        { "text": "空いてる", "kana": "あいてる" },
+        { "text": "よ。" }
+      ],
+      "kana": "てがあいてるよ",
+      "chinese": "我有空闲。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 395,
+      "chunkPattern": "手が空いてる",
+      "tags": ["display", "help-offer", "available"]
+    },
+    {
+      "externalId": "s014",
+      "japanese": "ちょっと代わりますね。",
+      "tokens": [
+        { "text": "ちょっと" },
+        { "text": "代わります", "kana": "かわります" },
+        { "text": "ね。" }
+      ],
+      "kana": "ちょっとかわりますね",
+      "chinese": "我来替您。",
+      "category": "progress",
+      "register": "丁寧",
+      "difficulty": 1,
+      "frequencyRank": 400,
+      "chunkPattern": "ちょっと〜ますね",
+      "tags": ["display", "help-offer", "swap-in"]
+    },
+    {
+      "externalId": "s015",
+      "japanese": "何かできることある？",
+      "tokens": [
+        { "text": "何か", "kana": "なにか" },
+        { "text": "できることある？" }
+      ],
+      "kana": "なにかできることある",
+      "chinese": "有什么我能做的吗？",
+      "category": "request",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 405,
+      "chunkPattern": "何かできること〜",
+      "tags": ["display", "help-offer", "open-ended"]
+    },
+    {
+      "externalId": "s016",
+      "japanese": "その件、私が確認します。",
+      "tokens": [
+        { "text": "その" },
+        { "text": "件", "kana": "けん" },
+        { "text": "、" },
+        { "text": "私", "kana": "わたし" },
+        { "text": "が" },
+        { "text": "確認", "kana": "かくにん" },
+        { "text": "します。" }
+      ],
+      "kana": "そのけんわたしがかくにんします",
+      "chinese": "这件事我来确认。",
+      "category": "progress",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 410,
+      "chunkPattern": "その件、私が〜",
+      "tags": ["display", "help-offer", "take-the-task"]
+    },
+    {
+      "externalId": "s017",
+      "japanese": "困ったら遠慮なく。",
+      "tokens": [
+        { "text": "困ったら", "kana": "こまったら" },
+        { "text": "遠慮", "kana": "えんりょ" },
+        { "text": "なく。" }
+      ],
+      "kana": "こまったらえんりょなく",
+      "chinese": "有困难就别客气。",
+      "category": "request",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 415,
+      "chunkPattern": "困ったら〜",
+      "tags": ["display", "help-offer", "reassure"]
+    },
+    {
+      "externalId": "s018",
+      "japanese": "お時間あればやります。",
+      "tokens": [
+        { "text": "お" },
+        { "text": "時間", "kana": "じかん" },
+        { "text": "あればやります。" }
+      ],
+      "kana": "おじかんあればやります",
+      "chinese": "有时间的话我来做。",
+      "category": "request",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 420,
+      "chunkPattern": "お時間あれば〜",
+      "tags": ["display", "help-offer", "polite"]
+    },
+    {
+      "externalId": "s019",
+      "japanese": "ここは任せてください。",
+      "tokens": [
+        { "text": "ここは" },
+        { "text": "任せて", "kana": "まかせて" },
+        { "text": "ください。" }
+      ],
+      "kana": "ここはまかせてください",
+      "chinese": "这里就交给我吧。",
+      "category": "progress",
+      "register": "丁寧",
+      "difficulty": 1,
+      "frequencyRank": 425,
+      "chunkPattern": "〜任せてください",
+      "tags": ["display", "help-offer", "confident"]
+    },
+    {
+      "externalId": "s020",
+      "japanese": "心配しなくて大丈夫。",
+      "tokens": [
+        { "text": "心配", "kana": "しんぱい" },
+        { "text": "しなくて" },
+        { "text": "大丈夫", "kana": "だいじょうぶ" },
+        { "text": "。" }
+      ],
+      "kana": "しんぱいしなくてだいじょうぶ",
+      "chinese": "不用担心,没事。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 430,
+      "chunkPattern": "心配しなくて〜",
+      "tags": ["display", "help-offer", "reassure"]
+    }
+  ],
+  "dialogues": [],
+  "passages": []
+}

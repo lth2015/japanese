@@ -20,7 +20,7 @@ export type DisplaySettings = {
 const KEY = "nihongo:display-settings-v2"
 
 const DEFAULT_SETTINGS: DisplaySettings = {
-  intervalSec: 8,
+  intervalSec: 5,
   source: "all",
   fontSize: "L",
   showKana: true,

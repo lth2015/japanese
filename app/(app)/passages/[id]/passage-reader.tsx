@@ -18,11 +18,15 @@ interface Props {
 export function PassageReader({ passage }: Props) {
   const [showFurigana, setShowFurigana] = useState(true)
   const [playing, setPlaying] = useState(false)
+  const [playingQuestion, setPlayingQuestion] = useState<number | null>(null)
   const [revealedAnswers, setRevealedAnswers] = useState<Record<number, boolean>>({})
   const [userAnswers, setUserAnswers] = useState<Record<number, string>>({})
 
   useEffect(() => {
     ensureVoicesLoaded()
+    return () => {
+      if (typeof window !== "undefined") window.speechSynthesis.cancel()
+    }
   }, [])
 
   async function handlePlayAll() {
@@ -33,6 +37,25 @@ export function PassageReader({ passage }: Props) {
       // ignore
     } finally {
       setPlaying(false)
+    }
+  }
+
+  async function playQuestion(idx: number, text: string) {
+    setPlayingQuestion(idx)
+    try {
+      await speakJapanese(text, { rate: 0.95 })
+    } catch {
+      // ignore
+    } finally {
+      setPlayingQuestion((cur) => (cur === idx ? null : cur))
+    }
+  }
+
+  async function playWord(text: string) {
+    try {
+      await speakJapanese(text, { rate: 0.9 })
+    } catch {
+      // ignore
     }
   }
 
@@ -114,6 +137,15 @@ export function PassageReader({ passage }: Props) {
                   <span className="text-fg-secondary text-sm flex-1" lang="zh-CN">
                     {v.meaning}
                   </span>
+                  <Button
+                    variant="ghost"
+                    size="sm"
+                    className="shrink-0 -mr-1"
+                    onClick={() => playWord(v.word)}
+                    aria-label={`朗读 ${v.word}`}
+                  >
+                    <Play className="h-3.5 w-3.5" />
+                  </Button>
                 </CardContent>
               </Card>
             ))}
@@ -143,9 +175,25 @@ export function PassageReader({ passage }: Props) {
                       </Badge>
                       <span className="text-xs text-fg-tertiary">问题 {i + 1}</span>
                     </div>
-                    <p lang="ja" className="font-jp text-fg">
-                      {q.q}
-                    </p>
+                    <div className="flex items-start gap-2">
+                      <p lang="ja" className="font-jp text-fg flex-1">
+                        {q.q}
+                      </p>
+                      <Button
+                        variant="ghost"
+                        size="sm"
+                        className="shrink-0 -mt-1 -mr-1"
+                        onClick={() => playQuestion(i, q.q)}
+                        disabled={playingQuestion === i}
+                        aria-label="朗读问题"
+                      >
+                        {playingQuestion === i ? (
+                          <Loader2 className="h-3.5 w-3.5 animate-spin" />
+                        ) : (
+                          <Play className="h-3.5 w-3.5" />
+                        )}
+                      </Button>
+                    </div>
                     <textarea
                       value={userAnswers[i] ?? ""}
                       onChange={(e) =>

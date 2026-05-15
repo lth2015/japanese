@@ -5,6 +5,7 @@ import { useCallback, useEffect, useMemo, useRef, useState } from "react"
 import { FuriganaText } from "@/components/furigana-text"
 import { Button } from "@/components/ui/button"
 import type { Sentence } from "@/lib/db/schema"
+import { ensureVoicesLoaded, speakJapanese } from "@/lib/speech"
 import { cn } from "@/lib/utils"
 import {
   FONT_SIZE_CLASS,
@@ -49,6 +50,21 @@ export function DisplayTicker({ sentences }: Props) {
   useEffect(() => {
     if (index >= queue.length) setIndex(0)
   }, [queue.length, index])
+
+  useEffect(() => {
+    if (!settings.autoPlayTTS) return
+    if (paused) return
+    if (!current) return
+    let cancelled = false
+    ensureVoicesLoaded().then(() => {
+      if (cancelled) return
+      speakJapanese(current.japanese, { rate: 0.95 }).catch(() => {})
+    })
+    return () => {
+      cancelled = true
+      if (typeof window !== "undefined") window.speechSynthesis.cancel()
+    }
+  }, [settings.autoPlayTTS, paused, current])
 
   // Wake lock
   useEffect(() => {

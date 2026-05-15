@@ -1,0 +1,357 @@
+{
+  "packVersion": 1,
+  "packId": "display-curious-questions-001",
+  "title": "Display Curious Questions 001",
+  "generatedBy": "claude-opus-4-7",
+  "generatedAt": "2026-05-15",
+  "targetProfile": "Display-optimized moderate-length curious-question phrases — the open and follow-up questions that keep a conversation going. 6-15 chars. Mostly カジュアル. Different from asking-opinion: these are asking for facts, details, or stories.",
+  "reviewStatus": "reviewed",
+  "sentences": [
+    {
+      "externalId": "s001",
+      "japanese": "ちなみに、何時から？",
+      "tokens": [
+        { "text": "ちなみに、" },
+        { "text": "何時", "kana": "なんじ" },
+        { "text": "から？" }
+      ],
+      "kana": "ちなみになんじから",
+      "chinese": "顺便问下,几点开始？",
+      "category": "request",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 21,
+      "chunkPattern": "ちなみに、〜",
+      "tags": ["display", "curious", "fyi-ask"]
+    },
+    {
+      "externalId": "s002",
+      "japanese": "それって何のこと？",
+      "tokens": [
+        { "text": "それって" },
+        { "text": "何", "kana": "なん" },
+        { "text": "のこと？" }
+      ],
+      "kana": "それってなんのこと",
+      "chinese": "那是指什么？",
+      "category": "request",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 22,
+      "chunkPattern": "それって〜のこと",
+      "tags": ["display", "curious", "clarify"]
+    },
+    {
+      "externalId": "s003",
+      "japanese": "興味あるんだけど。",
+      "tokens": [
+        { "text": "興味", "kana": "きょうみ" },
+        { "text": "あるんだけど。" }
+      ],
+      "kana": "きょうみあるんだけど",
+      "chinese": "我有点感兴趣…",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 23,
+      "chunkPattern": "興味〜あるんだけど",
+      "tags": ["display", "curious", "interest"]
+    },
+    {
+      "externalId": "s004",
+      "japanese": "もっと詳しく教えて。",
+      "tokens": [
+        { "text": "もっと" },
+        { "text": "詳しく", "kana": "くわしく" },
+        { "text": "教えて", "kana": "おしえて" },
+        { "text": "。" }
+      ],
+      "kana": "もっとくわしくおしえて",
+      "chinese": "再详细告诉我。",
+      "category": "request",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 24,
+      "chunkPattern": "もっと詳しく〜",
+      "tags": ["display", "curious", "elaborate"]
+    },
+    {
+      "externalId": "s005",
+      "japanese": "それってどういう意味？",
+      "tokens": [
+        { "text": "それってどういう" },
+        { "text": "意味", "kana": "いみ" },
+        { "text": "？" }
+      ],
+      "kana": "それってどういういみ",
+      "chinese": "那是什么意思？",
+      "category": "request",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 25,
+      "chunkPattern": "それってどういう〜",
+      "tags": ["display", "curious", "meaning"]
+    },
+    {
+      "externalId": "s006",
+      "japanese": "何で気づいたの？",
+      "tokens": [
+        { "text": "何で", "kana": "なんで" },
+        { "text": "気づいた", "kana": "きづいた" },
+        { "text": "の？" }
+      ],
+      "kana": "なんできづいたの",
+      "chinese": "怎么发现的？",
+      "category": "request",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 26,
+      "chunkPattern": "何で〜たの",
+      "tags": ["display", "curious", "how-did"]
+    },
+    {
+      "externalId": "s007",
+      "japanese": "それ、どこで買った？",
+      "tokens": [
+        { "text": "それ、どこで" },
+        { "text": "買った", "kana": "かった" },
+        { "text": "？" }
+      ],
+      "kana": "それどこでかった",
+      "chinese": "那个在哪儿买的？",
+      "category": "request",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 27,
+      "chunkPattern": "それ、どこで〜",
+      "tags": ["display", "curious", "where-bought"]
+    },
+    {
+      "externalId": "s008",
+      "japanese": "なんでそう思った？",
+      "tokens": [
+        { "text": "なんでそう" },
+        { "text": "思った", "kana": "おもった" },
+        { "text": "？" }
+      ],
+      "kana": "なんでそうおもった",
+      "chinese": "为什么这么想？",
+      "category": "request",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 28,
+      "chunkPattern": "なんでそう〜",
+      "tags": ["display", "curious", "why"]
+    },
+    {
+      "externalId": "s009",
+      "japanese": "普段はどうしてる？",
+      "tokens": [
+        { "text": "普段", "kana": "ふだん" },
+        { "text": "はどうしてる？" }
+      ],
+      "kana": "ふだんはどうしてる",
+      "chinese": "平时怎么做？",
+      "category": "request",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 29,
+      "chunkPattern": "普段は〜",
+      "tags": ["display", "curious", "usually"]
+    },
+    {
+      "externalId": "s010",
+      "japanese": "それ初めて聞いた。",
+      "tokens": [
+        { "text": "それ" },
+        { "text": "初めて", "kana": "はじめて" },
+        { "text": "聞いた", "kana": "きいた" },
+        { "text": "。" }
+      ],
+      "kana": "それはじめてきいた",
+      "chinese": "我第一次听说。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 30,
+      "chunkPattern": "〜初めて聞いた",
+      "tags": ["display", "curious", "first-time"]
+    },
+    {
+      "externalId": "s011",
+      "japanese": "例えばどんなの？",
+      "tokens": [
+        { "text": "例えば", "kana": "たとえば" },
+        { "text": "どんなの？" }
+      ],
+      "kana": "たとえばどんなの",
+      "chinese": "比如什么样的？",
+      "category": "request",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 31,
+      "chunkPattern": "例えば〜",
+      "tags": ["display", "curious", "example"]
+    },
+    {
+      "externalId": "s012",
+      "japanese": "もうやってみた？",
+      "tokens": [
+        { "text": "もうやってみた？" }
+      ],
+      "kana": "もうやってみた",
+      "chinese": "你已经试过了？",
+      "category": "request",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 32,
+      "chunkPattern": "もう〜てみた",
+      "tags": ["display", "curious", "tried-yet"]
+    },
+    {
+      "externalId": "s013",
+      "japanese": "元々何の話？",
+      "tokens": [
+        { "text": "元々", "kana": "もともと" },
+        { "text": "何", "kana": "なん" },
+        { "text": "の" },
+        { "text": "話", "kana": "はなし" },
+        { "text": "？" }
+      ],
+      "kana": "もともとなんのはなし",
+      "chinese": "本来在说什么？",
+      "category": "request",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 33,
+      "chunkPattern": "元々〜",
+      "tags": ["display", "curious", "back-up"]
+    },
+    {
+      "externalId": "s014",
+      "japanese": "何かいい方法ある？",
+      "tokens": [
+        { "text": "何か", "kana": "なにか" },
+        { "text": "いい" },
+        { "text": "方法", "kana": "ほうほう" },
+        { "text": "ある？" }
+      ],
+      "kana": "なにかいいほうほうある",
+      "chinese": "有什么好办法吗？",
+      "category": "request",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 34,
+      "chunkPattern": "何かいい〜ある",
+      "tags": ["display", "curious", "suggestions"]
+    },
+    {
+      "externalId": "s015",
+      "japanese": "これって普通？",
+      "tokens": [
+        { "text": "これって" },
+        { "text": "普通", "kana": "ふつう" },
+        { "text": "？" }
+      ],
+      "kana": "これってふつう",
+      "chinese": "这算正常吗？",
+      "category": "request",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 35,
+      "chunkPattern": "これって〜",
+      "tags": ["display", "curious", "normal"]
+    },
+    {
+      "externalId": "s016",
+      "japanese": "由来は何だっけ？",
+      "tokens": [
+        { "text": "由来", "kana": "ゆらい" },
+        { "text": "は" },
+        { "text": "何", "kana": "なん" },
+        { "text": "だっけ？" }
+      ],
+      "kana": "ゆらいはなんだっけ",
+      "chinese": "来历是什么来着？",
+      "category": "request",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 36,
+      "chunkPattern": "〜は何だっけ",
+      "tags": ["display", "curious", "origin"]
+    },
+    {
+      "externalId": "s017",
+      "japanese": "続き気になる。",
+      "tokens": [
+        { "text": "続き", "kana": "つづき" },
+        { "text": "気になる", "kana": "きになる" },
+        { "text": "。" }
+      ],
+      "kana": "つづききになる",
+      "chinese": "想知道后续。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 37,
+      "chunkPattern": "〜気になる",
+      "tags": ["display", "curious", "intrigued"]
+    },
+    {
+      "externalId": "s018",
+      "japanese": "それ本当の話？",
+      "tokens": [
+        { "text": "それ" },
+        { "text": "本当", "kana": "ほんとう" },
+        { "text": "の" },
+        { "text": "話", "kana": "はなし" },
+        { "text": "？" }
+      ],
+      "kana": "それほんとうのはなし",
+      "chinese": "那是真的吗？",
+      "category": "request",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 38,
+      "chunkPattern": "〜本当の話",
+      "tags": ["display", "curious", "really"]
+    },
+    {
+      "externalId": "s019",
+      "japanese": "ちょっと聞いていい？",
+      "tokens": [
+        { "text": "ちょっと" },
+        { "text": "聞いて", "kana": "きいて" },
+        { "text": "いい？" }
+      ],
+      "kana": "ちょっときいていい",
+      "chinese": "我能问个事吗？",
+      "category": "request",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 39,
+      "chunkPattern": "ちょっと聞いて〜",
+      "tags": ["display", "curious", "may-i-ask"]
+    },
+    {
+      "externalId": "s020",
+      "japanese": "何でそんなに詳しいの？",
+      "tokens": [
+        { "text": "何で", "kana": "なんで" },
+        { "text": "そんなに" },
+        { "text": "詳しい", "kana": "くわしい" },
+        { "text": "の？" }
+      ],
+      "kana": "なんでそんなにくわしいの",
+      "chinese": "你怎么这么了解？",
+      "category": "request",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 40,
+      "chunkPattern": "何でそんなに〜",
+      "tags": ["display", "curious", "expert"]
+    }
+  ],
+  "dialogues": [],
+  "passages": []
+}

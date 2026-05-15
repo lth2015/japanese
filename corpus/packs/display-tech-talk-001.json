@@ -1,0 +1,347 @@
+{
+  "packVersion": 1,
+  "packId": "display-tech-talk-001",
+  "title": "Display Tech Talk 001",
+  "generatedBy": "claude-opus-4-7",
+  "generatedAt": "2026-05-15",
+  "targetProfile": "Display-optimized moderate-length tech / device / connectivity phrases. 5-15 chars. Mostly カジュアル. Cover the digital-life vocabulary every modern worker mutters daily — battery, wifi, bugs, restarts, login problems.",
+  "reviewStatus": "reviewed",
+  "sentences": [
+    {
+      "externalId": "s001",
+      "japanese": "なんか調子悪いな。",
+      "tokens": [
+        { "text": "なんか" },
+        { "text": "調子", "kana": "ちょうし" },
+        { "text": "悪い", "kana": "わるい" },
+        { "text": "な。" }
+      ],
+      "kana": "なんかちょうしわるいな",
+      "chinese": "好像状态不太对。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 850,
+      "chunkPattern": "なんか調子〜",
+      "tags": ["display", "tech", "off"]
+    },
+    {
+      "externalId": "s002",
+      "japanese": "再起動してみる。",
+      "tokens": [
+        { "text": "再起動", "kana": "さいきどう" },
+        { "text": "してみる。" }
+      ],
+      "kana": "さいきどうしてみる",
+      "chinese": "重启试试。",
+      "category": "progress",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 855,
+      "chunkPattern": "〜してみる",
+      "tags": ["display", "tech", "restart"]
+    },
+    {
+      "externalId": "s003",
+      "japanese": "パスワード忘れた。",
+      "tokens": [
+        { "text": "パスワード" },
+        { "text": "忘れた", "kana": "わすれた" },
+        { "text": "。" }
+      ],
+      "kana": "ぱすわーどわすれた",
+      "chinese": "密码忘了。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 860,
+      "chunkPattern": "〜忘れた",
+      "tags": ["display", "tech", "password"]
+    },
+    {
+      "externalId": "s004",
+      "japanese": "アプリ落ちた。",
+      "tokens": [
+        { "text": "アプリ" },
+        { "text": "落ちた", "kana": "おちた" },
+        { "text": "。" }
+      ],
+      "kana": "あぷりおちた",
+      "chinese": "App 崩了。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 865,
+      "chunkPattern": "〜落ちた",
+      "tags": ["display", "tech", "crash"]
+    },
+    {
+      "externalId": "s005",
+      "japanese": "通知止まらない。",
+      "tokens": [
+        { "text": "通知", "kana": "つうち" },
+        { "text": "止まらない", "kana": "とまらない" },
+        { "text": "。" }
+      ],
+      "kana": "つうちとまらない",
+      "chinese": "通知停不下来。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 870,
+      "chunkPattern": "通知〜",
+      "tags": ["display", "tech", "notifications"]
+    },
+    {
+      "externalId": "s006",
+      "japanese": "バッテリーやばい。",
+      "tokens": [
+        { "text": "バッテリーやばい。" }
+      ],
+      "kana": "ばってりーやばい",
+      "chinese": "电池快没了。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 875,
+      "chunkPattern": "バッテリー〜",
+      "tags": ["display", "tech", "battery"]
+    },
+    {
+      "externalId": "s007",
+      "japanese": "充電器ある？",
+      "tokens": [
+        { "text": "充電器", "kana": "じゅうでんき" },
+        { "text": "ある？" }
+      ],
+      "kana": "じゅうでんきある",
+      "chinese": "有充电器吗？",
+      "category": "request",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 880,
+      "chunkPattern": "〜ある",
+      "tags": ["display", "tech", "charger"]
+    },
+    {
+      "externalId": "s008",
+      "japanese": "Wi-Fi繋がらない。",
+      "tokens": [
+        { "text": "Wi-Fi" },
+        { "text": "繋がらない", "kana": "つながらない" },
+        { "text": "。" }
+      ],
+      "kana": "Wi-Fiつながらない",
+      "chinese": "Wi-Fi 连不上。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 885,
+      "chunkPattern": "Wi-Fi〜",
+      "tags": ["display", "tech", "wifi"]
+    },
+    {
+      "externalId": "s009",
+      "japanese": "画面固まった。",
+      "tokens": [
+        { "text": "画面", "kana": "がめん" },
+        { "text": "固まった", "kana": "かたまった" },
+        { "text": "。" }
+      ],
+      "kana": "がめんかたまった",
+      "chinese": "屏幕卡住了。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 890,
+      "chunkPattern": "画面〜",
+      "tags": ["display", "tech", "freeze"]
+    },
+    {
+      "externalId": "s010",
+      "japanese": "アップデート来てる。",
+      "tokens": [
+        { "text": "アップデート" },
+        { "text": "来てる", "kana": "きてる" },
+        { "text": "。" }
+      ],
+      "kana": "あっぷでーときてる",
+      "chinese": "有更新过来了。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 895,
+      "chunkPattern": "〜来てる",
+      "tags": ["display", "tech", "update"]
+    },
+    {
+      "externalId": "s011",
+      "japanese": "ファイル開かない。",
+      "tokens": [
+        { "text": "ファイル" },
+        { "text": "開かない", "kana": "ひらかない" },
+        { "text": "。" }
+      ],
+      "kana": "ふぁいるひらかない",
+      "chinese": "文件打不开。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 900,
+      "chunkPattern": "〜開かない",
+      "tags": ["display", "tech", "file"]
+    },
+    {
+      "externalId": "s012",
+      "japanese": "メール届いてない？",
+      "tokens": [
+        { "text": "メール" },
+        { "text": "届いて", "kana": "とどいて" },
+        { "text": "ない？" }
+      ],
+      "kana": "めーるとどいてない",
+      "chinese": "邮件没收到吗？",
+      "category": "request",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 905,
+      "chunkPattern": "〜届いてない",
+      "tags": ["display", "tech", "email"]
+    },
+    {
+      "externalId": "s013",
+      "japanese": "リンク切れてるかも。",
+      "tokens": [
+        { "text": "リンク" },
+        { "text": "切れてる", "kana": "きれてる" },
+        { "text": "かも。" }
+      ],
+      "kana": "りんくきれてるかも",
+      "chinese": "链接好像失效了。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 910,
+      "chunkPattern": "〜切れてる",
+      "tags": ["display", "tech", "broken-link"]
+    },
+    {
+      "externalId": "s014",
+      "japanese": "通信遅いな。",
+      "tokens": [
+        { "text": "通信", "kana": "つうしん" },
+        { "text": "遅い", "kana": "おそい" },
+        { "text": "な。" }
+      ],
+      "kana": "つうしんおそいな",
+      "chinese": "网速好慢啊。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 915,
+      "chunkPattern": "通信〜",
+      "tags": ["display", "tech", "slow"]
+    },
+    {
+      "externalId": "s015",
+      "japanese": "データ消えたかも。",
+      "tokens": [
+        { "text": "データ" },
+        { "text": "消えた", "kana": "きえた" },
+        { "text": "かも。" }
+      ],
+      "kana": "でーたきえたかも",
+      "chinese": "数据可能没了。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 920,
+      "chunkPattern": "〜消えた",
+      "tags": ["display", "tech", "data-loss"]
+    },
+    {
+      "externalId": "s016",
+      "japanese": "ちょっとバグった。",
+      "tokens": [
+        { "text": "ちょっと" },
+        { "text": "バグった。" }
+      ],
+      "kana": "ちょっとばぐった",
+      "chinese": "稍微出 bug 了。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 925,
+      "chunkPattern": "ちょっと〜",
+      "tags": ["display", "tech", "bug"]
+    },
+    {
+      "externalId": "s017",
+      "japanese": "これ仕様らしい。",
+      "tokens": [
+        { "text": "これ" },
+        { "text": "仕様", "kana": "しよう" },
+        { "text": "らしい。" }
+      ],
+      "kana": "これしようらしい",
+      "chinese": "听说这是规格。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 930,
+      "chunkPattern": "これ〜らしい",
+      "tags": ["display", "tech", "by-design"]
+    },
+    {
+      "externalId": "s018",
+      "japanese": "キャッシュ消そう。",
+      "tokens": [
+        { "text": "キャッシュ" },
+        { "text": "消そう", "kana": "けそう" },
+        { "text": "。" }
+      ],
+      "kana": "きゃっしゅけそう",
+      "chinese": "把缓存清了吧。",
+      "category": "progress",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 935,
+      "chunkPattern": "〜消そう",
+      "tags": ["display", "tech", "cache"]
+    },
+    {
+      "externalId": "s019",
+      "japanese": "ログインできない。",
+      "tokens": [
+        { "text": "ログインできない。" }
+      ],
+      "kana": "ろぐいんできない",
+      "chinese": "登不上去。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 940,
+      "chunkPattern": "〜できない",
+      "tags": ["display", "tech", "login"]
+    },
+    {
+      "externalId": "s020",
+      "japanese": "アカウント連携した？",
+      "tokens": [
+        { "text": "アカウント" },
+        { "text": "連携", "kana": "れんけい" },
+        { "text": "した？" }
+      ],
+      "kana": "あかうんとれんけいした",
+      "chinese": "账号绑了吗？",
+      "category": "request",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 945,
+      "chunkPattern": "〜連携した",
+      "tags": ["display", "tech", "link-account"]
+    }
+  ],
+  "dialogues": [],
+  "passages": []
+}

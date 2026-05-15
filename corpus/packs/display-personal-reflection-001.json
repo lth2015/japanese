@@ -1,0 +1,357 @@
+{
+  "packVersion": 1,
+  "packId": "display-personal-reflection-001",
+  "title": "Display Personal Reflection 001",
+  "generatedBy": "claude-opus-4-7",
+  "generatedAt": "2026-05-15",
+  "targetProfile": "Display-optimized moderate-length self-reflection phrases — looking back on choices, recognizing patterns, naming lessons learned. 6-15 chars. Mostly カジュアル. The honest inner voice after the heat of action has passed.",
+  "reviewStatus": "reviewed",
+  "sentences": [
+    {
+      "externalId": "s001",
+      "japanese": "もっとこうすればよかった。",
+      "tokens": [
+        { "text": "もっとこうすればよかった。" }
+      ],
+      "kana": "もっとこうすればよかった",
+      "chinese": "当时这样做就好了。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 41,
+      "chunkPattern": "もっと〜すればよかった",
+      "tags": ["display", "reflection", "regret"]
+    },
+    {
+      "externalId": "s002",
+      "japanese": "反省してる。",
+      "tokens": [
+        { "text": "反省", "kana": "はんせい" },
+        { "text": "してる。" }
+      ],
+      "kana": "はんせいしてる",
+      "chinese": "我在反省。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 42,
+      "chunkPattern": "反省〜",
+      "tags": ["display", "reflection", "self-blame"]
+    },
+    {
+      "externalId": "s003",
+      "japanese": "やっぱりあれは違った。",
+      "tokens": [
+        { "text": "やっぱりあれは" },
+        { "text": "違った", "kana": "ちがった" },
+        { "text": "。" }
+      ],
+      "kana": "やっぱりあれはちがった",
+      "chinese": "果然那个是错的。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 43,
+      "chunkPattern": "やっぱり〜違った",
+      "tags": ["display", "reflection", "in-hindsight"]
+    },
+    {
+      "externalId": "s004",
+      "japanese": "次は気をつけよう。",
+      "tokens": [
+        { "text": "次", "kana": "つぎ" },
+        { "text": "は" },
+        { "text": "気", "kana": "き" },
+        { "text": "をつけよう。" }
+      ],
+      "kana": "つぎはきをつけよう",
+      "chinese": "下次注意。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 44,
+      "chunkPattern": "次は〜",
+      "tags": ["display", "reflection", "next-time"]
+    },
+    {
+      "externalId": "s005",
+      "japanese": "あの判断は早すぎた。",
+      "tokens": [
+        { "text": "あの" },
+        { "text": "判断", "kana": "はんだん" },
+        { "text": "は" },
+        { "text": "早すぎた", "kana": "はやすぎた" },
+        { "text": "。" }
+      ],
+      "kana": "あのはんだんははやすぎた",
+      "chinese": "那个判断太早了。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 45,
+      "chunkPattern": "あの〜は〜すぎた",
+      "tags": ["display", "reflection", "premature"]
+    },
+    {
+      "externalId": "s006",
+      "japanese": "今思えば、不安定だった。",
+      "tokens": [
+        { "text": "今", "kana": "いま" },
+        { "text": "思えば", "kana": "おもえば" },
+        { "text": "、" },
+        { "text": "不安定", "kana": "ふあんてい" },
+        { "text": "だった。" }
+      ],
+      "kana": "いまおもえばふあんていだった",
+      "chinese": "现在想想,当时不太稳。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 46,
+      "chunkPattern": "今思えば、〜",
+      "tags": ["display", "reflection", "retrospect"]
+    },
+    {
+      "externalId": "s007",
+      "japanese": "少し焦りすぎた。",
+      "tokens": [
+        { "text": "少し", "kana": "すこし" },
+        { "text": "焦りすぎた", "kana": "あせりすぎた" },
+        { "text": "。" }
+      ],
+      "kana": "すこしあせりすぎた",
+      "chinese": "当时太着急了。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 47,
+      "chunkPattern": "少し〜すぎた",
+      "tags": ["display", "reflection", "rushed"]
+    },
+    {
+      "externalId": "s008",
+      "japanese": "もう少し考えるべきだった。",
+      "tokens": [
+        { "text": "もう" },
+        { "text": "少し", "kana": "すこし" },
+        { "text": "考える", "kana": "かんがえる" },
+        { "text": "べきだった。" }
+      ],
+      "kana": "もうすこしかんがえるべきだった",
+      "chinese": "应该再多想想。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 48,
+      "chunkPattern": "もう少し〜べきだった",
+      "tags": ["display", "reflection", "think-more"]
+    },
+    {
+      "externalId": "s009",
+      "japanese": "自分のクセに気づいた。",
+      "tokens": [
+        { "text": "自分", "kana": "じぶん" },
+        { "text": "のクセに" },
+        { "text": "気づいた", "kana": "きづいた" },
+        { "text": "。" }
+      ],
+      "kana": "じぶんのくせにきづいた",
+      "chinese": "注意到了自己的习惯。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 49,
+      "chunkPattern": "自分のクセに〜",
+      "tags": ["display", "reflection", "habit"]
+    },
+    {
+      "externalId": "s010",
+      "japanese": "今回の教訓。",
+      "tokens": [
+        { "text": "今回", "kana": "こんかい" },
+        { "text": "の" },
+        { "text": "教訓", "kana": "きょうくん" },
+        { "text": "。" }
+      ],
+      "kana": "こんかいのきょうくん",
+      "chinese": "这次的教训。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 50,
+      "chunkPattern": "〜の教訓",
+      "tags": ["display", "reflection", "lesson"]
+    },
+    {
+      "externalId": "s011",
+      "japanese": "経験になった。",
+      "tokens": [
+        { "text": "経験", "kana": "けいけん" },
+        { "text": "になった。" }
+      ],
+      "kana": "けいけんになった",
+      "chinese": "成了一段经验。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 51,
+      "chunkPattern": "〜になった",
+      "tags": ["display", "reflection", "experience"]
+    },
+    {
+      "externalId": "s012",
+      "japanese": "反省点は多い。",
+      "tokens": [
+        { "text": "反省点", "kana": "はんせいてん" },
+        { "text": "は" },
+        { "text": "多い", "kana": "おおい" },
+        { "text": "。" }
+      ],
+      "kana": "はんせいてんはおおい",
+      "chinese": "反省的地方很多。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 52,
+      "chunkPattern": "反省点〜",
+      "tags": ["display", "reflection", "many-issues"]
+    },
+    {
+      "externalId": "s013",
+      "japanese": "自分らしくなかった。",
+      "tokens": [
+        { "text": "自分", "kana": "じぶん" },
+        { "text": "らしくなかった。" }
+      ],
+      "kana": "じぶんらしくなかった",
+      "chinese": "不像我自己。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 53,
+      "chunkPattern": "自分らしく〜",
+      "tags": ["display", "reflection", "not-myself"]
+    },
+    {
+      "externalId": "s014",
+      "japanese": "もっと素直であるべき。",
+      "tokens": [
+        { "text": "もっと" },
+        { "text": "素直", "kana": "すなお" },
+        { "text": "であるべき。" }
+      ],
+      "kana": "もっとすなおであるべき",
+      "chinese": "应该更坦诚一点。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 54,
+      "chunkPattern": "もっと〜であるべき",
+      "tags": ["display", "reflection", "honesty"]
+    },
+    {
+      "externalId": "s015",
+      "japanese": "これは成長のチャンス。",
+      "tokens": [
+        { "text": "これは" },
+        { "text": "成長", "kana": "せいちょう" },
+        { "text": "のチャンス。" }
+      ],
+      "kana": "これはせいちょうのちゃんす",
+      "chinese": "这是成长的机会。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 55,
+      "chunkPattern": "これは〜のチャンス",
+      "tags": ["display", "reflection", "growth"]
+    },
+    {
+      "externalId": "s016",
+      "japanese": "言い訳しないでいい。",
+      "tokens": [
+        { "text": "言い訳", "kana": "いいわけ" },
+        { "text": "しないでいい。" }
+      ],
+      "kana": "いいわけしないでいい",
+      "chinese": "别找借口。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 56,
+      "chunkPattern": "言い訳しないで〜",
+      "tags": ["display", "reflection", "no-excuses"]
+    },
+    {
+      "externalId": "s017",
+      "japanese": "自分を見つめ直す。",
+      "tokens": [
+        { "text": "自分", "kana": "じぶん" },
+        { "text": "を" },
+        { "text": "見つめ直す", "kana": "みつめなおす" },
+        { "text": "。" }
+      ],
+      "kana": "じぶんをみつめなおす",
+      "chinese": "重新审视自己。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 57,
+      "chunkPattern": "自分を〜直す",
+      "tags": ["display", "reflection", "self-look"]
+    },
+    {
+      "externalId": "s018",
+      "japanese": "思い込みすぎてた。",
+      "tokens": [
+        { "text": "思い込みすぎてた", "kana": "おもいこみすぎてた" },
+        { "text": "。" }
+      ],
+      "kana": "おもいこみすぎてた",
+      "chinese": "我太自以为是了。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 3,
+      "frequencyRank": 58,
+      "chunkPattern": "〜すぎてた",
+      "tags": ["display", "reflection", "assumption"]
+    },
+    {
+      "externalId": "s019",
+      "japanese": "もっと聞くべきだった。",
+      "tokens": [
+        { "text": "もっと" },
+        { "text": "聞く", "kana": "きく" },
+        { "text": "べきだった。" }
+      ],
+      "kana": "もっときくべきだった",
+      "chinese": "应该多听一些。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 59,
+      "chunkPattern": "もっと〜べきだった",
+      "tags": ["display", "reflection", "listen-more"]
+    },
+    {
+      "externalId": "s020",
+      "japanese": "次に活かそう。",
+      "tokens": [
+        { "text": "次", "kana": "つぎ" },
+        { "text": "に" },
+        { "text": "活かそう", "kana": "いかそう" },
+        { "text": "。" }
+      ],
+      "kana": "つぎにいかそう",
+      "chinese": "留到下次用上。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 60,
+      "chunkPattern": "次に〜",
+      "tags": ["display", "reflection", "apply-next"]
+    }
+  ],
+  "dialogues": [],
+  "passages": []
+}

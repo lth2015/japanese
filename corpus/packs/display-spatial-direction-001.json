@@ -1,0 +1,378 @@
+{
+  "packVersion": 1,
+  "packId": "display-spatial-direction-001",
+  "title": "Display Spatial Direction 001",
+  "generatedBy": "claude-opus-4-7",
+  "generatedAt": "2026-05-15",
+  "targetProfile": "Display-optimized moderate-length spatial / direction phrases — pointing, positioning, giving directions. 5-14 chars. Mostly カジュアル + 丁寧. Useful for everyday spatial communication in shared workspaces, meetings, and city navigation.",
+  "reviewStatus": "reviewed",
+  "sentences": [
+    {
+      "externalId": "s001",
+      "japanese": "もっと右に寄せて。",
+      "tokens": [
+        { "text": "もっと" },
+        { "text": "右", "kana": "みぎ" },
+        { "text": "に" },
+        { "text": "寄せて", "kana": "よせて" },
+        { "text": "。" }
+      ],
+      "kana": "もっとみぎによせて",
+      "chinese": "再往右靠一点。",
+      "category": "request",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 81,
+      "chunkPattern": "もっと〜に寄せて",
+      "tags": ["display", "spatial", "right"]
+    },
+    {
+      "externalId": "s002",
+      "japanese": "こっちの方が広い。",
+      "tokens": [
+        { "text": "こっちの" },
+        { "text": "方", "kana": "ほう" },
+        { "text": "が" },
+        { "text": "広い", "kana": "ひろい" },
+        { "text": "。" }
+      ],
+      "kana": "こっちのほうがひろい",
+      "chinese": "这边比较宽。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 82,
+      "chunkPattern": "〜の方が広い",
+      "tags": ["display", "spatial", "wider"]
+    },
+    {
+      "externalId": "s003",
+      "japanese": "後ろに下がって。",
+      "tokens": [
+        { "text": "後ろ", "kana": "うしろ" },
+        { "text": "に" },
+        { "text": "下がって", "kana": "さがって" },
+        { "text": "。" }
+      ],
+      "kana": "うしろにさがって",
+      "chinese": "退后一点。",
+      "category": "request",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 83,
+      "chunkPattern": "〜に下がって",
+      "tags": ["display", "spatial", "back"]
+    },
+    {
+      "externalId": "s004",
+      "japanese": "ちょっと前に出て。",
+      "tokens": [
+        { "text": "ちょっと" },
+        { "text": "前", "kana": "まえ" },
+        { "text": "に" },
+        { "text": "出て", "kana": "でて" },
+        { "text": "。" }
+      ],
+      "kana": "ちょっとまえにでて",
+      "chinese": "往前一点。",
+      "category": "request",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 84,
+      "chunkPattern": "ちょっと〜に出て",
+      "tags": ["display", "spatial", "forward"]
+    },
+    {
+      "externalId": "s005",
+      "japanese": "上の方にあるよ。",
+      "tokens": [
+        { "text": "上", "kana": "うえ" },
+        { "text": "の" },
+        { "text": "方", "kana": "ほう" },
+        { "text": "にあるよ。" }
+      ],
+      "kana": "うえのほうにあるよ",
+      "chinese": "在上面。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 85,
+      "chunkPattern": "〜の方にある",
+      "tags": ["display", "spatial", "up"]
+    },
+    {
+      "externalId": "s006",
+      "japanese": "その奥に置いた。",
+      "tokens": [
+        { "text": "その" },
+        { "text": "奥", "kana": "おく" },
+        { "text": "に" },
+        { "text": "置いた", "kana": "おいた" },
+        { "text": "。" }
+      ],
+      "kana": "そのおくにおいた",
+      "chinese": "放在里面了。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 86,
+      "chunkPattern": "〜奥に置いた",
+      "tags": ["display", "spatial", "in-back"]
+    },
+    {
+      "externalId": "s007",
+      "japanese": "角を曲がるとすぐ。",
+      "tokens": [
+        { "text": "角", "kana": "かど" },
+        { "text": "を" },
+        { "text": "曲がる", "kana": "まがる" },
+        { "text": "とすぐ。" }
+      ],
+      "kana": "かどをまがるとすぐ",
+      "chinese": "拐过角马上就到。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 87,
+      "chunkPattern": "〜曲がるとすぐ",
+      "tags": ["display", "spatial", "around-corner"]
+    },
+    {
+      "externalId": "s008",
+      "japanese": "もう少し近づいて。",
+      "tokens": [
+        { "text": "もう" },
+        { "text": "少し", "kana": "すこし" },
+        { "text": "近づいて", "kana": "ちかづいて" },
+        { "text": "。" }
+      ],
+      "kana": "もうすこしちかづいて",
+      "chinese": "再靠近一点。",
+      "category": "request",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 88,
+      "chunkPattern": "もう少し〜",
+      "tags": ["display", "spatial", "closer"]
+    },
+    {
+      "externalId": "s009",
+      "japanese": "隣に座ってもいい？",
+      "tokens": [
+        { "text": "隣", "kana": "となり" },
+        { "text": "に" },
+        { "text": "座って", "kana": "すわって" },
+        { "text": "もいい？" }
+      ],
+      "kana": "となりにすわってもいい",
+      "chinese": "我能坐你旁边吗？",
+      "category": "request",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 89,
+      "chunkPattern": "〜に座っても〜",
+      "tags": ["display", "spatial", "seat"]
+    },
+    {
+      "externalId": "s010",
+      "japanese": "真ん中に置こう。",
+      "tokens": [
+        { "text": "真ん中", "kana": "まんなか" },
+        { "text": "に" },
+        { "text": "置こう", "kana": "おこう" },
+        { "text": "。" }
+      ],
+      "kana": "まんなかにおこう",
+      "chinese": "放正中间吧。",
+      "category": "progress",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 90,
+      "chunkPattern": "真ん中に〜",
+      "tags": ["display", "spatial", "center"]
+    },
+    {
+      "externalId": "s011",
+      "japanese": "もう少し下げて。",
+      "tokens": [
+        { "text": "もう" },
+        { "text": "少し", "kana": "すこし" },
+        { "text": "下げて", "kana": "さげて" },
+        { "text": "。" }
+      ],
+      "kana": "もうすこしさげて",
+      "chinese": "再往下一点。",
+      "category": "request",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 91,
+      "chunkPattern": "もう少し〜",
+      "tags": ["display", "spatial", "lower"]
+    },
+    {
+      "externalId": "s012",
+      "japanese": "ここから先は危ない。",
+      "tokens": [
+        { "text": "ここから" },
+        { "text": "先", "kana": "さき" },
+        { "text": "は" },
+        { "text": "危ない", "kana": "あぶない" },
+        { "text": "。" }
+      ],
+      "kana": "ここからさきはあぶない",
+      "chinese": "这以后很危险。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 92,
+      "chunkPattern": "ここから先は〜",
+      "tags": ["display", "spatial", "beyond"]
+    },
+    {
+      "externalId": "s013",
+      "japanese": "駅の反対側。",
+      "tokens": [
+        { "text": "駅", "kana": "えき" },
+        { "text": "の" },
+        { "text": "反対側", "kana": "はんたいがわ" },
+        { "text": "。" }
+      ],
+      "kana": "えきのはんたいがわ",
+      "chinese": "车站对面。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 93,
+      "chunkPattern": "〜の反対側",
+      "tags": ["display", "spatial", "across"]
+    },
+    {
+      "externalId": "s014",
+      "japanese": "出口は左側。",
+      "tokens": [
+        { "text": "出口", "kana": "でぐち" },
+        { "text": "は" },
+        { "text": "左側", "kana": "ひだりがわ" },
+        { "text": "。" }
+      ],
+      "kana": "でぐちはひだりがわ",
+      "chinese": "出口在左边。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 94,
+      "chunkPattern": "〜は左側",
+      "tags": ["display", "spatial", "exit-left"]
+    },
+    {
+      "externalId": "s015",
+      "japanese": "階段降りて右。",
+      "tokens": [
+        { "text": "階段", "kana": "かいだん" },
+        { "text": "降りて", "kana": "おりて" },
+        { "text": "右", "kana": "みぎ" },
+        { "text": "。" }
+      ],
+      "kana": "かいだんおりてみぎ",
+      "chinese": "下楼梯往右。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 95,
+      "chunkPattern": "階段〜",
+      "tags": ["display", "spatial", "stairs"]
+    },
+    {
+      "externalId": "s016",
+      "japanese": "すぐそこにある。",
+      "tokens": [
+        { "text": "すぐそこにある。" }
+      ],
+      "kana": "すぐそこにある",
+      "chinese": "就在那儿。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 96,
+      "chunkPattern": "すぐそこ〜",
+      "tags": ["display", "spatial", "right-there"]
+    },
+    {
+      "externalId": "s017",
+      "japanese": "道挟んで向こう。",
+      "tokens": [
+        { "text": "道", "kana": "みち" },
+        { "text": "挟んで", "kana": "はさんで" },
+        { "text": "向こう", "kana": "むこう" },
+        { "text": "。" }
+      ],
+      "kana": "みちはさんでむこう",
+      "chinese": "隔着马路那边。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 97,
+      "chunkPattern": "道挟んで〜",
+      "tags": ["display", "spatial", "across-street"]
+    },
+    {
+      "externalId": "s018",
+      "japanese": "ちょっと外で待つ。",
+      "tokens": [
+        { "text": "ちょっと" },
+        { "text": "外", "kana": "そと" },
+        { "text": "で" },
+        { "text": "待つ", "kana": "まつ" },
+        { "text": "。" }
+      ],
+      "kana": "ちょっとそとでまつ",
+      "chinese": "在外面等一下。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 98,
+      "chunkPattern": "ちょっと外で〜",
+      "tags": ["display", "spatial", "outside"]
+    },
+    {
+      "externalId": "s019",
+      "japanese": "上から3番目。",
+      "tokens": [
+        { "text": "上", "kana": "うえ" },
+        { "text": "から" },
+        { "text": "3" },
+        { "text": "番目", "kana": "ばんめ" },
+        { "text": "。" }
+      ],
+      "kana": "うえから3ばんめ",
+      "chinese": "从上数第三个。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 99,
+      "chunkPattern": "〜から〜番目",
+      "tags": ["display", "spatial", "ordinal"]
+    },
+    {
+      "externalId": "s020",
+      "japanese": "中に入って待つ。",
+      "tokens": [
+        { "text": "中", "kana": "なか" },
+        { "text": "に" },
+        { "text": "入って", "kana": "はいって" },
+        { "text": "待つ", "kana": "まつ" },
+        { "text": "。" }
+      ],
+      "kana": "なかにはいってまつ",
+      "chinese": "进去等。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 100,
+      "chunkPattern": "中に〜",
+      "tags": ["display", "spatial", "inside"]
+    }
+  ],
+  "dialogues": [],
+  "passages": []
+}

@@ -1,0 +1,360 @@
+{
+  "packVersion": 1,
+  "packId": "display-self-talk-001",
+  "title": "Display Inner Self-Talk 001",
+  "generatedBy": "claude-opus-4-7",
+  "generatedAt": "2026-05-15",
+  "targetProfile": "Display-optimized moderate-length inner self-talk for commute, morning, and work focus moments. 8-18 chars, カジュアル. The kind of phrase you mutter to yourself during the day — surfacing them on Display turns them into automatic Japanese inner speech.",
+  "reviewStatus": "reviewed",
+  "sentences": [
+    {
+      "externalId": "s001",
+      "japanese": "今日は集中できそう。",
+      "tokens": [
+        { "text": "今日", "kana": "きょう" },
+        { "text": "は" },
+        { "text": "集中", "kana": "しゅうちゅう" },
+        { "text": "できそう。" }
+      ],
+      "kana": "きょうはしゅうちゅうできそう",
+      "chinese": "今天感觉能进入状态。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 60,
+      "chunkPattern": "今日は〜できそう",
+      "tags": ["display", "self-talk", "morning"]
+    },
+    {
+      "externalId": "s002",
+      "japanese": "そろそろ始めるか。",
+      "tokens": [
+        { "text": "そろそろ" },
+        { "text": "始める", "kana": "はじめる" },
+        { "text": "か。" }
+      ],
+      "kana": "そろそろはじめるか",
+      "chinese": "差不多该开始了吧。",
+      "category": "progress",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 40,
+      "chunkPattern": "そろそろ〜か",
+      "tags": ["display", "self-talk", "switch-on"]
+    },
+    {
+      "externalId": "s003",
+      "japanese": "もう少しで終わる。",
+      "tokens": [
+        { "text": "もう" },
+        { "text": "少し", "kana": "すこし" },
+        { "text": "で" },
+        { "text": "終わる", "kana": "おわる" },
+        { "text": "。" }
+      ],
+      "kana": "もうすこしでおわる",
+      "chinese": "再一会儿就完了。",
+      "category": "progress",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 50,
+      "chunkPattern": "もう少しで〜",
+      "tags": ["display", "self-talk", "nearing-end"]
+    },
+    {
+      "externalId": "s004",
+      "japanese": "今日は早く帰ろう。",
+      "tokens": [
+        { "text": "今日", "kana": "きょう" },
+        { "text": "は" },
+        { "text": "早く", "kana": "はやく" },
+        { "text": "帰ろう", "kana": "かえろう" },
+        { "text": "。" }
+      ],
+      "kana": "きょうははやくかえろう",
+      "chinese": "今天早点回去吧。",
+      "category": "daily",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 70,
+      "chunkPattern": "今日は〜しよう",
+      "tags": ["display", "self-talk", "evening"]
+    },
+    {
+      "externalId": "s005",
+      "japanese": "ちょっと一息入れよう。",
+      "tokens": [
+        { "text": "ちょっと" },
+        { "text": "一息", "kana": "ひといき" },
+        { "text": "入れよう", "kana": "いれよう" },
+        { "text": "。" }
+      ],
+      "kana": "ちょっとひといきいれよう",
+      "chinese": "稍微歇口气吧。",
+      "category": "daily",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 80,
+      "chunkPattern": "ちょっと一息〜",
+      "tags": ["display", "self-talk", "break"]
+    },
+    {
+      "externalId": "s006",
+      "japanese": "なんとかなるか。",
+      "tokens": [
+        { "text": "なんとかなるか。" }
+      ],
+      "kana": "なんとかなるか",
+      "chinese": "总会有办法的吧。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 90,
+      "chunkPattern": "なんとかなる",
+      "tags": ["display", "self-talk", "optimism"]
+    },
+    {
+      "externalId": "s007",
+      "japanese": "これはあとでやろう。",
+      "tokens": [
+        { "text": "これはあとでやろう。" }
+      ],
+      "kana": "これはあとでやろう",
+      "chinese": "这个待会儿再做。",
+      "category": "progress",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 65,
+      "chunkPattern": "あとで〜",
+      "tags": ["display", "self-talk", "defer"]
+    },
+    {
+      "externalId": "s008",
+      "japanese": "もう少しだけ頑張ろう。",
+      "tokens": [
+        { "text": "もう" },
+        { "text": "少しだけ", "kana": "すこしだけ" },
+        { "text": "頑張ろう", "kana": "がんばろう" },
+        { "text": "。" }
+      ],
+      "kana": "もうすこしだけがんばろう",
+      "chinese": "再坚持一会儿。",
+      "category": "progress",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 85,
+      "chunkPattern": "もう少しだけ〜",
+      "tags": ["display", "self-talk", "push"]
+    },
+    {
+      "externalId": "s009",
+      "japanese": "今日もいい一日だった。",
+      "tokens": [
+        { "text": "今日", "kana": "きょう" },
+        { "text": "もいい" },
+        { "text": "一日", "kana": "いちにち" },
+        { "text": "だった。" }
+      ],
+      "kana": "きょうもいいいちにちだった",
+      "chinese": "今天也是不错的一天。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 100,
+      "chunkPattern": "いい〜だった",
+      "tags": ["display", "self-talk", "end-of-day"]
+    },
+    {
+      "externalId": "s010",
+      "japanese": "やる気が出ないな。",
+      "tokens": [
+        { "text": "やる" },
+        { "text": "気", "kana": "き" },
+        { "text": "が" },
+        { "text": "出ない", "kana": "でない" },
+        { "text": "な。" }
+      ],
+      "kana": "やるきがでないな",
+      "chinese": "提不起劲啊。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 95,
+      "chunkPattern": "やる気が〜",
+      "tags": ["display", "self-talk", "low-energy"]
+    },
+    {
+      "externalId": "s011",
+      "japanese": "なんか調子いいな。",
+      "tokens": [
+        { "text": "なんか" },
+        { "text": "調子", "kana": "ちょうし" },
+        { "text": "いいな。" }
+      ],
+      "kana": "なんかちょうしいいな",
+      "chinese": "感觉状态不错啊。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 110,
+      "chunkPattern": "なんか〜",
+      "tags": ["display", "self-talk", "good-mood"]
+    },
+    {
+      "externalId": "s012",
+      "japanese": "ちょっと考え直そう。",
+      "tokens": [
+        { "text": "ちょっと" },
+        { "text": "考え直そう", "kana": "かんがえなおそう" },
+        { "text": "。" }
+      ],
+      "kana": "ちょっとかんがえなおそう",
+      "chinese": "稍微再想想吧。",
+      "category": "progress",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 120,
+      "chunkPattern": "ちょっと〜直そう",
+      "tags": ["display", "self-talk", "reconsider"]
+    },
+    {
+      "externalId": "s013",
+      "japanese": "これでよし、と。",
+      "tokens": [
+        { "text": "これでよし、と。" }
+      ],
+      "kana": "これでよしと",
+      "chinese": "好,这样就行。",
+      "category": "progress",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 75,
+      "chunkPattern": "これでよし",
+      "tags": ["display", "self-talk", "done"]
+    },
+    {
+      "externalId": "s014",
+      "japanese": "あとは寝るだけ。",
+      "tokens": [
+        { "text": "あとは" },
+        { "text": "寝る", "kana": "ねる" },
+        { "text": "だけ。" }
+      ],
+      "kana": "あとはねるだけ",
+      "chinese": "之后就只剩睡觉了。",
+      "category": "daily",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 105,
+      "chunkPattern": "あとは〜だけ",
+      "tags": ["display", "self-talk", "night"]
+    },
+    {
+      "externalId": "s015",
+      "japanese": "今日は雨か…。",
+      "tokens": [
+        { "text": "今日", "kana": "きょう" },
+        { "text": "は" },
+        { "text": "雨", "kana": "あめ" },
+        { "text": "か…。" }
+      ],
+      "kana": "きょうはあめか",
+      "chinese": "今天下雨啊…",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 115,
+      "chunkPattern": "今日は〜か",
+      "tags": ["display", "self-talk", "weather"]
+    },
+    {
+      "externalId": "s016",
+      "japanese": "やっぱりこっちにしよう。",
+      "tokens": [
+        { "text": "やっぱりこっちにしよう。" }
+      ],
+      "kana": "やっぱりこっちにしよう",
+      "chinese": "果然还是选这个吧。",
+      "category": "progress",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 125,
+      "chunkPattern": "やっぱり〜にしよう",
+      "tags": ["display", "self-talk", "decide"]
+    },
+    {
+      "externalId": "s017",
+      "japanese": "朝は弱いんだよな。",
+      "tokens": [
+        { "text": "朝", "kana": "あさ" },
+        { "text": "は" },
+        { "text": "弱い", "kana": "よわい" },
+        { "text": "んだよな。" }
+      ],
+      "kana": "あさはよわいんだよな",
+      "chinese": "我早上真的不行啊。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 130,
+      "chunkPattern": "〜は弱い",
+      "tags": ["display", "self-talk", "morning"]
+    },
+    {
+      "externalId": "s018",
+      "japanese": "一回コーヒー飲もう。",
+      "tokens": [
+        { "text": "一回", "kana": "いっかい" },
+        { "text": "コーヒー" },
+        { "text": "飲もう", "kana": "のもう" },
+        { "text": "。" }
+      ],
+      "kana": "いっかいこーひーのもう",
+      "chinese": "先喝杯咖啡吧。",
+      "category": "daily",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 140,
+      "chunkPattern": "一回〜",
+      "tags": ["display", "self-talk", "break"]
+    },
+    {
+      "externalId": "s019",
+      "japanese": "このまま続けよう。",
+      "tokens": [
+        { "text": "このまま" },
+        { "text": "続けよう", "kana": "つづけよう" },
+        { "text": "。" }
+      ],
+      "kana": "このままつづけよう",
+      "chinese": "就这样继续吧。",
+      "category": "progress",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 135,
+      "chunkPattern": "このまま〜",
+      "tags": ["display", "self-talk", "continue"]
+    },
+    {
+      "externalId": "s020",
+      "japanese": "お腹すいた、何食べよう。",
+      "tokens": [
+        { "text": "お腹", "kana": "おなか" },
+        { "text": "すいた、" },
+        { "text": "何", "kana": "なに" },
+        { "text": "食べよう", "kana": "たべよう" },
+        { "text": "。" }
+      ],
+      "kana": "おなかすいたなにたべよう",
+      "chinese": "肚子饿了,吃什么呢。",
+      "category": "daily",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 145,
+      "chunkPattern": "お腹すいた、〜",
+      "tags": ["display", "self-talk", "hungry"]
+    }
+  ],
+  "dialogues": [],
+  "passages": []
+}

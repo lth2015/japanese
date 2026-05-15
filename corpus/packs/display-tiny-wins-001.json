@@ -1,0 +1,350 @@
+{
+  "packVersion": 1,
+  "packId": "display-tiny-wins-001",
+  "title": "Display Tiny Wins 001",
+  "generatedBy": "claude-opus-4-7",
+  "generatedAt": "2026-05-15",
+  "targetProfile": "Display-optimized moderate-length tiny-victory / milestone phrases — the things you say to mark small accomplishments. 5-15 chars. Mostly カジュアル. Different from broader self-pep: these announce a concrete win after the fact.",
+  "reviewStatus": "reviewed",
+  "sentences": [
+    {
+      "externalId": "s001",
+      "japanese": "ようやくできた！",
+      "tokens": [
+        { "text": "ようやくできた！" }
+      ],
+      "kana": "ようやくできた",
+      "chinese": "总算搞定了!",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 950,
+      "chunkPattern": "ようやく〜",
+      "tags": ["display", "win", "finally"]
+    },
+    {
+      "externalId": "s002",
+      "japanese": "やった、成功した。",
+      "tokens": [
+        { "text": "やった、" },
+        { "text": "成功", "kana": "せいこう" },
+        { "text": "した。" }
+      ],
+      "kana": "やったせいこうした",
+      "chinese": "好,成功了!",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 955,
+      "chunkPattern": "やった、〜",
+      "tags": ["display", "win", "success"]
+    },
+    {
+      "externalId": "s003",
+      "japanese": "一個クリア。",
+      "tokens": [
+        { "text": "一個", "kana": "いっこ" },
+        { "text": "クリア。" }
+      ],
+      "kana": "いっこくりあ",
+      "chinese": "搞定一个。",
+      "category": "progress",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 960,
+      "chunkPattern": "一個〜",
+      "tags": ["display", "win", "one-down"]
+    },
+    {
+      "externalId": "s004",
+      "japanese": "これで一段落。",
+      "tokens": [
+        { "text": "これで" },
+        { "text": "一段落", "kana": "いちだんらく" },
+        { "text": "。" }
+      ],
+      "kana": "これでいちだんらく",
+      "chinese": "这下告一段落。",
+      "category": "progress",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 965,
+      "chunkPattern": "これで〜",
+      "tags": ["display", "win", "milestone"]
+    },
+    {
+      "externalId": "s005",
+      "japanese": "思ったよりうまくいった。",
+      "tokens": [
+        { "text": "思ったより", "kana": "おもったより" },
+        { "text": "うまくいった。" }
+      ],
+      "kana": "おもったよりうまくいった",
+      "chinese": "比想象中顺利。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 970,
+      "chunkPattern": "思ったより〜",
+      "tags": ["display", "win", "exceeded"]
+    },
+    {
+      "externalId": "s006",
+      "japanese": "自分褒めたい。",
+      "tokens": [
+        { "text": "自分", "kana": "じぶん" },
+        { "text": "褒めたい", "kana": "ほめたい" },
+        { "text": "。" }
+      ],
+      "kana": "じぶんほめたい",
+      "chinese": "想夸夸自己。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 975,
+      "chunkPattern": "自分〜たい",
+      "tags": ["display", "win", "self-praise"]
+    },
+    {
+      "externalId": "s007",
+      "japanese": "ちょっと進歩した。",
+      "tokens": [
+        { "text": "ちょっと" },
+        { "text": "進歩", "kana": "しんぽ" },
+        { "text": "した。" }
+      ],
+      "kana": "ちょっとしんぽした",
+      "chinese": "稍微进步了。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 980,
+      "chunkPattern": "ちょっと〜した",
+      "tags": ["display", "win", "progress"]
+    },
+    {
+      "externalId": "s008",
+      "japanese": "これ、奇跡じゃない？",
+      "tokens": [
+        { "text": "これ、" },
+        { "text": "奇跡", "kana": "きせき" },
+        { "text": "じゃない？" }
+      ],
+      "kana": "これきせきじゃない",
+      "chinese": "这不是奇迹吗？",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 985,
+      "chunkPattern": "これ、〜じゃない",
+      "tags": ["display", "win", "miracle"]
+    },
+    {
+      "externalId": "s009",
+      "japanese": "やっとここまで来た。",
+      "tokens": [
+        { "text": "やっとここまで" },
+        { "text": "来た", "kana": "きた" },
+        { "text": "。" }
+      ],
+      "kana": "やっとここまできた",
+      "chinese": "终于到这一步了。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 990,
+      "chunkPattern": "やっと〜来た",
+      "tags": ["display", "win", "made-it"]
+    },
+    {
+      "externalId": "s010",
+      "japanese": "ナイス、自分！",
+      "tokens": [
+        { "text": "ナイス、" },
+        { "text": "自分", "kana": "じぶん" },
+        { "text": "！" }
+      ],
+      "kana": "ないすじぶん",
+      "chinese": "Nice,自己干得漂亮!",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 995,
+      "chunkPattern": "ナイス、〜",
+      "tags": ["display", "win", "self-cheer"]
+    },
+    {
+      "externalId": "s011",
+      "japanese": "一山越えた。",
+      "tokens": [
+        { "text": "一山", "kana": "ひとやま" },
+        { "text": "越えた", "kana": "こえた" },
+        { "text": "。" }
+      ],
+      "kana": "ひとやまこえた",
+      "chinese": "翻过一座山了。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 1000,
+      "chunkPattern": "〜越えた",
+      "tags": ["display", "win", "obstacle-cleared"]
+    },
+    {
+      "externalId": "s012",
+      "japanese": "これは前進だ。",
+      "tokens": [
+        { "text": "これは" },
+        { "text": "前進", "kana": "ぜんしん" },
+        { "text": "だ。" }
+      ],
+      "kana": "これはぜんしんだ",
+      "chinese": "这是前进。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 998,
+      "chunkPattern": "これは〜だ",
+      "tags": ["display", "win", "forward"]
+    },
+    {
+      "externalId": "s013",
+      "japanese": "努力が報われた。",
+      "tokens": [
+        { "text": "努力", "kana": "どりょく" },
+        { "text": "が" },
+        { "text": "報われた", "kana": "むくわれた" },
+        { "text": "。" }
+      ],
+      "kana": "どりょくがむくわれた",
+      "chinese": "努力有回报了。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 3,
+      "frequencyRank": 996,
+      "chunkPattern": "〜が報われた",
+      "tags": ["display", "win", "payoff"]
+    },
+    {
+      "externalId": "s014",
+      "japanese": "ようやく形になった。",
+      "tokens": [
+        { "text": "ようやく" },
+        { "text": "形", "kana": "かたち" },
+        { "text": "になった。" }
+      ],
+      "kana": "ようやくかたちになった",
+      "chinese": "总算成形了。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 994,
+      "chunkPattern": "ようやく〜になった",
+      "tags": ["display", "win", "took-shape"]
+    },
+    {
+      "externalId": "s015",
+      "japanese": "達成感半端ない。",
+      "tokens": [
+        { "text": "達成感", "kana": "たっせいかん" },
+        { "text": "半端ない", "kana": "はんぱない" },
+        { "text": "。" }
+      ],
+      "kana": "たっせいかんはんぱない",
+      "chinese": "成就感爆棚。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 992,
+      "chunkPattern": "〜半端ない",
+      "tags": ["display", "win", "amazing"]
+    },
+    {
+      "externalId": "s016",
+      "japanese": "これで安心できる。",
+      "tokens": [
+        { "text": "これで" },
+        { "text": "安心", "kana": "あんしん" },
+        { "text": "できる。" }
+      ],
+      "kana": "これであんしんできる",
+      "chinese": "这下能安心了。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 988,
+      "chunkPattern": "これで〜できる",
+      "tags": ["display", "win", "relief"]
+    },
+    {
+      "externalId": "s017",
+      "japanese": "一歩前進、いいね。",
+      "tokens": [
+        { "text": "一歩", "kana": "いっぽ" },
+        { "text": "前進", "kana": "ぜんしん" },
+        { "text": "、いいね。" }
+      ],
+      "kana": "いっぽぜんしんいいね",
+      "chinese": "进了一步,不错。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 986,
+      "chunkPattern": "一歩前進〜",
+      "tags": ["display", "win", "step-forward"]
+    },
+    {
+      "externalId": "s018",
+      "japanese": "やっとゴール！",
+      "tokens": [
+        { "text": "やっとゴール！" }
+      ],
+      "kana": "やっとごーる",
+      "chinese": "终于到终点!",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 984,
+      "chunkPattern": "やっと〜",
+      "tags": ["display", "win", "finish"]
+    },
+    {
+      "externalId": "s019",
+      "japanese": "自分なりに頑張った。",
+      "tokens": [
+        { "text": "自分", "kana": "じぶん" },
+        { "text": "なりに" },
+        { "text": "頑張った", "kana": "がんばった" },
+        { "text": "。" }
+      ],
+      "kana": "じぶんなりにがんばった",
+      "chinese": "我尽力了。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 982,
+      "chunkPattern": "自分なりに〜",
+      "tags": ["display", "win", "did-my-best"]
+    },
+    {
+      "externalId": "s020",
+      "japanese": "これは小さな勝利。",
+      "tokens": [
+        { "text": "これは" },
+        { "text": "小さな", "kana": "ちいさな" },
+        { "text": "勝利", "kana": "しょうり" },
+        { "text": "。" }
+      ],
+      "kana": "これはちいさなしょうり",
+      "chinese": "这是一个小胜利。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 978,
+      "chunkPattern": "これは小さな〜",
+      "tags": ["display", "win", "tiny-victory"]
+    }
+  ],
+  "dialogues": [],
+  "passages": []
+}

@@ -1,0 +1,361 @@
+{
+  "packVersion": 1,
+  "packId": "display-asking-opinion-001",
+  "title": "Display Asking Opinion 001",
+  "generatedBy": "claude-opus-4-7",
+  "generatedAt": "2026-05-15",
+  "targetProfile": "Display-optimized moderate-length phrases for inviting opinions, feedback, and pushback. 7-15 chars. Mix カジュアル + 丁寧. Critical for collaborative culture — Japanese workplaces value asking before pushing.",
+  "reviewStatus": "reviewed",
+  "sentences": [
+    {
+      "externalId": "s001",
+      "japanese": "これ、どう思う？",
+      "tokens": [
+        { "text": "これ、どう" },
+        { "text": "思う", "kana": "おもう" },
+        { "text": "？" }
+      ],
+      "kana": "これどうおもう",
+      "chinese": "这个,你怎么看？",
+      "category": "request",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 735,
+      "chunkPattern": "〜どう思う",
+      "tags": ["display", "opinion", "casual"]
+    },
+    {
+      "externalId": "s002",
+      "japanese": "ご意見いただけますか。",
+      "tokens": [
+        { "text": "ご" },
+        { "text": "意見", "kana": "いけん" },
+        { "text": "いただけますか。" }
+      ],
+      "kana": "ごいけんいただけますか",
+      "chinese": "能给我您的意见吗。",
+      "category": "request",
+      "register": "敬語",
+      "difficulty": 2,
+      "frequencyRank": 740,
+      "chunkPattern": "ご〜いただけますか",
+      "tags": ["display", "opinion", "polite"]
+    },
+    {
+      "externalId": "s003",
+      "japanese": "どう感じますか。",
+      "tokens": [
+        { "text": "どう" },
+        { "text": "感じます", "kana": "かんじます" },
+        { "text": "か。" }
+      ],
+      "kana": "どうかんじますか",
+      "chinese": "您怎么感觉？",
+      "category": "request",
+      "register": "丁寧",
+      "difficulty": 1,
+      "frequencyRank": 745,
+      "chunkPattern": "どう感じますか",
+      "tags": ["display", "opinion", "feeling"]
+    },
+    {
+      "externalId": "s004",
+      "japanese": "これでいいと思う？",
+      "tokens": [
+        { "text": "これでいいと" },
+        { "text": "思う", "kana": "おもう" },
+        { "text": "？" }
+      ],
+      "kana": "これでいいとおもう",
+      "chinese": "你觉得这样行吗？",
+      "category": "request",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 750,
+      "chunkPattern": "〜でいいと思う",
+      "tags": ["display", "opinion", "check"]
+    },
+    {
+      "externalId": "s005",
+      "japanese": "率直に言ってください。",
+      "tokens": [
+        { "text": "率直", "kana": "そっちょく" },
+        { "text": "に" },
+        { "text": "言って", "kana": "いって" },
+        { "text": "ください。" }
+      ],
+      "kana": "そっちょくにいってください",
+      "chinese": "请直说。",
+      "category": "request",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 755,
+      "chunkPattern": "率直に〜ください",
+      "tags": ["display", "opinion", "honest"]
+    },
+    {
+      "externalId": "s006",
+      "japanese": "なんか違和感ある？",
+      "tokens": [
+        { "text": "なんか" },
+        { "text": "違和感", "kana": "いわかん" },
+        { "text": "ある？" }
+      ],
+      "kana": "なんかいわかんある",
+      "chinese": "总觉得有点别扭吗？",
+      "category": "request",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 760,
+      "chunkPattern": "なんか〜ある",
+      "tags": ["display", "opinion", "awkward"]
+    },
+    {
+      "externalId": "s007",
+      "japanese": "みんなはどう思う？",
+      "tokens": [
+        { "text": "みんなはどう" },
+        { "text": "思う", "kana": "おもう" },
+        { "text": "？" }
+      ],
+      "kana": "みんなはどうおもう",
+      "chinese": "大家怎么看？",
+      "category": "request",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 765,
+      "chunkPattern": "みんなはどう〜",
+      "tags": ["display", "opinion", "group"]
+    },
+    {
+      "externalId": "s008",
+      "japanese": "ちょっと意見聞きたい。",
+      "tokens": [
+        { "text": "ちょっと" },
+        { "text": "意見", "kana": "いけん" },
+        { "text": "聞きたい", "kana": "ききたい" },
+        { "text": "。" }
+      ],
+      "kana": "ちょっといけんききたい",
+      "chinese": "想听一下你的意见。",
+      "category": "request",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 770,
+      "chunkPattern": "ちょっと〜聞きたい",
+      "tags": ["display", "opinion", "consult"]
+    },
+    {
+      "externalId": "s009",
+      "japanese": "これ、ありかな？",
+      "tokens": [
+        { "text": "これ、ありかな？" }
+      ],
+      "kana": "これありかな",
+      "chinese": "这个,可以吗？",
+      "category": "request",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 775,
+      "chunkPattern": "これ、ありかな",
+      "tags": ["display", "opinion", "viable"]
+    },
+    {
+      "externalId": "s010",
+      "japanese": "反対する人いる？",
+      "tokens": [
+        { "text": "反対", "kana": "はんたい" },
+        { "text": "する" },
+        { "text": "人", "kana": "ひと" },
+        { "text": "いる？" }
+      ],
+      "kana": "はんたいするひといる",
+      "chinese": "有人反对吗？",
+      "category": "request",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 780,
+      "chunkPattern": "反対する〜いる",
+      "tags": ["display", "opinion", "check-objections"]
+    },
+    {
+      "externalId": "s011",
+      "japanese": "他に案ありますか。",
+      "tokens": [
+        { "text": "他", "kana": "ほか" },
+        { "text": "に" },
+        { "text": "案", "kana": "あん" },
+        { "text": "ありますか。" }
+      ],
+      "kana": "ほかにあんありますか",
+      "chinese": "还有别的方案吗？",
+      "category": "request",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 785,
+      "chunkPattern": "他に〜ありますか",
+      "tags": ["display", "opinion", "alternatives"]
+    },
+    {
+      "externalId": "s012",
+      "japanese": "これで進めて大丈夫？",
+      "tokens": [
+        { "text": "これで" },
+        { "text": "進めて", "kana": "すすめて" },
+        { "text": "大丈夫", "kana": "だいじょうぶ" },
+        { "text": "？" }
+      ],
+      "kana": "これですすめてだいじょうぶ",
+      "chinese": "这样推进可以吗？",
+      "category": "request",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 790,
+      "chunkPattern": "これで〜大丈夫",
+      "tags": ["display", "opinion", "proceed-check"]
+    },
+    {
+      "externalId": "s013",
+      "japanese": "何か気になる点ある？",
+      "tokens": [
+        { "text": "何か", "kana": "なにか" },
+        { "text": "気", "kana": "き" },
+        { "text": "になる" },
+        { "text": "点", "kana": "てん" },
+        { "text": "ある？" }
+      ],
+      "kana": "なにかきになるてんある",
+      "chinese": "有什么在意的地方吗？",
+      "category": "request",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 795,
+      "chunkPattern": "何か気になる〜",
+      "tags": ["display", "opinion", "concerns"]
+    },
+    {
+      "externalId": "s014",
+      "japanese": "正直、どう？",
+      "tokens": [
+        { "text": "正直", "kana": "しょうじき" },
+        { "text": "、どう？" }
+      ],
+      "kana": "しょうじきどう",
+      "chinese": "老实说,怎么样？",
+      "category": "request",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 800,
+      "chunkPattern": "正直、〜",
+      "tags": ["display", "opinion", "frank"]
+    },
+    {
+      "externalId": "s015",
+      "japanese": "一緒に決めましょう。",
+      "tokens": [
+        { "text": "一緒", "kana": "いっしょ" },
+        { "text": "に" },
+        { "text": "決めましょう", "kana": "きめましょう" },
+        { "text": "。" }
+      ],
+      "kana": "いっしょにきめましょう",
+      "chinese": "一起决定吧。",
+      "category": "request",
+      "register": "丁寧",
+      "difficulty": 1,
+      "frequencyRank": 805,
+      "chunkPattern": "一緒に〜ましょう",
+      "tags": ["display", "opinion", "co-decide"]
+    },
+    {
+      "externalId": "s016",
+      "japanese": "ちょっと相談いいですか。",
+      "tokens": [
+        { "text": "ちょっと" },
+        { "text": "相談", "kana": "そうだん" },
+        { "text": "いいですか。" }
+      ],
+      "kana": "ちょっとそうだんいいですか",
+      "chinese": "我能跟您商量一下吗？",
+      "category": "request",
+      "register": "丁寧",
+      "difficulty": 1,
+      "frequencyRank": 810,
+      "chunkPattern": "ちょっと〜いいですか",
+      "tags": ["display", "opinion", "consult"]
+    },
+    {
+      "externalId": "s017",
+      "japanese": "ここ、引っかかる？",
+      "tokens": [
+        { "text": "ここ、" },
+        { "text": "引っかかる", "kana": "ひっかかる" },
+        { "text": "？" }
+      ],
+      "kana": "ここひっかかる",
+      "chinese": "这里有问题吗？",
+      "category": "request",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 815,
+      "chunkPattern": "ここ、〜",
+      "tags": ["display", "opinion", "sticking-point"]
+    },
+    {
+      "externalId": "s018",
+      "japanese": "もう少し具体的に。",
+      "tokens": [
+        { "text": "もう" },
+        { "text": "少し", "kana": "すこし" },
+        { "text": "具体的", "kana": "ぐたいてき" },
+        { "text": "に。" }
+      ],
+      "kana": "もうすこしぐたいてきに",
+      "chinese": "再具体一点。",
+      "category": "request",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 820,
+      "chunkPattern": "もう少し〜",
+      "tags": ["display", "opinion", "specific"]
+    },
+    {
+      "externalId": "s019",
+      "japanese": "その点どう見てる？",
+      "tokens": [
+        { "text": "その" },
+        { "text": "点", "kana": "てん" },
+        { "text": "どう" },
+        { "text": "見てる", "kana": "みてる" },
+        { "text": "？" }
+      ],
+      "kana": "そのてんどうみてる",
+      "chinese": "这一点你怎么看？",
+      "category": "request",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 825,
+      "chunkPattern": "その点〜",
+      "tags": ["display", "opinion", "perspective"]
+    },
+    {
+      "externalId": "s020",
+      "japanese": "何か追加ある？",
+      "tokens": [
+        { "text": "何か", "kana": "なにか" },
+        { "text": "追加", "kana": "ついか" },
+        { "text": "ある？" }
+      ],
+      "kana": "なにかついかある",
+      "chinese": "还有什么要加的吗？",
+      "category": "request",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 830,
+      "chunkPattern": "何か追加〜",
+      "tags": ["display", "opinion", "additions"]
+    }
+  ],
+  "dialogues": [],
+  "passages": []
+}

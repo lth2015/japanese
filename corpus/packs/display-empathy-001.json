@@ -1,0 +1,341 @@
+{
+  "packVersion": 1,
+  "packId": "display-empathy-001",
+  "title": "Display Empathic Listening 001",
+  "generatedBy": "claude-opus-4-7",
+  "generatedAt": "2026-05-15",
+  "targetProfile": "Display-optimized moderate-length empathic listening responses — phrases for showing you're listening and feeling with the other person. 8-16 chars. Mix カジュアル + 丁寧. Critical for natural Japanese conversation flow which leans heavily on あいづち.",
+  "reviewStatus": "reviewed",
+  "sentences": [
+    {
+      "externalId": "s001",
+      "japanese": "それは大変でしたね。",
+      "tokens": [
+        { "text": "それは" },
+        { "text": "大変", "kana": "たいへん" },
+        { "text": "でしたね。" }
+      ],
+      "kana": "それはたいへんでしたね",
+      "chinese": "那真不容易啊。",
+      "category": "smalltalk",
+      "register": "丁寧",
+      "difficulty": 1,
+      "frequencyRank": 250,
+      "chunkPattern": "それは〜でしたね",
+      "tags": ["display", "empathy", "polite"]
+    },
+    {
+      "externalId": "s002",
+      "japanese": "わかります、その気持ち。",
+      "tokens": [
+        { "text": "わかります、その" },
+        { "text": "気持ち", "kana": "きもち" },
+        { "text": "。" }
+      ],
+      "kana": "わかりますそのきもち",
+      "chinese": "我懂那种心情。",
+      "category": "smalltalk",
+      "register": "丁寧",
+      "difficulty": 1,
+      "frequencyRank": 255,
+      "chunkPattern": "わかります、〜",
+      "tags": ["display", "empathy", "understand"]
+    },
+    {
+      "externalId": "s003",
+      "japanese": "それはきついですね。",
+      "tokens": [
+        { "text": "それはきついですね。" }
+      ],
+      "kana": "それはきついですね",
+      "chinese": "那很难受啊。",
+      "category": "smalltalk",
+      "register": "丁寧",
+      "difficulty": 1,
+      "frequencyRank": 260,
+      "chunkPattern": "それは〜ですね",
+      "tags": ["display", "empathy", "hard"]
+    },
+    {
+      "externalId": "s004",
+      "japanese": "お疲れ様でした。",
+      "tokens": [
+        { "text": "お" },
+        { "text": "疲れ様", "kana": "つかれさま" },
+        { "text": "でした。" }
+      ],
+      "kana": "おつかれさまでした",
+      "chinese": "辛苦了。",
+      "category": "smalltalk",
+      "register": "丁寧",
+      "difficulty": 1,
+      "frequencyRank": 5,
+      "chunkPattern": "お疲れ様でした",
+      "tags": ["display", "empathy", "ubiquitous"]
+    },
+    {
+      "externalId": "s005",
+      "japanese": "それは安心しましたね。",
+      "tokens": [
+        { "text": "それは" },
+        { "text": "安心", "kana": "あんしん" },
+        { "text": "しましたね。" }
+      ],
+      "kana": "それはあんしんしましたね",
+      "chinese": "那真是放心了啊。",
+      "category": "smalltalk",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 265,
+      "chunkPattern": "それは〜しましたね",
+      "tags": ["display", "empathy", "relief"]
+    },
+    {
+      "externalId": "s006",
+      "japanese": "うわー、それはひどい。",
+      "tokens": [
+        { "text": "うわー、それはひどい。" }
+      ],
+      "kana": "うわーそれはひどい",
+      "chinese": "哇,那也太过分了。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 270,
+      "chunkPattern": "うわー、〜",
+      "tags": ["display", "empathy", "shock"]
+    },
+    {
+      "externalId": "s007",
+      "japanese": "お気持ちわかります。",
+      "tokens": [
+        { "text": "お" },
+        { "text": "気持ち", "kana": "きもち" },
+        { "text": "わかります。" }
+      ],
+      "kana": "おきもちわかります",
+      "chinese": "我能理解您的心情。",
+      "category": "smalltalk",
+      "register": "丁寧",
+      "difficulty": 1,
+      "frequencyRank": 275,
+      "chunkPattern": "お〜わかります",
+      "tags": ["display", "empathy", "polite"]
+    },
+    {
+      "externalId": "s008",
+      "japanese": "それはショックですね。",
+      "tokens": [
+        { "text": "それはショックですね。" }
+      ],
+      "kana": "それはしょっくですね",
+      "chinese": "那太受打击了。",
+      "category": "smalltalk",
+      "register": "丁寧",
+      "difficulty": 1,
+      "frequencyRank": 280,
+      "chunkPattern": "それは〜ですね",
+      "tags": ["display", "empathy", "shock"]
+    },
+    {
+      "externalId": "s009",
+      "japanese": "すごい、よく頑張りましたね。",
+      "tokens": [
+        { "text": "すごい、よく" },
+        { "text": "頑張りました", "kana": "がんばりました" },
+        { "text": "ね。" }
+      ],
+      "kana": "すごいよくがんばりましたね",
+      "chinese": "厉害,辛苦你了。",
+      "category": "smalltalk",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 285,
+      "chunkPattern": "すごい、〜",
+      "tags": ["display", "empathy", "praise"]
+    },
+    {
+      "externalId": "s010",
+      "japanese": "それは無理もないですね。",
+      "tokens": [
+        { "text": "それは" },
+        { "text": "無理", "kana": "むり" },
+        { "text": "もないですね。" }
+      ],
+      "kana": "それはむりもないですね",
+      "chinese": "那也是没办法的。",
+      "category": "smalltalk",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 290,
+      "chunkPattern": "〜無理もないですね",
+      "tags": ["display", "empathy", "understandable"]
+    },
+    {
+      "externalId": "s011",
+      "japanese": "私もそうでした。",
+      "tokens": [
+        { "text": "私", "kana": "わたし" },
+        { "text": "もそうでした。" }
+      ],
+      "kana": "わたしもそうでした",
+      "chinese": "我以前也是那样。",
+      "category": "smalltalk",
+      "register": "丁寧",
+      "difficulty": 1,
+      "frequencyRank": 295,
+      "chunkPattern": "私もそうでした",
+      "tags": ["display", "empathy", "me-too"]
+    },
+    {
+      "externalId": "s012",
+      "japanese": "それは辛かったでしょう。",
+      "tokens": [
+        { "text": "それは" },
+        { "text": "辛かった", "kana": "つらかった" },
+        { "text": "でしょう。" }
+      ],
+      "kana": "それはつらかったでしょう",
+      "chinese": "那一定很难受吧。",
+      "category": "smalltalk",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 300,
+      "chunkPattern": "それは〜でしょう",
+      "tags": ["display", "empathy", "compassion"]
+    },
+    {
+      "externalId": "s013",
+      "japanese": "うんうん、それで？",
+      "tokens": [
+        { "text": "うんうん、それで？" }
+      ],
+      "kana": "うんうんそれで",
+      "chinese": "嗯嗯,然后呢？",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 305,
+      "chunkPattern": "うんうん、〜",
+      "tags": ["display", "empathy", "go-on"]
+    },
+    {
+      "externalId": "s014",
+      "japanese": "そうですよね、本当に。",
+      "tokens": [
+        { "text": "そうですよね、" },
+        { "text": "本当", "kana": "ほんとう" },
+        { "text": "に。" }
+      ],
+      "kana": "そうですよねほんとうに",
+      "chinese": "是啊,真的。",
+      "category": "smalltalk",
+      "register": "丁寧",
+      "difficulty": 1,
+      "frequencyRank": 310,
+      "chunkPattern": "そうですよね、〜",
+      "tags": ["display", "empathy", "agree"]
+    },
+    {
+      "externalId": "s015",
+      "japanese": "なるほど、そうなんですね。",
+      "tokens": [
+        { "text": "なるほど、そうなんですね。" }
+      ],
+      "kana": "なるほどそうなんですね",
+      "chinese": "原来如此啊。",
+      "category": "smalltalk",
+      "register": "丁寧",
+      "difficulty": 1,
+      "frequencyRank": 315,
+      "chunkPattern": "なるほど、〜",
+      "tags": ["display", "empathy", "got-it"]
+    },
+    {
+      "externalId": "s016",
+      "japanese": "それは羨ましいですね。",
+      "tokens": [
+        { "text": "それは" },
+        { "text": "羨ましい", "kana": "うらやましい" },
+        { "text": "ですね。" }
+      ],
+      "kana": "それはうらやましいですね",
+      "chinese": "那真让人羡慕。",
+      "category": "smalltalk",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 320,
+      "chunkPattern": "それは〜ですね",
+      "tags": ["display", "empathy", "envy"]
+    },
+    {
+      "externalId": "s017",
+      "japanese": "お察しします。",
+      "tokens": [
+        { "text": "お" },
+        { "text": "察し", "kana": "さっし" },
+        { "text": "します。" }
+      ],
+      "kana": "おさっしします",
+      "chinese": "能理解您的心情。",
+      "category": "smalltalk",
+      "register": "敬語",
+      "difficulty": 2,
+      "frequencyRank": 325,
+      "chunkPattern": "お察しします",
+      "tags": ["display", "empathy", "formal"]
+    },
+    {
+      "externalId": "s018",
+      "japanese": "それは嬉しいですね。",
+      "tokens": [
+        { "text": "それは" },
+        { "text": "嬉しい", "kana": "うれしい" },
+        { "text": "ですね。" }
+      ],
+      "kana": "それはうれしいですね",
+      "chinese": "那真开心啊。",
+      "category": "smalltalk",
+      "register": "丁寧",
+      "difficulty": 1,
+      "frequencyRank": 330,
+      "chunkPattern": "それは〜ですね",
+      "tags": ["display", "empathy", "happy"]
+    },
+    {
+      "externalId": "s019",
+      "japanese": "それは焦りますね。",
+      "tokens": [
+        { "text": "それは" },
+        { "text": "焦ります", "kana": "あせります" },
+        { "text": "ね。" }
+      ],
+      "kana": "それはあせりますね",
+      "chinese": "那确实让人着急。",
+      "category": "smalltalk",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 335,
+      "chunkPattern": "それは〜ね",
+      "tags": ["display", "empathy", "anxious"]
+    },
+    {
+      "externalId": "s020",
+      "japanese": "言ってくれてありがとう。",
+      "tokens": [
+        { "text": "言って", "kana": "いって" },
+        { "text": "くれてありがとう。" }
+      ],
+      "kana": "いってくれてありがとう",
+      "chinese": "谢谢你告诉我。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 340,
+      "chunkPattern": "〜てくれてありがとう",
+      "tags": ["display", "empathy", "thanks"]
+    }
+  ],
+  "dialogues": [],
+  "passages": []
+}

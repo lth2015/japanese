@@ -1,0 +1,362 @@
+{
+  "packVersion": 1,
+  "packId": "display-weekend-vibes-001",
+  "title": "Display Weekend Vibes 001",
+  "generatedBy": "claude-opus-4-7",
+  "generatedAt": "2026-05-15",
+  "targetProfile": "Display-optimized moderate-length weekend / leisure-time phrases — sleeping in, going out, errands, lazy days. 6-15 chars. Mostly カジュアル. Useful for the Friday-Sunday register and Monday-morning catch-up small talk.",
+  "reviewStatus": "reviewed",
+  "sentences": [
+    {
+      "externalId": "s001",
+      "japanese": "週末は何する？",
+      "tokens": [
+        { "text": "週末", "kana": "しゅうまつ" },
+        { "text": "は" },
+        { "text": "何", "kana": "なに" },
+        { "text": "する？" }
+      ],
+      "kana": "しゅうまつはなにする",
+      "chinese": "周末做什么？",
+      "category": "request",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 951,
+      "chunkPattern": "週末は〜",
+      "tags": ["display", "weekend", "plans"]
+    },
+    {
+      "externalId": "s002",
+      "japanese": "久しぶりにゆっくり。",
+      "tokens": [
+        { "text": "久しぶり", "kana": "ひさしぶり" },
+        { "text": "にゆっくり。" }
+      ],
+      "kana": "ひさしぶりにゆっくり",
+      "chinese": "久违地放松一下。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 949,
+      "chunkPattern": "久しぶりに〜",
+      "tags": ["display", "weekend", "relax"]
+    },
+    {
+      "externalId": "s003",
+      "japanese": "映画見に行こうか。",
+      "tokens": [
+        { "text": "映画", "kana": "えいが" },
+        { "text": "見", "kana": "み" },
+        { "text": "に" },
+        { "text": "行こう", "kana": "いこう" },
+        { "text": "か。" }
+      ],
+      "kana": "えいがみにいこうか",
+      "chinese": "去看电影吧？",
+      "category": "request",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 947,
+      "chunkPattern": "〜に行こうか",
+      "tags": ["display", "weekend", "movie"]
+    },
+    {
+      "externalId": "s004",
+      "japanese": "朝寝坊したい。",
+      "tokens": [
+        { "text": "朝寝坊", "kana": "あさねぼう" },
+        { "text": "したい。" }
+      ],
+      "kana": "あさねぼうしたい",
+      "chinese": "想睡个懒觉。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 943,
+      "chunkPattern": "〜したい",
+      "tags": ["display", "weekend", "sleep-in"]
+    },
+    {
+      "externalId": "s005",
+      "japanese": "部屋掃除しないと。",
+      "tokens": [
+        { "text": "部屋", "kana": "へや" },
+        { "text": "掃除", "kana": "そうじ" },
+        { "text": "しないと。" }
+      ],
+      "kana": "へやそうじしないと",
+      "chinese": "得打扫房间了。",
+      "category": "progress",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 941,
+      "chunkPattern": "〜しないと",
+      "tags": ["display", "weekend", "chores"]
+    },
+    {
+      "externalId": "s006",
+      "japanese": "散歩日和だね。",
+      "tokens": [
+        { "text": "散歩", "kana": "さんぽ" },
+        { "text": "日和", "kana": "びより" },
+        { "text": "だね。" }
+      ],
+      "kana": "さんぽびよりだね",
+      "chinese": "散步的好天气。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 939,
+      "chunkPattern": "〜日和",
+      "tags": ["display", "weekend", "weather"]
+    },
+    {
+      "externalId": "s007",
+      "japanese": "何も予定ない。",
+      "tokens": [
+        { "text": "何", "kana": "なに" },
+        { "text": "も" },
+        { "text": "予定", "kana": "よてい" },
+        { "text": "ない。" }
+      ],
+      "kana": "なにもよていない",
+      "chinese": "什么计划都没有。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 937,
+      "chunkPattern": "何も〜ない",
+      "tags": ["display", "weekend", "free"]
+    },
+    {
+      "externalId": "s008",
+      "japanese": "のんびり過ごす。",
+      "tokens": [
+        { "text": "のんびり" },
+        { "text": "過ごす", "kana": "すごす" },
+        { "text": "。" }
+      ],
+      "kana": "のんびりすごす",
+      "chinese": "悠闲度过。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 933,
+      "chunkPattern": "のんびり〜",
+      "tags": ["display", "weekend", "lazy"]
+    },
+    {
+      "externalId": "s009",
+      "japanese": "カフェで本読む。",
+      "tokens": [
+        { "text": "カフェで" },
+        { "text": "本", "kana": "ほん" },
+        { "text": "読む", "kana": "よむ" },
+        { "text": "。" }
+      ],
+      "kana": "かふぇでほんよむ",
+      "chinese": "在咖啡馆看书。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 931,
+      "chunkPattern": "〜で本読む",
+      "tags": ["display", "weekend", "cafe-read"]
+    },
+    {
+      "externalId": "s010",
+      "japanese": "家でゴロゴロ。",
+      "tokens": [
+        { "text": "家", "kana": "いえ" },
+        { "text": "でゴロゴロ。" }
+      ],
+      "kana": "いえでごろごろ",
+      "chinese": "在家躺平。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 929,
+      "chunkPattern": "家で〜",
+      "tags": ["display", "weekend", "couch"]
+    },
+    {
+      "externalId": "s011",
+      "japanese": "友達と飲みに行く。",
+      "tokens": [
+        { "text": "友達", "kana": "ともだち" },
+        { "text": "と" },
+        { "text": "飲み", "kana": "のみ" },
+        { "text": "に" },
+        { "text": "行く", "kana": "いく" },
+        { "text": "。" }
+      ],
+      "kana": "ともだちとのみにいく",
+      "chinese": "和朋友去喝一杯。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 927,
+      "chunkPattern": "〜と飲みに行く",
+      "tags": ["display", "weekend", "drinks"]
+    },
+    {
+      "externalId": "s012",
+      "japanese": "ジムに行こうかな。",
+      "tokens": [
+        { "text": "ジムに" },
+        { "text": "行こう", "kana": "いこう" },
+        { "text": "かな。" }
+      ],
+      "kana": "じむにいこうかな",
+      "chinese": "去健身房吧。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 923,
+      "chunkPattern": "〜に行こうかな",
+      "tags": ["display", "weekend", "gym"]
+    },
+    {
+      "externalId": "s013",
+      "japanese": "久しぶりに走った。",
+      "tokens": [
+        { "text": "久しぶり", "kana": "ひさしぶり" },
+        { "text": "に" },
+        { "text": "走った", "kana": "はしった" },
+        { "text": "。" }
+      ],
+      "kana": "ひさしぶりにはしった",
+      "chinese": "好久没跑步了。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 921,
+      "chunkPattern": "久しぶりに〜",
+      "tags": ["display", "weekend", "exercise"]
+    },
+    {
+      "externalId": "s014",
+      "japanese": "ちょっと出かける。",
+      "tokens": [
+        { "text": "ちょっと" },
+        { "text": "出かける", "kana": "でかける" },
+        { "text": "。" }
+      ],
+      "kana": "ちょっとでかける",
+      "chinese": "稍微出去一下。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 917,
+      "chunkPattern": "ちょっと〜",
+      "tags": ["display", "weekend", "go-out"]
+    },
+    {
+      "externalId": "s015",
+      "japanese": "一日中ドラマ見た。",
+      "tokens": [
+        { "text": "一日中", "kana": "いちにちじゅう" },
+        { "text": "ドラマ" },
+        { "text": "見た", "kana": "みた" },
+        { "text": "。" }
+      ],
+      "kana": "いちにちじゅうどらまみた",
+      "chinese": "一整天看剧。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 913,
+      "chunkPattern": "一日中〜",
+      "tags": ["display", "weekend", "binge"]
+    },
+    {
+      "externalId": "s016",
+      "japanese": "美味しいもの食べたい。",
+      "tokens": [
+        { "text": "美味しい", "kana": "おいしい" },
+        { "text": "もの" },
+        { "text": "食べたい", "kana": "たべたい" },
+        { "text": "。" }
+      ],
+      "kana": "おいしいものたべたい",
+      "chinese": "想吃点好吃的。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 911,
+      "chunkPattern": "〜もの食べたい",
+      "tags": ["display", "weekend", "food"]
+    },
+    {
+      "externalId": "s017",
+      "japanese": "近所散歩した。",
+      "tokens": [
+        { "text": "近所", "kana": "きんじょ" },
+        { "text": "散歩", "kana": "さんぽ" },
+        { "text": "した。" }
+      ],
+      "kana": "きんじょさんぽした",
+      "chinese": "在附近散步了。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 909,
+      "chunkPattern": "〜散歩した",
+      "tags": ["display", "weekend", "neighborhood"]
+    },
+    {
+      "externalId": "s018",
+      "japanese": "公園で昼寝した。",
+      "tokens": [
+        { "text": "公園", "kana": "こうえん" },
+        { "text": "で" },
+        { "text": "昼寝", "kana": "ひるね" },
+        { "text": "した。" }
+      ],
+      "kana": "こうえんでひるねした",
+      "chinese": "在公园里午睡了。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 907,
+      "chunkPattern": "〜で昼寝〜",
+      "tags": ["display", "weekend", "nap"]
+    },
+    {
+      "externalId": "s019",
+      "japanese": "来週はゆっくりしよう。",
+      "tokens": [
+        { "text": "来週", "kana": "らいしゅう" },
+        { "text": "はゆっくりしよう。" }
+      ],
+      "kana": "らいしゅうはゆっくりしよう",
+      "chinese": "下周慢慢来吧。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 903,
+      "chunkPattern": "来週は〜しよう",
+      "tags": ["display", "weekend", "next-week"]
+    },
+    {
+      "externalId": "s020",
+      "japanese": "もう一週間始まる。",
+      "tokens": [
+        { "text": "もう" },
+        { "text": "一週間", "kana": "いっしゅうかん" },
+        { "text": "始まる", "kana": "はじまる" },
+        { "text": "。" }
+      ],
+      "kana": "もういっしゅうかんはじまる",
+      "chinese": "新的一周又开始了。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 901,
+      "chunkPattern": "もう一週間〜",
+      "tags": ["display", "weekend", "monday"]
+    }
+  ],
+  "dialogues": [],
+  "passages": []
+}

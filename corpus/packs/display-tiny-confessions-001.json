@@ -1,0 +1,348 @@
+{
+  "packVersion": 1,
+  "packId": "display-tiny-confessions-001",
+  "title": "Display Tiny Confessions 001",
+  "generatedBy": "claude-opus-4-7",
+  "generatedAt": "2026-05-15",
+  "targetProfile": "Display-optimized moderate-length tiny-confession phrases — admitting small mistakes / forgetfulness / lapses in everyday speech. 7-15 chars, mostly カジュアル. Distinct from formal apology: these are saying-aloud admissions to coworkers or yourself.",
+  "reviewStatus": "reviewed",
+  "sentences": [
+    {
+      "externalId": "s001",
+      "japanese": "ごめん、やっちゃった。",
+      "tokens": [
+        { "text": "ごめん、やっちゃった。" }
+      ],
+      "kana": "ごめんやっちゃった",
+      "chinese": "对不起,我搞砸了。",
+      "category": "apology",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 250,
+      "chunkPattern": "ごめん、〜ちゃった",
+      "tags": ["display", "confession", "casual"]
+    },
+    {
+      "externalId": "s002",
+      "japanese": "寝坊しちゃった。",
+      "tokens": [
+        { "text": "寝坊", "kana": "ねぼう" },
+        { "text": "しちゃった。" }
+      ],
+      "kana": "ねぼうしちゃった",
+      "chinese": "睡过头了。",
+      "category": "apology",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 255,
+      "chunkPattern": "〜しちゃった",
+      "tags": ["display", "confession", "oversleep"]
+    },
+    {
+      "externalId": "s003",
+      "japanese": "うっかり忘れてた。",
+      "tokens": [
+        { "text": "うっかり" },
+        { "text": "忘れてた", "kana": "わすれてた" },
+        { "text": "。" }
+      ],
+      "kana": "うっかりわすれてた",
+      "chinese": "一不小心忘了。",
+      "category": "apology",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 260,
+      "chunkPattern": "うっかり〜",
+      "tags": ["display", "confession", "forgot"]
+    },
+    {
+      "externalId": "s004",
+      "japanese": "やばい、遅刻する。",
+      "tokens": [
+        { "text": "やばい、" },
+        { "text": "遅刻", "kana": "ちこく" },
+        { "text": "する。" }
+      ],
+      "kana": "やばいちこくする",
+      "chinese": "糟糕,要迟到了。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 265,
+      "chunkPattern": "やばい、〜",
+      "tags": ["display", "confession", "late"]
+    },
+    {
+      "externalId": "s005",
+      "japanese": "つい食べすぎた。",
+      "tokens": [
+        { "text": "つい" },
+        { "text": "食べすぎた", "kana": "たべすぎた" },
+        { "text": "。" }
+      ],
+      "kana": "ついたべすぎた",
+      "chinese": "一不小心吃多了。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 270,
+      "chunkPattern": "つい〜すぎた",
+      "tags": ["display", "confession", "overeat"]
+    },
+    {
+      "externalId": "s006",
+      "japanese": "メール送り忘れた。",
+      "tokens": [
+        { "text": "メール" },
+        { "text": "送り忘れた", "kana": "おくりわすれた" },
+        { "text": "。" }
+      ],
+      "kana": "めーるおくりわすれた",
+      "chinese": "邮件忘了发。",
+      "category": "apology",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 275,
+      "chunkPattern": "〜送り忘れた",
+      "tags": ["display", "confession", "work"]
+    },
+    {
+      "externalId": "s007",
+      "japanese": "これ、私のミスです。",
+      "tokens": [
+        { "text": "これ、" },
+        { "text": "私", "kana": "わたし" },
+        { "text": "のミスです。" }
+      ],
+      "kana": "これわたしのみすです",
+      "chinese": "这是我的错。",
+      "category": "apology",
+      "register": "丁寧",
+      "difficulty": 1,
+      "frequencyRank": 280,
+      "chunkPattern": "これ、〜のミスです",
+      "tags": ["display", "confession", "polite"]
+    },
+    {
+      "externalId": "s008",
+      "japanese": "つい買っちゃった。",
+      "tokens": [
+        { "text": "つい" },
+        { "text": "買っちゃった", "kana": "かっちゃった" },
+        { "text": "。" }
+      ],
+      "kana": "ついかっちゃった",
+      "chinese": "一不小心买了。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 285,
+      "chunkPattern": "つい〜ちゃった",
+      "tags": ["display", "confession", "impulse-buy"]
+    },
+    {
+      "externalId": "s009",
+      "japanese": "やっちゃった、ごめん。",
+      "tokens": [
+        { "text": "やっちゃった、ごめん。" }
+      ],
+      "kana": "やっちゃったごめん",
+      "chinese": "搞砸了,对不起。",
+      "category": "apology",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 290,
+      "chunkPattern": "やっちゃった、〜",
+      "tags": ["display", "confession", "casual"]
+    },
+    {
+      "externalId": "s010",
+      "japanese": "すみません、勘違いでした。",
+      "tokens": [
+        { "text": "すみません、" },
+        { "text": "勘違い", "kana": "かんちがい" },
+        { "text": "でした。" }
+      ],
+      "kana": "すみませんかんちがいでした",
+      "chinese": "对不起,是我误会了。",
+      "category": "apology",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 295,
+      "chunkPattern": "すみません、〜でした",
+      "tags": ["display", "confession", "misunderstood"]
+    },
+    {
+      "externalId": "s011",
+      "japanese": "うわ、間違えた。",
+      "tokens": [
+        { "text": "うわ、" },
+        { "text": "間違えた", "kana": "まちがえた" },
+        { "text": "。" }
+      ],
+      "kana": "うわまちがえた",
+      "chinese": "啊,搞错了。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 300,
+      "chunkPattern": "うわ、〜",
+      "tags": ["display", "confession", "mistake"]
+    },
+    {
+      "externalId": "s012",
+      "japanese": "ファイル消しちゃった。",
+      "tokens": [
+        { "text": "ファイル" },
+        { "text": "消しちゃった", "kana": "けしちゃった" },
+        { "text": "。" }
+      ],
+      "kana": "ふぁいるけしちゃった",
+      "chinese": "把文件删了。",
+      "category": "apology",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 305,
+      "chunkPattern": "〜消しちゃった",
+      "tags": ["display", "confession", "file-lost"]
+    },
+    {
+      "externalId": "s013",
+      "japanese": "言い忘れたんだけど。",
+      "tokens": [
+        { "text": "言い忘れた", "kana": "いいわすれた" },
+        { "text": "んだけど。" }
+      ],
+      "kana": "いいわすれたんだけど",
+      "chinese": "我忘了说一句…",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 310,
+      "chunkPattern": "言い忘れた〜",
+      "tags": ["display", "confession", "addendum"]
+    },
+    {
+      "externalId": "s014",
+      "japanese": "締切過ぎちゃった。",
+      "tokens": [
+        { "text": "締切", "kana": "しめきり" },
+        { "text": "過ぎちゃった", "kana": "すぎちゃった" },
+        { "text": "。" }
+      ],
+      "kana": "しめきりすぎちゃった",
+      "chinese": "过截止时间了。",
+      "category": "apology",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 315,
+      "chunkPattern": "〜過ぎちゃった",
+      "tags": ["display", "confession", "deadline"]
+    },
+    {
+      "externalId": "s015",
+      "japanese": "完全に忘れてた。",
+      "tokens": [
+        { "text": "完全", "kana": "かんぜん" },
+        { "text": "に" },
+        { "text": "忘れてた", "kana": "わすれてた" },
+        { "text": "。" }
+      ],
+      "kana": "かんぜんにわすれてた",
+      "chinese": "完全忘了。",
+      "category": "apology",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 320,
+      "chunkPattern": "完全に〜",
+      "tags": ["display", "confession", "totally-forgot"]
+    },
+    {
+      "externalId": "s016",
+      "japanese": "ちょっと油断してた。",
+      "tokens": [
+        { "text": "ちょっと" },
+        { "text": "油断", "kana": "ゆだん" },
+        { "text": "してた。" }
+      ],
+      "kana": "ちょっとゆだんしてた",
+      "chinese": "稍微疏忽了。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 325,
+      "chunkPattern": "ちょっと油断〜",
+      "tags": ["display", "confession", "lax"]
+    },
+    {
+      "externalId": "s017",
+      "japanese": "うっかり押しちゃった。",
+      "tokens": [
+        { "text": "うっかり" },
+        { "text": "押しちゃった", "kana": "おしちゃった" },
+        { "text": "。" }
+      ],
+      "kana": "うっかりおしちゃった",
+      "chinese": "不小心按下去了。",
+      "category": "apology",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 330,
+      "chunkPattern": "うっかり〜ちゃった",
+      "tags": ["display", "confession", "misclick"]
+    },
+    {
+      "externalId": "s018",
+      "japanese": "すみません、私のせい。",
+      "tokens": [
+        { "text": "すみません、" },
+        { "text": "私", "kana": "わたし" },
+        { "text": "のせい。" }
+      ],
+      "kana": "すみませんわたしのせい",
+      "chinese": "对不起,是我的责任。",
+      "category": "apology",
+      "register": "丁寧",
+      "difficulty": 1,
+      "frequencyRank": 335,
+      "chunkPattern": "〜私のせい",
+      "tags": ["display", "confession", "responsibility"]
+    },
+    {
+      "externalId": "s019",
+      "japanese": "つい言い過ぎた。",
+      "tokens": [
+        { "text": "つい" },
+        { "text": "言い過ぎた", "kana": "いいすぎた" },
+        { "text": "。" }
+      ],
+      "kana": "ついいいすぎた",
+      "chinese": "一不小心说过了。",
+      "category": "apology",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 340,
+      "chunkPattern": "つい〜過ぎた",
+      "tags": ["display", "confession", "overshare"]
+    },
+    {
+      "externalId": "s020",
+      "japanese": "ごめん、寝過ごした。",
+      "tokens": [
+        { "text": "ごめん、" },
+        { "text": "寝過ごした", "kana": "ねすごした" },
+        { "text": "。" }
+      ],
+      "kana": "ごめんねすごした",
+      "chinese": "对不起,睡过站了。",
+      "category": "apology",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 345,
+      "chunkPattern": "ごめん、〜過ごした",
+      "tags": ["display", "confession", "missed-stop"]
+    }
+  ],
+  "dialogues": [],
+  "passages": []
+}

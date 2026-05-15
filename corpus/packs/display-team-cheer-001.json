@@ -1,0 +1,355 @@
+{
+  "packVersion": 1,
+  "packId": "display-team-cheer-001",
+  "title": "Display Team Cheer 001",
+  "generatedBy": "claude-opus-4-7",
+  "generatedAt": "2026-05-15",
+  "targetProfile": "Display-optimized moderate-length workplace teammate-support phrases. 7-16 chars. Mostly カジュアル + 丁寧. Distinct from generic encouragement — these are the things you say in Slack or hallway to a colleague pulling through something tough.",
+  "reviewStatus": "reviewed",
+  "sentences": [
+    {
+      "externalId": "s001",
+      "japanese": "一緒に頑張ろう。",
+      "tokens": [
+        { "text": "一緒", "kana": "いっしょ" },
+        { "text": "に" },
+        { "text": "頑張ろう", "kana": "がんばろう" },
+        { "text": "。" }
+      ],
+      "kana": "いっしょにがんばろう",
+      "chinese": "一起加油。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 350,
+      "chunkPattern": "一緒に〜",
+      "tags": ["display", "team-cheer", "together"]
+    },
+    {
+      "externalId": "s002",
+      "japanese": "みんなで乗り越えよう。",
+      "tokens": [
+        { "text": "みんなで" },
+        { "text": "乗り越えよう", "kana": "のりこえよう" },
+        { "text": "。" }
+      ],
+      "kana": "みんなでのりこえよう",
+      "chinese": "大家一起挺过去吧。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 355,
+      "chunkPattern": "みんなで〜",
+      "tags": ["display", "team-cheer", "weather-storm"]
+    },
+    {
+      "externalId": "s003",
+      "japanese": "お疲れ、無理しないで。",
+      "tokens": [
+        { "text": "お" },
+        { "text": "疲れ", "kana": "つかれ" },
+        { "text": "、" },
+        { "text": "無理", "kana": "むり" },
+        { "text": "しないで。" }
+      ],
+      "kana": "おつかれむりしないで",
+      "chinese": "辛苦了,别勉强。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 360,
+      "chunkPattern": "お疲れ、〜",
+      "tags": ["display", "team-cheer", "care"]
+    },
+    {
+      "externalId": "s004",
+      "japanese": "困ったら言って。",
+      "tokens": [
+        { "text": "困ったら", "kana": "こまったら" },
+        { "text": "言って", "kana": "いって" },
+        { "text": "。" }
+      ],
+      "kana": "こまったらいって",
+      "chinese": "有困难就告诉我。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 365,
+      "chunkPattern": "困ったら〜",
+      "tags": ["display", "team-cheer", "open-door"]
+    },
+    {
+      "externalId": "s005",
+      "japanese": "焦らなくていいよ。",
+      "tokens": [
+        { "text": "焦らなくて", "kana": "あせらなくて" },
+        { "text": "いいよ。" }
+      ],
+      "kana": "あせらなくていいよ",
+      "chinese": "不用急。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 370,
+      "chunkPattern": "焦らなくて〜",
+      "tags": ["display", "team-cheer", "calm"]
+    },
+    {
+      "externalId": "s006",
+      "japanese": "良くやってるよ。",
+      "tokens": [
+        { "text": "良く", "kana": "よく" },
+        { "text": "やってるよ。" }
+      ],
+      "kana": "よくやってるよ",
+      "chinese": "你做得很好。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 375,
+      "chunkPattern": "良くやってる",
+      "tags": ["display", "team-cheer", "praise"]
+    },
+    {
+      "externalId": "s007",
+      "japanese": "その意気で行こう。",
+      "tokens": [
+        { "text": "その" },
+        { "text": "意気", "kana": "いき" },
+        { "text": "で" },
+        { "text": "行こう", "kana": "いこう" },
+        { "text": "。" }
+      ],
+      "kana": "そのいきでいこう",
+      "chinese": "就这股劲儿,走!",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 380,
+      "chunkPattern": "その意気で〜",
+      "tags": ["display", "team-cheer", "spirit"]
+    },
+    {
+      "externalId": "s008",
+      "japanese": "心配しないで大丈夫。",
+      "tokens": [
+        { "text": "心配", "kana": "しんぱい" },
+        { "text": "しないで" },
+        { "text": "大丈夫", "kana": "だいじょうぶ" },
+        { "text": "。" }
+      ],
+      "kana": "しんぱいしないでだいじょうぶ",
+      "chinese": "别担心,没事的。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 385,
+      "chunkPattern": "心配しないで〜",
+      "tags": ["display", "team-cheer", "reassure"]
+    },
+    {
+      "externalId": "s009",
+      "japanese": "みんな応援してるよ。",
+      "tokens": [
+        { "text": "みんな" },
+        { "text": "応援", "kana": "おうえん" },
+        { "text": "してるよ。" }
+      ],
+      "kana": "みんなおうえんしてるよ",
+      "chinese": "大家都在为你加油。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 390,
+      "chunkPattern": "みんな〜してる",
+      "tags": ["display", "team-cheer", "support"]
+    },
+    {
+      "externalId": "s010",
+      "japanese": "ナイスファイト！",
+      "tokens": [
+        { "text": "ナイスファイト！" }
+      ],
+      "kana": "ないすふぁいと",
+      "chinese": "好样的,加油!",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 395,
+      "chunkPattern": "ナイス〜",
+      "tags": ["display", "team-cheer", "fight"]
+    },
+    {
+      "externalId": "s011",
+      "japanese": "落ち着いて、できるよ。",
+      "tokens": [
+        { "text": "落ち着いて", "kana": "おちついて" },
+        { "text": "、できるよ。" }
+      ],
+      "kana": "おちついてできるよ",
+      "chinese": "冷静一点,你能行。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 400,
+      "chunkPattern": "落ち着いて、〜",
+      "tags": ["display", "team-cheer", "calm"]
+    },
+    {
+      "externalId": "s012",
+      "japanese": "一人で抱え込まないで。",
+      "tokens": [
+        { "text": "一人", "kana": "ひとり" },
+        { "text": "で" },
+        { "text": "抱え込まないで", "kana": "かかえこまないで" },
+        { "text": "。" }
+      ],
+      "kana": "ひとりでかかえこまないで",
+      "chinese": "别一个人扛着。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 3,
+      "frequencyRank": 405,
+      "chunkPattern": "一人で〜ないで",
+      "tags": ["display", "team-cheer", "share-load"]
+    },
+    {
+      "externalId": "s013",
+      "japanese": "ここまで来たじゃん。",
+      "tokens": [
+        { "text": "ここまで" },
+        { "text": "来た", "kana": "きた" },
+        { "text": "じゃん。" }
+      ],
+      "kana": "ここまできたじゃん",
+      "chinese": "都走到这儿了嘛。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 410,
+      "chunkPattern": "ここまで〜じゃん",
+      "tags": ["display", "team-cheer", "perspective"]
+    },
+    {
+      "externalId": "s014",
+      "japanese": "君ならできる。",
+      "tokens": [
+        { "text": "君", "kana": "きみ" },
+        { "text": "ならできる。" }
+      ],
+      "kana": "きみならできる",
+      "chinese": "你能做到。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 415,
+      "chunkPattern": "君なら〜",
+      "tags": ["display", "team-cheer", "trust"]
+    },
+    {
+      "externalId": "s015",
+      "japanese": "焦らずいこう。",
+      "tokens": [
+        { "text": "焦らず", "kana": "あせらず" },
+        { "text": "いこう。" }
+      ],
+      "kana": "あせらずいこう",
+      "chinese": "不慌不忙地走。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 420,
+      "chunkPattern": "焦らず〜",
+      "tags": ["display", "team-cheer", "steady"]
+    },
+    {
+      "externalId": "s016",
+      "japanese": "ナイス、その調子。",
+      "tokens": [
+        { "text": "ナイス、その" },
+        { "text": "調子", "kana": "ちょうし" },
+        { "text": "。" }
+      ],
+      "kana": "ないすそのちょうし",
+      "chinese": "好,就是这状态。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 425,
+      "chunkPattern": "ナイス、その〜",
+      "tags": ["display", "team-cheer", "keep-it-up"]
+    },
+    {
+      "externalId": "s017",
+      "japanese": "助けるから言って。",
+      "tokens": [
+        { "text": "助ける", "kana": "たすける" },
+        { "text": "から" },
+        { "text": "言って", "kana": "いって" },
+        { "text": "。" }
+      ],
+      "kana": "たすけるからいって",
+      "chinese": "我会帮你,告诉我。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 430,
+      "chunkPattern": "助けるから〜",
+      "tags": ["display", "team-cheer", "ally"]
+    },
+    {
+      "externalId": "s018",
+      "japanese": "一緒に解決しよう。",
+      "tokens": [
+        { "text": "一緒", "kana": "いっしょ" },
+        { "text": "に" },
+        { "text": "解決", "kana": "かいけつ" },
+        { "text": "しよう。" }
+      ],
+      "kana": "いっしょにかいけつしよう",
+      "chinese": "一起来解决吧。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 435,
+      "chunkPattern": "一緒に〜しよう",
+      "tags": ["display", "team-cheer", "collaborate"]
+    },
+    {
+      "externalId": "s019",
+      "japanese": "無理せず休んでね。",
+      "tokens": [
+        { "text": "無理", "kana": "むり" },
+        { "text": "せず" },
+        { "text": "休んで", "kana": "やすんで" },
+        { "text": "ね。" }
+      ],
+      "kana": "むりせずやすんでね",
+      "chinese": "别勉强,好好休息。",
+      "category": "smalltalk",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 440,
+      "chunkPattern": "無理せず〜",
+      "tags": ["display", "team-cheer", "rest"]
+    },
+    {
+      "externalId": "s020",
+      "japanese": "お互い様だよ。",
+      "tokens": [
+        { "text": "お互い様", "kana": "おたがいさま" },
+        { "text": "だよ。" }
+      ],
+      "kana": "おたがいさまだよ",
+      "chinese": "彼此彼此,互相帮忙嘛。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 445,
+      "chunkPattern": "お互い様〜",
+      "tags": ["display", "team-cheer", "reciprocal"]
+    }
+  ],
+  "dialogues": [],
+  "passages": []
+}

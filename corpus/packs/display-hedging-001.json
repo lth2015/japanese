@@ -1,0 +1,355 @@
+{
+  "packVersion": 1,
+  "packId": "display-hedging-001",
+  "title": "Display Soft Hedging 001",
+  "generatedBy": "claude-opus-4-7",
+  "generatedAt": "2026-05-15",
+  "targetProfile": "Display-optimized moderate-length softening/hedging phrases — たぶん・かも・〜気がする・〜と思う・はず. 8-15 chars. Mix カジュアル + 丁寧. Critical because Japanese speakers default to soft assertions; sounding less direct sounds more competent.",
+  "reviewStatus": "reviewed",
+  "sentences": [
+    {
+      "externalId": "s001",
+      "japanese": "たぶん大丈夫だと思う。",
+      "tokens": [
+        { "text": "たぶん" },
+        { "text": "大丈夫", "kana": "だいじょうぶ" },
+        { "text": "だと" },
+        { "text": "思う", "kana": "おもう" },
+        { "text": "。" }
+      ],
+      "kana": "たぶんだいじょうぶだとおもう",
+      "chinese": "大概没问题吧。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 535,
+      "chunkPattern": "たぶん〜と思う",
+      "tags": ["display", "hedging", "probably"]
+    },
+    {
+      "externalId": "s002",
+      "japanese": "それかもしれませんね。",
+      "tokens": [
+        { "text": "それかもしれませんね。" }
+      ],
+      "kana": "それかもしれませんね",
+      "chinese": "也许是那样吧。",
+      "category": "smalltalk",
+      "register": "丁寧",
+      "difficulty": 1,
+      "frequencyRank": 540,
+      "chunkPattern": "〜かもしれませんね",
+      "tags": ["display", "hedging", "polite"]
+    },
+    {
+      "externalId": "s003",
+      "japanese": "ちょっと違う気がする。",
+      "tokens": [
+        { "text": "ちょっと" },
+        { "text": "違う", "kana": "ちがう" },
+        { "text": "気", "kana": "き" },
+        { "text": "がする。" }
+      ],
+      "kana": "ちょっとちがうきがする",
+      "chinese": "总觉得有点不对。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 545,
+      "chunkPattern": "ちょっと〜気がする",
+      "tags": ["display", "hedging", "doubt"]
+    },
+    {
+      "externalId": "s004",
+      "japanese": "なんとなく、そう感じる。",
+      "tokens": [
+        { "text": "なんとなく、そう" },
+        { "text": "感じる", "kana": "かんじる" },
+        { "text": "。" }
+      ],
+      "kana": "なんとなくそうかんじる",
+      "chinese": "总有种这样的感觉。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 550,
+      "chunkPattern": "なんとなく、〜感じる",
+      "tags": ["display", "hedging", "intuition"]
+    },
+    {
+      "externalId": "s005",
+      "japanese": "たぶん明日には終わる。",
+      "tokens": [
+        { "text": "たぶん" },
+        { "text": "明日", "kana": "あした" },
+        { "text": "には" },
+        { "text": "終わる", "kana": "おわる" },
+        { "text": "。" }
+      ],
+      "kana": "たぶんあしたにはおわる",
+      "chinese": "大概明天就能完成。",
+      "category": "progress",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 555,
+      "chunkPattern": "たぶん〜には〜",
+      "tags": ["display", "hedging", "timeline"]
+    },
+    {
+      "externalId": "s006",
+      "japanese": "ちょっと厳しいかも。",
+      "tokens": [
+        { "text": "ちょっと" },
+        { "text": "厳しい", "kana": "きびしい" },
+        { "text": "かも。" }
+      ],
+      "kana": "ちょっときびしいかも",
+      "chinese": "可能有点紧。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 560,
+      "chunkPattern": "ちょっと〜かも",
+      "tags": ["display", "hedging", "soft-no"]
+    },
+    {
+      "externalId": "s007",
+      "japanese": "もしかして、これかな。",
+      "tokens": [
+        { "text": "もしかして、これかな。" }
+      ],
+      "kana": "もしかしてこれかな",
+      "chinese": "该不会是这个吧。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 565,
+      "chunkPattern": "もしかして、〜かな",
+      "tags": ["display", "hedging", "guess"]
+    },
+    {
+      "externalId": "s008",
+      "japanese": "うまくいくと思います。",
+      "tokens": [
+        { "text": "うまくいくと" },
+        { "text": "思います", "kana": "おもいます" },
+        { "text": "。" }
+      ],
+      "kana": "うまくいくとおもいます",
+      "chinese": "我觉得会顺利的。",
+      "category": "smalltalk",
+      "register": "丁寧",
+      "difficulty": 1,
+      "frequencyRank": 570,
+      "chunkPattern": "〜と思います",
+      "tags": ["display", "hedging", "optimistic"]
+    },
+    {
+      "externalId": "s009",
+      "japanese": "確か、そうだった気が。",
+      "tokens": [
+        { "text": "確か", "kana": "たしか" },
+        { "text": "、そうだった" },
+        { "text": "気", "kana": "き" },
+        { "text": "が。" }
+      ],
+      "kana": "たしかそうだったきが",
+      "chinese": "好像是那样吧。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 575,
+      "chunkPattern": "確か、〜気が",
+      "tags": ["display", "hedging", "vague-memory"]
+    },
+    {
+      "externalId": "s010",
+      "japanese": "なんか、足りない感じ。",
+      "tokens": [
+        { "text": "なんか、" },
+        { "text": "足りない", "kana": "たりない" },
+        { "text": "感じ", "kana": "かんじ" },
+        { "text": "。" }
+      ],
+      "kana": "なんかたりないかんじ",
+      "chinese": "总觉得不够。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 580,
+      "chunkPattern": "なんか、〜感じ",
+      "tags": ["display", "hedging", "missing"]
+    },
+    {
+      "externalId": "s011",
+      "japanese": "たぶん間に合うかな。",
+      "tokens": [
+        { "text": "たぶん" },
+        { "text": "間に合う", "kana": "まにあう" },
+        { "text": "かな。" }
+      ],
+      "kana": "たぶんまにあうかな",
+      "chinese": "应该来得及吧。",
+      "category": "progress",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 585,
+      "chunkPattern": "たぶん〜かな",
+      "tags": ["display", "hedging", "on-time"]
+    },
+    {
+      "externalId": "s012",
+      "japanese": "何かありそうな予感。",
+      "tokens": [
+        { "text": "何か", "kana": "なにか" },
+        { "text": "ありそうな" },
+        { "text": "予感", "kana": "よかん" },
+        { "text": "。" }
+      ],
+      "kana": "なにかありそうなよかん",
+      "chinese": "总感觉会有什么事。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 590,
+      "chunkPattern": "何か〜予感",
+      "tags": ["display", "hedging", "premonition"]
+    },
+    {
+      "externalId": "s013",
+      "japanese": "ちょっと不安かも。",
+      "tokens": [
+        { "text": "ちょっと" },
+        { "text": "不安", "kana": "ふあん" },
+        { "text": "かも。" }
+      ],
+      "kana": "ちょっとふあんかも",
+      "chinese": "有点不安啊。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 595,
+      "chunkPattern": "ちょっと〜かも",
+      "tags": ["display", "hedging", "anxious"]
+    },
+    {
+      "externalId": "s014",
+      "japanese": "明日には届くはず。",
+      "tokens": [
+        { "text": "明日", "kana": "あした" },
+        { "text": "には" },
+        { "text": "届く", "kana": "とどく" },
+        { "text": "はず。" }
+      ],
+      "kana": "あしたにはとどくはず",
+      "chinese": "明天应该会到。",
+      "category": "progress",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 600,
+      "chunkPattern": "〜はず",
+      "tags": ["display", "hedging", "expectation"]
+    },
+    {
+      "externalId": "s015",
+      "japanese": "これが正解な気がする。",
+      "tokens": [
+        { "text": "これが" },
+        { "text": "正解", "kana": "せいかい" },
+        { "text": "な" },
+        { "text": "気", "kana": "き" },
+        { "text": "がする。" }
+      ],
+      "kana": "これがせいかいなきがする",
+      "chinese": "总觉得这个是对的。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 605,
+      "chunkPattern": "〜気がする",
+      "tags": ["display", "hedging", "intuition"]
+    },
+    {
+      "externalId": "s016",
+      "japanese": "違うかもしれないけど。",
+      "tokens": [
+        { "text": "違う", "kana": "ちがう" },
+        { "text": "かもしれないけど。" }
+      ],
+      "kana": "ちがうかもしれないけど",
+      "chinese": "可能不对,不过…",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 610,
+      "chunkPattern": "〜かもしれないけど",
+      "tags": ["display", "hedging", "disclaim"]
+    },
+    {
+      "externalId": "s017",
+      "japanese": "多分そういうこと。",
+      "tokens": [
+        { "text": "多分", "kana": "たぶん" },
+        { "text": "そういうこと。" }
+      ],
+      "kana": "たぶんそういうこと",
+      "chinese": "大概是那么回事。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 615,
+      "chunkPattern": "多分そういうこと",
+      "tags": ["display", "hedging", "conclusion"]
+    },
+    {
+      "externalId": "s018",
+      "japanese": "何となく分かった気が。",
+      "tokens": [
+        { "text": "何となく", "kana": "なんとなく" },
+        { "text": "分かった", "kana": "わかった" },
+        { "text": "気", "kana": "き" },
+        { "text": "が。" }
+      ],
+      "kana": "なんとなくわかったきが",
+      "chinese": "好像懂了。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 620,
+      "chunkPattern": "何となく〜気が",
+      "tags": ["display", "hedging", "vague-grasp"]
+    },
+    {
+      "externalId": "s019",
+      "japanese": "もしかすると、それかも。",
+      "tokens": [
+        { "text": "もしかすると、それかも。" }
+      ],
+      "kana": "もしかするとそれかも",
+      "chinese": "说不定就是那个。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 625,
+      "chunkPattern": "もしかすると、〜",
+      "tags": ["display", "hedging", "speculate"]
+    },
+    {
+      "externalId": "s020",
+      "japanese": "うまくいくはず。",
+      "tokens": [
+        { "text": "うまくいくはず。" }
+      ],
+      "kana": "うまくいくはず",
+      "chinese": "应该会顺利的。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 630,
+      "chunkPattern": "〜はず",
+      "tags": ["display", "hedging", "expectation"]
+    }
+  ],
+  "dialogues": [],
+  "passages": []
+}

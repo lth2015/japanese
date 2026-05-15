@@ -1,0 +1,364 @@
+{
+  "packVersion": 1,
+  "packId": "display-plans-aloud-001",
+  "title": "Display Plans Aloud 001",
+  "generatedBy": "claude-opus-4-7",
+  "generatedAt": "2026-05-15",
+  "targetProfile": "Display-optimized moderate-length time/plan phrases — そろそろ・今日中に・あと10分で・〜までに. 6-15 chars. Mix カジュアル + 丁寧. Surface them on Display to internalize Japanese-style temporal hedging at work.",
+  "reviewStatus": "reviewed",
+  "sentences": [
+    {
+      "externalId": "s001",
+      "japanese": "そろそろ準備しないと。",
+      "tokens": [
+        { "text": "そろそろ" },
+        { "text": "準備", "kana": "じゅんび" },
+        { "text": "しないと。" }
+      ],
+      "kana": "そろそろじゅんびしないと",
+      "chinese": "差不多该准备了。",
+      "category": "progress",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 835,
+      "chunkPattern": "そろそろ〜しないと",
+      "tags": ["display", "plans", "transition"]
+    },
+    {
+      "externalId": "s002",
+      "japanese": "今日中に終わらせよう。",
+      "tokens": [
+        { "text": "今日中", "kana": "きょうじゅう" },
+        { "text": "に" },
+        { "text": "終わらせよう", "kana": "おわらせよう" },
+        { "text": "。" }
+      ],
+      "kana": "きょうじゅうにおわらせよう",
+      "chinese": "今天之内搞定吧。",
+      "category": "progress",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 840,
+      "chunkPattern": "今日中に〜",
+      "tags": ["display", "plans", "today"]
+    },
+    {
+      "externalId": "s003",
+      "japanese": "明日までに送ります。",
+      "tokens": [
+        { "text": "明日", "kana": "あした" },
+        { "text": "までに" },
+        { "text": "送ります", "kana": "おくります" },
+        { "text": "。" }
+      ],
+      "kana": "あしたまでにおくります",
+      "chinese": "明天之前发给您。",
+      "category": "progress",
+      "register": "丁寧",
+      "difficulty": 1,
+      "frequencyRank": 845,
+      "chunkPattern": "〜までに〜ます",
+      "tags": ["display", "plans", "deadline"]
+    },
+    {
+      "externalId": "s004",
+      "japanese": "あと10分でやる。",
+      "tokens": [
+        { "text": "あと" },
+        { "text": "10" },
+        { "text": "分", "kana": "ふん" },
+        { "text": "でやる。" }
+      ],
+      "kana": "あと10ふんでやる",
+      "chinese": "再过10分钟做。",
+      "category": "progress",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 850,
+      "chunkPattern": "あと〜分で〜",
+      "tags": ["display", "plans", "soon"]
+    },
+    {
+      "externalId": "s005",
+      "japanese": "もうそろそろ行くか。",
+      "tokens": [
+        { "text": "もうそろそろ" },
+        { "text": "行く", "kana": "いく" },
+        { "text": "か。" }
+      ],
+      "kana": "もうそろそろいくか",
+      "chinese": "差不多该走了。",
+      "category": "progress",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 855,
+      "chunkPattern": "もうそろそろ〜",
+      "tags": ["display", "plans", "leaving"]
+    },
+    {
+      "externalId": "s006",
+      "japanese": "来週には片付ける。",
+      "tokens": [
+        { "text": "来週", "kana": "らいしゅう" },
+        { "text": "には" },
+        { "text": "片付ける", "kana": "かたづける" },
+        { "text": "。" }
+      ],
+      "kana": "らいしゅうにはかたづける",
+      "chinese": "下周之前搞定。",
+      "category": "progress",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 860,
+      "chunkPattern": "〜には〜",
+      "tags": ["display", "plans", "next-week"]
+    },
+    {
+      "externalId": "s007",
+      "japanese": "今やっておこう。",
+      "tokens": [
+        { "text": "今", "kana": "いま" },
+        { "text": "やっておこう。" }
+      ],
+      "kana": "いまやっておこう",
+      "chinese": "现在就做吧。",
+      "category": "progress",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 865,
+      "chunkPattern": "今〜ておこう",
+      "tags": ["display", "plans", "now"]
+    },
+    {
+      "externalId": "s008",
+      "japanese": "あとは明日でいい。",
+      "tokens": [
+        { "text": "あとは" },
+        { "text": "明日", "kana": "あした" },
+        { "text": "でいい。" }
+      ],
+      "kana": "あとはあしたでいい",
+      "chinese": "剩下的明天再说。",
+      "category": "progress",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 870,
+      "chunkPattern": "あとは〜でいい",
+      "tags": ["display", "plans", "defer"]
+    },
+    {
+      "externalId": "s009",
+      "japanese": "今日はもう帰る。",
+      "tokens": [
+        { "text": "今日", "kana": "きょう" },
+        { "text": "はもう" },
+        { "text": "帰る", "kana": "かえる" },
+        { "text": "。" }
+      ],
+      "kana": "きょうはもうかえる",
+      "chinese": "今天就回去了。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 875,
+      "chunkPattern": "今日はもう〜",
+      "tags": ["display", "plans", "leaving"]
+    },
+    {
+      "externalId": "s010",
+      "japanese": "月曜には連絡する。",
+      "tokens": [
+        { "text": "月曜", "kana": "げつよう" },
+        { "text": "には" },
+        { "text": "連絡", "kana": "れんらく" },
+        { "text": "する。" }
+      ],
+      "kana": "げつようにはれんらくする",
+      "chinese": "周一会联系。",
+      "category": "progress",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 880,
+      "chunkPattern": "〜には連絡する",
+      "tags": ["display", "plans", "weekday"]
+    },
+    {
+      "externalId": "s011",
+      "japanese": "今週中に決めよう。",
+      "tokens": [
+        { "text": "今週中", "kana": "こんしゅうじゅう" },
+        { "text": "に" },
+        { "text": "決めよう", "kana": "きめよう" },
+        { "text": "。" }
+      ],
+      "kana": "こんしゅうじゅうにきめよう",
+      "chinese": "这周之内决定吧。",
+      "category": "progress",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 885,
+      "chunkPattern": "今週中に〜",
+      "tags": ["display", "plans", "this-week"]
+    },
+    {
+      "externalId": "s012",
+      "japanese": "後ほどメールします。",
+      "tokens": [
+        { "text": "後ほど", "kana": "のちほど" },
+        { "text": "メールします。" }
+      ],
+      "kana": "のちほどめーるします",
+      "chinese": "稍后给您发邮件。",
+      "category": "progress",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 890,
+      "chunkPattern": "後ほど〜します",
+      "tags": ["display", "plans", "later"]
+    },
+    {
+      "externalId": "s013",
+      "japanese": "30分後に戻ります。",
+      "tokens": [
+        { "text": "30" },
+        { "text": "分後", "kana": "ふんご" },
+        { "text": "に" },
+        { "text": "戻ります", "kana": "もどります" },
+        { "text": "。" }
+      ],
+      "kana": "30ふんごにもどります",
+      "chinese": "30分钟后回来。",
+      "category": "progress",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 895,
+      "chunkPattern": "〜分後に戻ります",
+      "tags": ["display", "plans", "back-soon"]
+    },
+    {
+      "externalId": "s014",
+      "japanese": "もう一回チェックしよう。",
+      "tokens": [
+        { "text": "もう" },
+        { "text": "一回", "kana": "いっかい" },
+        { "text": "チェックしよう。" }
+      ],
+      "kana": "もういっかいちぇっくしよう",
+      "chinese": "再检查一遍吧。",
+      "category": "progress",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 900,
+      "chunkPattern": "もう一回〜",
+      "tags": ["display", "plans", "double-check"]
+    },
+    {
+      "externalId": "s015",
+      "japanese": "急ぎでお願いします。",
+      "tokens": [
+        { "text": "急ぎ", "kana": "いそぎ" },
+        { "text": "で" },
+        { "text": "お" },
+        { "text": "願いします", "kana": "ねがいします" },
+        { "text": "。" }
+      ],
+      "kana": "いそぎでおねがいします",
+      "chinese": "急件,拜托了。",
+      "category": "request",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 905,
+      "chunkPattern": "急ぎで〜",
+      "tags": ["display", "plans", "urgent"]
+    },
+    {
+      "externalId": "s016",
+      "japanese": "終わったら教えて。",
+      "tokens": [
+        { "text": "終わったら", "kana": "おわったら" },
+        { "text": "教えて", "kana": "おしえて" },
+        { "text": "。" }
+      ],
+      "kana": "おわったらおしえて",
+      "chinese": "完成了告诉我。",
+      "category": "request",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 910,
+      "chunkPattern": "〜たら教えて",
+      "tags": ["display", "plans", "follow-up"]
+    },
+    {
+      "externalId": "s017",
+      "japanese": "ちょっと後でやる。",
+      "tokens": [
+        { "text": "ちょっと" },
+        { "text": "後", "kana": "あと" },
+        { "text": "でやる。" }
+      ],
+      "kana": "ちょっとあとでやる",
+      "chinese": "待会儿再做。",
+      "category": "progress",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 915,
+      "chunkPattern": "ちょっと後で〜",
+      "tags": ["display", "plans", "later"]
+    },
+    {
+      "externalId": "s018",
+      "japanese": "早めに連絡します。",
+      "tokens": [
+        { "text": "早め", "kana": "はやめ" },
+        { "text": "に" },
+        { "text": "連絡", "kana": "れんらく" },
+        { "text": "します。" }
+      ],
+      "kana": "はやめにれんらくします",
+      "chinese": "我会早点联系。",
+      "category": "progress",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 920,
+      "chunkPattern": "早めに〜",
+      "tags": ["display", "plans", "proactive"]
+    },
+    {
+      "externalId": "s019",
+      "japanese": "今夜中に返事する。",
+      "tokens": [
+        { "text": "今夜中", "kana": "こんやじゅう" },
+        { "text": "に" },
+        { "text": "返事", "kana": "へんじ" },
+        { "text": "する。" }
+      ],
+      "kana": "こんやじゅうにへんじする",
+      "chinese": "今晚之前回复。",
+      "category": "progress",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 925,
+      "chunkPattern": "今夜中に〜",
+      "tags": ["display", "plans", "tonight"]
+    },
+    {
+      "externalId": "s020",
+      "japanese": "一旦保留にしよう。",
+      "tokens": [
+        { "text": "一旦", "kana": "いったん" },
+        { "text": "保留", "kana": "ほりゅう" },
+        { "text": "にしよう。" }
+      ],
+      "kana": "いったんほりゅうにしよう",
+      "chinese": "先搁置吧。",
+      "category": "progress",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 930,
+      "chunkPattern": "一旦〜にしよう",
+      "tags": ["display", "plans", "pause"]
+    }
+  ],
+  "dialogues": [],
+  "passages": []
+}

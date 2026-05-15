@@ -1,0 +1,354 @@
+{
+  "packVersion": 1,
+  "packId": "display-storytelling-glue-001",
+  "title": "Display Storytelling Glue 001",
+  "generatedBy": "claude-opus-4-7",
+  "generatedAt": "2026-05-15",
+  "targetProfile": "Display-optimized moderate-length narrative connectors — それで・そしたら・ところが・結局. 5-13 chars. Mostly カジュアル. The connective tissue that turns observations into actual stories.",
+  "reviewStatus": "reviewed",
+  "sentences": [
+    {
+      "externalId": "s001",
+      "japanese": "それで、どうなった？",
+      "tokens": [
+        { "text": "それで、どうなった？" }
+      ],
+      "kana": "それでどうなった",
+      "chinese": "然后呢,怎么样了？",
+      "category": "request",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 181,
+      "chunkPattern": "それで、〜",
+      "tags": ["display", "storytelling", "and-then"]
+    },
+    {
+      "externalId": "s002",
+      "japanese": "そしたら、彼が来た。",
+      "tokens": [
+        { "text": "そしたら、" },
+        { "text": "彼", "kana": "かれ" },
+        { "text": "が" },
+        { "text": "来た", "kana": "きた" },
+        { "text": "。" }
+      ],
+      "kana": "そしたらかれがきた",
+      "chinese": "然后他就来了。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 182,
+      "chunkPattern": "そしたら、〜",
+      "tags": ["display", "storytelling", "then"]
+    },
+    {
+      "externalId": "s003",
+      "japanese": "ところが、違った。",
+      "tokens": [
+        { "text": "ところが、" },
+        { "text": "違った", "kana": "ちがった" },
+        { "text": "。" }
+      ],
+      "kana": "ところがちがった",
+      "chinese": "没想到,不对。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 183,
+      "chunkPattern": "ところが、〜",
+      "tags": ["display", "storytelling", "however"]
+    },
+    {
+      "externalId": "s004",
+      "japanese": "それから、急いだ。",
+      "tokens": [
+        { "text": "それから、" },
+        { "text": "急いだ", "kana": "いそいだ" },
+        { "text": "。" }
+      ],
+      "kana": "それからいそいだ",
+      "chinese": "之后我赶忙。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 184,
+      "chunkPattern": "それから、〜",
+      "tags": ["display", "storytelling", "after-that"]
+    },
+    {
+      "externalId": "s005",
+      "japanese": "ちなみに、もう一個ある。",
+      "tokens": [
+        { "text": "ちなみに、もう" },
+        { "text": "一個", "kana": "いっこ" },
+        { "text": "ある。" }
+      ],
+      "kana": "ちなみにもういっこある",
+      "chinese": "顺便,还有一个。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 185,
+      "chunkPattern": "ちなみに、〜",
+      "tags": ["display", "storytelling", "by-the-way"]
+    },
+    {
+      "externalId": "s006",
+      "japanese": "その結果、こうなった。",
+      "tokens": [
+        { "text": "その" },
+        { "text": "結果", "kana": "けっか" },
+        { "text": "、こうなった。" }
+      ],
+      "kana": "そのけっかこうなった",
+      "chinese": "结果,变成这样。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 186,
+      "chunkPattern": "その結果、〜",
+      "tags": ["display", "storytelling", "result"]
+    },
+    {
+      "externalId": "s007",
+      "japanese": "ま、いいかと思って。",
+      "tokens": [
+        { "text": "ま、いいかと" },
+        { "text": "思って", "kana": "おもって" },
+        { "text": "。" }
+      ],
+      "kana": "まいいかとおもって",
+      "chinese": "心想算了。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 187,
+      "chunkPattern": "ま、〜と思って",
+      "tags": ["display", "storytelling", "letting-go"]
+    },
+    {
+      "externalId": "s008",
+      "japanese": "でも、それが意外だった。",
+      "tokens": [
+        { "text": "でも、それが" },
+        { "text": "意外", "kana": "いがい" },
+        { "text": "だった。" }
+      ],
+      "kana": "でもそれがいがいだった",
+      "chinese": "不过那个挺意外的。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 188,
+      "chunkPattern": "でも、〜",
+      "tags": ["display", "storytelling", "but"]
+    },
+    {
+      "externalId": "s009",
+      "japanese": "というわけで、終わり。",
+      "tokens": [
+        { "text": "というわけで、" },
+        { "text": "終わり", "kana": "おわり" },
+        { "text": "。" }
+      ],
+      "kana": "というわけでおわり",
+      "chinese": "总之就这样,完了。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 189,
+      "chunkPattern": "というわけで、〜",
+      "tags": ["display", "storytelling", "wrap-up"]
+    },
+    {
+      "externalId": "s010",
+      "japanese": "なんていうか、難しい。",
+      "tokens": [
+        { "text": "なんていうか、" },
+        { "text": "難しい", "kana": "むずかしい" },
+        { "text": "。" }
+      ],
+      "kana": "なんていうかむずかしい",
+      "chinese": "怎么说呢,难。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 190,
+      "chunkPattern": "なんていうか、〜",
+      "tags": ["display", "storytelling", "how-to-put-it"]
+    },
+    {
+      "externalId": "s011",
+      "japanese": "それはそれとして。",
+      "tokens": [
+        { "text": "それはそれとして。" }
+      ],
+      "kana": "それはそれとして",
+      "chinese": "那个就那样吧。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 191,
+      "chunkPattern": "それはそれとして",
+      "tags": ["display", "storytelling", "moving-on"]
+    },
+    {
+      "externalId": "s012",
+      "japanese": "話変わるけど。",
+      "tokens": [
+        { "text": "話", "kana": "はなし" },
+        { "text": "変わる", "kana": "かわる" },
+        { "text": "けど。" }
+      ],
+      "kana": "はなしかわるけど",
+      "chinese": "换个话题。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 192,
+      "chunkPattern": "話変わるけど",
+      "tags": ["display", "storytelling", "topic-change"]
+    },
+    {
+      "externalId": "s013",
+      "japanese": "ともかく、続けよう。",
+      "tokens": [
+        { "text": "ともかく、" },
+        { "text": "続けよう", "kana": "つづけよう" },
+        { "text": "。" }
+      ],
+      "kana": "ともかくつづけよう",
+      "chinese": "不管怎样,继续。",
+      "category": "progress",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 193,
+      "chunkPattern": "ともかく、〜",
+      "tags": ["display", "storytelling", "anyway"]
+    },
+    {
+      "externalId": "s014",
+      "japanese": "結局、こうなった。",
+      "tokens": [
+        { "text": "結局", "kana": "けっきょく" },
+        { "text": "、こうなった。" }
+      ],
+      "kana": "けっきょくこうなった",
+      "chinese": "结果就这样。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 194,
+      "chunkPattern": "結局、〜",
+      "tags": ["display", "storytelling", "in-the-end"]
+    },
+    {
+      "externalId": "s015",
+      "japanese": "何ていうか、複雑。",
+      "tokens": [
+        { "text": "何", "kana": "なん" },
+        { "text": "ていうか、" },
+        { "text": "複雑", "kana": "ふくざつ" },
+        { "text": "。" }
+      ],
+      "kana": "なんていうかふくざつ",
+      "chinese": "怎么说,挺复杂。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 195,
+      "chunkPattern": "何ていうか、〜",
+      "tags": ["display", "storytelling", "complex"]
+    },
+    {
+      "externalId": "s016",
+      "japanese": "やっと話が見えた。",
+      "tokens": [
+        { "text": "やっと" },
+        { "text": "話", "kana": "はなし" },
+        { "text": "が" },
+        { "text": "見えた", "kana": "みえた" },
+        { "text": "。" }
+      ],
+      "kana": "やっとはなしがみえた",
+      "chinese": "终于明白怎么回事了。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 196,
+      "chunkPattern": "やっと〜見えた",
+      "tags": ["display", "storytelling", "got-it"]
+    },
+    {
+      "externalId": "s017",
+      "japanese": "もう一個言うと。",
+      "tokens": [
+        { "text": "もう" },
+        { "text": "一個", "kana": "いっこ" },
+        { "text": "言う", "kana": "いう" },
+        { "text": "と。" }
+      ],
+      "kana": "もういっこいうと",
+      "chinese": "再说一个。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 197,
+      "chunkPattern": "もう一個〜",
+      "tags": ["display", "storytelling", "one-more"]
+    },
+    {
+      "externalId": "s018",
+      "japanese": "それはさておき。",
+      "tokens": [
+        { "text": "それはさておき。" }
+      ],
+      "kana": "それはさておき",
+      "chinese": "那个先放一边。",
+      "category": "smalltalk",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 198,
+      "chunkPattern": "それはさておき",
+      "tags": ["display", "storytelling", "set-aside"]
+    },
+    {
+      "externalId": "s019",
+      "japanese": "簡単に言えば。",
+      "tokens": [
+        { "text": "簡単", "kana": "かんたん" },
+        { "text": "に" },
+        { "text": "言えば", "kana": "いえば" },
+        { "text": "。" }
+      ],
+      "kana": "かんたんにいえば",
+      "chinese": "简单说就是。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 199,
+      "chunkPattern": "簡単に言えば",
+      "tags": ["display", "storytelling", "in-short"]
+    },
+    {
+      "externalId": "s020",
+      "japanese": "一言で言うと。",
+      "tokens": [
+        { "text": "一言", "kana": "ひとこと" },
+        { "text": "で" },
+        { "text": "言う", "kana": "いう" },
+        { "text": "と。" }
+      ],
+      "kana": "ひとことでいうと",
+      "chinese": "一句话说。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 200,
+      "chunkPattern": "一言で言うと",
+      "tags": ["display", "storytelling", "in-a-word"]
+    }
+  ],
+  "dialogues": [],
+  "passages": []
+}

@@ -1,0 +1,348 @@
+{
+  "packVersion": 1,
+  "packId": "display-health-tiny-001",
+  "title": "Display Tiny Health Complaints 001",
+  "generatedBy": "claude-opus-4-7",
+  "generatedAt": "2026-05-15",
+  "targetProfile": "Display-optimized moderate-length minor-ailment phrases — small body complaints that come up daily. 4-13 chars. Mostly カジュアル. Different from body-feelings (more about emotional fatigue): these are concrete physical complaints.",
+  "reviewStatus": "reviewed",
+  "sentences": [
+    {
+      "externalId": "s001",
+      "japanese": "お腹痛い。",
+      "tokens": [
+        { "text": "お腹", "kana": "おなか" },
+        { "text": "痛い", "kana": "いたい" },
+        { "text": "。" }
+      ],
+      "kana": "おなかいたい",
+      "chinese": "肚子疼。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 161,
+      "chunkPattern": "〜痛い",
+      "tags": ["display", "health", "stomach"]
+    },
+    {
+      "externalId": "s002",
+      "japanese": "頭が重い。",
+      "tokens": [
+        { "text": "頭", "kana": "あたま" },
+        { "text": "が" },
+        { "text": "重い", "kana": "おもい" },
+        { "text": "。" }
+      ],
+      "kana": "あたまがおもい",
+      "chinese": "头沉。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 162,
+      "chunkPattern": "〜が重い",
+      "tags": ["display", "health", "head"]
+    },
+    {
+      "externalId": "s003",
+      "japanese": "喉痛くなってきた。",
+      "tokens": [
+        { "text": "喉", "kana": "のど" },
+        { "text": "痛く", "kana": "いたく" },
+        { "text": "なってきた。" }
+      ],
+      "kana": "のどいたくなってきた",
+      "chinese": "嗓子开始痛了。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 163,
+      "chunkPattern": "〜痛くなってきた",
+      "tags": ["display", "health", "throat"]
+    },
+    {
+      "externalId": "s004",
+      "japanese": "風邪ひいたかも。",
+      "tokens": [
+        { "text": "風邪", "kana": "かぜ" },
+        { "text": "ひいたかも。" }
+      ],
+      "kana": "かぜひいたかも",
+      "chinese": "可能感冒了。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 164,
+      "chunkPattern": "風邪〜かも",
+      "tags": ["display", "health", "cold"]
+    },
+    {
+      "externalId": "s005",
+      "japanese": "鼻水止まらない。",
+      "tokens": [
+        { "text": "鼻水", "kana": "はなみず" },
+        { "text": "止まらない", "kana": "とまらない" },
+        { "text": "。" }
+      ],
+      "kana": "はなみずとまらない",
+      "chinese": "流鼻涕停不下。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 165,
+      "chunkPattern": "〜止まらない",
+      "tags": ["display", "health", "runny-nose"]
+    },
+    {
+      "externalId": "s006",
+      "japanese": "目がショボショボ。",
+      "tokens": [
+        { "text": "目", "kana": "め" },
+        { "text": "がショボショボ。" }
+      ],
+      "kana": "めがしょぼしょぼ",
+      "chinese": "眼睛涩涩的。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 166,
+      "chunkPattern": "目が〜",
+      "tags": ["display", "health", "eyes"]
+    },
+    {
+      "externalId": "s007",
+      "japanese": "肩こりがひどい。",
+      "tokens": [
+        { "text": "肩こり", "kana": "かたこり" },
+        { "text": "がひどい。" }
+      ],
+      "kana": "かたこりがひどい",
+      "chinese": "肩膀僵硬得厉害。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 167,
+      "chunkPattern": "〜がひどい",
+      "tags": ["display", "health", "shoulder"]
+    },
+    {
+      "externalId": "s008",
+      "japanese": "なんか体だるい。",
+      "tokens": [
+        { "text": "なんか" },
+        { "text": "体", "kana": "からだ" },
+        { "text": "だるい。" }
+      ],
+      "kana": "なんかからだだるい",
+      "chinese": "总觉得身体没劲。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 168,
+      "chunkPattern": "なんか〜だるい",
+      "tags": ["display", "health", "sluggish"]
+    },
+    {
+      "externalId": "s009",
+      "japanese": "熱がありそう。",
+      "tokens": [
+        { "text": "熱", "kana": "ねつ" },
+        { "text": "がありそう。" }
+      ],
+      "kana": "ねつがありそう",
+      "chinese": "好像有点烧。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 169,
+      "chunkPattern": "〜がありそう",
+      "tags": ["display", "health", "fever"]
+    },
+    {
+      "externalId": "s010",
+      "japanese": "病院行った方がいい？",
+      "tokens": [
+        { "text": "病院", "kana": "びょういん" },
+        { "text": "行った", "kana": "いった" },
+        { "text": "方", "kana": "ほう" },
+        { "text": "がいい？" }
+      ],
+      "kana": "びょういんいったほうがいい",
+      "chinese": "要不要去医院？",
+      "category": "request",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 170,
+      "chunkPattern": "〜行った方がいい",
+      "tags": ["display", "health", "hospital"]
+    },
+    {
+      "externalId": "s011",
+      "japanese": "薬飲んで寝る。",
+      "tokens": [
+        { "text": "薬", "kana": "くすり" },
+        { "text": "飲んで", "kana": "のんで" },
+        { "text": "寝る", "kana": "ねる" },
+        { "text": "。" }
+      ],
+      "kana": "くすりのんでねる",
+      "chinese": "吃药睡觉。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 171,
+      "chunkPattern": "〜飲んで〜",
+      "tags": ["display", "health", "medicine"]
+    },
+    {
+      "externalId": "s012",
+      "japanese": "足が痛いんだ。",
+      "tokens": [
+        { "text": "足", "kana": "あし" },
+        { "text": "が" },
+        { "text": "痛い", "kana": "いたい" },
+        { "text": "んだ。" }
+      ],
+      "kana": "あしがいたいんだ",
+      "chinese": "腿疼。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 172,
+      "chunkPattern": "〜が痛い",
+      "tags": ["display", "health", "leg"]
+    },
+    {
+      "externalId": "s013",
+      "japanese": "腰がきつい。",
+      "tokens": [
+        { "text": "腰", "kana": "こし" },
+        { "text": "がきつい。" }
+      ],
+      "kana": "こしがきつい",
+      "chinese": "腰难受。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 173,
+      "chunkPattern": "〜がきつい",
+      "tags": ["display", "health", "back"]
+    },
+    {
+      "externalId": "s014",
+      "japanese": "目薬さそう。",
+      "tokens": [
+        { "text": "目薬", "kana": "めぐすり" },
+        { "text": "さそう。" }
+      ],
+      "kana": "めぐすりさそう",
+      "chinese": "滴个眼药水吧。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 174,
+      "chunkPattern": "目薬〜",
+      "tags": ["display", "health", "eyedrops"]
+    },
+    {
+      "externalId": "s015",
+      "japanese": "水分とらないと。",
+      "tokens": [
+        { "text": "水分", "kana": "すいぶん" },
+        { "text": "とらないと。" }
+      ],
+      "kana": "すいぶんとらないと",
+      "chinese": "得补水。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 175,
+      "chunkPattern": "水分〜",
+      "tags": ["display", "health", "hydrate"]
+    },
+    {
+      "externalId": "s016",
+      "japanese": "ちょっと寒気がする。",
+      "tokens": [
+        { "text": "ちょっと" },
+        { "text": "寒気", "kana": "さむけ" },
+        { "text": "がする。" }
+      ],
+      "kana": "ちょっとさむけがする",
+      "chinese": "有点发冷。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 176,
+      "chunkPattern": "ちょっと〜がする",
+      "tags": ["display", "health", "chills"]
+    },
+    {
+      "externalId": "s017",
+      "japanese": "咳が止まらない。",
+      "tokens": [
+        { "text": "咳", "kana": "せき" },
+        { "text": "が" },
+        { "text": "止まらない", "kana": "とまらない" },
+        { "text": "。" }
+      ],
+      "kana": "せきがとまらない",
+      "chinese": "咳嗽停不下。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 177,
+      "chunkPattern": "〜が止まらない",
+      "tags": ["display", "health", "cough"]
+    },
+    {
+      "externalId": "s018",
+      "japanese": "食欲ない。",
+      "tokens": [
+        { "text": "食欲", "kana": "しょくよく" },
+        { "text": "ない。" }
+      ],
+      "kana": "しょくよくない",
+      "chinese": "没食欲。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 178,
+      "chunkPattern": "食欲〜",
+      "tags": ["display", "health", "appetite"]
+    },
+    {
+      "externalId": "s019",
+      "japanese": "ちょっと吐き気が。",
+      "tokens": [
+        { "text": "ちょっと" },
+        { "text": "吐き気", "kana": "はきけ" },
+        { "text": "が。" }
+      ],
+      "kana": "ちょっとはきけが",
+      "chinese": "有点想吐。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 179,
+      "chunkPattern": "ちょっと〜が",
+      "tags": ["display", "health", "nausea"]
+    },
+    {
+      "externalId": "s020",
+      "japanese": "ストレッチしよう。",
+      "tokens": [
+        { "text": "ストレッチしよう。" }
+      ],
+      "kana": "すとれっちしよう",
+      "chinese": "拉伸一下吧。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 180,
+      "chunkPattern": "〜しよう",
+      "tags": ["display", "health", "stretch"]
+    }
+  ],
+  "dialogues": [],
+  "passages": []
+}

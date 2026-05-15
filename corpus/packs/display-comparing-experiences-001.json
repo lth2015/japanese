@@ -1,0 +1,377 @@
+{
+  "packVersion": 1,
+  "packId": "display-comparing-experiences-001",
+  "title": "Display Comparing Experiences 001",
+  "generatedBy": "claude-opus-4-7",
+  "generatedAt": "2026-05-15",
+  "targetProfile": "Display-optimized moderate-length comparison phrases — past vs. present, before vs. after, then vs. now. 6-14 chars. Mostly カジュアル. Useful for naming change, growth, and patterns in daily speech.",
+  "reviewStatus": "reviewed",
+  "sentences": [
+    {
+      "externalId": "s001",
+      "japanese": "昔と全然違う。",
+      "tokens": [
+        { "text": "昔", "kana": "むかし" },
+        { "text": "と" },
+        { "text": "全然", "kana": "ぜんぜん" },
+        { "text": "違う", "kana": "ちがう" },
+        { "text": "。" }
+      ],
+      "kana": "むかしとぜんぜんちがう",
+      "chinese": "跟以前完全不一样。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 61,
+      "chunkPattern": "昔と〜違う",
+      "tags": ["display", "compare", "changed"]
+    },
+    {
+      "externalId": "s002",
+      "japanese": "前のがよかったな。",
+      "tokens": [
+        { "text": "前", "kana": "まえ" },
+        { "text": "のがよかったな。" }
+      ],
+      "kana": "まえのがよかったな",
+      "chinese": "之前的更好啊。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 62,
+      "chunkPattern": "前のが〜",
+      "tags": ["display", "compare", "preferred-before"]
+    },
+    {
+      "externalId": "s003",
+      "japanese": "昔はこんなじゃなかった。",
+      "tokens": [
+        { "text": "昔", "kana": "むかし" },
+        { "text": "はこんなじゃなかった。" }
+      ],
+      "kana": "むかしはこんなじゃなかった",
+      "chinese": "以前不是这样的。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 63,
+      "chunkPattern": "昔は〜なかった",
+      "tags": ["display", "compare", "back-then"]
+    },
+    {
+      "externalId": "s004",
+      "japanese": "今の方が楽だね。",
+      "tokens": [
+        { "text": "今", "kana": "いま" },
+        { "text": "の" },
+        { "text": "方", "kana": "ほう" },
+        { "text": "が" },
+        { "text": "楽", "kana": "らく" },
+        { "text": "だね。" }
+      ],
+      "kana": "いまのほうがらくだね",
+      "chinese": "现在反而轻松。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 64,
+      "chunkPattern": "今の方が〜",
+      "tags": ["display", "compare", "now-better"]
+    },
+    {
+      "externalId": "s005",
+      "japanese": "前と比べると進歩。",
+      "tokens": [
+        { "text": "前", "kana": "まえ" },
+        { "text": "と" },
+        { "text": "比べる", "kana": "くらべる" },
+        { "text": "と" },
+        { "text": "進歩", "kana": "しんぽ" },
+        { "text": "。" }
+      ],
+      "kana": "まえとくらべるとしんぽ",
+      "chinese": "跟以前比有进步。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 65,
+      "chunkPattern": "前と比べると〜",
+      "tags": ["display", "compare", "progress"]
+    },
+    {
+      "externalId": "s006",
+      "japanese": "これ前にもあったよね。",
+      "tokens": [
+        { "text": "これ" },
+        { "text": "前", "kana": "まえ" },
+        { "text": "にもあったよね。" }
+      ],
+      "kana": "これまえにもあったよね",
+      "chinese": "这个以前也有过吧。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 66,
+      "chunkPattern": "〜前にも〜よね",
+      "tags": ["display", "compare", "happened-before"]
+    },
+    {
+      "externalId": "s007",
+      "japanese": "思い出すと懐かしい。",
+      "tokens": [
+        { "text": "思い出す", "kana": "おもいだす" },
+        { "text": "と" },
+        { "text": "懐かしい", "kana": "なつかしい" },
+        { "text": "。" }
+      ],
+      "kana": "おもいだすとなつかしい",
+      "chinese": "想起来真怀念。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 67,
+      "chunkPattern": "思い出すと〜",
+      "tags": ["display", "compare", "nostalgia"]
+    },
+    {
+      "externalId": "s008",
+      "japanese": "当時はわからなかった。",
+      "tokens": [
+        { "text": "当時", "kana": "とうじ" },
+        { "text": "はわからなかった。" }
+      ],
+      "kana": "とうじはわからなかった",
+      "chinese": "那时候不懂。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 68,
+      "chunkPattern": "当時は〜なかった",
+      "tags": ["display", "compare", "didnt-know"]
+    },
+    {
+      "externalId": "s009",
+      "japanese": "同じパターンだ。",
+      "tokens": [
+        { "text": "同じ", "kana": "おなじ" },
+        { "text": "パターンだ。" }
+      ],
+      "kana": "おなじぱたーんだ",
+      "chinese": "同样的模式。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 69,
+      "chunkPattern": "同じ〜",
+      "tags": ["display", "compare", "pattern"]
+    },
+    {
+      "externalId": "s010",
+      "japanese": "違うアプローチ試そう。",
+      "tokens": [
+        { "text": "違う", "kana": "ちがう" },
+        { "text": "アプローチ" },
+        { "text": "試そう", "kana": "ためそう" },
+        { "text": "。" }
+      ],
+      "kana": "ちがうあぷろーちためそう",
+      "chinese": "试试不同的方法。",
+      "category": "progress",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 70,
+      "chunkPattern": "違う〜試そう",
+      "tags": ["display", "compare", "new-approach"]
+    },
+    {
+      "externalId": "s011",
+      "japanese": "以前のが好きだった。",
+      "tokens": [
+        { "text": "以前", "kana": "いぜん" },
+        { "text": "のが" },
+        { "text": "好き", "kana": "すき" },
+        { "text": "だった。" }
+      ],
+      "kana": "いぜんのがすきだった",
+      "chinese": "我喜欢以前的。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 71,
+      "chunkPattern": "以前のが〜",
+      "tags": ["display", "compare", "missed-old"]
+    },
+    {
+      "externalId": "s012",
+      "japanese": "進化してるね。",
+      "tokens": [
+        { "text": "進化", "kana": "しんか" },
+        { "text": "してるね。" }
+      ],
+      "kana": "しんかしてるね",
+      "chinese": "在进化呢。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 72,
+      "chunkPattern": "〜してるね",
+      "tags": ["display", "compare", "evolving"]
+    },
+    {
+      "externalId": "s013",
+      "japanese": "子供の頃を思い出す。",
+      "tokens": [
+        { "text": "子供", "kana": "こども" },
+        { "text": "の" },
+        { "text": "頃", "kana": "ころ" },
+        { "text": "を" },
+        { "text": "思い出す", "kana": "おもいだす" },
+        { "text": "。" }
+      ],
+      "kana": "こどものころをおもいだす",
+      "chinese": "想起小时候。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 73,
+      "chunkPattern": "〜頃を思い出す",
+      "tags": ["display", "compare", "childhood"]
+    },
+    {
+      "externalId": "s014",
+      "japanese": "あの頃は若かった。",
+      "tokens": [
+        { "text": "あの" },
+        { "text": "頃", "kana": "ころ" },
+        { "text": "は" },
+        { "text": "若かった", "kana": "わかかった" },
+        { "text": "。" }
+      ],
+      "kana": "あのころはわかかった",
+      "chinese": "那时候年轻。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 74,
+      "chunkPattern": "あの頃は〜",
+      "tags": ["display", "compare", "younger-then"]
+    },
+    {
+      "externalId": "s015",
+      "japanese": "前と同じ間違い。",
+      "tokens": [
+        { "text": "前", "kana": "まえ" },
+        { "text": "と" },
+        { "text": "同じ", "kana": "おなじ" },
+        { "text": "間違い", "kana": "まちがい" },
+        { "text": "。" }
+      ],
+      "kana": "まえとおなじまちがい",
+      "chinese": "跟之前同样的错误。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 75,
+      "chunkPattern": "前と同じ〜",
+      "tags": ["display", "compare", "same-mistake"]
+    },
+    {
+      "externalId": "s016",
+      "japanese": "今の方が成長した。",
+      "tokens": [
+        { "text": "今", "kana": "いま" },
+        { "text": "の" },
+        { "text": "方", "kana": "ほう" },
+        { "text": "が" },
+        { "text": "成長", "kana": "せいちょう" },
+        { "text": "した。" }
+      ],
+      "kana": "いまのほうがせいちょうした",
+      "chinese": "现在比之前成长了。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 76,
+      "chunkPattern": "今の方が〜",
+      "tags": ["display", "compare", "grown"]
+    },
+    {
+      "externalId": "s017",
+      "japanese": "比較しても意味ない。",
+      "tokens": [
+        { "text": "比較", "kana": "ひかく" },
+        { "text": "しても" },
+        { "text": "意味", "kana": "いみ" },
+        { "text": "ない。" }
+      ],
+      "kana": "ひかくしてもいみない",
+      "chinese": "比较也没意义。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 77,
+      "chunkPattern": "〜しても意味ない",
+      "tags": ["display", "compare", "pointless"]
+    },
+    {
+      "externalId": "s018",
+      "japanese": "例の件と同じだ。",
+      "tokens": [
+        { "text": "例", "kana": "れい" },
+        { "text": "の" },
+        { "text": "件", "kana": "けん" },
+        { "text": "と" },
+        { "text": "同じ", "kana": "おなじ" },
+        { "text": "だ。" }
+      ],
+      "kana": "れいのけんとおなじだ",
+      "chinese": "跟那件事一样。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 78,
+      "chunkPattern": "例の〜と同じ",
+      "tags": ["display", "compare", "same-case"]
+    },
+    {
+      "externalId": "s019",
+      "japanese": "進化を感じる。",
+      "tokens": [
+        { "text": "進化", "kana": "しんか" },
+        { "text": "を" },
+        { "text": "感じる", "kana": "かんじる" },
+        { "text": "。" }
+      ],
+      "kana": "しんかをかんじる",
+      "chinese": "能感觉到进化。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 79,
+      "chunkPattern": "〜を感じる",
+      "tags": ["display", "compare", "feel-change"]
+    },
+    {
+      "externalId": "s020",
+      "japanese": "昔の自分に教えたい。",
+      "tokens": [
+        { "text": "昔", "kana": "むかし" },
+        { "text": "の" },
+        { "text": "自分", "kana": "じぶん" },
+        { "text": "に" },
+        { "text": "教えたい", "kana": "おしえたい" },
+        { "text": "。" }
+      ],
+      "kana": "むかしのじぶんにおしえたい",
+      "chinese": "想告诉以前的自己。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 80,
+      "chunkPattern": "昔の自分に〜",
+      "tags": ["display", "compare", "tell-younger-self"]
+    }
+  ],
+  "dialogues": [],
+  "passages": []
+}

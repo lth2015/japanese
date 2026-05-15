@@ -1,0 +1,381 @@
+{
+  "packVersion": 1,
+  "packId": "display-mini-stories-001",
+  "title": "Display Mini Stories 001",
+  "generatedBy": "claude-opus-4-7",
+  "generatedAt": "2026-05-15",
+  "targetProfile": "Display-optimized moderate-length micro-narration phrases — the kind that opens a short anecdote in casual conversation. 8-16 chars. Mostly カジュアル. Critical because Japanese small talk leans on these story-openers.",
+  "reviewStatus": "reviewed",
+  "sentences": [
+    {
+      "externalId": "s001",
+      "japanese": "昨日、面白い人に会った。",
+      "tokens": [
+        { "text": "昨日", "kana": "きのう" },
+        { "text": "、" },
+        { "text": "面白い", "kana": "おもしろい" },
+        { "text": "人", "kana": "ひと" },
+        { "text": "に" },
+        { "text": "会った", "kana": "あった" },
+        { "text": "。" }
+      ],
+      "kana": "きのうおもしろいひとにあった",
+      "chinese": "昨天遇到了个有意思的人。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 550,
+      "chunkPattern": "昨日、〜に会った",
+      "tags": ["display", "mini-story", "encounter"]
+    },
+    {
+      "externalId": "s002",
+      "japanese": "そういえば、変なメール来た。",
+      "tokens": [
+        { "text": "そういえば、" },
+        { "text": "変な", "kana": "へんな" },
+        { "text": "メール" },
+        { "text": "来た", "kana": "きた" },
+        { "text": "。" }
+      ],
+      "kana": "そういえばへんなめーるきた",
+      "chinese": "对了,收到了封奇怪的邮件。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 555,
+      "chunkPattern": "そういえば、〜",
+      "tags": ["display", "mini-story", "bring-up"]
+    },
+    {
+      "externalId": "s003",
+      "japanese": "この前、転びそうになった。",
+      "tokens": [
+        { "text": "この" },
+        { "text": "前", "kana": "まえ" },
+        { "text": "、" },
+        { "text": "転びそう", "kana": "ころびそう" },
+        { "text": "になった。" }
+      ],
+      "kana": "このまえころびそうになった",
+      "chinese": "前几天差点摔倒。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 560,
+      "chunkPattern": "この前、〜",
+      "tags": ["display", "mini-story", "near-miss"]
+    },
+    {
+      "externalId": "s004",
+      "japanese": "さっき、面白いの見た。",
+      "tokens": [
+        { "text": "さっき、" },
+        { "text": "面白い", "kana": "おもしろい" },
+        { "text": "の" },
+        { "text": "見た", "kana": "みた" },
+        { "text": "。" }
+      ],
+      "kana": "さっきおもしろいのみた",
+      "chinese": "刚才看到一个有意思的东西。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 565,
+      "chunkPattern": "さっき、〜",
+      "tags": ["display", "mini-story", "just-now"]
+    },
+    {
+      "externalId": "s005",
+      "japanese": "今日電車で寝てた。",
+      "tokens": [
+        { "text": "今日", "kana": "きょう" },
+        { "text": "電車", "kana": "でんしゃ" },
+        { "text": "で" },
+        { "text": "寝てた", "kana": "ねてた" },
+        { "text": "。" }
+      ],
+      "kana": "きょうでんしゃでねてた",
+      "chinese": "今天在电车上睡着了。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 570,
+      "chunkPattern": "今日〜で〜てた",
+      "tags": ["display", "mini-story", "commute"]
+    },
+    {
+      "externalId": "s006",
+      "japanese": "道で偶然出会った。",
+      "tokens": [
+        { "text": "道", "kana": "みち" },
+        { "text": "で" },
+        { "text": "偶然", "kana": "ぐうぜん" },
+        { "text": "出会った", "kana": "であった" },
+        { "text": "。" }
+      ],
+      "kana": "みちでぐうぜんであった",
+      "chinese": "在路上偶遇了。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 575,
+      "chunkPattern": "〜で偶然〜",
+      "tags": ["display", "mini-story", "coincidence"]
+    },
+    {
+      "externalId": "s007",
+      "japanese": "朝コーヒーこぼした。",
+      "tokens": [
+        { "text": "朝", "kana": "あさ" },
+        { "text": "コーヒー" },
+        { "text": "こぼした。" }
+      ],
+      "kana": "あさこーひーこぼした",
+      "chinese": "早上把咖啡洒了。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 580,
+      "chunkPattern": "朝〜こぼした",
+      "tags": ["display", "mini-story", "morning"]
+    },
+    {
+      "externalId": "s008",
+      "japanese": "帰りに本買った。",
+      "tokens": [
+        { "text": "帰り", "kana": "かえり" },
+        { "text": "に" },
+        { "text": "本", "kana": "ほん" },
+        { "text": "買った", "kana": "かった" },
+        { "text": "。" }
+      ],
+      "kana": "かえりにほんかった",
+      "chinese": "回来路上买了本书。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 585,
+      "chunkPattern": "帰りに〜",
+      "tags": ["display", "mini-story", "on-the-way"]
+    },
+    {
+      "externalId": "s009",
+      "japanese": "なんか変な夢見た。",
+      "tokens": [
+        { "text": "なんか" },
+        { "text": "変な", "kana": "へんな" },
+        { "text": "夢", "kana": "ゆめ" },
+        { "text": "見た", "kana": "みた" },
+        { "text": "。" }
+      ],
+      "kana": "なんかへんなゆめみた",
+      "chinese": "做了个奇怪的梦。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 590,
+      "chunkPattern": "なんか〜夢見た",
+      "tags": ["display", "mini-story", "dream"]
+    },
+    {
+      "externalId": "s010",
+      "japanese": "道に迷っちゃった。",
+      "tokens": [
+        { "text": "道", "kana": "みち" },
+        { "text": "に" },
+        { "text": "迷っちゃった", "kana": "まよっちゃった" },
+        { "text": "。" }
+      ],
+      "kana": "みちにまよっちゃった",
+      "chinese": "迷路了。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 595,
+      "chunkPattern": "〜に迷っちゃった",
+      "tags": ["display", "mini-story", "lost"]
+    },
+    {
+      "externalId": "s011",
+      "japanese": "駅で同期と会った。",
+      "tokens": [
+        { "text": "駅", "kana": "えき" },
+        { "text": "で" },
+        { "text": "同期", "kana": "どうき" },
+        { "text": "と" },
+        { "text": "会った", "kana": "あった" },
+        { "text": "。" }
+      ],
+      "kana": "えきでどうきとあった",
+      "chinese": "在车站碰到了同期。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 600,
+      "chunkPattern": "〜で〜と会った",
+      "tags": ["display", "mini-story", "coworker"]
+    },
+    {
+      "externalId": "s012",
+      "japanese": "朝雪降ってた。",
+      "tokens": [
+        { "text": "朝", "kana": "あさ" },
+        { "text": "雪", "kana": "ゆき" },
+        { "text": "降ってた", "kana": "ふってた" },
+        { "text": "。" }
+      ],
+      "kana": "あさゆきふってた",
+      "chinese": "早上下雪了。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 605,
+      "chunkPattern": "朝〜降ってた",
+      "tags": ["display", "mini-story", "weather"]
+    },
+    {
+      "externalId": "s013",
+      "japanese": "お店すごく混んでた。",
+      "tokens": [
+        { "text": "お店", "kana": "おみせ" },
+        { "text": "すごく" },
+        { "text": "混んでた", "kana": "こんでた" },
+        { "text": "。" }
+      ],
+      "kana": "おみせすごくこんでた",
+      "chinese": "店里人特别多。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 610,
+      "chunkPattern": "〜すごく〜てた",
+      "tags": ["display", "mini-story", "crowded"]
+    },
+    {
+      "externalId": "s014",
+      "japanese": "なんか変な音した。",
+      "tokens": [
+        { "text": "なんか" },
+        { "text": "変な", "kana": "へんな" },
+        { "text": "音", "kana": "おと" },
+        { "text": "した。" }
+      ],
+      "kana": "なんかへんなおとした",
+      "chinese": "好像有奇怪的声音。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 615,
+      "chunkPattern": "なんか変な〜",
+      "tags": ["display", "mini-story", "noise"]
+    },
+    {
+      "externalId": "s015",
+      "japanese": "急に雨降ってきた。",
+      "tokens": [
+        { "text": "急", "kana": "きゅう" },
+        { "text": "に" },
+        { "text": "雨", "kana": "あめ" },
+        { "text": "降って", "kana": "ふって" },
+        { "text": "きた。" }
+      ],
+      "kana": "きゅうにあめふってきた",
+      "chinese": "突然下起雨来。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 620,
+      "chunkPattern": "急に〜てきた",
+      "tags": ["display", "mini-story", "sudden"]
+    },
+    {
+      "externalId": "s016",
+      "japanese": "朝寝坊しちゃった。",
+      "tokens": [
+        { "text": "朝", "kana": "あさ" },
+        { "text": "寝坊", "kana": "ねぼう" },
+        { "text": "しちゃった。" }
+      ],
+      "kana": "あさねぼうしちゃった",
+      "chinese": "早上睡过头了。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 625,
+      "chunkPattern": "朝〜しちゃった",
+      "tags": ["display", "mini-story", "oversleep"]
+    },
+    {
+      "externalId": "s017",
+      "japanese": "なんか嬉しいことあった。",
+      "tokens": [
+        { "text": "なんか" },
+        { "text": "嬉しい", "kana": "うれしい" },
+        { "text": "ことあった。" }
+      ],
+      "kana": "なんかうれしいことあった",
+      "chinese": "好像有什么开心的事。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 630,
+      "chunkPattern": "なんか〜ことあった",
+      "tags": ["display", "mini-story", "happy"]
+    },
+    {
+      "externalId": "s018",
+      "japanese": "友達がくれたの。",
+      "tokens": [
+        { "text": "友達", "kana": "ともだち" },
+        { "text": "がくれたの。" }
+      ],
+      "kana": "ともだちがくれたの",
+      "chinese": "朋友送的。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 635,
+      "chunkPattern": "〜がくれたの",
+      "tags": ["display", "mini-story", "gift"]
+    },
+    {
+      "externalId": "s019",
+      "japanese": "今日忙しかったな。",
+      "tokens": [
+        { "text": "今日", "kana": "きょう" },
+        { "text": "忙しかった", "kana": "いそがしかった" },
+        { "text": "な。" }
+      ],
+      "kana": "きょういそがしかったな",
+      "chinese": "今天好忙啊。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 640,
+      "chunkPattern": "今日〜たな",
+      "tags": ["display", "mini-story", "busy-day"]
+    },
+    {
+      "externalId": "s020",
+      "japanese": "久々に映画見た。",
+      "tokens": [
+        { "text": "久々", "kana": "ひさびさ" },
+        { "text": "に" },
+        { "text": "映画", "kana": "えいが" },
+        { "text": "見た", "kana": "みた" },
+        { "text": "。" }
+      ],
+      "kana": "ひさびさにえいがみた",
+      "chinese": "好久没看电影了,看了。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 645,
+      "chunkPattern": "久々に〜",
+      "tags": ["display", "mini-story", "after-long-while"]
+    }
+  ],
+  "dialogues": [],
+  "passages": []
+}

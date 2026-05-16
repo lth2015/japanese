@@ -5,6 +5,11 @@ import { useCallback, useEffect, useMemo, useRef, useState } from "react"
 import { FuriganaText } from "@/components/furigana-text"
 import { Button } from "@/components/ui/button"
 import type { Sentence } from "@/lib/db/schema"
+import {
+  loadTickerState,
+  reconcileOrder,
+  saveTickerState,
+} from "@/lib/display-order"
 import { ensureVoicesLoaded, speakJapanese } from "@/lib/speech"
 import { cn } from "@/lib/utils"
 import {
@@ -18,15 +23,56 @@ type Props = { sentences: Sentence[] }
 export function DisplayTicker({ sentences }: Props) {
   const [settings, setDisplaySettings] = useDisplaySettings()
   const [index, setIndex] = useState(0)
+  const [order, setOrder] = useState<string[] | null>(null)
   const [paused, setPaused] = useState(false)
   const [showChrome, setShowChrome] = useState(true)
   const [showShortcuts, setShowShortcuts] = useState(false)
   const chromeTimer = useRef<ReturnType<typeof setTimeout> | null>(null)
 
+  const byId = useMemo(
+    () => new Map(sentences.map((s) => [s.id, s])),
+    [sentences],
+  )
+
+  // Hydrate the persisted shuffle once on mount: reconcile it with the
+  // current sentence set so progress survives a reload and freshly-imported
+  // packs splice into the upcoming tail instead of waiting a full cycle.
+  useEffect(() => {
+    const persisted = loadTickerState()
+    const currentIds = sentences.map((s) => s.id)
+    const reconciled = reconcileOrder(
+      persisted?.shuffledIds ?? [],
+      currentIds,
+      persisted?.cursor ?? 0,
+    )
+    const startCursor = Math.min(
+      Math.max(persisted?.cursor ?? 0, 0),
+      Math.max(reconciled.length - 1, 0),
+    )
+    setOrder(reconciled)
+    setIndex(startCursor)
+    saveTickerState({ shuffledIds: reconciled, cursor: startCursor })
+  }, [sentences])
+
+  const ordered = useMemo(() => {
+    if (!order) return sentences
+    return order
+      .map((id) => byId.get(id))
+      .filter((s): s is Sentence => s !== undefined)
+  }, [order, byId, sentences])
+
   const queue = useMemo(() => {
-    if (settings.source === "all") return sentences
-    return sentences.filter((s) => s.category === settings.source)
-  }, [sentences, settings.source])
+    if (settings.source === "all") return ordered
+    return ordered.filter((s) => s.category === settings.source)
+  }, [ordered, settings.source])
+
+  // Persist the cursor as we advance — only for the unfiltered queue, since a
+  // category filter walks a subset whose index is not a valid full-order cursor.
+  useEffect(() => {
+    if (!order) return
+    if (settings.source !== "all") return
+    saveTickerState({ shuffledIds: order, cursor: index })
+  }, [index, order, settings.source])
 
   const current = queue[index % Math.max(queue.length, 1)]
 

@@ -1,0 +1,321 @@
+{
+  "packVersion": 1,
+  "packId": "display-aizuchi-001",
+  "title": "Display Aizuchi 001",
+  "generatedBy": "claude-opus-4-7",
+  "generatedAt": "2026-05-16",
+  "targetProfile": "Display-optimized short backchanneling / 相槌 reactions — the quick acknowledgment phrases you drop while listening. 4-12 chars. Mostly カジュアル with a few 丁寧. Distinct from display-empathy (which feels-with the speaker): these signal 'I'm following, I agree, keep going'.",
+  "reviewStatus": "reviewed",
+  "sentences": [
+    {
+      "externalId": "s001",
+      "japanese": "へえ、そうなんだ。",
+      "tokens": [
+        { "text": "へえ、そうなんだ。" }
+      ],
+      "kana": "へえそうなんだ",
+      "chinese": "哦，原来是这样。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 998,
+      "chunkPattern": "へえ、〜なんだ",
+      "tags": ["display", "aizuchi", "interest"]
+    },
+    {
+      "externalId": "s002",
+      "japanese": "なるほどね。",
+      "tokens": [
+        { "text": "なるほどね。" }
+      ],
+      "kana": "なるほどね",
+      "chinese": "原来如此。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 999,
+      "chunkPattern": "なるほど〜",
+      "tags": ["display", "aizuchi", "understood"]
+    },
+    {
+      "externalId": "s003",
+      "japanese": "たしかに。",
+      "tokens": [
+        { "text": "たしかに。" }
+      ],
+      "kana": "たしかに",
+      "chinese": "确实。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 997,
+      "chunkPattern": "たしかに〜",
+      "tags": ["display", "aizuchi", "agree"]
+    },
+    {
+      "externalId": "s004",
+      "japanese": "それな。",
+      "tokens": [
+        { "text": "それな。" }
+      ],
+      "kana": "それな",
+      "chinese": "就是说啊。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 990,
+      "chunkPattern": "それな",
+      "tags": ["display", "aizuchi", "strong-agree"]
+    },
+    {
+      "externalId": "s005",
+      "japanese": "わかるわかる。",
+      "tokens": [
+        { "text": "わかるわかる。" }
+      ],
+      "kana": "わかるわかる",
+      "chinese": "懂懂懂。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 995,
+      "chunkPattern": "わかるわかる",
+      "tags": ["display", "aizuchi", "relate"]
+    },
+    {
+      "externalId": "s006",
+      "japanese": "だよね、それ。",
+      "tokens": [
+        { "text": "だよね、それ。" }
+      ],
+      "kana": "だよねそれ",
+      "chinese": "对吧，就是那个。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 993,
+      "chunkPattern": "だよね、〜",
+      "tags": ["display", "aizuchi", "confirm"]
+    },
+    {
+      "externalId": "s007",
+      "japanese": "そっか、なるほど。",
+      "tokens": [
+        { "text": "そっか、なるほど。" }
+      ],
+      "kana": "そっかなるほど",
+      "chinese": "这样啊，原来如此。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 991,
+      "chunkPattern": "そっか、〜",
+      "tags": ["display", "aizuchi", "got-it"]
+    },
+    {
+      "externalId": "s008",
+      "japanese": "まじで？",
+      "tokens": [
+        { "text": "まじで？" }
+      ],
+      "kana": "まじで",
+      "chinese": "真的假的？",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 994,
+      "chunkPattern": "まじで？",
+      "tags": ["display", "aizuchi", "surprise"]
+    },
+    {
+      "externalId": "s009",
+      "japanese": "ふんふん、聞いてるよ。",
+      "tokens": [
+        { "text": "ふんふん、" },
+        { "text": "聞いてる", "kana": "きいてる" },
+        { "text": "よ。" }
+      ],
+      "kana": "ふんふんきいてるよ",
+      "chinese": "嗯嗯，我在听。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 980,
+      "chunkPattern": "ふんふん、〜",
+      "tags": ["display", "aizuchi", "listening"]
+    },
+    {
+      "externalId": "s010",
+      "japanese": "ほんとだ、すごい。",
+      "tokens": [
+        { "text": "ほんとだ、すごい。" }
+      ],
+      "kana": "ほんとだすごい",
+      "chinese": "真的诶，厉害。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 988,
+      "chunkPattern": "ほんとだ、〜",
+      "tags": ["display", "aizuchi", "realize"]
+    },
+    {
+      "externalId": "s011",
+      "japanese": "やっぱりそうだよね。",
+      "tokens": [
+        { "text": "やっぱりそうだよね。" }
+      ],
+      "kana": "やっぱりそうだよね",
+      "chinese": "果然是这样吧。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 985,
+      "chunkPattern": "やっぱり〜だよね",
+      "tags": ["display", "aizuchi", "as-expected"]
+    },
+    {
+      "externalId": "s012",
+      "japanese": "それはそうだね。",
+      "tokens": [
+        { "text": "それはそうだね。" }
+      ],
+      "kana": "それはそうだね",
+      "chinese": "那倒也是。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 983,
+      "chunkPattern": "それはそう〜",
+      "tags": ["display", "aizuchi", "concede"]
+    },
+    {
+      "externalId": "s013",
+      "japanese": "へえ、知らなかった。",
+      "tokens": [
+        { "text": "へえ、" },
+        { "text": "知らなかった", "kana": "しらなかった" },
+        { "text": "。" }
+      ],
+      "kana": "へえしらなかった",
+      "chinese": "哦，我都不知道。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 987,
+      "chunkPattern": "へえ、〜なかった",
+      "tags": ["display", "aizuchi", "new-info"]
+    },
+    {
+      "externalId": "s014",
+      "japanese": "たしかにそうかも。",
+      "tokens": [
+        { "text": "たしかにそうかも。" }
+      ],
+      "kana": "たしかにそうかも",
+      "chinese": "确实可能是这样。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 982,
+      "chunkPattern": "たしかに〜かも",
+      "tags": ["display", "aizuchi", "soft-agree"]
+    },
+    {
+      "externalId": "s015",
+      "japanese": "そうそう、それそれ。",
+      "tokens": [
+        { "text": "そうそう、それそれ。" }
+      ],
+      "kana": "そうそうそれそれ",
+      "chinese": "对对，就是那个。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 989,
+      "chunkPattern": "そうそう、〜",
+      "tags": ["display", "aizuchi", "exactly"]
+    },
+    {
+      "externalId": "s016",
+      "japanese": "うわ、めっちゃわかる。",
+      "tokens": [
+        { "text": "うわ、めっちゃわかる。" }
+      ],
+      "kana": "うわめっちゃわかる",
+      "chinese": "哇，太懂了。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 978,
+      "chunkPattern": "うわ、めっちゃ〜",
+      "tags": ["display", "aizuchi", "strong-relate"]
+    },
+    {
+      "externalId": "s017",
+      "japanese": "それ、あるあるだね。",
+      "tokens": [
+        { "text": "それ、あるあるだね。" }
+      ],
+      "kana": "それあるあるだね",
+      "chinese": "那个，太常见了。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 975,
+      "chunkPattern": "それ、あるある〜",
+      "tags": ["display", "aizuchi", "common-experience"]
+    },
+    {
+      "externalId": "s018",
+      "japanese": "たしかにそうですね。",
+      "tokens": [
+        { "text": "たしかにそうですね。" }
+      ],
+      "kana": "たしかにそうですね",
+      "chinese": "确实是这样呢。",
+      "category": "smalltalk",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 992,
+      "chunkPattern": "たしかにそうですね",
+      "tags": ["display", "aizuchi", "agree", "polite"]
+    },
+    {
+      "externalId": "s019",
+      "japanese": "おっしゃる通りです。",
+      "tokens": [
+        { "text": "おっしゃる" },
+        { "text": "通り", "kana": "とおり" },
+        { "text": "です。" }
+      ],
+      "kana": "おっしゃるとおりです",
+      "chinese": "正如您所说。",
+      "category": "smalltalk",
+      "register": "敬語",
+      "difficulty": 3,
+      "frequencyRank": 970,
+      "chunkPattern": "おっしゃる通り〜",
+      "tags": ["display", "aizuchi", "agree", "keigo"]
+    },
+    {
+      "externalId": "s020",
+      "japanese": "なるほど、勉強になります。",
+      "tokens": [
+        { "text": "なるほど、" },
+        { "text": "勉強", "kana": "べんきょう" },
+        { "text": "になります。" }
+      ],
+      "kana": "なるほどべんきょうになります",
+      "chinese": "原来如此，受教了。",
+      "category": "smalltalk",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 972,
+      "chunkPattern": "なるほど、勉強になります",
+      "tags": ["display", "aizuchi", "learned", "polite"]
+    }
+  ],
+  "dialogues": [],
+  "passages": []
+}

@@ -340,11 +340,10 @@
       "tokens": [
         { "text": "上", "kana": "うえ" },
         { "text": "から" },
-        { "text": "3" },
-        { "text": "番目", "kana": "ばんめ" },
+        { "text": "3番目", "kana": "さんばんめ" },
         { "text": "。" }
       ],
-      "kana": "うえから3ばんめ",
+      "kana": "うえからさんばんめ",
       "chinese": "从上数第三个。",
       "category": "smalltalk",
       "register": "カジュアル",

@@ -1,21 +1,18 @@
 "use client"
 
-import { ArrowRight, Check, Headphones, Loader2, Play, RotateCcw } from "lucide-react"
-import { useEffect, useRef, useState, useTransition } from "react"
 import { FuriganaText } from "@/components/furigana-text"
 import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
+import { getNextListenWriteSentence, submitListenWriteAttempt } from "@/lib/actions/listen-write"
 import { applyRating as applyRatingAction } from "@/lib/actions/progress"
-import {
-  getNextListenWriteSentence,
-  submitListenWriteAttempt,
-} from "@/lib/actions/listen-write"
 import type { Sentence } from "@/lib/db/schema"
-import { diff, type DiffSegment } from "@/lib/diff"
+import { type DiffSegment, diff } from "@/lib/diff"
 import { stageLabel } from "@/lib/progress"
 import { ensureVoicesLoaded, speakJapanese } from "@/lib/speech"
 import { cn } from "@/lib/utils"
+import { ArrowRight, Check, Headphones, Loader2, Play, RotateCcw } from "lucide-react"
+import { useEffect, useRef, useState, useTransition } from "react"
 
 type Next = { sentence: Sentence; isReview: boolean; isUnlocked: boolean } | null
 type Phase = "ready" | "input" | "submitted"
@@ -54,7 +51,7 @@ export function ListenWriteClient({ initial }: Props) {
 
   useEffect(() => {
     if (phase === "input") textareaRef.current?.focus()
-  }, [phase, current?.sentence.id])
+  }, [phase])
 
   if (!current) return <EmptyState />
 
@@ -124,17 +121,14 @@ export function ListenWriteClient({ initial }: Props) {
   }
 
   return (
-    <div className="min-h-[calc(100dvh-5rem)] lg:min-h-screen flex flex-col">
-      {/* Header — pinned top */}
-      <div className="max-w-3xl mx-auto w-full px-6 lg:px-10 pt-8 lg:pt-10 shrink-0">
-        <header className="flex items-center justify-between">
+    <div className="flex min-h-[calc(100dvh-5rem)] flex-col lg:min-h-screen">
+      <div className="mx-auto w-full max-w-4xl shrink-0 px-4 pt-5 sm:px-6 lg:px-10 lg:pt-8">
+        <header className="panel flex items-center justify-between rounded-lg px-4 py-3">
           <div className="flex items-center gap-2 text-sm text-fg-secondary">
             <Headphones className="h-4 w-4 text-accent" strokeWidth={1.75} />
             <span className="font-medium">Stage 3 · 听写</span>
             {current.isReview && <Badge variant="warning">复习</Badge>}
-            {!current.isUnlocked && (
-              <Badge variant="outline">先到 Stage 2.5 效果更好</Badge>
-            )}
+            {!current.isUnlocked && <Badge variant="outline">先到 Stage 2.5 效果更好</Badge>}
           </div>
           <div className="text-xs text-fg-tertiary tabular font-mono">
             本轮 {completedIds.length}
@@ -145,7 +139,7 @@ export function ListenWriteClient({ initial }: Props) {
       {/* Content area */}
       <div
         className={cn(
-          "max-w-3xl mx-auto w-full px-6 lg:px-10 pb-16 flex-1 min-h-0 flex flex-col",
+          "mx-auto min-h-0 w-full max-w-4xl flex-1 px-4 pb-16 sm:px-6 lg:px-10 flex flex-col",
           phase === "submitted" ? "pt-10" : "justify-center",
         )}
       >
@@ -153,9 +147,7 @@ export function ListenWriteClient({ initial }: Props) {
         {phase === "ready" && (
           <section className="text-center space-y-8">
             <div className="space-y-3">
-              <p className="text-2xl lg:text-3xl text-fg font-medium">
-                准备好了就点播放
-              </p>
+              <p className="text-2xl lg:text-3xl text-fg font-medium">准备好了就点播放</p>
               <p className="text-sm text-fg-tertiary max-w-md mx-auto leading-relaxed">
                 不显示日文。听完后凭记忆写下来。最多重听 {MAX_REPLAYS} 次。
               </p>
@@ -166,171 +158,179 @@ export function ListenWriteClient({ initial }: Props) {
               disabled={playing}
               className="!h-14 !px-10 !text-base"
             >
-              {playing ? <Loader2 className="h-5 w-5 animate-spin" /> : <Play className="h-5 w-5" />}
+              {playing ? (
+                <Loader2 className="h-5 w-5 animate-spin" />
+              ) : (
+                <Play className="h-5 w-5" />
+              )}
               播放
             </Button>
           </section>
         )}
 
-      {/* Input state — show replay + textarea */}
-      {phase === "input" && (
-        <section className="space-y-6">
-          <div className="border-y border-border py-8 text-center">
-            <div className="inline-flex items-center gap-4">
-              <Button
-                variant="secondary"
-                onClick={handleReplay}
-                disabled={playing || replays >= MAX_REPLAYS}
-              >
-                {playing ? <Loader2 className="h-4 w-4 animate-spin" /> : <Play className="h-4 w-4" />}
-                重听 ({MAX_REPLAYS - replays} 次剩余)
-              </Button>
-              <span className="text-xs text-fg-tertiary">
-                播放次数：{replays + 1} / {MAX_REPLAYS + 1}
-              </span>
+        {/* Input state — show replay + textarea */}
+        {phase === "input" && (
+          <section className="space-y-6">
+            <div className="border-y border-border py-8 text-center">
+              <div className="inline-flex items-center gap-4">
+                <Button
+                  variant="secondary"
+                  onClick={handleReplay}
+                  disabled={playing || replays >= MAX_REPLAYS}
+                >
+                  {playing ? (
+                    <Loader2 className="h-4 w-4 animate-spin" />
+                  ) : (
+                    <Play className="h-4 w-4" />
+                  )}
+                  重听 ({MAX_REPLAYS - replays} 次剩余)
+                </Button>
+                <span className="text-xs text-fg-tertiary">
+                  播放次数：{replays + 1} / {MAX_REPLAYS + 1}
+                </span>
+              </div>
             </div>
-          </div>
 
-          <div className="space-y-2">
-            <p className="text-xs text-fg-tertiary">把你听到的写下来：</p>
-            <textarea
-              ref={textareaRef}
-              value={input}
-              onChange={(e) => setInput(e.target.value)}
-              onKeyDown={(e) => {
-                if (e.key === "Enter" && (e.metaKey || e.ctrlKey)) {
-                  e.preventDefault()
-                  handleSubmit()
-                }
-              }}
-              placeholder="日本語で入力..."
-              lang="ja"
-              rows={3}
-              className={cn(
-                "w-full rounded-xl border border-border bg-surface px-4 py-3",
-                "font-jp text-lg text-fg placeholder:text-fg-tertiary",
-                "focus-visible:outline-none focus-visible:border-accent focus-visible:shadow-focus",
-                "transition-colors duration-150 resize-none",
-              )}
-            />
-          </div>
+            <div className="space-y-2">
+              <p className="text-xs text-fg-tertiary">把你听到的写下来：</p>
+              <textarea
+                ref={textareaRef}
+                value={input}
+                onChange={(e) => setInput(e.target.value)}
+                onKeyDown={(e) => {
+                  if (e.key === "Enter" && (e.metaKey || e.ctrlKey)) {
+                    e.preventDefault()
+                    handleSubmit()
+                  }
+                }}
+                placeholder="日本語で入力..."
+                lang="ja"
+                rows={3}
+                className={cn(
+                  "w-full rounded-lg border border-border bg-white/82 px-4 py-3 shadow-sm",
+                  "font-jp text-lg text-fg placeholder:text-fg-tertiary",
+                  "focus-visible:outline-none focus-visible:border-accent focus-visible:shadow-focus",
+                  "transition-colors duration-150 resize-none",
+                )}
+              />
+            </div>
 
-          <div className="flex items-center justify-end gap-2">
-            <Button onClick={handleSubmit} disabled={!input.trim() || isPending}>
-              {isPending && <Loader2 className="h-4 w-4 animate-spin" />}
-              提交
-              <span className="ml-2 text-xs text-fg/60 hidden sm:inline">⌘ + ↵</span>
-            </Button>
-          </div>
-        </section>
-      )}
+            <div className="flex items-center justify-end gap-2">
+              <Button onClick={handleSubmit} disabled={!input.trim() || isPending}>
+                {isPending && <Loader2 className="h-4 w-4 animate-spin" />}
+                提交
+                <span className="ml-2 text-xs text-fg/60 hidden sm:inline">⌘ + ↵</span>
+              </Button>
+            </div>
+          </section>
+        )}
 
-      {/* Submitted state — show feedback */}
-      {phase === "submitted" && feedback && (
-        <section className="mt-8 space-y-6 animate-fade-in">
-          <Card>
-            <CardContent className="p-6 space-y-5">
-              <div className="space-y-1.5">
-                <p className="text-xs text-fg-tertiary">你听到的</p>
-                <p lang="ja" className="font-jp text-fg text-2xl">
-                  {input}
-                </p>
-              </div>
-
-              <div className="space-y-1.5">
-                <div className="flex items-center justify-between">
-                  <p className="text-xs text-fg-tertiary">原句</p>
-                  <span
-                    className={cn(
-                      "text-xs tabular font-mono",
-                      feedback.matchRatio >= 0.85
-                        ? "text-success"
-                        : feedback.matchRatio >= 0.6
-                          ? "text-warning"
-                          : "text-danger",
-                    )}
-                  >
-                    匹配 {Math.round(feedback.matchRatio * 100)}% · 重听 {replays} 次
-                  </span>
-                </div>
-                <p className="font-jp-serif text-fg text-3xl font-medium">
-                  <FuriganaText text={s.japanese} tokens={s.tokens} showRuby={true} />
-                </p>
-                <p className="text-fg-secondary text-sm mt-1" lang="zh-CN">
-                  {s.chinese}
-                </p>
-              </div>
-
-              {feedback.matchRatio < 1 && (
+        {/* Submitted state — show feedback */}
+        {phase === "submitted" && feedback && (
+          <section className="mt-8 space-y-6 animate-fade-in">
+            <Card>
+              <CardContent className="p-6 space-y-5">
                 <div className="space-y-1.5">
-                  <p className="text-xs text-fg-tertiary">差异</p>
-                  <p lang="ja" className="font-jp text-base leading-relaxed">
-                    {feedback.diffSegs.map((seg, i) => (
-                      <DiffSpan key={i} segment={seg} />
-                    ))}
+                  <p className="text-xs text-fg-tertiary">你听到的</p>
+                  <p lang="ja" className="font-jp text-fg text-2xl">
+                    {input}
                   </p>
                 </div>
-              )}
 
-              <p className="text-xs text-fg-tertiary leading-relaxed">
-                Stage 3 是把"听"接到"写"上。重听越少，分越实。
-              </p>
-            </CardContent>
-          </Card>
-
-          {!feedback.rated && (
-            <Card>
-              <CardContent className="p-5 space-y-4">
-                <p className="text-sm text-fg">这次自评：</p>
-                <div className="grid grid-cols-3 gap-2">
-                  <Button
-                    variant="secondary"
-                    className="!border-success/40 hover:!border-success"
-                    onClick={() => handleRate(5)}
-                    disabled={isPending}
-                  >
-                    <Check className="h-4 w-4 text-success" />
-                    全听准了
-                  </Button>
-                  <Button
-                    variant="secondary"
-                    className="!border-warning/40 hover:!border-warning"
-                    onClick={() => handleRate(3)}
-                    disabled={isPending}
-                  >
-                    <Check className="h-4 w-4 text-warning" />
-                    大致对
-                  </Button>
-                  <Button
-                    variant="secondary"
-                    className="!border-danger/40 hover:!border-danger"
-                    onClick={() => handleRate(1)}
-                    disabled={isPending}
-                  >
-                    <RotateCcw className="h-4 w-4 text-danger" />
-                    没听清
-                  </Button>
+                <div className="space-y-1.5">
+                  <div className="flex items-center justify-between">
+                    <p className="text-xs text-fg-tertiary">原句</p>
+                    <span
+                      className={cn(
+                        "text-xs tabular font-mono",
+                        feedback.matchRatio >= 0.85
+                          ? "text-success"
+                          : feedback.matchRatio >= 0.6
+                            ? "text-warning"
+                            : "text-danger",
+                      )}
+                    >
+                      匹配 {Math.round(feedback.matchRatio * 100)}% · 重听 {replays} 次
+                    </span>
+                  </div>
+                  <p className="font-jp-serif text-fg text-3xl font-medium">
+                    <FuriganaText text={s.japanese} tokens={s.tokens} showRuby={true} />
+                  </p>
+                  <p className="text-fg-secondary text-sm mt-1" lang="zh-CN">
+                    {s.chinese}
+                  </p>
                 </div>
+
+                {feedback.matchRatio < 1 && (
+                  <div className="space-y-1.5">
+                    <p className="text-xs text-fg-tertiary">差异</p>
+                    <p lang="ja" className="font-jp text-base leading-relaxed">
+                      {feedback.diffSegs.map((seg, i) => (
+                        <DiffSpan key={`${seg.op}-${seg.user}-${seg.target}-${i}`} segment={seg} />
+                      ))}
+                    </p>
+                  </div>
+                )}
+
+                <p className="text-xs text-fg-tertiary leading-relaxed">
+                  Stage 3 是把"听"接到"写"上。重听越少，分越实。
+                </p>
               </CardContent>
             </Card>
-          )}
 
-          {feedback.rated && (
-            <div className="rounded-xl border border-border bg-surface px-5 py-3 flex items-center gap-3 animate-fade-in">
-              <Headphones className="h-4 w-4 text-accent" strokeWidth={1.75} />
-              <p className="text-sm text-fg-secondary flex-1">
-                进度更新：<span className="text-fg">{feedback.ratingMessage}</span>
-              </p>
+            {!feedback.rated && (
+              <Card>
+                <CardContent className="p-5 space-y-4">
+                  <p className="text-sm text-fg">这次自评：</p>
+                  <div className="grid grid-cols-3 gap-2">
+                    <Button
+                      variant="secondary"
+                      className="!border-success/40 hover:!border-success"
+                      onClick={() => handleRate(5)}
+                      disabled={isPending}
+                    >
+                      <Check className="h-4 w-4 text-success" />
+                      全听准了
+                    </Button>
+                    <Button
+                      variant="secondary"
+                      className="!border-warning/40 hover:!border-warning"
+                      onClick={() => handleRate(3)}
+                      disabled={isPending}
+                    >
+                      <Check className="h-4 w-4 text-warning" />
+                      大致对
+                    </Button>
+                    <Button
+                      variant="secondary"
+                      className="!border-danger/40 hover:!border-danger"
+                      onClick={() => handleRate(1)}
+                      disabled={isPending}
+                    >
+                      <RotateCcw className="h-4 w-4 text-danger" />
+                      没听清
+                    </Button>
+                  </div>
+                </CardContent>
+              </Card>
+            )}
+
+            {feedback.rated && (
+              <div className="rounded-xl border border-border bg-surface px-5 py-3 flex items-center gap-3 animate-fade-in">
+                <Headphones className="h-4 w-4 text-accent" strokeWidth={1.75} />
+                <p className="text-sm text-fg-secondary flex-1">
+                  进度更新：<span className="text-fg">{feedback.ratingMessage}</span>
+                </p>
+              </div>
+            )}
+
+            <div className="flex items-center justify-end gap-2">
+              <Button onClick={handleNext} disabled={isPending || !feedback.rated}>
+                下一句 <ArrowRight className="h-4 w-4" />
+              </Button>
             </div>
-          )}
-
-          <div className="flex items-center justify-end gap-2">
-            <Button onClick={handleNext} disabled={isPending || !feedback.rated}>
-              下一句 <ArrowRight className="h-4 w-4" />
-            </Button>
-          </div>
-        </section>
-      )}
+          </section>
+        )}
       </div>
     </div>
   )

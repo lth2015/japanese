@@ -1,5 +1,20 @@
 "use client"
 
+import { FuriganaText } from "@/components/furigana-text"
+import { Badge } from "@/components/ui/badge"
+import { Button } from "@/components/ui/button"
+import { Card, CardContent } from "@/components/ui/card"
+import {
+  type DrillFeedbackResult,
+  getNextDrillSentence,
+  requestDrillFeedback,
+  submitDrillAttempt,
+} from "@/lib/actions/drill"
+import { applyRating as applyRatingAction } from "@/lib/actions/progress"
+import type { Sentence } from "@/lib/db/schema"
+import { type DiffSegment, diff } from "@/lib/diff"
+import { stageLabel } from "@/lib/progress"
+import { cn } from "@/lib/utils"
 import {
   AlertCircle,
   ArrowRight,
@@ -10,21 +25,6 @@ import {
   Sparkles,
 } from "lucide-react"
 import { useEffect, useRef, useState, useTransition } from "react"
-import { FuriganaText } from "@/components/furigana-text"
-import { Badge } from "@/components/ui/badge"
-import { Button } from "@/components/ui/button"
-import { Card, CardContent } from "@/components/ui/card"
-import { diff, type DiffSegment } from "@/lib/diff"
-import {
-  type DrillFeedbackResult,
-  getNextDrillSentence,
-  requestDrillFeedback,
-  submitDrillAttempt,
-} from "@/lib/actions/drill"
-import { applyRating as applyRatingAction } from "@/lib/actions/progress"
-import type { Sentence } from "@/lib/db/schema"
-import { stageLabel } from "@/lib/progress"
-import { cn } from "@/lib/utils"
 
 type Next = { sentence: Sentence; isReview: boolean } | null
 
@@ -43,9 +43,7 @@ type FeedbackState = {
   ratingMessage?: string
 }
 
-type AiFeedbackState =
-  | { status: "loading" }
-  | { status: "ok"; result: DrillFeedbackResult }
+type AiFeedbackState = { status: "loading" } | { status: "ok"; result: DrillFeedbackResult }
 
 export function DrillClient({ initial }: Props) {
   const [current, setCurrent] = useState<Next>(initial)
@@ -62,7 +60,7 @@ export function DrillClient({ initial }: Props) {
   useEffect(() => {
     if (phase === "input") textareaRef.current?.focus()
     if (phase === "submitted") nextButtonRef.current?.focus()
-  }, [phase, current?.sentence.id])
+  }, [phase])
 
   if (!current) {
     return <EmptyState />
@@ -138,10 +136,9 @@ export function DrillClient({ initial }: Props) {
   }
 
   return (
-    <div className="min-h-[calc(100dvh-5rem)] lg:min-h-screen flex flex-col">
-      {/* Header — pinned top */}
-      <div className="max-w-3xl mx-auto w-full px-6 lg:px-10 pt-8 lg:pt-10 shrink-0">
-        <header className="flex items-center justify-between">
+    <div className="flex min-h-[calc(100dvh-5rem)] flex-col lg:min-h-screen">
+      <div className="mx-auto w-full max-w-4xl shrink-0 px-4 pt-5 sm:px-6 lg:px-10 lg:pt-8">
+        <header className="panel flex items-center justify-between rounded-lg px-4 py-3">
           <div className="flex items-center gap-2 text-sm text-fg-secondary">
             <Sparkles className="h-4 w-4 text-accent" strokeWidth={1.75} />
             <span className="font-medium">Stage 2 · 写作 Drill</span>
@@ -156,7 +153,7 @@ export function DrillClient({ initial }: Props) {
       {/* Content area — vertical-centered in input phase, top-aligned post-submit */}
       <div
         className={cn(
-          "max-w-3xl mx-auto w-full px-6 lg:px-10 pb-16 flex-1 min-h-0",
+          "mx-auto min-h-0 w-full max-w-4xl flex-1 px-4 pb-16 sm:px-6 lg:px-10",
           "flex flex-col",
           phase === "input" ? "justify-center" : "pt-10",
         )}
@@ -198,7 +195,7 @@ export function DrillClient({ initial }: Props) {
             lang="ja"
             rows={3}
             className={cn(
-              "w-full rounded-md border border-border-input bg-surface px-4 py-3",
+              "w-full rounded-lg border border-border-input bg-white/82 px-4 py-3 shadow-sm",
               "font-jp text-xl text-fg placeholder:text-fg-tertiary",
               "focus-visible:outline-none focus-visible:border-accent focus-visible:shadow-focus",
               "disabled:opacity-60 disabled:cursor-not-allowed",
@@ -221,133 +218,133 @@ export function DrillClient({ initial }: Props) {
           </div>
         </section>
 
-      {/* Feedback */}
-      {phase === "submitted" && feedback && (
-        <section className="mt-8 space-y-6 animate-fade-in">
-          <Card>
-            <CardContent className="p-6 space-y-5">
-              {/* Your input */}
-              <div className="space-y-1.5">
-                <p className="text-xs text-fg-tertiary">你的版本</p>
-                <p lang="ja" className="font-jp text-fg text-2xl">
-                  {input}
-                </p>
-              </div>
-
-              {/* Reference */}
-              <div className="space-y-1.5">
-                <div className="flex items-center justify-between">
-                  <p className="text-xs text-fg-tertiary">参考版本（其中一种自然说法）</p>
-                  <span
-                    className={cn(
-                      "text-xs tabular font-mono",
-                      feedback.matchRatio >= 0.85
-                        ? "text-success"
-                        : feedback.matchRatio >= 0.6
-                          ? "text-warning"
-                          : "text-danger",
-                    )}
-                  >
-                    字符匹配 {Math.round(feedback.matchRatio * 100)}%
-                  </span>
-                </div>
-                <p className="font-jp-serif text-fg text-3xl font-medium">
-                  <FuriganaText text={s.japanese} tokens={s.tokens} showRuby={true} />
-                </p>
-              </div>
-
-              {/* Diff highlight */}
-              {feedback.matchRatio < 1 && (
+        {/* Feedback */}
+        {phase === "submitted" && feedback && (
+          <section className="mt-8 space-y-6 animate-fade-in">
+            <Card>
+              <CardContent className="p-6 space-y-5">
+                {/* Your input */}
                 <div className="space-y-1.5">
-                  <p className="text-xs text-fg-tertiary">差异（红=多出，黄=替换，绿=缺失）</p>
-                  <p lang="ja" className="font-jp text-base leading-relaxed">
-                    {feedback.diffSegments.map((seg, i) => (
-                      <DiffSpan key={i} segment={seg} />
-                    ))}
+                  <p className="text-xs text-fg-tertiary">你的版本</p>
+                  <p lang="ja" className="font-jp text-fg text-2xl">
+                    {input}
                   </p>
                 </div>
-              )}
 
-              <p className="text-xs text-fg-tertiary leading-relaxed">
-                注：字符匹配只是粗信号——你的版本可能用词不同但意思一致也很好。**自评才是真实标准**。
-              </p>
-            </CardContent>
-          </Card>
-
-          {/* AI feedback */}
-          {aiFeedback && (
-            <AiFeedbackCard
-              state={aiFeedback}
-              onRetry={() => feedback && loadAiFeedback(feedback.attemptId)}
-            />
-          )}
-
-          {/* Self-rating */}
-          {!feedback.rated && (
-            <Card>
-              <CardContent className="p-5 space-y-4">
-                <p className="text-sm text-fg">这次你的表现：</p>
-                <div className="grid grid-cols-3 gap-2">
-                  <Button
-                    variant="secondary"
-                    className="!border-success/40 hover:!border-success"
-                    onClick={() => handleRate(5)}
-                    disabled={isRating}
-                  >
-                    <Check className="h-4 w-4 text-success" />
-                    <span>完美</span>
-                  </Button>
-                  <Button
-                    variant="secondary"
-                    className="!border-warning/40 hover:!border-warning"
-                    onClick={() => handleRate(3)}
-                    disabled={isRating}
-                  >
-                    <Check className="h-4 w-4 text-warning" />
-                    <span>可接受</span>
-                  </Button>
-                  <Button
-                    variant="secondary"
-                    className="!border-danger/40 hover:!border-danger"
-                    onClick={() => handleRate(1)}
-                    disabled={isRating}
-                  >
-                    <RotateCcw className="h-4 w-4 text-danger" />
-                    <span>需要复习</span>
-                  </Button>
+                {/* Reference */}
+                <div className="space-y-1.5">
+                  <div className="flex items-center justify-between">
+                    <p className="text-xs text-fg-tertiary">参考版本（其中一种自然说法）</p>
+                    <span
+                      className={cn(
+                        "text-xs tabular font-mono",
+                        feedback.matchRatio >= 0.85
+                          ? "text-success"
+                          : feedback.matchRatio >= 0.6
+                            ? "text-warning"
+                            : "text-danger",
+                      )}
+                    >
+                      字符匹配 {Math.round(feedback.matchRatio * 100)}%
+                    </span>
+                  </div>
+                  <p className="font-jp-serif text-fg text-3xl font-medium">
+                    <FuriganaText text={s.japanese} tokens={s.tokens} showRuby={true} />
+                  </p>
                 </div>
-                <p className="text-xs text-fg-tertiary">
-                  自评是 SM-2 间隔重复的输入。诚实评分=系统能精准安排你的下次复习。
+
+                {/* Diff highlight */}
+                {feedback.matchRatio < 1 && (
+                  <div className="space-y-1.5">
+                    <p className="text-xs text-fg-tertiary">差异（红=多出，黄=替换，绿=缺失）</p>
+                    <p lang="ja" className="font-jp text-base leading-relaxed">
+                      {feedback.diffSegments.map((seg, i) => (
+                        <DiffSpan key={`${seg.op}-${seg.user}-${seg.target}-${i}`} segment={seg} />
+                      ))}
+                    </p>
+                  </div>
+                )}
+
+                <p className="text-xs text-fg-tertiary leading-relaxed">
+                  注：字符匹配只是粗信号——你的版本可能用词不同但意思一致也很好。**自评才是真实标准**。
                 </p>
               </CardContent>
             </Card>
-          )}
 
-          {feedback.rated && (
-            <div className="rounded-xl border border-border bg-surface px-5 py-3 flex items-center gap-3 animate-fade-in">
-              <Sparkles className="h-4 w-4 text-accent" strokeWidth={1.75} />
-              <p className="text-sm text-fg-secondary flex-1">
-                进度更新：<span className="text-fg">{feedback.ratingMessage}</span>
-              </p>
+            {/* AI feedback */}
+            {aiFeedback && (
+              <AiFeedbackCard
+                state={aiFeedback}
+                onRetry={() => feedback && loadAiFeedback(feedback.attemptId)}
+              />
+            )}
+
+            {/* Self-rating */}
+            {!feedback.rated && (
+              <Card>
+                <CardContent className="p-5 space-y-4">
+                  <p className="text-sm text-fg">这次你的表现：</p>
+                  <div className="grid grid-cols-3 gap-2">
+                    <Button
+                      variant="secondary"
+                      className="!border-success/40 hover:!border-success"
+                      onClick={() => handleRate(5)}
+                      disabled={isRating}
+                    >
+                      <Check className="h-4 w-4 text-success" />
+                      <span>完美</span>
+                    </Button>
+                    <Button
+                      variant="secondary"
+                      className="!border-warning/40 hover:!border-warning"
+                      onClick={() => handleRate(3)}
+                      disabled={isRating}
+                    >
+                      <Check className="h-4 w-4 text-warning" />
+                      <span>可接受</span>
+                    </Button>
+                    <Button
+                      variant="secondary"
+                      className="!border-danger/40 hover:!border-danger"
+                      onClick={() => handleRate(1)}
+                      disabled={isRating}
+                    >
+                      <RotateCcw className="h-4 w-4 text-danger" />
+                      <span>需要复习</span>
+                    </Button>
+                  </div>
+                  <p className="text-xs text-fg-tertiary">
+                    自评是 SM-2 间隔重复的输入。诚实评分=系统能精准安排你的下次复习。
+                  </p>
+                </CardContent>
+              </Card>
+            )}
+
+            {feedback.rated && (
+              <div className="panel flex items-center gap-3 rounded-lg px-5 py-3 animate-fade-in">
+                <Sparkles className="h-4 w-4 text-accent" strokeWidth={1.75} />
+                <p className="text-sm text-fg-secondary flex-1">
+                  进度更新：<span className="text-fg">{feedback.ratingMessage}</span>
+                </p>
+              </div>
+            )}
+
+            {/* Next */}
+            <div className="flex items-center justify-end gap-2">
+              <Button variant="ghost" size="sm" disabled={isPending}>
+                <BookmarkPlus className="h-4 w-4" />
+                加入复习
+              </Button>
+              <Button
+                ref={nextButtonRef}
+                onClick={handleNext}
+                disabled={isPending || !feedback.rated}
+              >
+                下一题 <ArrowRight className="h-4 w-4" />
+              </Button>
             </div>
-          )}
-
-          {/* Next */}
-          <div className="flex items-center justify-end gap-2">
-            <Button variant="ghost" size="sm" disabled={isPending}>
-              <BookmarkPlus className="h-4 w-4" />
-              加入复习
-            </Button>
-            <Button
-              ref={nextButtonRef}
-              onClick={handleNext}
-              disabled={isPending || !feedback.rated}
-            >
-              下一题 <ArrowRight className="h-4 w-4" />
-            </Button>
-          </div>
-        </section>
-      )}
+          </section>
+        )}
       </div>
     </div>
   )
@@ -364,9 +361,7 @@ function DiffSpan({ segment }: { segment: DiffSegment }) {
         </span>
       )
     case "insert":
-      return (
-        <span className="bg-success-soft text-success rounded px-0.5">{segment.target}</span>
-      )
+      return <span className="bg-success-soft text-success rounded px-0.5">{segment.target}</span>
     case "replace":
       return (
         <span className="bg-warning-soft text-warning rounded px-0.5">
@@ -466,9 +461,7 @@ function EmptyState() {
   return (
     <div className="px-6 py-24 max-w-2xl mx-auto text-center space-y-4">
       <p className="text-2xl font-semibold tracking-tight">今天的 Drill 都做完了 🎯</p>
-      <p className="text-fg-secondary">
-        没有待复习的句子，新句子也都过了一遍。明天回来继续。
-      </p>
+      <p className="text-fg-secondary">没有待复习的句子，新句子也都过了一遍。明天回来继续。</p>
       <Button asChild variant="secondary">
         <a href="/">回 Dashboard</a>
       </Button>

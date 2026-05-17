@@ -1,8 +1,8 @@
-import { MessageSquare, Phone, Users, Mail, Briefcase } from "lucide-react"
-import Link from "next/link"
 import { Badge } from "@/components/ui/badge"
 import { Card, CardContent } from "@/components/ui/card"
 import { listDialogues } from "@/lib/actions/dialogues"
+import { Briefcase, Mail, MessageSquare, Phone, Users } from "lucide-react"
+import Link from "next/link"
 
 export const dynamic = "force-dynamic"
 
@@ -17,13 +17,18 @@ const SCENARIO_LABEL: Record<string, { label: string; icon: typeof MessageSquare
 export default async function DialoguesPage() {
   const dialogues = await listDialogues()
   return (
-    <div className="px-6 lg:px-10 py-8 lg:py-12 space-y-8">
-      <header className="space-y-2">
-        <p className="text-xs font-medium uppercase tracking-wider text-fg-tertiary">阅读</p>
-        <h1 className="text-3xl font-semibold tracking-tight text-fg">情景对话</h1>
-        <p className="text-base text-fg-secondary max-w-2xl">
-          多轮对话原文。点开后可逐句听读,或一键朗读全段。
-        </p>
+    <div className="page-container space-y-8">
+      <header className="panel-solid rounded-lg p-6 sm:p-8">
+        <p className="page-kicker">Dialogues</p>
+        <div className="mt-3 flex flex-col gap-4 md:flex-row md:items-end md:justify-between">
+          <div>
+            <h1 className="text-3xl font-semibold text-fg sm:text-4xl">情景对话</h1>
+            <p className="mt-2 max-w-2xl text-base leading-relaxed text-fg-secondary">
+              多轮对话原文。逐句听读，熟悉职场和生活场景的来回节奏。
+            </p>
+          </div>
+          <Badge variant="accent">{dialogues.length} 段</Badge>
+        </div>
       </header>
 
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4">
@@ -32,29 +37,23 @@ export default async function DialoguesPage() {
           const Icon = meta.icon
           return (
             <Link key={d.id} href={`/dialogues/${d.id}`} className="group">
-              <Card className="hover:shadow-sm hover:-translate-y-px transition-all duration-200 h-full">
+              <Card className="pressable h-full overflow-hidden">
                 <CardContent className="p-6 space-y-4 h-full flex flex-col">
                   <div className="flex items-center justify-between">
-                    <div className="h-9 w-9 rounded-md bg-bg-subtle border border-border grid place-items-center shrink-0">
-                      <Icon className="h-4 w-4 text-fg-secondary" strokeWidth={1.75} />
+                    <div className="grid h-10 w-10 shrink-0 place-items-center rounded-lg border border-border bg-surface-tint text-accent">
+                      <Icon className="h-5 w-5" strokeWidth={1.75} />
                     </div>
                     <Badge>{meta.label}</Badge>
                   </div>
-                  <h2
-                    className="font-jp-serif text-lg text-fg leading-snug font-medium"
-                    lang="ja"
-                  >
+                  <h2 className="font-jp-serif text-lg font-medium leading-snug text-fg" lang="ja">
                     {d.title}
                   </h2>
                   {d.description && (
-                    <p
-                      className="text-sm text-fg-secondary line-clamp-2 flex-1"
-                      lang="zh-CN"
-                    >
+                    <p className="line-clamp-2 flex-1 text-sm text-fg-secondary" lang="zh-CN">
                       {d.description}
                     </p>
                   )}
-                  <div className="flex items-center gap-3 text-xs text-fg-tertiary tabular pt-2 border-t border-border">
+                  <div className="flex items-center gap-3 border-t border-border pt-2 text-xs text-fg-tertiary tabular">
                     <span>难度 {d.difficulty}/5</span>
                     <span>· {d.turns?.length ?? 0} 轮</span>
                     {d.register && <span>· {d.register}</span>}

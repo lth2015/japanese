@@ -47,11 +47,12 @@
       "externalId": "s003",
       "japanese": "それでは始めさせていただきます。",
       "tokens": [
-        { "text": "それでは" },
+        { "text": "それで" },
+        { "text": "は" },
         { "text": "始め", "kana": "はじめ" },
         { "text": "させていただきます。" }
       ],
-      "kana": "それではじめさせていただきます",
+      "kana": "それでははじめさせていただきます",
       "chinese": "那么我们开始吧。",
       "category": "smalltalk",
       "register": "敬語",

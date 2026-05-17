@@ -1,8 +1,5 @@
 "use client"
 
-import { ChevronLeft, Loader2, Play, Volume2 } from "lucide-react"
-import Link from "next/link"
-import { useEffect, useState } from "react"
 import { FuriganaText } from "@/components/furigana-text"
 import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
@@ -10,6 +7,9 @@ import { Card, CardContent } from "@/components/ui/card"
 import type { Passage } from "@/lib/db/schema"
 import { ensureVoicesLoaded, speakJapanese } from "@/lib/speech"
 import { cn } from "@/lib/utils"
+import { ChevronLeft, Loader2, Play, Volume2 } from "lucide-react"
+import Link from "next/link"
+import { useEffect, useState } from "react"
 
 interface Props {
   passage: Passage
@@ -63,9 +63,8 @@ export function PassageReader({ passage }: Props) {
   const vocabulary = passage.vocabulary ?? []
 
   return (
-    <div className="px-6 lg:px-12 py-8 lg:py-12 max-w-3xl mx-auto space-y-8">
-      {/* Header */}
-      <div>
+    <div className="page-container mx-auto max-w-4xl space-y-8">
+      <div className="panel-solid rounded-lg p-5 sm:p-7">
         <Button asChild variant="ghost" size="sm" className="-ml-3 mb-2">
           <Link href="/passages">
             <ChevronLeft className="h-4 w-4" />
@@ -73,7 +72,7 @@ export function PassageReader({ passage }: Props) {
           </Link>
         </Button>
         <div className="flex items-center justify-between gap-3">
-          <h1 className="text-2xl font-jp-serif font-medium tracking-tight" lang="ja">
+          <h1 className="font-jp-serif text-2xl font-medium text-fg" lang="ja">
             {passage.title}
           </h1>
           <Badge>{passage.source}</Badge>
@@ -85,23 +84,17 @@ export function PassageReader({ passage }: Props) {
         )}
       </div>
 
-      {/* Toolbar */}
-      <div className="flex items-center gap-2">
+      <div className="panel flex items-center gap-2 rounded-lg p-2">
         <Button variant="secondary" size="sm" onClick={handlePlayAll} disabled={playing}>
           {playing ? <Loader2 className="h-4 w-4 animate-spin" /> : <Play className="h-4 w-4" />}
           朗读全文
         </Button>
-        <Button
-          variant="ghost"
-          size="sm"
-          onClick={() => setShowFurigana((v) => !v)}
-        >
+        <Button variant="ghost" size="sm" onClick={() => setShowFurigana((v) => !v)}>
           <Volume2 className="h-4 w-4" />
           {showFurigana ? "隐藏" : "显示"}假名
         </Button>
       </div>
 
-      {/* Body */}
       <Card>
         <CardContent className="p-6 lg:p-8">
           <article
@@ -109,11 +102,7 @@ export function PassageReader({ passage }: Props) {
             className="font-jp-serif text-fg text-lg leading-loose whitespace-pre-line"
             style={{ lineHeight: 2.2 }}
           >
-            <FuriganaText
-              text={passage.body}
-              tokens={passage.tokens}
-              showRuby={showFurigana}
-            />
+            <FuriganaText text={passage.body} tokens={passage.tokens} showRuby={showFurigana} />
           </article>
         </CardContent>
       </Card>
@@ -121,10 +110,10 @@ export function PassageReader({ passage }: Props) {
       {/* Vocabulary */}
       {vocabulary.length > 0 && (
         <section className="space-y-3">
-          <h2 className="text-lg font-semibold">关键词</h2>
+          <h2 className="text-lg font-semibold text-fg">关键词</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
             {vocabulary.map((v) => (
-              <Card key={v.word}>
+              <Card key={v.word} className="bg-white/64">
                 <CardContent className="p-3 flex items-baseline gap-3">
                   <span className="font-jp-serif text-fg text-base shrink-0" lang="ja">
                     {v.word}
@@ -156,12 +145,12 @@ export function PassageReader({ passage }: Props) {
       {/* Questions */}
       {questions.length > 0 && (
         <section className="space-y-4">
-          <h2 className="text-lg font-semibold">问题（用日语回答）</h2>
+          <h2 className="text-lg font-semibold text-fg">问题（用日语回答）</h2>
           <div className="space-y-4">
             {questions.map((q, i) => {
               const revealed = revealedAnswers[i] ?? false
               return (
-                <Card key={i}>
+                <Card key={`${q.type}-${q.q}`}>
                   <CardContent className="p-5 space-y-3">
                     <div className="flex items-center gap-2">
                       <Badge variant={q.type === "open" ? "accent" : "outline"}>
@@ -196,14 +185,12 @@ export function PassageReader({ passage }: Props) {
                     </div>
                     <textarea
                       value={userAnswers[i] ?? ""}
-                      onChange={(e) =>
-                        setUserAnswers((u) => ({ ...u, [i]: e.target.value }))
-                      }
+                      onChange={(e) => setUserAnswers((u) => ({ ...u, [i]: e.target.value }))}
                       placeholder="日本語で答えてください..."
                       lang="ja"
                       rows={2}
                       className={cn(
-                        "w-full rounded-lg border border-border bg-surface px-3 py-2",
+                        "w-full rounded-lg border border-border bg-white/82 px-3 py-2 shadow-sm",
                         "font-jp text-fg placeholder:text-fg-tertiary",
                         "focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent",
                         "transition-colors duration-150 resize-none",
@@ -213,9 +200,7 @@ export function PassageReader({ passage }: Props) {
                       <Button
                         variant="ghost"
                         size="sm"
-                        onClick={() =>
-                          setRevealedAnswers((r) => ({ ...r, [i]: true }))
-                        }
+                        onClick={() => setRevealedAnswers((r) => ({ ...r, [i]: true }))}
                       >
                         参考答案
                       </Button>

@@ -32,6 +32,7 @@ next-env.d.ts
 
 # Claude Code local config + per-project skills clones (not part of source)
 .claude/
+.agents/
 
 # drizzle migrations - keep generated SQL but ignore drizzle metadata cache
 drizzle/meta/

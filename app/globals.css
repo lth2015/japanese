@@ -5,49 +5,58 @@
 @layer base {
   :root {
     /* === Surfaces === */
-    --bg: #ffffff;
-    --bg-subtle: #f8f8f6;
-    --bg-muted: #f2f2ef;
-    --surface: #ffffff;
+    --bg: #f6fbff;
+    --bg-subtle: #eef7f8;
+    --bg-muted: #e7f0f3;
+    --surface: rgba(255, 255, 255, 0.88);
     --surface-elevated: #ffffff;
+    --surface-tint: #f2fbfa;
 
     /* === Borders === */
-    --border: #ebebe5;
-    --border-strong: #d4d4cc;
-    --border-input: #e0e0da;
+    --border: rgba(24, 72, 82, 0.11);
+    --border-strong: rgba(24, 72, 82, 0.2);
+    --border-input: rgba(24, 72, 82, 0.18);
 
     /* === Foreground === */
-    --fg: #1a1a1a;
-    --fg-secondary: #5f5f5a;
-    --fg-tertiary: #8e8e88;
+    --fg: #142328;
+    --fg-secondary: #51636a;
+    --fg-tertiary: #8b9aa0;
     --fg-on-accent: #ffffff;
 
     /* === Content accent tones (muted, 清新) ===
      * Furigana = mint green (cool fresh), Chinese = cherry pink (warm soft).
      * Saturation kept low — these read as tinted, never as "color". */
-    --fg-ruby: #6ab290;     /* mint green / 抹茶 — fresh, cool, low saturation */
-    --fg-cn: #d29aa3;       /* cherry pink / 桜 — soft, warm, low saturation */
-    --fg-sage: #7a9385;     /* sage for tags / reserved */
-    --fg-plum: #9c7682;     /* plum for tags / reserved */
+    --fg-ruby: #4fae91;
+    --fg-cn: #c87486;
+    --fg-sage: #5f9f82;
+    --fg-plum: #8f6ea6;
 
     /* === Brand / state === */
-    --accent: #3b5bdb;
-    --accent-hover: #3650c8;
-    --accent-soft: #eef0fe;
-    --success: #0e8345;
-    --success-soft: #e7f5ee;
-    --warning: #b26b00;
-    --warning-soft: #fef6e6;
-    --danger: #c0392b;
-    --danger-soft: #fcedea;
-    --vermilion: #d14b3f;
+    --accent: #0f8f8c;
+    --accent-hover: #087a78;
+    --accent-soft: #dff6f4;
+    --success: #12945f;
+    --success-soft: #e1f7ec;
+    --warning: #bd7a13;
+    --warning-soft: #fff4dc;
+    --danger: #c7434f;
+    --danger-soft: #ffe8eb;
+    --vermilion: #ef6f61;
+    --indigo: #5367d6;
+    --lemon: #f2c94c;
 
     /* === Effects === */
-    --shadow-xs: 0 1px 2px 0 rgba(15, 23, 42, 0.04);
-    --shadow-sm: 0 1px 3px 0 rgba(15, 23, 42, 0.06), 0 1px 2px -1px rgba(15, 23, 42, 0.04);
-    --shadow-md: 0 4px 12px -2px rgba(15, 23, 42, 0.07), 0 2px 4px -2px rgba(15, 23, 42, 0.04);
-    --shadow-lg: 0 12px 32px -4px rgba(15, 23, 42, 0.1), 0 4px 8px -4px rgba(15, 23, 42, 0.06);
-    --shadow-focus: 0 0 0 4px rgba(59, 91, 219, 0.16);
+    --shadow-xs: 0 1px 2px 0 rgba(15, 45, 55, 0.04);
+    --shadow-sm: 0 10px 26px -22px rgba(15, 45, 55, 0.3), 0 1px 2px rgba(15, 45, 55, 0.05);
+    --shadow-md: 0 18px 42px -28px rgba(15, 45, 55, 0.38), 0 8px 18px -18px rgba(15, 45, 55, 0.22);
+    --shadow-lg: 0 28px 70px -42px rgba(15, 45, 55, 0.48), 0 14px 34px -28px rgba(15, 45, 55, 0.26);
+    --shadow-focus: 0 0 0 4px rgba(15, 143, 140, 0.18);
+
+    /* === Typography === */
+    --font-inter: Inter, ui-sans-serif, system-ui, sans-serif;
+    --font-jp: "Noto Sans JP", "Hiragino Sans", "Yu Gothic", sans-serif;
+    --font-jp-serif: "Noto Serif JP", "Hiragino Mincho ProN", "Yu Mincho", serif;
+    --font-mono: "JetBrains Mono", "SFMono-Regular", Consolas, monospace;
 
     color-scheme: light;
   }
@@ -67,7 +76,12 @@
 
   html,
   body {
-    background-color: var(--bg);
+    background: linear-gradient(
+        135deg,
+        rgba(223, 246, 244, 0.8) 0%,
+        rgba(246, 251, 255, 0.95) 26%,
+        rgba(255, 247, 237, 0.55) 100%
+      ), var(--bg);
     color: var(--fg);
     font-family: var(--font-inter), "Noto Sans SC", "Noto Sans JP", system-ui, sans-serif;
     -webkit-font-smoothing: antialiased;
@@ -76,7 +90,7 @@
   }
 
   ::selection {
-    background-color: var(--accent-soft);
+    background-color: color-mix(in srgb, var(--accent-soft) 80%, white);
     color: var(--fg);
   }
 
@@ -126,20 +140,20 @@
   .text-ambient {
     font-size: clamp(4.5rem, 13vw, 13rem);
     line-height: 1.06;
-    letter-spacing: -0.02em;
+    letter-spacing: 0;
   }
   /* Training-page hero sentence (read-aloud, listen-write) */
   .text-sentence {
     font-size: clamp(3rem, 6vw, 5.5rem);
     line-height: 1.12;
-    letter-spacing: -0.012em;
+    letter-spacing: 0;
   }
   /* Training-page Chinese prompt (drill, quick-fire) — moderate, since CN
    * here is just the source for translation, not the primary content. */
   .text-prompt {
     font-size: clamp(1.875rem, 3.5vw, 3.25rem);
     line-height: 1.25;
-    letter-spacing: -0.005em;
+    letter-spacing: 0;
     text-wrap: balance;
   }
 
@@ -157,5 +171,71 @@
   }
   .shadow-focus {
     box-shadow: var(--shadow-focus);
+  }
+}
+
+@layer components {
+  .app-shell {
+    min-height: 100dvh;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.62) 0%, rgba(255, 255, 255, 0) 48%),
+      repeating-linear-gradient(90deg, rgba(15, 143, 140, 0.035) 0 1px, transparent 1px 72px),
+      repeating-linear-gradient(0deg, rgba(83, 103, 214, 0.025) 0 1px, transparent 1px 72px);
+  }
+
+  .page-container {
+    width: 100%;
+    max-width: 1280px;
+    padding: 1.25rem 1rem 6rem;
+  }
+
+  @media (min-width: 768px) {
+    .page-container {
+      padding: 2rem 1.5rem 4rem;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .page-container {
+      padding: 2.5rem 2.5rem 5rem;
+    }
+  }
+
+  .page-kicker {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: var(--accent);
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0;
+  }
+
+  .panel {
+    border: 1px solid var(--border);
+    background: var(--surface);
+    box-shadow: var(--shadow-sm);
+    backdrop-filter: blur(18px);
+  }
+
+  .panel-solid {
+    border: 1px solid var(--border);
+    background: var(--surface-elevated);
+    box-shadow: var(--shadow-sm);
+  }
+
+  .pressable {
+    transition: transform 180ms cubic-bezier(0.16, 1, 0.3, 1), border-color 180ms ease, box-shadow
+      180ms ease, background-color 180ms ease;
+  }
+
+  .pressable:hover {
+    transform: translateY(-2px);
+    border-color: var(--border-strong);
+    box-shadow: var(--shadow-md);
+  }
+
+  .soft-divider {
+    border-color: color-mix(in srgb, var(--border) 76%, transparent);
   }
 }

@@ -1,8 +1,5 @@
 "use client"
 
-import { ChevronLeft, Loader2, Play, Square, Volume2 } from "lucide-react"
-import Link from "next/link"
-import { useEffect, useRef, useState } from "react"
 import { FuriganaText } from "@/components/furigana-text"
 import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
@@ -10,6 +7,9 @@ import { Card, CardContent } from "@/components/ui/card"
 import type { Dialogue } from "@/lib/db/schema"
 import { ensureVoicesLoaded, speakJapanese } from "@/lib/speech"
 import { cn } from "@/lib/utils"
+import { ChevronLeft, Loader2, Play, Square, Volume2 } from "lucide-react"
+import Link from "next/link"
+import { useEffect, useRef, useState } from "react"
 
 interface Props {
   dialogue: Dialogue
@@ -76,9 +76,8 @@ export function DialogueReader({ dialogue }: Props) {
   }
 
   return (
-    <div className="px-6 lg:px-12 py-8 lg:py-12 max-w-3xl mx-auto space-y-8">
-      {/* Header */}
-      <div>
+    <div className="page-container mx-auto max-w-4xl space-y-8">
+      <div className="panel-solid rounded-lg p-5 sm:p-7">
         <Button asChild variant="ghost" size="sm" className="-ml-3 mb-2">
           <Link href="/dialogues">
             <ChevronLeft className="h-4 w-4" />
@@ -86,7 +85,7 @@ export function DialogueReader({ dialogue }: Props) {
           </Link>
         </Button>
         <div className="flex items-center justify-between gap-3">
-          <h1 className="text-2xl font-jp-serif font-medium tracking-tight" lang="ja">
+          <h1 className="font-jp-serif text-2xl font-medium text-fg" lang="ja">
             {dialogue.title}
           </h1>
           <div className="flex items-center gap-2 shrink-0">
@@ -101,8 +100,7 @@ export function DialogueReader({ dialogue }: Props) {
         )}
       </div>
 
-      {/* Toolbar */}
-      <div className="flex items-center gap-2">
+      <div className="panel flex items-center gap-2 rounded-lg p-2">
         {playingAll ? (
           <Button variant="secondary" size="sm" onClick={stopAll}>
             <Square className="h-4 w-4" />
@@ -114,26 +112,21 @@ export function DialogueReader({ dialogue }: Props) {
             朗读全段
           </Button>
         )}
-        <Button
-          variant="ghost"
-          size="sm"
-          onClick={() => setShowFurigana((v) => !v)}
-        >
+        <Button variant="ghost" size="sm" onClick={() => setShowFurigana((v) => !v)}>
           <Volume2 className="h-4 w-4" />
           {showFurigana ? "隐藏" : "显示"}假名
         </Button>
       </div>
 
-      {/* Turns */}
       <div className="space-y-4">
         {dialogue.turns.map((turn, i) => {
           const isCurrent = playingTurnIdx === i
           return (
             <Card
-              key={i}
+              key={`${turn.speaker}-${turn.japanese}`}
               className={cn(
-                "transition-shadow",
-                isCurrent && "ring-2 ring-accent shadow-sm",
+                "transition-[box-shadow,border-color]",
+                isCurrent && "border-accent ring-2 ring-accent/20 shadow-sm",
               )}
             >
               <CardContent className="p-5 space-y-3">
@@ -153,15 +146,8 @@ export function DialogueReader({ dialogue }: Props) {
                     )}
                   </Button>
                 </div>
-                <p
-                  lang="ja"
-                  className="font-jp-serif text-fg text-xl leading-relaxed"
-                >
-                  <FuriganaText
-                    text={turn.japanese}
-                    tokens={turn.tokens}
-                    showRuby={showFurigana}
-                  />
+                <p lang="ja" className="font-jp-serif text-fg text-xl leading-relaxed">
+                  <FuriganaText text={turn.japanese} tokens={turn.tokens} showRuby={showFurigana} />
                 </p>
                 <p className="text-sm text-fg-secondary" lang="zh-CN">
                   {turn.chinese}

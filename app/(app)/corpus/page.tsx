@@ -31,16 +31,14 @@ export default async function CorpusPage() {
   const packFiles = listPackFiles()
 
   return (
-    <div className="px-4 py-5 sm:px-6 lg:px-10 lg:py-8">
-      <div className="mx-auto max-w-7xl space-y-6">
-        <header className="rounded-xl border border-border bg-surface px-5 py-5 shadow-xs">
+    <div className="page-container">
+      <div className="space-y-6">
+        <header className="panel-solid rounded-lg px-5 py-5 sm:px-8 sm:py-7">
           <div className="flex flex-col gap-4 md:flex-row md:items-end md:justify-between">
             <div>
-              <p className="text-xs font-medium uppercase tracking-wider text-fg-tertiary">
-                Corpus Engine
-              </p>
-              <h1 className="mt-2 text-3xl font-semibold tracking-tight text-fg">语料工坊</h1>
-              <p className="mt-2 max-w-2xl text-base text-fg-secondary">
+              <p className="page-kicker">Corpus Engine</p>
+              <h1 className="mt-2 text-3xl font-semibold text-fg sm:text-4xl">语料工坊</h1>
+              <p className="mt-2 max-w-2xl text-base leading-relaxed text-fg-secondary">
                 用 AI 批量生成可训练内容，审阅后导入；每次导入只增量更新，不清空旧积累。
               </p>
             </div>
@@ -64,9 +62,7 @@ export default async function CorpusPage() {
             <div className="flex items-center justify-between gap-4">
               <div>
                 <Badge variant="accent">Protocol</Badge>
-                <h2 className="mt-3 text-2xl font-semibold tracking-tight text-fg">
-                  AI 内容包流程
-                </h2>
+                <h2 className="mt-3 text-2xl font-semibold text-fg">AI 内容包流程</h2>
               </div>
               <Boxes className="h-6 w-6 text-fg-tertiary" strokeWidth={1.75} />
             </div>
@@ -93,7 +89,7 @@ export default async function CorpusPage() {
             <div className="flex items-start justify-between gap-4">
               <div>
                 <Badge variant="outline">Commands</Badge>
-                <h2 className="mt-3 text-2xl font-semibold tracking-tight text-fg">当前内容包</h2>
+                <h2 className="mt-3 text-2xl font-semibold text-fg">当前内容包</h2>
               </div>
               <span className="font-mono text-sm text-fg-tertiary">{packFiles.length} files</span>
             </div>
@@ -103,7 +99,7 @@ export default async function CorpusPage() {
               <CommandLine command="pnpm corpus:import" />
             </div>
 
-            <div className="mt-6 rounded-lg border border-border bg-surface-tint">
+            <div className="mt-6 overflow-hidden rounded-lg border border-border bg-white/58">
               {packFiles.length > 0 ? (
                 <div className="divide-y divide-border">
                   {packFiles.map((file) => (
@@ -160,7 +156,7 @@ function Step({
 }) {
   return (
     <div className="flex gap-3">
-      <div className="grid h-9 w-9 shrink-0 place-items-center rounded-lg border border-border bg-bg-subtle text-fg-secondary">
+      <div className="grid h-9 w-9 shrink-0 place-items-center rounded-lg border border-border bg-surface-tint text-accent">
         <Icon className="h-4 w-4" strokeWidth={1.75} />
       </div>
       <div>
@@ -173,7 +169,7 @@ function Step({
 
 function CommandLine({ command }: { command: string }) {
   return (
-    <div className="rounded-lg border border-border bg-bg-subtle px-3 py-2 font-mono text-xs text-fg-secondary">
+    <div className="rounded-lg border border-border bg-white/68 px-3 py-2 font-mono text-xs text-fg-secondary">
       {command}
     </div>
   )

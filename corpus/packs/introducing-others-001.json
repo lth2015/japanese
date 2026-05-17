@@ -28,7 +28,9 @@
       "externalId": "s002",
       "japanese": "こちらが〇〇さんです。",
       "tokens": [
-        { "text": "こちらが〇〇さんです。" }
+        { "text": "こちらが" },
+        { "text": "〇〇", "kana": "まるまる" },
+        { "text": "さんです。" }
       ],
       "kana": "こちらがまるまるさんです",
       "chinese": "这位是〇〇先生。",
@@ -43,7 +45,7 @@
       "externalId": "s003",
       "japanese": "〇〇会社の田中さんです。",
       "tokens": [
-        { "text": "〇〇" },
+        { "text": "〇〇", "kana": "まるまる" },
         { "text": "会社", "kana": "かいしゃ" },
         { "text": "の" },
         { "text": "田中", "kana": "たなか" },
@@ -119,14 +121,15 @@
       "externalId": "s007",
       "japanese": "〇〇でお世話になっている方です。",
       "tokens": [
-        { "text": "〇〇でお" },
+        { "text": "〇〇", "kana": "まるまる" },
+        { "text": "でお" },
         { "text": "世話", "kana": "せわ" },
         { "text": "になっている" },
         { "text": "方", "kana": "かた" },
         { "text": "です。" }
       ],
       "kana": "まるまるでおせわになっているかたです",
-      "chinese": "在〇〇方面一直关照我的人。",
+      "chinese": "这位是在〇〇方面一直关照我的人。",
       "category": "smalltalk",
       "register": "敬語",
       "difficulty": 2,
@@ -155,19 +158,19 @@
     },
     {
       "externalId": "s009",
-      "japanese": "ぜひ仲良くしてあげてください。",
+      "japanese": "ぜひ仲良くしてください。",
       "tokens": [
         { "text": "ぜひ" },
         { "text": "仲良く", "kana": "なかよく" },
-        { "text": "してあげてください。" }
+        { "text": "してください。" }
       ],
-      "kana": "ぜひなかよくしてあげてください",
+      "kana": "ぜひなかよくしてください",
       "chinese": "请二位多多关照。",
       "category": "request",
       "register": "丁寧",
       "difficulty": 2,
       "frequencyRank": 82,
-      "chunkPattern": "ぜひ~してあげてください",
+      "chunkPattern": "ぜひ~してください",
       "tags": ["display", "intro", "wish-getting-along"]
     },
     {
@@ -181,7 +184,7 @@
         { "text": "いただければ。" }
       ],
       "kana": "おはなしたのしんでいただければ",
-      "chinese": "希望您们聊得开心。",
+      "chinese": "希望二位聊得愉快。",
       "category": "smalltalk",
       "register": "敬語",
       "difficulty": 3,

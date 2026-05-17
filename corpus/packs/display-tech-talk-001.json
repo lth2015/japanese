@@ -127,11 +127,11 @@
       "externalId": "s008",
       "japanese": "Wi-Fi繋がらない。",
       "tokens": [
-        { "text": "Wi-Fi" },
+        { "text": "Wi-Fi", "kana": "わいふぁい" },
         { "text": "繋がらない", "kana": "つながらない" },
         { "text": "。" }
       ],
-      "kana": "Wi-Fiつながらない",
+      "kana": "わいふぁいつながらない",
       "chinese": "Wi-Fi 连不上。",
       "category": "smalltalk",
       "register": "カジュアル",

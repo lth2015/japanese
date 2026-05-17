@@ -1,7 +1,5 @@
 "use client"
 
-import { Search } from "lucide-react"
-import { useMemo, useState } from "react"
 import { SentenceCard } from "@/components/sentence-card"
 import { Badge } from "@/components/ui/badge"
 import { Card, CardContent } from "@/components/ui/card"
@@ -9,6 +7,8 @@ import { Input } from "@/components/ui/input"
 import { Tabs, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import type { Sentence } from "@/lib/db/schema"
 import { cn } from "@/lib/utils"
+import { Search } from "lucide-react"
+import { useMemo, useState } from "react"
 
 const CATEGORIES = [
   { value: "all", label: "全部" },
@@ -49,8 +49,7 @@ export function LibraryClient({ sentences }: { sentences: Sentence[] }) {
 
   return (
     <div className="space-y-6">
-      {/* Filter bar */}
-      <div className="flex flex-col-reverse md:flex-row md:items-center gap-3">
+      <div className="panel flex flex-col-reverse gap-3 rounded-lg p-3 md:flex-row md:items-center">
         <Tabs value={tab} onValueChange={(v) => setTab(v as Category)}>
           <TabsList className="overflow-x-auto whitespace-nowrap max-w-full">
             {CATEGORIES.map((c) => (
@@ -74,25 +73,17 @@ export function LibraryClient({ sentences }: { sentences: Sentence[] }) {
         </div>
       </div>
 
-      <p className="text-xs text-fg-tertiary tabular font-mono">
+      <p className="font-mono text-xs text-fg-tertiary tabular">
         {filtered.length} / {sentences.length} 句
       </p>
 
-      {/* Card grid — denser on wide screens */}
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4">
         {filtered.map((s) => (
-          <Card
-            key={s.id}
-            className={cn(
-              "group hover:shadow-sm hover:-translate-y-px transition-all duration-200",
-            )}
-          >
+          <Card key={s.id} className={cn("pressable group overflow-hidden")}>
             <CardContent className="p-6 space-y-4">
               <div className="flex items-center justify-between">
                 <Badge variant={categoryVariant(s.category)}>{categoryLabel(s.category)}</Badge>
-                <span className="text-xs text-fg-tertiary tabular">
-                  {DIFF_LABEL[s.difficulty]}
-                </span>
+                <span className="text-xs text-fg-tertiary tabular">{DIFF_LABEL[s.difficulty]}</span>
               </div>
               <SentenceCard sentence={s} size="sm" className="!items-start text-left" />
             </CardContent>

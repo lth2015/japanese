@@ -136,7 +136,8 @@
       "externalId": "s008",
       "japanese": "ATMが故障しているようです。",
       "tokens": [
-        { "text": "ATMが" },
+        { "text": "ATM", "kana": "えーてぃーえむ" },
+        { "text": "が" },
         { "text": "故障", "kana": "こしょう" },
         { "text": "しているようです。" }
       ],

@@ -56,6 +56,8 @@ const config: Config = {
           soft: "var(--danger-soft)",
         },
         vermilion: "var(--vermilion)",
+        indigo: "var(--indigo)",
+        lemon: "var(--lemon)",
 
         // shadcn semantic aliases (so shadcn snippets work without surgery)
         background: "var(--bg)",
@@ -91,9 +93,9 @@ const config: Config = {
         sm: "4px",
         DEFAULT: "6px",
         md: "8px",
-        lg: "10px",
-        xl: "14px",
-        "2xl": "20px",
+        lg: "8px",
+        xl: "8px",
+        "2xl": "8px",
       },
       boxShadow: {
         xs: "var(--shadow-xs)",

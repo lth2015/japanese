@@ -1,8 +1,8 @@
-import { BookOpen, FileText, Mail, MessageSquare } from "lucide-react"
-import Link from "next/link"
 import { Badge } from "@/components/ui/badge"
 import { Card, CardContent } from "@/components/ui/card"
 import { listPassages } from "@/lib/actions/passages"
+import { BookOpen, FileText, Mail, MessageSquare } from "lucide-react"
+import Link from "next/link"
 
 export const dynamic = "force-dynamic"
 
@@ -17,13 +17,18 @@ const SOURCE_LABEL: Record<string, { label: string; icon: typeof FileText }> = {
 export default async function PassagesPage() {
   const passages = await listPassages()
   return (
-    <div className="px-6 lg:px-10 py-8 lg:py-12 space-y-8">
-      <header className="space-y-2">
-        <p className="text-xs font-medium uppercase tracking-wider text-fg-tertiary">阅读</p>
-        <h1 className="text-3xl font-semibold tracking-tight text-fg">短文</h1>
-        <p className="text-base text-fg-secondary max-w-2xl">
-          用你"读"的强项作为入口。读懂全文 → 用日语回答问题 → 输出。
-        </p>
+    <div className="page-container space-y-8">
+      <header className="panel-solid rounded-lg p-6 sm:p-8">
+        <p className="page-kicker">Reading</p>
+        <div className="mt-3 flex flex-col gap-4 md:flex-row md:items-end md:justify-between">
+          <div>
+            <h1 className="text-3xl font-semibold text-fg sm:text-4xl">短文</h1>
+            <p className="mt-2 max-w-2xl text-base leading-relaxed text-fg-secondary">
+              用你“读”的强项作为入口。读懂全文，再把理解转成日语回答。
+            </p>
+          </div>
+          <Badge variant="accent">{passages.length} 篇</Badge>
+        </div>
       </header>
 
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4">
@@ -32,29 +37,23 @@ export default async function PassagesPage() {
           const Icon = meta.icon
           return (
             <Link key={p.id} href={`/passages/${p.id}`} className="group">
-              <Card className="hover:shadow-sm hover:-translate-y-px transition-all duration-200 h-full">
+              <Card className="pressable h-full overflow-hidden">
                 <CardContent className="p-6 space-y-4 h-full flex flex-col">
                   <div className="flex items-center justify-between">
-                    <div className="h-9 w-9 rounded-md bg-bg-subtle border border-border grid place-items-center shrink-0">
-                      <Icon className="h-4 w-4 text-fg-secondary" strokeWidth={1.75} />
+                    <div className="grid h-10 w-10 shrink-0 place-items-center rounded-lg border border-border bg-surface-tint text-accent">
+                      <Icon className="h-5 w-5" strokeWidth={1.75} />
                     </div>
                     <Badge>{meta.label}</Badge>
                   </div>
-                  <h2
-                    className="font-jp-serif text-lg text-fg leading-snug font-medium"
-                    lang="ja"
-                  >
+                  <h2 className="font-jp-serif text-lg text-fg leading-snug font-medium" lang="ja">
                     {p.title}
                   </h2>
                   {p.description && (
-                    <p
-                      className="text-sm text-fg-secondary line-clamp-2 flex-1"
-                      lang="zh-CN"
-                    >
+                    <p className="text-sm text-fg-secondary line-clamp-2 flex-1" lang="zh-CN">
                       {p.description}
                     </p>
                   )}
-                  <div className="flex items-center gap-3 text-xs text-fg-tertiary tabular pt-2 border-t border-border">
+                  <div className="flex items-center gap-3 border-t border-border pt-2 text-xs text-fg-tertiary tabular">
                     <span>难度 {p.difficulty}/5</span>
                     {p.lengthWords && <span>· {p.lengthWords} 字</span>}
                     <span>· {p.questions?.length ?? 0} 题</span>

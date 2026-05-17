@@ -1,9 +1,9 @@
 "use client"
 
+import { cn } from "@/lib/utils"
 import { BookOpen, Home, PencilLine, Volume2, Zap } from "lucide-react"
 import Link from "next/link"
 import { usePathname } from "next/navigation"
-import { cn } from "@/lib/utils"
 
 const NAV = [
   { href: "/", label: "首页", icon: Home },
@@ -17,10 +17,10 @@ export function BottomNav() {
   const pathname = usePathname()
   return (
     <nav
-      className="lg:hidden fixed bottom-0 inset-x-0 z-40 border-t border-border bg-surface/95 backdrop-blur-md"
+      className="fixed inset-x-0 bottom-0 z-40 border-t border-border bg-white/82 shadow-lg backdrop-blur-2xl lg:hidden"
       style={{ paddingBottom: "env(safe-area-inset-bottom)" }}
     >
-      <div className="grid grid-cols-5 h-14">
+      <div className="grid h-16 grid-cols-5 px-1">
         {NAV.map(({ href, label, icon: Icon }) => {
           const active = pathname === href || (href !== "/" && pathname.startsWith(href))
           return (
@@ -28,8 +28,8 @@ export function BottomNav() {
               key={href}
               href={href}
               className={cn(
-                "flex flex-col items-center justify-center gap-0.5 text-xs transition-colors",
-                active ? "text-accent" : "text-fg-tertiary",
+                "my-1 flex flex-col items-center justify-center gap-0.5 rounded-lg text-xs transition-colors",
+                active ? "bg-accent-soft text-accent" : "text-fg-tertiary",
               )}
             >
               <Icon className="h-5 w-5" strokeWidth={active ? 2 : 1.75} />

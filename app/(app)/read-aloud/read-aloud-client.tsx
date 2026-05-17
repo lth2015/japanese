@@ -1,27 +1,24 @@
 "use client"
 
-import { ArrowRight, Check, Loader2, Mic, MicOff, Play, RotateCcw, Volume2 } from "lucide-react"
-import { useEffect, useRef, useState, useTransition } from "react"
 import { FuriganaText } from "@/components/furigana-text"
 import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
-import {
-  getNextReadAloudSentence,
-  submitReadAloudAttempt,
-} from "@/lib/actions/read-aloud"
 import { applyRating as applyRatingAction } from "@/lib/actions/progress"
-import { diff, type DiffSegment } from "@/lib/diff"
+import { getNextReadAloudSentence, submitReadAloudAttempt } from "@/lib/actions/read-aloud"
 import type { Sentence } from "@/lib/db/schema"
+import { type DiffSegment, diff } from "@/lib/diff"
 import { stageLabel } from "@/lib/progress"
 import {
+  type SttListener,
   ensureVoicesLoaded,
   isSttSupported,
   speakJapanese,
   startJapaneseSTT,
-  type SttListener,
 } from "@/lib/speech"
 import { cn } from "@/lib/utils"
+import { ArrowRight, Check, Loader2, Mic, MicOff, Play, RotateCcw, Volume2 } from "lucide-react"
+import { useEffect, useRef, useState, useTransition } from "react"
 
 type Next = { sentence: Sentence; isReview: boolean; isUnlocked: boolean } | null
 
@@ -160,17 +157,14 @@ export function ReadAloudClient({ initial }: Props) {
   }
 
   return (
-    <div className="min-h-[calc(100dvh-5rem)] lg:min-h-screen flex flex-col">
-      {/* Header — pinned top */}
-      <div className="max-w-3xl mx-auto w-full px-6 lg:px-10 pt-8 lg:pt-10 shrink-0">
-        <header className="flex items-center justify-between gap-4 flex-wrap">
+    <div className="flex min-h-[calc(100dvh-5rem)] flex-col lg:min-h-screen">
+      <div className="mx-auto w-full max-w-4xl shrink-0 px-4 pt-5 sm:px-6 lg:px-10 lg:pt-8">
+        <header className="panel flex flex-wrap items-center justify-between gap-4 rounded-lg px-4 py-3">
           <div className="flex items-center gap-2 text-sm text-fg-secondary">
             <Volume2 className="h-4 w-4 text-accent" strokeWidth={1.75} />
             <span className="font-medium">Stage 2.5 · 音読</span>
             {current.isReview && <Badge variant="warning">复习</Badge>}
-            {!current.isUnlocked && (
-              <Badge variant="outline">先到 Stage 2 效果更好</Badge>
-            )}
+            {!current.isUnlocked && <Badge variant="outline">先到 Stage 2 效果更好</Badge>}
           </div>
           <div className="flex items-center gap-4">
             <button
@@ -190,7 +184,7 @@ export function ReadAloudClient({ initial }: Props) {
       {/* Content area — vertical-centered during practice, top-aligned post-submit */}
       <div
         className={cn(
-          "max-w-3xl mx-auto w-full px-6 lg:px-10 pb-16 flex-1 min-h-0 flex flex-col",
+          "mx-auto min-h-0 w-full max-w-4xl flex-1 px-4 pb-16 sm:px-6 lg:px-10 flex flex-col",
           phase === "submitted" ? "pt-10" : "justify-center",
         )}
       >
@@ -204,167 +198,165 @@ export function ReadAloudClient({ initial }: Props) {
           </p>
         </section>
 
-      {/* Controls */}
-      <section className="space-y-4">
-        <div className="flex items-center justify-center gap-3">
-          <Button
-            variant="secondary"
-            size="lg"
-            onClick={handlePlayTTS}
-            disabled={phase === "listening-tts" || phase === "listening-stt"}
-          >
-            {phase === "listening-tts" ? (
-              <Loader2 className="h-4 w-4 animate-spin" />
-            ) : (
-              <Play className="h-4 w-4" />
-            )}
-            播放标准发音
-          </Button>
-
-          {phase !== "listening-stt" ? (
+        {/* Controls */}
+        <section className="space-y-4">
+          <div className="flex items-center justify-center gap-3">
             <Button
+              variant="secondary"
               size="lg"
-              onClick={handleStartRecord}
-              disabled={phase !== "idle" || !sttSupported}
-              className={cn(
-                "min-w-44",
-                !sttSupported && "opacity-60",
-              )}
+              onClick={handlePlayTTS}
+              disabled={phase === "listening-tts" || phase === "listening-stt"}
             >
-              <Mic className="h-4 w-4" />
-              开始朗读
+              {phase === "listening-tts" ? (
+                <Loader2 className="h-4 w-4 animate-spin" />
+              ) : (
+                <Play className="h-4 w-4" />
+              )}
+              播放标准发音
             </Button>
-          ) : (
-            <Button size="lg" variant="destructive" onClick={handleStopRecord}>
-              <MicOff className="h-4 w-4 animate-pulse-record" />
-              结束（正在听...）
-            </Button>
+
+            {phase !== "listening-stt" ? (
+              <Button
+                size="lg"
+                onClick={handleStartRecord}
+                disabled={phase !== "idle" || !sttSupported}
+                className={cn("min-w-44", !sttSupported && "opacity-60")}
+              >
+                <Mic className="h-4 w-4" />
+                开始朗读
+              </Button>
+            ) : (
+              <Button size="lg" variant="destructive" onClick={handleStopRecord}>
+                <MicOff className="h-4 w-4 animate-pulse-record" />
+                结束（正在听...）
+              </Button>
+            )}
+          </div>
+
+          {phase === "listening-stt" && (
+            <p className="text-center text-sm text-fg-secondary">
+              🎙 正在听... 朗读后浏览器会自动结束。
+              {transcript && <span className="block font-jp text-fg mt-2">{transcript}</span>}
+            </p>
           )}
-        </div>
 
-        {phase === "listening-stt" && (
-          <p className="text-center text-sm text-fg-secondary">
-            🎙 正在听... 朗读后浏览器会自动结束。
-            {transcript && <span className="block font-jp text-fg mt-2">{transcript}</span>}
-          </p>
-        )}
+          {errorMsg && (
+            <p className="text-sm text-danger text-center" role="alert">
+              {errorMsg}
+            </p>
+          )}
 
-        {errorMsg && (
-          <p className="text-sm text-danger text-center" role="alert">
-            {errorMsg}
-          </p>
-        )}
+          {!sttSupported && (
+            <p className="text-xs text-fg-tertiary text-center">
+              你的浏览器不支持 Web Speech API。建议用 Chrome 或 macOS Safari。
+            </p>
+          )}
+        </section>
 
-        {!sttSupported && (
-          <p className="text-xs text-fg-tertiary text-center">
-            你的浏览器不支持 Web Speech API。建议用 Chrome 或 macOS Safari。
-          </p>
-        )}
-      </section>
-
-      {/* Feedback */}
-      {phase === "submitted" && feedback && (
-        <section className="mt-10 space-y-6 animate-fade-in">
-          <Card>
-            <CardContent className="p-6 space-y-5">
-              <div className="space-y-1.5">
-                <p className="text-xs text-fg-tertiary">浏览器识别到的</p>
-                <p lang="ja" className="font-jp text-fg text-2xl">
-                  {transcript}
-                </p>
-              </div>
-
-              <div className="space-y-1.5">
-                <div className="flex items-center justify-between">
-                  <p className="text-xs text-fg-tertiary">原句</p>
-                  <span
-                    className={cn(
-                      "text-xs tabular font-mono",
-                      feedback.matchRatio >= 0.85
-                        ? "text-success"
-                        : feedback.matchRatio >= 0.6
-                          ? "text-warning"
-                          : "text-danger",
-                    )}
-                  >
-                    匹配 {Math.round(feedback.matchRatio * 100)}%
-                  </span>
-                </div>
-                <p className="font-jp-serif text-fg text-3xl font-medium">
-                  <FuriganaText text={s.japanese} tokens={s.tokens} showRuby={true} />
-                </p>
-              </div>
-
-              {feedback.matchRatio < 1 && (
+        {/* Feedback */}
+        {phase === "submitted" && feedback && (
+          <section className="mt-10 space-y-6 animate-fade-in">
+            <Card>
+              <CardContent className="p-6 space-y-5">
                 <div className="space-y-1.5">
-                  <p className="text-xs text-fg-tertiary">差异</p>
-                  <p lang="ja" className="font-jp text-base leading-relaxed">
-                    {feedback.diffSegs.map((seg, i) => (
-                      <DiffSpan key={i} segment={seg} />
-                    ))}
+                  <p className="text-xs text-fg-tertiary">浏览器识别到的</p>
+                  <p lang="ja" className="font-jp text-fg text-2xl">
+                    {transcript}
                   </p>
                 </div>
-              )}
 
-              <p className="text-xs text-fg-tertiary leading-relaxed">
-                注：浏览器 STT 不完美，识别错≠你读错。**自评才是真实信号**——感觉自己读出来了就给"完美"。
-              </p>
-            </CardContent>
-          </Card>
-
-          {!feedback.rated && (
-            <Card>
-              <CardContent className="p-5 space-y-4">
-                <p className="text-sm text-fg">这次自己感觉：</p>
-                <div className="grid grid-cols-3 gap-2">
-                  <Button
-                    variant="secondary"
-                    className="!border-success/40 hover:!border-success"
-                    onClick={() => handleRate(5)}
-                    disabled={isPending}
-                  >
-                    <Check className="h-4 w-4 text-success" />
-                    顺畅
-                  </Button>
-                  <Button
-                    variant="secondary"
-                    className="!border-warning/40 hover:!border-warning"
-                    onClick={() => handleRate(3)}
-                    disabled={isPending}
-                  >
-                    <Check className="h-4 w-4 text-warning" />
-                    勉强
-                  </Button>
-                  <Button
-                    variant="secondary"
-                    className="!border-danger/40 hover:!border-danger"
-                    onClick={() => handleRate(1)}
-                    disabled={isPending}
-                  >
-                    <RotateCcw className="h-4 w-4 text-danger" />
-                    需要再练
-                  </Button>
+                <div className="space-y-1.5">
+                  <div className="flex items-center justify-between">
+                    <p className="text-xs text-fg-tertiary">原句</p>
+                    <span
+                      className={cn(
+                        "text-xs tabular font-mono",
+                        feedback.matchRatio >= 0.85
+                          ? "text-success"
+                          : feedback.matchRatio >= 0.6
+                            ? "text-warning"
+                            : "text-danger",
+                      )}
+                    >
+                      匹配 {Math.round(feedback.matchRatio * 100)}%
+                    </span>
+                  </div>
+                  <p className="font-jp-serif text-fg text-3xl font-medium">
+                    <FuriganaText text={s.japanese} tokens={s.tokens} showRuby={true} />
+                  </p>
                 </div>
+
+                {feedback.matchRatio < 1 && (
+                  <div className="space-y-1.5">
+                    <p className="text-xs text-fg-tertiary">差异</p>
+                    <p lang="ja" className="font-jp text-base leading-relaxed">
+                      {feedback.diffSegs.map((seg, i) => (
+                        <DiffSpan key={`${seg.op}-${seg.user}-${seg.target}-${i}`} segment={seg} />
+                      ))}
+                    </p>
+                  </div>
+                )}
+
+                <p className="text-xs text-fg-tertiary leading-relaxed">
+                  注：浏览器 STT
+                  不完美，识别错≠你读错。**自评才是真实信号**——感觉自己读出来了就给"完美"。
+                </p>
               </CardContent>
             </Card>
-          )}
 
-          {feedback.rated && (
-            <div className="rounded-xl border border-border bg-surface px-5 py-3 flex items-center gap-3 animate-fade-in">
-              <Volume2 className="h-4 w-4 text-accent" strokeWidth={1.75} />
-              <p className="text-sm text-fg-secondary flex-1">
-                进度更新：<span className="text-fg">{feedback.ratingMessage}</span>
-              </p>
+            {!feedback.rated && (
+              <Card>
+                <CardContent className="p-5 space-y-4">
+                  <p className="text-sm text-fg">这次自己感觉：</p>
+                  <div className="grid grid-cols-3 gap-2">
+                    <Button
+                      variant="secondary"
+                      className="!border-success/40 hover:!border-success"
+                      onClick={() => handleRate(5)}
+                      disabled={isPending}
+                    >
+                      <Check className="h-4 w-4 text-success" />
+                      顺畅
+                    </Button>
+                    <Button
+                      variant="secondary"
+                      className="!border-warning/40 hover:!border-warning"
+                      onClick={() => handleRate(3)}
+                      disabled={isPending}
+                    >
+                      <Check className="h-4 w-4 text-warning" />
+                      勉强
+                    </Button>
+                    <Button
+                      variant="secondary"
+                      className="!border-danger/40 hover:!border-danger"
+                      onClick={() => handleRate(1)}
+                      disabled={isPending}
+                    >
+                      <RotateCcw className="h-4 w-4 text-danger" />
+                      需要再练
+                    </Button>
+                  </div>
+                </CardContent>
+              </Card>
+            )}
+
+            {feedback.rated && (
+              <div className="rounded-xl border border-border bg-surface px-5 py-3 flex items-center gap-3 animate-fade-in">
+                <Volume2 className="h-4 w-4 text-accent" strokeWidth={1.75} />
+                <p className="text-sm text-fg-secondary flex-1">
+                  进度更新：<span className="text-fg">{feedback.ratingMessage}</span>
+                </p>
+              </div>
+            )}
+
+            <div className="flex items-center justify-end gap-2">
+              <Button onClick={handleNext} disabled={isPending || !feedback.rated}>
+                下一句 <ArrowRight className="h-4 w-4" />
+              </Button>
             </div>
-          )}
-
-          <div className="flex items-center justify-end gap-2">
-            <Button onClick={handleNext} disabled={isPending || !feedback.rated}>
-              下一句 <ArrowRight className="h-4 w-4" />
-            </Button>
-          </div>
-        </section>
-      )}
+          </section>
+        )}
       </div>
     </div>
   )
@@ -381,9 +373,7 @@ function DiffSpan({ segment }: { segment: DiffSegment }) {
         </span>
       )
     case "insert":
-      return (
-        <span className="bg-success-soft text-success rounded px-0.5">{segment.target}</span>
-      )
+      return <span className="bg-success-soft text-success rounded px-0.5">{segment.target}</span>
     case "replace":
       return (
         <span className="bg-warning-soft text-warning rounded px-0.5">

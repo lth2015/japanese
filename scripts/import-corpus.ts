@@ -117,6 +117,12 @@ type CorpusPack = z.infer<typeof packSchema>
 type CorpusSentence = z.infer<typeof sentenceSchema>
 type CorpusDialogue = z.infer<typeof dialogueSchema>
 type CorpusPassage = z.infer<typeof passageSchema>
+type CorpusToken = z.infer<typeof tokenSchema>
+type LintableJapaneseItem = {
+  japanese: string
+  tokens?: CorpusToken[]
+  kana?: string
+}
 
 const dryRun = process.argv.includes("--dry-run")
 const explicitFiles = process.argv.slice(2).filter((arg) => !arg.startsWith("--"))
@@ -302,10 +308,9 @@ function lintPack(pack: CorpusPack) {
     }
     japanese.add(sentence.japanese)
 
-    const tokenText = sentence.tokens.map((token) => token.text).join("")
-    if (tokenText !== sentence.japanese) {
-      warnings.push(`tokens do not concatenate to sentence: ${sentence.japanese}`)
-    }
+    warnings.push(
+      ...lintJapaneseItem(`sentence ${sentence.externalId ?? sentence.japanese}`, sentence),
+    )
   }
 
   for (const dialogue of pack.dialogues) {
@@ -313,6 +318,7 @@ function lintPack(pack: CorpusPack) {
       if (!turn.tokens?.length && !turn.kana) {
         warnings.push(`dialogue turn lacks tokens/kana: ${dialogue.title} / ${turn.speaker}`)
       }
+      warnings.push(...lintJapaneseItem(`dialogue ${dialogue.title} / ${turn.speaker}`, turn))
     }
   }
 
@@ -320,7 +326,69 @@ function lintPack(pack: CorpusPack) {
     if (passage.questions.length === 0) {
       warnings.push(`passage has no questions: ${passage.title}`)
     }
+    for (const entry of passage.vocabulary) {
+      if (entry.kana && containsNonHiraganaReadingChars(entry.kana)) {
+        warnings.push(
+          `vocabulary kana has non-hiragana reading chars: ${passage.title} / ${entry.word}`,
+        )
+      }
+    }
   }
 
   return warnings
+}
+
+function lintJapaneseItem(label: string, item: LintableJapaneseItem) {
+  const warnings: string[] = []
+  const tokens = item.tokens ?? []
+
+  if (tokens.length > 0) {
+    const tokenText = tokens.map((token) => token.text).join("")
+    if (tokenText !== item.japanese) {
+      warnings.push(`tokens do not concatenate: ${label}`)
+    }
+  }
+
+  if (item.kana) {
+    if (containsNonHiraganaReadingChars(item.kana)) {
+      warnings.push(`kana has non-hiragana reading chars: ${label}`)
+    }
+
+    if (tokens.length > 0) {
+      const kana = normalizeReading(item.kana)
+      const tokenKana = normalizeReading(tokens.map((token) => token.kana ?? token.text).join(""))
+      if (kana !== tokenKana) {
+        warnings.push(`kana does not match token readings: ${label}`)
+      }
+    }
+  }
+
+  for (const [index, token] of tokens.entries()) {
+    if (token.kana && containsNonHiraganaReadingChars(token.kana)) {
+      warnings.push(`token kana has non-hiragana reading chars: ${label} / token ${index + 1}`)
+    }
+    if (!token.kana && tokenNeedsReading(token.text)) {
+      warnings.push(`token likely needs kana: ${label} / token ${index + 1}`)
+    }
+  }
+
+  return warnings
+}
+
+function normalizeReading(value: string) {
+  return toHiragana(value.normalize("NFKC"))
+    .replace(/[\s、。,.!?！？・「」『』（）()[\]【】:：;；〜~\-－—]/g, "")
+    .toLowerCase()
+}
+
+function toHiragana(value: string) {
+  return value.replace(/[ァ-ン]/g, (char) => String.fromCharCode(char.charCodeAt(0) - 0x60))
+}
+
+function containsNonHiraganaReadingChars(value: string) {
+  return /[0-9A-Za-zァ-ン一-龯々〆ヵヶ%]/.test(value.normalize("NFKC"))
+}
+
+function tokenNeedsReading(value: string) {
+  return /[0-9A-Za-z〇%一-龯々〆ヵヶ]/.test(value.normalize("NFKC"))
 }

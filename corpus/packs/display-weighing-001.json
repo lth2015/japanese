@@ -28,13 +28,13 @@
       "externalId": "s002",
       "japanese": "Aの方がよさそう。",
       "tokens": [
-        { "text": "A" },
+        { "text": "A", "kana": "えー" },
         { "text": "の" },
         { "text": "方", "kana": "ほう" },
         { "text": "がよさそう。" }
       ],
-      "kana": "Aのほうがよさそう",
-      "chinese": "A 那个看起来更好。",
+      "kana": "えーのほうがよさそう",
+      "chinese": "A 这个看起来更好。",
       "category": "smalltalk",
       "register": "カジュアル",
       "difficulty": 2,
@@ -65,7 +65,7 @@
         { "text": "ところだな。" }
       ],
       "kana": "まようところだな",
-      "chinese": "这地方挺纠结的。",
+      "chinese": "这点挺让人纠结的。",
       "category": "smalltalk",
       "register": "カジュアル",
       "difficulty": 2,
@@ -176,9 +176,11 @@
       "japanese": "比べると、Aがいい。",
       "tokens": [
         { "text": "比べる", "kana": "くらべる" },
-        { "text": "と、Aがいい。" }
+        { "text": "と、" },
+        { "text": "A", "kana": "えー" },
+        { "text": "がいい。" }
       ],
-      "kana": "くらべるとAがいい",
+      "kana": "くらべるとえーがいい",
       "chinese": "比起来,A 比较好。",
       "category": "progress",
       "register": "カジュアル",
@@ -209,9 +211,12 @@
       "externalId": "s013",
       "japanese": "AかBか、どっち？",
       "tokens": [
-        { "text": "AかBか、どっち？" }
+        { "text": "A", "kana": "えー" },
+        { "text": "か" },
+        { "text": "B", "kana": "びー" },
+        { "text": "か、どっち？" }
       ],
-      "kana": "AかBかどっち",
+      "kana": "えーかびーかどっち",
       "chinese": "A 还是 B,哪个？",
       "category": "request",
       "register": "カジュアル",

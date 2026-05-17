@@ -65,12 +65,11 @@
       "japanese": "あと10分でやる。",
       "tokens": [
         { "text": "あと" },
-        { "text": "10" },
-        { "text": "分", "kana": "ふん" },
+        { "text": "10分", "kana": "じゅっぷん" },
         { "text": "でやる。" }
       ],
-      "kana": "あと10ふんでやる",
-      "chinese": "再过10分钟做。",
+      "kana": "あとじゅっぷんでやる",
+      "chinese": "再过十分钟做。",
       "category": "progress",
       "register": "カジュアル",
       "difficulty": 1,
@@ -220,14 +219,13 @@
       "externalId": "s013",
       "japanese": "30分後に戻ります。",
       "tokens": [
-        { "text": "30" },
-        { "text": "分後", "kana": "ふんご" },
+        { "text": "30分後", "kana": "さんじゅっぷんご" },
         { "text": "に" },
         { "text": "戻ります", "kana": "もどります" },
         { "text": "。" }
       ],
-      "kana": "30ふんごにもどります",
-      "chinese": "30分钟后回来。",
+      "kana": "さんじゅっぷんごにもどります",
+      "chinese": "三十分钟后回来。",
       "category": "progress",
       "register": "丁寧",
       "difficulty": 2,

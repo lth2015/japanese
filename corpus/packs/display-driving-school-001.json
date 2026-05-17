@@ -1,0 +1,2840 @@
+{
+  "packVersion": 1,
+  "packId": "display-driving-school-001",
+  "title": "Display Driving School 001",
+  "generatedBy": "codex-gpt-5",
+  "generatedAt": "2026-05-17",
+  "targetProfile": "Display-optimized short Japanese driving-school phrases for learning to drive in Japan: instructor communication, vehicle operation, safety checks, parking, intersections, and basic road rules. Each sentence is concise for ambient display and TTS practice.",
+  "reviewStatus": "reviewed",
+  "sentences": [
+    {
+      "externalId": "ds001",
+      "japanese": "座席を合わせます。",
+      "tokens": [
+        {
+          "text": "座席",
+          "kana": "ざせき"
+        },
+        {
+          "text": "を"
+        },
+        {
+          "text": "合わせます",
+          "kana": "あわせます"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "ざせきをあわせます",
+      "chinese": "调整座椅。",
+      "category": "daily",
+      "register": "丁寧",
+      "difficulty": 1,
+      "frequencyRank": 1,
+      "tags": ["display", "driving-school", "basic"]
+    },
+    {
+      "externalId": "ds002",
+      "japanese": "シートベルトを締めます。",
+      "tokens": [
+        {
+          "text": "シートベルトを"
+        },
+        {
+          "text": "締めます",
+          "kana": "しめます"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "しーとべるとをしめます",
+      "chinese": "系好安全带。",
+      "category": "daily",
+      "register": "丁寧",
+      "difficulty": 1,
+      "frequencyRank": 2,
+      "tags": ["display", "driving-school", "basic"]
+    },
+    {
+      "externalId": "ds003",
+      "japanese": "ミラーを確認します。",
+      "tokens": [
+        {
+          "text": "ミラーを"
+        },
+        {
+          "text": "確認します",
+          "kana": "かくにんします"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "みらーをかくにんします",
+      "chinese": "确认后视镜。",
+      "category": "daily",
+      "register": "丁寧",
+      "difficulty": 1,
+      "frequencyRank": 3,
+      "tags": ["display", "driving-school", "basic"]
+    },
+    {
+      "externalId": "ds004",
+      "japanese": "ドアを確実に閉めます。",
+      "tokens": [
+        {
+          "text": "ドアを"
+        },
+        {
+          "text": "確実",
+          "kana": "かくじつ"
+        },
+        {
+          "text": "に"
+        },
+        {
+          "text": "閉めます",
+          "kana": "しめます"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "どあをかくじつにしめます",
+      "chinese": "把车门确实关好。",
+      "category": "daily",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 4,
+      "tags": ["display", "driving-school", "basic"]
+    },
+    {
+      "externalId": "ds005",
+      "japanese": "ブレーキを踏みます。",
+      "tokens": [
+        {
+          "text": "ブレーキを"
+        },
+        {
+          "text": "踏みます",
+          "kana": "ふみます"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "ぶれーきをふみます",
+      "chinese": "踩刹车。",
+      "category": "daily",
+      "register": "丁寧",
+      "difficulty": 1,
+      "frequencyRank": 5,
+      "tags": ["display", "driving-school", "basic"]
+    },
+    {
+      "externalId": "ds006",
+      "japanese": "エンジンをかけます。",
+      "tokens": [
+        {
+          "text": "エンジンをかけます。"
+        }
+      ],
+      "kana": "えんじんをかけます",
+      "chinese": "启动发动机。",
+      "category": "daily",
+      "register": "丁寧",
+      "difficulty": 1,
+      "frequencyRank": 6,
+      "tags": ["display", "driving-school", "basic"]
+    },
+    {
+      "externalId": "ds007",
+      "japanese": "Dレンジに入れます。",
+      "tokens": [
+        {
+          "text": "Dレンジ",
+          "kana": "でぃーれんじ"
+        },
+        {
+          "text": "に"
+        },
+        {
+          "text": "入れます",
+          "kana": "いれます"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "でぃーれんじにいれます",
+      "chinese": "挂到 D 档。",
+      "category": "daily",
+      "register": "丁寧",
+      "difficulty": 1,
+      "frequencyRank": 7,
+      "tags": ["display", "driving-school", "basic"]
+    },
+    {
+      "externalId": "ds008",
+      "japanese": "パーキングブレーキを戻します。",
+      "tokens": [
+        {
+          "text": "パーキングブレーキを"
+        },
+        {
+          "text": "戻します",
+          "kana": "もどします"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "ぱーきんぐぶれーきをもどします",
+      "chinese": "松开驻车制动。",
+      "category": "daily",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 8,
+      "tags": ["display", "driving-school", "basic"]
+    },
+    {
+      "externalId": "ds009",
+      "japanese": "ゆっくり発進します。",
+      "tokens": [
+        {
+          "text": "ゆっくり"
+        },
+        {
+          "text": "発進します",
+          "kana": "はっしんします"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "ゆっくりはっしんします",
+      "chinese": "慢慢起步。",
+      "category": "daily",
+      "register": "丁寧",
+      "difficulty": 1,
+      "frequencyRank": 9,
+      "tags": ["display", "driving-school", "basic"]
+    },
+    {
+      "externalId": "ds010",
+      "japanese": "アクセルを軽く踏みます。",
+      "tokens": [
+        {
+          "text": "アクセルを"
+        },
+        {
+          "text": "軽く",
+          "kana": "かるく"
+        },
+        {
+          "text": "踏みます",
+          "kana": "ふみます"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "あくせるをかるくふみます",
+      "chinese": "轻踩油门。",
+      "category": "daily",
+      "register": "丁寧",
+      "difficulty": 1,
+      "frequencyRank": 10,
+      "tags": ["display", "driving-school", "basic"]
+    },
+    {
+      "externalId": "ds011",
+      "japanese": "アクセルを緩めます。",
+      "tokens": [
+        {
+          "text": "アクセルを"
+        },
+        {
+          "text": "緩めます",
+          "kana": "ゆるめます"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "あくせるをゆるめます",
+      "chinese": "松一点油门。",
+      "category": "daily",
+      "register": "丁寧",
+      "difficulty": 1,
+      "frequencyRank": 11,
+      "tags": ["display", "driving-school", "basic"]
+    },
+    {
+      "externalId": "ds012",
+      "japanese": "ブレーキを少し強めます。",
+      "tokens": [
+        {
+          "text": "ブレーキを"
+        },
+        {
+          "text": "少し",
+          "kana": "すこし"
+        },
+        {
+          "text": "強めます",
+          "kana": "つよめます"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "ぶれーきをすこしつよめます",
+      "chinese": "稍微加重刹车。",
+      "category": "daily",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 12,
+      "tags": ["display", "driving-school", "basic"]
+    },
+    {
+      "externalId": "ds013",
+      "japanese": "ハンドルを戻します。",
+      "tokens": [
+        {
+          "text": "ハンドルを"
+        },
+        {
+          "text": "戻します",
+          "kana": "もどします"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "はんどるをもどします",
+      "chinese": "回正方向盘。",
+      "category": "daily",
+      "register": "丁寧",
+      "difficulty": 1,
+      "frequencyRank": 13,
+      "tags": ["display", "driving-school", "control"]
+    },
+    {
+      "externalId": "ds014",
+      "japanese": "ハンドルを切りすぎないようにします。",
+      "tokens": [
+        {
+          "text": "ハンドルを"
+        },
+        {
+          "text": "切りすぎ",
+          "kana": "きりすぎ"
+        },
+        {
+          "text": "ないようにします。"
+        }
+      ],
+      "kana": "はんどるをきりすぎないようにします",
+      "chinese": "注意不要打方向过多。",
+      "category": "daily",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 14,
+      "tags": ["display", "driving-school", "control"]
+    },
+    {
+      "externalId": "ds015",
+      "japanese": "クラッチをゆっくり戻します。",
+      "tokens": [
+        {
+          "text": "クラッチをゆっくり"
+        },
+        {
+          "text": "戻します",
+          "kana": "もどします"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "くらっちをゆっくりもどします",
+      "chinese": "慢慢松离合。",
+      "category": "daily",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 15,
+      "tags": ["display", "driving-school", "control"]
+    },
+    {
+      "externalId": "ds016",
+      "japanese": "ギアをローに入れます。",
+      "tokens": [
+        {
+          "text": "ギアをローに"
+        },
+        {
+          "text": "入れます",
+          "kana": "いれます"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "ぎあをろーにいれます",
+      "chinese": "挂一档。",
+      "category": "daily",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 16,
+      "tags": ["display", "driving-school", "control"]
+    },
+    {
+      "externalId": "ds017",
+      "japanese": "ニュートラルに戻します。",
+      "tokens": [
+        {
+          "text": "ニュートラルに"
+        },
+        {
+          "text": "戻します",
+          "kana": "もどします"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "にゅーとらるにもどします",
+      "chinese": "回到空档。",
+      "category": "daily",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 17,
+      "tags": ["display", "driving-school", "control"]
+    },
+    {
+      "externalId": "ds018",
+      "japanese": "速度を落とします。",
+      "tokens": [
+        {
+          "text": "速度",
+          "kana": "そくど"
+        },
+        {
+          "text": "を"
+        },
+        {
+          "text": "落とします",
+          "kana": "おとします"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "そくどをおとします",
+      "chinese": "降低速度。",
+      "category": "daily",
+      "register": "丁寧",
+      "difficulty": 1,
+      "frequencyRank": 18,
+      "tags": ["display", "driving-school", "control"]
+    },
+    {
+      "externalId": "ds019",
+      "japanese": "速度を保ちます。",
+      "tokens": [
+        {
+          "text": "速度",
+          "kana": "そくど"
+        },
+        {
+          "text": "を"
+        },
+        {
+          "text": "保ちます",
+          "kana": "たもちます"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "そくどをたもちます",
+      "chinese": "保持速度。",
+      "category": "daily",
+      "register": "丁寧",
+      "difficulty": 1,
+      "frequencyRank": 19,
+      "tags": ["display", "driving-school", "control"]
+    },
+    {
+      "externalId": "ds020",
+      "japanese": "徐行します。",
+      "tokens": [
+        {
+          "text": "徐行",
+          "kana": "じょこう"
+        },
+        {
+          "text": "します。"
+        }
+      ],
+      "kana": "じょこうします",
+      "chinese": "慢行。",
+      "category": "daily",
+      "register": "丁寧",
+      "difficulty": 1,
+      "frequencyRank": 20,
+      "tags": ["display", "driving-school", "control"]
+    },
+    {
+      "externalId": "ds021",
+      "japanese": "次を左折してください。",
+      "tokens": [
+        {
+          "text": "次",
+          "kana": "つぎ"
+        },
+        {
+          "text": "を"
+        },
+        {
+          "text": "左折",
+          "kana": "させつ"
+        },
+        {
+          "text": "してください。"
+        }
+      ],
+      "kana": "つぎをさせつしてください",
+      "chinese": "下一个路口请左转。",
+      "category": "daily",
+      "register": "丁寧",
+      "difficulty": 1,
+      "frequencyRank": 21,
+      "tags": ["display", "driving-school", "instructor"]
+    },
+    {
+      "externalId": "ds022",
+      "japanese": "この先を右折します。",
+      "tokens": [
+        {
+          "text": "この"
+        },
+        {
+          "text": "先",
+          "kana": "さき"
+        },
+        {
+          "text": "を"
+        },
+        {
+          "text": "右折",
+          "kana": "うせつ"
+        },
+        {
+          "text": "します。"
+        }
+      ],
+      "kana": "このさきをうせつします",
+      "chinese": "前面右转。",
+      "category": "daily",
+      "register": "丁寧",
+      "difficulty": 1,
+      "frequencyRank": 22,
+      "tags": ["display", "driving-school", "instructor"]
+    },
+    {
+      "externalId": "ds023",
+      "japanese": "ここで止まってください。",
+      "tokens": [
+        {
+          "text": "ここで"
+        },
+        {
+          "text": "止まって",
+          "kana": "とまって"
+        },
+        {
+          "text": "ください。"
+        }
+      ],
+      "kana": "ここでとまってください",
+      "chinese": "请在这里停车。",
+      "category": "daily",
+      "register": "丁寧",
+      "difficulty": 1,
+      "frequencyRank": 23,
+      "tags": ["display", "driving-school", "instructor"]
+    },
+    {
+      "externalId": "ds024",
+      "japanese": "もう少し左に寄せます。",
+      "tokens": [
+        {
+          "text": "もう"
+        },
+        {
+          "text": "少し",
+          "kana": "すこし"
+        },
+        {
+          "text": "左",
+          "kana": "ひだり"
+        },
+        {
+          "text": "に"
+        },
+        {
+          "text": "寄せます",
+          "kana": "よせます"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "もうすこしひだりによせます",
+      "chinese": "再往左靠一点。",
+      "category": "daily",
+      "register": "丁寧",
+      "difficulty": 1,
+      "frequencyRank": 24,
+      "tags": ["display", "driving-school", "instructor"]
+    },
+    {
+      "externalId": "ds025",
+      "japanese": "もう少し右に寄せます。",
+      "tokens": [
+        {
+          "text": "もう"
+        },
+        {
+          "text": "少し",
+          "kana": "すこし"
+        },
+        {
+          "text": "右",
+          "kana": "みぎ"
+        },
+        {
+          "text": "に"
+        },
+        {
+          "text": "寄せます",
+          "kana": "よせます"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "もうすこしみぎによせます",
+      "chinese": "再往右靠一点。",
+      "category": "daily",
+      "register": "丁寧",
+      "difficulty": 1,
+      "frequencyRank": 25,
+      "tags": ["display", "driving-school", "instructor"]
+    },
+    {
+      "externalId": "ds026",
+      "japanese": "路肩に寄せてください。",
+      "tokens": [
+        {
+          "text": "路肩",
+          "kana": "ろかた"
+        },
+        {
+          "text": "に"
+        },
+        {
+          "text": "寄せて",
+          "kana": "よせて"
+        },
+        {
+          "text": "ください。"
+        }
+      ],
+      "kana": "ろかたによせてください",
+      "chinese": "请靠向路肩。",
+      "category": "daily",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 26,
+      "tags": ["display", "driving-school", "instructor"]
+    },
+    {
+      "externalId": "ds027",
+      "japanese": "まっすぐ進みます。",
+      "tokens": [
+        {
+          "text": "まっすぐ"
+        },
+        {
+          "text": "進みます",
+          "kana": "すすみます"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "まっすぐすすみます",
+      "chinese": "直行。",
+      "category": "daily",
+      "register": "丁寧",
+      "difficulty": 1,
+      "frequencyRank": 27,
+      "tags": ["display", "driving-school", "instructor"]
+    },
+    {
+      "externalId": "ds028",
+      "japanese": "次の信号まで進みます。",
+      "tokens": [
+        {
+          "text": "次",
+          "kana": "つぎ"
+        },
+        {
+          "text": "の"
+        },
+        {
+          "text": "信号",
+          "kana": "しんごう"
+        },
+        {
+          "text": "まで"
+        },
+        {
+          "text": "進みます",
+          "kana": "すすみます"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "つぎのしんごうまですすみます",
+      "chinese": "开到下一个信号灯。",
+      "category": "daily",
+      "register": "丁寧",
+      "difficulty": 1,
+      "frequencyRank": 28,
+      "tags": ["display", "driving-school", "instructor"]
+    },
+    {
+      "externalId": "ds029",
+      "japanese": "合図を出します。",
+      "tokens": [
+        {
+          "text": "合図",
+          "kana": "あいず"
+        },
+        {
+          "text": "を"
+        },
+        {
+          "text": "出します",
+          "kana": "だします"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "あいずをだします",
+      "chinese": "打转向灯。",
+      "category": "daily",
+      "register": "丁寧",
+      "difficulty": 1,
+      "frequencyRank": 29,
+      "tags": ["display", "driving-school", "instructor"]
+    },
+    {
+      "externalId": "ds030",
+      "japanese": "合図を戻します。",
+      "tokens": [
+        {
+          "text": "合図",
+          "kana": "あいず"
+        },
+        {
+          "text": "を"
+        },
+        {
+          "text": "戻します",
+          "kana": "もどします"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "あいずをもどします",
+      "chinese": "关掉转向灯。",
+      "category": "daily",
+      "register": "丁寧",
+      "difficulty": 1,
+      "frequencyRank": 30,
+      "tags": ["display", "driving-school", "instructor"]
+    },
+    {
+      "externalId": "ds031",
+      "japanese": "左のミラーを見ます。",
+      "tokens": [
+        {
+          "text": "左",
+          "kana": "ひだり"
+        },
+        {
+          "text": "のミラーを"
+        },
+        {
+          "text": "見ます",
+          "kana": "みます"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "ひだりのみらーをみます",
+      "chinese": "看左侧后视镜。",
+      "category": "daily",
+      "register": "丁寧",
+      "difficulty": 1,
+      "frequencyRank": 31,
+      "tags": ["display", "driving-school", "check"]
+    },
+    {
+      "externalId": "ds032",
+      "japanese": "右のミラーを見ます。",
+      "tokens": [
+        {
+          "text": "右",
+          "kana": "みぎ"
+        },
+        {
+          "text": "のミラーを"
+        },
+        {
+          "text": "見ます",
+          "kana": "みます"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "みぎのみらーをみます",
+      "chinese": "看右侧后视镜。",
+      "category": "daily",
+      "register": "丁寧",
+      "difficulty": 1,
+      "frequencyRank": 32,
+      "tags": ["display", "driving-school", "check"]
+    },
+    {
+      "externalId": "ds033",
+      "japanese": "後ろを目視します。",
+      "tokens": [
+        {
+          "text": "後ろ",
+          "kana": "うしろ"
+        },
+        {
+          "text": "を"
+        },
+        {
+          "text": "目視",
+          "kana": "もくし"
+        },
+        {
+          "text": "します。"
+        }
+      ],
+      "kana": "うしろをもくしします",
+      "chinese": "用眼睛确认后方。",
+      "category": "daily",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 33,
+      "tags": ["display", "driving-school", "check"]
+    },
+    {
+      "externalId": "ds034",
+      "japanese": "左後方を確認します。",
+      "tokens": [
+        {
+          "text": "左後方",
+          "kana": "ひだりこうほう"
+        },
+        {
+          "text": "を"
+        },
+        {
+          "text": "確認します",
+          "kana": "かくにんします"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "ひだりこうほうをかくにんします",
+      "chinese": "确认左后方。",
+      "category": "daily",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 34,
+      "tags": ["display", "driving-school", "check"]
+    },
+    {
+      "externalId": "ds035",
+      "japanese": "右後方を確認します。",
+      "tokens": [
+        {
+          "text": "右後方",
+          "kana": "みぎこうほう"
+        },
+        {
+          "text": "を"
+        },
+        {
+          "text": "確認します",
+          "kana": "かくにんします"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "みぎこうほうをかくにんします",
+      "chinese": "确认右后方。",
+      "category": "daily",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 35,
+      "tags": ["display", "driving-school", "check"]
+    },
+    {
+      "externalId": "ds036",
+      "japanese": "巻き込みを確認します。",
+      "tokens": [
+        {
+          "text": "巻き込み",
+          "kana": "まきこみ"
+        },
+        {
+          "text": "を"
+        },
+        {
+          "text": "確認します",
+          "kana": "かくにんします"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "まきこみをかくにんします",
+      "chinese": "确认内轮差卷入风险。",
+      "category": "daily",
+      "register": "丁寧",
+      "difficulty": 3,
+      "frequencyRank": 36,
+      "tags": ["display", "driving-school", "check"]
+    },
+    {
+      "externalId": "ds037",
+      "japanese": "左右をよく見ます。",
+      "tokens": [
+        {
+          "text": "左右",
+          "kana": "さゆう"
+        },
+        {
+          "text": "をよく"
+        },
+        {
+          "text": "見ます",
+          "kana": "みます"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "さゆうをよくみます",
+      "chinese": "好好看左右。",
+      "category": "daily",
+      "register": "丁寧",
+      "difficulty": 1,
+      "frequencyRank": 37,
+      "tags": ["display", "driving-school", "check"]
+    },
+    {
+      "externalId": "ds038",
+      "japanese": "歩行者がいないか見ます。",
+      "tokens": [
+        {
+          "text": "歩行者",
+          "kana": "ほこうしゃ"
+        },
+        {
+          "text": "がいないか"
+        },
+        {
+          "text": "見ます",
+          "kana": "みます"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "ほこうしゃがいないかみます",
+      "chinese": "看有没有行人。",
+      "category": "daily",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 38,
+      "tags": ["display", "driving-school", "check"]
+    },
+    {
+      "externalId": "ds039",
+      "japanese": "自転車に注意します。",
+      "tokens": [
+        {
+          "text": "自転車",
+          "kana": "じてんしゃ"
+        },
+        {
+          "text": "に"
+        },
+        {
+          "text": "注意します",
+          "kana": "ちゅういします"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "じてんしゃにちゅういします",
+      "chinese": "注意自行车。",
+      "category": "daily",
+      "register": "丁寧",
+      "difficulty": 1,
+      "frequencyRank": 39,
+      "tags": ["display", "driving-school", "check"]
+    },
+    {
+      "externalId": "ds040",
+      "japanese": "死角を確認します。",
+      "tokens": [
+        {
+          "text": "死角",
+          "kana": "しかく"
+        },
+        {
+          "text": "を"
+        },
+        {
+          "text": "確認します",
+          "kana": "かくにんします"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "しかくをかくにんします",
+      "chinese": "确认盲区。",
+      "category": "daily",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 40,
+      "tags": ["display", "driving-school", "check"]
+    },
+    {
+      "externalId": "ds041",
+      "japanese": "停止線で止まります。",
+      "tokens": [
+        {
+          "text": "停止線",
+          "kana": "ていしせん"
+        },
+        {
+          "text": "で"
+        },
+        {
+          "text": "止まります",
+          "kana": "とまります"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "ていしせんでとまります",
+      "chinese": "在停止线前停车。",
+      "category": "daily",
+      "register": "丁寧",
+      "difficulty": 1,
+      "frequencyRank": 41,
+      "tags": ["display", "driving-school", "rule"]
+    },
+    {
+      "externalId": "ds042",
+      "japanese": "停止線を越えません。",
+      "tokens": [
+        {
+          "text": "停止線",
+          "kana": "ていしせん"
+        },
+        {
+          "text": "を"
+        },
+        {
+          "text": "越えません",
+          "kana": "こえません"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "ていしせんをこえません",
+      "chinese": "不要越过停止线。",
+      "category": "daily",
+      "register": "丁寧",
+      "difficulty": 1,
+      "frequencyRank": 42,
+      "tags": ["display", "driving-school", "rule"]
+    },
+    {
+      "externalId": "ds043",
+      "japanese": "一時停止では完全に止まります。",
+      "tokens": [
+        {
+          "text": "一時停止",
+          "kana": "いちじていし"
+        },
+        {
+          "text": "では"
+        },
+        {
+          "text": "完全",
+          "kana": "かんぜん"
+        },
+        {
+          "text": "に"
+        },
+        {
+          "text": "止まります",
+          "kana": "とまります"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "いちじていしではかんぜんにとまります",
+      "chinese": "遇到停车标志要完全停下。",
+      "category": "daily",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 43,
+      "tags": ["display", "driving-school", "rule"]
+    },
+    {
+      "externalId": "ds044",
+      "japanese": "横断歩道の手前で止まります。",
+      "tokens": [
+        {
+          "text": "横断歩道",
+          "kana": "おうだんほどう"
+        },
+        {
+          "text": "の"
+        },
+        {
+          "text": "手前",
+          "kana": "てまえ"
+        },
+        {
+          "text": "で"
+        },
+        {
+          "text": "止まります",
+          "kana": "とまります"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "おうだんほどうのてまえでとまります",
+      "chinese": "在人行横道前停车。",
+      "category": "daily",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 44,
+      "tags": ["display", "driving-school", "rule"]
+    },
+    {
+      "externalId": "ds045",
+      "japanese": "歩行者を優先します。",
+      "tokens": [
+        {
+          "text": "歩行者",
+          "kana": "ほこうしゃ"
+        },
+        {
+          "text": "を"
+        },
+        {
+          "text": "優先します",
+          "kana": "ゆうせんします"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "ほこうしゃをゆうせんします",
+      "chinese": "行人优先。",
+      "category": "daily",
+      "register": "丁寧",
+      "difficulty": 1,
+      "frequencyRank": 45,
+      "tags": ["display", "driving-school", "rule"]
+    },
+    {
+      "externalId": "ds046",
+      "japanese": "赤信号では進みません。",
+      "tokens": [
+        {
+          "text": "赤信号",
+          "kana": "あかしんごう"
+        },
+        {
+          "text": "では"
+        },
+        {
+          "text": "進みません",
+          "kana": "すすみません"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "あかしんごうではすすみません",
+      "chinese": "红灯不前进。",
+      "category": "daily",
+      "register": "丁寧",
+      "difficulty": 1,
+      "frequencyRank": 46,
+      "tags": ["display", "driving-school", "rule"]
+    },
+    {
+      "externalId": "ds047",
+      "japanese": "青信号でも確認します。",
+      "tokens": [
+        {
+          "text": "青信号",
+          "kana": "あおしんごう"
+        },
+        {
+          "text": "でも"
+        },
+        {
+          "text": "確認します",
+          "kana": "かくにんします"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "あおしんごうでもかくにんします",
+      "chinese": "绿灯也要确认安全。",
+      "category": "daily",
+      "register": "丁寧",
+      "difficulty": 1,
+      "frequencyRank": 47,
+      "tags": ["display", "driving-school", "rule"]
+    },
+    {
+      "externalId": "ds048",
+      "japanese": "黄色信号では止まる準備をします。",
+      "tokens": [
+        {
+          "text": "黄色信号",
+          "kana": "きいろしんごう"
+        },
+        {
+          "text": "では"
+        },
+        {
+          "text": "止まる",
+          "kana": "とまる"
+        },
+        {
+          "text": "準備",
+          "kana": "じゅんび"
+        },
+        {
+          "text": "をします。"
+        }
+      ],
+      "kana": "きいろしんごうではとまるじゅんびをします",
+      "chinese": "黄灯时准备停车。",
+      "category": "daily",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 48,
+      "tags": ["display", "driving-school", "rule"]
+    },
+    {
+      "externalId": "ds049",
+      "japanese": "青い矢印に従います。",
+      "tokens": [
+        {
+          "text": "青い",
+          "kana": "あおい"
+        },
+        {
+          "text": "矢印",
+          "kana": "やじるし"
+        },
+        {
+          "text": "に"
+        },
+        {
+          "text": "従います",
+          "kana": "したがいます"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "あおいやじるしにしたがいます",
+      "chinese": "按照绿色箭头行驶。",
+      "category": "daily",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 49,
+      "tags": ["display", "driving-school", "rule"]
+    },
+    {
+      "externalId": "ds050",
+      "japanese": "標識をよく見ます。",
+      "tokens": [
+        {
+          "text": "標識",
+          "kana": "ひょうしき"
+        },
+        {
+          "text": "をよく"
+        },
+        {
+          "text": "見ます",
+          "kana": "みます"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "ひょうしきをよくみます",
+      "chinese": "仔细看标志。",
+      "category": "daily",
+      "register": "丁寧",
+      "difficulty": 1,
+      "frequencyRank": 50,
+      "tags": ["display", "driving-school", "rule"]
+    },
+    {
+      "externalId": "ds051",
+      "japanese": "制限速度を守ります。",
+      "tokens": [
+        {
+          "text": "制限速度",
+          "kana": "せいげんそくど"
+        },
+        {
+          "text": "を"
+        },
+        {
+          "text": "守ります",
+          "kana": "まもります"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "せいげんそくどをまもります",
+      "chinese": "遵守限速。",
+      "category": "daily",
+      "register": "丁寧",
+      "difficulty": 1,
+      "frequencyRank": 51,
+      "tags": ["display", "driving-school", "rule"]
+    },
+    {
+      "externalId": "ds052",
+      "japanese": "日本では車は左側通行です。",
+      "tokens": [
+        {
+          "text": "日本",
+          "kana": "にほん"
+        },
+        {
+          "text": "では"
+        },
+        {
+          "text": "車",
+          "kana": "くるま"
+        },
+        {
+          "text": "は"
+        },
+        {
+          "text": "左側通行",
+          "kana": "ひだりがわつうこう"
+        },
+        {
+          "text": "です。"
+        }
+      ],
+      "kana": "にほんではくるまはひだりがわつうこうです",
+      "chinese": "在日本车辆靠左行驶。",
+      "category": "daily",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 52,
+      "tags": ["display", "driving-school", "rule"]
+    },
+    {
+      "externalId": "ds053",
+      "japanese": "車間距離を取ります。",
+      "tokens": [
+        {
+          "text": "車間距離",
+          "kana": "しゃかんきょり"
+        },
+        {
+          "text": "を"
+        },
+        {
+          "text": "取ります",
+          "kana": "とります"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "しゃかんきょりをとります",
+      "chinese": "保持车距。",
+      "category": "daily",
+      "register": "丁寧",
+      "difficulty": 1,
+      "frequencyRank": 53,
+      "tags": ["display", "driving-school", "rule"]
+    },
+    {
+      "externalId": "ds054",
+      "japanese": "急ブレーキを避けます。",
+      "tokens": [
+        {
+          "text": "急",
+          "kana": "きゅう"
+        },
+        {
+          "text": "ブレーキを"
+        },
+        {
+          "text": "避けます",
+          "kana": "さけます"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "きゅうぶれーきをさけます",
+      "chinese": "避免急刹车。",
+      "category": "daily",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 54,
+      "tags": ["display", "driving-school", "rule"]
+    },
+    {
+      "externalId": "ds055",
+      "japanese": "急ハンドルを避けます。",
+      "tokens": [
+        {
+          "text": "急",
+          "kana": "きゅう"
+        },
+        {
+          "text": "ハンドルを"
+        },
+        {
+          "text": "避けます",
+          "kana": "さけます"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "きゅうはんどるをさけます",
+      "chinese": "避免急打方向。",
+      "category": "daily",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 55,
+      "tags": ["display", "driving-school", "rule"]
+    },
+    {
+      "externalId": "ds056",
+      "japanese": "踏切の前で一時停止します。",
+      "tokens": [
+        {
+          "text": "踏切",
+          "kana": "ふみきり"
+        },
+        {
+          "text": "の"
+        },
+        {
+          "text": "前",
+          "kana": "まえ"
+        },
+        {
+          "text": "で"
+        },
+        {
+          "text": "一時停止",
+          "kana": "いちじていし"
+        },
+        {
+          "text": "します。"
+        }
+      ],
+      "kana": "ふみきりのまえでいちじていしします",
+      "chinese": "在铁路道口前临时停车确认。",
+      "category": "daily",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 56,
+      "tags": ["display", "driving-school", "rule"]
+    },
+    {
+      "externalId": "ds057",
+      "japanese": "踏切では左右と音を確認します。",
+      "tokens": [
+        {
+          "text": "踏切",
+          "kana": "ふみきり"
+        },
+        {
+          "text": "では"
+        },
+        {
+          "text": "左右",
+          "kana": "さゆう"
+        },
+        {
+          "text": "と"
+        },
+        {
+          "text": "音",
+          "kana": "おと"
+        },
+        {
+          "text": "を"
+        },
+        {
+          "text": "確認します",
+          "kana": "かくにんします"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "ふみきりではさゆうとおとをかくにんします",
+      "chinese": "在铁路道口确认左右和声音。",
+      "category": "daily",
+      "register": "丁寧",
+      "difficulty": 3,
+      "frequencyRank": 57,
+      "tags": ["display", "driving-school", "rule"]
+    },
+    {
+      "externalId": "ds058",
+      "japanese": "運転中はスマホを使いません。",
+      "tokens": [
+        {
+          "text": "運転中",
+          "kana": "うんてんちゅう"
+        },
+        {
+          "text": "はスマホを"
+        },
+        {
+          "text": "使いません",
+          "kana": "つかいません"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "うんてんちゅうはすまほをつかいません",
+      "chinese": "开车时不使用手机。",
+      "category": "daily",
+      "register": "丁寧",
+      "difficulty": 1,
+      "frequencyRank": 58,
+      "tags": ["display", "driving-school", "rule"]
+    },
+    {
+      "externalId": "ds059",
+      "japanese": "飲酒運転は絶対にしません。",
+      "tokens": [
+        {
+          "text": "飲酒運転",
+          "kana": "いんしゅうんてん"
+        },
+        {
+          "text": "は"
+        },
+        {
+          "text": "絶対",
+          "kana": "ぜったい"
+        },
+        {
+          "text": "にしません。"
+        }
+      ],
+      "kana": "いんしゅうんてんはぜったいにしません",
+      "chinese": "绝对不酒后驾驶。",
+      "category": "daily",
+      "register": "丁寧",
+      "difficulty": 1,
+      "frequencyRank": 59,
+      "tags": ["display", "driving-school", "rule"]
+    },
+    {
+      "externalId": "ds060",
+      "japanese": "全席でシートベルトを締めます。",
+      "tokens": [
+        {
+          "text": "全席",
+          "kana": "ぜんせき"
+        },
+        {
+          "text": "でシートベルトを"
+        },
+        {
+          "text": "締めます",
+          "kana": "しめます"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "ぜんせきでしーとべるとをしめます",
+      "chinese": "所有座位都系安全带。",
+      "category": "daily",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 60,
+      "tags": ["display", "driving-school", "rule"]
+    },
+    {
+      "externalId": "ds061",
+      "japanese": "交差点に入ります。",
+      "tokens": [
+        {
+          "text": "交差点",
+          "kana": "こうさてん"
+        },
+        {
+          "text": "に"
+        },
+        {
+          "text": "入ります",
+          "kana": "はいります"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "こうさてんにはいります",
+      "chinese": "进入路口。",
+      "category": "daily",
+      "register": "丁寧",
+      "difficulty": 1,
+      "frequencyRank": 61,
+      "tags": ["display", "driving-school", "intersection"]
+    },
+    {
+      "externalId": "ds062",
+      "japanese": "交差点では周りを見ます。",
+      "tokens": [
+        {
+          "text": "交差点",
+          "kana": "こうさてん"
+        },
+        {
+          "text": "では"
+        },
+        {
+          "text": "周り",
+          "kana": "まわり"
+        },
+        {
+          "text": "を"
+        },
+        {
+          "text": "見ます",
+          "kana": "みます"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "こうさてんではまわりをみます",
+      "chinese": "在路口观察周围。",
+      "category": "daily",
+      "register": "丁寧",
+      "difficulty": 1,
+      "frequencyRank": 62,
+      "tags": ["display", "driving-school", "intersection"]
+    },
+    {
+      "externalId": "ds063",
+      "japanese": "右折は対向車に注意します。",
+      "tokens": [
+        {
+          "text": "右折",
+          "kana": "うせつ"
+        },
+        {
+          "text": "は"
+        },
+        {
+          "text": "対向車",
+          "kana": "たいこうしゃ"
+        },
+        {
+          "text": "に"
+        },
+        {
+          "text": "注意します",
+          "kana": "ちゅういします"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "うせつはたいこうしゃにちゅういします",
+      "chinese": "右转时注意对向车。",
+      "category": "daily",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 63,
+      "tags": ["display", "driving-school", "intersection"]
+    },
+    {
+      "externalId": "ds064",
+      "japanese": "左折は小さく曲がります。",
+      "tokens": [
+        {
+          "text": "左折",
+          "kana": "させつ"
+        },
+        {
+          "text": "は"
+        },
+        {
+          "text": "小さく",
+          "kana": "ちいさく"
+        },
+        {
+          "text": "曲がります",
+          "kana": "まがります"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "させつはちいさくまがります",
+      "chinese": "左转时小转弯。",
+      "category": "daily",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 64,
+      "tags": ["display", "driving-school", "intersection"]
+    },
+    {
+      "externalId": "ds065",
+      "japanese": "右折は中心の近くを通ります。",
+      "tokens": [
+        {
+          "text": "右折",
+          "kana": "うせつ"
+        },
+        {
+          "text": "は"
+        },
+        {
+          "text": "中心",
+          "kana": "ちゅうしん"
+        },
+        {
+          "text": "の"
+        },
+        {
+          "text": "近く",
+          "kana": "ちかく"
+        },
+        {
+          "text": "を"
+        },
+        {
+          "text": "通ります",
+          "kana": "とおります"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "うせつはちゅうしんのちかくをとおります",
+      "chinese": "右转时靠近中心通过。",
+      "category": "daily",
+      "register": "丁寧",
+      "difficulty": 3,
+      "frequencyRank": 65,
+      "tags": ["display", "driving-school", "intersection"]
+    },
+    {
+      "externalId": "ds066",
+      "japanese": "左折の前に左へ寄せます。",
+      "tokens": [
+        {
+          "text": "左折",
+          "kana": "させつ"
+        },
+        {
+          "text": "の"
+        },
+        {
+          "text": "前",
+          "kana": "まえ"
+        },
+        {
+          "text": "に"
+        },
+        {
+          "text": "左",
+          "kana": "ひだり"
+        },
+        {
+          "text": "へ"
+        },
+        {
+          "text": "寄せます",
+          "kana": "よせます"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "させつのまえにひだりへよせます",
+      "chinese": "左转前靠左。",
+      "category": "daily",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 66,
+      "tags": ["display", "driving-school", "intersection"]
+    },
+    {
+      "externalId": "ds067",
+      "japanese": "右折の前に右へ寄せます。",
+      "tokens": [
+        {
+          "text": "右折",
+          "kana": "うせつ"
+        },
+        {
+          "text": "の"
+        },
+        {
+          "text": "前",
+          "kana": "まえ"
+        },
+        {
+          "text": "に"
+        },
+        {
+          "text": "右",
+          "kana": "みぎ"
+        },
+        {
+          "text": "へ"
+        },
+        {
+          "text": "寄せます",
+          "kana": "よせます"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "うせつのまえにみぎへよせます",
+      "chinese": "右转前靠右。",
+      "category": "daily",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 67,
+      "tags": ["display", "driving-school", "intersection"]
+    },
+    {
+      "externalId": "ds068",
+      "japanese": "信号のない交差点です。",
+      "tokens": [
+        {
+          "text": "信号",
+          "kana": "しんごう"
+        },
+        {
+          "text": "のない"
+        },
+        {
+          "text": "交差点",
+          "kana": "こうさてん"
+        },
+        {
+          "text": "です。"
+        }
+      ],
+      "kana": "しんごうのないこうさてんです",
+      "chinese": "这是没有信号灯的路口。",
+      "category": "daily",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 68,
+      "tags": ["display", "driving-school", "intersection"]
+    },
+    {
+      "externalId": "ds069",
+      "japanese": "優先道路を確認します。",
+      "tokens": [
+        {
+          "text": "優先道路",
+          "kana": "ゆうせんどうろ"
+        },
+        {
+          "text": "を"
+        },
+        {
+          "text": "確認します",
+          "kana": "かくにんします"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "ゆうせんどうろをかくにんします",
+      "chinese": "确认优先道路。",
+      "category": "daily",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 69,
+      "tags": ["display", "driving-school", "intersection"]
+    },
+    {
+      "externalId": "ds070",
+      "japanese": "見通しが悪いので徐行します。",
+      "tokens": [
+        {
+          "text": "見通し",
+          "kana": "みとおし"
+        },
+        {
+          "text": "が"
+        },
+        {
+          "text": "悪い",
+          "kana": "わるい"
+        },
+        {
+          "text": "ので"
+        },
+        {
+          "text": "徐行",
+          "kana": "じょこう"
+        },
+        {
+          "text": "します。"
+        }
+      ],
+      "kana": "みとおしがわるいのでじょこうします",
+      "chinese": "视野不好，所以慢行。",
+      "category": "daily",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 70,
+      "tags": ["display", "driving-school", "intersection"]
+    },
+    {
+      "externalId": "ds071",
+      "japanese": "車線変更をします。",
+      "tokens": [
+        {
+          "text": "車線変更",
+          "kana": "しゃせんへんこう"
+        },
+        {
+          "text": "をします。"
+        }
+      ],
+      "kana": "しゃせんへんこうをします",
+      "chinese": "进行变道。",
+      "category": "daily",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 71,
+      "tags": ["display", "driving-school", "lane"]
+    },
+    {
+      "externalId": "ds072",
+      "japanese": "車線変更の前に合図を出します。",
+      "tokens": [
+        {
+          "text": "車線変更",
+          "kana": "しゃせんへんこう"
+        },
+        {
+          "text": "の"
+        },
+        {
+          "text": "前",
+          "kana": "まえ"
+        },
+        {
+          "text": "に"
+        },
+        {
+          "text": "合図",
+          "kana": "あいず"
+        },
+        {
+          "text": "を"
+        },
+        {
+          "text": "出します",
+          "kana": "だします"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "しゃせんへんこうのまえにあいずをだします",
+      "chinese": "变道前打转向灯。",
+      "category": "daily",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 72,
+      "tags": ["display", "driving-school", "lane"]
+    },
+    {
+      "externalId": "ds073",
+      "japanese": "無理に入らないようにします。",
+      "tokens": [
+        {
+          "text": "無理",
+          "kana": "むり"
+        },
+        {
+          "text": "に"
+        },
+        {
+          "text": "入らない",
+          "kana": "はいらない"
+        },
+        {
+          "text": "ようにします。"
+        }
+      ],
+      "kana": "むりにはいらないようにします",
+      "chinese": "不要勉强并线。",
+      "category": "daily",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 73,
+      "tags": ["display", "driving-school", "lane"]
+    },
+    {
+      "externalId": "ds074",
+      "japanese": "流れに合わせます。",
+      "tokens": [
+        {
+          "text": "流れ",
+          "kana": "ながれ"
+        },
+        {
+          "text": "に"
+        },
+        {
+          "text": "合わせます",
+          "kana": "あわせます"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "ながれにあわせます",
+      "chinese": "配合车流。",
+      "category": "daily",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 74,
+      "tags": ["display", "driving-school", "lane"]
+    },
+    {
+      "externalId": "ds075",
+      "japanese": "前の車に近づきすぎません。",
+      "tokens": [
+        {
+          "text": "前",
+          "kana": "まえ"
+        },
+        {
+          "text": "の"
+        },
+        {
+          "text": "車",
+          "kana": "くるま"
+        },
+        {
+          "text": "に"
+        },
+        {
+          "text": "近づき",
+          "kana": "ちかづき"
+        },
+        {
+          "text": "すぎません。"
+        }
+      ],
+      "kana": "まえのくるまにちかづきすぎません",
+      "chinese": "不要太靠近前车。",
+      "category": "daily",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 75,
+      "tags": ["display", "driving-school", "lane"]
+    },
+    {
+      "externalId": "ds076",
+      "japanese": "追い越し禁止を確認します。",
+      "tokens": [
+        {
+          "text": "追い越し",
+          "kana": "おいこし"
+        },
+        {
+          "text": "禁止",
+          "kana": "きんし"
+        },
+        {
+          "text": "を"
+        },
+        {
+          "text": "確認します",
+          "kana": "かくにんします"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "おいこしきんしをかくにんします",
+      "chinese": "确认禁止超车标志。",
+      "category": "daily",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 76,
+      "tags": ["display", "driving-school", "lane"]
+    },
+    {
+      "externalId": "ds077",
+      "japanese": "自転車を追い抜くときは間隔を空けます。",
+      "tokens": [
+        {
+          "text": "自転車",
+          "kana": "じてんしゃ"
+        },
+        {
+          "text": "を"
+        },
+        {
+          "text": "追い抜く",
+          "kana": "おいぬく"
+        },
+        {
+          "text": "ときは"
+        },
+        {
+          "text": "間隔",
+          "kana": "かんかく"
+        },
+        {
+          "text": "を"
+        },
+        {
+          "text": "空けます",
+          "kana": "あけます"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "じてんしゃをおいぬくときはかんかくをあけます",
+      "chinese": "超过自行车时留出间距。",
+      "category": "daily",
+      "register": "丁寧",
+      "difficulty": 3,
+      "frequencyRank": 77,
+      "tags": ["display", "driving-school", "lane"]
+    },
+    {
+      "externalId": "ds078",
+      "japanese": "路上駐車に注意します。",
+      "tokens": [
+        {
+          "text": "路上駐車",
+          "kana": "ろじょうちゅうしゃ"
+        },
+        {
+          "text": "に"
+        },
+        {
+          "text": "注意します",
+          "kana": "ちゅういします"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "ろじょうちゅうしゃにちゅういします",
+      "chinese": "注意路边停车车辆。",
+      "category": "daily",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 78,
+      "tags": ["display", "driving-school", "lane"]
+    },
+    {
+      "externalId": "ds079",
+      "japanese": "バス停の近くでは注意します。",
+      "tokens": [
+        {
+          "text": "バス停",
+          "kana": "ばすてい"
+        },
+        {
+          "text": "の"
+        },
+        {
+          "text": "近く",
+          "kana": "ちかく"
+        },
+        {
+          "text": "では"
+        },
+        {
+          "text": "注意します",
+          "kana": "ちゅういします"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "ばすていのちかくではちゅういします",
+      "chinese": "在公交站附近要注意。",
+      "category": "daily",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 79,
+      "tags": ["display", "driving-school", "lane"]
+    },
+    {
+      "externalId": "ds080",
+      "japanese": "工事の標識に従います。",
+      "tokens": [
+        {
+          "text": "工事",
+          "kana": "こうじ"
+        },
+        {
+          "text": "の"
+        },
+        {
+          "text": "標識",
+          "kana": "ひょうしき"
+        },
+        {
+          "text": "に"
+        },
+        {
+          "text": "従います",
+          "kana": "したがいます"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "こうじのひょうしきにしたがいます",
+      "chinese": "遵守施工标志。",
+      "category": "daily",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 80,
+      "tags": ["display", "driving-school", "lane"]
+    },
+    {
+      "externalId": "ds081",
+      "japanese": "駐車の練習をします。",
+      "tokens": [
+        {
+          "text": "駐車",
+          "kana": "ちゅうしゃ"
+        },
+        {
+          "text": "の"
+        },
+        {
+          "text": "練習",
+          "kana": "れんしゅう"
+        },
+        {
+          "text": "をします。"
+        }
+      ],
+      "kana": "ちゅうしゃのれんしゅうをします",
+      "chinese": "练习停车。",
+      "category": "daily",
+      "register": "丁寧",
+      "difficulty": 1,
+      "frequencyRank": 81,
+      "tags": ["display", "driving-school", "parking"]
+    },
+    {
+      "externalId": "ds082",
+      "japanese": "縦列駐車をします。",
+      "tokens": [
+        {
+          "text": "縦列駐車",
+          "kana": "じゅうれつちゅうしゃ"
+        },
+        {
+          "text": "をします。"
+        }
+      ],
+      "kana": "じゅうれつちゅうしゃをします",
+      "chinese": "进行侧方停车。",
+      "category": "daily",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 82,
+      "tags": ["display", "driving-school", "parking"]
+    },
+    {
+      "externalId": "ds083",
+      "japanese": "車庫入れを練習します。",
+      "tokens": [
+        {
+          "text": "車庫入れ",
+          "kana": "しゃこいれ"
+        },
+        {
+          "text": "を"
+        },
+        {
+          "text": "練習します",
+          "kana": "れんしゅうします"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "しゃこいれをれんしゅうします",
+      "chinese": "练习倒车入库。",
+      "category": "daily",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 83,
+      "tags": ["display", "driving-school", "parking"]
+    },
+    {
+      "externalId": "ds084",
+      "japanese": "バックでゆっくり入れます。",
+      "tokens": [
+        {
+          "text": "バックでゆっくり"
+        },
+        {
+          "text": "入れます",
+          "kana": "いれます"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "ばっくでゆっくりいれます",
+      "chinese": "慢慢倒进去。",
+      "category": "daily",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 84,
+      "tags": ["display", "driving-school", "parking"]
+    },
+    {
+      "externalId": "ds085",
+      "japanese": "切り返しをします。",
+      "tokens": [
+        {
+          "text": "切り返し",
+          "kana": "きりかえし"
+        },
+        {
+          "text": "をします。"
+        }
+      ],
+      "kana": "きりかえしをします",
+      "chinese": "进行调整倒车。",
+      "category": "daily",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 85,
+      "tags": ["display", "driving-school", "parking"]
+    },
+    {
+      "externalId": "ds086",
+      "japanese": "後方を見ながら下がります。",
+      "tokens": [
+        {
+          "text": "後方",
+          "kana": "こうほう"
+        },
+        {
+          "text": "を"
+        },
+        {
+          "text": "見ながら",
+          "kana": "みながら"
+        },
+        {
+          "text": "下がります",
+          "kana": "さがります"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "こうほうをみながらさがります",
+      "chinese": "一边看后方一边倒车。",
+      "category": "daily",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 86,
+      "tags": ["display", "driving-school", "parking"]
+    },
+    {
+      "externalId": "ds087",
+      "japanese": "駐車禁止の場所には停めません。",
+      "tokens": [
+        {
+          "text": "駐車禁止",
+          "kana": "ちゅうしゃきんし"
+        },
+        {
+          "text": "の"
+        },
+        {
+          "text": "場所",
+          "kana": "ばしょ"
+        },
+        {
+          "text": "には"
+        },
+        {
+          "text": "停めません",
+          "kana": "とめません"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "ちゅうしゃきんしのばしょにはとめません",
+      "chinese": "不在禁止停车的地方停车。",
+      "category": "daily",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 87,
+      "tags": ["display", "driving-school", "parking"]
+    },
+    {
+      "externalId": "ds088",
+      "japanese": "坂道発進をします。",
+      "tokens": [
+        {
+          "text": "坂道発進",
+          "kana": "さかみちはっしん"
+        },
+        {
+          "text": "をします。"
+        }
+      ],
+      "kana": "さかみちはっしんをします",
+      "chinese": "进行坡道起步。",
+      "category": "daily",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 88,
+      "tags": ["display", "driving-school", "parking"]
+    },
+    {
+      "externalId": "ds089",
+      "japanese": "坂道ではブレーキを使います。",
+      "tokens": [
+        {
+          "text": "坂道",
+          "kana": "さかみち"
+        },
+        {
+          "text": "ではブレーキを"
+        },
+        {
+          "text": "使います",
+          "kana": "つかいます"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "さかみちではぶれーきをつかいます",
+      "chinese": "在坡道上使用刹车。",
+      "category": "daily",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 89,
+      "tags": ["display", "driving-school", "parking"]
+    },
+    {
+      "externalId": "ds090",
+      "japanese": "車が後ろへ下がらないようにします。",
+      "tokens": [
+        {
+          "text": "車",
+          "kana": "くるま"
+        },
+        {
+          "text": "が"
+        },
+        {
+          "text": "後ろ",
+          "kana": "うしろ"
+        },
+        {
+          "text": "へ"
+        },
+        {
+          "text": "下がらない",
+          "kana": "さがらない"
+        },
+        {
+          "text": "ようにします。"
+        }
+      ],
+      "kana": "くるまがうしろへさがらないようにします",
+      "chinese": "注意车不要后溜。",
+      "category": "daily",
+      "register": "丁寧",
+      "difficulty": 3,
+      "frequencyRank": 90,
+      "tags": ["display", "driving-school", "parking"]
+    },
+    {
+      "externalId": "ds091",
+      "japanese": "今日は路上教習です。",
+      "tokens": [
+        {
+          "text": "今日",
+          "kana": "きょう"
+        },
+        {
+          "text": "は"
+        },
+        {
+          "text": "路上教習",
+          "kana": "ろじょうきょうしゅう"
+        },
+        {
+          "text": "です。"
+        }
+      ],
+      "kana": "きょうはろじょうきょうしゅうです",
+      "chinese": "今天是路上驾驶练习。",
+      "category": "daily",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 91,
+      "tags": ["display", "driving-school", "lesson"]
+    },
+    {
+      "externalId": "ds092",
+      "japanese": "検定コースを走ります。",
+      "tokens": [
+        {
+          "text": "検定",
+          "kana": "けんてい"
+        },
+        {
+          "text": "コースを"
+        },
+        {
+          "text": "走ります",
+          "kana": "はしります"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "けんていこーすをはしります",
+      "chinese": "行驶考试路线。",
+      "category": "daily",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 92,
+      "tags": ["display", "driving-school", "lesson"]
+    },
+    {
+      "externalId": "ds093",
+      "japanese": "教官の指示を聞きます。",
+      "tokens": [
+        {
+          "text": "教官",
+          "kana": "きょうかん"
+        },
+        {
+          "text": "の"
+        },
+        {
+          "text": "指示",
+          "kana": "しじ"
+        },
+        {
+          "text": "を"
+        },
+        {
+          "text": "聞きます",
+          "kana": "ききます"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "きょうかんのしじをききます",
+      "chinese": "听教练的指示。",
+      "category": "daily",
+      "register": "丁寧",
+      "difficulty": 1,
+      "frequencyRank": 93,
+      "tags": ["display", "driving-school", "lesson"]
+    },
+    {
+      "externalId": "ds094",
+      "japanese": "もう一度お願いします。",
+      "tokens": [
+        {
+          "text": "もう"
+        },
+        {
+          "text": "一度",
+          "kana": "いちど"
+        },
+        {
+          "text": "お願いします",
+          "kana": "おねがいします"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "もういちどおねがいします",
+      "chinese": "麻烦再说一遍。",
+      "category": "daily",
+      "register": "丁寧",
+      "difficulty": 1,
+      "frequencyRank": 94,
+      "tags": ["display", "driving-school", "lesson"]
+    },
+    {
+      "externalId": "ds095",
+      "japanese": "ここで合っていますか。",
+      "tokens": [
+        {
+          "text": "ここで"
+        },
+        {
+          "text": "合っています",
+          "kana": "あっています"
+        },
+        {
+          "text": "か。"
+        }
+      ],
+      "kana": "ここであっていますか",
+      "chinese": "这里对吗？",
+      "category": "daily",
+      "register": "丁寧",
+      "difficulty": 1,
+      "frequencyRank": 95,
+      "tags": ["display", "driving-school", "lesson"]
+    },
+    {
+      "externalId": "ds096",
+      "japanese": "次はどこを曲がりますか。",
+      "tokens": [
+        {
+          "text": "次",
+          "kana": "つぎ"
+        },
+        {
+          "text": "はどこを"
+        },
+        {
+          "text": "曲がります",
+          "kana": "まがります"
+        },
+        {
+          "text": "か。"
+        }
+      ],
+      "kana": "つぎはどこをまがりますか",
+      "chinese": "下一步在哪里转弯？",
+      "category": "daily",
+      "register": "丁寧",
+      "difficulty": 1,
+      "frequencyRank": 96,
+      "tags": ["display", "driving-school", "lesson"]
+    },
+    {
+      "externalId": "ds097",
+      "japanese": "今の操作で大丈夫ですか。",
+      "tokens": [
+        {
+          "text": "今",
+          "kana": "いま"
+        },
+        {
+          "text": "の"
+        },
+        {
+          "text": "操作",
+          "kana": "そうさ"
+        },
+        {
+          "text": "で"
+        },
+        {
+          "text": "大丈夫",
+          "kana": "だいじょうぶ"
+        },
+        {
+          "text": "ですか。"
+        }
+      ],
+      "kana": "いまのそうさでだいじょうぶですか",
+      "chinese": "刚才的操作可以吗？",
+      "category": "daily",
+      "register": "丁寧",
+      "difficulty": 1,
+      "frequencyRank": 97,
+      "tags": ["display", "driving-school", "lesson"]
+    },
+    {
+      "externalId": "ds098",
+      "japanese": "苦手な所を練習したいです。",
+      "tokens": [
+        {
+          "text": "苦手",
+          "kana": "にがて"
+        },
+        {
+          "text": "な"
+        },
+        {
+          "text": "所",
+          "kana": "ところ"
+        },
+        {
+          "text": "を"
+        },
+        {
+          "text": "練習したい",
+          "kana": "れんしゅうしたい"
+        },
+        {
+          "text": "です。"
+        }
+      ],
+      "kana": "にがてなところをれんしゅうしたいです",
+      "chinese": "我想练习不擅长的地方。",
+      "category": "daily",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 98,
+      "tags": ["display", "driving-school", "lesson"]
+    },
+    {
+      "externalId": "ds099",
+      "japanese": "安全確認を忘れないようにします。",
+      "tokens": [
+        {
+          "text": "安全確認",
+          "kana": "あんぜんかくにん"
+        },
+        {
+          "text": "を"
+        },
+        {
+          "text": "忘れない",
+          "kana": "わすれない"
+        },
+        {
+          "text": "ようにします。"
+        }
+      ],
+      "kana": "あんぜんかくにんをわすれないようにします",
+      "chinese": "注意不要忘记安全确认。",
+      "category": "daily",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 99,
+      "tags": ["display", "driving-school", "lesson"]
+    },
+    {
+      "externalId": "ds100",
+      "japanese": "落ち着いて運転します。",
+      "tokens": [
+        {
+          "text": "落ち着いて",
+          "kana": "おちついて"
+        },
+        {
+          "text": "運転します",
+          "kana": "うんてんします"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "おちついてうんてんします",
+      "chinese": "冷静驾驶。",
+      "category": "daily",
+      "register": "丁寧",
+      "difficulty": 1,
+      "frequencyRank": 100,
+      "tags": ["display", "driving-school", "lesson"]
+    }
+  ],
+  "dialogues": [],
+  "passages": []
+}

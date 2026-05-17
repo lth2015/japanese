@@ -1,26 +1,22 @@
 "use client"
 
-import { ChevronLeft, ChevronRight, Keyboard, Pause, Play } from "lucide-react"
-import { useCallback, useEffect, useMemo, useRef, useState } from "react"
 import { FuriganaText } from "@/components/furigana-text"
 import { Button } from "@/components/ui/button"
 import type { Sentence } from "@/lib/db/schema"
-import {
-  loadTickerState,
-  reconcileOrder,
-  saveTickerState,
-} from "@/lib/display-order"
+import { loadTickerState, reconcileOrder, saveTickerState } from "@/lib/display-order"
 import { ensureVoicesLoaded, speakJapanese } from "@/lib/speech"
 import { cn } from "@/lib/utils"
-import {
-  FONT_SIZE_CLASS,
-  useDisplaySettings,
-} from "@/store/display-settings"
+import { FONT_SIZE_CLASS, useDisplaySettings } from "@/store/display-settings"
+import { ChevronLeft, ChevronRight, Keyboard, Pause, Play } from "lucide-react"
+import { useCallback, useEffect, useMemo, useRef, useState } from "react"
 import { DisplaySettingsSheet } from "./display-settings"
 
-type Props = { sentences: Sentence[] }
+type Props = {
+  sentences: Sentence[]
+  ignoreSourceFilter?: boolean
+}
 
-export function DisplayTicker({ sentences }: Props) {
+export function DisplayTicker({ sentences, ignoreSourceFilter = false }: Props) {
   const [settings, setDisplaySettings] = useDisplaySettings()
   const [index, setIndex] = useState(0)
   const [order, setOrder] = useState<string[] | null>(null)
@@ -29,10 +25,7 @@ export function DisplayTicker({ sentences }: Props) {
   const [showShortcuts, setShowShortcuts] = useState(false)
   const chromeTimer = useRef<ReturnType<typeof setTimeout> | null>(null)
 
-  const byId = useMemo(
-    () => new Map(sentences.map((s) => [s.id, s])),
-    [sentences],
-  )
+  const byId = useMemo(() => new Map(sentences.map((s) => [s.id, s])), [sentences])
 
   // Hydrate the persisted shuffle once on mount: reconcile it with the
   // current sentence set so progress survives a reload and freshly-imported
@@ -56,15 +49,14 @@ export function DisplayTicker({ sentences }: Props) {
 
   const ordered = useMemo(() => {
     if (!order) return sentences
-    return order
-      .map((id) => byId.get(id))
-      .filter((s): s is Sentence => s !== undefined)
+    return order.map((id) => byId.get(id)).filter((s): s is Sentence => s !== undefined)
   }, [order, byId, sentences])
 
   const queue = useMemo(() => {
+    if (ignoreSourceFilter) return ordered
     if (settings.source === "all") return ordered
     return ordered.filter((s) => s.category === settings.source)
-  }, [ordered, settings.source])
+  }, [ignoreSourceFilter, ordered, settings.source])
 
   // Persist the cursor as we advance — only for the unfiltered queue, since a
   // category filter walks a subset whose index is not a valid full-order cursor.
@@ -87,11 +79,11 @@ export function DisplayTicker({ sentences }: Props) {
 
   useEffect(() => {
     if (paused || queue.length <= 1) return
-    const timer = setTimeout(() => {
+    const timer = setInterval(() => {
       setIndex((i) => (i + 1) % queue.length)
     }, settings.intervalSec * 1000)
-    return () => clearTimeout(timer)
-  }, [paused, settings.intervalSec, queue.length, index])
+    return () => clearInterval(timer)
+  }, [paused, settings.intervalSec, queue.length])
 
   useEffect(() => {
     if (index >= queue.length) setIndex(0)
@@ -327,42 +319,44 @@ export function DisplayTicker({ sentences }: Props) {
 
       {/* Keyboard shortcuts overlay */}
       {showShortcuts && (
-        <button
-          type="button"
-          className="fixed inset-0 z-50 bg-black/40 backdrop-blur-sm flex items-center justify-center p-6 animate-fade-in cursor-default"
-          onClick={() => setShowShortcuts(false)}
-          aria-label="ショートカットを閉じる"
+        <dialog
+          open
+          className="fixed inset-0 z-50 m-0 h-dvh max-h-none w-dvw max-w-none border-0 bg-transparent p-0 animate-fade-in"
+          aria-labelledby="shortcuts-title"
+          onCancel={(e) => {
+            e.preventDefault()
+            setShowShortcuts(false)
+          }}
         >
-          <div
-            className="bg-surface border border-border rounded-2xl shadow-lg-token p-8 max-w-md w-full text-left"
-            onClick={(e) => e.stopPropagation()}
-            onKeyDown={(e) => e.stopPropagation()}
-            role="dialog"
-            aria-modal="true"
-            aria-labelledby="shortcuts-title"
-          >
-            <h2
-              id="shortcuts-title"
-              className="text-lg font-semibold mb-5 text-fg flex items-center gap-2"
-            >
-              <Keyboard className="h-4 w-4" />
-              キーボードショートカット
-            </h2>
-            <dl className="space-y-2.5 text-sm">
-              <ShortcutRow keys={["j", "l", "→"]} desc="次の文へ" />
-              <ShortcutRow keys={["k", "h", "←"]} desc="前の文へ" />
-              <ShortcutRow keys={["Space"]} desc="一時停止 / 再生" />
-              <ShortcutRow keys={["r"]} desc="ランダムにジャンプ" />
-              <ShortcutRow keys={["f"]} desc="フォーカスモード切替" />
-              <ShortcutRow keys={["?"]} desc="このヘルプを表示" />
-              <ShortcutRow keys={["Esc"]} desc="閉じる" />
-              <ShortcutRow keys={["q"]} desc="ホームへ戻る" />
-            </dl>
-            <p className="mt-5 text-xs text-fg-tertiary">
-              Esc または ? でこのパネルを閉じます
-            </p>
+          <button
+            type="button"
+            className="absolute inset-0 bg-black/40 backdrop-blur-sm"
+            onClick={() => setShowShortcuts(false)}
+            aria-label="ショートカットを閉じる"
+          />
+          <div className="relative z-10 flex min-h-dvh items-center justify-center p-6 pointer-events-none">
+            <div className="bg-surface border border-border rounded-2xl shadow-lg-token p-8 max-w-md w-full text-left pointer-events-auto">
+              <h2
+                id="shortcuts-title"
+                className="text-lg font-semibold mb-5 text-fg flex items-center gap-2"
+              >
+                <Keyboard className="h-4 w-4" />
+                キーボードショートカット
+              </h2>
+              <dl className="space-y-2.5 text-sm">
+                <ShortcutRow keys={["j", "l", "→"]} desc="次の文へ" />
+                <ShortcutRow keys={["k", "h", "←"]} desc="前の文へ" />
+                <ShortcutRow keys={["Space"]} desc="一時停止 / 再生" />
+                <ShortcutRow keys={["r"]} desc="ランダムにジャンプ" />
+                <ShortcutRow keys={["f"]} desc="フォーカスモード切替" />
+                <ShortcutRow keys={["?"]} desc="このヘルプを表示" />
+                <ShortcutRow keys={["Esc"]} desc="閉じる" />
+                <ShortcutRow keys={["q"]} desc="ホームへ戻る" />
+              </dl>
+              <p className="mt-5 text-xs text-fg-tertiary">Esc または ? でこのパネルを閉じます</p>
+            </div>
           </div>
-        </button>
+        </dialog>
       )}
     </main>
   )

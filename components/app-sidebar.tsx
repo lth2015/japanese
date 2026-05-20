@@ -7,6 +7,7 @@ import {
   Headphones,
   Home,
   MessageSquare,
+  Mic,
   MonitorPlay,
   PencilLine,
   Settings,
@@ -32,6 +33,7 @@ const TRAINING: NavItem[] = [
   { href: "/read-aloud", label: "音読", hint: "Stage 2.5", icon: Volume2 },
   { href: "/listen-write", label: "听写", hint: "Stage 3", icon: Headphones },
   { href: "/quick-fire", label: "Quick-Fire", hint: "Stage 4", icon: Zap },
+  { href: "/learning", label: "口语训练", hint: "口语", icon: Mic },
 ]
 
 const LIBRARY: NavItem[] = [

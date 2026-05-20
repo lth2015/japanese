@@ -63,6 +63,7 @@ pnpm dev            # http://localhost:3000
 - `/read-aloud` Stage 2.5 音読
 - `/listen-write` Stage 3 听写
 - `/quick-fire` Stage 4 Quick-Fire
+- `/learning` **口语训练**（中文提示→自己开口→揭示答案→录音跟读→间隔复习；独立 localStorage 语料）
 - `/display` **全屏轮播**（副屏 / 手机挂机；Vim 键全开）
 - `/library` 场景库（按分类筛选、搜索）
 - `/passages` 短文阅读 + 日语回答
@@ -164,6 +165,7 @@ pnpm dev            # http://localhost:3000
 - `/read-aloud` Stage 2.5 Read Aloud
 - `/listen-write` Stage 3 Listen-Write
 - `/quick-fire` Stage 4 Quick-Fire
+- `/learning` **Speaking trainer** (Chinese prompt → speak it yourself → reveal answer → record & shadow → spaced repetition; independent localStorage corpus)
 - `/display` **Full-screen rotation** (secondary monitor / ambient; Vim keys fully supported)
 - `/library` Scenario library (filter, search)
 - `/passages` Passage reading + Japanese Q&A
@@ -265,6 +267,7 @@ pnpm dev            # http://localhost:3000
 - `/read-aloud` Stage 2.5 音読
 - `/listen-write` Stage 3 ディクテーション
 - `/quick-fire` Stage 4 Quick-Fire
+- `/learning` **スピーキング訓練**（中国語プロンプト→自分で発話→答え表示→録音シャドーイング→間隔反復；独立した localStorage コーパス）
 - `/display` **全画面ローテーション**（サブモニター / アンビエント；Vim キー対応）
 - `/library` シナリオライブラリ（フィルター、検索）
 - `/passages` 段落読解 + 日本語Q&A

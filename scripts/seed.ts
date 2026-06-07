@@ -15,6 +15,7 @@ import { businessSentences } from "../seed/data/business"
 import { dailySentences } from "../seed/data/daily"
 import { dialogues } from "../seed/data/dialogues"
 import { grammarSentences } from "../seed/data/grammar"
+import { pack01Sentences } from "../seed/data/pack-01"
 import { passages } from "../seed/data/passages"
 import type { SeedDialogue, SeedPassage, SeedSentence } from "../seed/data/types"
 
@@ -136,6 +137,7 @@ async function main() {
     ...businessSentences,
     ...dailySentences,
     ...grammarSentences,
+    ...pack01Sentences,
   ]
 
   console.log(`Seeding ${allSentences.length} sentences...`)

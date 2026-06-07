@@ -10,6 +10,7 @@ import {
   BookOpen,
   CheckCircle2,
   FileText,
+  FlipHorizontal2,
   Headphones,
   Layers3,
   MonitorPlay,
@@ -242,6 +243,13 @@ export default async function DashboardPage() {
             title="情景对话"
             desc="多轮对话逐句听读，练真实交互节奏。"
             badge="Dialogues"
+          />
+          <ResourceCard
+            href="/verbs"
+            icon={FlipHorizontal2}
+            title="動詞変形"
+            desc="动词变形轮播训练：受身・使役・使役受身。"
+            badge="Verbs"
           />
         </div>
       </section>

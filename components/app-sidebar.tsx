@@ -4,6 +4,7 @@ import { cn } from "@/lib/utils"
 import {
   BookOpen,
   FileText,
+  FlipHorizontal2,
   Headphones,
   Home,
   MessageSquare,
@@ -41,6 +42,7 @@ const LIBRARY: NavItem[] = [
   { href: "/dialogues", label: "情景对话", icon: MessageSquare },
   { href: "/library", label: "场景库", icon: BookOpen },
   { href: "/display", label: "Display", icon: MonitorPlay },
+  { href: "/verbs", label: "動詞変形", hint: "变形练习", icon: FlipHorizontal2 },
 ]
 
 const COMING: NavItem[] = [{ href: "/talk", label: "AI 对话", icon: Sparkles, soon: true }]

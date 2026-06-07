@@ -5,7 +5,7 @@ export const VERB_CORPUS: VerbEntry[] = [
   {
     id: "kaku",
     dictionaryForm: "書く",
-    verbGroup: "godan",
+    verbGroup: "group1",
     meaningZh: "写",
     conjugations: [
       {
@@ -134,7 +134,7 @@ export const VERB_CORPUS: VerbEntry[] = [
   {
     id: "yomu",
     dictionaryForm: "読む",
-    verbGroup: "godan",
+    verbGroup: "group1",
     meaningZh: "读",
     conjugations: [
       {
@@ -265,7 +265,7 @@ export const VERB_CORPUS: VerbEntry[] = [
   {
     id: "hanasu",
     dictionaryForm: "話す",
-    verbGroup: "godan",
+    verbGroup: "group1",
     meaningZh: "说；讲",
     conjugations: [
       {
@@ -396,7 +396,7 @@ export const VERB_CORPUS: VerbEntry[] = [
   {
     id: "matsu",
     dictionaryForm: "待つ",
-    verbGroup: "godan",
+    verbGroup: "group1",
     meaningZh: "等",
     conjugations: [
       {
@@ -522,7 +522,7 @@ export const VERB_CORPUS: VerbEntry[] = [
   {
     id: "tsukau",
     dictionaryForm: "使う",
-    verbGroup: "godan",
+    verbGroup: "group1",
     meaningZh: "用；使用",
     conjugations: [
       {
@@ -636,7 +636,7 @@ export const VERB_CORPUS: VerbEntry[] = [
   {
     id: "okuru",
     dictionaryForm: "送る",
-    verbGroup: "godan",
+    verbGroup: "group1",
     meaningZh: "发送；送",
     conjugations: [
       {
@@ -768,7 +768,7 @@ export const VERB_CORPUS: VerbEntry[] = [
   {
     id: "miru",
     dictionaryForm: "見る",
-    verbGroup: "ichidan",
+    verbGroup: "group2",
     meaningZh: "看；查看",
     conjugations: [
       {
@@ -898,7 +898,7 @@ export const VERB_CORPUS: VerbEntry[] = [
   {
     id: "taberu",
     dictionaryForm: "食べる",
-    verbGroup: "ichidan",
+    verbGroup: "group2",
     meaningZh: "吃",
     conjugations: [
       {
@@ -1030,7 +1030,7 @@ export const VERB_CORPUS: VerbEntry[] = [
   {
     id: "okiru",
     dictionaryForm: "起きる",
-    verbGroup: "ichidan",
+    verbGroup: "group2",
     meaningZh: "起床；发生",
     conjugations: [
       {
@@ -1167,7 +1167,7 @@ export const VERB_CORPUS: VerbEntry[] = [
   {
     id: "suru",
     dictionaryForm: "する",
-    verbGroup: "irregular",
+    verbGroup: "group3",
     meaningZh: "做",
     conjugations: [
       {
@@ -1287,7 +1287,7 @@ export const VERB_CORPUS: VerbEntry[] = [
   {
     id: "kuru",
     dictionaryForm: "来る",
-    verbGroup: "irregular",
+    verbGroup: "group3",
     meaningZh: "来",
     conjugations: [
       {
@@ -1424,7 +1424,7 @@ export const VERB_CORPUS: VerbEntry[] = [
   {
     id: "motsu",
     dictionaryForm: "持つ",
-    verbGroup: "godan",
+    verbGroup: "group1",
     meaningZh: "拿；持有",
     conjugations: [
       {
@@ -1555,7 +1555,7 @@ export const VERB_CORPUS: VerbEntry[] = [
   {
     id: "nomu",
     dictionaryForm: "飲む",
-    verbGroup: "godan",
+    verbGroup: "group1",
     meaningZh: "喝",
     conjugations: [
       {
@@ -1689,7 +1689,7 @@ export const VERB_CORPUS: VerbEntry[] = [
   {
     id: "kiku",
     dictionaryForm: "聞く",
-    verbGroup: "godan",
+    verbGroup: "group1",
     meaningZh: "听；问",
     conjugations: [
       {
@@ -1827,7 +1827,7 @@ export const VERB_CORPUS: VerbEntry[] = [
   {
     id: "kimeru",
     dictionaryForm: "決める",
-    verbGroup: "ichidan",
+    verbGroup: "group2",
     meaningZh: "决定",
     conjugations: [
       {
@@ -1969,7 +1969,7 @@ export const VERB_CORPUS: VerbEntry[] = [
   {
     id: "oshieru",
     dictionaryForm: "教える",
-    verbGroup: "ichidan",
+    verbGroup: "group2",
     meaningZh: "教；告诉",
     conjugations: [
       {
@@ -2101,7 +2101,7 @@ export const VERB_CORPUS: VerbEntry[] = [
   {
     id: "tanomu",
     dictionaryForm: "頼む",
-    verbGroup: "godan",
+    verbGroup: "group1",
     meaningZh: "拜托；请求",
     conjugations: [
       {
@@ -2237,7 +2237,7 @@ export const VERB_CORPUS: VerbEntry[] = [
   {
     id: "yobu",
     dictionaryForm: "呼ぶ",
-    verbGroup: "godan",
+    verbGroup: "group1",
     meaningZh: "叫；邀请",
     conjugations: [
       {
@@ -2368,7 +2368,7 @@ export const VERB_CORPUS: VerbEntry[] = [
   {
     id: "ukeru",
     dictionaryForm: "受ける",
-    verbGroup: "ichidan",
+    verbGroup: "group2",
     meaningZh: "接受；参加",
     conjugations: [
       {
@@ -2508,7 +2508,7 @@ export const VERB_CORPUS: VerbEntry[] = [
   {
     id: "kaeru",
     dictionaryForm: "変える",
-    verbGroup: "ichidan",
+    verbGroup: "group2",
     meaningZh: "改变；更改",
     conjugations: [
       {

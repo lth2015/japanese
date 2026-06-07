@@ -207,9 +207,9 @@ export function VerbTicker({ cards }: Props) {
             onChange={(v) => setVerbSettings({ filterGroup: v as VerbGroup | "all" })}
             options={[
               { value: "all", label: "全部" },
-              { value: "godan", label: "五段" },
-              { value: "ichidan", label: "一段" },
-              { value: "irregular", label: "不規則" },
+              { value: "group1", label: "グループ1" },
+              { value: "group2", label: "グループ2" },
+              { value: "group3", label: "グループ3" },
             ]}
           />
 

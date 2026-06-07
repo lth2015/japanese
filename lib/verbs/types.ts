@@ -1,6 +1,6 @@
 import type { Token } from "@/lib/db/schema"
 
-export type VerbGroup = "godan" | "ichidan" | "irregular"
+export type VerbGroup = "group1" | "group2" | "group3"
 export type ConjugationType =
   | "passive"
   | "causative"

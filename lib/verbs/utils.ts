@@ -73,11 +73,11 @@ export function getSceneLabel(s: Scene): string {
 
 export function getVerbGroupLabel(g: VerbGroup): string {
   switch (g) {
-    case "godan":
-      return "五段"
-    case "ichidan":
-      return "一段"
-    case "irregular":
-      return "不規則"
+    case "group1":
+      return "グループ1"
+    case "group2":
+      return "グループ2"
+    case "group3":
+      return "グループ3"
   }
 }

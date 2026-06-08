@@ -2661,7 +2661,16 @@ export const VERB_CORPUS: VerbEntry[] = [
         examples: [
           {
             japanese: "部長は来週、海外へ行かれます。",
-            tokens: [],
+            tokens: [
+              { text: "部長", kana: "ぶちょう" },
+              { text: "は" },
+              { text: "来週", kana: "らいしゅう" },
+              { text: "、" },
+              { text: "海外", kana: "かいがい" },
+              { text: "へ" },
+              { text: "行", kana: "い" },
+              { text: "かれます。" },
+            ],
             kana: "ぶちょうはらいしゅう、かいがいへいかれます。",
             chinese: "部长下周要去海外。（敬语）",
             scene: "work",
@@ -2685,7 +2694,12 @@ export const VERB_CORPUS: VerbEntry[] = [
         examples: [
           {
             japanese: "限定品はすぐに買われてしまった。",
-            tokens: [],
+            tokens: [
+              { text: "限定品", kana: "げんていひん" },
+              { text: "はすぐに" },
+              { text: "買", kana: "か" },
+              { text: "われてしまった。" },
+            ],
             kana: "げんていひんはすぐにかわれてしまった。",
             chinese: "限量商品很快就被买走了。",
             scene: "life",
@@ -2709,7 +2723,13 @@ export const VERB_CORPUS: VerbEntry[] = [
         examples: [
           {
             japanese: "そのチケットは高値で売られている。",
-            tokens: [],
+            tokens: [
+              { text: "そのチケットは" },
+              { text: "高値", kana: "たかね" },
+              { text: "で" },
+              { text: "売", kana: "う" },
+              { text: "られている。" },
+            ],
             kana: "そのちけっとはたかねでうられている。",
             chinese: "那张票被高价出售。",
             scene: "life",
@@ -2733,7 +2753,15 @@ export const VERB_CORPUS: VerbEntry[] = [
         examples: [
           {
             japanese: "この製品は日本で作られています。",
-            tokens: [],
+            tokens: [
+              { text: "この" },
+              { text: "製品", kana: "せいひん" },
+              { text: "は" },
+              { text: "日本", kana: "にほん" },
+              { text: "で" },
+              { text: "作", kana: "つく" },
+              { text: "られています。" },
+            ],
             kana: "このせいひんはにほんでつくられています。",
             chinese: "这件产品在日本制造。",
             scene: "work",
@@ -2757,7 +2785,15 @@ export const VERB_CORPUS: VerbEntry[] = [
         examples: [
           {
             japanese: "その事実は誰にも知られていない。",
-            tokens: [],
+            tokens: [
+              { text: "その" },
+              { text: "事実", kana: "じじつ" },
+              { text: "は" },
+              { text: "誰", kana: "だれ" },
+              { text: "にも" },
+              { text: "知", kana: "し" },
+              { text: "られていない。" },
+            ],
             kana: "そのじじつはだれにもしられていない。",
             chinese: "那个事实没有人知道。",
             scene: "life",
@@ -2781,7 +2817,16 @@ export const VERB_CORPUS: VerbEntry[] = [
         examples: [
           {
             japanese: "彼は信頼できる人だと思われている。",
-            tokens: [],
+            tokens: [
+              { text: "彼", kana: "かれ" },
+              { text: "は" },
+              { text: "信頼", kana: "しんらい" },
+              { text: "できる" },
+              { text: "人", kana: "ひと" },
+              { text: "だと" },
+              { text: "思", kana: "おも" },
+              { text: "われている。" },
+            ],
             kana: "かれはしんらいできるひとだとおもわれている。",
             chinese: "大家都觉得他是值得信赖的人。",
             scene: "work",
@@ -2805,7 +2850,16 @@ export const VERB_CORPUS: VerbEntry[] = [
         examples: [
           {
             japanese: "上司に同じことを何度も言われた。",
-            tokens: [],
+            tokens: [
+              { text: "上司", kana: "じょうし" },
+              { text: "に" },
+              { text: "同", kana: "おな" },
+              { text: "じことを" },
+              { text: "何度", kana: "なんど" },
+              { text: "も" },
+              { text: "言", kana: "い" },
+              { text: "われた。" },
+            ],
             kana: "じょうしにおなじことをなんどもいわれた。",
             chinese: "被上司说了好几次同样的话。",
             scene: "work",
@@ -2829,7 +2883,16 @@ export const VERB_CORPUS: VerbEntry[] = [
         examples: [
           {
             japanese: "急に席を立たれて困った。",
-            tokens: [],
+            tokens: [
+              { text: "急", kana: "きゅう" },
+              { text: "に" },
+              { text: "席", kana: "せき" },
+              { text: "を" },
+              { text: "立", kana: "た" },
+              { text: "たれて" },
+              { text: "困", kana: "こま" },
+              { text: "った。" },
+            ],
             kana: "きゅうにせきをたたれてこまった。",
             chinese: "对方突然起身让我很为难。",
             scene: "work",
@@ -2853,7 +2916,12 @@ export const VERB_CORPUS: VerbEntry[] = [
         examples: [
           {
             japanese: "予約席にいきなり座られた。",
-            tokens: [],
+            tokens: [
+              { text: "予約席", kana: "よやくせき" },
+              { text: "にいきなり" },
+              { text: "座", kana: "すわ" },
+              { text: "られた。" },
+            ],
             kana: "よやくせきにいきなりすわられた。",
             chinese: "预约的座位被人直接坐下了。",
             scene: "life",
@@ -2877,7 +2945,16 @@ export const VERB_CORPUS: VerbEntry[] = [
         examples: [
           {
             japanese: "前を急に走られて驚いた。",
-            tokens: [],
+            tokens: [
+              { text: "前", kana: "まえ" },
+              { text: "を" },
+              { text: "急", kana: "きゅう" },
+              { text: "に" },
+              { text: "走", kana: "はし" },
+              { text: "られて" },
+              { text: "驚", kana: "おどろ" },
+              { text: "いた。" },
+            ],
             kana: "まえをきゅうにはしられておどろいた。",
             chinese: "有人突然从前面跑过吓我一跳。",
             scene: "life",
@@ -2901,7 +2978,14 @@ export const VERB_CORPUS: VerbEntry[] = [
         examples: [
           {
             japanese: "社長はゆっくり会場まで歩かれました。",
-            tokens: [],
+            tokens: [
+              { text: "社長", kana: "しゃちょう" },
+              { text: "はゆっくり" },
+              { text: "会場", kana: "かいじょう" },
+              { text: "まで" },
+              { text: "歩", kana: "ある" },
+              { text: "かれました。" },
+            ],
             kana: "しゃちょうはゆっくりかいじょうまであるかれました。",
             chinese: "社长慢慢走到了会场。（敬语）",
             scene: "work",
@@ -2925,7 +3009,14 @@ export const VERB_CORPUS: VerbEntry[] = [
         examples: [
           {
             japanese: "捕まえようとした鳥に飛ばれた。",
-            tokens: [],
+            tokens: [
+              { text: "捕", kana: "つか" },
+              { text: "まえようとした" },
+              { text: "鳥", kana: "とり" },
+              { text: "に" },
+              { text: "飛", kana: "と" },
+              { text: "ばれた。" },
+            ],
             kana: "つかまえようとしたとりにとばれた。",
             chinese: "想抓的鸟飞走了。",
             scene: "life",
@@ -2949,7 +3040,14 @@ export const VERB_CORPUS: VerbEntry[] = [
         examples: [
           {
             japanese: "海でずっと先まで泳がれてしまった。",
-            tokens: [],
+            tokens: [
+              { text: "海", kana: "うみ" },
+              { text: "でずっと" },
+              { text: "先", kana: "さき" },
+              { text: "まで" },
+              { text: "泳", kana: "およ" },
+              { text: "がれてしまった。" },
+            ],
             kana: "うみでずっとさきまでおよがれてしまった。",
             chinese: "对方游得太远没追上。",
             scene: "life",
@@ -2973,7 +3071,16 @@ export const VERB_CORPUS: VerbEntry[] = [
         examples: [
           {
             japanese: "祖父に死なれて家族はとても寂しい。",
-            tokens: [],
+            tokens: [
+              { text: "祖父", kana: "そふ" },
+              { text: "に" },
+              { text: "死", kana: "し" },
+              { text: "なれて" },
+              { text: "家族", kana: "かぞく" },
+              { text: "はとても" },
+              { text: "寂", kana: "さび" },
+              { text: "しい。" },
+            ],
             kana: "そふにしなれてかぞくはとてもさびしい。",
             chinese: "祖父去世，家人非常难过。",
             scene: "life",
@@ -2997,7 +3104,14 @@ export const VERB_CORPUS: VerbEntry[] = [
         examples: [
           {
             japanese: "間違えたら友達に笑われた。",
-            tokens: [],
+            tokens: [
+              { text: "間違", kana: "まちが" },
+              { text: "えたら" },
+              { text: "友達", kana: "ともだち" },
+              { text: "に" },
+              { text: "笑", kana: "わら" },
+              { text: "われた。" },
+            ],
             kana: "まちがえたらともだちにわらわれた。",
             chinese: "犯了错被朋友笑话了。",
             scene: "life",
@@ -3021,7 +3135,14 @@ export const VERB_CORPUS: VerbEntry[] = [
         examples: [
           {
             japanese: "夜中に赤ちゃんに泣かれた。",
-            tokens: [],
+            tokens: [
+              { text: "夜中", kana: "よなか" },
+              { text: "に" },
+              { text: "赤", kana: "あか" },
+              { text: "ちゃんに" },
+              { text: "泣", kana: "な" },
+              { text: "かれた。" },
+            ],
             kana: "よなかにあかちゃんになかれた。",
             chinese: "半夜被宝宝哭闹吵醒了。",
             scene: "life",
@@ -3045,7 +3166,14 @@ export const VERB_CORPUS: VerbEntry[] = [
         examples: [
           {
             japanese: "遅刻して先生に怒られた。",
-            tokens: [],
+            tokens: [
+              { text: "遅刻", kana: "ちこく" },
+              { text: "して" },
+              { text: "先生", kana: "せんせい" },
+              { text: "に" },
+              { text: "怒", kana: "おこ" },
+              { text: "られた。" },
+            ],
             kana: "ちこくしてせんせいにおこられた。",
             chinese: "迟到了被老师骂了。",
             scene: "life",
@@ -3069,7 +3197,13 @@ export const VERB_CORPUS: VerbEntry[] = [
         examples: [
           {
             japanese: "お土産はみんなにとても喜ばれた。",
-            tokens: [],
+            tokens: [
+              { text: "お" },
+              { text: "土産", kana: "みやげ" },
+              { text: "はみんなにとても" },
+              { text: "喜", kana: "よろこ" },
+              { text: "ばれた。" },
+            ],
             kana: "おみやげはみんなにとてもよろこばれた。",
             chinese: "土特产很受大家欢迎。",
             scene: "life",
@@ -3093,7 +3227,13 @@ export const VERB_CORPUS: VerbEntry[] = [
         examples: [
           {
             japanese: "犯人は警察に探されている。",
-            tokens: [],
+            tokens: [
+              { text: "犯人は" },
+              { text: "警察", kana: "ん" },
+              { text: "に" },
+              { text: "探", kana: "んはけいさつにさが" },
+              { text: "されている。" },
+            ],
             kana: "はんにんはけいさつにさがされている。",
             chinese: "犯人正被警察通缉。",
             scene: "life",
@@ -3117,7 +3257,15 @@ export const VERB_CORPUS: VerbEntry[] = [
         examples: [
           {
             japanese: "電車で背中を強く押された。",
-            tokens: [],
+            tokens: [
+              { text: "電車で" },
+              { text: "背中", kana: "んしゃでせなか" },
+              { text: "を" },
+              { text: "強", kana: "つよ" },
+              { text: "く" },
+              { text: "押", kana: "お" },
+              { text: "された。" },
+            ],
             kana: "でんしゃでせなかをつよくおされた。",
             chinese: "在电车上后背被人用力推了。",
             scene: "life",
@@ -3141,7 +3289,14 @@ export const VERB_CORPUS: VerbEntry[] = [
         examples: [
           {
             japanese: "袖を子供に引かれた。",
-            tokens: [],
+            tokens: [
+              { text: "袖", kana: "そで" },
+              { text: "を" },
+              { text: "子供", kana: "こども" },
+              { text: "に" },
+              { text: "引", kana: "ひ" },
+              { text: "かれた。" },
+            ],
             kana: "そでをこどもにひかれた。",
             chinese: "袖子被小孩拉着。",
             scene: "life",
@@ -3165,7 +3320,16 @@ export const VERB_CORPUS: VerbEntry[] = [
         examples: [
           {
             japanese: "毎年、桜祭りが公園で開かれる。",
-            tokens: [],
+            tokens: [
+              { text: "毎年", kana: "まいとし" },
+              { text: "、" },
+              { text: "桜祭", kana: "さくらまつ" },
+              { text: "りが" },
+              { text: "公園", kana: "こうえん" },
+              { text: "で" },
+              { text: "開", kana: "ひら" },
+              { text: "かれる。" },
+            ],
             kana: "まいとし、さくらまつりがこうえんでひらかれる。",
             chinese: "每年樱花节都在公园举办。",
             scene: "life",
@@ -3189,7 +3353,12 @@ export const VERB_CORPUS: VerbEntry[] = [
         examples: [
           {
             japanese: "電話が突然切られた。",
-            tokens: [],
+            tokens: [
+              { text: "電話", kana: "でんわ" },
+              { text: "が" },
+              { text: "突然切", kana: "とつぜんき" },
+              { text: "られた。" },
+            ],
             kana: "でんわがとつぜんきられた。",
             chinese: "电话突然被挂断了。",
             scene: "work",
@@ -3213,7 +3382,16 @@ export const VERB_CORPUS: VerbEntry[] = [
         examples: [
           {
             japanese: "資料は会議の前に配られます。",
-            tokens: [],
+            tokens: [
+              { text: "資料", kana: "しりょう" },
+              { text: "は" },
+              { text: "会議", kana: "かいぎ" },
+              { text: "の" },
+              { text: "前", kana: "まえ" },
+              { text: "に" },
+              { text: "配", kana: "くば" },
+              { text: "られます。" },
+            ],
             kana: "しりょうはかいぎのまえにくばられます。",
             chinese: "资料会在会议前分发。",
             scene: "work",
@@ -3237,7 +3415,16 @@ export const VERB_CORPUS: VerbEntry[] = [
         examples: [
           {
             japanese: "重い荷物が業者によって運ばれた。",
-            tokens: [],
+            tokens: [
+              { text: "重", kana: "おも" },
+              { text: "い" },
+              { text: "荷物", kana: "にもつ" },
+              { text: "が" },
+              { text: "業者", kana: "ぎょうしゃ" },
+              { text: "によって" },
+              { text: "運", kana: "はこ" },
+              { text: "ばれた。" },
+            ],
             kana: "おもいにもつがぎょうしゃによってはこばれた。",
             chinese: "沉重的行李由专业人员搬运。",
             scene: "work",
@@ -3261,7 +3448,14 @@ export const VERB_CORPUS: VerbEntry[] = [
         examples: [
           {
             japanese: "資料は受付で渡されます。",
-            tokens: [],
+            tokens: [
+              { text: "資料", kana: "しりょう" },
+              { text: "は" },
+              { text: "受付", kana: "うけつけ" },
+              { text: "で" },
+              { text: "渡", kana: "わた" },
+              { text: "されます。" },
+            ],
             kana: "しりょうはうけつけでわたされます。",
             chinese: "资料会在前台递交给您。",
             scene: "work",
@@ -3285,7 +3479,16 @@ export const VERB_CORPUS: VerbEntry[] = [
         examples: [
           {
             japanese: "提出した書類が上司に直された。",
-            tokens: [],
+            tokens: [
+              { text: "提出", kana: "ていしゅつ" },
+              { text: "した" },
+              { text: "書類", kana: "しょるい" },
+              { text: "が" },
+              { text: "上司", kana: "じょうし" },
+              { text: "に" },
+              { text: "直", kana: "なお" },
+              { text: "された。" },
+            ],
             kana: "ていしゅつしたしょるいがじょうしになおされた。",
             chinese: "提交的材料被上司改了。",
             scene: "work",
@@ -3309,7 +3512,16 @@ export const VERB_CORPUS: VerbEntry[] = [
         examples: [
           {
             japanese: "本当の理由は彼に隠されていた。",
-            tokens: [],
+            tokens: [
+              { text: "本当", kana: "ほんとう" },
+              { text: "の" },
+              { text: "理由", kana: "りゆう" },
+              { text: "は" },
+              { text: "彼", kana: "かれ" },
+              { text: "に" },
+              { text: "隠", kana: "かく" },
+              { text: "されていた。" },
+            ],
             kana: "ほんとうのりゆうはかれにかくされていた。",
             chinese: "真正的理由被他隐瞒了。",
             scene: "life",
@@ -3333,7 +3545,14 @@ export const VERB_CORPUS: VerbEntry[] = [
         examples: [
           {
             japanese: "席を先に取られてしまった。",
-            tokens: [],
+            tokens: [
+              { text: "席", kana: "せき" },
+              { text: "を" },
+              { text: "先", kana: "さき" },
+              { text: "に" },
+              { text: "取", kana: "と" },
+              { text: "られてしまった。" },
+            ],
             kana: "せきをさきにとられてしまった。",
             chinese: "位置被别人先占了。",
             scene: "life",
@@ -3357,7 +3576,14 @@ export const VERB_CORPUS: VerbEntry[] = [
         examples: [
           {
             japanese: "給料が遅れて払われた。",
-            tokens: [],
+            tokens: [
+              { text: "給料", kana: "きゅうりょう" },
+              { text: "が" },
+              { text: "遅", kana: "おく" },
+              { text: "れて" },
+              { text: "払", kana: "はら" },
+              { text: "われた。" },
+            ],
             kana: "きゅうりょうがおくれてはらわれた。",
             chinese: "工资晚发了。",
             scene: "work",
@@ -3381,7 +3607,16 @@ export const VERB_CORPUS: VerbEntry[] = [
         examples: [
           {
             japanese: "図書館で本が無料で貸される。",
-            tokens: [],
+            tokens: [
+              { text: "図書館", kana: "としょかん" },
+              { text: "で" },
+              { text: "本", kana: "ほん" },
+              { text: "が" },
+              { text: "無料", kana: "むりょう" },
+              { text: "で" },
+              { text: "貸", kana: "か" },
+              { text: "される。" },
+            ],
             kana: "としょかんでほんがむりょうでかされる。",
             chinese: "图书馆免费借书。",
             scene: "life",
@@ -3405,7 +3640,14 @@ export const VERB_CORPUS: VerbEntry[] = [
         examples: [
           {
             japanese: "面接で評価を落とされた。",
-            tokens: [],
+            tokens: [
+              { text: "面接", kana: "めんせつ" },
+              { text: "で" },
+              { text: "評価", kana: "ひょうか" },
+              { text: "を" },
+              { text: "落", kana: "お" },
+              { text: "とされた。" },
+            ],
             kana: "めんせつでひょうかをおとされた。",
             chinese: "面试评分被扣分了。",
             scene: "work",
@@ -3429,7 +3671,16 @@ export const VERB_CORPUS: VerbEntry[] = [
         examples: [
           {
             japanese: "落とした財布が誰かに拾われた。",
-            tokens: [],
+            tokens: [
+              { text: "落", kana: "お" },
+              { text: "とした" },
+              { text: "財布", kana: "さいふ" },
+              { text: "が" },
+              { text: "誰", kana: "だれ" },
+              { text: "かに" },
+              { text: "拾", kana: "ひろ" },
+              { text: "われた。" },
+            ],
             kana: "おとしたさいふがだれかにひろわれた。",
             chinese: "掉的钱包被人捡到了。",
             scene: "life",
@@ -3453,7 +3704,13 @@ export const VERB_CORPUS: VerbEntry[] = [
         examples: [
           {
             japanese: "お客様にもう帰られました。",
-            tokens: [],
+            tokens: [
+              { text: "お" },
+              { text: "客様", kana: "きゃくさま" },
+              { text: "にもう" },
+              { text: "帰", kana: "かえ" },
+              { text: "られました。" },
+            ],
             kana: "おきゃくさまにもうかえられました。",
             chinese: "客人已经回去了。（敬语）",
             scene: "work",
@@ -3477,7 +3734,16 @@ export const VERB_CORPUS: VerbEntry[] = [
         examples: [
           {
             japanese: "部屋に勝手に入られて困った。",
-            tokens: [],
+            tokens: [
+              { text: "部屋", kana: "へや" },
+              { text: "に" },
+              { text: "勝手", kana: "かって" },
+              { text: "に" },
+              { text: "入", kana: "はい" },
+              { text: "られて" },
+              { text: "困", kana: "こま" },
+              { text: "った。" },
+            ],
             kana: "へやにかってにはいられてこまった。",
             chinese: "有人擅自进了房间，让我很为难。",
             scene: "life",
@@ -3501,7 +3767,11 @@ export const VERB_CORPUS: VerbEntry[] = [
         examples: [
           {
             japanese: "ルールはきちんと守られています。",
-            tokens: [],
+            tokens: [
+              { text: "ルールはきちんと" },
+              { text: "守", kana: "まも" },
+              { text: "られています。" },
+            ],
             kana: "るーるはきちんとまもられています。",
             chinese: "规则被严格遵守。",
             scene: "work",
@@ -3525,7 +3795,14 @@ export const VERB_CORPUS: VerbEntry[] = [
         examples: [
           {
             japanese: "彼が代表に選ばれた。",
-            tokens: [],
+            tokens: [
+              { text: "彼", kana: "かれ" },
+              { text: "が" },
+              { text: "代表", kana: "だいひょう" },
+              { text: "に" },
+              { text: "選", kana: "えら" },
+              { text: "ばれた。" },
+            ],
             kana: "かれがだいひょうにえらばれた。",
             chinese: "他被选为代表。",
             scene: "work",
@@ -3549,7 +3826,12 @@ export const VERB_CORPUS: VerbEntry[] = [
         examples: [
           {
             japanese: "宿題が毎週出される。",
-            tokens: [],
+            tokens: [
+              { text: "宿題", kana: "しゅくだい" },
+              { text: "が" },
+              { text: "毎週出", kana: "まいしゅうだ" },
+              { text: "される。" },
+            ],
             kana: "しゅくだいがまいしゅうだされる。",
             chinese: "每周都布置作业。",
             scene: "life",
@@ -3573,7 +3855,12 @@ export const VERB_CORPUS: VerbEntry[] = [
         examples: [
           {
             japanese: "急に動かれてピントがずれた。",
-            tokens: [],
+            tokens: [
+              { text: "急", kana: "きゅう" },
+              { text: "に" },
+              { text: "動", kana: "うご" },
+              { text: "かれてピントがずれた。" },
+            ],
             kana: "きゅうにうごかれてぴんとがずれた。",
             chinese: "对方突然动了，焦点没对上。",
             scene: "life",
@@ -3597,7 +3884,14 @@ export const VERB_CORPUS: VerbEntry[] = [
         examples: [
           {
             japanese: "結婚式に同僚として招かれた。",
-            tokens: [],
+            tokens: [
+              { text: "結婚式", kana: "けっこんしき" },
+              { text: "に" },
+              { text: "同僚", kana: "どうりょう" },
+              { text: "として" },
+              { text: "招", kana: "まね" },
+              { text: "かれた。" },
+            ],
             kana: "けっこんしきにどうりょうとしてまねかれた。",
             chinese: "作为同事被邀请参加婚礼。",
             scene: "life",
@@ -3621,7 +3915,15 @@ export const VERB_CORPUS: VerbEntry[] = [
         examples: [
           {
             japanese: "アラームより先に母に起こされた。",
-            tokens: [],
+            tokens: [
+              { text: "アラームより" },
+              { text: "先", kana: "さき" },
+              { text: "に" },
+              { text: "母", kana: "はは" },
+              { text: "に" },
+              { text: "起", kana: "お" },
+              { text: "こされた。" },
+            ],
             kana: "あらーむよりさきにははにおこされた。",
             chinese: "在闹钟响前被妈妈叫醒了。",
             scene: "life",
@@ -3645,7 +3947,13 @@ export const VERB_CORPUS: VerbEntry[] = [
         examples: [
           {
             japanese: "電車で席を譲られた。",
-            tokens: [],
+            tokens: [
+              { text: "電車で" },
+              { text: "席", kana: "んしゃでせき" },
+              { text: "を" },
+              { text: "譲", kana: "ゆず" },
+              { text: "られた。" },
+            ],
             kana: "でんしゃでせきをゆずられた。",
             chinese: "在电车上有人给我让了座。",
             scene: "life",
@@ -3669,7 +3977,14 @@ export const VERB_CORPUS: VerbEntry[] = [
         examples: [
           {
             japanese: "公園で蚊にたくさん噛まれた。",
-            tokens: [],
+            tokens: [
+              { text: "公園", kana: "こうえん" },
+              { text: "で" },
+              { text: "蚊", kana: "か" },
+              { text: "にたくさん" },
+              { text: "噛", kana: "か" },
+              { text: "まれた。" },
+            ],
             kana: "こうえんでかにたくさんかまれた。",
             chinese: "在公园被蚊子咬了好多次。",
             scene: "life",
@@ -3693,7 +4008,13 @@ export const VERB_CORPUS: VerbEntry[] = [
         examples: [
           {
             japanese: "メモが机に残されていた。",
-            tokens: [],
+            tokens: [
+              { text: "メモが" },
+              { text: "机", kana: "つくえ" },
+              { text: "に" },
+              { text: "残", kana: "のこ" },
+              { text: "されていた。" },
+            ],
             kana: "めもがつくえにのこされていた。",
             chinese: "桌上留着一张便条。",
             scene: "work",
@@ -3717,7 +4038,16 @@ export const VERB_CORPUS: VerbEntry[] = [
         examples: [
           {
             japanese: "彼の人生が映画に描かれている。",
-            tokens: [],
+            tokens: [
+              { text: "彼", kana: "かれ" },
+              { text: "の" },
+              { text: "人生", kana: "じんせい" },
+              { text: "が" },
+              { text: "映画", kana: "えいが" },
+              { text: "に" },
+              { text: "描", kana: "えが" },
+              { text: "かれている。" },
+            ],
             kana: "かれのじんせいがえいがにえがかれている。",
             chinese: "他的人生被搬上了电影。",
             scene: "life",
@@ -3741,7 +4071,14 @@ export const VERB_CORPUS: VerbEntry[] = [
         examples: [
           {
             japanese: "彼の言葉に救われた。",
-            tokens: [],
+            tokens: [
+              { text: "彼", kana: "かれ" },
+              { text: "の" },
+              { text: "言葉", kana: "ことば" },
+              { text: "に" },
+              { text: "救", kana: "すく" },
+              { text: "われた。" },
+            ],
             kana: "かれのことばにすくわれた。",
             chinese: "被他的话救赎了（心情舒缓）。",
             scene: "life",
@@ -3765,7 +4102,16 @@ export const VERB_CORPUS: VerbEntry[] = [
         examples: [
           {
             japanese: "災害で多くの命が失われた。",
-            tokens: [],
+            tokens: [
+              { text: "災害", kana: "さいがい" },
+              { text: "で" },
+              { text: "多", kana: "おお" },
+              { text: "くの" },
+              { text: "命", kana: "いのち" },
+              { text: "が" },
+              { text: "失", kana: "うしな" },
+              { text: "われた。" },
+            ],
             kana: "さいがいでおおくのいのちがうしなわれた。",
             chinese: "灾害中失去了许多生命。",
             scene: "life",
@@ -3789,7 +4135,14 @@ export const VERB_CORPUS: VerbEntry[] = [
         examples: [
           {
             japanese: "平和な日々が願われている。",
-            tokens: [],
+            tokens: [
+              { text: "平和", kana: "へいわ" },
+              { text: "な" },
+              { text: "日々", kana: "ひび" },
+              { text: "が" },
+              { text: "願", kana: "ねが" },
+              { text: "われている。" },
+            ],
             kana: "へいわなひびがねがわれている。",
             chinese: "大家都祈愿和平的日子。",
             scene: "life",
@@ -3813,7 +4166,12 @@ export const VERB_CORPUS: VerbEntry[] = [
         examples: [
           {
             japanese: "告白したけど振られてしまった。",
-            tokens: [],
+            tokens: [
+              { text: "告白", kana: "こくはく" },
+              { text: "したけど" },
+              { text: "振", kana: "ふ" },
+              { text: "られてしまった。" },
+            ],
             kana: "こくはくしたけどふられてしまった。",
             chinese: "告白了但被甩了。",
             scene: "life",
@@ -3837,7 +4195,16 @@ export const VERB_CORPUS: VerbEntry[] = [
         examples: [
           {
             japanese: "知らない人に肩を触られた。",
-            tokens: [],
+            tokens: [
+              { text: "知", kana: "し" },
+              { text: "らない" },
+              { text: "人", kana: "ひと" },
+              { text: "に" },
+              { text: "肩", kana: "かた" },
+              { text: "を" },
+              { text: "触", kana: "さわ" },
+              { text: "られた。" },
+            ],
             kana: "しらないひとにかたをさわられた。",
             chinese: "肩膀被陌生人摸了。",
             scene: "life",
@@ -3863,7 +4230,16 @@ export const VERB_CORPUS: VerbEntry[] = [
         examples: [
           {
             japanese: "妹に新しい服を着られてしまった。",
-            tokens: [],
+            tokens: [
+              { text: "妹", kana: "いもうと" },
+              { text: "に" },
+              { text: "新", kana: "あたら" },
+              { text: "しい" },
+              { text: "服", kana: "ふく" },
+              { text: "を" },
+              { text: "着", kana: "き" },
+              { text: "られてしまった。" },
+            ],
             kana: "いもうとにあたらしいふくをきられてしまった。",
             chinese: "新衣服被妹妹穿走了。",
             scene: "life",
@@ -3887,7 +4263,16 @@ export const VERB_CORPUS: VerbEntry[] = [
         examples: [
           {
             japanese: "図書館で本が学生に借りられた。",
-            tokens: [],
+            tokens: [
+              { text: "図書館", kana: "としょかん" },
+              { text: "で" },
+              { text: "本", kana: "ほん" },
+              { text: "が" },
+              { text: "学生", kana: "がくせい" },
+              { text: "に" },
+              { text: "借", kana: "か" },
+              { text: "りられた。" },
+            ],
             kana: "としょかんでほんががくせいにかりられた。",
             chinese: "图书馆的书被学生借走了。",
             scene: "life",
@@ -3911,7 +4296,16 @@ export const VERB_CORPUS: VerbEntry[] = [
         examples: [
           {
             japanese: "難しい質問が新人によく答えられた。",
-            tokens: [],
+            tokens: [
+              { text: "難", kana: "むずか" },
+              { text: "しい" },
+              { text: "質問", kana: "しつもん" },
+              { text: "が" },
+              { text: "新人", kana: "しんじん" },
+              { text: "によく" },
+              { text: "答", kana: "こた" },
+              { text: "えられた。" },
+            ],
             kana: "むずかしいしつもんがしんじんによくこたえられた。",
             chinese: "新人很好地回答了难题。",
             scene: "work",
@@ -3935,7 +4329,16 @@ export const VERB_CORPUS: VerbEntry[] = [
         examples: [
           {
             japanese: "彼は同僚にすぐ名前を覚えられた。",
-            tokens: [],
+            tokens: [
+              { text: "彼", kana: "かれ" },
+              { text: "は" },
+              { text: "同僚", kana: "どうりょう" },
+              { text: "にすぐ" },
+              { text: "名前", kana: "なまえ" },
+              { text: "を" },
+              { text: "覚", kana: "おぼ" },
+              { text: "えられた。" },
+            ],
             kana: "かれはどうりょうにすぐなまえをおぼえられた。",
             chinese: "他的名字很快被同事记住了。",
             scene: "work",
@@ -3959,7 +4362,16 @@ export const VERB_CORPUS: VerbEntry[] = [
         examples: [
           {
             japanese: "古い思い出はもう忘れられた。",
-            tokens: [],
+            tokens: [
+              { text: "古", kana: "ふる" },
+              { text: "い" },
+              { text: "思", kana: "おも" },
+              { text: "い" },
+              { text: "出", kana: "で" },
+              { text: "はもう" },
+              { text: "忘", kana: "わす" },
+              { text: "れられた。" },
+            ],
             kana: "ふるいおもいではもうわすれられた。",
             chinese: "旧的回忆已经被遗忘了。",
             scene: "life",
@@ -3983,7 +4395,14 @@ export const VERB_CORPUS: VerbEntry[] = [
         examples: [
           {
             japanese: "彼の話は誰にも信じられなかった。",
-            tokens: [],
+            tokens: [
+              { text: "彼", kana: "かれ" },
+              { text: "の話は" },
+              { text: "誰", kana: "なしはだれ" },
+              { text: "にも" },
+              { text: "信", kana: "しん" },
+              { text: "じられなかった。" },
+            ],
             kana: "かれのはなしはだれにもしんじられなかった。",
             chinese: "他的话没人相信。",
             scene: "life",
@@ -4007,7 +4426,16 @@ export const VERB_CORPUS: VerbEntry[] = [
         examples: [
           {
             japanese: "見知らぬ人に道で助けられた。",
-            tokens: [],
+            tokens: [
+              { text: "見知", kana: "みし" },
+              { text: "らぬ" },
+              { text: "人", kana: "ひと" },
+              { text: "に" },
+              { text: "道", kana: "みち" },
+              { text: "で" },
+              { text: "助", kana: "たす" },
+              { text: "けられた。" },
+            ],
             kana: "みしらぬひとにみちでたすけられた。",
             chinese: "在路上被陌生人帮助了。",
             scene: "life",
@@ -4031,7 +4459,14 @@ export const VERB_CORPUS: VerbEntry[] = [
         examples: [
           {
             japanese: "祖母に大切に育てられた。",
-            tokens: [],
+            tokens: [
+              { text: "祖母", kana: "そぼ" },
+              { text: "に" },
+              { text: "大切", kana: "たいせつ" },
+              { text: "に" },
+              { text: "育", kana: "そだ" },
+              { text: "てられた。" },
+            ],
             kana: "そぼにたいせつにそだてられた。",
             chinese: "被祖母悉心抚养长大。",
             scene: "life",
@@ -4055,7 +4490,14 @@ export const VERB_CORPUS: VerbEntry[] = [
         examples: [
           {
             japanese: "全社員が会議室に集められた。",
-            tokens: [],
+            tokens: [
+              { text: "全社員", kana: "ぜんしゃいん" },
+              { text: "が" },
+              { text: "会議室", kana: "かいぎしつ" },
+              { text: "に" },
+              { text: "集", kana: "あつ" },
+              { text: "められた。" },
+            ],
             kana: "ぜんしゃいんがかいぎしつにあつめられた。",
             chinese: "全体员工被召集到会议室。",
             scene: "work",
@@ -4079,7 +4521,14 @@ export const VERB_CORPUS: VerbEntry[] = [
         examples: [
           {
             japanese: "新しいプロジェクトが今月から始められた。",
-            tokens: [],
+            tokens: [
+              { text: "新", kana: "あたら" },
+              { text: "しいプロジェクトが" },
+              { text: "今月", kana: "こんげつ" },
+              { text: "から" },
+              { text: "始", kana: "はじ" },
+              { text: "められた。" },
+            ],
             kana: "あたらしいぷろじぇくとがこんげつからはじめられた。",
             chinese: "新项目从本月开始启动。",
             scene: "work",
@@ -4103,7 +4552,14 @@ export const VERB_CORPUS: VerbEntry[] = [
         examples: [
           {
             japanese: "予定通り会議が終えられた。",
-            tokens: [],
+            tokens: [
+              { text: "予定通", kana: "よていどお" },
+              { text: "り" },
+              { text: "会議", kana: "かいぎ" },
+              { text: "が" },
+              { text: "終", kana: "お" },
+              { text: "えられた。" },
+            ],
             kana: "よていどおりかいぎがおえられた。",
             chinese: "会议按计划结束了。",
             scene: "work",
@@ -4127,7 +4583,12 @@ export const VERB_CORPUS: VerbEntry[] = [
         examples: [
           {
             japanese: "荷物がフロントに預けられている。",
-            tokens: [],
+            tokens: [
+              { text: "荷物", kana: "にもつ" },
+              { text: "がフロントに" },
+              { text: "預", kana: "あず" },
+              { text: "けられている。" },
+            ],
             kana: "にもつがふろんとにあずけられている。",
             chinese: "行李寄存在前台。",
             scene: "life",
@@ -4151,7 +4612,16 @@ export const VERB_CORPUS: VerbEntry[] = [
         examples: [
           {
             japanese: "新しい仕事が彼に任せられた。",
-            tokens: [],
+            tokens: [
+              { text: "新", kana: "あたら" },
+              { text: "しい" },
+              { text: "仕事", kana: "しごと" },
+              { text: "が" },
+              { text: "彼", kana: "かれ" },
+              { text: "に" },
+              { text: "任", kana: "まか" },
+              { text: "せられた。" },
+            ],
             kana: "あたらしいしごとがかれにまかせられた。",
             chinese: "新工作交给了他。",
             scene: "work",
@@ -4175,7 +4645,16 @@ export const VERB_CORPUS: VerbEntry[] = [
         examples: [
           {
             japanese: "知らない人に突然家を訪ねられた。",
-            tokens: [],
+            tokens: [
+              { text: "知", kana: "し" },
+              { text: "らない" },
+              { text: "人", kana: "ひと" },
+              { text: "に" },
+              { text: "突然家", kana: "とつぜんいえ" },
+              { text: "を" },
+              { text: "訪", kana: "たず" },
+              { text: "ねられた。" },
+            ],
             kana: "しらないひとにとつぜんいえをたずねられた。",
             chinese: "突然有陌生人来访。",
             scene: "life",
@@ -4199,7 +4678,18 @@ export const VERB_CORPUS: VerbEntry[] = [
         examples: [
           {
             japanese: "面倒な仕事を上司に押し付けられた。",
-            tokens: [],
+            tokens: [
+              { text: "面倒", kana: "めんどう" },
+              { text: "な" },
+              { text: "仕事", kana: "しごと" },
+              { text: "を" },
+              { text: "上司", kana: "じょうし" },
+              { text: "に" },
+              { text: "押", kana: "お" },
+              { text: "し" },
+              { text: "付", kana: "つ" },
+              { text: "けられた。" },
+            ],
             kana: "めんどうなしごとをじょうしにおしつけられた。",
             chinese: "麻烦的工作被上司推给了我。",
             scene: "work",
@@ -4223,7 +4713,15 @@ export const VERB_CORPUS: VerbEntry[] = [
         examples: [
           {
             japanese: "ボールが選手に高く投げられた。",
-            tokens: [],
+            tokens: [
+              { text: "ボールが" },
+              { text: "選手", kana: "せんしゅ" },
+              { text: "に" },
+              { text: "高", kana: "たか" },
+              { text: "く" },
+              { text: "投", kana: "な" },
+              { text: "げられた。" },
+            ],
             kana: "ぼーるがせんしゅにたかくなげられた。",
             chinese: "球被运动员高高投出。",
             scene: "life",
@@ -4247,7 +4745,12 @@ export const VERB_CORPUS: VerbEntry[] = [
         examples: [
           {
             japanese: "資料がきれいに並べられている。",
-            tokens: [],
+            tokens: [
+              { text: "資料", kana: "しりょう" },
+              { text: "がきれいに" },
+              { text: "並", kana: "なら" },
+              { text: "べられている。" },
+            ],
             kana: "しりょうがきれいにならべられている。",
             chinese: "资料整齐地排列着。",
             scene: "work",
@@ -4271,7 +4774,14 @@ export const VERB_CORPUS: VerbEntry[] = [
         examples: [
           {
             japanese: "兄といつも比べられて嫌だった。",
-            tokens: [],
+            tokens: [
+              { text: "兄", kana: "あに" },
+              { text: "といつも" },
+              { text: "比", kana: "くら" },
+              { text: "べられて" },
+              { text: "嫌", kana: "いや" },
+              { text: "だった。" },
+            ],
             kana: "あにといつもくらべられていやだった。",
             chinese: "总是被拿来跟哥哥比，让人不舒服。",
             scene: "life",
@@ -4295,7 +4805,16 @@ export const VERB_CORPUS: VerbEntry[] = [
         examples: [
           {
             japanese: "新しい条件が契約に加えられた。",
-            tokens: [],
+            tokens: [
+              { text: "新", kana: "あたら" },
+              { text: "しい" },
+              { text: "条件", kana: "じょうけん" },
+              { text: "が" },
+              { text: "契約", kana: "けいやく" },
+              { text: "に" },
+              { text: "加", kana: "くわ" },
+              { text: "えられた。" },
+            ],
             kana: "あたらしいじょうけんがけいやくにくわえられた。",
             chinese: "合同里加上了新条款。",
             scene: "work",
@@ -4319,7 +4838,15 @@ export const VERB_CORPUS: VerbEntry[] = [
         examples: [
           {
             japanese: "プロジェクトが来年も続けられる予定だ。",
-            tokens: [],
+            tokens: [
+              { text: "プロジェクトが" },
+              { text: "来年", kana: "らいねん" },
+              { text: "も" },
+              { text: "続", kana: "つづ" },
+              { text: "けられる" },
+              { text: "予定", kana: "よてい" },
+              { text: "だ。" },
+            ],
             kana: "ぷろじぇくとがらいねんもつづけられるよていだ。",
             chinese: "项目计划明年继续。",
             scene: "work",
@@ -4343,7 +4870,16 @@ export const VERB_CORPUS: VerbEntry[] = [
         examples: [
           {
             japanese: "工事が住民の反対で止められた。",
-            tokens: [],
+            tokens: [
+              { text: "工事", kana: "こうじ" },
+              { text: "が" },
+              { text: "住民", kana: "じゅうみん" },
+              { text: "の" },
+              { text: "反対", kana: "はんたい" },
+              { text: "で" },
+              { text: "止", kana: "と" },
+              { text: "められた。" },
+            ],
             kana: "こうじがじゅうみんのはんたいでとめられた。",
             chinese: "工程因居民反对被叫停了。",
             scene: "life",
@@ -4367,7 +4903,16 @@ export const VERB_CORPUS: VerbEntry[] = [
         examples: [
           {
             japanese: "古い本がうっかり親に捨てられた。",
-            tokens: [],
+            tokens: [
+              { text: "古", kana: "ふる" },
+              { text: "い" },
+              { text: "本", kana: "ほん" },
+              { text: "がうっかり" },
+              { text: "親", kana: "おや" },
+              { text: "に" },
+              { text: "捨", kana: "す" },
+              { text: "てられた。" },
+            ],
             kana: "ふるいほんがうっかりおやにすてられた。",
             chinese: "旧书被父母不小心扔了。",
             scene: "life",
@@ -4391,7 +4936,14 @@ export const VERB_CORPUS: VerbEntry[] = [
         examples: [
           {
             japanese: "出席者が一人ずつ数えられた。",
-            tokens: [],
+            tokens: [
+              { text: "出席者", kana: "しゅっせきしゃ" },
+              { text: "が" },
+              { text: "一人", kana: "ひとり" },
+              { text: "ずつ" },
+              { text: "数", kana: "かぞ" },
+              { text: "えられた。" },
+            ],
             kana: "しゅっせきしゃがひとりずつかぞえられた。",
             chinese: "参加者一个一个被数了。",
             scene: "work",
@@ -4415,7 +4967,16 @@ export const VERB_CORPUS: VerbEntry[] = [
         examples: [
           {
             japanese: "事故の原因が詳しく調べられている。",
-            tokens: [],
+            tokens: [
+              { text: "事故", kana: "じこ" },
+              { text: "の" },
+              { text: "原因", kana: "げんいん" },
+              { text: "が" },
+              { text: "詳", kana: "くわ" },
+              { text: "しく" },
+              { text: "調", kana: "しら" },
+              { text: "べられている。" },
+            ],
             kana: "じこのげんいんがくわしくしらべられている。",
             chinese: "事故原因正在被详细调查。",
             scene: "work",
@@ -4439,7 +5000,16 @@ export const VERB_CORPUS: VerbEntry[] = [
         examples: [
           {
             japanese: "他の方法も十分に考えられる。",
-            tokens: [],
+            tokens: [
+              { text: "他", kana: "ほか" },
+              { text: "の" },
+              { text: "方法", kana: "ほうほう" },
+              { text: "も" },
+              { text: "十分", kana: "じゅうぶん" },
+              { text: "に" },
+              { text: "考", kana: "かんが" },
+              { text: "えられる。" },
+            ],
             kana: "ほかのほうほうもじゅうぶんにかんがえられる。",
             chinese: "也可以充分考虑其他方法。",
             scene: "work",
@@ -4463,7 +5033,16 @@ export const VERB_CORPUS: VerbEntry[] = [
         examples: [
           {
             japanese: "市場の大半が大手企業に占められている。",
-            tokens: [],
+            tokens: [
+              { text: "市場", kana: "しじょう" },
+              { text: "の" },
+              { text: "大半", kana: "たいはん" },
+              { text: "が" },
+              { text: "大手企業", kana: "おおてきぎょう" },
+              { text: "に" },
+              { text: "占", kana: "し" },
+              { text: "められている。" },
+            ],
             kana: "しじょうのたいはんがおおてきぎょうにしめられている。",
             chinese: "市场大部分被大企业占据。",
             scene: "work",
@@ -4487,7 +5066,14 @@ export const VERB_CORPUS: VerbEntry[] = [
         examples: [
           {
             japanese: "新人にも高いスキルが求められる。",
-            tokens: [],
+            tokens: [
+              { text: "新人", kana: "しんじん" },
+              { text: "にも" },
+              { text: "高", kana: "たか" },
+              { text: "いスキルが" },
+              { text: "求", kana: "もと" },
+              { text: "められる。" },
+            ],
             kana: "しんじんにもたかいすきるがもとめられる。",
             chinese: "对新人也要求很高的技能。",
             scene: "work",
@@ -4511,7 +5097,14 @@ export const VERB_CORPUS: VerbEntry[] = [
         examples: [
           {
             japanese: "努力が会社に認められた。",
-            tokens: [],
+            tokens: [
+              { text: "努力", kana: "どりょく" },
+              { text: "が" },
+              { text: "会社", kana: "かいしゃ" },
+              { text: "に" },
+              { text: "認", kana: "みと" },
+              { text: "められた。" },
+            ],
             kana: "どりょくがかいしゃにみとめられた。",
             chinese: "努力得到了公司的认可。",
             scene: "work",
@@ -4535,7 +5128,12 @@ export const VERB_CORPUS: VerbEntry[] = [
         examples: [
           {
             japanese: "新しいメンバーがチームに入れられた。",
-            tokens: [],
+            tokens: [
+              { text: "新", kana: "あたら" },
+              { text: "しいメンバーがチームに" },
+              { text: "入", kana: "い" },
+              { text: "れられた。" },
+            ],
             kana: "あたらしいめんばーがちーむにいれられた。",
             chinese: "新成员被加入团队。",
             scene: "work",
@@ -4559,7 +5157,14 @@ export const VERB_CORPUS: VerbEntry[] = [
         examples: [
           {
             japanese: "計画が一週間で立てられた。",
-            tokens: [],
+            tokens: [
+              { text: "計画", kana: "けいかく" },
+              { text: "が" },
+              { text: "一週間", kana: "いっしゅうかん" },
+              { text: "で" },
+              { text: "立", kana: "た" },
+              { text: "てられた。" },
+            ],
             kana: "けいかくがいっしゅうかんでたてられた。",
             chinese: "计划在一周内被制定出来。",
             scene: "work",
@@ -4585,7 +5190,14 @@ export const VERB_CORPUS: VerbEntry[] = [
         examples: [
           {
             japanese: "毎日真剣に勉強されている学生だ。",
-            tokens: [],
+            tokens: [
+              { text: "毎日真剣", kana: "まい" },
+              { text: "に" },
+              { text: "勉強", kana: "ちしんけんにべんきょう" },
+              { text: "されている" },
+              { text: "学生", kana: "がくせい" },
+              { text: "だ。" },
+            ],
             kana: "まいにちしんけんにべんきょうされているがくせいだ。",
             chinese: "他是个每天认真学习的学生。（敬语）",
             scene: "life",
@@ -4609,7 +5221,12 @@ export const VERB_CORPUS: VerbEntry[] = [
         examples: [
           {
             japanese: "結果は明日連絡されます。",
-            tokens: [],
+            tokens: [
+              { text: "結果", kana: "けっか" },
+              { text: "は" },
+              { text: "明日連絡", kana: "あしたれんらく" },
+              { text: "されます。" },
+            ],
             kana: "けっかはあしたれんらくされます。",
             chinese: "结果将于明天通知。",
             scene: "work",
@@ -4633,7 +5250,12 @@ export const VERB_CORPUS: VerbEntry[] = [
         examples: [
           {
             japanese: "予約はメールで確認されました。",
-            tokens: [],
+            tokens: [
+              { text: "予約", kana: "よやく" },
+              { text: "はメールで" },
+              { text: "確認", kana: "かくにん" },
+              { text: "されました。" },
+            ],
             kana: "よやくはめーるでかくにんされました。",
             chinese: "预约通过邮件确认了。",
             scene: "work",
@@ -4657,7 +5279,16 @@ export const VERB_CORPUS: VerbEntry[] = [
         examples: [
           {
             japanese: "新しい同僚が部長に紹介された。",
-            tokens: [],
+            tokens: [
+              { text: "新", kana: "あたら" },
+              { text: "しい" },
+              { text: "同僚", kana: "どうりょう" },
+              { text: "が" },
+              { text: "部長", kana: "ぶちょう" },
+              { text: "に" },
+              { text: "紹介", kana: "しょうかい" },
+              { text: "された。" },
+            ],
             kana: "あたらしいどうりょうがぶちょうにしょうかいされた。",
             chinese: "新同事被部长介绍了。",
             scene: "work",
@@ -4681,7 +5312,15 @@ export const VERB_CORPUS: VerbEntry[] = [
         examples: [
           {
             japanese: "ルールは最初に丁寧に説明されました。",
-            tokens: [],
+            tokens: [
+              { text: "ルールは" },
+              { text: "最初", kana: "さいしょ" },
+              { text: "に" },
+              { text: "丁寧", kana: "ていねい" },
+              { text: "に" },
+              { text: "説明", kana: "せつめい" },
+              { text: "されました。" },
+            ],
             kana: "るーるはさいしょにていねいにせつめいされました。",
             chinese: "规则一开始就被详细说明了。",
             scene: "work",
@@ -4705,7 +5344,15 @@ export const VERB_CORPUS: VerbEntry[] = [
         examples: [
           {
             japanese: "お客様は会議室まで案内されました。",
-            tokens: [],
+            tokens: [
+              { text: "お" },
+              { text: "客様", kana: "きゃくさま" },
+              { text: "は" },
+              { text: "会議室", kana: "かいぎしつ" },
+              { text: "まで" },
+              { text: "案内", kana: "あんない" },
+              { text: "されました。" },
+            ],
             kana: "おきゃくさまはかいぎしつまであんないされました。",
             chinese: "客人被引导至会议室。",
             scene: "work",
@@ -4729,7 +5376,14 @@ export const VERB_CORPUS: VerbEntry[] = [
         examples: [
           {
             japanese: "騒がしくして店員に注意された。",
-            tokens: [],
+            tokens: [
+              { text: "騒", kana: "さわ" },
+              { text: "がしくして" },
+              { text: "店員", kana: "てんいん" },
+              { text: "に" },
+              { text: "注意", kana: "ちゅうい" },
+              { text: "された。" },
+            ],
             kana: "さわがしくしててんいんにちゅういされた。",
             chinese: "因为吵闹被店员提醒了。",
             scene: "life",
@@ -4753,7 +5407,16 @@ export const VERB_CORPUS: VerbEntry[] = [
         examples: [
           {
             japanese: "連絡が遅れて家族に心配された。",
-            tokens: [],
+            tokens: [
+              { text: "連絡", kana: "れんらく" },
+              { text: "が" },
+              { text: "遅", kana: "おく" },
+              { text: "れて" },
+              { text: "家族", kana: "かぞく" },
+              { text: "に" },
+              { text: "心配", kana: "しんぱい" },
+              { text: "された。" },
+            ],
             kana: "れんらくがおくれてかぞくにしんぱいされた。",
             chinese: "联系晚了让家人担心。",
             scene: "life",
@@ -4777,7 +5440,13 @@ export const VERB_CORPUS: VerbEntry[] = [
         examples: [
           {
             japanese: "このアプリは世界中で利用されている。",
-            tokens: [],
+            tokens: [
+              { text: "このアプリは" },
+              { text: "世界中", kana: "せかいじゅう" },
+              { text: "で" },
+              { text: "利用", kana: "りよう" },
+              { text: "されている。" },
+            ],
             kana: "このあぷりはせかいじゅうでりようされている。",
             chinese: "这个应用在全世界都被使用。",
             scene: "work",
@@ -4801,7 +5470,14 @@ export const VERB_CORPUS: VerbEntry[] = [
         examples: [
           {
             japanese: "資料はすでに会議室に準備されている。",
-            tokens: [],
+            tokens: [
+              { text: "資料", kana: "しりょう" },
+              { text: "はすでに" },
+              { text: "会議室", kana: "かいぎしつ" },
+              { text: "に" },
+              { text: "準備", kana: "じゅんび" },
+              { text: "されている。" },
+            ],
             kana: "しりょうはすでにかいぎしつにじゅんびされている。",
             chinese: "资料已经在会议室准备好了。",
             scene: "work",
@@ -4825,7 +5501,17 @@ export const VERB_CORPUS: VerbEntry[] = [
         examples: [
           {
             japanese: "そのような出来事は誰でも一度は経験される。",
-            tokens: [],
+            tokens: [
+              { text: "そのような" },
+              { text: "出来事", kana: "できごと" },
+              { text: "は" },
+              { text: "誰", kana: "だれ" },
+              { text: "でも" },
+              { text: "一度", kana: "いちど" },
+              { text: "は" },
+              { text: "経験", kana: "けいけん" },
+              { text: "される。" },
+            ],
             kana: "そのようなできごとはだれでもいちどはけいけんされる。",
             chinese: "那样的事谁都会经历一次。",
             scene: "life",
@@ -4849,7 +5535,14 @@ export const VERB_CORPUS: VerbEntry[] = [
         examples: [
           {
             japanese: "席は事前に用意されています。",
-            tokens: [],
+            tokens: [
+              { text: "席", kana: "せき" },
+              { text: "は" },
+              { text: "事前", kana: "じぜん" },
+              { text: "に" },
+              { text: "用意", kana: "ようい" },
+              { text: "されています。" },
+            ],
             kana: "せきはじぜんによういされています。",
             chinese: "座位事先就准备好了。",
             scene: "work",
@@ -4873,7 +5566,12 @@ export const VERB_CORPUS: VerbEntry[] = [
         examples: [
           {
             japanese: "毎日熱心に練習されている。",
-            tokens: [],
+            tokens: [
+              { text: "毎日熱心", kana: "まい" },
+              { text: "に" },
+              { text: "練習", kana: "ちねっしんにれんしゅう" },
+              { text: "されている。" },
+            ],
             kana: "まいにちねっしんにれんしゅうされている。",
             chinese: "每天热心地练习。（敬语）",
             scene: "life",
@@ -4897,7 +5595,14 @@ export const VERB_CORPUS: VerbEntry[] = [
         examples: [
           {
             japanese: "次回の集まりが約束された。",
-            tokens: [],
+            tokens: [
+              { text: "次回", kana: "じかい" },
+              { text: "の" },
+              { text: "集", kana: "あつ" },
+              { text: "まりが" },
+              { text: "約束", kana: "やくそく" },
+              { text: "された。" },
+            ],
             kana: "じかいのあつまりがやくそくされた。",
             chinese: "约定了下次聚会。",
             scene: "life",
@@ -4921,7 +5626,16 @@ export const VERB_CORPUS: VerbEntry[] = [
         examples: [
           {
             japanese: "提案は多くの人に反対された。",
-            tokens: [],
+            tokens: [
+              { text: "提案", kana: "ていあん" },
+              { text: "は" },
+              { text: "多", kana: "おお" },
+              { text: "くの" },
+              { text: "人", kana: "ひと" },
+              { text: "に" },
+              { text: "反対", kana: "はんたい" },
+              { text: "された。" },
+            ],
             kana: "ていあんはおおくのひとにはんたいされた。",
             chinese: "提案被很多人反对。",
             scene: "work",
@@ -4945,7 +5659,16 @@ export const VERB_CORPUS: VerbEntry[] = [
         examples: [
           {
             japanese: "新しい方針は全員に賛成された。",
-            tokens: [],
+            tokens: [
+              { text: "新", kana: "あたら" },
+              { text: "しい" },
+              { text: "方針", kana: "ほうしん" },
+              { text: "は" },
+              { text: "全員", kana: "ぜんいん" },
+              { text: "に" },
+              { text: "賛成", kana: "さんせい" },
+              { text: "された。" },
+            ],
             kana: "あたらしいほうしんはぜんいんにさんせいされた。",
             chinese: "新方针得到了全员赞成。",
             scene: "work",
@@ -4969,7 +5692,14 @@ export const VERB_CORPUS: VerbEntry[] = [
         examples: [
           {
             japanese: "来月、社員旅行が計画されている。",
-            tokens: [],
+            tokens: [
+              { text: "来月", kana: "らいげつ" },
+              { text: "、" },
+              { text: "社員旅行", kana: "しゃいんりょこう" },
+              { text: "が" },
+              { text: "計画", kana: "けいかく" },
+              { text: "されている。" },
+            ],
             kana: "らいげつ、しゃいんりょこうがけいかくされている。",
             chinese: "下个月计划公司旅行。",
             scene: "work",
@@ -4993,7 +5723,18 @@ export const VERB_CORPUS: VerbEntry[] = [
         examples: [
           {
             japanese: "彼の仕事は社内で高く評価されている。",
-            tokens: [],
+            tokens: [
+              { text: "彼", kana: "かれ" },
+              { text: "の" },
+              { text: "仕事", kana: "しごと" },
+              { text: "は" },
+              { text: "社内", kana: "しゃない" },
+              { text: "で" },
+              { text: "高", kana: "たか" },
+              { text: "く" },
+              { text: "評価", kana: "ひょうか" },
+              { text: "されている。" },
+            ],
             kana: "かれのしごとはしゃないでたかくひょうかされている。",
             chinese: "他的工作在公司内部得到高度评价。",
             scene: "work",
@@ -5017,7 +5758,16 @@ export const VERB_CORPUS: VerbEntry[] = [
         examples: [
           {
             japanese: "品質は出荷前に厳しく検査される。",
-            tokens: [],
+            tokens: [
+              { text: "品質", kana: "ひんしつ" },
+              { text: "は" },
+              { text: "出荷前", kana: "しゅっかまえ" },
+              { text: "に" },
+              { text: "厳", kana: "きび" },
+              { text: "しく" },
+              { text: "検査", kana: "けんさ" },
+              { text: "される。" },
+            ],
             kana: "ひんしつはしゅっかまえにきびしくけんさされる。",
             chinese: "出货前严格检验品质。",
             scene: "work",
@@ -5041,7 +5791,14 @@ export const VERB_CORPUS: VerbEntry[] = [
         examples: [
           {
             japanese: "新製品が来年開発される予定だ。",
-            tokens: [],
+            tokens: [
+              { text: "新製品", kana: "しんせいひん" },
+              { text: "が" },
+              { text: "来年開発", kana: "らいねんかいはつ" },
+              { text: "される" },
+              { text: "予定", kana: "よてい" },
+              { text: "だ。" },
+            ],
             kana: "しんせいひんがらいねんかいはつされるよていだ。",
             chinese: "新产品计划明年开发。",
             scene: "work",

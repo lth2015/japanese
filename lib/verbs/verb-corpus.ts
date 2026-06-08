@@ -12,7 +12,7 @@ export const VERB_CORPUS: VerbEntry[] = [
         conjugationType: "passive",
         conjugatedForm: "書かれる",
         explanationZh: "被写；也可表示受到动作影响（迷惑受身）",
-        patternHint: "五段：語幹 + あ段 + れる（書く → 書か + れる）",
+        patternHint: "一类：語幹 + あ段 + れる（書く → 書か + れる）",
         examples: [
           {
             japanese: "報告書は部長に書かれました。",
@@ -50,7 +50,7 @@ export const VERB_CORPUS: VerbEntry[] = [
         conjugationType: "causative",
         conjugatedForm: "書かせる",
         explanationZh: "让…写；命令或允许某人写",
-        patternHint: "五段：語幹 + あ段 + せる（書く → 書か + せる）",
+        patternHint: "一类：語幹 + あ段 + せる（書く → 書か + せる）",
         examples: [
           {
             japanese: "部下に議事録を書かせた。",
@@ -90,7 +90,7 @@ export const VERB_CORPUS: VerbEntry[] = [
         conjugationType: "causativePassive",
         conjugatedForm: "書かせられる",
         explanationZh: "被迫写；被强制要求去写",
-        patternHint: "五段：書か + せられる（口語では書かされる も可）",
+        patternHint: "一类：書か + せられる（口語では書かされる も可）",
         examples: [
           {
             japanese: "毎回、長い報告書を書かせられる。",
@@ -141,7 +141,7 @@ export const VERB_CORPUS: VerbEntry[] = [
         conjugationType: "passive",
         conjugatedForm: "読まれる",
         explanationZh: "被读；内容被他人阅读",
-        patternHint: "五段：語幹 + あ段 + れる（読む → 読ま + れる）",
+        patternHint: "一类：語幹 + あ段 + れる（読む → 読ま + れる）",
         examples: [
           {
             japanese: "企画書が役員全員に読まれた。",
@@ -180,7 +180,7 @@ export const VERB_CORPUS: VerbEntry[] = [
         conjugationType: "causative",
         conjugatedForm: "読ませる",
         explanationZh: "让…读；要求某人阅读",
-        patternHint: "五段：語幹 + あ段 + せる（読む → 読ま + せる）",
+        patternHint: "一类：語幹 + あ段 + せる（読む → 読ま + せる）",
         examples: [
           {
             japanese: "新人に規則を読ませてください。",
@@ -218,8 +218,8 @@ export const VERB_CORPUS: VerbEntry[] = [
       {
         conjugationType: "causativePassive",
         conjugatedForm: "読まされる",
-        explanationZh: "被迫读；被强制要求阅读（五段缩约形）",
-        patternHint: "五段縮約：読ま + される（読ませられる の口語形）",
+        explanationZh: "被迫读；被强制要求阅读（一类缩约形）",
+        patternHint: "一类縮約：読ま + される（読ませられる の口語形）",
         examples: [
           {
             japanese: "会議前に大量の資料を読まされた。",
@@ -272,7 +272,7 @@ export const VERB_CORPUS: VerbEntry[] = [
         conjugationType: "passive",
         conjugatedForm: "話される",
         explanationZh: "被谈论；自己的事被他人说出去",
-        patternHint: "五段：語幹 + あ段 + れる（話す → 話さ + れる）",
+        patternHint: "一类：語幹 + あ段 + れる（話す → 話さ + れる）",
         examples: [
           {
             japanese: "会議で自分のミスを話されて困った。",
@@ -312,7 +312,7 @@ export const VERB_CORPUS: VerbEntry[] = [
         conjugationType: "causative",
         conjugatedForm: "話させる",
         explanationZh: "让…说；让某人发言或讲述",
-        patternHint: "五段：語幹 + あ段 + せる（話す → 話さ + せる）",
+        patternHint: "一类：語幹 + あ段 + せる（話す → 話さ + せる）",
         examples: [
           {
             japanese: "部長は新人に自己紹介を話させた。",
@@ -354,7 +354,7 @@ export const VERB_CORPUS: VerbEntry[] = [
         conjugationType: "causativePassive",
         conjugatedForm: "話させられる",
         explanationZh: "被迫发言；被强制要求开口说",
-        patternHint: "五段：話さ + せられる",
+        patternHint: "一类：話さ + せられる",
         examples: [
           {
             japanese: "急に全員の前で話させられた。",
@@ -403,7 +403,7 @@ export const VERB_CORPUS: VerbEntry[] = [
         conjugationType: "passive",
         conjugatedForm: "待たれる",
         explanationZh: "被等；让对方等候（常含抱歉意味）",
-        patternHint: "五段：語幹 + あ段 + れる（待つ → 待た + れる）",
+        patternHint: "一类：語幹 + あ段 + れる（待つ → 待た + れる）",
         examples: [
           {
             japanese: "お客様に長い時間待たれてしまいました。",
@@ -444,7 +444,7 @@ export const VERB_CORPUS: VerbEntry[] = [
         conjugationType: "causative",
         conjugatedForm: "待たせる",
         explanationZh: "让…等；使某人等候",
-        patternHint: "五段：語幹 + あ段 + せる（待つ → 待た + せる）",
+        patternHint: "一类：語幹 + あ段 + せる（待つ → 待た + せる）",
         examples: [
           {
             japanese: "お客様をこれ以上待たせるわけにはいきません。",
@@ -479,8 +479,8 @@ export const VERB_CORPUS: VerbEntry[] = [
       {
         conjugationType: "causativePassive",
         conjugatedForm: "待たされる",
-        explanationZh: "被迫等候；被晾在一边（五段缩约形）",
-        patternHint: "五段縮約：待た + される（待たせられる の口語形）",
+        explanationZh: "被迫等候；被晾在一边（一类缩约形）",
+        patternHint: "一类縮約：待た + される（待たせられる の口語形）",
         examples: [
           {
             japanese: "受付で三十分も待たされた。",
@@ -529,7 +529,7 @@ export const VERB_CORPUS: VerbEntry[] = [
         conjugationType: "passive",
         conjugatedForm: "使われる",
         explanationZh: "被使用；被人使唤",
-        patternHint: "五段：語幹 + あ段 + れる（使う → 使わ + れる）",
+        patternHint: "一类：語幹 + あ段 + れる（使う → 使わ + れる）",
         examples: [
           {
             japanese: "このシステムは全社員に使われています。",
@@ -563,7 +563,7 @@ export const VERB_CORPUS: VerbEntry[] = [
         conjugationType: "causative",
         conjugatedForm: "使わせる",
         explanationZh: "让…使用；允许或命令使用",
-        patternHint: "五段：語幹 + あ段 + せる（使う → 使わ + せる）",
+        patternHint: "一类：語幹 + あ段 + せる（使う → 使わ + せる）",
         examples: [
           {
             japanese: "会議室を使わせていただけますか。",
@@ -596,8 +596,8 @@ export const VERB_CORPUS: VerbEntry[] = [
       {
         conjugationType: "causativePassive",
         conjugatedForm: "使わされる",
-        explanationZh: "被迫使用；被强制要求用某样东西（五段缩约形）",
-        patternHint: "五段縮約：使わ + される（使わせられる の口語形）",
+        explanationZh: "被迫使用；被强制要求用某样东西（一类缩约形）",
+        patternHint: "一类縮約：使わ + される（使わせられる の口語形）",
         examples: [
           {
             japanese: "古いシステムをずっと使わされていた。",
@@ -643,7 +643,7 @@ export const VERB_CORPUS: VerbEntry[] = [
         conjugationType: "passive",
         conjugatedForm: "送られる",
         explanationZh: "被发来；被送去",
-        patternHint: "五段：語幹 + あ段 + れる（送る → 送ら + れる）",
+        patternHint: "一类：語幹 + あ段 + れる（送る → 送ら + れる）",
         examples: [
           {
             japanese: "大量のメールが一気に送られてきた。",
@@ -683,7 +683,7 @@ export const VERB_CORPUS: VerbEntry[] = [
         conjugationType: "causative",
         conjugatedForm: "送らせる",
         explanationZh: "让…发送；命令或请求发送",
-        patternHint: "五段：語幹 + あ段 + せる（送る → 送ら + せる）",
+        patternHint: "一类：語幹 + あ段 + せる（送る → 送ら + せる）",
         examples: [
           {
             japanese: "部下に書類を送らせてください。",
@@ -722,8 +722,8 @@ export const VERB_CORPUS: VerbEntry[] = [
       {
         conjugationType: "causativePassive",
         conjugatedForm: "送らされる",
-        explanationZh: "被迫发送；被强制要求去送（五段缩约形）",
-        patternHint: "五段縮約：送ら + される（送らせられる の口語形）",
+        explanationZh: "被迫发送；被强制要求去送（一类缩约形）",
+        patternHint: "一类縮約：送ら + される（送らせられる の口語形）",
         examples: [
           {
             japanese: "深夜にも大量の資料を送らされた。",
@@ -774,8 +774,8 @@ export const VERB_CORPUS: VerbEntry[] = [
       {
         conjugationType: "passive",
         conjugatedForm: "見られる",
-        explanationZh: "被看；被注视（一段动词被动与可能同形）",
-        patternHint: "一段：語幹 + られる（見る → 見 + られる）",
+        explanationZh: "被看；被注视（二类动词被动与可能同形）",
+        patternHint: "二类：語幹 + られる（見る → 見 + られる）",
         examples: [
           {
             japanese: "プレゼン中に資料の誤字を見られてしまった。",
@@ -818,7 +818,7 @@ export const VERB_CORPUS: VerbEntry[] = [
         conjugationType: "causative",
         conjugatedForm: "見させる",
         explanationZh: "让…看；要求或允许某人查看",
-        patternHint: "一段：語幹 + させる（見る → 見 + させる）",
+        patternHint: "二类：語幹 + させる（見る → 見 + させる）",
         examples: [
           {
             japanese: "上司にデータを見させてください。",
@@ -854,7 +854,7 @@ export const VERB_CORPUS: VerbEntry[] = [
         conjugationType: "causativePassive",
         conjugatedForm: "見させられる",
         explanationZh: "被迫观看；被强制要求去看",
-        patternHint: "一段：見 + させられる",
+        patternHint: "二类：見 + させられる",
         examples: [
           {
             japanese: "長い会議の録画を全員見させられた。",
@@ -905,7 +905,7 @@ export const VERB_CORPUS: VerbEntry[] = [
         conjugationType: "passive",
         conjugatedForm: "食べられる",
         explanationZh: "被吃；东西被别人吃了（也可表可能）",
-        patternHint: "一段：語幹 + られる（食べる → 食べ + られる）",
+        patternHint: "二类：語幹 + られる（食べる → 食べ + られる）",
         examples: [
           {
             japanese: "差し入れのお菓子がすぐに食べられた。",
@@ -944,7 +944,7 @@ export const VERB_CORPUS: VerbEntry[] = [
         conjugationType: "causative",
         conjugatedForm: "食べさせる",
         explanationZh: "让…吃；喂给某人吃",
-        patternHint: "一段：語幹 + させる（食べる → 食べ + させる）",
+        patternHint: "二类：語幹 + させる（食べる → 食べ + させる）",
         examples: [
           {
             japanese: "スタッフに昼食を食べさせてから戻ります。",
@@ -987,7 +987,7 @@ export const VERB_CORPUS: VerbEntry[] = [
         conjugationType: "causativePassive",
         conjugatedForm: "食べさせられる",
         explanationZh: "被迫吃；被强制要求去吃",
-        patternHint: "一段：食べ + させられる",
+        patternHint: "二类：食べ + させられる",
         examples: [
           {
             japanese: "接待で苦手な料理を食べさせられた。",
@@ -1037,7 +1037,7 @@ export const VERB_CORPUS: VerbEntry[] = [
         conjugationType: "passive",
         conjugatedForm: "起きられる",
         explanationZh: "（迷惑受身）被他人起床所累；受到波及",
-        patternHint: "一段：語幹 + られる（起きる → 起き + られる）",
+        patternHint: "二类：語幹 + られる（起きる → 起き + られる）",
         examples: [
           {
             japanese: "夜中に子供に起きられて全然眠れなかった。",
@@ -1083,7 +1083,7 @@ export const VERB_CORPUS: VerbEntry[] = [
         conjugationType: "causative",
         conjugatedForm: "起きさせる",
         explanationZh: "让…起床；使某人起来",
-        patternHint: "一段：語幹 + させる（起きる → 起き + させる）",
+        patternHint: "二类：語幹 + させる（起きる → 起き + させる）",
         examples: [
           {
             japanese: "早朝の会議のためにスタッフを六時に起きさせた。",
@@ -1124,7 +1124,7 @@ export const VERB_CORPUS: VerbEntry[] = [
         conjugationType: "causativePassive",
         conjugatedForm: "起きさせられる",
         explanationZh: "被迫起床；被强制要求早起",
-        patternHint: "一段：起き + させられる",
+        patternHint: "二类：起き + させられる",
         examples: [
           {
             japanese: "早朝研修のために五時に起きさせられた。",
@@ -1174,7 +1174,7 @@ export const VERB_CORPUS: VerbEntry[] = [
         conjugationType: "passive",
         conjugatedForm: "される",
         explanationZh: "被做；受到某动作（也可表示尊敬）",
-        patternHint: "不規則：する → される",
+        patternHint: "三类：する → される",
         examples: [
           {
             japanese: "会議でミスを指摘されてしまいました。",
@@ -1210,7 +1210,7 @@ export const VERB_CORPUS: VerbEntry[] = [
         conjugationType: "causative",
         conjugatedForm: "させる",
         explanationZh: "让…做；命令或允许某人做某事",
-        patternHint: "不規則：する → させる",
+        patternHint: "三类：する → させる",
         examples: [
           {
             japanese: "新人に資料の整理をさせた。",
@@ -1250,7 +1250,7 @@ export const VERB_CORPUS: VerbEntry[] = [
         conjugationType: "causativePassive",
         conjugatedForm: "させられる",
         explanationZh: "被迫做；被强制要求去做某事",
-        patternHint: "不規則：する → させられる",
+        patternHint: "三类：する → させられる",
         examples: [
           {
             japanese: "不本意なプロジェクトを担当させられた。",
@@ -1294,7 +1294,7 @@ export const VERB_CORPUS: VerbEntry[] = [
         conjugationType: "passive",
         conjugatedForm: "来られる",
         explanationZh: "（迷惑受身）对方来访反而造成困扰",
-        patternHint: "不規則：来る → 来られる（こられる）",
+        patternHint: "三类：来る → 来られる（こられる）",
         examples: [
           {
             japanese: "お客様に急に来られて対応が大変でした。",
@@ -1339,7 +1339,7 @@ export const VERB_CORPUS: VerbEntry[] = [
         conjugationType: "causative",
         conjugatedForm: "来させる",
         explanationZh: "让…来；要求或使某人前来",
-        patternHint: "不規則：来る → 来させる（こさせる）",
+        patternHint: "三类：来る → 来させる（こさせる）",
         examples: [
           {
             japanese: "取引先を東京まで来させるのは申し訳ない。",
@@ -1381,7 +1381,7 @@ export const VERB_CORPUS: VerbEntry[] = [
         conjugationType: "causativePassive",
         conjugatedForm: "来させられる",
         explanationZh: "被迫来；被强制要求前来",
-        patternHint: "不規則：来る → 来させられる（こさせられる）",
+        patternHint: "三类：来る → 来させられる（こさせられる）",
         examples: [
           {
             japanese: "休日にも会社に来させられた。",
@@ -1431,7 +1431,7 @@ export const VERB_CORPUS: VerbEntry[] = [
         conjugationType: "passive",
         conjugatedForm: "持たれる",
         explanationZh: "被拿；被持有（也表示被人怀有某种想法）",
-        patternHint: "五段：語幹 + あ段 + れる（持つ → 持た + れる）",
+        patternHint: "一类：語幹 + あ段 + れる（持つ → 持た + れる）",
         examples: [
           {
             japanese: "プロジェクトへの疑問を部下に持たれてしまった。",
@@ -1474,7 +1474,7 @@ export const VERB_CORPUS: VerbEntry[] = [
         conjugationType: "causative",
         conjugatedForm: "持たせる",
         explanationZh: "让…拿；叫某人携带或持有",
-        patternHint: "五段：語幹 + あ段 + せる（持つ → 持た + せる）",
+        patternHint: "一类：語幹 + あ段 + せる（持つ → 持た + せる）",
         examples: [
           {
             japanese: "新人にファイルを持たせた。",
@@ -1509,8 +1509,8 @@ export const VERB_CORPUS: VerbEntry[] = [
       {
         conjugationType: "causativePassive",
         conjugatedForm: "持たされる",
-        explanationZh: "被迫拿；被强制要求携带（五段缩约形）",
-        patternHint: "五段縮約：持た + される（持たせられる の口語形）",
+        explanationZh: "被迫拿；被强制要求携带（一类缩约形）",
+        patternHint: "一类縮約：持た + される（持たせられる の口語形）",
         examples: [
           {
             japanese: "大量の荷物を持たされて肩が痛い。",
@@ -1562,7 +1562,7 @@ export const VERB_CORPUS: VerbEntry[] = [
         conjugationType: "passive",
         conjugatedForm: "飲まれる",
         explanationZh: "被喝；东西被别人喝了",
-        patternHint: "五段：語幹 + あ段 + れる（飲む → 飲ま + れる）",
+        patternHint: "一类：語幹 + あ段 + れる（飲む → 飲ま + れる）",
         examples: [
           {
             japanese: "接待用に用意したワインを全部飲まれてしまった。",
@@ -1603,7 +1603,7 @@ export const VERB_CORPUS: VerbEntry[] = [
         conjugationType: "causative",
         conjugatedForm: "飲ませる",
         explanationZh: "让…喝；让某人饮用",
-        patternHint: "五段：語幹 + あ段 + せる（飲む → 飲ま + せる）",
+        patternHint: "一类：語幹 + あ段 + せる（飲む → 飲ま + せる）",
         examples: [
           {
             japanese: "お客様にお茶を飲ませてください。",
@@ -1645,8 +1645,8 @@ export const VERB_CORPUS: VerbEntry[] = [
       {
         conjugationType: "causativePassive",
         conjugatedForm: "飲まされる",
-        explanationZh: "被迫喝；被强制要求饮用（五段缩约形）",
-        patternHint: "五段縮約：飲ま + される（飲ませられる の口語形）",
+        explanationZh: "被迫喝；被强制要求饮用（一类缩约形）",
+        patternHint: "一类縮約：飲ま + される（飲ませられる の口語形）",
         examples: [
           {
             japanese: "接待で苦手なお酒を何杯も飲まされた。",
@@ -1696,7 +1696,7 @@ export const VERB_CORPUS: VerbEntry[] = [
         conjugationType: "passive",
         conjugatedForm: "聞かれる",
         explanationZh: "被问到；被听到",
-        patternHint: "五段：語幹 + あ段 + れる（聞く → 聞か + れる）",
+        patternHint: "一类：語幹 + あ段 + れる（聞く → 聞か + れる）",
         examples: [
           {
             japanese: "面接で想定外の質問を聞かれた。",
@@ -1738,7 +1738,7 @@ export const VERB_CORPUS: VerbEntry[] = [
         conjugationType: "causative",
         conjugatedForm: "聞かせる",
         explanationZh: "让…听；让某人倾听",
-        patternHint: "五段：語幹 + あ段 + せる（聞く → 聞か + せる）",
+        patternHint: "一类：語幹 + あ段 + せる（聞く → 聞か + せる）",
         examples: [
           {
             japanese: "新商品の企画を全員に聞かせた。",
@@ -1779,8 +1779,8 @@ export const VERB_CORPUS: VerbEntry[] = [
       {
         conjugationType: "causativePassive",
         conjugatedForm: "聞かされる",
-        explanationZh: "被迫听；被强制要求去听（五段缩约形）",
-        patternHint: "五段縮約：聞か + される（聞かせられる の口語形）",
+        explanationZh: "被迫听；被强制要求去听（一类缩约形）",
+        patternHint: "一类縮約：聞か + される（聞かせられる の口語形）",
         examples: [
           {
             japanese: "長い会議で延々と説明を聞かされた。",
@@ -1834,7 +1834,7 @@ export const VERB_CORPUS: VerbEntry[] = [
         conjugationType: "passive",
         conjugatedForm: "決められる",
         explanationZh: "被决定；事情被他人单方面定下来",
-        patternHint: "一段：語幹 + られる（決める → 決め + られる）",
+        patternHint: "二类：語幹 + られる（決める → 決め + られる）",
         examples: [
           {
             japanese: "納期を一方的に決められて困っています。",
@@ -1878,7 +1878,7 @@ export const VERB_CORPUS: VerbEntry[] = [
         conjugationType: "causative",
         conjugatedForm: "決めさせる",
         explanationZh: "让…决定；让某人做出决定",
-        patternHint: "一段：語幹 + させる（決める → 決め + させる）",
+        patternHint: "二类：語幹 + させる（決める → 決め + させる）",
         examples: [
           {
             japanese: "担当者に仕様を決めさせてください。",
@@ -1920,7 +1920,7 @@ export const VERB_CORPUS: VerbEntry[] = [
         conjugationType: "causativePassive",
         conjugatedForm: "決めさせられる",
         explanationZh: "被迫决定；被强制要求做出某决定",
-        patternHint: "一段：決め + させられる",
+        patternHint: "二类：決め + させられる",
         examples: [
           {
             japanese: "自分の意見を無視されて、会社の都合で決めさせられた。",
@@ -1976,7 +1976,7 @@ export const VERB_CORPUS: VerbEntry[] = [
         conjugationType: "passive",
         conjugatedForm: "教えられる",
         explanationZh: "被教；受到指导",
-        patternHint: "一段：語幹 + られる（教える → 教え + られる）",
+        patternHint: "二类：語幹 + られる（教える → 教え + られる）",
         examples: [
           {
             japanese: "上司に新しい業務フローを教えられた。",
@@ -2016,7 +2016,7 @@ export const VERB_CORPUS: VerbEntry[] = [
         conjugationType: "causative",
         conjugatedForm: "教えさせる",
         explanationZh: "让…教；让某人去指导他人",
-        patternHint: "一段：語幹 + させる（教える → 教え + させる）",
+        patternHint: "二类：語幹 + させる（教える → 教え + させる）",
         examples: [
           {
             japanese: "ベテランに新人へのOJTを教えさせた。",
@@ -2055,7 +2055,7 @@ export const VERB_CORPUS: VerbEntry[] = [
         conjugationType: "causativePassive",
         conjugatedForm: "教えさせられる",
         explanationZh: "被迫教；被强制要求去指导他人",
-        patternHint: "一段：教え + させられる",
+        patternHint: "二类：教え + させられる",
         examples: [
           {
             japanese: "苦手な分野を新人に教えさせられた。",
@@ -2108,7 +2108,7 @@ export const VERB_CORPUS: VerbEntry[] = [
         conjugationType: "passive",
         conjugatedForm: "頼まれる",
         explanationZh: "被拜托；被请求去做某事",
-        patternHint: "五段：語幹 + あ段 + れる（頼む → 頼ま + れる）",
+        patternHint: "一类：語幹 + あ段 + れる（頼む → 頼ま + れる）",
         examples: [
           {
             japanese: "同僚に急な仕事を頼まれた。",
@@ -2150,7 +2150,7 @@ export const VERB_CORPUS: VerbEntry[] = [
         conjugationType: "causative",
         conjugatedForm: "頼ませる",
         explanationZh: "让…去拜托；让某人提出请求",
-        patternHint: "五段：語幹 + あ段 + せる（頼む → 頼ま + せる）",
+        patternHint: "一类：語幹 + あ段 + せる（頼む → 頼ま + せる）",
         examples: [
           {
             japanese: "部下に取引先へのお願いを頼ませた。",
@@ -2191,8 +2191,8 @@ export const VERB_CORPUS: VerbEntry[] = [
       {
         conjugationType: "causativePassive",
         conjugatedForm: "頼まされる",
-        explanationZh: "被迫接受委托；被强拉去帮忙（五段缩约形）",
-        patternHint: "五段縮約：頼ま + される（頼ませられる の口語形）",
+        explanationZh: "被迫接受委托；被强拉去帮忙（一类缩约形）",
+        patternHint: "一类縮約：頼ま + される（頼ませられる の口語形）",
         examples: [
           {
             japanese: "自分には関係ない業務まで頼まされた。",
@@ -2244,7 +2244,7 @@ export const VERB_CORPUS: VerbEntry[] = [
         conjugationType: "passive",
         conjugatedForm: "呼ばれる",
         explanationZh: "被叫；被召唤；被邀请",
-        patternHint: "五段：語幹 + あ段 + れる（呼ぶ → 呼ば + れる）",
+        patternHint: "一类：語幹 + あ段 + れる（呼ぶ → 呼ば + れる）",
         examples: [
           {
             japanese: "上司に会議室に呼ばれて緊張した。",
@@ -2283,7 +2283,7 @@ export const VERB_CORPUS: VerbEntry[] = [
         conjugationType: "causative",
         conjugatedForm: "呼ばせる",
         explanationZh: "让…叫来；让某人去叫人",
-        patternHint: "五段：語幹 + あ段 + せる（呼ぶ → 呼ば + せる）",
+        patternHint: "一类：語幹 + あ段 + せる（呼ぶ → 呼ば + せる）",
         examples: [
           {
             japanese: "担当者を会議室に呼ばせてください。",
@@ -2324,8 +2324,8 @@ export const VERB_CORPUS: VerbEntry[] = [
       {
         conjugationType: "causativePassive",
         conjugatedForm: "呼ばされる",
-        explanationZh: "被迫召集；被强制叫去某地（五段缩约形）",
-        patternHint: "五段縮約：呼ば + される（呼ばせられる の口語形）",
+        explanationZh: "被迫召集；被强制叫去某地（一类缩约形）",
+        patternHint: "一类縮約：呼ば + される（呼ばせられる の口語形）",
         examples: [
           {
             japanese: "休日なのに緊急で会社に呼ばされた。",
@@ -2375,7 +2375,7 @@ export const VERB_CORPUS: VerbEntry[] = [
         conjugationType: "passive",
         conjugatedForm: "受けられる",
         explanationZh: "（迷惑受身）对方接下了任务反而连累自己",
-        patternHint: "一段：語幹 + られる（受ける → 受け + られる）",
+        patternHint: "二类：語幹 + られる（受ける → 受け + られる）",
         examples: [
           {
             japanese: "上司に無理な依頼を受けられて、私まで残業になった。",
@@ -2423,7 +2423,7 @@ export const VERB_CORPUS: VerbEntry[] = [
         conjugationType: "causative",
         conjugatedForm: "受けさせる",
         explanationZh: "让…接受；让某人去参加或承接",
-        patternHint: "一段：語幹 + させる（受ける → 受け + させる）",
+        patternHint: "二类：語幹 + させる（受ける → 受け + させる）",
         examples: [
           {
             japanese: "新人に必ず研修を受けさせる。",
@@ -2463,7 +2463,7 @@ export const VERB_CORPUS: VerbEntry[] = [
         conjugationType: "causativePassive",
         conjugatedForm: "受けさせられる",
         explanationZh: "被迫参加；被强制要求去接受某事",
-        patternHint: "一段：受け + させられる",
+        patternHint: "二类：受け + させられる",
         examples: [
           {
             japanese: "意味のない研修を何時間も受けさせられた。",
@@ -2515,7 +2515,7 @@ export const VERB_CORPUS: VerbEntry[] = [
         conjugationType: "passive",
         conjugatedForm: "変えられる",
         explanationZh: "被更改；事情被他人单方面改动",
-        patternHint: "一段：語幹 + られる（変える → 変え + られる）",
+        patternHint: "二类：語幹 + られる（変える → 変え + られる）",
         examples: [
           {
             japanese: "完成した仕様を直前に変えられて困った。",
@@ -2559,7 +2559,7 @@ export const VERB_CORPUS: VerbEntry[] = [
         conjugationType: "causative",
         conjugatedForm: "変えさせる",
         explanationZh: "让…更改；要求某人作出改动",
-        patternHint: "一段：語幹 + させる（変える → 変え + させる）",
+        patternHint: "二类：語幹 + させる（変える → 変え + させる）",
         examples: [
           {
             japanese: "担当者にデザインを変えさせた。",
@@ -2597,7 +2597,7 @@ export const VERB_CORPUS: VerbEntry[] = [
         conjugationType: "causativePassive",
         conjugatedForm: "変えさせられる",
         explanationZh: "被迫更改；被强制要求改动",
-        patternHint: "一段：変え + させられる",
+        patternHint: "二类：変え + させられる",
         examples: [
           {
             japanese: "完成した企画を何度も変えさせられた。",
@@ -2632,6 +2632,2420 @@ export const VERB_CORPUS: VerbEntry[] = [
             chinese: "因为搬家，被迫大幅改变了生活方式。",
             scene: "life",
             register: "カジュアル",
+          },
+        ],
+      },
+    ],
+  },
+
+  // ============================================================
+  // 第二批：常用动词扩充（100 个）
+  // 为了扩充索引条上的动词数量，这一批每个动词只配 passive（受身）形 +
+  // 一个例句；tokens 留空（UI 会自动回退到下方 kana 行）。
+  // 想给某个动词补 causative / causativePassive，按上面 20 个动词的格式
+  // 在其 conjugations 数组里加条目即可。
+  // ============================================================
+
+  // ---- 一类（五段）verbs ----
+  {
+    id: "iku",
+    dictionaryForm: "行く",
+    verbGroup: "group1",
+    meaningZh: "去",
+    conjugations: [
+      {
+        conjugationType: "passive",
+        conjugatedForm: "行かれる",
+        explanationZh: "敬语用法「您去」",
+        patternHint: "一类：行く → 行かれる",
+        examples: [
+          {
+            japanese: "部長は来週、海外へ行かれます。",
+            tokens: [],
+            kana: "ぶちょうはらいしゅう、かいがいへいかれます。",
+            chinese: "部长下周要去海外。（敬语）",
+            scene: "work",
+            register: "敬語",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: "kau",
+    dictionaryForm: "買う",
+    verbGroup: "group1",
+    meaningZh: "买",
+    conjugations: [
+      {
+        conjugationType: "passive",
+        conjugatedForm: "買われる",
+        explanationZh: "被买走",
+        patternHint: "一类：買う → 買われる",
+        examples: [
+          {
+            japanese: "限定品はすぐに買われてしまった。",
+            tokens: [],
+            kana: "げんていひんはすぐにかわれてしまった。",
+            chinese: "限量商品很快就被买走了。",
+            scene: "life",
+            register: "カジュアル",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: "uru",
+    dictionaryForm: "売る",
+    verbGroup: "group1",
+    meaningZh: "卖",
+    conjugations: [
+      {
+        conjugationType: "passive",
+        conjugatedForm: "売られる",
+        explanationZh: "被卖出",
+        patternHint: "一类：売る → 売られる",
+        examples: [
+          {
+            japanese: "そのチケットは高値で売られている。",
+            tokens: [],
+            kana: "そのちけっとはたかねでうられている。",
+            chinese: "那张票被高价出售。",
+            scene: "life",
+            register: "丁寧",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: "tsukuru",
+    dictionaryForm: "作る",
+    verbGroup: "group1",
+    meaningZh: "制作",
+    conjugations: [
+      {
+        conjugationType: "passive",
+        conjugatedForm: "作られる",
+        explanationZh: "被制作；产自",
+        patternHint: "一类：作る → 作られる",
+        examples: [
+          {
+            japanese: "この製品は日本で作られています。",
+            tokens: [],
+            kana: "このせいひんはにほんでつくられています。",
+            chinese: "这件产品在日本制造。",
+            scene: "work",
+            register: "丁寧",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: "shiru",
+    dictionaryForm: "知る",
+    verbGroup: "group1",
+    meaningZh: "知道",
+    conjugations: [
+      {
+        conjugationType: "passive",
+        conjugatedForm: "知られる",
+        explanationZh: "被人知道；广为人知",
+        patternHint: "一类：知る → 知られる",
+        examples: [
+          {
+            japanese: "その事実は誰にも知られていない。",
+            tokens: [],
+            kana: "そのじじつはだれにもしられていない。",
+            chinese: "那个事实没有人知道。",
+            scene: "life",
+            register: "丁寧",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: "omou",
+    dictionaryForm: "思う",
+    verbGroup: "group1",
+    meaningZh: "想/认为",
+    conjugations: [
+      {
+        conjugationType: "passive",
+        conjugatedForm: "思われる",
+        explanationZh: "被认为",
+        patternHint: "一类：思う → 思われる",
+        examples: [
+          {
+            japanese: "彼は信頼できる人だと思われている。",
+            tokens: [],
+            kana: "かれはしんらいできるひとだとおもわれている。",
+            chinese: "大家都觉得他是值得信赖的人。",
+            scene: "work",
+            register: "丁寧",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: "iu",
+    dictionaryForm: "言う",
+    verbGroup: "group1",
+    meaningZh: "说",
+    conjugations: [
+      {
+        conjugationType: "passive",
+        conjugatedForm: "言われる",
+        explanationZh: "被说；被告知",
+        patternHint: "一类：言う → 言われる",
+        examples: [
+          {
+            japanese: "上司に同じことを何度も言われた。",
+            tokens: [],
+            kana: "じょうしにおなじことをなんどもいわれた。",
+            chinese: "被上司说了好几次同样的话。",
+            scene: "work",
+            register: "カジュアル",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: "tatsu",
+    dictionaryForm: "立つ",
+    verbGroup: "group1",
+    meaningZh: "站立",
+    conjugations: [
+      {
+        conjugationType: "passive",
+        conjugatedForm: "立たれる",
+        explanationZh: "迷惑受身：因对方起身离开而困扰",
+        patternHint: "一类：立つ → 立たれる",
+        examples: [
+          {
+            japanese: "急に席を立たれて困った。",
+            tokens: [],
+            kana: "きゅうにせきをたたれてこまった。",
+            chinese: "对方突然起身让我很为难。",
+            scene: "work",
+            register: "カジュアル",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: "suwaru",
+    dictionaryForm: "座る",
+    verbGroup: "group1",
+    meaningZh: "坐",
+    conjugations: [
+      {
+        conjugationType: "passive",
+        conjugatedForm: "座られる",
+        explanationZh: "被坐；位置被占",
+        patternHint: "一类：座る → 座られる",
+        examples: [
+          {
+            japanese: "予約席にいきなり座られた。",
+            tokens: [],
+            kana: "よやくせきにいきなりすわられた。",
+            chinese: "预约的座位被人直接坐下了。",
+            scene: "life",
+            register: "カジュアル",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: "hashiru",
+    dictionaryForm: "走る",
+    verbGroup: "group1",
+    meaningZh: "跑",
+    conjugations: [
+      {
+        conjugationType: "passive",
+        conjugatedForm: "走られる",
+        explanationZh: "迷惑受身",
+        patternHint: "一类：走る → 走られる",
+        examples: [
+          {
+            japanese: "前を急に走られて驚いた。",
+            tokens: [],
+            kana: "まえをきゅうにはしられておどろいた。",
+            chinese: "有人突然从前面跑过吓我一跳。",
+            scene: "life",
+            register: "カジュアル",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: "aruku",
+    dictionaryForm: "歩く",
+    verbGroup: "group1",
+    meaningZh: "走路",
+    conjugations: [
+      {
+        conjugationType: "passive",
+        conjugatedForm: "歩かれる",
+        explanationZh: "敬语「您走」",
+        patternHint: "一类：歩く → 歩かれる",
+        examples: [
+          {
+            japanese: "社長はゆっくり会場まで歩かれました。",
+            tokens: [],
+            kana: "しゃちょうはゆっくりかいじょうまであるかれました。",
+            chinese: "社长慢慢走到了会场。（敬语）",
+            scene: "work",
+            register: "敬語",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: "tobu",
+    dictionaryForm: "飛ぶ",
+    verbGroup: "group1",
+    meaningZh: "飞",
+    conjugations: [
+      {
+        conjugationType: "passive",
+        conjugatedForm: "飛ばれる",
+        explanationZh: "迷惑受身：（鸟/虫）飞走让人困扰",
+        patternHint: "一类：飛ぶ → 飛ばれる",
+        examples: [
+          {
+            japanese: "捕まえようとした鳥に飛ばれた。",
+            tokens: [],
+            kana: "つかまえようとしたとりにとばれた。",
+            chinese: "想抓的鸟飞走了。",
+            scene: "life",
+            register: "カジュアル",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: "oyogu",
+    dictionaryForm: "泳ぐ",
+    verbGroup: "group1",
+    meaningZh: "游泳",
+    conjugations: [
+      {
+        conjugationType: "passive",
+        conjugatedForm: "泳がれる",
+        explanationZh: "迷惑受身",
+        patternHint: "一类：泳ぐ → 泳がれる",
+        examples: [
+          {
+            japanese: "海でずっと先まで泳がれてしまった。",
+            tokens: [],
+            kana: "うみでずっとさきまでおよがれてしまった。",
+            chinese: "对方游得太远没追上。",
+            scene: "life",
+            register: "カジュアル",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: "shinu",
+    dictionaryForm: "死ぬ",
+    verbGroup: "group1",
+    meaningZh: "死",
+    conjugations: [
+      {
+        conjugationType: "passive",
+        conjugatedForm: "死なれる",
+        explanationZh: "迷惑受身：因…离世而悲伤",
+        patternHint: "一类：死ぬ → 死なれる",
+        examples: [
+          {
+            japanese: "祖父に死なれて家族はとても寂しい。",
+            tokens: [],
+            kana: "そふにしなれてかぞくはとてもさびしい。",
+            chinese: "祖父去世，家人非常难过。",
+            scene: "life",
+            register: "丁寧",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: "warau",
+    dictionaryForm: "笑う",
+    verbGroup: "group1",
+    meaningZh: "笑",
+    conjugations: [
+      {
+        conjugationType: "passive",
+        conjugatedForm: "笑われる",
+        explanationZh: "被嘲笑",
+        patternHint: "一类：笑う → 笑われる",
+        examples: [
+          {
+            japanese: "間違えたら友達に笑われた。",
+            tokens: [],
+            kana: "まちがえたらともだちにわらわれた。",
+            chinese: "犯了错被朋友笑话了。",
+            scene: "life",
+            register: "カジュアル",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: "naku",
+    dictionaryForm: "泣く",
+    verbGroup: "group1",
+    meaningZh: "哭",
+    conjugations: [
+      {
+        conjugationType: "passive",
+        conjugatedForm: "泣かれる",
+        explanationZh: "迷惑受身：因…哭闹而困扰",
+        patternHint: "一类：泣く → 泣かれる",
+        examples: [
+          {
+            japanese: "夜中に赤ちゃんに泣かれた。",
+            tokens: [],
+            kana: "よなかにあかちゃんになかれた。",
+            chinese: "半夜被宝宝哭闹吵醒了。",
+            scene: "life",
+            register: "カジュアル",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: "okoru",
+    dictionaryForm: "怒る",
+    verbGroup: "group1",
+    meaningZh: "生气",
+    conjugations: [
+      {
+        conjugationType: "passive",
+        conjugatedForm: "怒られる",
+        explanationZh: "被骂；被斥责",
+        patternHint: "一类：怒る → 怒られる",
+        examples: [
+          {
+            japanese: "遅刻して先生に怒られた。",
+            tokens: [],
+            kana: "ちこくしてせんせいにおこられた。",
+            chinese: "迟到了被老师骂了。",
+            scene: "life",
+            register: "カジュアル",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: "yorokobu",
+    dictionaryForm: "喜ぶ",
+    verbGroup: "group1",
+    meaningZh: "高兴",
+    conjugations: [
+      {
+        conjugationType: "passive",
+        conjugatedForm: "喜ばれる",
+        explanationZh: "受人喜爱/受欢迎",
+        patternHint: "一类：喜ぶ → 喜ばれる",
+        examples: [
+          {
+            japanese: "お土産はみんなにとても喜ばれた。",
+            tokens: [],
+            kana: "おみやげはみんなにとてもよろこばれた。",
+            chinese: "土特产很受大家欢迎。",
+            scene: "life",
+            register: "丁寧",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: "sagasu",
+    dictionaryForm: "探す",
+    verbGroup: "group1",
+    meaningZh: "找",
+    conjugations: [
+      {
+        conjugationType: "passive",
+        conjugatedForm: "探される",
+        explanationZh: "被寻找；被通缉",
+        patternHint: "一类：探す → 探される",
+        examples: [
+          {
+            japanese: "犯人は警察に探されている。",
+            tokens: [],
+            kana: "はんにんはけいさつにさがされている。",
+            chinese: "犯人正被警察通缉。",
+            scene: "life",
+            register: "丁寧",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: "osu",
+    dictionaryForm: "押す",
+    verbGroup: "group1",
+    meaningZh: "推",
+    conjugations: [
+      {
+        conjugationType: "passive",
+        conjugatedForm: "押される",
+        explanationZh: "被推；被按",
+        patternHint: "一类：押す → 押される",
+        examples: [
+          {
+            japanese: "電車で背中を強く押された。",
+            tokens: [],
+            kana: "でんしゃでせなかをつよくおされた。",
+            chinese: "在电车上后背被人用力推了。",
+            scene: "life",
+            register: "カジュアル",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: "hiku",
+    dictionaryForm: "引く",
+    verbGroup: "group1",
+    meaningZh: "拉",
+    conjugations: [
+      {
+        conjugationType: "passive",
+        conjugatedForm: "引かれる",
+        explanationZh: "被拉/被拽",
+        patternHint: "一类：引く → 引かれる",
+        examples: [
+          {
+            japanese: "袖を子供に引かれた。",
+            tokens: [],
+            kana: "そでをこどもにひかれた。",
+            chinese: "袖子被小孩拉着。",
+            scene: "life",
+            register: "カジュアル",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: "hiraku",
+    dictionaryForm: "開く",
+    verbGroup: "group1",
+    meaningZh: "打开/举办",
+    conjugations: [
+      {
+        conjugationType: "passive",
+        conjugatedForm: "開かれる",
+        explanationZh: "被举办；被开启",
+        patternHint: "一类：開く → 開かれる",
+        examples: [
+          {
+            japanese: "毎年、桜祭りが公園で開かれる。",
+            tokens: [],
+            kana: "まいとし、さくらまつりがこうえんでひらかれる。",
+            chinese: "每年樱花节都在公园举办。",
+            scene: "life",
+            register: "丁寧",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: "kiruCut",
+    dictionaryForm: "切る",
+    verbGroup: "group1",
+    meaningZh: "切/挂断",
+    conjugations: [
+      {
+        conjugationType: "passive",
+        conjugatedForm: "切られる",
+        explanationZh: "被切；被挂断",
+        patternHint: "一类：切る → 切られる",
+        examples: [
+          {
+            japanese: "電話が突然切られた。",
+            tokens: [],
+            kana: "でんわがとつぜんきられた。",
+            chinese: "电话突然被挂断了。",
+            scene: "work",
+            register: "カジュアル",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: "kubaru",
+    dictionaryForm: "配る",
+    verbGroup: "group1",
+    meaningZh: "分发",
+    conjugations: [
+      {
+        conjugationType: "passive",
+        conjugatedForm: "配られる",
+        explanationZh: "被分发",
+        patternHint: "一类：配る → 配られる",
+        examples: [
+          {
+            japanese: "資料は会議の前に配られます。",
+            tokens: [],
+            kana: "しりょうはかいぎのまえにくばられます。",
+            chinese: "资料会在会议前分发。",
+            scene: "work",
+            register: "丁寧",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: "hakobu",
+    dictionaryForm: "運ぶ",
+    verbGroup: "group1",
+    meaningZh: "搬运",
+    conjugations: [
+      {
+        conjugationType: "passive",
+        conjugatedForm: "運ばれる",
+        explanationZh: "被搬运",
+        patternHint: "一类：運ぶ → 運ばれる",
+        examples: [
+          {
+            japanese: "重い荷物が業者によって運ばれた。",
+            tokens: [],
+            kana: "おもいにもつがぎょうしゃによってはこばれた。",
+            chinese: "沉重的行李由专业人员搬运。",
+            scene: "work",
+            register: "丁寧",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: "watasu",
+    dictionaryForm: "渡す",
+    verbGroup: "group1",
+    meaningZh: "递交",
+    conjugations: [
+      {
+        conjugationType: "passive",
+        conjugatedForm: "渡される",
+        explanationZh: "被递交",
+        patternHint: "一类：渡す → 渡される",
+        examples: [
+          {
+            japanese: "資料は受付で渡されます。",
+            tokens: [],
+            kana: "しりょうはうけつけでわたされます。",
+            chinese: "资料会在前台递交给您。",
+            scene: "work",
+            register: "丁寧",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: "naosu",
+    dictionaryForm: "直す",
+    verbGroup: "group1",
+    meaningZh: "修理",
+    conjugations: [
+      {
+        conjugationType: "passive",
+        conjugatedForm: "直される",
+        explanationZh: "被修改；被订正",
+        patternHint: "一类：直す → 直される",
+        examples: [
+          {
+            japanese: "提出した書類が上司に直された。",
+            tokens: [],
+            kana: "ていしゅつしたしょるいがじょうしになおされた。",
+            chinese: "提交的材料被上司改了。",
+            scene: "work",
+            register: "カジュアル",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: "kakusu",
+    dictionaryForm: "隠す",
+    verbGroup: "group1",
+    meaningZh: "隐藏",
+    conjugations: [
+      {
+        conjugationType: "passive",
+        conjugatedForm: "隠される",
+        explanationZh: "被隐瞒/被藏起",
+        patternHint: "一类：隠す → 隠される",
+        examples: [
+          {
+            japanese: "本当の理由は彼に隠されていた。",
+            tokens: [],
+            kana: "ほんとうのりゆうはかれにかくされていた。",
+            chinese: "真正的理由被他隐瞒了。",
+            scene: "life",
+            register: "丁寧",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: "toru",
+    dictionaryForm: "取る",
+    verbGroup: "group1",
+    meaningZh: "拿",
+    conjugations: [
+      {
+        conjugationType: "passive",
+        conjugatedForm: "取られる",
+        explanationZh: "被占；被夺走",
+        patternHint: "一类：取る → 取られる",
+        examples: [
+          {
+            japanese: "席を先に取られてしまった。",
+            tokens: [],
+            kana: "せきをさきにとられてしまった。",
+            chinese: "位置被别人先占了。",
+            scene: "life",
+            register: "カジュアル",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: "harau",
+    dictionaryForm: "払う",
+    verbGroup: "group1",
+    meaningZh: "付钱",
+    conjugations: [
+      {
+        conjugationType: "passive",
+        conjugatedForm: "払われる",
+        explanationZh: "被支付",
+        patternHint: "一类：払う → 払われる",
+        examples: [
+          {
+            japanese: "給料が遅れて払われた。",
+            tokens: [],
+            kana: "きゅうりょうがおくれてはらわれた。",
+            chinese: "工资晚发了。",
+            scene: "work",
+            register: "丁寧",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: "kasu",
+    dictionaryForm: "貸す",
+    verbGroup: "group1",
+    meaningZh: "借出",
+    conjugations: [
+      {
+        conjugationType: "passive",
+        conjugatedForm: "貸される",
+        explanationZh: "被借出",
+        patternHint: "一类：貸す → 貸される",
+        examples: [
+          {
+            japanese: "図書館で本が無料で貸される。",
+            tokens: [],
+            kana: "としょかんでほんがむりょうでかされる。",
+            chinese: "图书馆免费借书。",
+            scene: "life",
+            register: "丁寧",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: "otosu",
+    dictionaryForm: "落とす",
+    verbGroup: "group1",
+    meaningZh: "掉落",
+    conjugations: [
+      {
+        conjugationType: "passive",
+        conjugatedForm: "落とされる",
+        explanationZh: "被使下落；被降低",
+        patternHint: "一类：落とす → 落とされる",
+        examples: [
+          {
+            japanese: "面接で評価を落とされた。",
+            tokens: [],
+            kana: "めんせつでひょうかをおとされた。",
+            chinese: "面试评分被扣分了。",
+            scene: "work",
+            register: "カジュアル",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: "hirou",
+    dictionaryForm: "拾う",
+    verbGroup: "group1",
+    meaningZh: "拾起",
+    conjugations: [
+      {
+        conjugationType: "passive",
+        conjugatedForm: "拾われる",
+        explanationZh: "被捡到",
+        patternHint: "一类：拾う → 拾われる",
+        examples: [
+          {
+            japanese: "落とした財布が誰かに拾われた。",
+            tokens: [],
+            kana: "おとしたさいふがだれかにひろわれた。",
+            chinese: "掉的钱包被人捡到了。",
+            scene: "life",
+            register: "カジュアル",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: "kaeruHome",
+    dictionaryForm: "帰る",
+    verbGroup: "group1",
+    meaningZh: "回家",
+    conjugations: [
+      {
+        conjugationType: "passive",
+        conjugatedForm: "帰られる",
+        explanationZh: "敬语「您回去」",
+        patternHint: "一类：帰る → 帰られる",
+        examples: [
+          {
+            japanese: "お客様にもう帰られました。",
+            tokens: [],
+            kana: "おきゃくさまにもうかえられました。",
+            chinese: "客人已经回去了。（敬语）",
+            scene: "work",
+            register: "敬語",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: "hairu",
+    dictionaryForm: "入る",
+    verbGroup: "group1",
+    meaningZh: "进入",
+    conjugations: [
+      {
+        conjugationType: "passive",
+        conjugatedForm: "入られる",
+        explanationZh: "迷惑受身：被擅自闯入",
+        patternHint: "一类：入る → 入られる",
+        examples: [
+          {
+            japanese: "部屋に勝手に入られて困った。",
+            tokens: [],
+            kana: "へやにかってにはいられてこまった。",
+            chinese: "有人擅自进了房间，让我很为难。",
+            scene: "life",
+            register: "カジュアル",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: "mamoru",
+    dictionaryForm: "守る",
+    verbGroup: "group1",
+    meaningZh: "保护/遵守",
+    conjugations: [
+      {
+        conjugationType: "passive",
+        conjugatedForm: "守られる",
+        explanationZh: "被遵守；被保护",
+        patternHint: "一类：守る → 守られる",
+        examples: [
+          {
+            japanese: "ルールはきちんと守られています。",
+            tokens: [],
+            kana: "るーるはきちんとまもられています。",
+            chinese: "规则被严格遵守。",
+            scene: "work",
+            register: "丁寧",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: "erabu",
+    dictionaryForm: "選ぶ",
+    verbGroup: "group1",
+    meaningZh: "选择",
+    conjugations: [
+      {
+        conjugationType: "passive",
+        conjugatedForm: "選ばれる",
+        explanationZh: "被选中",
+        patternHint: "一类：選ぶ → 選ばれる",
+        examples: [
+          {
+            japanese: "彼が代表に選ばれた。",
+            tokens: [],
+            kana: "かれがだいひょうにえらばれた。",
+            chinese: "他被选为代表。",
+            scene: "work",
+            register: "丁寧",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: "dasu",
+    dictionaryForm: "出す",
+    verbGroup: "group1",
+    meaningZh: "拿出/布置",
+    conjugations: [
+      {
+        conjugationType: "passive",
+        conjugatedForm: "出される",
+        explanationZh: "被布置/被发布",
+        patternHint: "一类：出す → 出される",
+        examples: [
+          {
+            japanese: "宿題が毎週出される。",
+            tokens: [],
+            kana: "しゅくだいがまいしゅうだされる。",
+            chinese: "每周都布置作业。",
+            scene: "life",
+            register: "丁寧",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: "ugoku",
+    dictionaryForm: "動く",
+    verbGroup: "group1",
+    meaningZh: "移动",
+    conjugations: [
+      {
+        conjugationType: "passive",
+        conjugatedForm: "動かれる",
+        explanationZh: "迷惑受身",
+        patternHint: "一类：動く → 動かれる",
+        examples: [
+          {
+            japanese: "急に動かれてピントがずれた。",
+            tokens: [],
+            kana: "きゅうにうごかれてぴんとがずれた。",
+            chinese: "对方突然动了，焦点没对上。",
+            scene: "life",
+            register: "カジュアル",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: "maneku",
+    dictionaryForm: "招く",
+    verbGroup: "group1",
+    meaningZh: "邀请",
+    conjugations: [
+      {
+        conjugationType: "passive",
+        conjugatedForm: "招かれる",
+        explanationZh: "被邀请",
+        patternHint: "一类：招く → 招かれる",
+        examples: [
+          {
+            japanese: "結婚式に同僚として招かれた。",
+            tokens: [],
+            kana: "けっこんしきにどうりょうとしてまねかれた。",
+            chinese: "作为同事被邀请参加婚礼。",
+            scene: "life",
+            register: "丁寧",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: "okosu",
+    dictionaryForm: "起こす",
+    verbGroup: "group1",
+    meaningZh: "唤醒/引起",
+    conjugations: [
+      {
+        conjugationType: "passive",
+        conjugatedForm: "起こされる",
+        explanationZh: "被叫醒",
+        patternHint: "一类：起こす → 起こされる",
+        examples: [
+          {
+            japanese: "アラームより先に母に起こされた。",
+            tokens: [],
+            kana: "あらーむよりさきにははにおこされた。",
+            chinese: "在闹钟响前被妈妈叫醒了。",
+            scene: "life",
+            register: "カジュアル",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: "yuzuru",
+    dictionaryForm: "譲る",
+    verbGroup: "group1",
+    meaningZh: "让出",
+    conjugations: [
+      {
+        conjugationType: "passive",
+        conjugatedForm: "譲られる",
+        explanationZh: "被让出（座位等）",
+        patternHint: "一类：譲る → 譲られる",
+        examples: [
+          {
+            japanese: "電車で席を譲られた。",
+            tokens: [],
+            kana: "でんしゃでせきをゆずられた。",
+            chinese: "在电车上有人给我让了座。",
+            scene: "life",
+            register: "丁寧",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: "kamu",
+    dictionaryForm: "噛む",
+    verbGroup: "group1",
+    meaningZh: "咬",
+    conjugations: [
+      {
+        conjugationType: "passive",
+        conjugatedForm: "噛まれる",
+        explanationZh: "被咬",
+        patternHint: "一类：噛む → 噛まれる",
+        examples: [
+          {
+            japanese: "公園で蚊にたくさん噛まれた。",
+            tokens: [],
+            kana: "こうえんでかにたくさんかまれた。",
+            chinese: "在公园被蚊子咬了好多次。",
+            scene: "life",
+            register: "カジュアル",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: "nokosu",
+    dictionaryForm: "残す",
+    verbGroup: "group1",
+    meaningZh: "留下",
+    conjugations: [
+      {
+        conjugationType: "passive",
+        conjugatedForm: "残される",
+        explanationZh: "被留下",
+        patternHint: "一类：残す → 残される",
+        examples: [
+          {
+            japanese: "メモが机に残されていた。",
+            tokens: [],
+            kana: "めもがつくえにのこされていた。",
+            chinese: "桌上留着一张便条。",
+            scene: "work",
+            register: "丁寧",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: "egaku",
+    dictionaryForm: "描く",
+    verbGroup: "group1",
+    meaningZh: "描绘",
+    conjugations: [
+      {
+        conjugationType: "passive",
+        conjugatedForm: "描かれる",
+        explanationZh: "被描绘",
+        patternHint: "一类：描く → 描かれる",
+        examples: [
+          {
+            japanese: "彼の人生が映画に描かれている。",
+            tokens: [],
+            kana: "かれのじんせいがえいがにえがかれている。",
+            chinese: "他的人生被搬上了电影。",
+            scene: "life",
+            register: "丁寧",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: "sukuu",
+    dictionaryForm: "救う",
+    verbGroup: "group1",
+    meaningZh: "救",
+    conjugations: [
+      {
+        conjugationType: "passive",
+        conjugatedForm: "救われる",
+        explanationZh: "被拯救/被解救",
+        patternHint: "一类：救う → 救われる",
+        examples: [
+          {
+            japanese: "彼の言葉に救われた。",
+            tokens: [],
+            kana: "かれのことばにすくわれた。",
+            chinese: "被他的话救赎了（心情舒缓）。",
+            scene: "life",
+            register: "丁寧",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: "ushinau",
+    dictionaryForm: "失う",
+    verbGroup: "group1",
+    meaningZh: "失去",
+    conjugations: [
+      {
+        conjugationType: "passive",
+        conjugatedForm: "失われる",
+        explanationZh: "被失去/丧失",
+        patternHint: "一类：失う → 失われる",
+        examples: [
+          {
+            japanese: "災害で多くの命が失われた。",
+            tokens: [],
+            kana: "さいがいでおおくのいのちがうしなわれた。",
+            chinese: "灾害中失去了许多生命。",
+            scene: "life",
+            register: "丁寧",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: "negau",
+    dictionaryForm: "願う",
+    verbGroup: "group1",
+    meaningZh: "希望",
+    conjugations: [
+      {
+        conjugationType: "passive",
+        conjugatedForm: "願われる",
+        explanationZh: "被期愿",
+        patternHint: "一类：願う → 願われる",
+        examples: [
+          {
+            japanese: "平和な日々が願われている。",
+            tokens: [],
+            kana: "へいわなひびがねがわれている。",
+            chinese: "大家都祈愿和平的日子。",
+            scene: "life",
+            register: "丁寧",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: "furu",
+    dictionaryForm: "振る",
+    verbGroup: "group1",
+    meaningZh: "挥/甩",
+    conjugations: [
+      {
+        conjugationType: "passive",
+        conjugatedForm: "振られる",
+        explanationZh: "被甩/被拒",
+        patternHint: "一类：振る → 振られる",
+        examples: [
+          {
+            japanese: "告白したけど振られてしまった。",
+            tokens: [],
+            kana: "こくはくしたけどふられてしまった。",
+            chinese: "告白了但被甩了。",
+            scene: "life",
+            register: "カジュアル",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: "sawaru",
+    dictionaryForm: "触る",
+    verbGroup: "group1",
+    meaningZh: "触摸",
+    conjugations: [
+      {
+        conjugationType: "passive",
+        conjugatedForm: "触られる",
+        explanationZh: "被触摸",
+        patternHint: "一类：触る → 触られる",
+        examples: [
+          {
+            japanese: "知らない人に肩を触られた。",
+            tokens: [],
+            kana: "しらないひとにかたをさわられた。",
+            chinese: "肩膀被陌生人摸了。",
+            scene: "life",
+            register: "カジュアル",
+          },
+        ],
+      },
+    ],
+  },
+
+  // ---- 二类（一段）verbs ----
+  {
+    id: "kiruWear",
+    dictionaryForm: "着る",
+    verbGroup: "group2",
+    meaningZh: "穿(衣服)",
+    conjugations: [
+      {
+        conjugationType: "passive",
+        conjugatedForm: "着られる",
+        explanationZh: "（衣服）被…穿（迷惑受身）",
+        patternHint: "二类：着る → 着られる",
+        examples: [
+          {
+            japanese: "妹に新しい服を着られてしまった。",
+            tokens: [],
+            kana: "いもうとにあたらしいふくをきられてしまった。",
+            chinese: "新衣服被妹妹穿走了。",
+            scene: "life",
+            register: "カジュアル",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: "kariru",
+    dictionaryForm: "借りる",
+    verbGroup: "group2",
+    meaningZh: "借入",
+    conjugations: [
+      {
+        conjugationType: "passive",
+        conjugatedForm: "借りられる",
+        explanationZh: "被借走（与可能形同形）",
+        patternHint: "二类：借りる → 借りられる",
+        examples: [
+          {
+            japanese: "図書館で本が学生に借りられた。",
+            tokens: [],
+            kana: "としょかんでほんががくせいにかりられた。",
+            chinese: "图书馆的书被学生借走了。",
+            scene: "life",
+            register: "丁寧",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: "kotaeru",
+    dictionaryForm: "答える",
+    verbGroup: "group2",
+    meaningZh: "回答",
+    conjugations: [
+      {
+        conjugationType: "passive",
+        conjugatedForm: "答えられる",
+        explanationZh: "被回答（与可能形同形）",
+        patternHint: "二类：答える → 答えられる",
+        examples: [
+          {
+            japanese: "難しい質問が新人によく答えられた。",
+            tokens: [],
+            kana: "むずかしいしつもんがしんじんによくこたえられた。",
+            chinese: "新人很好地回答了难题。",
+            scene: "work",
+            register: "丁寧",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: "oboeru",
+    dictionaryForm: "覚える",
+    verbGroup: "group2",
+    meaningZh: "记住",
+    conjugations: [
+      {
+        conjugationType: "passive",
+        conjugatedForm: "覚えられる",
+        explanationZh: "被记住",
+        patternHint: "二类：覚える → 覚えられる",
+        examples: [
+          {
+            japanese: "彼は同僚にすぐ名前を覚えられた。",
+            tokens: [],
+            kana: "かれはどうりょうにすぐなまえをおぼえられた。",
+            chinese: "他的名字很快被同事记住了。",
+            scene: "work",
+            register: "丁寧",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: "wasureru",
+    dictionaryForm: "忘れる",
+    verbGroup: "group2",
+    meaningZh: "忘记",
+    conjugations: [
+      {
+        conjugationType: "passive",
+        conjugatedForm: "忘れられる",
+        explanationZh: "被遗忘",
+        patternHint: "二类：忘れる → 忘れられる",
+        examples: [
+          {
+            japanese: "古い思い出はもう忘れられた。",
+            tokens: [],
+            kana: "ふるいおもいではもうわすれられた。",
+            chinese: "旧的回忆已经被遗忘了。",
+            scene: "life",
+            register: "丁寧",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: "shinjiru",
+    dictionaryForm: "信じる",
+    verbGroup: "group2",
+    meaningZh: "相信",
+    conjugations: [
+      {
+        conjugationType: "passive",
+        conjugatedForm: "信じられる",
+        explanationZh: "被相信",
+        patternHint: "二类：信じる → 信じられる",
+        examples: [
+          {
+            japanese: "彼の話は誰にも信じられなかった。",
+            tokens: [],
+            kana: "かれのはなしはだれにもしんじられなかった。",
+            chinese: "他的话没人相信。",
+            scene: "life",
+            register: "丁寧",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: "tasukeru",
+    dictionaryForm: "助ける",
+    verbGroup: "group2",
+    meaningZh: "帮助",
+    conjugations: [
+      {
+        conjugationType: "passive",
+        conjugatedForm: "助けられる",
+        explanationZh: "被帮助/被救助",
+        patternHint: "二类：助ける → 助けられる",
+        examples: [
+          {
+            japanese: "見知らぬ人に道で助けられた。",
+            tokens: [],
+            kana: "みしらぬひとにみちでたすけられた。",
+            chinese: "在路上被陌生人帮助了。",
+            scene: "life",
+            register: "丁寧",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: "sodateru",
+    dictionaryForm: "育てる",
+    verbGroup: "group2",
+    meaningZh: "培育",
+    conjugations: [
+      {
+        conjugationType: "passive",
+        conjugatedForm: "育てられる",
+        explanationZh: "被抚养",
+        patternHint: "二类：育てる → 育てられる",
+        examples: [
+          {
+            japanese: "祖母に大切に育てられた。",
+            tokens: [],
+            kana: "そぼにたいせつにそだてられた。",
+            chinese: "被祖母悉心抚养长大。",
+            scene: "life",
+            register: "丁寧",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: "atsumeru",
+    dictionaryForm: "集める",
+    verbGroup: "group2",
+    meaningZh: "收集",
+    conjugations: [
+      {
+        conjugationType: "passive",
+        conjugatedForm: "集められる",
+        explanationZh: "被召集",
+        patternHint: "二类：集める → 集められる",
+        examples: [
+          {
+            japanese: "全社員が会議室に集められた。",
+            tokens: [],
+            kana: "ぜんしゃいんがかいぎしつにあつめられた。",
+            chinese: "全体员工被召集到会议室。",
+            scene: "work",
+            register: "丁寧",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: "hajimeru",
+    dictionaryForm: "始める",
+    verbGroup: "group2",
+    meaningZh: "开始",
+    conjugations: [
+      {
+        conjugationType: "passive",
+        conjugatedForm: "始められる",
+        explanationZh: "被启动",
+        patternHint: "二类：始める → 始められる",
+        examples: [
+          {
+            japanese: "新しいプロジェクトが今月から始められた。",
+            tokens: [],
+            kana: "あたらしいぷろじぇくとがこんげつからはじめられた。",
+            chinese: "新项目从本月开始启动。",
+            scene: "work",
+            register: "丁寧",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: "oeru",
+    dictionaryForm: "終える",
+    verbGroup: "group2",
+    meaningZh: "结束",
+    conjugations: [
+      {
+        conjugationType: "passive",
+        conjugatedForm: "終えられる",
+        explanationZh: "被结束",
+        patternHint: "二类：終える → 終えられる",
+        examples: [
+          {
+            japanese: "予定通り会議が終えられた。",
+            tokens: [],
+            kana: "よていどおりかいぎがおえられた。",
+            chinese: "会议按计划结束了。",
+            scene: "work",
+            register: "丁寧",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: "azukeru",
+    dictionaryForm: "預ける",
+    verbGroup: "group2",
+    meaningZh: "寄存",
+    conjugations: [
+      {
+        conjugationType: "passive",
+        conjugatedForm: "預けられる",
+        explanationZh: "被寄存",
+        patternHint: "二类：預ける → 預けられる",
+        examples: [
+          {
+            japanese: "荷物がフロントに預けられている。",
+            tokens: [],
+            kana: "にもつがふろんとにあずけられている。",
+            chinese: "行李寄存在前台。",
+            scene: "life",
+            register: "丁寧",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: "makaseru",
+    dictionaryForm: "任せる",
+    verbGroup: "group2",
+    meaningZh: "委托",
+    conjugations: [
+      {
+        conjugationType: "passive",
+        conjugatedForm: "任せられる",
+        explanationZh: "被托付/被委派",
+        patternHint: "二类：任せる → 任せられる",
+        examples: [
+          {
+            japanese: "新しい仕事が彼に任せられた。",
+            tokens: [],
+            kana: "あたらしいしごとがかれにまかせられた。",
+            chinese: "新工作交给了他。",
+            scene: "work",
+            register: "丁寧",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: "tazuneru",
+    dictionaryForm: "訪ねる",
+    verbGroup: "group2",
+    meaningZh: "访问",
+    conjugations: [
+      {
+        conjugationType: "passive",
+        conjugatedForm: "訪ねられる",
+        explanationZh: "被访问/被造访",
+        patternHint: "二类：訪ねる → 訪ねられる",
+        examples: [
+          {
+            japanese: "知らない人に突然家を訪ねられた。",
+            tokens: [],
+            kana: "しらないひとにとつぜんいえをたずねられた。",
+            chinese: "突然有陌生人来访。",
+            scene: "life",
+            register: "カジュアル",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: "oshitsukeru",
+    dictionaryForm: "押し付ける",
+    verbGroup: "group2",
+    meaningZh: "强加",
+    conjugations: [
+      {
+        conjugationType: "passive",
+        conjugatedForm: "押し付けられる",
+        explanationZh: "被强行托付/被推卸",
+        patternHint: "二类：押し付ける → 押し付けられる",
+        examples: [
+          {
+            japanese: "面倒な仕事を上司に押し付けられた。",
+            tokens: [],
+            kana: "めんどうなしごとをじょうしにおしつけられた。",
+            chinese: "麻烦的工作被上司推给了我。",
+            scene: "work",
+            register: "カジュアル",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: "nageru",
+    dictionaryForm: "投げる",
+    verbGroup: "group2",
+    meaningZh: "投/扔",
+    conjugations: [
+      {
+        conjugationType: "passive",
+        conjugatedForm: "投げられる",
+        explanationZh: "被投/被扔",
+        patternHint: "二类：投げる → 投げられる",
+        examples: [
+          {
+            japanese: "ボールが選手に高く投げられた。",
+            tokens: [],
+            kana: "ぼーるがせんしゅにたかくなげられた。",
+            chinese: "球被运动员高高投出。",
+            scene: "life",
+            register: "丁寧",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: "naraberu",
+    dictionaryForm: "並べる",
+    verbGroup: "group2",
+    meaningZh: "排列",
+    conjugations: [
+      {
+        conjugationType: "passive",
+        conjugatedForm: "並べられる",
+        explanationZh: "被排列",
+        patternHint: "二类：並べる → 並べられる",
+        examples: [
+          {
+            japanese: "資料がきれいに並べられている。",
+            tokens: [],
+            kana: "しりょうがきれいにならべられている。",
+            chinese: "资料整齐地排列着。",
+            scene: "work",
+            register: "丁寧",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: "kuraberu",
+    dictionaryForm: "比べる",
+    verbGroup: "group2",
+    meaningZh: "比较",
+    conjugations: [
+      {
+        conjugationType: "passive",
+        conjugatedForm: "比べられる",
+        explanationZh: "被比较",
+        patternHint: "二类：比べる → 比べられる",
+        examples: [
+          {
+            japanese: "兄といつも比べられて嫌だった。",
+            tokens: [],
+            kana: "あにといつもくらべられていやだった。",
+            chinese: "总是被拿来跟哥哥比，让人不舒服。",
+            scene: "life",
+            register: "カジュアル",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: "kuwaeru",
+    dictionaryForm: "加える",
+    verbGroup: "group2",
+    meaningZh: "添加",
+    conjugations: [
+      {
+        conjugationType: "passive",
+        conjugatedForm: "加えられる",
+        explanationZh: "被加上",
+        patternHint: "二类：加える → 加えられる",
+        examples: [
+          {
+            japanese: "新しい条件が契約に加えられた。",
+            tokens: [],
+            kana: "あたらしいじょうけんがけいやくにくわえられた。",
+            chinese: "合同里加上了新条款。",
+            scene: "work",
+            register: "丁寧",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: "tsuzukeru",
+    dictionaryForm: "続ける",
+    verbGroup: "group2",
+    meaningZh: "继续",
+    conjugations: [
+      {
+        conjugationType: "passive",
+        conjugatedForm: "続けられる",
+        explanationZh: "被继续",
+        patternHint: "二类：続ける → 続けられる",
+        examples: [
+          {
+            japanese: "プロジェクトが来年も続けられる予定だ。",
+            tokens: [],
+            kana: "ぷろじぇくとがらいねんもつづけられるよていだ。",
+            chinese: "项目计划明年继续。",
+            scene: "work",
+            register: "丁寧",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: "tomeru",
+    dictionaryForm: "止める",
+    verbGroup: "group2",
+    meaningZh: "停止",
+    conjugations: [
+      {
+        conjugationType: "passive",
+        conjugatedForm: "止められる",
+        explanationZh: "被停止",
+        patternHint: "二类：止める → 止められる",
+        examples: [
+          {
+            japanese: "工事が住民の反対で止められた。",
+            tokens: [],
+            kana: "こうじがじゅうみんのはんたいでとめられた。",
+            chinese: "工程因居民反对被叫停了。",
+            scene: "life",
+            register: "丁寧",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: "suteru",
+    dictionaryForm: "捨てる",
+    verbGroup: "group2",
+    meaningZh: "抛弃",
+    conjugations: [
+      {
+        conjugationType: "passive",
+        conjugatedForm: "捨てられる",
+        explanationZh: "被丢弃",
+        patternHint: "二类：捨てる → 捨てられる",
+        examples: [
+          {
+            japanese: "古い本がうっかり親に捨てられた。",
+            tokens: [],
+            kana: "ふるいほんがうっかりおやにすてられた。",
+            chinese: "旧书被父母不小心扔了。",
+            scene: "life",
+            register: "カジュアル",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: "kazoeru",
+    dictionaryForm: "数える",
+    verbGroup: "group2",
+    meaningZh: "数",
+    conjugations: [
+      {
+        conjugationType: "passive",
+        conjugatedForm: "数えられる",
+        explanationZh: "被清点",
+        patternHint: "二类：数える → 数えられる",
+        examples: [
+          {
+            japanese: "出席者が一人ずつ数えられた。",
+            tokens: [],
+            kana: "しゅっせきしゃがひとりずつかぞえられた。",
+            chinese: "参加者一个一个被数了。",
+            scene: "work",
+            register: "丁寧",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: "shiraberu",
+    dictionaryForm: "調べる",
+    verbGroup: "group2",
+    meaningZh: "调查",
+    conjugations: [
+      {
+        conjugationType: "passive",
+        conjugatedForm: "調べられる",
+        explanationZh: "被调查",
+        patternHint: "二类：調べる → 調べられる",
+        examples: [
+          {
+            japanese: "事故の原因が詳しく調べられている。",
+            tokens: [],
+            kana: "じこのげんいんがくわしくしらべられている。",
+            chinese: "事故原因正在被详细调查。",
+            scene: "work",
+            register: "丁寧",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: "kangaeru",
+    dictionaryForm: "考える",
+    verbGroup: "group2",
+    meaningZh: "思考",
+    conjugations: [
+      {
+        conjugationType: "passive",
+        conjugatedForm: "考えられる",
+        explanationZh: "被考虑（也作可能形）",
+        patternHint: "二类：考える → 考えられる",
+        examples: [
+          {
+            japanese: "他の方法も十分に考えられる。",
+            tokens: [],
+            kana: "ほかのほうほうもじゅうぶんにかんがえられる。",
+            chinese: "也可以充分考虑其他方法。",
+            scene: "work",
+            register: "丁寧",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: "shimeru",
+    dictionaryForm: "占める",
+    verbGroup: "group2",
+    meaningZh: "占据",
+    conjugations: [
+      {
+        conjugationType: "passive",
+        conjugatedForm: "占められる",
+        explanationZh: "被占据",
+        patternHint: "二类：占める → 占められる",
+        examples: [
+          {
+            japanese: "市場の大半が大手企業に占められている。",
+            tokens: [],
+            kana: "しじょうのたいはんがおおてきぎょうにしめられている。",
+            chinese: "市场大部分被大企业占据。",
+            scene: "work",
+            register: "丁寧",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: "motomeru",
+    dictionaryForm: "求める",
+    verbGroup: "group2",
+    meaningZh: "寻求",
+    conjugations: [
+      {
+        conjugationType: "passive",
+        conjugatedForm: "求められる",
+        explanationZh: "被要求",
+        patternHint: "二类：求める → 求められる",
+        examples: [
+          {
+            japanese: "新人にも高いスキルが求められる。",
+            tokens: [],
+            kana: "しんじんにもたかいすきるがもとめられる。",
+            chinese: "对新人也要求很高的技能。",
+            scene: "work",
+            register: "丁寧",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: "mitomeru",
+    dictionaryForm: "認める",
+    verbGroup: "group2",
+    meaningZh: "承认",
+    conjugations: [
+      {
+        conjugationType: "passive",
+        conjugatedForm: "認められる",
+        explanationZh: "被认可",
+        patternHint: "二类：認める → 認められる",
+        examples: [
+          {
+            japanese: "努力が会社に認められた。",
+            tokens: [],
+            kana: "どりょくがかいしゃにみとめられた。",
+            chinese: "努力得到了公司的认可。",
+            scene: "work",
+            register: "丁寧",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: "ireru",
+    dictionaryForm: "入れる",
+    verbGroup: "group2",
+    meaningZh: "放入",
+    conjugations: [
+      {
+        conjugationType: "passive",
+        conjugatedForm: "入れられる",
+        explanationZh: "被放入/被加入",
+        patternHint: "二类：入れる → 入れられる",
+        examples: [
+          {
+            japanese: "新しいメンバーがチームに入れられた。",
+            tokens: [],
+            kana: "あたらしいめんばーがちーむにいれられた。",
+            chinese: "新成员被加入团队。",
+            scene: "work",
+            register: "丁寧",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: "tateru",
+    dictionaryForm: "立てる",
+    verbGroup: "group2",
+    meaningZh: "竖起/制定",
+    conjugations: [
+      {
+        conjugationType: "passive",
+        conjugatedForm: "立てられる",
+        explanationZh: "被制定/被竖立",
+        patternHint: "二类：立てる → 立てられる",
+        examples: [
+          {
+            japanese: "計画が一週間で立てられた。",
+            tokens: [],
+            kana: "けいかくがいっしゅうかんでたてられた。",
+            chinese: "计划在一周内被制定出来。",
+            scene: "work",
+            register: "丁寧",
+          },
+        ],
+      },
+    ],
+  },
+
+  // ---- 三类（不規則・する复合动词）verbs ----
+  {
+    id: "benkyouSuru",
+    dictionaryForm: "勉強する",
+    verbGroup: "group3",
+    meaningZh: "学习",
+    conjugations: [
+      {
+        conjugationType: "passive",
+        conjugatedForm: "勉強される",
+        explanationZh: "敬语「您学习」",
+        patternHint: "三类：勉強する → 勉強される",
+        examples: [
+          {
+            japanese: "毎日真剣に勉強されている学生だ。",
+            tokens: [],
+            kana: "まいにちしんけんにべんきょうされているがくせいだ。",
+            chinese: "他是个每天认真学习的学生。（敬语）",
+            scene: "life",
+            register: "敬語",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: "renrakuSuru",
+    dictionaryForm: "連絡する",
+    verbGroup: "group3",
+    meaningZh: "联络",
+    conjugations: [
+      {
+        conjugationType: "passive",
+        conjugatedForm: "連絡される",
+        explanationZh: "被通知/被联络",
+        patternHint: "三类：連絡する → 連絡される",
+        examples: [
+          {
+            japanese: "結果は明日連絡されます。",
+            tokens: [],
+            kana: "けっかはあしたれんらくされます。",
+            chinese: "结果将于明天通知。",
+            scene: "work",
+            register: "丁寧",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: "kakuninSuru",
+    dictionaryForm: "確認する",
+    verbGroup: "group3",
+    meaningZh: "确认",
+    conjugations: [
+      {
+        conjugationType: "passive",
+        conjugatedForm: "確認される",
+        explanationZh: "被确认",
+        patternHint: "三类：確認する → 確認される",
+        examples: [
+          {
+            japanese: "予約はメールで確認されました。",
+            tokens: [],
+            kana: "よやくはめーるでかくにんされました。",
+            chinese: "预约通过邮件确认了。",
+            scene: "work",
+            register: "丁寧",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: "shoukaiSuru",
+    dictionaryForm: "紹介する",
+    verbGroup: "group3",
+    meaningZh: "介绍",
+    conjugations: [
+      {
+        conjugationType: "passive",
+        conjugatedForm: "紹介される",
+        explanationZh: "被介绍",
+        patternHint: "三类：紹介する → 紹介される",
+        examples: [
+          {
+            japanese: "新しい同僚が部長に紹介された。",
+            tokens: [],
+            kana: "あたらしいどうりょうがぶちょうにしょうかいされた。",
+            chinese: "新同事被部长介绍了。",
+            scene: "work",
+            register: "丁寧",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: "setsumeiSuru",
+    dictionaryForm: "説明する",
+    verbGroup: "group3",
+    meaningZh: "说明",
+    conjugations: [
+      {
+        conjugationType: "passive",
+        conjugatedForm: "説明される",
+        explanationZh: "被说明",
+        patternHint: "三类：説明する → 説明される",
+        examples: [
+          {
+            japanese: "ルールは最初に丁寧に説明されました。",
+            tokens: [],
+            kana: "るーるはさいしょにていねいにせつめいされました。",
+            chinese: "规则一开始就被详细说明了。",
+            scene: "work",
+            register: "丁寧",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: "annaiSuru",
+    dictionaryForm: "案内する",
+    verbGroup: "group3",
+    meaningZh: "引导",
+    conjugations: [
+      {
+        conjugationType: "passive",
+        conjugatedForm: "案内される",
+        explanationZh: "被引导",
+        patternHint: "三类：案内する → 案内される",
+        examples: [
+          {
+            japanese: "お客様は会議室まで案内されました。",
+            tokens: [],
+            kana: "おきゃくさまはかいぎしつまであんないされました。",
+            chinese: "客人被引导至会议室。",
+            scene: "work",
+            register: "丁寧",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: "chuuiSuru",
+    dictionaryForm: "注意する",
+    verbGroup: "group3",
+    meaningZh: "提醒/注意",
+    conjugations: [
+      {
+        conjugationType: "passive",
+        conjugatedForm: "注意される",
+        explanationZh: "被提醒/被警告",
+        patternHint: "三类：注意する → 注意される",
+        examples: [
+          {
+            japanese: "騒がしくして店員に注意された。",
+            tokens: [],
+            kana: "さわがしくしててんいんにちゅういされた。",
+            chinese: "因为吵闹被店员提醒了。",
+            scene: "life",
+            register: "カジュアル",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: "shinpaiSuru",
+    dictionaryForm: "心配する",
+    verbGroup: "group3",
+    meaningZh: "担心",
+    conjugations: [
+      {
+        conjugationType: "passive",
+        conjugatedForm: "心配される",
+        explanationZh: "被担心",
+        patternHint: "三类：心配する → 心配される",
+        examples: [
+          {
+            japanese: "連絡が遅れて家族に心配された。",
+            tokens: [],
+            kana: "れんらくがおくれてかぞくにしんぱいされた。",
+            chinese: "联系晚了让家人担心。",
+            scene: "life",
+            register: "カジュアル",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: "riyouSuru",
+    dictionaryForm: "利用する",
+    verbGroup: "group3",
+    meaningZh: "利用",
+    conjugations: [
+      {
+        conjugationType: "passive",
+        conjugatedForm: "利用される",
+        explanationZh: "被使用/被利用",
+        patternHint: "三类：利用する → 利用される",
+        examples: [
+          {
+            japanese: "このアプリは世界中で利用されている。",
+            tokens: [],
+            kana: "このあぷりはせかいじゅうでりようされている。",
+            chinese: "这个应用在全世界都被使用。",
+            scene: "work",
+            register: "丁寧",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: "junbiSuru",
+    dictionaryForm: "準備する",
+    verbGroup: "group3",
+    meaningZh: "准备",
+    conjugations: [
+      {
+        conjugationType: "passive",
+        conjugatedForm: "準備される",
+        explanationZh: "被准备",
+        patternHint: "三类：準備する → 準備される",
+        examples: [
+          {
+            japanese: "資料はすでに会議室に準備されている。",
+            tokens: [],
+            kana: "しりょうはすでにかいぎしつにじゅんびされている。",
+            chinese: "资料已经在会议室准备好了。",
+            scene: "work",
+            register: "丁寧",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: "keikenSuru",
+    dictionaryForm: "経験する",
+    verbGroup: "group3",
+    meaningZh: "经历",
+    conjugations: [
+      {
+        conjugationType: "passive",
+        conjugatedForm: "経験される",
+        explanationZh: "被经历（敬语用法常见）",
+        patternHint: "三类：経験する → 経験される",
+        examples: [
+          {
+            japanese: "そのような出来事は誰でも一度は経験される。",
+            tokens: [],
+            kana: "そのようなできごとはだれでもいちどはけいけんされる。",
+            chinese: "那样的事谁都会经历一次。",
+            scene: "life",
+            register: "丁寧",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: "youiSuru",
+    dictionaryForm: "用意する",
+    verbGroup: "group3",
+    meaningZh: "备好",
+    conjugations: [
+      {
+        conjugationType: "passive",
+        conjugatedForm: "用意される",
+        explanationZh: "被备好",
+        patternHint: "三类：用意する → 用意される",
+        examples: [
+          {
+            japanese: "席は事前に用意されています。",
+            tokens: [],
+            kana: "せきはじぜんによういされています。",
+            chinese: "座位事先就准备好了。",
+            scene: "work",
+            register: "丁寧",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: "renshuuSuru",
+    dictionaryForm: "練習する",
+    verbGroup: "group3",
+    meaningZh: "练习",
+    conjugations: [
+      {
+        conjugationType: "passive",
+        conjugatedForm: "練習される",
+        explanationZh: "敬语「您练习」",
+        patternHint: "三类：練習する → 練習される",
+        examples: [
+          {
+            japanese: "毎日熱心に練習されている。",
+            tokens: [],
+            kana: "まいにちねっしんにれんしゅうされている。",
+            chinese: "每天热心地练习。（敬语）",
+            scene: "life",
+            register: "敬語",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: "yakusokuSuru",
+    dictionaryForm: "約束する",
+    verbGroup: "group3",
+    meaningZh: "约定",
+    conjugations: [
+      {
+        conjugationType: "passive",
+        conjugatedForm: "約束される",
+        explanationZh: "被约定",
+        patternHint: "三类：約束する → 約束される",
+        examples: [
+          {
+            japanese: "次回の集まりが約束された。",
+            tokens: [],
+            kana: "じかいのあつまりがやくそくされた。",
+            chinese: "约定了下次聚会。",
+            scene: "life",
+            register: "丁寧",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: "hantaiSuru",
+    dictionaryForm: "反対する",
+    verbGroup: "group3",
+    meaningZh: "反对",
+    conjugations: [
+      {
+        conjugationType: "passive",
+        conjugatedForm: "反対される",
+        explanationZh: "被反对",
+        patternHint: "三类：反対する → 反対される",
+        examples: [
+          {
+            japanese: "提案は多くの人に反対された。",
+            tokens: [],
+            kana: "ていあんはおおくのひとにはんたいされた。",
+            chinese: "提案被很多人反对。",
+            scene: "work",
+            register: "丁寧",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: "sanseiSuru",
+    dictionaryForm: "賛成する",
+    verbGroup: "group3",
+    meaningZh: "赞成",
+    conjugations: [
+      {
+        conjugationType: "passive",
+        conjugatedForm: "賛成される",
+        explanationZh: "被赞成",
+        patternHint: "三类：賛成する → 賛成される",
+        examples: [
+          {
+            japanese: "新しい方針は全員に賛成された。",
+            tokens: [],
+            kana: "あたらしいほうしんはぜんいんにさんせいされた。",
+            chinese: "新方针得到了全员赞成。",
+            scene: "work",
+            register: "丁寧",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: "keikakuSuru",
+    dictionaryForm: "計画する",
+    verbGroup: "group3",
+    meaningZh: "计划",
+    conjugations: [
+      {
+        conjugationType: "passive",
+        conjugatedForm: "計画される",
+        explanationZh: "被计划",
+        patternHint: "三类：計画する → 計画される",
+        examples: [
+          {
+            japanese: "来月、社員旅行が計画されている。",
+            tokens: [],
+            kana: "らいげつ、しゃいんりょこうがけいかくされている。",
+            chinese: "下个月计划公司旅行。",
+            scene: "work",
+            register: "丁寧",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: "hyoukaSuru",
+    dictionaryForm: "評価する",
+    verbGroup: "group3",
+    meaningZh: "评价",
+    conjugations: [
+      {
+        conjugationType: "passive",
+        conjugatedForm: "評価される",
+        explanationZh: "被评价/被认可",
+        patternHint: "三类：評価する → 評価される",
+        examples: [
+          {
+            japanese: "彼の仕事は社内で高く評価されている。",
+            tokens: [],
+            kana: "かれのしごとはしゃないでたかくひょうかされている。",
+            chinese: "他的工作在公司内部得到高度评价。",
+            scene: "work",
+            register: "丁寧",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: "kensaSuru",
+    dictionaryForm: "検査する",
+    verbGroup: "group3",
+    meaningZh: "检查",
+    conjugations: [
+      {
+        conjugationType: "passive",
+        conjugatedForm: "検査される",
+        explanationZh: "被检查",
+        patternHint: "三类：検査する → 検査される",
+        examples: [
+          {
+            japanese: "品質は出荷前に厳しく検査される。",
+            tokens: [],
+            kana: "ひんしつはしゅっかまえにきびしくけんさされる。",
+            chinese: "出货前严格检验品质。",
+            scene: "work",
+            register: "丁寧",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: "kaihatsuSuru",
+    dictionaryForm: "開発する",
+    verbGroup: "group3",
+    meaningZh: "开发",
+    conjugations: [
+      {
+        conjugationType: "passive",
+        conjugatedForm: "開発される",
+        explanationZh: "被开发",
+        patternHint: "三类：開発する → 開発される",
+        examples: [
+          {
+            japanese: "新製品が来年開発される予定だ。",
+            tokens: [],
+            kana: "しんせいひんがらいねんかいはつされるよていだ。",
+            chinese: "新产品计划明年开发。",
+            scene: "work",
+            register: "丁寧",
           },
         ],
       },

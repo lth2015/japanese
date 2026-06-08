@@ -4,7 +4,8 @@ import type { ConjugationType, Scene, VerbGroup } from "@/lib/verbs/types"
 import { useEffect, useState } from "react"
 
 export type VerbSettings = {
-  intervalSec: number
+  intervalSec: number // 2..30，轮播停顿秒数
+  ttsRate: number // 0.5..1.5，浏览器 TTS 语速
   showKana: boolean
   showChinese: boolean
   showPatternHint: boolean
@@ -12,12 +13,15 @@ export type VerbSettings = {
   filterConjugation: ConjugationType | "all"
   filterScene: Scene | "all"
   filterGroup: VerbGroup | "all"
+  /** 用户标记「我会了」的动词 id 列表；这些动词从轮播队列里隐藏，但仍出现在索引条上 */
+  knownVerbIds: string[]
 }
 
 const KEY = "nihongo:verb-settings-v1"
 
 const DEFAULT_SETTINGS: VerbSettings = {
   intervalSec: 6,
+  ttsRate: 0.9,
   showKana: true,
   showChinese: true,
   showPatternHint: true,
@@ -25,6 +29,7 @@ const DEFAULT_SETTINGS: VerbSettings = {
   filterConjugation: "all",
   filterScene: "all",
   filterGroup: "all",
+  knownVerbIds: [],
 }
 
 const listeners = new Set<(s: VerbSettings) => void>()

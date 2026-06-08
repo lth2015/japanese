@@ -13,7 +13,7 @@ import {
   getVerbGroupLabel,
 } from "@/lib/verbs/utils"
 import { useVerbSettings } from "@/store/verb-settings"
-import { ChevronLeft, ChevronRight, Keyboard, Pause, Play, Volume2 } from "lucide-react"
+import { Check, ChevronLeft, ChevronRight, Keyboard, Pause, Play, Volume2 } from "lucide-react"
 import { useCallback, useEffect, useMemo, useRef, useState } from "react"
 
 type Props = {
@@ -28,7 +28,10 @@ export function VerbTicker({ cards }: Props) {
   const [showShortcuts, setShowShortcuts] = useState(false)
   const chromeTimer = useRef<ReturnType<typeof setTimeout> | null>(null)
 
-  const queue = useMemo(
+  // 三层筛选：
+  // 1. 受筛选条件影响的全部卡片（索引条要列出这些动词，含已会的）
+  // 2. 排除「我会了」后的实际轮播队列
+  const visibleByFilters = useMemo(
     () =>
       filterVerbCards(cards, {
         conjugationType: settings.filterConjugation,
@@ -37,6 +40,35 @@ export function VerbTicker({ cards }: Props) {
       }),
     [cards, settings.filterConjugation, settings.filterScene, settings.filterGroup],
   )
+
+  const knownSet = useMemo(() => new Set(settings.knownVerbIds), [settings.knownVerbIds])
+
+  const queue = useMemo(
+    () =>
+      knownSet.size === 0
+        ? visibleByFilters
+        : visibleByFilters.filter((c) => !knownSet.has(c.verbId)),
+    [visibleByFilters, knownSet],
+  )
+
+  // 索引条上要列出的动词：当前筛选条件下出现过的所有动词（保留出现顺序、去重）。
+  const verbsInIndex = useMemo(() => {
+    const seen = new Map<
+      string,
+      { id: string; dictionaryForm: string; meaningZh: string; verbGroup: VerbGroup }
+    >()
+    for (const c of visibleByFilters) {
+      if (!seen.has(c.verbId)) {
+        seen.set(c.verbId, {
+          id: c.verbId,
+          dictionaryForm: c.dictionaryForm,
+          meaningZh: c.meaningZh,
+          verbGroup: c.verbGroup,
+        })
+      }
+    }
+    return [...seen.values()]
+  }, [visibleByFilters])
 
   // Clamp index when filters change
   useEffect(() => {
@@ -55,12 +87,13 @@ export function VerbTicker({ cards }: Props) {
   }, [paused, settings.intervalSec, queue.length])
 
   // Auto-play TTS
+  // biome-ignore lint/correctness/useExhaustiveDependencies: 语速变化只对下一张卡生效，刻意不重启当前播放
   useEffect(() => {
     if (!settings.autoPlayTTS || paused || !current) return
     let cancelled = false
     ensureVoicesLoaded().then(() => {
       if (cancelled) return
-      speakJapanese(current.example.japanese, { rate: 0.9 }).catch(() => {})
+      speakJapanese(current.example.japanese, { rate: settings.ttsRate }).catch(() => {})
     })
     return () => {
       cancelled = true
@@ -108,9 +141,40 @@ export function VerbTicker({ cards }: Props) {
   const speakCurrent = useCallback(() => {
     if (!current) return
     ensureVoicesLoaded().then(() =>
-      speakJapanese(current.example.japanese, { rate: 0.9 }).catch(() => {}),
+      speakJapanese(current.example.japanese, { rate: settings.ttsRate }).catch(() => {}),
     )
-  }, [current])
+  }, [current, settings.ttsRate])
+
+  // 索引条交互：点击芯片跳到该动词的第一张卡；点 ✓ 切换「我会了」。
+  // 跳转时若动词被标记为「会了」，先取消标记再跳，避免跳到空集合。
+  const toggleKnown = useCallback(
+    (verbId: string) => {
+      const set = new Set(settings.knownVerbIds)
+      if (set.has(verbId)) set.delete(verbId)
+      else set.add(verbId)
+      setVerbSettings({ knownVerbIds: [...set] })
+    },
+    [settings.knownVerbIds, setVerbSettings],
+  )
+
+  const jumpToVerb = useCallback(
+    (verbId: string) => {
+      // 若目标动词被标记为「会了」，先取消标记，然后在新的队列里定位。
+      let nextKnown = settings.knownVerbIds
+      if (nextKnown.includes(verbId)) {
+        nextKnown = nextKnown.filter((id) => id !== verbId)
+        setVerbSettings({ knownVerbIds: nextKnown })
+      }
+      const nextKnownSet = new Set(nextKnown)
+      const nextQueue = visibleByFilters.filter((c) => !nextKnownSet.has(c.verbId))
+      const idx = nextQueue.findIndex((c) => c.verbId === verbId)
+      if (idx >= 0) {
+        setIndex(idx)
+        bumpChrome()
+      }
+    },
+    [settings.knownVerbIds, setVerbSettings, visibleByFilters, bumpChrome],
+  )
 
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
@@ -207,10 +271,38 @@ export function VerbTicker({ cards }: Props) {
             onChange={(v) => setVerbSettings({ filterGroup: v as VerbGroup | "all" })}
             options={[
               { value: "all", label: "全部" },
-              { value: "group1", label: "グループ1" },
-              { value: "group2", label: "グループ2" },
-              { value: "group3", label: "グループ3" },
+              { value: "group1", label: "一类" },
+              { value: "group2", label: "二类" },
+              { value: "group3", label: "三类" },
             ]}
+          />
+
+          {/* 轮播停顿 / TTS 语速 调节 */}
+          <StepperGroup
+            label="间隔"
+            value={settings.intervalSec}
+            suffix="s"
+            onDecrement={() =>
+              setVerbSettings({ intervalSec: Math.max(2, settings.intervalSec - 1) })
+            }
+            onIncrement={() =>
+              setVerbSettings({ intervalSec: Math.min(30, settings.intervalSec + 1) })
+            }
+          />
+          <StepperGroup
+            label="语速"
+            value={settings.ttsRate.toFixed(1)}
+            suffix="×"
+            onDecrement={() =>
+              setVerbSettings({
+                ttsRate: Math.max(0.5, Math.round((settings.ttsRate - 0.1) * 10) / 10),
+              })
+            }
+            onIncrement={() =>
+              setVerbSettings({
+                ttsRate: Math.min(1.5, Math.round((settings.ttsRate + 0.1) * 10) / 10),
+              })
+            }
           />
 
           {/* Spacer */}
@@ -252,6 +344,17 @@ export function VerbTicker({ cards }: Props) {
             <a href="/">退出</a>
           </Button>
         </div>
+
+        {/* 动词索引条：点击芯片跳到该动词的第一张卡；点 ✓ 标记「我会了」以隐藏。 */}
+        {verbsInIndex.length > 0 && (
+          <VerbIndex
+            verbs={verbsInIndex}
+            currentVerbId={current?.verbId}
+            knownSet={knownSet}
+            onJump={jumpToVerb}
+            onToggleKnown={toggleKnown}
+          />
+        )}
       </div>
 
       {/* ── Main card content ── */}
@@ -475,6 +578,45 @@ function FilterGroup({ value, onChange, options }: FilterGroupProps) {
   )
 }
 
+// 内联数字调节：「间隔」「语速」共用，紧凑、不抢眼。
+type StepperGroupProps = {
+  label: string
+  value: number | string
+  suffix?: string
+  onDecrement: () => void
+  onIncrement: () => void
+}
+
+function StepperGroup({ label, value, suffix, onDecrement, onIncrement }: StepperGroupProps) {
+  return (
+    <div className="flex h-7 items-stretch overflow-hidden rounded border border-border bg-surface shadow-xs">
+      <button
+        type="button"
+        onClick={onDecrement}
+        className="px-2 text-sm leading-none text-fg-secondary transition-colors hover:bg-bg-subtle hover:text-fg"
+        aria-label={`${label}を減らす`}
+      >
+        −
+      </button>
+      <span className="flex items-center gap-1 border-x border-border px-2 font-mono text-[11px] tabular text-fg">
+        <span className="text-fg-tertiary">{label}</span>
+        <span className="font-medium">
+          {value}
+          {suffix}
+        </span>
+      </span>
+      <button
+        type="button"
+        onClick={onIncrement}
+        className="px-2 text-sm leading-none text-fg-secondary transition-colors hover:bg-bg-subtle hover:text-fg"
+        aria-label={`${label}を増やす`}
+      >
+        +
+      </button>
+    </div>
+  )
+}
+
 type ToggleButtonProps = {
   active: boolean
   onClick: () => void
@@ -497,6 +639,113 @@ function ToggleButton({ active, onClick, title, children }: ToggleButtonProps) {
     >
       {children}
     </button>
+  )
+}
+
+// 动词索引条：横向滚动的芯片，左侧 chip body 点击跳转，右侧 ✓ 切换「我会了」。
+type VerbIndexItem = {
+  id: string
+  dictionaryForm: string
+  meaningZh: string
+  verbGroup: VerbGroup
+}
+
+function VerbIndex({
+  verbs,
+  currentVerbId,
+  knownSet,
+  onJump,
+  onToggleKnown,
+}: {
+  verbs: VerbIndexItem[]
+  currentVerbId?: string
+  knownSet: Set<string>
+  onJump: (verbId: string) => void
+  onToggleKnown: (verbId: string) => void
+}) {
+  const knownCount = verbs.filter((v) => knownSet.has(v.id)).length
+  return (
+    <div className="px-4 pb-2 sm:px-6">
+      <div className="flex items-center gap-2">
+        <span className="shrink-0 font-mono text-[10px] uppercase tracking-wider text-fg-tertiary">
+          动词 {verbs.length - knownCount}/{verbs.length}
+        </span>
+        <div className="flex gap-1.5 overflow-x-auto pb-1.5">
+          {verbs.map((v) => (
+            <VerbChip
+              key={v.id}
+              verb={v}
+              active={v.id === currentVerbId}
+              known={knownSet.has(v.id)}
+              onJump={() => onJump(v.id)}
+              onToggleKnown={() => onToggleKnown(v.id)}
+            />
+          ))}
+        </div>
+      </div>
+    </div>
+  )
+}
+
+function VerbChip({
+  verb,
+  active,
+  known,
+  onJump,
+  onToggleKnown,
+}: {
+  verb: VerbIndexItem
+  active: boolean
+  known: boolean
+  onJump: () => void
+  onToggleKnown: () => void
+}) {
+  return (
+    <div
+      className={cn(
+        "flex shrink-0 items-stretch overflow-hidden rounded-md border text-xs transition-colors",
+        active
+          ? "border-accent bg-accent text-fg-on-accent shadow-sm"
+          : known
+            ? "border-border bg-bg-subtle text-fg-tertiary opacity-70"
+            : "border-border bg-surface text-fg hover:bg-bg-subtle",
+      )}
+    >
+      <button
+        type="button"
+        onClick={onJump}
+        className="flex items-baseline gap-1.5 px-2.5 py-1 text-left"
+        title={known ? "已会，点击仍可跳过去（取消标记）" : "跳到这个动词"}
+      >
+        <span className="font-jp-serif text-sm font-semibold leading-none">
+          {verb.dictionaryForm}
+        </span>
+        <span
+          className={cn(
+            "text-[10px] leading-none",
+            active ? "text-fg-on-accent/85" : "text-fg-tertiary",
+          )}
+        >
+          {verb.meaningZh}
+        </span>
+      </button>
+      <button
+        type="button"
+        onClick={onToggleKnown}
+        title={known ? "标记为未会" : "我会了（从轮播里隐藏）"}
+        aria-label={known ? "标记为未会" : "我会了"}
+        className={cn(
+          "grid place-items-center border-l px-1.5 transition-colors",
+          active
+            ? "border-accent/40 text-fg-on-accent hover:bg-accent-hover"
+            : known
+              ? "border-border bg-success-soft text-success"
+              : "border-border text-fg-tertiary hover:bg-success-soft hover:text-success",
+        )}
+      >
+        <Check className="h-3 w-3" />
+      </button>
+    </div>
   )
 }
 

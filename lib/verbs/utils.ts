@@ -71,13 +71,14 @@ export function getSceneLabel(s: Scene): string {
   }
 }
 
+// 中文教材常用的「一/二/三类动词」命名（对应日语的 五段 / 一段 / 不規則）。
 export function getVerbGroupLabel(g: VerbGroup): string {
   switch (g) {
     case "group1":
-      return "グループ1"
+      return "一类动词"
     case "group2":
-      return "グループ2"
+      return "二类动词"
     case "group3":
-      return "グループ3"
+      return "三类动词"
   }
 }

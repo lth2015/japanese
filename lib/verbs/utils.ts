@@ -52,9 +52,9 @@ export function getConjugationLabel(t: ConjugationType): string {
     case "potential":
       return "可能形"
     case "negative":
-      return "否定形"
+      return "ない形"
     case "polite":
-      return "丁寧形"
+      return "ます形"
     case "te":
       return "て形"
     case "ta":

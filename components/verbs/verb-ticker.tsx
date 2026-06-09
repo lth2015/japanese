@@ -253,6 +253,9 @@ export function VerbTicker({ cards }: Props) {
               { value: "passive", label: "受身" },
               { value: "causative", label: "使役" },
               { value: "causativePassive", label: "使役受身" },
+              { value: "polite", label: "ます" },
+              { value: "potential", label: "可能" },
+              { value: "negative", label: "ない" },
             ]}
           />
           {/* Scene filter */}
@@ -382,12 +385,13 @@ export function VerbTicker({ cards }: Props) {
             <div className="space-y-2">
               <p
                 lang="ja"
-                className="font-jp-serif text-fg tracking-wide font-semibold leading-snug text-balance text-[length:clamp(1.5rem,3.5vw,3.5rem)]"
+                className="flex justify-center font-jp-serif text-fg tracking-wide font-semibold leading-[1.35] text-balance text-[length:clamp(1.5rem,3.5vw,3.5rem)]"
               >
                 <FuriganaText
                   text={current.example.japanese}
                   tokens={current.example.tokens}
                   showRuby={settings.showKana}
+                  alignRuby
                 />
               </p>
               {settings.showKana && !current.example.tokens.length && current.example.kana && (

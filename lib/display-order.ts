@@ -37,28 +37,30 @@ export function saveTickerState(state: TickerState) {
 
 /**
  * Merge a freshly-loaded sentence id set into the persisted shuffle:
- * drop ids that no longer exist, and splice newly-added ids (shuffled)
- * into the not-yet-seen tail so a just-imported pack surfaces within the
- * current pass instead of waiting a full cycle.
+ * drop ids that no longer exist, and move newly-added priority ids to the
+ * front of the not-yet-seen tail so fresh display packs surface promptly.
  */
 export function reconcileOrder(
   persisted: string[],
   currentIds: string[],
   cursor: number,
+  priorityIds: string[] = [],
 ): string[] {
   const currentSet = new Set(currentIds)
   const persistedSet = new Set(persisted)
+  const prioritySet = new Set(priorityIds)
+  const sortByPriority = (ids: string[]) => [
+    ...shuffle(ids.filter((id) => prioritySet.has(id))),
+    ...shuffle(ids.filter((id) => !prioritySet.has(id))),
+  ]
   const kept = persisted.filter((id) => currentSet.has(id))
-  if (kept.length === 0) return shuffle(currentIds)
+  if (kept.length === 0) return sortByPriority(currentIds)
 
-  const newIds = shuffle(currentIds.filter((id) => !persistedSet.has(id)))
+  const newIds = sortByPriority(currentIds.filter((id) => !persistedSet.has(id)))
   if (newIds.length === 0) return kept
 
   const safeCursor = Math.min(Math.max(cursor, 0), kept.length)
   const head = kept.slice(0, safeCursor + 1)
   const tail = kept.slice(safeCursor + 1)
-  for (const id of newIds) {
-    tail.splice(Math.floor(Math.random() * (tail.length + 1)), 0, id)
-  }
-  return [...head, ...tail]
+  return [...head, ...newIds, ...tail]
 }

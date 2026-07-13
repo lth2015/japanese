@@ -1,0 +1,3611 @@
+{
+  "packVersion": 1,
+  "packId": "display-fresh-life-20260610-001",
+  "title": "Display Fresh Daily Conversation 2026-06-10",
+  "generatedBy": "Codex",
+  "generatedAt": "2026-06-10",
+  "targetProfile": "Daily-life display rotation for colloquial listening practice. Short, natural Japanese chunks for home, commute, errands, food, light work, requests, and evening routines.",
+  "reviewStatus": "reviewed",
+  "sentences": [
+    {
+      "externalId": "fresh-life-001",
+      "japanese": "まだ眠い。",
+      "tokens": [
+        {
+          "text": "まだ眠い。",
+          "kana": "まだねむい"
+        }
+      ],
+      "kana": "まだねむい",
+      "chinese": "还是很困。",
+      "category": "daily",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 760,
+      "chunkPattern": "まだ眠い",
+      "tags": ["display", "fresh-display", "fresh-20260610", "daily-life", "home"]
+    },
+    {
+      "externalId": "fresh-life-002",
+      "japanese": "目覚まし止めた？",
+      "tokens": [
+        {
+          "text": "目覚まし止めた？",
+          "kana": "めざましとめた"
+        }
+      ],
+      "kana": "めざましとめた",
+      "chinese": "你把闹钟关了吗？",
+      "category": "daily",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 761,
+      "chunkPattern": "目覚まし止めた",
+      "tags": ["display", "fresh-display", "fresh-20260610", "daily-life", "home"]
+    },
+    {
+      "externalId": "fresh-life-003",
+      "japanese": "もう起きなきゃ。",
+      "tokens": [
+        {
+          "text": "もう起きなきゃ。",
+          "kana": "もうおきなきゃ"
+        }
+      ],
+      "kana": "もうおきなきゃ",
+      "chinese": "得起床了。",
+      "category": "daily",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 762,
+      "chunkPattern": "もう起きなきゃ",
+      "tags": ["display", "fresh-display", "fresh-20260610", "daily-life", "home"]
+    },
+    {
+      "externalId": "fresh-life-004",
+      "japanese": "顔洗ってくる。",
+      "tokens": [
+        {
+          "text": "顔洗ってくる。",
+          "kana": "かおあらってくる"
+        }
+      ],
+      "kana": "かおあらってくる",
+      "chinese": "我去洗把脸。",
+      "category": "daily",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 763,
+      "chunkPattern": "顔洗ってくる",
+      "tags": ["display", "fresh-display", "fresh-20260610", "daily-life", "home"]
+    },
+    {
+      "externalId": "fresh-life-005",
+      "japanese": "コーヒー入れるね。",
+      "tokens": [
+        {
+          "text": "コーヒー入れるね。",
+          "kana": "こーひーいれるね"
+        }
+      ],
+      "kana": "こーひーいれるね",
+      "chinese": "我来冲咖啡。",
+      "category": "daily",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 764,
+      "chunkPattern": "コーヒー入れるね",
+      "tags": ["display", "fresh-display", "fresh-20260610", "daily-life", "home"]
+    },
+    {
+      "externalId": "fresh-life-006",
+      "japanese": "洗濯回しておく。",
+      "tokens": [
+        {
+          "text": "洗濯回しておく。",
+          "kana": "せんたくまわしておく"
+        }
+      ],
+      "kana": "せんたくまわしておく",
+      "chinese": "我先把衣服洗上。",
+      "category": "daily",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 766,
+      "chunkPattern": "洗濯回しておく",
+      "tags": ["display", "fresh-display", "fresh-20260610", "daily-life", "home"]
+    },
+    {
+      "externalId": "fresh-life-007",
+      "japanese": "ゴミ出してくる。",
+      "tokens": [
+        {
+          "text": "ゴミ出してくる。",
+          "kana": "ごみだしてくる"
+        }
+      ],
+      "kana": "ごみだしてくる",
+      "chinese": "我去倒垃圾。",
+      "category": "daily",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 767,
+      "chunkPattern": "ゴミ出してくる",
+      "tags": ["display", "fresh-display", "fresh-20260610", "daily-life", "home"]
+    },
+    {
+      "externalId": "fresh-life-008",
+      "japanese": "鍵どこ置いたっけ。",
+      "tokens": [
+        {
+          "text": "鍵どこ置いたっけ。",
+          "kana": "かぎどこおいたっけ"
+        }
+      ],
+      "kana": "かぎどこおいたっけ",
+      "chinese": "钥匙放哪儿来着。",
+      "category": "daily",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 768,
+      "chunkPattern": "鍵どこ置いたっけ",
+      "tags": ["display", "fresh-display", "fresh-20260610", "daily-life", "home"]
+    },
+    {
+      "externalId": "fresh-life-009",
+      "japanese": "充電まだ残ってる？",
+      "tokens": [
+        {
+          "text": "充電まだ残ってる？",
+          "kana": "じゅうでんまだのこってる"
+        }
+      ],
+      "kana": "じゅうでんまだのこってる",
+      "chinese": "电量还剩吗？",
+      "category": "daily",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 769,
+      "chunkPattern": "充電まだ残ってる",
+      "tags": ["display", "fresh-display", "fresh-20260610", "daily-life", "home"]
+    },
+    {
+      "externalId": "fresh-life-010",
+      "japanese": "傘持っていこう。",
+      "tokens": [
+        {
+          "text": "傘持っていこう。",
+          "kana": "かさもっていこう"
+        }
+      ],
+      "kana": "かさもっていこう",
+      "chinese": "带把伞吧。",
+      "category": "daily",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 770,
+      "chunkPattern": "傘持っていこう",
+      "tags": ["display", "fresh-display", "fresh-20260610", "daily-life", "home"]
+    },
+    {
+      "externalId": "fresh-life-011",
+      "japanese": "今日ちょっと寒いね。",
+      "tokens": [
+        {
+          "text": "今日ちょっと寒いね。",
+          "kana": "きょうちょっとさむいね"
+        }
+      ],
+      "kana": "きょうちょっとさむいね",
+      "chinese": "今天有点冷。",
+      "category": "daily",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 772,
+      "chunkPattern": "今日ちょっと寒いね",
+      "tags": ["display", "fresh-display", "fresh-20260610", "daily-life", "home"]
+    },
+    {
+      "externalId": "fresh-life-012",
+      "japanese": "服これでいいかな。",
+      "tokens": [
+        {
+          "text": "服これでいいかな。",
+          "kana": "ふくこれでいいかな"
+        }
+      ],
+      "kana": "ふくこれでいいかな",
+      "chinese": "穿这身可以吗？",
+      "category": "daily",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 773,
+      "chunkPattern": "服これでいいかな",
+      "tags": ["display", "fresh-display", "fresh-20260610", "daily-life", "home"]
+    },
+    {
+      "externalId": "fresh-life-013",
+      "japanese": "朝ごはん軽くでいい。",
+      "tokens": [
+        {
+          "text": "朝ごはん軽くでいい。",
+          "kana": "あさごはんかるくでいい"
+        }
+      ],
+      "kana": "あさごはんかるくでいい",
+      "chinese": "早饭简单吃点就行。",
+      "category": "daily",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 774,
+      "chunkPattern": "朝ごはん軽くでいい",
+      "tags": ["display", "fresh-display", "fresh-20260610", "daily-life", "home"]
+    },
+    {
+      "externalId": "fresh-life-014",
+      "japanese": "もう家出る時間。",
+      "tokens": [
+        {
+          "text": "もう家出る時間。",
+          "kana": "もういえでるじかん"
+        }
+      ],
+      "kana": "もういえでるじかん",
+      "chinese": "该出门了。",
+      "category": "daily",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 775,
+      "chunkPattern": "もう家出る時間",
+      "tags": ["display", "fresh-display", "fresh-20260610", "daily-life", "home"]
+    },
+    {
+      "externalId": "fresh-life-015",
+      "japanese": "駅まで歩こう。",
+      "tokens": [
+        {
+          "text": "駅まで歩こう。",
+          "kana": "えきまであるこう"
+        }
+      ],
+      "kana": "えきまであるこう",
+      "chinese": "走到车站吧。",
+      "category": "daily",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 776,
+      "chunkPattern": "駅まで歩こう",
+      "tags": ["display", "fresh-display", "fresh-20260610", "daily-life", "home"]
+    },
+    {
+      "externalId": "fresh-life-016",
+      "japanese": "財布忘れそう。",
+      "tokens": [
+        {
+          "text": "財布忘れそう。",
+          "kana": "さいふわすれそう"
+        }
+      ],
+      "kana": "さいふわすれそう",
+      "chinese": "差点要忘钱包。",
+      "category": "daily",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 778,
+      "chunkPattern": "財布忘れそう",
+      "tags": ["display", "fresh-display", "fresh-20260610", "daily-life", "home"]
+    },
+    {
+      "externalId": "fresh-life-017",
+      "japanese": "イヤホン見当たらない。",
+      "tokens": [
+        {
+          "text": "イヤホン見当たらない。",
+          "kana": "いやほんみあたらない"
+        }
+      ],
+      "kana": "いやほんみあたらない",
+      "chinese": "找不到耳机。",
+      "category": "daily",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 779,
+      "chunkPattern": "イヤホン見当たらない",
+      "tags": ["display", "fresh-display", "fresh-20260610", "daily-life", "home"]
+    },
+    {
+      "externalId": "fresh-life-018",
+      "japanese": "今日は早めに出る。",
+      "tokens": [
+        {
+          "text": "今日は早めに出る。",
+          "kana": "きょうははやめにでる"
+        }
+      ],
+      "kana": "きょうははやめにでる",
+      "chinese": "今天早点出门。",
+      "category": "daily",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 780,
+      "chunkPattern": "今日は早めに出る",
+      "tags": ["display", "fresh-display", "fresh-20260610", "daily-life", "home"]
+    },
+    {
+      "externalId": "fresh-life-019",
+      "japanese": "帰りに買ってくる。",
+      "tokens": [
+        {
+          "text": "帰りに買ってくる。",
+          "kana": "かえりにかってくる"
+        }
+      ],
+      "kana": "かえりにかってくる",
+      "chinese": "回来的时候买。",
+      "category": "daily",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 781,
+      "chunkPattern": "帰りに買ってくる",
+      "tags": ["display", "fresh-display", "fresh-20260610", "daily-life", "home"]
+    },
+    {
+      "externalId": "fresh-life-020",
+      "japanese": "電気消したっけ。",
+      "tokens": [
+        {
+          "text": "電気消したっけ。",
+          "kana": "でんきけしたっけ"
+        }
+      ],
+      "kana": "でんきけしたっけ",
+      "chinese": "灯关了吗来着。",
+      "category": "daily",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 782,
+      "chunkPattern": "電気消したっけ",
+      "tags": ["display", "fresh-display", "fresh-20260610", "daily-life", "home"]
+    },
+    {
+      "externalId": "fresh-life-021",
+      "japanese": "電車混んでるね。",
+      "tokens": [
+        {
+          "text": "電車混んでるね。",
+          "kana": "でんしゃこんでるね"
+        }
+      ],
+      "kana": "でんしゃこんでるね",
+      "chinese": "电车好挤。",
+      "category": "daily",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 784,
+      "chunkPattern": "電車混んでるね",
+      "tags": ["display", "fresh-display", "fresh-20260610", "daily-life", "commute"]
+    },
+    {
+      "externalId": "fresh-life-022",
+      "japanese": "一本遅らせよう。",
+      "tokens": [
+        {
+          "text": "一本遅らせよう。",
+          "kana": "いっぽんおくらせよう"
+        }
+      ],
+      "kana": "いっぽんおくらせよう",
+      "chinese": "坐下一班吧。",
+      "category": "daily",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 785,
+      "chunkPattern": "一本遅らせよう",
+      "tags": ["display", "fresh-display", "fresh-20260610", "daily-life", "commute"]
+    },
+    {
+      "externalId": "fresh-life-023",
+      "japanese": "乗り換えぎりぎり。",
+      "tokens": [
+        {
+          "text": "乗り換えぎりぎり。",
+          "kana": "のりかえぎりぎり"
+        }
+      ],
+      "kana": "のりかえぎりぎり",
+      "chinese": "换乘时间很赶。",
+      "category": "daily",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 786,
+      "chunkPattern": "乗り換えぎりぎり",
+      "tags": ["display", "fresh-display", "fresh-20260610", "daily-life", "commute"]
+    },
+    {
+      "externalId": "fresh-life-024",
+      "japanese": "ホーム反対だった。",
+      "tokens": [
+        {
+          "text": "ホーム反対だった。",
+          "kana": "ほーむはんたいだった"
+        }
+      ],
+      "kana": "ほーむはんたいだった",
+      "chinese": "站台走反了。",
+      "category": "daily",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 787,
+      "chunkPattern": "ホーム反対だった",
+      "tags": ["display", "fresh-display", "fresh-20260610", "daily-life", "commute"]
+    },
+    {
+      "externalId": "fresh-life-025",
+      "japanese": "改札で待ってる。",
+      "tokens": [
+        {
+          "text": "改札で待ってる。",
+          "kana": "かいさつでまってる"
+        }
+      ],
+      "kana": "かいさつでまってる",
+      "chinese": "我在检票口等。",
+      "category": "daily",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 788,
+      "chunkPattern": "改札で待ってる",
+      "tags": ["display", "fresh-display", "fresh-20260610", "daily-life", "commute"]
+    },
+    {
+      "externalId": "fresh-life-026",
+      "japanese": "先に行ってて。",
+      "tokens": [
+        {
+          "text": "先に行ってて。",
+          "kana": "さきにいってて"
+        }
+      ],
+      "kana": "さきにいってて",
+      "chinese": "你先走吧。",
+      "category": "request",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 790,
+      "chunkPattern": "先に行ってて",
+      "tags": ["display", "fresh-display", "fresh-20260610", "daily-life", "commute"]
+    },
+    {
+      "externalId": "fresh-life-027",
+      "japanese": "次で降りるよ。",
+      "tokens": [
+        {
+          "text": "次で降りるよ。",
+          "kana": "つぎでおりるよ"
+        }
+      ],
+      "kana": "つぎでおりるよ",
+      "chinese": "下一站下。",
+      "category": "daily",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 791,
+      "chunkPattern": "次で降りるよ",
+      "tags": ["display", "fresh-display", "fresh-20260610", "daily-life", "commute"]
+    },
+    {
+      "externalId": "fresh-life-028",
+      "japanese": "ちょっと詰めて。",
+      "tokens": [
+        {
+          "text": "ちょっと詰めて。",
+          "kana": "ちょっとつめて"
+        }
+      ],
+      "kana": "ちょっとつめて",
+      "chinese": "稍微往里挪一下。",
+      "category": "request",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 792,
+      "chunkPattern": "ちょっと詰めて",
+      "tags": ["display", "fresh-display", "fresh-20260610", "daily-life", "commute"]
+    },
+    {
+      "externalId": "fresh-life-029",
+      "japanese": "ここ空いてますか。",
+      "tokens": [
+        {
+          "text": "ここ空いてますか。",
+          "kana": "ここあいてますか"
+        }
+      ],
+      "kana": "ここあいてますか",
+      "chinese": "这里有人坐吗？",
+      "category": "request",
+      "register": "丁寧",
+      "difficulty": 1,
+      "frequencyRank": 793,
+      "chunkPattern": "ここ空いてますか",
+      "tags": ["display", "fresh-display", "fresh-20260610", "daily-life", "commute"]
+    },
+    {
+      "externalId": "fresh-life-030",
+      "japanese": "すぐ着きそう。",
+      "tokens": [
+        {
+          "text": "すぐ着きそう。",
+          "kana": "すぐつきそう"
+        }
+      ],
+      "kana": "すぐつきそう",
+      "chinese": "快到了。",
+      "category": "daily",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 794,
+      "chunkPattern": "すぐ着きそう",
+      "tags": ["display", "fresh-display", "fresh-20260610", "daily-life", "commute"]
+    },
+    {
+      "externalId": "fresh-life-031",
+      "japanese": "雨で遅れてる。",
+      "tokens": [
+        {
+          "text": "雨で遅れてる。",
+          "kana": "あめでおくれてる"
+        }
+      ],
+      "kana": "あめでおくれてる",
+      "chinese": "因为下雨晚点了。",
+      "category": "daily",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 796,
+      "chunkPattern": "雨で遅れてる",
+      "tags": ["display", "fresh-display", "fresh-20260610", "daily-life", "commute"]
+    },
+    {
+      "externalId": "fresh-life-032",
+      "japanese": "タクシー呼ぶ？",
+      "tokens": [
+        {
+          "text": "タクシー呼ぶ？",
+          "kana": "たくしーよぶ"
+        }
+      ],
+      "kana": "たくしーよぶ",
+      "chinese": "叫出租吗？",
+      "category": "daily",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 797,
+      "chunkPattern": "タクシー呼ぶ",
+      "tags": ["display", "fresh-display", "fresh-20260610", "daily-life", "commute"]
+    },
+    {
+      "externalId": "fresh-life-033",
+      "japanese": "自転車で行くか。",
+      "tokens": [
+        {
+          "text": "自転車で行くか。",
+          "kana": "じてんしゃでいくか"
+        }
+      ],
+      "kana": "じてんしゃでいくか",
+      "chinese": "骑自行车去吧。",
+      "category": "daily",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 798,
+      "chunkPattern": "自転車で行くか",
+      "tags": ["display", "fresh-display", "fresh-20260610", "daily-life", "commute"]
+    },
+    {
+      "externalId": "fresh-life-034",
+      "japanese": "道ちょっと混んでる。",
+      "tokens": [
+        {
+          "text": "道ちょっと混んでる。",
+          "kana": "みちちょっとこんでる"
+        }
+      ],
+      "kana": "みちちょっとこんでる",
+      "chinese": "路上有点堵。",
+      "category": "daily",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 799,
+      "chunkPattern": "道ちょっと混んでる",
+      "tags": ["display", "fresh-display", "fresh-20260610", "daily-life", "commute"]
+    },
+    {
+      "externalId": "fresh-life-035",
+      "japanese": "ここ曲がれば近い。",
+      "tokens": [
+        {
+          "text": "ここ曲がれば近い。",
+          "kana": "ここまがればちかい"
+        }
+      ],
+      "kana": "ここまがればちかい",
+      "chinese": "从这儿拐就近了。",
+      "category": "daily",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 800,
+      "chunkPattern": "ここ曲がれば近い",
+      "tags": ["display", "fresh-display", "fresh-20260610", "daily-life", "commute"]
+    },
+    {
+      "externalId": "fresh-life-036",
+      "japanese": "信号長いな。",
+      "tokens": [
+        {
+          "text": "信号長いな。",
+          "kana": "しんごうながいな"
+        }
+      ],
+      "kana": "しんごうながいな",
+      "chinese": "这个红绿灯真久。",
+      "category": "daily",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 802,
+      "chunkPattern": "信号長いな",
+      "tags": ["display", "fresh-display", "fresh-20260610", "daily-life", "commute"]
+    },
+    {
+      "externalId": "fresh-life-037",
+      "japanese": "入口こっちだよ。",
+      "tokens": [
+        {
+          "text": "入口こっちだよ。",
+          "kana": "いりぐちこっちだよ"
+        }
+      ],
+      "kana": "いりぐちこっちだよ",
+      "chinese": "入口在这边。",
+      "category": "daily",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 803,
+      "chunkPattern": "入口こっちだよ",
+      "tags": ["display", "fresh-display", "fresh-20260610", "daily-life", "commute"]
+    },
+    {
+      "externalId": "fresh-life-038",
+      "japanese": "エレベーター待とう。",
+      "tokens": [
+        {
+          "text": "エレベーター待とう。",
+          "kana": "えれべーたーまとう"
+        }
+      ],
+      "kana": "えれべーたーまとう",
+      "chinese": "等电梯吧。",
+      "category": "daily",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 804,
+      "chunkPattern": "エレベーター待とう",
+      "tags": ["display", "fresh-display", "fresh-20260610", "daily-life", "commute"]
+    },
+    {
+      "externalId": "fresh-life-039",
+      "japanese": "階段の方が早い。",
+      "tokens": [
+        {
+          "text": "階段の方が早い。",
+          "kana": "かいだんのほうがはやい"
+        }
+      ],
+      "kana": "かいだんのほうがはやい",
+      "chinese": "走楼梯更快。",
+      "category": "daily",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 805,
+      "chunkPattern": "階段の方が早い",
+      "tags": ["display", "fresh-display", "fresh-20260610", "daily-life", "commute"]
+    },
+    {
+      "externalId": "fresh-life-040",
+      "japanese": "帰り混みそう。",
+      "tokens": [
+        {
+          "text": "帰り混みそう。",
+          "kana": "かえりこみそう"
+        }
+      ],
+      "kana": "かえりこみそう",
+      "chinese": "回去的时候可能会很挤。",
+      "category": "daily",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 806,
+      "chunkPattern": "帰り混みそう",
+      "tags": ["display", "fresh-display", "fresh-20260610", "daily-life", "commute"]
+    },
+    {
+      "externalId": "fresh-life-041",
+      "japanese": "今日ゆるめに行こう。",
+      "tokens": [
+        {
+          "text": "今日ゆるめに行こう。",
+          "kana": "きょうゆるめにいこう"
+        }
+      ],
+      "kana": "きょうゆるめにいこう",
+      "chinese": "今天节奏放松一点吧。",
+      "category": "progress",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 808,
+      "chunkPattern": "今日ゆるめに行こう",
+      "tags": ["display", "fresh-display", "fresh-20260610", "daily-life", "work"]
+    },
+    {
+      "externalId": "fresh-life-042",
+      "japanese": "先にメール見る。",
+      "tokens": [
+        {
+          "text": "先にメール見る。",
+          "kana": "さきにめーるみる"
+        }
+      ],
+      "kana": "さきにめーるみる",
+      "chinese": "我先看邮件。",
+      "category": "progress",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 809,
+      "chunkPattern": "先にメール見る",
+      "tags": ["display", "fresh-display", "fresh-20260610", "daily-life", "work"]
+    },
+    {
+      "externalId": "fresh-life-043",
+      "japanese": "あとで返します。",
+      "tokens": [
+        {
+          "text": "あとで返します。",
+          "kana": "あとでかえします"
+        }
+      ],
+      "kana": "あとでかえします",
+      "chinese": "我晚点回复。",
+      "category": "progress",
+      "register": "丁寧",
+      "difficulty": 1,
+      "frequencyRank": 810,
+      "chunkPattern": "あとで返します",
+      "tags": ["display", "fresh-display", "fresh-20260610", "daily-life", "work"]
+    },
+    {
+      "externalId": "fresh-life-044",
+      "japanese": "今ちょっと手が離せない。",
+      "tokens": [
+        {
+          "text": "今ちょっと手が離せない。",
+          "kana": "いまちょっとてがはなせない"
+        }
+      ],
+      "kana": "いまちょっとてがはなせない",
+      "chinese": "现在有点走不开。",
+      "category": "progress",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 811,
+      "chunkPattern": "今ちょっと手が離せない",
+      "tags": ["display", "fresh-display", "fresh-20260610", "daily-life", "work"]
+    },
+    {
+      "externalId": "fresh-life-045",
+      "japanese": "それ後で見てもいい？",
+      "tokens": [
+        {
+          "text": "それ後で見てもいい？",
+          "kana": "それあとでみてもいい"
+        }
+      ],
+      "kana": "それあとでみてもいい",
+      "chinese": "那个我晚点看可以吗？",
+      "category": "request",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 812,
+      "chunkPattern": "それ後で見てもいい",
+      "tags": ["display", "fresh-display", "fresh-20260610", "daily-life", "work"]
+    },
+    {
+      "externalId": "fresh-life-046",
+      "japanese": "いったん置いとこう。",
+      "tokens": [
+        {
+          "text": "いったん置いとこう。",
+          "kana": "いったんおいとこう"
+        }
+      ],
+      "kana": "いったんおいとこう",
+      "chinese": "先放一放吧。",
+      "category": "progress",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 814,
+      "chunkPattern": "いったん置いとこう",
+      "tags": ["display", "fresh-display", "fresh-20260610", "daily-life", "work"]
+    },
+    {
+      "externalId": "fresh-life-047",
+      "japanese": "ここだけ直すね。",
+      "tokens": [
+        {
+          "text": "ここだけ直すね。",
+          "kana": "ここだけなおすね"
+        }
+      ],
+      "kana": "ここだけなおすね",
+      "chinese": "我只改这里。",
+      "category": "progress",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 815,
+      "chunkPattern": "ここだけ直すね",
+      "tags": ["display", "fresh-display", "fresh-20260610", "daily-life", "work"]
+    },
+    {
+      "externalId": "fresh-life-048",
+      "japanese": "もう少し考えたい。",
+      "tokens": [
+        {
+          "text": "もう少し考えたい。",
+          "kana": "もうすこしかんがえたい"
+        }
+      ],
+      "kana": "もうすこしかんがえたい",
+      "chinese": "我想再想一下。",
+      "category": "progress",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 816,
+      "chunkPattern": "もう少し考えたい",
+      "tags": ["display", "fresh-display", "fresh-20260610", "daily-life", "work"]
+    },
+    {
+      "externalId": "fresh-life-049",
+      "japanese": "これで大丈夫そう。",
+      "tokens": [
+        {
+          "text": "これで大丈夫そう。",
+          "kana": "これでだいじょうぶそう"
+        }
+      ],
+      "kana": "これでだいじょうぶそう",
+      "chinese": "这样应该没问题。",
+      "category": "progress",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 817,
+      "chunkPattern": "これで大丈夫そう",
+      "tags": ["display", "fresh-display", "fresh-20260610", "daily-life", "work"]
+    },
+    {
+      "externalId": "fresh-life-050",
+      "japanese": "先に共有しておく。",
+      "tokens": [
+        {
+          "text": "先に共有しておく。",
+          "kana": "さきにきょうゆうしておく"
+        }
+      ],
+      "kana": "さきにきょうゆうしておく",
+      "chinese": "我先共享一下。",
+      "category": "progress",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 818,
+      "chunkPattern": "先に共有しておく",
+      "tags": ["display", "fresh-display", "fresh-20260610", "daily-life", "work"]
+    },
+    {
+      "externalId": "fresh-life-051",
+      "japanese": "画面見えてる？",
+      "tokens": [
+        {
+          "text": "画面見えてる？",
+          "kana": "がめんみえてる"
+        }
+      ],
+      "kana": "がめんみえてる",
+      "chinese": "能看到画面吗？",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 820,
+      "chunkPattern": "画面見えてる",
+      "tags": ["display", "fresh-display", "fresh-20260610", "daily-life", "work"]
+    },
+    {
+      "externalId": "fresh-life-052",
+      "japanese": "音声入ってますか。",
+      "tokens": [
+        {
+          "text": "音声入ってますか。",
+          "kana": "おんせいはいってますか"
+        }
+      ],
+      "kana": "おんせいはいってますか",
+      "chinese": "声音有进来吗？",
+      "category": "smalltalk",
+      "register": "丁寧",
+      "difficulty": 1,
+      "frequencyRank": 821,
+      "chunkPattern": "音声入ってますか",
+      "tags": ["display", "fresh-display", "fresh-20260610", "daily-life", "work"]
+    },
+    {
+      "externalId": "fresh-life-053",
+      "japanese": "ちょっと聞こえにくい。",
+      "tokens": [
+        {
+          "text": "ちょっと聞こえにくい。",
+          "kana": "ちょっときこえにくい"
+        }
+      ],
+      "kana": "ちょっときこえにくい",
+      "chinese": "有点听不清。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 822,
+      "chunkPattern": "ちょっと聞こえにくい",
+      "tags": ["display", "fresh-display", "fresh-20260610", "daily-life", "work"]
+    },
+    {
+      "externalId": "fresh-life-054",
+      "japanese": "一回つなぎ直す。",
+      "tokens": [
+        {
+          "text": "一回つなぎ直す。",
+          "kana": "いっかいつなぎなおす"
+        }
+      ],
+      "kana": "いっかいつなぎなおす",
+      "chinese": "我重新连一下。",
+      "category": "progress",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 823,
+      "chunkPattern": "一回つなぎ直す",
+      "tags": ["display", "fresh-display", "fresh-20260610", "daily-life", "work"]
+    },
+    {
+      "externalId": "fresh-life-055",
+      "japanese": "今日は早めに上がる。",
+      "tokens": [
+        {
+          "text": "今日は早めに上がる。",
+          "kana": "きょうははやめにあがる"
+        }
+      ],
+      "kana": "きょうははやめにあがる",
+      "chinese": "今天早点下班。",
+      "category": "progress",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 824,
+      "chunkPattern": "今日は早めに上がる",
+      "tags": ["display", "fresh-display", "fresh-20260610", "daily-life", "work"]
+    },
+    {
+      "externalId": "fresh-life-056",
+      "japanese": "休憩入れよう。",
+      "tokens": [
+        {
+          "text": "休憩入れよう。",
+          "kana": "きゅうけいいれよう"
+        }
+      ],
+      "kana": "きゅうけいいれよう",
+      "chinese": "休息一下吧。",
+      "category": "progress",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 826,
+      "chunkPattern": "休憩入れよう",
+      "tags": ["display", "fresh-display", "fresh-20260610", "daily-life", "work"]
+    },
+    {
+      "externalId": "fresh-life-057",
+      "japanese": "それ助かる。",
+      "tokens": [
+        {
+          "text": "それ助かる。",
+          "kana": "それたすかる"
+        }
+      ],
+      "kana": "それたすかる",
+      "chinese": "那太帮忙了。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 827,
+      "chunkPattern": "それ助かる",
+      "tags": ["display", "fresh-display", "fresh-20260610", "daily-life", "work"]
+    },
+    {
+      "externalId": "fresh-life-058",
+      "japanese": "今ので合ってる？",
+      "tokens": [
+        {
+          "text": "今ので合ってる？",
+          "kana": "いまであってる"
+        }
+      ],
+      "kana": "いまであってる",
+      "chinese": "刚才那样对吗？",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 828,
+      "chunkPattern": "今ので合ってる",
+      "tags": ["display", "fresh-display", "fresh-20260610", "daily-life", "work"]
+    },
+    {
+      "externalId": "fresh-life-059",
+      "japanese": "無理しなくていいよ。",
+      "tokens": [
+        {
+          "text": "無理しなくていいよ。",
+          "kana": "むりしなくていいよ"
+        }
+      ],
+      "kana": "むりしなくていいよ",
+      "chinese": "不用勉强。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 829,
+      "chunkPattern": "無理しなくていいよ",
+      "tags": ["display", "fresh-display", "fresh-20260610", "daily-life", "work"]
+    },
+    {
+      "externalId": "fresh-life-060",
+      "japanese": "明日に回そう。",
+      "tokens": [
+        {
+          "text": "明日に回そう。",
+          "kana": "あしたにまわそう"
+        }
+      ],
+      "kana": "あしたにまわそう",
+      "chinese": "放到明天吧。",
+      "category": "progress",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 830,
+      "chunkPattern": "明日に回そう",
+      "tags": ["display", "fresh-display", "fresh-20260610", "daily-life", "work"]
+    },
+    {
+      "externalId": "fresh-life-061",
+      "japanese": "何食べたい？",
+      "tokens": [
+        {
+          "text": "何食べたい？",
+          "kana": "なにたべたい"
+        }
+      ],
+      "kana": "なにたべたい",
+      "chinese": "想吃什么？",
+      "category": "daily",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 832,
+      "chunkPattern": "何食べたい",
+      "tags": ["display", "fresh-display", "fresh-20260610", "daily-life", "food"]
+    },
+    {
+      "externalId": "fresh-life-062",
+      "japanese": "今日は外で食べる？",
+      "tokens": [
+        {
+          "text": "今日は外で食べる？",
+          "kana": "きょうはそとでたべる"
+        }
+      ],
+      "kana": "きょうはそとでたべる",
+      "chinese": "今天在外面吃吗？",
+      "category": "daily",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 833,
+      "chunkPattern": "今日は外で食べる",
+      "tags": ["display", "fresh-display", "fresh-20260610", "daily-life", "food"]
+    },
+    {
+      "externalId": "fresh-life-063",
+      "japanese": "軽く済ませたい。",
+      "tokens": [
+        {
+          "text": "軽く済ませたい。",
+          "kana": "かるくすませたい"
+        }
+      ],
+      "kana": "かるくすませたい",
+      "chinese": "想简单吃点。",
+      "category": "daily",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 834,
+      "chunkPattern": "軽く済ませたい",
+      "tags": ["display", "fresh-display", "fresh-20260610", "daily-life", "food"]
+    },
+    {
+      "externalId": "fresh-life-064",
+      "japanese": "ちょっと甘いもの欲しい。",
+      "tokens": [
+        {
+          "text": "ちょっと甘いもの欲しい。",
+          "kana": "ちょっとあまいものほしい"
+        }
+      ],
+      "kana": "ちょっとあまいものほしい",
+      "chinese": "有点想吃甜的。",
+      "category": "daily",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 835,
+      "chunkPattern": "ちょっと甘いもの欲しい",
+      "tags": ["display", "fresh-display", "fresh-20260610", "daily-life", "food"]
+    },
+    {
+      "externalId": "fresh-life-065",
+      "japanese": "コンビニ寄る？",
+      "tokens": [
+        {
+          "text": "コンビニ寄る？",
+          "kana": "こんびによる"
+        }
+      ],
+      "kana": "こんびによる",
+      "chinese": "要去便利店吗？",
+      "category": "daily",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 836,
+      "chunkPattern": "コンビニ寄る",
+      "tags": ["display", "fresh-display", "fresh-20260610", "daily-life", "food"]
+    },
+    {
+      "externalId": "fresh-life-066",
+      "japanese": "牛乳買い忘れた。",
+      "tokens": [
+        {
+          "text": "牛乳買い忘れた。",
+          "kana": "ぎゅうにゅうかいわすれた"
+        }
+      ],
+      "kana": "ぎゅうにゅうかいわすれた",
+      "chinese": "忘买牛奶了。",
+      "category": "daily",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 838,
+      "chunkPattern": "牛乳買い忘れた",
+      "tags": ["display", "fresh-display", "fresh-20260610", "daily-life", "food"]
+    },
+    {
+      "externalId": "fresh-life-067",
+      "japanese": "レジ並んでるね。",
+      "tokens": [
+        {
+          "text": "レジ並んでるね。",
+          "kana": "れじならんでるね"
+        }
+      ],
+      "kana": "れじならんでるね",
+      "chinese": "收银台在排队呢。",
+      "category": "daily",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 839,
+      "chunkPattern": "レジ並んでるね",
+      "tags": ["display", "fresh-display", "fresh-20260610", "daily-life", "food"]
+    },
+    {
+      "externalId": "fresh-life-068",
+      "japanese": "袋いりますか。",
+      "tokens": [
+        {
+          "text": "袋いりますか。",
+          "kana": "ふくろいりますか"
+        }
+      ],
+      "kana": "ふくろいりますか",
+      "chinese": "需要袋子吗？",
+      "category": "request",
+      "register": "丁寧",
+      "difficulty": 1,
+      "frequencyRank": 840,
+      "chunkPattern": "袋いりますか",
+      "tags": ["display", "fresh-display", "fresh-20260610", "daily-life", "food"]
+    },
+    {
+      "externalId": "fresh-life-069",
+      "japanese": "ポイント使います。",
+      "tokens": [
+        {
+          "text": "ポイント使います。",
+          "kana": "ぽいんとつかいます"
+        }
+      ],
+      "kana": "ぽいんとつかいます",
+      "chinese": "我用积分。",
+      "category": "daily",
+      "register": "丁寧",
+      "difficulty": 1,
+      "frequencyRank": 841,
+      "chunkPattern": "ポイント使います",
+      "tags": ["display", "fresh-display", "fresh-20260610", "daily-life", "food"]
+    },
+    {
+      "externalId": "fresh-life-070",
+      "japanese": "温めてもらえる？",
+      "tokens": [
+        {
+          "text": "温めてもらえる？",
+          "kana": "あたためてもらえる"
+        }
+      ],
+      "kana": "あたためてもらえる",
+      "chinese": "能帮我加热吗？",
+      "category": "request",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 842,
+      "chunkPattern": "温めてもらえる",
+      "tags": ["display", "fresh-display", "fresh-20260610", "daily-life", "food"]
+    },
+    {
+      "externalId": "fresh-life-071",
+      "japanese": "これ半分こしよう。",
+      "tokens": [
+        {
+          "text": "これ半分こしよう。",
+          "kana": "これはんぶんこしよう"
+        }
+      ],
+      "kana": "これはんぶんこしよう",
+      "chinese": "这个分着吃吧。",
+      "category": "daily",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 844,
+      "chunkPattern": "これ半分こしよう",
+      "tags": ["display", "fresh-display", "fresh-20260610", "daily-life", "food"]
+    },
+    {
+      "externalId": "fresh-life-072",
+      "japanese": "もうお腹いっぱい。",
+      "tokens": [
+        {
+          "text": "もうお腹いっぱい。",
+          "kana": "もうおなかいっぱい"
+        }
+      ],
+      "kana": "もうおなかいっぱい",
+      "chinese": "已经饱了。",
+      "category": "daily",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 845,
+      "chunkPattern": "もうお腹いっぱい",
+      "tags": ["display", "fresh-display", "fresh-20260610", "daily-life", "food"]
+    },
+    {
+      "externalId": "fresh-life-073",
+      "japanese": "味ちょうどいい。",
+      "tokens": [
+        {
+          "text": "味ちょうどいい。",
+          "kana": "あじちょうどいい"
+        }
+      ],
+      "kana": "あじちょうどいい",
+      "chinese": "味道刚刚好。",
+      "category": "daily",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 846,
+      "chunkPattern": "味ちょうどいい",
+      "tags": ["display", "fresh-display", "fresh-20260610", "daily-life", "food"]
+    },
+    {
+      "externalId": "fresh-life-074",
+      "japanese": "ちょっとしょっぱい。",
+      "tokens": [
+        {
+          "text": "ちょっとしょっぱい。",
+          "kana": "ちょっとしょっぱい"
+        }
+      ],
+      "kana": "ちょっとしょっぱい",
+      "chinese": "有点咸。",
+      "category": "daily",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 847,
+      "chunkPattern": "ちょっとしょっぱい",
+      "tags": ["display", "fresh-display", "fresh-20260610", "daily-life", "food"]
+    },
+    {
+      "externalId": "fresh-life-075",
+      "japanese": "これまた買いたい。",
+      "tokens": [
+        {
+          "text": "これまた買いたい。",
+          "kana": "これまたかいたい"
+        }
+      ],
+      "kana": "これまたかいたい",
+      "chinese": "这个还想再买。",
+      "category": "daily",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 848,
+      "chunkPattern": "これまた買いたい",
+      "tags": ["display", "fresh-display", "fresh-20260610", "daily-life", "food"]
+    },
+    {
+      "externalId": "fresh-life-076",
+      "japanese": "飲み物取ってくる。",
+      "tokens": [
+        {
+          "text": "飲み物取ってくる。",
+          "kana": "のみものとってくる"
+        }
+      ],
+      "kana": "のみものとってくる",
+      "chinese": "我去拿饮料。",
+      "category": "daily",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 850,
+      "chunkPattern": "飲み物取ってくる",
+      "tags": ["display", "fresh-display", "fresh-20260610", "daily-life", "food"]
+    },
+    {
+      "externalId": "fresh-life-077",
+      "japanese": "氷なしでお願い。",
+      "tokens": [
+        {
+          "text": "氷なしでお願い。",
+          "kana": "こおりなしでおねがい"
+        }
+      ],
+      "kana": "こおりなしでおねがい",
+      "chinese": "麻烦不要冰。",
+      "category": "request",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 851,
+      "chunkPattern": "氷なしでお願い",
+      "tags": ["display", "fresh-display", "fresh-20260610", "daily-life", "food"]
+    },
+    {
+      "externalId": "fresh-life-078",
+      "japanese": "先に席取っとく。",
+      "tokens": [
+        {
+          "text": "先に席取っとく。",
+          "kana": "さきにせきとっとく"
+        }
+      ],
+      "kana": "さきにせきとっとく",
+      "chinese": "我先占座。",
+      "category": "daily",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 852,
+      "chunkPattern": "先に席取っとく",
+      "tags": ["display", "fresh-display", "fresh-20260610", "daily-life", "food"]
+    },
+    {
+      "externalId": "fresh-life-079",
+      "japanese": "予約してあるよ。",
+      "tokens": [
+        {
+          "text": "予約してあるよ。",
+          "kana": "よやくしてあるよ"
+        }
+      ],
+      "kana": "よやくしてあるよ",
+      "chinese": "已经预约好了。",
+      "category": "daily",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 853,
+      "chunkPattern": "予約してあるよ",
+      "tags": ["display", "fresh-display", "fresh-20260610", "daily-life", "food"]
+    },
+    {
+      "externalId": "fresh-life-080",
+      "japanese": "会計別々でいい？",
+      "tokens": [
+        {
+          "text": "会計別々でいい？",
+          "kana": "かいけいべつべつでいい"
+        }
+      ],
+      "kana": "かいけいべつべつでいい",
+      "chinese": "分开结账可以吗？",
+      "category": "request",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 854,
+      "chunkPattern": "会計別々でいい",
+      "tags": ["display", "fresh-display", "fresh-20260610", "daily-life", "food"]
+    },
+    {
+      "externalId": "fresh-life-081",
+      "japanese": "荷物届いてた。",
+      "tokens": [
+        {
+          "text": "荷物届いてた。",
+          "kana": "にもつとどいてた"
+        }
+      ],
+      "kana": "にもつとどいてた",
+      "chinese": "包裹到了。",
+      "category": "daily",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 856,
+      "chunkPattern": "荷物届いてた",
+      "tags": ["display", "fresh-display", "fresh-20260610", "daily-life", "errand"]
+    },
+    {
+      "externalId": "fresh-life-082",
+      "japanese": "不在票入ってた。",
+      "tokens": [
+        {
+          "text": "不在票入ってた。",
+          "kana": "ふざいひょうはいってた"
+        }
+      ],
+      "kana": "ふざいひょうはいってた",
+      "chinese": "有未投递通知。",
+      "category": "daily",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 857,
+      "chunkPattern": "不在票入ってた",
+      "tags": ["display", "fresh-display", "fresh-20260610", "daily-life", "errand"]
+    },
+    {
+      "externalId": "fresh-life-083",
+      "japanese": "洗剤もうない。",
+      "tokens": [
+        {
+          "text": "洗剤もうない。",
+          "kana": "せんざいもうない"
+        }
+      ],
+      "kana": "せんざいもうない",
+      "chinese": "洗衣液没了。",
+      "category": "daily",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 858,
+      "chunkPattern": "洗剤もうない",
+      "tags": ["display", "fresh-display", "fresh-20260610", "daily-life", "errand"]
+    },
+    {
+      "externalId": "fresh-life-084",
+      "japanese": "ついでに薬局寄る。",
+      "tokens": [
+        {
+          "text": "ついでに薬局寄る。",
+          "kana": "ついでにやっきょくよる"
+        }
+      ],
+      "kana": "ついでにやっきょくよる",
+      "chinese": "顺路去趟药妆店。",
+      "category": "daily",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 859,
+      "chunkPattern": "ついでに薬局寄る",
+      "tags": ["display", "fresh-display", "fresh-20260610", "daily-life", "errand"]
+    },
+    {
+      "externalId": "fresh-life-085",
+      "japanese": "クリーニング出した？",
+      "tokens": [
+        {
+          "text": "クリーニング出した？",
+          "kana": "くりーにんぐだした"
+        }
+      ],
+      "kana": "くりーにんぐだした",
+      "chinese": "送去干洗了吗？",
+      "category": "daily",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 860,
+      "chunkPattern": "クリーニング出した",
+      "tags": ["display", "fresh-display", "fresh-20260610", "daily-life", "errand"]
+    },
+    {
+      "externalId": "fresh-life-086",
+      "japanese": "郵便出してくる。",
+      "tokens": [
+        {
+          "text": "郵便出してくる。",
+          "kana": "ゆうびんだしてくる"
+        }
+      ],
+      "kana": "ゆうびんだしてくる",
+      "chinese": "我去寄信。",
+      "category": "daily",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 862,
+      "chunkPattern": "郵便出してくる",
+      "tags": ["display", "fresh-display", "fresh-20260610", "daily-life", "errand"]
+    },
+    {
+      "externalId": "fresh-life-087",
+      "japanese": "部屋ちょっと片付ける。",
+      "tokens": [
+        {
+          "text": "部屋ちょっと片付ける。",
+          "kana": "へやちょっとかたづける"
+        }
+      ],
+      "kana": "へやちょっとかたづける",
+      "chinese": "稍微收拾一下房间。",
+      "category": "daily",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 863,
+      "chunkPattern": "部屋ちょっと片付ける",
+      "tags": ["display", "fresh-display", "fresh-20260610", "daily-life", "errand"]
+    },
+    {
+      "externalId": "fresh-life-088",
+      "japanese": "掃除機かけたよ。",
+      "tokens": [
+        {
+          "text": "掃除機かけたよ。",
+          "kana": "そうじきかけたよ"
+        }
+      ],
+      "kana": "そうじきかけたよ",
+      "chinese": "我吸过地了。",
+      "category": "daily",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 864,
+      "chunkPattern": "掃除機かけたよ",
+      "tags": ["display", "fresh-display", "fresh-20260610", "daily-life", "errand"]
+    },
+    {
+      "externalId": "fresh-life-089",
+      "japanese": "窓開けてもいい？",
+      "tokens": [
+        {
+          "text": "窓開けてもいい？",
+          "kana": "まどあけてもいい"
+        }
+      ],
+      "kana": "まどあけてもいい",
+      "chinese": "能开窗吗？",
+      "category": "request",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 865,
+      "chunkPattern": "窓開けてもいい",
+      "tags": ["display", "fresh-display", "fresh-20260610", "daily-life", "errand"]
+    },
+    {
+      "externalId": "fresh-life-090",
+      "japanese": "エアコンつけよう。",
+      "tokens": [
+        {
+          "text": "エアコンつけよう。",
+          "kana": "えあこんつけよう"
+        }
+      ],
+      "kana": "えあこんつけよう",
+      "chinese": "开空调吧。",
+      "category": "daily",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 866,
+      "chunkPattern": "エアコンつけよう",
+      "tags": ["display", "fresh-display", "fresh-20260610", "daily-life", "errand"]
+    },
+    {
+      "externalId": "fresh-life-091",
+      "japanese": "ちょっと暑くない？",
+      "tokens": [
+        {
+          "text": "ちょっと暑くない？",
+          "kana": "ちょっとあつくない"
+        }
+      ],
+      "kana": "ちょっとあつくない",
+      "chinese": "是不是有点热？",
+      "category": "daily",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 868,
+      "chunkPattern": "ちょっと暑くない",
+      "tags": ["display", "fresh-display", "fresh-20260610", "daily-life", "errand"]
+    },
+    {
+      "externalId": "fresh-life-092",
+      "japanese": "風強いね。",
+      "tokens": [
+        {
+          "text": "風強いね。",
+          "kana": "かぜつよいね"
+        }
+      ],
+      "kana": "かぜつよいね",
+      "chinese": "风好大。",
+      "category": "daily",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 869,
+      "chunkPattern": "風強いね",
+      "tags": ["display", "fresh-display", "fresh-20260610", "daily-life", "errand"]
+    },
+    {
+      "externalId": "fresh-life-093",
+      "japanese": "雨やむかな。",
+      "tokens": [
+        {
+          "text": "雨やむかな。",
+          "kana": "あめやむかな"
+        }
+      ],
+      "kana": "あめやむかな",
+      "chinese": "雨会停吗？",
+      "category": "daily",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 870,
+      "chunkPattern": "雨やむかな",
+      "tags": ["display", "fresh-display", "fresh-20260610", "daily-life", "errand"]
+    },
+    {
+      "externalId": "fresh-life-094",
+      "japanese": "洗濯物取り込む。",
+      "tokens": [
+        {
+          "text": "洗濯物取り込む。",
+          "kana": "せんたくものとりこむ"
+        }
+      ],
+      "kana": "せんたくものとりこむ",
+      "chinese": "我把晾的衣服收进来。",
+      "category": "daily",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 871,
+      "chunkPattern": "洗濯物取り込む",
+      "tags": ["display", "fresh-display", "fresh-20260610", "daily-life", "errand"]
+    },
+    {
+      "externalId": "fresh-life-095",
+      "japanese": "お風呂沸いたよ。",
+      "tokens": [
+        {
+          "text": "お風呂沸いたよ。",
+          "kana": "おふろわいたよ"
+        }
+      ],
+      "kana": "おふろわいたよ",
+      "chinese": "洗澡水好了。",
+      "category": "daily",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 872,
+      "chunkPattern": "お風呂沸いたよ",
+      "tags": ["display", "fresh-display", "fresh-20260610", "daily-life", "errand"]
+    },
+    {
+      "externalId": "fresh-life-096",
+      "japanese": "先に入っていい？",
+      "tokens": [
+        {
+          "text": "先に入っていい？",
+          "kana": "さきにはいっていい"
+        }
+      ],
+      "kana": "さきにはいっていい",
+      "chinese": "我先洗可以吗？",
+      "category": "request",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 874,
+      "chunkPattern": "先に入っていい",
+      "tags": ["display", "fresh-display", "fresh-20260610", "daily-life", "errand"]
+    },
+    {
+      "externalId": "fresh-life-097",
+      "japanese": "タオル替えとくね。",
+      "tokens": [
+        {
+          "text": "タオル替えとくね。",
+          "kana": "たおるかえとくね"
+        }
+      ],
+      "kana": "たおるかえとくね",
+      "chinese": "我把毛巾换一下。",
+      "category": "daily",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 875,
+      "chunkPattern": "タオル替えとくね",
+      "tags": ["display", "fresh-display", "fresh-20260610", "daily-life", "errand"]
+    },
+    {
+      "externalId": "fresh-life-098",
+      "japanese": "明日まとめてやる。",
+      "tokens": [
+        {
+          "text": "明日まとめてやる。",
+          "kana": "あしたまとめてやる"
+        }
+      ],
+      "kana": "あしたまとめてやる",
+      "chinese": "明天一起做。",
+      "category": "progress",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 876,
+      "chunkPattern": "明日まとめてやる",
+      "tags": ["display", "fresh-display", "fresh-20260610", "daily-life", "errand"]
+    },
+    {
+      "externalId": "fresh-life-099",
+      "japanese": "今日はもう無理。",
+      "tokens": [
+        {
+          "text": "今日はもう無理。",
+          "kana": "きょうはもうむり"
+        }
+      ],
+      "kana": "きょうはもうむり",
+      "chinese": "今天真的不行了。",
+      "category": "daily",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 877,
+      "chunkPattern": "今日はもう無理",
+      "tags": ["display", "fresh-display", "fresh-20260610", "daily-life", "errand"]
+    },
+    {
+      "externalId": "fresh-life-100",
+      "japanese": "ちょっと横になる。",
+      "tokens": [
+        {
+          "text": "ちょっと横になる。",
+          "kana": "ちょっとよこになる"
+        }
+      ],
+      "kana": "ちょっとよこになる",
+      "chinese": "我躺一会儿。",
+      "category": "daily",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 878,
+      "chunkPattern": "ちょっと横になる",
+      "tags": ["display", "fresh-display", "fresh-20260610", "daily-life", "errand"]
+    },
+    {
+      "externalId": "fresh-life-101",
+      "japanese": "それめっちゃ分かる。",
+      "tokens": [
+        {
+          "text": "それめっちゃ分かる。",
+          "kana": "それめっちゃわかる"
+        }
+      ],
+      "kana": "それめっちゃわかる",
+      "chinese": "这个我太懂了。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 880,
+      "chunkPattern": "それめっちゃ分かる",
+      "tags": ["display", "fresh-display", "fresh-20260610", "daily-life", "chat"]
+    },
+    {
+      "externalId": "fresh-life-102",
+      "japanese": "たしかにそうかも。",
+      "tokens": [
+        {
+          "text": "たしかにそうかも。",
+          "kana": "たしかにそうかも"
+        }
+      ],
+      "kana": "たしかにそうかも",
+      "chinese": "确实可能是这样。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 881,
+      "chunkPattern": "たしかにそうかも",
+      "tags": ["display", "fresh-display", "fresh-20260610", "daily-life", "chat"]
+    },
+    {
+      "externalId": "fresh-life-103",
+      "japanese": "それはあるね。",
+      "tokens": [
+        {
+          "text": "それはあるね。",
+          "kana": "それはあるね"
+        }
+      ],
+      "kana": "それはあるね",
+      "chinese": "这倒是。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 882,
+      "chunkPattern": "それはあるね",
+      "tags": ["display", "fresh-display", "fresh-20260610", "daily-life", "chat"]
+    },
+    {
+      "externalId": "fresh-life-104",
+      "japanese": "なんか安心した。",
+      "tokens": [
+        {
+          "text": "なんか安心した。",
+          "kana": "なんかあんしんした"
+        }
+      ],
+      "kana": "なんかあんしんした",
+      "chinese": "感觉安心了。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 883,
+      "chunkPattern": "なんか安心した",
+      "tags": ["display", "fresh-display", "fresh-20260610", "daily-life", "chat"]
+    },
+    {
+      "externalId": "fresh-life-105",
+      "japanese": "ちょっと意外だった。",
+      "tokens": [
+        {
+          "text": "ちょっと意外だった。",
+          "kana": "ちょっといがいだった"
+        }
+      ],
+      "kana": "ちょっといがいだった",
+      "chinese": "有点意外。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 884,
+      "chunkPattern": "ちょっと意外だった",
+      "tags": ["display", "fresh-display", "fresh-20260610", "daily-life", "chat"]
+    },
+    {
+      "externalId": "fresh-life-106",
+      "japanese": "それ聞いてよかった。",
+      "tokens": [
+        {
+          "text": "それ聞いてよかった。",
+          "kana": "それきいてよかった"
+        }
+      ],
+      "kana": "それきいてよかった",
+      "chinese": "听你这么说真好。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 886,
+      "chunkPattern": "それ聞いてよかった",
+      "tags": ["display", "fresh-display", "fresh-20260610", "daily-life", "chat"]
+    },
+    {
+      "externalId": "fresh-life-107",
+      "japanese": "そこ気になる。",
+      "tokens": [
+        {
+          "text": "そこ気になる。",
+          "kana": "そこきになる"
+        }
+      ],
+      "kana": "そこきになる",
+      "chinese": "这点我有点在意。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 887,
+      "chunkPattern": "そこ気になる",
+      "tags": ["display", "fresh-display", "fresh-20260610", "daily-life", "chat"]
+    },
+    {
+      "externalId": "fresh-life-108",
+      "japanese": "どういうこと？",
+      "tokens": [
+        {
+          "text": "どういうこと？",
+          "kana": "どういうこと"
+        }
+      ],
+      "kana": "どういうこと",
+      "chinese": "什么意思？",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 888,
+      "chunkPattern": "どういうこと",
+      "tags": ["display", "fresh-display", "fresh-20260610", "daily-life", "chat"]
+    },
+    {
+      "externalId": "fresh-life-109",
+      "japanese": "もう少し教えて。",
+      "tokens": [
+        {
+          "text": "もう少し教えて。",
+          "kana": "もうすこしおしえて"
+        }
+      ],
+      "kana": "もうすこしおしえて",
+      "chinese": "再跟我说一点。",
+      "category": "request",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 889,
+      "chunkPattern": "もう少し教えて",
+      "tags": ["display", "fresh-display", "fresh-20260610", "daily-life", "chat"]
+    },
+    {
+      "externalId": "fresh-life-110",
+      "japanese": "それでどうなった？",
+      "tokens": [
+        {
+          "text": "それでどうなった？",
+          "kana": "それでどうなった"
+        }
+      ],
+      "kana": "それでどうなった",
+      "chinese": "然后怎么样了？",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 890,
+      "chunkPattern": "それでどうなった",
+      "tags": ["display", "fresh-display", "fresh-20260610", "daily-life", "chat"]
+    },
+    {
+      "externalId": "fresh-life-111",
+      "japanese": "いい感じじゃん。",
+      "tokens": [
+        {
+          "text": "いい感じじゃん。",
+          "kana": "いいかんじじゃん"
+        }
+      ],
+      "kana": "いいかんじじゃん",
+      "chinese": "不错嘛。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 892,
+      "chunkPattern": "いい感じじゃん",
+      "tags": ["display", "fresh-display", "fresh-20260610", "daily-life", "chat"]
+    },
+    {
+      "externalId": "fresh-life-112",
+      "japanese": "それは大変だったね。",
+      "tokens": [
+        {
+          "text": "それは大変だったね。",
+          "kana": "それはたいへんだったね"
+        }
+      ],
+      "kana": "それはたいへんだったね",
+      "chinese": "那可真不容易。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 893,
+      "chunkPattern": "それは大変だったね",
+      "tags": ["display", "fresh-display", "fresh-20260610", "daily-life", "chat"]
+    },
+    {
+      "externalId": "fresh-life-113",
+      "japanese": "無事でよかった。",
+      "tokens": [
+        {
+          "text": "無事でよかった。",
+          "kana": "ぶじでよかった"
+        }
+      ],
+      "kana": "ぶじでよかった",
+      "chinese": "没事就好。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 894,
+      "chunkPattern": "無事でよかった",
+      "tags": ["display", "fresh-display", "fresh-20260610", "daily-life", "chat"]
+    },
+    {
+      "externalId": "fresh-life-114",
+      "japanese": "まあ、そうなるよね。",
+      "tokens": [
+        {
+          "text": "まあ、そうなるよね。",
+          "kana": "まあそうなるよね"
+        }
+      ],
+      "kana": "まあそうなるよね",
+      "chinese": "嗯，也会变成那样吧。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 895,
+      "chunkPattern": "まあ、そうなるよね",
+      "tags": ["display", "fresh-display", "fresh-20260610", "daily-life", "chat"]
+    },
+    {
+      "externalId": "fresh-life-115",
+      "japanese": "正直ちょっと迷う。",
+      "tokens": [
+        {
+          "text": "正直ちょっと迷う。",
+          "kana": "しょうじきちょっとまよう"
+        }
+      ],
+      "kana": "しょうじきちょっとまよう",
+      "chinese": "说实话有点犹豫。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 896,
+      "chunkPattern": "正直ちょっと迷う",
+      "tags": ["display", "fresh-display", "fresh-20260610", "daily-life", "chat"]
+    },
+    {
+      "externalId": "fresh-life-116",
+      "japanese": "今の話好き。",
+      "tokens": [
+        {
+          "text": "今の話好き。",
+          "kana": "いまのはなしすき"
+        }
+      ],
+      "kana": "いまのはなしすき",
+      "chinese": "我喜欢刚才那段话。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 898,
+      "chunkPattern": "今の話好き",
+      "tags": ["display", "fresh-display", "fresh-20260610", "daily-life", "chat"]
+    },
+    {
+      "externalId": "fresh-life-117",
+      "japanese": "それ助かりすぎる。",
+      "tokens": [
+        {
+          "text": "それ助かりすぎる。",
+          "kana": "それたすかりすぎる"
+        }
+      ],
+      "kana": "それたすかりすぎる",
+      "chinese": "那真的太帮忙了。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 899,
+      "chunkPattern": "それ助かりすぎる",
+      "tags": ["display", "fresh-display", "fresh-20260610", "daily-life", "chat"]
+    },
+    {
+      "externalId": "fresh-life-118",
+      "japanese": "ちょっと笑った。",
+      "tokens": [
+        {
+          "text": "ちょっと笑った。",
+          "kana": "ちょっとわらった"
+        }
+      ],
+      "kana": "ちょっとわらった",
+      "chinese": "有点好笑。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 900,
+      "chunkPattern": "ちょっと笑った",
+      "tags": ["display", "fresh-display", "fresh-20260610", "daily-life", "chat"]
+    },
+    {
+      "externalId": "fresh-life-119",
+      "japanese": "なんか元気出た。",
+      "tokens": [
+        {
+          "text": "なんか元気出た。",
+          "kana": "なんかげんきでた"
+        }
+      ],
+      "kana": "なんかげんきでた",
+      "chinese": "感觉有精神了。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 901,
+      "chunkPattern": "なんか元気出た",
+      "tags": ["display", "fresh-display", "fresh-20260610", "daily-life", "chat"]
+    },
+    {
+      "externalId": "fresh-life-120",
+      "japanese": "それ言えてる。",
+      "tokens": [
+        {
+          "text": "それ言えてる。",
+          "kana": "それいえてる"
+        }
+      ],
+      "kana": "それいえてる",
+      "chinese": "你说得对。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 902,
+      "chunkPattern": "それ言えてる",
+      "tags": ["display", "fresh-display", "fresh-20260610", "daily-life", "chat"]
+    },
+    {
+      "externalId": "fresh-life-121",
+      "japanese": "そろそろ決めよう。",
+      "tokens": [
+        {
+          "text": "そろそろ決めよう。",
+          "kana": "そろそろきめよう"
+        }
+      ],
+      "kana": "そろそろきめよう",
+      "chinese": "差不多该决定了。",
+      "category": "progress",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 904,
+      "chunkPattern": "そろそろ決めよう",
+      "tags": ["display", "fresh-display", "fresh-20260610", "daily-life", "plan"]
+    },
+    {
+      "externalId": "fresh-life-122",
+      "japanese": "今日は早めに寝る。",
+      "tokens": [
+        {
+          "text": "今日は早めに寝る。",
+          "kana": "きょうははやめにねる"
+        }
+      ],
+      "kana": "きょうははやめにねる",
+      "chinese": "今天早点睡。",
+      "category": "daily",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 905,
+      "chunkPattern": "今日は早めに寝る",
+      "tags": ["display", "fresh-display", "fresh-20260610", "daily-life", "plan"]
+    },
+    {
+      "externalId": "fresh-life-123",
+      "japanese": "明日でも間に合う。",
+      "tokens": [
+        {
+          "text": "明日でも間に合う。",
+          "kana": "あしたでもまにあう"
+        }
+      ],
+      "kana": "あしたでもまにあう",
+      "chinese": "明天也来得及。",
+      "category": "progress",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 906,
+      "chunkPattern": "明日でも間に合う",
+      "tags": ["display", "fresh-display", "fresh-20260610", "daily-life", "plan"]
+    },
+    {
+      "externalId": "fresh-life-124",
+      "japanese": "今週中にやる。",
+      "tokens": [
+        {
+          "text": "今週中にやる。",
+          "kana": "こんしゅうちゅうにやる"
+        }
+      ],
+      "kana": "こんしゅうちゅうにやる",
+      "chinese": "这周内做。",
+      "category": "progress",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 907,
+      "chunkPattern": "今週中にやる",
+      "tags": ["display", "fresh-display", "fresh-20260610", "daily-life", "plan"]
+    },
+    {
+      "externalId": "fresh-life-125",
+      "japanese": "先に予約しよう。",
+      "tokens": [
+        {
+          "text": "先に予約しよう。",
+          "kana": "さきによやくしよう"
+        }
+      ],
+      "kana": "さきによやくしよう",
+      "chinese": "先预约吧。",
+      "category": "progress",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 908,
+      "chunkPattern": "先に予約しよう",
+      "tags": ["display", "fresh-display", "fresh-20260610", "daily-life", "plan"]
+    },
+    {
+      "externalId": "fresh-life-126",
+      "japanese": "時間見て動こう。",
+      "tokens": [
+        {
+          "text": "時間見て動こう。",
+          "kana": "じかんみてうごこう"
+        }
+      ],
+      "kana": "じかんみてうごこう",
+      "chinese": "看时间行动吧。",
+      "category": "progress",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 910,
+      "chunkPattern": "時間見て動こう",
+      "tags": ["display", "fresh-display", "fresh-20260610", "daily-life", "plan"]
+    },
+    {
+      "externalId": "fresh-life-127",
+      "japanese": "予定少しずらす？",
+      "tokens": [
+        {
+          "text": "予定少しずらす？",
+          "kana": "よていすこしずらす"
+        }
+      ],
+      "kana": "よていすこしずらす",
+      "chinese": "把安排稍微挪一下？",
+      "category": "progress",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 911,
+      "chunkPattern": "予定少しずらす",
+      "tags": ["display", "fresh-display", "fresh-20260610", "daily-life", "plan"]
+    },
+    {
+      "externalId": "fresh-life-128",
+      "japanese": "いったん確認するね。",
+      "tokens": [
+        {
+          "text": "いったん確認するね。",
+          "kana": "いったんかくにんするね"
+        }
+      ],
+      "kana": "いったんかくにんするね",
+      "chinese": "我先确认一下。",
+      "category": "progress",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 912,
+      "chunkPattern": "いったん確認するね",
+      "tags": ["display", "fresh-display", "fresh-20260610", "daily-life", "plan"]
+    },
+    {
+      "externalId": "fresh-life-129",
+      "japanese": "忘れないようにメモする。",
+      "tokens": [
+        {
+          "text": "忘れないようにメモする。",
+          "kana": "わすれないようにめもする"
+        }
+      ],
+      "kana": "わすれないようにめもする",
+      "chinese": "我记一下免得忘。",
+      "category": "progress",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 913,
+      "chunkPattern": "忘れないようにメモする",
+      "tags": ["display", "fresh-display", "fresh-20260610", "daily-life", "plan"]
+    },
+    {
+      "externalId": "fresh-life-130",
+      "japanese": "あとでリマインドして。",
+      "tokens": [
+        {
+          "text": "あとでリマインドして。",
+          "kana": "あとでりまいんどして"
+        }
+      ],
+      "kana": "あとでりまいんどして",
+      "chinese": "晚点提醒我。",
+      "category": "request",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 914,
+      "chunkPattern": "あとでリマインドして",
+      "tags": ["display", "fresh-display", "fresh-20260610", "daily-life", "plan"]
+    },
+    {
+      "externalId": "fresh-life-131",
+      "japanese": "先に片付けちゃう。",
+      "tokens": [
+        {
+          "text": "先に片付けちゃう。",
+          "kana": "さきにかたづけちゃう"
+        }
+      ],
+      "kana": "さきにかたづけちゃう",
+      "chinese": "我先把它处理掉。",
+      "category": "progress",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 916,
+      "chunkPattern": "先に片付けちゃう",
+      "tags": ["display", "fresh-display", "fresh-20260610", "daily-life", "plan"]
+    },
+    {
+      "externalId": "fresh-life-132",
+      "japanese": "週末にまとめてやる。",
+      "tokens": [
+        {
+          "text": "週末にまとめてやる。",
+          "kana": "しゅうまつにまとめてやる"
+        }
+      ],
+      "kana": "しゅうまつにまとめてやる",
+      "chinese": "周末一起做。",
+      "category": "progress",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 917,
+      "chunkPattern": "週末にまとめてやる",
+      "tags": ["display", "fresh-display", "fresh-20260610", "daily-life", "plan"]
+    },
+    {
+      "externalId": "fresh-life-133",
+      "japanese": "今は無理しない。",
+      "tokens": [
+        {
+          "text": "今は無理しない。",
+          "kana": "いまはむりしない"
+        }
+      ],
+      "kana": "いまはむりしない",
+      "chinese": "现在先不勉强。",
+      "category": "daily",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 918,
+      "chunkPattern": "今は無理しない",
+      "tags": ["display", "fresh-display", "fresh-20260610", "daily-life", "plan"]
+    },
+    {
+      "externalId": "fresh-life-134",
+      "japanese": "余裕ある時でいい。",
+      "tokens": [
+        {
+          "text": "余裕ある時でいい。",
+          "kana": "よゆうあるときでいい"
+        }
+      ],
+      "kana": "よゆうあるときでいい",
+      "chinese": "有余裕的时候再说。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 919,
+      "chunkPattern": "余裕ある時でいい",
+      "tags": ["display", "fresh-display", "fresh-20260610", "daily-life", "plan"]
+    },
+    {
+      "externalId": "fresh-life-135",
+      "japanese": "早めに出ておこう。",
+      "tokens": [
+        {
+          "text": "早めに出ておこう。",
+          "kana": "はやめにでておこう"
+        }
+      ],
+      "kana": "はやめにでておこう",
+      "chinese": "早点出发吧。",
+      "category": "daily",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 920,
+      "chunkPattern": "早めに出ておこう",
+      "tags": ["display", "fresh-display", "fresh-20260610", "daily-life", "plan"]
+    },
+    {
+      "externalId": "fresh-life-136",
+      "japanese": "雨ならやめよう。",
+      "tokens": [
+        {
+          "text": "雨ならやめよう。",
+          "kana": "あめならやめよう"
+        }
+      ],
+      "kana": "あめならやめよう",
+      "chinese": "下雨的话就算了。",
+      "category": "progress",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 922,
+      "chunkPattern": "雨ならやめよう",
+      "tags": ["display", "fresh-display", "fresh-20260610", "daily-life", "plan"]
+    },
+    {
+      "externalId": "fresh-life-137",
+      "japanese": "混んでたら別の日にしよう。",
+      "tokens": [
+        {
+          "text": "混んでたら別の日にしよう。",
+          "kana": "こんでたらべつのひにしよう"
+        }
+      ],
+      "kana": "こんでたらべつのひにしよう",
+      "chinese": "如果人多就改天吧。",
+      "category": "progress",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 923,
+      "chunkPattern": "混んでたら別の日にしよう",
+      "tags": ["display", "fresh-display", "fresh-20260610", "daily-life", "plan"]
+    },
+    {
+      "externalId": "fresh-life-138",
+      "japanese": "近いうち行きたい。",
+      "tokens": [
+        {
+          "text": "近いうち行きたい。",
+          "kana": "ちかいうちいきたい"
+        }
+      ],
+      "kana": "ちかいうちいきたい",
+      "chinese": "最近想去一趟。",
+      "category": "daily",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 924,
+      "chunkPattern": "近いうち行きたい",
+      "tags": ["display", "fresh-display", "fresh-20260610", "daily-life", "plan"]
+    },
+    {
+      "externalId": "fresh-life-139",
+      "japanese": "それ候補に入れよう。",
+      "tokens": [
+        {
+          "text": "それ候補に入れよう。",
+          "kana": "それこうほにいれよう"
+        }
+      ],
+      "kana": "それこうほにいれよう",
+      "chinese": "把那个放进备选吧。",
+      "category": "progress",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 925,
+      "chunkPattern": "それ候補に入れよう",
+      "tags": ["display", "fresh-display", "fresh-20260610", "daily-life", "plan"]
+    },
+    {
+      "externalId": "fresh-life-140",
+      "japanese": "もう少し様子見る。",
+      "tokens": [
+        {
+          "text": "もう少し様子見る。",
+          "kana": "もうすこしようすみる"
+        }
+      ],
+      "kana": "もうすこしようすみる",
+      "chinese": "再观察一下。",
+      "category": "progress",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 926,
+      "chunkPattern": "もう少し様子見る",
+      "tags": ["display", "fresh-display", "fresh-20260610", "daily-life", "plan"]
+    },
+    {
+      "externalId": "fresh-life-141",
+      "japanese": "ちょっと疲れた。",
+      "tokens": [
+        {
+          "text": "ちょっと疲れた。",
+          "kana": "ちょっとつかれた"
+        }
+      ],
+      "kana": "ちょっとつかれた",
+      "chinese": "有点累了。",
+      "category": "daily",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 928,
+      "chunkPattern": "ちょっと疲れた",
+      "tags": ["display", "fresh-display", "fresh-20260610", "daily-life", "body"]
+    },
+    {
+      "externalId": "fresh-life-142",
+      "japanese": "肩こってる。",
+      "tokens": [
+        {
+          "text": "肩こってる。",
+          "kana": "かたこってる"
+        }
+      ],
+      "kana": "かたこってる",
+      "chinese": "肩膀酸。",
+      "category": "daily",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 929,
+      "chunkPattern": "肩こってる",
+      "tags": ["display", "fresh-display", "fresh-20260610", "daily-life", "body"]
+    },
+    {
+      "externalId": "fresh-life-143",
+      "japanese": "目がしょぼしょぼする。",
+      "tokens": [
+        {
+          "text": "目がしょぼしょぼする。",
+          "kana": "めがしょぼしょぼする"
+        }
+      ],
+      "kana": "めがしょぼしょぼする",
+      "chinese": "眼睛有点酸涩。",
+      "category": "daily",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 930,
+      "chunkPattern": "目がしょぼしょぼする",
+      "tags": ["display", "fresh-display", "fresh-20260610", "daily-life", "body"]
+    },
+    {
+      "externalId": "fresh-life-144",
+      "japanese": "なんか喉乾いた。",
+      "tokens": [
+        {
+          "text": "なんか喉乾いた。",
+          "kana": "なんかのどかわいた"
+        }
+      ],
+      "kana": "なんかのどかわいた",
+      "chinese": "感觉有点渴。",
+      "category": "daily",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 931,
+      "chunkPattern": "なんか喉乾いた",
+      "tags": ["display", "fresh-display", "fresh-20260610", "daily-life", "body"]
+    },
+    {
+      "externalId": "fresh-life-145",
+      "japanese": "今日は頭回らない。",
+      "tokens": [
+        {
+          "text": "今日は頭回らない。",
+          "kana": "きょうはあたままわらない"
+        }
+      ],
+      "kana": "きょうはあたままわらない",
+      "chinese": "今天脑子转不动。",
+      "category": "daily",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 932,
+      "chunkPattern": "今日は頭回らない",
+      "tags": ["display", "fresh-display", "fresh-20260610", "daily-life", "body"]
+    },
+    {
+      "externalId": "fresh-life-146",
+      "japanese": "少し歩きたい。",
+      "tokens": [
+        {
+          "text": "少し歩きたい。",
+          "kana": "すこしあるきたい"
+        }
+      ],
+      "kana": "すこしあるきたい",
+      "chinese": "想走走。",
+      "category": "daily",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 934,
+      "chunkPattern": "少し歩きたい",
+      "tags": ["display", "fresh-display", "fresh-20260610", "daily-life", "body"]
+    },
+    {
+      "externalId": "fresh-life-147",
+      "japanese": "外の空気吸いたい。",
+      "tokens": [
+        {
+          "text": "外の空気吸いたい。",
+          "kana": "そとのくうきすいたい"
+        }
+      ],
+      "kana": "そとのくうきすいたい",
+      "chinese": "想呼吸一下外面的空气。",
+      "category": "daily",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 935,
+      "chunkPattern": "外の空気吸いたい",
+      "tags": ["display", "fresh-display", "fresh-20260610", "daily-life", "body"]
+    },
+    {
+      "externalId": "fresh-life-148",
+      "japanese": "甘いもの食べたい。",
+      "tokens": [
+        {
+          "text": "甘いもの食べたい。",
+          "kana": "あまいものたべたい"
+        }
+      ],
+      "kana": "あまいものたべたい",
+      "chinese": "想吃甜的。",
+      "category": "daily",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 936,
+      "chunkPattern": "甘いもの食べたい",
+      "tags": ["display", "fresh-display", "fresh-20260610", "daily-life", "body"]
+    },
+    {
+      "externalId": "fresh-life-149",
+      "japanese": "眠気がきた。",
+      "tokens": [
+        {
+          "text": "眠気がきた。",
+          "kana": "ねむけがきた"
+        }
+      ],
+      "kana": "ねむけがきた",
+      "chinese": "困意来了。",
+      "category": "daily",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 937,
+      "chunkPattern": "眠気がきた",
+      "tags": ["display", "fresh-display", "fresh-20260610", "daily-life", "body"]
+    },
+    {
+      "externalId": "fresh-life-150",
+      "japanese": "今日は早く寝たい。",
+      "tokens": [
+        {
+          "text": "今日は早く寝たい。",
+          "kana": "きょうははやくねたい"
+        }
+      ],
+      "kana": "きょうははやくねたい",
+      "chinese": "今天想早点睡。",
+      "category": "daily",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 938,
+      "chunkPattern": "今日は早く寝たい",
+      "tags": ["display", "fresh-display", "fresh-20260610", "daily-life", "body"]
+    },
+    {
+      "externalId": "fresh-life-151",
+      "japanese": "ちょっと落ち着いた。",
+      "tokens": [
+        {
+          "text": "ちょっと落ち着いた。",
+          "kana": "ちょっとおちついた"
+        }
+      ],
+      "kana": "ちょっとおちついた",
+      "chinese": "稍微平静下来了。",
+      "category": "daily",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 940,
+      "chunkPattern": "ちょっと落ち着いた",
+      "tags": ["display", "fresh-display", "fresh-20260610", "daily-life", "body"]
+    },
+    {
+      "externalId": "fresh-life-152",
+      "japanese": "無理すると長引きそう。",
+      "tokens": [
+        {
+          "text": "無理すると長引きそう。",
+          "kana": "むりするとながびきそう"
+        }
+      ],
+      "kana": "むりするとながびきそう",
+      "chinese": "勉强的话可能会拖更久。",
+      "category": "daily",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 941,
+      "chunkPattern": "無理すると長引きそう",
+      "tags": ["display", "fresh-display", "fresh-20260610", "daily-life", "body"]
+    },
+    {
+      "externalId": "fresh-life-153",
+      "japanese": "体冷えたかも。",
+      "tokens": [
+        {
+          "text": "体冷えたかも。",
+          "kana": "からだひえたかも"
+        }
+      ],
+      "kana": "からだひえたかも",
+      "chinese": "身体可能有点受凉。",
+      "category": "daily",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 942,
+      "chunkPattern": "体冷えたかも",
+      "tags": ["display", "fresh-display", "fresh-20260610", "daily-life", "body"]
+    },
+    {
+      "externalId": "fresh-life-154",
+      "japanese": "お腹鳴った。",
+      "tokens": [
+        {
+          "text": "お腹鳴った。",
+          "kana": "おなかなった"
+        }
+      ],
+      "kana": "おなかなった",
+      "chinese": "肚子叫了。",
+      "category": "daily",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 943,
+      "chunkPattern": "お腹鳴った",
+      "tags": ["display", "fresh-display", "fresh-20260610", "daily-life", "body"]
+    },
+    {
+      "externalId": "fresh-life-155",
+      "japanese": "もう少し休みたい。",
+      "tokens": [
+        {
+          "text": "もう少し休みたい。",
+          "kana": "もうすこしやすみたい"
+        }
+      ],
+      "kana": "もうすこしやすみたい",
+      "chinese": "想再休息一下。",
+      "category": "daily",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 944,
+      "chunkPattern": "もう少し休みたい",
+      "tags": ["display", "fresh-display", "fresh-20260610", "daily-life", "body"]
+    },
+    {
+      "externalId": "fresh-life-156",
+      "japanese": "気分転換したい。",
+      "tokens": [
+        {
+          "text": "気分転換したい。",
+          "kana": "きぶんてんかんしたい"
+        }
+      ],
+      "kana": "きぶんてんかんしたい",
+      "chinese": "想换换心情。",
+      "category": "daily",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 946,
+      "chunkPattern": "気分転換したい",
+      "tags": ["display", "fresh-display", "fresh-20260610", "daily-life", "body"]
+    },
+    {
+      "externalId": "fresh-life-157",
+      "japanese": "なんか集中できない。",
+      "tokens": [
+        {
+          "text": "なんか集中できない。",
+          "kana": "なんかしゅうちゅうできない"
+        }
+      ],
+      "kana": "なんかしゅうちゅうできない",
+      "chinese": "总觉得集中不了。",
+      "category": "daily",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 947,
+      "chunkPattern": "なんか集中できない",
+      "tags": ["display", "fresh-display", "fresh-20260610", "daily-life", "body"]
+    },
+    {
+      "externalId": "fresh-life-158",
+      "japanese": "今日はのんびりしたい。",
+      "tokens": [
+        {
+          "text": "今日はのんびりしたい。",
+          "kana": "きょうはのんびりしたい"
+        }
+      ],
+      "kana": "きょうはのんびりしたい",
+      "chinese": "今天想悠闲一点。",
+      "category": "daily",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 948,
+      "chunkPattern": "今日はのんびりしたい",
+      "tags": ["display", "fresh-display", "fresh-20260610", "daily-life", "body"]
+    },
+    {
+      "externalId": "fresh-life-159",
+      "japanese": "だいぶ楽になった。",
+      "tokens": [
+        {
+          "text": "だいぶ楽になった。",
+          "kana": "だいぶらくになった"
+        }
+      ],
+      "kana": "だいぶらくになった",
+      "chinese": "好多了。",
+      "category": "daily",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 949,
+      "chunkPattern": "だいぶ楽になった",
+      "tags": ["display", "fresh-display", "fresh-20260610", "daily-life", "body"]
+    },
+    {
+      "externalId": "fresh-life-160",
+      "japanese": "ちょっと元気戻った。",
+      "tokens": [
+        {
+          "text": "ちょっと元気戻った。",
+          "kana": "ちょっとげんきもどった"
+        }
+      ],
+      "kana": "ちょっとげんきもどった",
+      "chinese": "稍微恢复精神了。",
+      "category": "daily",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 950,
+      "chunkPattern": "ちょっと元気戻った",
+      "tags": ["display", "fresh-display", "fresh-20260610", "daily-life", "body"]
+    },
+    {
+      "externalId": "fresh-life-161",
+      "japanese": "これ持ってて。",
+      "tokens": [
+        {
+          "text": "これ持ってて。",
+          "kana": "これもってて"
+        }
+      ],
+      "kana": "これもってて",
+      "chinese": "帮我拿一下这个。",
+      "category": "request",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 952,
+      "chunkPattern": "これ持ってて",
+      "tags": ["display", "fresh-display", "fresh-20260610", "daily-life", "request"]
+    },
+    {
+      "externalId": "fresh-life-162",
+      "japanese": "ちょっと見てて。",
+      "tokens": [
+        {
+          "text": "ちょっと見てて。",
+          "kana": "ちょっとみてて"
+        }
+      ],
+      "kana": "ちょっとみてて",
+      "chinese": "帮我看一下。",
+      "category": "request",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 953,
+      "chunkPattern": "ちょっと見てて",
+      "tags": ["display", "fresh-display", "fresh-20260610", "daily-life", "request"]
+    },
+    {
+      "externalId": "fresh-life-163",
+      "japanese": "先に入ってて。",
+      "tokens": [
+        {
+          "text": "先に入ってて。",
+          "kana": "さきにはいってて"
+        }
+      ],
+      "kana": "さきにはいってて",
+      "chinese": "你先进去。",
+      "category": "request",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 954,
+      "chunkPattern": "先に入ってて",
+      "tags": ["display", "fresh-display", "fresh-20260610", "daily-life", "request"]
+    },
+    {
+      "externalId": "fresh-life-164",
+      "japanese": "写真送って。",
+      "tokens": [
+        {
+          "text": "写真送って。",
+          "kana": "しゃしんおくって"
+        }
+      ],
+      "kana": "しゃしんおくって",
+      "chinese": "把照片发我。",
+      "category": "request",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 955,
+      "chunkPattern": "写真送って",
+      "tags": ["display", "fresh-display", "fresh-20260610", "daily-life", "request"]
+    },
+    {
+      "externalId": "fresh-life-165",
+      "japanese": "場所送って。",
+      "tokens": [
+        {
+          "text": "場所送って。",
+          "kana": "ばしょおくって"
+        }
+      ],
+      "kana": "ばしょおくって",
+      "chinese": "把位置发我。",
+      "category": "request",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 956,
+      "chunkPattern": "場所送って",
+      "tags": ["display", "fresh-display", "fresh-20260610", "daily-life", "request"]
+    },
+    {
+      "externalId": "fresh-life-166",
+      "japanese": "着いたら教えて。",
+      "tokens": [
+        {
+          "text": "着いたら教えて。",
+          "kana": "ついたらおしえて"
+        }
+      ],
+      "kana": "ついたらおしえて",
+      "chinese": "到了告诉我。",
+      "category": "request",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 958,
+      "chunkPattern": "着いたら教えて",
+      "tags": ["display", "fresh-display", "fresh-20260610", "daily-life", "request"]
+    },
+    {
+      "externalId": "fresh-life-167",
+      "japanese": "先に注文してて。",
+      "tokens": [
+        {
+          "text": "先に注文してて。",
+          "kana": "さきにちゅうもんしてて"
+        }
+      ],
+      "kana": "さきにちゅうもんしてて",
+      "chinese": "你先点单。",
+      "category": "request",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 959,
+      "chunkPattern": "先に注文してて",
+      "tags": ["display", "fresh-display", "fresh-20260610", "daily-life", "request"]
+    },
+    {
+      "externalId": "fresh-life-168",
+      "japanese": "これ開けてもいい？",
+      "tokens": [
+        {
+          "text": "これ開けてもいい？",
+          "kana": "これあけてもいい"
+        }
+      ],
+      "kana": "これあけてもいい",
+      "chinese": "这个可以打开吗？",
+      "category": "request",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 960,
+      "chunkPattern": "これ開けてもいい",
+      "tags": ["display", "fresh-display", "fresh-20260610", "daily-life", "request"]
+    },
+    {
+      "externalId": "fresh-life-169",
+      "japanese": "少し待ってて。",
+      "tokens": [
+        {
+          "text": "少し待ってて。",
+          "kana": "すこしまってて"
+        }
+      ],
+      "kana": "すこしまってて",
+      "chinese": "等我一下。",
+      "category": "request",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 961,
+      "chunkPattern": "少し待ってて",
+      "tags": ["display", "fresh-display", "fresh-20260610", "daily-life", "request"]
+    },
+    {
+      "externalId": "fresh-life-170",
+      "japanese": "ここ座っていい？",
+      "tokens": [
+        {
+          "text": "ここ座っていい？",
+          "kana": "ここすわっていい"
+        }
+      ],
+      "kana": "ここすわっていい",
+      "chinese": "这里可以坐吗？",
+      "category": "request",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 962,
+      "chunkPattern": "ここ座っていい",
+      "tags": ["display", "fresh-display", "fresh-20260610", "daily-life", "request"]
+    },
+    {
+      "externalId": "fresh-life-171",
+      "japanese": "それ取ってくれる？",
+      "tokens": [
+        {
+          "text": "それ取ってくれる？",
+          "kana": "それとってくれる"
+        }
+      ],
+      "kana": "それとってくれる",
+      "chinese": "能帮我拿一下那个吗？",
+      "category": "request",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 964,
+      "chunkPattern": "それ取ってくれる",
+      "tags": ["display", "fresh-display", "fresh-20260610", "daily-life", "request"]
+    },
+    {
+      "externalId": "fresh-life-172",
+      "japanese": "一口ちょうだい。",
+      "tokens": [
+        {
+          "text": "一口ちょうだい。",
+          "kana": "ひとくちちょうだい"
+        }
+      ],
+      "kana": "ひとくちちょうだい",
+      "chinese": "给我尝一口。",
+      "category": "request",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 965,
+      "chunkPattern": "一口ちょうだい",
+      "tags": ["display", "fresh-display", "fresh-20260610", "daily-life", "request"]
+    },
+    {
+      "externalId": "fresh-life-173",
+      "japanese": "充電器貸して。",
+      "tokens": [
+        {
+          "text": "充電器貸して。",
+          "kana": "じゅうでんきかして"
+        }
+      ],
+      "kana": "じゅうでんきかして",
+      "chinese": "借我充电器。",
+      "category": "request",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 966,
+      "chunkPattern": "充電器貸して",
+      "tags": ["display", "fresh-display", "fresh-20260610", "daily-life", "request"]
+    },
+    {
+      "externalId": "fresh-life-174",
+      "japanese": "傘に入れて。",
+      "tokens": [
+        {
+          "text": "傘に入れて。",
+          "kana": "かさにいれて"
+        }
+      ],
+      "kana": "かさにいれて",
+      "chinese": "让我蹭一下伞。",
+      "category": "request",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 967,
+      "chunkPattern": "傘に入れて",
+      "tags": ["display", "fresh-display", "fresh-20260610", "daily-life", "request"]
+    },
+    {
+      "externalId": "fresh-life-175",
+      "japanese": "ついでにお願い。",
+      "tokens": [
+        {
+          "text": "ついでにお願い。",
+          "kana": "ついでにおねがい"
+        }
+      ],
+      "kana": "ついでにおねがい",
+      "chinese": "顺便拜托了。",
+      "category": "request",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 968,
+      "chunkPattern": "ついでにお願い",
+      "tags": ["display", "fresh-display", "fresh-20260610", "daily-life", "request"]
+    },
+    {
+      "externalId": "fresh-life-176",
+      "japanese": "後で聞いてもいい？",
+      "tokens": [
+        {
+          "text": "後で聞いてもいい？",
+          "kana": "あとできいてもいい"
+        }
+      ],
+      "kana": "あとできいてもいい",
+      "chinese": "我晚点问可以吗？",
+      "category": "request",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 970,
+      "chunkPattern": "後で聞いてもいい",
+      "tags": ["display", "fresh-display", "fresh-20260610", "daily-life", "request"]
+    },
+    {
+      "externalId": "fresh-life-177",
+      "japanese": "もう一回言って。",
+      "tokens": [
+        {
+          "text": "もう一回言って。",
+          "kana": "もういっかいいって"
+        }
+      ],
+      "kana": "もういっかいいって",
+      "chinese": "再说一遍。",
+      "category": "request",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 971,
+      "chunkPattern": "もう一回言って",
+      "tags": ["display", "fresh-display", "fresh-20260610", "daily-life", "request"]
+    },
+    {
+      "externalId": "fresh-life-178",
+      "japanese": "ゆっくり話して。",
+      "tokens": [
+        {
+          "text": "ゆっくり話して。",
+          "kana": "ゆっくりはなして"
+        }
+      ],
+      "kana": "ゆっくりはなして",
+      "chinese": "慢点说。",
+      "category": "request",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 972,
+      "chunkPattern": "ゆっくり話して",
+      "tags": ["display", "fresh-display", "fresh-20260610", "daily-life", "request"]
+    },
+    {
+      "externalId": "fresh-life-179",
+      "japanese": "ここ押してみて。",
+      "tokens": [
+        {
+          "text": "ここ押してみて。",
+          "kana": "ここおしてみて"
+        }
+      ],
+      "kana": "ここおしてみて",
+      "chinese": "试着按这里。",
+      "category": "request",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 973,
+      "chunkPattern": "ここ押してみて",
+      "tags": ["display", "fresh-display", "fresh-20260610", "daily-life", "request"]
+    },
+    {
+      "externalId": "fresh-life-180",
+      "japanese": "先に進めてて。",
+      "tokens": [
+        {
+          "text": "先に進めてて。",
+          "kana": "さきにすすめてて"
+        }
+      ],
+      "kana": "さきにすすめてて",
+      "chinese": "你先继续往下做。",
+      "category": "request",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 974,
+      "chunkPattern": "先に進めてて",
+      "tags": ["display", "fresh-display", "fresh-20260610", "daily-life", "request"]
+    },
+    {
+      "externalId": "fresh-life-181",
+      "japanese": "今日早かったね。",
+      "tokens": [
+        {
+          "text": "今日早かったね。",
+          "kana": "きょうはやかったね"
+        }
+      ],
+      "kana": "きょうはやかったね",
+      "chinese": "今天过得真快。",
+      "category": "daily",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 976,
+      "chunkPattern": "今日早かったね",
+      "tags": ["display", "fresh-display", "fresh-20260610", "daily-life", "night"]
+    },
+    {
+      "externalId": "fresh-life-182",
+      "japanese": "なんか一日長かった。",
+      "tokens": [
+        {
+          "text": "なんか一日長かった。",
+          "kana": "なんかいちにちながかった"
+        }
+      ],
+      "kana": "なんかいちにちながかった",
+      "chinese": "感觉这一天好长。",
+      "category": "daily",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 977,
+      "chunkPattern": "なんか一日長かった",
+      "tags": ["display", "fresh-display", "fresh-20260610", "daily-life", "night"]
+    },
+    {
+      "externalId": "fresh-life-183",
+      "japanese": "今日はよく歩いた。",
+      "tokens": [
+        {
+          "text": "今日はよく歩いた。",
+          "kana": "きょうはよくあるいた"
+        }
+      ],
+      "kana": "きょうはよくあるいた",
+      "chinese": "今天走了好多路。",
+      "category": "daily",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 978,
+      "chunkPattern": "今日はよく歩いた",
+      "tags": ["display", "fresh-display", "fresh-20260610", "daily-life", "night"]
+    },
+    {
+      "externalId": "fresh-life-184",
+      "japanese": "ちょっといい日だった。",
+      "tokens": [
+        {
+          "text": "ちょっといい日だった。",
+          "kana": "ちょっといいひだった"
+        }
+      ],
+      "kana": "ちょっといいひだった",
+      "chinese": "今天还挺不错的。",
+      "category": "daily",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 979,
+      "chunkPattern": "ちょっといい日だった",
+      "tags": ["display", "fresh-display", "fresh-20260610", "daily-life", "night"]
+    },
+    {
+      "externalId": "fresh-life-185",
+      "japanese": "まあまあ頑張った。",
+      "tokens": [
+        {
+          "text": "まあまあ頑張った。",
+          "kana": "まあまあがんばった"
+        }
+      ],
+      "kana": "まあまあがんばった",
+      "chinese": "也算挺努力了。",
+      "category": "daily",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 980,
+      "chunkPattern": "まあまあ頑張った",
+      "tags": ["display", "fresh-display", "fresh-20260610", "daily-life", "night"]
+    },
+    {
+      "externalId": "fresh-life-186",
+      "japanese": "今日はもう閉店。",
+      "tokens": [
+        {
+          "text": "今日はもう閉店。",
+          "kana": "きょうはもうへいてん"
+        }
+      ],
+      "kana": "きょうはもうへいてん",
+      "chinese": "今天到此打烊。",
+      "category": "daily",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 982,
+      "chunkPattern": "今日はもう閉店",
+      "tags": ["display", "fresh-display", "fresh-20260610", "daily-life", "night"]
+    },
+    {
+      "externalId": "fresh-life-187",
+      "japanese": "スマホ置こう。",
+      "tokens": [
+        {
+          "text": "スマホ置こう。",
+          "kana": "すまほおこう"
+        }
+      ],
+      "kana": "すまほおこう",
+      "chinese": "把手机放下吧。",
+      "category": "daily",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 983,
+      "chunkPattern": "スマホ置こう",
+      "tags": ["display", "fresh-display", "fresh-20260610", "daily-life", "night"]
+    },
+    {
+      "externalId": "fresh-life-188",
+      "japanese": "明日の準備しとく。",
+      "tokens": [
+        {
+          "text": "明日の準備しとく。",
+          "kana": "あしたのじゅんびしとく"
+        }
+      ],
+      "kana": "あしたのじゅんびしとく",
+      "chinese": "先准备好明天的东西。",
+      "category": "daily",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 984,
+      "chunkPattern": "明日の準備しとく",
+      "tags": ["display", "fresh-display", "fresh-20260610", "daily-life", "night"]
+    },
+    {
+      "externalId": "fresh-life-189",
+      "japanese": "アラームかけた？",
+      "tokens": [
+        {
+          "text": "アラームかけた？",
+          "kana": "あらーむかけた"
+        }
+      ],
+      "kana": "あらーむかけた",
+      "chinese": "闹钟设了吗？",
+      "category": "daily",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 985,
+      "chunkPattern": "アラームかけた",
+      "tags": ["display", "fresh-display", "fresh-20260610", "daily-life", "night"]
+    },
+    {
+      "externalId": "fresh-life-190",
+      "japanese": "充電して寝る。",
+      "tokens": [
+        {
+          "text": "充電して寝る。",
+          "kana": "じゅうでんしてねる"
+        }
+      ],
+      "kana": "じゅうでんしてねる",
+      "chinese": "充上电睡觉。",
+      "category": "daily",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 986,
+      "chunkPattern": "充電して寝る",
+      "tags": ["display", "fresh-display", "fresh-20260610", "daily-life", "night"]
+    },
+    {
+      "externalId": "fresh-life-191",
+      "japanese": "電気暗くするね。",
+      "tokens": [
+        {
+          "text": "電気暗くするね。",
+          "kana": "でんきくらくするね"
+        }
+      ],
+      "kana": "でんきくらくするね",
+      "chinese": "我把灯调暗。",
+      "category": "daily",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 988,
+      "chunkPattern": "電気暗くするね",
+      "tags": ["display", "fresh-display", "fresh-20260610", "daily-life", "night"]
+    },
+    {
+      "externalId": "fresh-life-192",
+      "japanese": "そろそろ寝よう。",
+      "tokens": [
+        {
+          "text": "そろそろ寝よう。",
+          "kana": "そろそろねよう"
+        }
+      ],
+      "kana": "そろそろねよう",
+      "chinese": "差不多睡吧。",
+      "category": "daily",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 989,
+      "chunkPattern": "そろそろ寝よう",
+      "tags": ["display", "fresh-display", "fresh-20260610", "daily-life", "night"]
+    },
+    {
+      "externalId": "fresh-life-193",
+      "japanese": "明日は晴れるかな。",
+      "tokens": [
+        {
+          "text": "明日は晴れるかな。",
+          "kana": "あしたははれるかな"
+        }
+      ],
+      "kana": "あしたははれるかな",
+      "chinese": "明天会晴吗？",
+      "category": "daily",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 990,
+      "chunkPattern": "明日は晴れるかな",
+      "tags": ["display", "fresh-display", "fresh-20260610", "daily-life", "night"]
+    },
+    {
+      "externalId": "fresh-life-194",
+      "japanese": "朝起きられるかな。",
+      "tokens": [
+        {
+          "text": "朝起きられるかな。",
+          "kana": "あさおきられるかな"
+        }
+      ],
+      "kana": "あさおきられるかな",
+      "chinese": "早上能起得来吗？",
+      "category": "daily",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 991,
+      "chunkPattern": "朝起きられるかな",
+      "tags": ["display", "fresh-display", "fresh-20260610", "daily-life", "night"]
+    },
+    {
+      "externalId": "fresh-life-195",
+      "japanese": "今日のうちに片付ける。",
+      "tokens": [
+        {
+          "text": "今日のうちに片付ける。",
+          "kana": "きょうのうちにかたづける"
+        }
+      ],
+      "kana": "きょうのうちにかたづける",
+      "chinese": "今天之内收拾完。",
+      "category": "daily",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 992,
+      "chunkPattern": "今日のうちに片付ける",
+      "tags": ["display", "fresh-display", "fresh-20260610", "daily-life", "night"]
+    },
+    {
+      "externalId": "fresh-life-196",
+      "japanese": "いい感じに終われた。",
+      "tokens": [
+        {
+          "text": "いい感じに終われた。",
+          "kana": "いいかんじにおわれた"
+        }
+      ],
+      "kana": "いいかんじにおわれた",
+      "chinese": "收尾收得不错。",
+      "category": "daily",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 994,
+      "chunkPattern": "いい感じに終われた",
+      "tags": ["display", "fresh-display", "fresh-20260610", "daily-life", "night"]
+    },
+    {
+      "externalId": "fresh-life-197",
+      "japanese": "明日は軽めでいこう。",
+      "tokens": [
+        {
+          "text": "明日は軽めでいこう。",
+          "kana": "あしたはかるめでいこう"
+        }
+      ],
+      "kana": "あしたはかるめでいこう",
+      "chinese": "明天轻松一点来。",
+      "category": "daily",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 995,
+      "chunkPattern": "明日は軽めでいこう",
+      "tags": ["display", "fresh-display", "fresh-20260610", "daily-life", "night"]
+    },
+    {
+      "externalId": "fresh-life-198",
+      "japanese": "今日はここまで。",
+      "tokens": [
+        {
+          "text": "今日はここまで。",
+          "kana": "きょうはここまで"
+        }
+      ],
+      "kana": "きょうはここまで",
+      "chinese": "今天就到这里。",
+      "category": "daily",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 996,
+      "chunkPattern": "今日はここまで",
+      "tags": ["display", "fresh-display", "fresh-20260610", "daily-life", "night"]
+    },
+    {
+      "externalId": "fresh-life-199",
+      "japanese": "また明日考えよう。",
+      "tokens": [
+        {
+          "text": "また明日考えよう。",
+          "kana": "またあしたかんがえよう"
+        }
+      ],
+      "kana": "またあしたかんがえよう",
+      "chinese": "明天再想吧。",
+      "category": "daily",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 997,
+      "chunkPattern": "また明日考えよう",
+      "tags": ["display", "fresh-display", "fresh-20260610", "daily-life", "night"]
+    },
+    {
+      "externalId": "fresh-life-200",
+      "japanese": "おやすみ、また明日。",
+      "tokens": [
+        {
+          "text": "おやすみ、また明日。",
+          "kana": "おやすみまたあした"
+        }
+      ],
+      "kana": "おやすみまたあした",
+      "chinese": "晚安，明天见。",
+      "category": "daily",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 998,
+      "chunkPattern": "おやすみ、また明日",
+      "tags": ["display", "fresh-display", "fresh-20260610", "daily-life", "night"]
+    }
+  ]
+}

@@ -1,5 +1,17 @@
 # Nihongo Studio
 
+Learn Japanese while you work.
+
+Instead of spending 30 minutes studying Japanese every day,
+this project keeps Japanese around you all day long.
+
+Passive learning.
+Automatic slideshow.
+Native pronunciation.
+Grammar progression.
+
+Make Japanese part of your working environment.
+
 > Open-source Japanese spoken-output training system for "reads-fluently-but-can't-speak" learners.
 >
 > 面向「读得懂但说不出口」学习者的开源日语口语训练系统。

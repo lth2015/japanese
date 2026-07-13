@@ -16,6 +16,8 @@ type Props = {
   ignoreSourceFilter?: boolean
 }
 
+const FRESH_DISPLAY_TAG = "fresh-display"
+
 export function DisplayTicker({ sentences, ignoreSourceFilter = false }: Props) {
   const [settings, setDisplaySettings] = useDisplaySettings()
   const [index, setIndex] = useState(0)
@@ -26,10 +28,14 @@ export function DisplayTicker({ sentences, ignoreSourceFilter = false }: Props) 
   const chromeTimer = useRef<ReturnType<typeof setTimeout> | null>(null)
 
   const byId = useMemo(() => new Map(sentences.map((s) => [s.id, s])), [sentences])
+  const priorityIds = useMemo(
+    () => sentences.filter((s) => s.tags?.includes(FRESH_DISPLAY_TAG)).map((s) => s.id),
+    [sentences],
+  )
 
   // Hydrate the persisted shuffle once on mount: reconcile it with the
   // current sentence set so progress survives a reload and freshly-imported
-  // packs splice into the upcoming tail instead of waiting a full cycle.
+  // display packs move into the upcoming tail instead of waiting a full cycle.
   useEffect(() => {
     const persisted = loadTickerState()
     const currentIds = sentences.map((s) => s.id)
@@ -37,6 +43,7 @@ export function DisplayTicker({ sentences, ignoreSourceFilter = false }: Props) 
       persisted?.shuffledIds ?? [],
       currentIds,
       persisted?.cursor ?? 0,
+      priorityIds,
     )
     const startCursor = Math.min(
       Math.max(persisted?.cursor ?? 0, 0),
@@ -45,7 +52,7 @@ export function DisplayTicker({ sentences, ignoreSourceFilter = false }: Props) 
     setOrder(reconciled)
     setIndex(startCursor)
     saveTickerState({ shuffledIds: reconciled, cursor: startCursor })
-  }, [sentences])
+  }, [sentences, priorityIds])
 
   const ordered = useMemo(() => {
     if (!order) return sentences

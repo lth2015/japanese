@@ -1,6 +1,7 @@
 "use client"
 
 import { FuriganaText } from "@/components/furigana-text"
+import { TtsVoiceHint } from "@/components/tts-voice-hint"
 import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
 import { ensureVoicesLoaded, speakJapanese } from "@/lib/speech"
@@ -236,6 +237,8 @@ export function VerbTicker({ cards }: Props) {
       onMouseMove={bumpChrome}
       onTouchStart={bumpChrome}
     >
+      <TtsVoiceHint active={settings.autoPlayTTS && !paused} />
+
       {/* ── Top chrome ── */}
       <div
         className={cn(

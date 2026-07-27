@@ -7,28 +7,56 @@
 
 let cachedJaVoice: SpeechSynthesisVoice | null = null
 
+function getVoicesSafe(): SpeechSynthesisVoice[] {
+  if (typeof window === "undefined" || !window.speechSynthesis) return []
+  return window.speechSynthesis.getVoices()
+}
+
+// A voice counts as Japanese by BCP-47 tag. Some platforms report "ja_JP".
+function isJapaneseVoice(v: SpeechSynthesisVoice): boolean {
+  return v.lang.toLowerCase().replace("_", "-").startsWith("ja")
+}
+
+export function hasJapaneseVoice(): boolean {
+  return getVoicesSafe().some(isJapaneseVoice)
+}
+
 function findJapaneseVoice(): SpeechSynthesisVoice | null {
-  if (typeof window === "undefined") return null
-  const voices = window.speechSynthesis.getVoices()
-  if (cachedJaVoice && voices.includes(cachedJaVoice)) return cachedJaVoice
-  // Prefer female-sounding native voices; fall back to anything ja-JP.
-  const ja = voices.filter((v) => v.lang.startsWith("ja"))
+  const voices = getVoicesSafe()
+  if (cachedJaVoice && voices.includes(cachedJaVoice) && isJapaneseVoice(cachedJaVoice)) {
+    return cachedJaVoice
+  }
+  const ja = voices.filter(isJapaneseVoice)
   if (ja.length === 0) return null
-  cachedJaVoice = ja.find((v) => /Kyoko|Otoya|Hattori|Sayaka|Female/i.test(v.name)) ?? ja[0]
+  // Prefer known high-quality native/female voices, then any local voice,
+  // then whatever ja-JP voice exists.
+  cachedJaVoice =
+    ja.find((v) =>
+      /Kyoko|Otoya|Hattori|Sayaka|O-ren|Google 日本語|Google Japanese|Female/i.test(v.name),
+    ) ??
+    ja.find((v) => v.localService) ??
+    ja[0]
   return cachedJaVoice
 }
 
 export function speakJapanese(text: string, opts: { rate?: number } = {}): Promise<void> {
   return new Promise((resolve, reject) => {
-    if (typeof window === "undefined") {
+    if (typeof window === "undefined" || !window.speechSynthesis) {
       reject(new Error("Not in browser"))
       return
     }
-    const utter = new SpeechSynthesisUtterance(text)
-    utter.lang = "ja-JP"
-    utter.rate = opts.rate ?? 1
     const voice = findJapaneseVoice()
-    if (voice) utter.voice = voice
+    // Without an explicit Japanese voice the browser falls back to the system
+    // default — often a Chinese voice that reads the kanji in Chinese. Refuse
+    // rather than emit wrong-language audio; the UI surfaces a hint instead.
+    if (!voice) {
+      reject(new Error("no-japanese-voice"))
+      return
+    }
+    const utter = new SpeechSynthesisUtterance(text)
+    utter.voice = voice
+    utter.lang = voice.lang || "ja-JP"
+    utter.rate = opts.rate ?? 1
     utter.onend = () => resolve()
     utter.onerror = (e) => reject(new Error(`TTS error: ${e.error}`))
     window.speechSynthesis.cancel()
@@ -36,15 +64,35 @@ export function speakJapanese(text: string, opts: { rate?: number } = {}): Promi
   })
 }
 
-// Trigger voice list load (Chrome lazy-loads)
+// Trigger and wait for the voice list to load. Chrome/Safari lazy-load voices
+// and may fire `onvoiceschanged` more than once as more voices stream in, so we
+// resolve only once a Japanese voice appears (or a hard timeout elapses),
+// rather than on the first non-empty list.
 export function ensureVoicesLoaded(): Promise<void> {
   return new Promise((resolve) => {
-    if (typeof window === "undefined") return resolve()
-    const voices = window.speechSynthesis.getVoices()
-    if (voices.length > 0) return resolve()
-    window.speechSynthesis.onvoiceschanged = () => resolve()
-    // Backup timeout
-    setTimeout(resolve, 800)
+    if (typeof window === "undefined" || !window.speechSynthesis) return resolve()
+    if (hasJapaneseVoice()) return resolve()
+
+    let settled = false
+    let poll: ReturnType<typeof setInterval> | null = null
+    let hardTimeout: ReturnType<typeof setTimeout> | null = null
+    const done = () => {
+      if (settled) return
+      settled = true
+      if (poll) clearInterval(poll)
+      if (hardTimeout) clearTimeout(hardTimeout)
+      window.speechSynthesis.onvoiceschanged = null
+      resolve()
+    }
+
+    window.speechSynthesis.onvoiceschanged = () => {
+      if (hasJapaneseVoice() || getVoicesSafe().length > 0) done()
+    }
+    // Some browsers never fire onvoiceschanged — poll as a backup.
+    poll = setInterval(() => {
+      if (hasJapaneseVoice() || getVoicesSafe().length > 0) done()
+    }, 150)
+    hardTimeout = setTimeout(done, 3000)
   })
 }
 

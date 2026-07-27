@@ -1,6 +1,7 @@
 "use client"
 
 import { FuriganaText } from "@/components/furigana-text"
+import { TtsVoiceHint } from "@/components/tts-voice-hint"
 import { Button } from "@/components/ui/button"
 import type { Sentence } from "@/lib/db/schema"
 import { loadTickerState, reconcileOrder, saveTickerState } from "@/lib/display-order"
@@ -211,6 +212,8 @@ export function DisplayTicker({ sentences, ignoreSourceFilter = false }: Props) 
       onMouseMove={bumpChrome}
       onTouchStart={bumpChrome}
     >
+      <TtsVoiceHint active={settings.autoPlayTTS && !paused} />
+
       {/* Top-right chrome: settings + exit */}
       <div
         className={cn(

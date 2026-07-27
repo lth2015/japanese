@@ -1,0 +1,7786 @@
+{
+  "packVersion": 1,
+  "packId": "display-work-life-fresh-20260727-001",
+  "title": "Display Work & Life Fresh 2026-07-27",
+  "generatedBy": "Claude",
+  "generatedAt": "2026-07-27",
+  "targetProfile": "Colloquial work & daily-life spoken Japanese for listening comprehension: meetings, coworker chat, phone/customer, commute/errands, food/health/home. Short, natural, high-frequency lines.",
+  "reviewStatus": "reviewed",
+  "sentences": [
+    {
+      "externalId": "work-mtg-001",
+      "japanese": "資料、共有しておきますね。",
+      "tokens": [
+        {
+          "text": "資料",
+          "kana": "しりょう"
+        },
+        {
+          "text": "、"
+        },
+        {
+          "text": "共有",
+          "kana": "きょうゆう"
+        },
+        {
+          "text": "して"
+        },
+        {
+          "text": "おきますね"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "しりょうきょうゆうしておきますね",
+      "chinese": "资料我先共享一下哦。",
+      "category": "progress",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 120,
+      "chunkPattern": "〜ておきますね",
+      "tags": [
+        "display",
+        "fresh-display",
+        "fresh-20260727",
+        "work",
+        "meeting"
+      ]
+    },
+    {
+      "externalId": "work-mtg-002",
+      "japanese": "進捗はいかがですか。",
+      "tokens": [
+        {
+          "text": "進捗",
+          "kana": "しんちょく"
+        },
+        {
+          "text": "は"
+        },
+        {
+          "text": "いかがですか"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "しんちょくはいかがですか",
+      "chinese": "进度怎么样了？",
+      "category": "progress",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 150,
+      "chunkPattern": "〜はいかがですか",
+      "tags": [
+        "display",
+        "fresh-display",
+        "fresh-20260727",
+        "work",
+        "meeting"
+      ]
+    },
+    {
+      "externalId": "work-mtg-003",
+      "japanese": "今のところ順調です。",
+      "tokens": [
+        {
+          "text": "今",
+          "kana": "いま"
+        },
+        {
+          "text": "のところ"
+        },
+        {
+          "text": "順調",
+          "kana": "じゅんちょう"
+        },
+        {
+          "text": "です"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "いまのところじゅんちょうです",
+      "chinese": "目前进展顺利。",
+      "category": "progress",
+      "register": "丁寧",
+      "difficulty": 1,
+      "frequencyRank": 90,
+      "chunkPattern": "今のところ〜",
+      "tags": [
+        "display",
+        "fresh-display",
+        "fresh-20260727",
+        "work",
+        "meeting"
+      ]
+    },
+    {
+      "externalId": "work-mtg-004",
+      "japanese": "こちら、確認お願いします。",
+      "tokens": [
+        {
+          "text": "こちら"
+        },
+        {
+          "text": "、"
+        },
+        {
+          "text": "確認",
+          "kana": "かくにん"
+        },
+        {
+          "text": "お願い",
+          "kana": "おねがい"
+        },
+        {
+          "text": "します"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "こちらかくにんおねがいします",
+      "chinese": "这个麻烦你确认一下。",
+      "category": "request",
+      "register": "丁寧",
+      "difficulty": 1,
+      "frequencyRank": 60,
+      "chunkPattern": "〜お願いします",
+      "tags": [
+        "display",
+        "fresh-display",
+        "fresh-20260727",
+        "work",
+        "meeting"
+      ]
+    },
+    {
+      "externalId": "work-mtg-005",
+      "japanese": "あとで折り返します。",
+      "tokens": [
+        {
+          "text": "あとで"
+        },
+        {
+          "text": "折り返します",
+          "kana": "おりかえします"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "あとでおりかえします",
+      "chinese": "我待会儿回复你。",
+      "category": "progress",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 180,
+      "chunkPattern": "あとで〜",
+      "tags": [
+        "display",
+        "fresh-display",
+        "fresh-20260727",
+        "work",
+        "meeting"
+      ]
+    },
+    {
+      "externalId": "work-mtg-006",
+      "japanese": "少し遅れそうです。",
+      "tokens": [
+        {
+          "text": "少し",
+          "kana": "すこし"
+        },
+        {
+          "text": "遅れ",
+          "kana": "おくれ"
+        },
+        {
+          "text": "そうです"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "すこしおくれそうです",
+      "chinese": "看样子会稍微晚一点。",
+      "category": "progress",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 170,
+      "chunkPattern": "〜そうです",
+      "tags": [
+        "display",
+        "fresh-display",
+        "fresh-20260727",
+        "work",
+        "meeting"
+      ]
+    },
+    {
+      "externalId": "work-mtg-007",
+      "japanese": "その件、承知しました。",
+      "tokens": [
+        {
+          "text": "その"
+        },
+        {
+          "text": "件",
+          "kana": "けん"
+        },
+        {
+          "text": "、"
+        },
+        {
+          "text": "承知",
+          "kana": "しょうち"
+        },
+        {
+          "text": "しました"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "そのけんしょうちしました",
+      "chinese": "那件事我知道了。",
+      "category": "progress",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 110,
+      "chunkPattern": "承知しました",
+      "tags": [
+        "display",
+        "fresh-display",
+        "fresh-20260727",
+        "work",
+        "meeting"
+      ]
+    },
+    {
+      "externalId": "work-mtg-008",
+      "japanese": "明日までに仕上げます。",
+      "tokens": [
+        {
+          "text": "明日",
+          "kana": "あした"
+        },
+        {
+          "text": "までに"
+        },
+        {
+          "text": "仕上げます",
+          "kana": "しあげます"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "あしたまでにしあげます",
+      "chinese": "我明天之前做完。",
+      "category": "progress",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 140,
+      "chunkPattern": "〜までに〜ます",
+      "tags": [
+        "display",
+        "fresh-display",
+        "fresh-20260727",
+        "work",
+        "meeting"
+      ]
+    },
+    {
+      "externalId": "work-mtg-009",
+      "japanese": "一旦持ち帰ります。",
+      "tokens": [
+        {
+          "text": "一旦",
+          "kana": "いったん"
+        },
+        {
+          "text": "持ち帰ります",
+          "kana": "もちかえります"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "いったんもちかえります",
+      "chinese": "我先带回去研究一下。",
+      "category": "progress",
+      "register": "丁寧",
+      "difficulty": 3,
+      "frequencyRank": 260,
+      "chunkPattern": "一旦持ち帰ります",
+      "tags": [
+        "display",
+        "fresh-display",
+        "fresh-20260727",
+        "work",
+        "meeting"
+      ]
+    },
+    {
+      "externalId": "work-mtg-010",
+      "japanese": "次の議題に移りましょう。",
+      "tokens": [
+        {
+          "text": "次",
+          "kana": "つぎ"
+        },
+        {
+          "text": "の"
+        },
+        {
+          "text": "議題",
+          "kana": "ぎだい"
+        },
+        {
+          "text": "に"
+        },
+        {
+          "text": "移りましょう",
+          "kana": "うつりましょう"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "つぎのぎだいにうつりましょう",
+      "chinese": "我们进入下一个议题吧。",
+      "category": "progress",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 200,
+      "chunkPattern": "〜に移りましょう",
+      "tags": [
+        "display",
+        "fresh-display",
+        "fresh-20260727",
+        "work",
+        "meeting"
+      ]
+    },
+    {
+      "externalId": "work-mtg-011",
+      "japanese": "簡単に説明します。",
+      "tokens": [
+        {
+          "text": "簡単に",
+          "kana": "かんたんに"
+        },
+        {
+          "text": "説明します",
+          "kana": "せつめいします"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "かんたんにせつめいします",
+      "chinese": "我简单说明一下。",
+      "category": "progress",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 130,
+      "chunkPattern": "簡単に〜ます",
+      "tags": [
+        "display",
+        "fresh-display",
+        "fresh-20260727",
+        "work",
+        "meeting"
+      ]
+    },
+    {
+      "externalId": "work-mtg-012",
+      "japanese": "結論から言いますね。",
+      "tokens": [
+        {
+          "text": "結論",
+          "kana": "けつろん"
+        },
+        {
+          "text": "から"
+        },
+        {
+          "text": "言いますね",
+          "kana": "いいますね"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "けつろんからいいますね",
+      "chinese": "我先说结论哦。",
+      "category": "progress",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 210,
+      "chunkPattern": "結論から〜",
+      "tags": [
+        "display",
+        "fresh-display",
+        "fresh-20260727",
+        "work",
+        "meeting"
+      ]
+    },
+    {
+      "externalId": "work-mtg-013",
+      "japanese": "あとで共有します。",
+      "tokens": [
+        {
+          "text": "あとで"
+        },
+        {
+          "text": "共有します",
+          "kana": "きょうゆうします"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "あとできょうゆうします",
+      "chinese": "我待会儿共享给大家。",
+      "category": "progress",
+      "register": "丁寧",
+      "difficulty": 1,
+      "frequencyRank": 100,
+      "chunkPattern": "あとで〜します",
+      "tags": [
+        "display",
+        "fresh-display",
+        "fresh-20260727",
+        "work",
+        "meeting"
+      ]
+    },
+    {
+      "externalId": "work-mtg-014",
+      "japanese": "ちょっといいですか。",
+      "tokens": [
+        {
+          "text": "ちょっと"
+        },
+        {
+          "text": "いいですか"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "ちょっといいですか",
+      "chinese": "能占用你一点时间吗？",
+      "category": "request",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 50,
+      "chunkPattern": "ちょっといいですか",
+      "tags": [
+        "display",
+        "fresh-display",
+        "fresh-20260727",
+        "work",
+        "meeting"
+      ]
+    },
+    {
+      "externalId": "work-mtg-015",
+      "japanese": "今、大丈夫ですか。",
+      "tokens": [
+        {
+          "text": "今",
+          "kana": "いま"
+        },
+        {
+          "text": "、"
+        },
+        {
+          "text": "大丈夫ですか",
+          "kana": "だいじょうぶですか"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "いまだいじょうぶですか",
+      "chinese": "现在方便吗？",
+      "category": "request",
+      "register": "丁寧",
+      "difficulty": 1,
+      "frequencyRank": 70,
+      "chunkPattern": "今、大丈夫ですか",
+      "tags": [
+        "display",
+        "fresh-display",
+        "fresh-20260727",
+        "work",
+        "meeting"
+      ]
+    },
+    {
+      "externalId": "work-mtg-016",
+      "japanese": "後ほど連絡します。",
+      "tokens": [
+        {
+          "text": "後ほど",
+          "kana": "のちほど"
+        },
+        {
+          "text": "連絡します",
+          "kana": "れんらくします"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "のちほどれんらくします",
+      "chinese": "我稍后联系你。",
+      "category": "progress",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 160,
+      "chunkPattern": "後ほど〜します",
+      "tags": [
+        "display",
+        "fresh-display",
+        "fresh-20260727",
+        "work",
+        "meeting"
+      ]
+    },
+    {
+      "externalId": "work-mtg-017",
+      "japanese": "期限は金曜です。",
+      "tokens": [
+        {
+          "text": "期限",
+          "kana": "きげん"
+        },
+        {
+          "text": "は"
+        },
+        {
+          "text": "金曜",
+          "kana": "きんよう"
+        },
+        {
+          "text": "です"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "きげんはきんようです",
+      "chinese": "截止日期是周五。",
+      "category": "progress",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 190,
+      "chunkPattern": "〜は〜です",
+      "tags": [
+        "display",
+        "fresh-display",
+        "fresh-20260727",
+        "work",
+        "meeting"
+      ]
+    },
+    {
+      "externalId": "work-mtg-018",
+      "japanese": "問題ないと思います。",
+      "tokens": [
+        {
+          "text": "問題",
+          "kana": "もんだい"
+        },
+        {
+          "text": "ない"
+        },
+        {
+          "text": "と"
+        },
+        {
+          "text": "思います",
+          "kana": "おもいます"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "もんだいないとおもいます",
+      "chinese": "我觉得没问题。",
+      "category": "progress",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 120,
+      "chunkPattern": "〜と思います",
+      "tags": [
+        "display",
+        "fresh-display",
+        "fresh-20260727",
+        "work",
+        "meeting"
+      ]
+    },
+    {
+      "externalId": "work-mtg-019",
+      "japanese": "確認して折り返します。",
+      "tokens": [
+        {
+          "text": "確認して",
+          "kana": "かくにんして"
+        },
+        {
+          "text": "折り返します",
+          "kana": "おりかえします"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "かくにんしておりかえします",
+      "chinese": "我确认后回复你。",
+      "category": "progress",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 220,
+      "chunkPattern": "確認して〜",
+      "tags": [
+        "display",
+        "fresh-display",
+        "fresh-20260727",
+        "work",
+        "meeting"
+      ]
+    },
+    {
+      "externalId": "work-mtg-020",
+      "japanese": "こちらで対応します。",
+      "tokens": [
+        {
+          "text": "こちら"
+        },
+        {
+          "text": "で"
+        },
+        {
+          "text": "対応します",
+          "kana": "たいおうします"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "こちらでたいおうします",
+      "chinese": "这边由我来处理。",
+      "category": "progress",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 150,
+      "chunkPattern": "こちらで対応します",
+      "tags": [
+        "display",
+        "fresh-display",
+        "fresh-20260727",
+        "work",
+        "meeting"
+      ]
+    },
+    {
+      "externalId": "work-mtg-021",
+      "japanese": "先に進めますね。",
+      "tokens": [
+        {
+          "text": "先に",
+          "kana": "さきに"
+        },
+        {
+          "text": "進めますね",
+          "kana": "すすめますね"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "さきにすすめますね",
+      "chinese": "那我先往下推进哦。",
+      "category": "progress",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 180,
+      "chunkPattern": "先に進めますね",
+      "tags": [
+        "display",
+        "fresh-display",
+        "fresh-20260727",
+        "work",
+        "meeting"
+      ]
+    },
+    {
+      "externalId": "work-mtg-022",
+      "japanese": "認識合ってますか。",
+      "tokens": [
+        {
+          "text": "認識",
+          "kana": "にんしき"
+        },
+        {
+          "text": "合ってますか",
+          "kana": "あってますか"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "にんしきあってますか",
+      "chinese": "我们的理解一致吗？",
+      "category": "progress",
+      "register": "カジュアル",
+      "difficulty": 3,
+      "frequencyRank": 300,
+      "chunkPattern": "認識合ってますか",
+      "tags": [
+        "display",
+        "fresh-display",
+        "fresh-20260727",
+        "work",
+        "meeting"
+      ]
+    },
+    {
+      "externalId": "work-mtg-023",
+      "japanese": "一点確認させてください。",
+      "tokens": [
+        {
+          "text": "一点",
+          "kana": "いってん"
+        },
+        {
+          "text": "確認",
+          "kana": "かくにん"
+        },
+        {
+          "text": "させてください"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "いってんかくにんさせてください",
+      "chinese": "有一点想跟你确认一下。",
+      "category": "request",
+      "register": "丁寧",
+      "difficulty": 3,
+      "frequencyRank": 240,
+      "chunkPattern": "〜させてください",
+      "tags": [
+        "display",
+        "fresh-display",
+        "fresh-20260727",
+        "work",
+        "meeting"
+      ]
+    },
+    {
+      "externalId": "work-mtg-024",
+      "japanese": "まだ手をつけてないです。",
+      "tokens": [
+        {
+          "text": "まだ"
+        },
+        {
+          "text": "手",
+          "kana": "て"
+        },
+        {
+          "text": "を"
+        },
+        {
+          "text": "つけてないです"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "まだてをつけてないです",
+      "chinese": "我还没开始动手。",
+      "category": "progress",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 280,
+      "chunkPattern": "まだ手をつけてない",
+      "tags": [
+        "display",
+        "fresh-display",
+        "fresh-20260727",
+        "work",
+        "meeting"
+      ]
+    },
+    {
+      "externalId": "work-mtg-025",
+      "japanese": "午後には終わります。",
+      "tokens": [
+        {
+          "text": "午後",
+          "kana": "ごご"
+        },
+        {
+          "text": "には"
+        },
+        {
+          "text": "終わります",
+          "kana": "おわります"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "ごごにはおわります",
+      "chinese": "下午之前就能完成。",
+      "category": "progress",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 170,
+      "chunkPattern": "〜には終わります",
+      "tags": [
+        "display",
+        "fresh-display",
+        "fresh-20260727",
+        "work",
+        "meeting"
+      ]
+    },
+    {
+      "externalId": "work-mtg-026",
+      "japanese": "あとはお任せします。",
+      "tokens": [
+        {
+          "text": "あとは"
+        },
+        {
+          "text": "お任せします",
+          "kana": "おまかせします"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "あとはおまかせします",
+      "chinese": "剩下的就拜托你了。",
+      "category": "request",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 200,
+      "chunkPattern": "お任せします",
+      "tags": [
+        "display",
+        "fresh-display",
+        "fresh-20260727",
+        "work",
+        "meeting"
+      ]
+    },
+    {
+      "externalId": "work-mtg-027",
+      "japanese": "議事録、送りますね。",
+      "tokens": [
+        {
+          "text": "議事録",
+          "kana": "ぎじろく"
+        },
+        {
+          "text": "、"
+        },
+        {
+          "text": "送りますね",
+          "kana": "おくりますね"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "ぎじろくおくりますね",
+      "chinese": "会议记录我发给你哦。",
+      "category": "progress",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 230,
+      "chunkPattern": "〜送りますね",
+      "tags": [
+        "display",
+        "fresh-display",
+        "fresh-20260727",
+        "work",
+        "meeting"
+      ]
+    },
+    {
+      "externalId": "work-mtg-028",
+      "japanese": "今週中に終わらせます。",
+      "tokens": [
+        {
+          "text": "今週中",
+          "kana": "こんしゅうちゅう"
+        },
+        {
+          "text": "に"
+        },
+        {
+          "text": "終わらせます",
+          "kana": "おわらせます"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "こんしゅうちゅうにおわらせます",
+      "chinese": "我这周内做完。",
+      "category": "progress",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 190,
+      "chunkPattern": "今週中に〜",
+      "tags": [
+        "display",
+        "fresh-display",
+        "fresh-20260727",
+        "work",
+        "meeting"
+      ]
+    },
+    {
+      "externalId": "work-mtg-029",
+      "japanese": "その方向で進めましょう。",
+      "tokens": [
+        {
+          "text": "その"
+        },
+        {
+          "text": "方向",
+          "kana": "ほうこう"
+        },
+        {
+          "text": "で"
+        },
+        {
+          "text": "進めましょう",
+          "kana": "すすめましょう"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "そのほうこうですすめましょう",
+      "chinese": "就按这个方向推进吧。",
+      "category": "progress",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 210,
+      "chunkPattern": "その方向で進めましょう",
+      "tags": [
+        "display",
+        "fresh-display",
+        "fresh-20260727",
+        "work",
+        "meeting"
+      ]
+    },
+    {
+      "externalId": "work-mtg-030",
+      "japanese": "一度整理します。",
+      "tokens": [
+        {
+          "text": "一度",
+          "kana": "いちど"
+        },
+        {
+          "text": "整理します",
+          "kana": "せいりします"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "いちどせいりします",
+      "chinese": "我先整理一遍。",
+      "category": "progress",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 220,
+      "chunkPattern": "一度〜します",
+      "tags": [
+        "display",
+        "fresh-display",
+        "fresh-20260727",
+        "work",
+        "meeting"
+      ]
+    },
+    {
+      "externalId": "work-mtg-031",
+      "japanese": "すぐ対応します。",
+      "tokens": [
+        {
+          "text": "すぐ"
+        },
+        {
+          "text": "対応します",
+          "kana": "たいおうします"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "すぐたいおうします",
+      "chinese": "我马上处理。",
+      "category": "progress",
+      "register": "丁寧",
+      "difficulty": 1,
+      "frequencyRank": 110,
+      "chunkPattern": "すぐ〜します",
+      "tags": [
+        "display",
+        "fresh-display",
+        "fresh-20260727",
+        "work",
+        "meeting"
+      ]
+    },
+    {
+      "externalId": "work-mtg-032",
+      "japanese": "数字、後で送ります。",
+      "tokens": [
+        {
+          "text": "数字",
+          "kana": "すうじ"
+        },
+        {
+          "text": "、"
+        },
+        {
+          "text": "後で",
+          "kana": "あとで"
+        },
+        {
+          "text": "送ります",
+          "kana": "おくります"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "すうじあとでおくります",
+      "chinese": "数据我待会儿发你。",
+      "category": "progress",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 200,
+      "chunkPattern": "後で送ります",
+      "tags": [
+        "display",
+        "fresh-display",
+        "fresh-20260727",
+        "work",
+        "meeting"
+      ]
+    },
+    {
+      "externalId": "work-mtg-033",
+      "japanese": "念のため確認します。",
+      "tokens": [
+        {
+          "text": "念のため",
+          "kana": "ねんのため"
+        },
+        {
+          "text": "確認します",
+          "kana": "かくにんします"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "ねんのためかくにんします",
+      "chinese": "为保险起见我确认一下。",
+      "category": "progress",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 240,
+      "chunkPattern": "念のため〜",
+      "tags": [
+        "display",
+        "fresh-display",
+        "fresh-20260727",
+        "work",
+        "meeting"
+      ]
+    },
+    {
+      "externalId": "work-mtg-034",
+      "japanese": "認識ずれてました。",
+      "tokens": [
+        {
+          "text": "認識",
+          "kana": "にんしき"
+        },
+        {
+          "text": "ずれてました"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "にんしきずれてました",
+      "chinese": "看来我们理解有偏差。",
+      "category": "apology",
+      "register": "カジュアル",
+      "difficulty": 3,
+      "frequencyRank": 320,
+      "chunkPattern": "認識ずれてた",
+      "tags": [
+        "display",
+        "fresh-display",
+        "fresh-20260727",
+        "work",
+        "meeting"
+      ]
+    },
+    {
+      "externalId": "work-mtg-035",
+      "japanese": "こちら完了しました。",
+      "tokens": [
+        {
+          "text": "こちら"
+        },
+        {
+          "text": "完了しました",
+          "kana": "かんりょうしました"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "こちらかんりょうしました",
+      "chinese": "这边已经完成了。",
+      "category": "progress",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 150,
+      "chunkPattern": "〜完了しました",
+      "tags": [
+        "display",
+        "fresh-display",
+        "fresh-20260727",
+        "work",
+        "meeting"
+      ]
+    },
+    {
+      "externalId": "work-mtg-036",
+      "japanese": "あと少しで終わります。",
+      "tokens": [
+        {
+          "text": "あと"
+        },
+        {
+          "text": "少しで",
+          "kana": "すこしで"
+        },
+        {
+          "text": "終わります",
+          "kana": "おわります"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "あとすこしでおわります",
+      "chinese": "再一会儿就完成了。",
+      "category": "progress",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 180,
+      "chunkPattern": "あと少しで〜",
+      "tags": [
+        "display",
+        "fresh-display",
+        "fresh-20260727",
+        "work",
+        "meeting"
+      ]
+    },
+    {
+      "externalId": "work-mtg-037",
+      "japanese": "予定通り進んでます。",
+      "tokens": [
+        {
+          "text": "予定通り",
+          "kana": "よていどおり"
+        },
+        {
+          "text": "進んでます",
+          "kana": "すすんでます"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "よていどおりすすんでます",
+      "chinese": "按计划在推进中。",
+      "category": "progress",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 170,
+      "chunkPattern": "予定通り〜",
+      "tags": [
+        "display",
+        "fresh-display",
+        "fresh-20260727",
+        "work",
+        "meeting"
+      ]
+    },
+    {
+      "externalId": "work-mtg-038",
+      "japanese": "詳細はメールします。",
+      "tokens": [
+        {
+          "text": "詳細",
+          "kana": "しょうさい"
+        },
+        {
+          "text": "は"
+        },
+        {
+          "text": "メールします"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "しょうさいはめーるします",
+      "chinese": "详细内容我发邮件给你。",
+      "category": "progress",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 190,
+      "chunkPattern": "詳細はメールします",
+      "tags": [
+        "display",
+        "fresh-display",
+        "fresh-20260727",
+        "work",
+        "meeting"
+      ]
+    },
+    {
+      "externalId": "work-mtg-039",
+      "japanese": "決定でいいですか。",
+      "tokens": [
+        {
+          "text": "決定",
+          "kana": "けってい"
+        },
+        {
+          "text": "で"
+        },
+        {
+          "text": "いいですか"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "けっていでいいですか",
+      "chinese": "就这么定了可以吗？",
+      "category": "progress",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 210,
+      "chunkPattern": "〜でいいですか",
+      "tags": [
+        "display",
+        "fresh-display",
+        "fresh-20260727",
+        "work",
+        "meeting"
+      ]
+    },
+    {
+      "externalId": "work-mtg-040",
+      "japanese": "じゃあ、それで進めましょう。",
+      "tokens": [
+        {
+          "text": "じゃあ"
+        },
+        {
+          "text": "、"
+        },
+        {
+          "text": "それで"
+        },
+        {
+          "text": "進めましょう",
+          "kana": "すすめましょう"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "じゃあそれですすめましょう",
+      "chinese": "那就照那样推进吧。",
+      "category": "progress",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 160,
+      "chunkPattern": "それで進めましょう",
+      "tags": [
+        "display",
+        "fresh-display",
+        "fresh-20260727",
+        "work",
+        "meeting"
+      ]
+    },
+    {
+      "externalId": "work-chat-001",
+      "japanese": "ちょっとお願いしてもいい？",
+      "tokens": [
+        {
+          "text": "ちょっと"
+        },
+        {
+          "text": "お願い",
+          "kana": "おねがい"
+        },
+        {
+          "text": "してもいい"
+        },
+        {
+          "text": "？"
+        }
+      ],
+      "kana": "ちょっとおねがいしてもいい",
+      "chinese": "能拜托你件小事吗？",
+      "category": "request",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 150,
+      "chunkPattern": "お願いしてもいい",
+      "tags": [
+        "display",
+        "fresh-display",
+        "fresh-20260727",
+        "work",
+        "chat"
+      ]
+    },
+    {
+      "externalId": "work-chat-002",
+      "japanese": "これ確認してもらえますか？",
+      "tokens": [
+        {
+          "text": "これ"
+        },
+        {
+          "text": "確認",
+          "kana": "かくにん"
+        },
+        {
+          "text": "してもらえますか"
+        },
+        {
+          "text": "？"
+        }
+      ],
+      "kana": "これかくにんしてもらえますか",
+      "chinese": "这个能帮我确认一下吗？",
+      "category": "request",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 140,
+      "chunkPattern": "確認してもらえますか",
+      "tags": [
+        "display",
+        "fresh-display",
+        "fresh-20260727",
+        "work",
+        "chat"
+      ]
+    },
+    {
+      "externalId": "work-chat-003",
+      "japanese": "おつかれー！",
+      "tokens": [
+        {
+          "text": "おつかれー"
+        },
+        {
+          "text": "！"
+        }
+      ],
+      "kana": "おつかれー",
+      "chinese": "辛苦啦！",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 80,
+      "chunkPattern": "おつかれ",
+      "tags": [
+        "display",
+        "fresh-display",
+        "fresh-20260727",
+        "work",
+        "chat"
+      ]
+    },
+    {
+      "externalId": "work-chat-004",
+      "japanese": "今日ほんと寒いね。",
+      "tokens": [
+        {
+          "text": "今日",
+          "kana": "きょう"
+        },
+        {
+          "text": "ほんと"
+        },
+        {
+          "text": "寒い",
+          "kana": "さむい"
+        },
+        {
+          "text": "ね"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "きょうほんとさむいね",
+      "chinese": "今天真冷啊。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 120,
+      "chunkPattern": "ほんと寒いね",
+      "tags": [
+        "display",
+        "fresh-display",
+        "fresh-20260727",
+        "work",
+        "chat"
+      ]
+    },
+    {
+      "externalId": "work-chat-005",
+      "japanese": "少しお時間いただけますか？",
+      "tokens": [
+        {
+          "text": "少し",
+          "kana": "すこし"
+        },
+        {
+          "text": "お時間",
+          "kana": "おじかん"
+        },
+        {
+          "text": "いただけますか"
+        },
+        {
+          "text": "？"
+        }
+      ],
+      "kana": "すこしおじかんいただけますか",
+      "chinese": "能占用您一点时间吗？",
+      "category": "request",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 160,
+      "chunkPattern": "お時間いただけますか",
+      "tags": [
+        "display",
+        "fresh-display",
+        "fresh-20260727",
+        "work",
+        "chat"
+      ]
+    },
+    {
+      "externalId": "work-chat-006",
+      "japanese": "さっきはすみませんでした。",
+      "tokens": [
+        {
+          "text": "さっきは"
+        },
+        {
+          "text": "すみませんでした"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "さっきはすみませんでした",
+      "chinese": "刚才不好意思。",
+      "category": "apology",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 170,
+      "chunkPattern": "さっきはすみませんでした",
+      "tags": [
+        "display",
+        "fresh-display",
+        "fresh-20260727",
+        "work",
+        "chat"
+      ]
+    },
+    {
+      "externalId": "work-chat-007",
+      "japanese": "ごめん、返信おそくなった。",
+      "tokens": [
+        {
+          "text": "ごめん"
+        },
+        {
+          "text": "、"
+        },
+        {
+          "text": "返信",
+          "kana": "へんしん"
+        },
+        {
+          "text": "おそくなった"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "ごめんへんしんおそくなった",
+      "chinese": "抱歉，回复晚了。",
+      "category": "apology",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 155,
+      "chunkPattern": "返信おそくなった",
+      "tags": [
+        "display",
+        "fresh-display",
+        "fresh-20260727",
+        "work",
+        "chat"
+      ]
+    },
+    {
+      "externalId": "work-chat-008",
+      "japanese": "ちょっと手伝ってくれる？",
+      "tokens": [
+        {
+          "text": "ちょっと"
+        },
+        {
+          "text": "手伝って",
+          "kana": "てつだって"
+        },
+        {
+          "text": "くれる"
+        },
+        {
+          "text": "？"
+        }
+      ],
+      "kana": "ちょっとてつだってくれる",
+      "chinese": "能帮我一下吗？",
+      "category": "request",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 130,
+      "chunkPattern": "手伝ってくれる",
+      "tags": [
+        "display",
+        "fresh-display",
+        "fresh-20260727",
+        "work",
+        "chat"
+      ]
+    },
+    {
+      "externalId": "work-chat-009",
+      "japanese": "資料送っておきますね。",
+      "tokens": [
+        {
+          "text": "資料",
+          "kana": "しりょう"
+        },
+        {
+          "text": "送って",
+          "kana": "おくって"
+        },
+        {
+          "text": "おきますね"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "しりょうおくっておきますね",
+      "chinese": "资料我先发给你哦。",
+      "category": "progress",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 175,
+      "chunkPattern": "送っておきますね",
+      "tags": [
+        "display",
+        "fresh-display",
+        "fresh-20260727",
+        "work",
+        "chat"
+      ]
+    },
+    {
+      "externalId": "work-chat-010",
+      "japanese": "お昼行かない？",
+      "tokens": [
+        {
+          "text": "お昼",
+          "kana": "おひる"
+        },
+        {
+          "text": "行かない",
+          "kana": "いかない"
+        },
+        {
+          "text": "？"
+        }
+      ],
+      "kana": "おひるいかない",
+      "chinese": "去吃午饭不？",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 110,
+      "chunkPattern": "お昼行かない",
+      "tags": [
+        "display",
+        "fresh-display",
+        "fresh-20260727",
+        "work",
+        "chat"
+      ]
+    },
+    {
+      "externalId": "work-chat-011",
+      "japanese": "明日の会議、何時からですか？",
+      "tokens": [
+        {
+          "text": "明日",
+          "kana": "あした"
+        },
+        {
+          "text": "の"
+        },
+        {
+          "text": "会議",
+          "kana": "かいぎ"
+        },
+        {
+          "text": "、"
+        },
+        {
+          "text": "何時",
+          "kana": "なんじ"
+        },
+        {
+          "text": "からですか"
+        },
+        {
+          "text": "？"
+        }
+      ],
+      "kana": "あしたのかいぎなんじからですか",
+      "chinese": "明天的会议几点开始？",
+      "category": "request",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 165,
+      "chunkPattern": "何時からですか",
+      "tags": [
+        "display",
+        "fresh-display",
+        "fresh-20260727",
+        "work",
+        "chat"
+      ]
+    },
+    {
+      "externalId": "work-chat-012",
+      "japanese": "了解！ありがとう！",
+      "tokens": [
+        {
+          "text": "了解",
+          "kana": "りょうかい"
+        },
+        {
+          "text": "！"
+        },
+        {
+          "text": "ありがとう"
+        },
+        {
+          "text": "！"
+        }
+      ],
+      "kana": "りょうかいありがとう",
+      "chinese": "明白！谢谢！",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 70,
+      "chunkPattern": "了解ありがとう",
+      "tags": [
+        "display",
+        "fresh-display",
+        "fresh-20260727",
+        "work",
+        "chat"
+      ]
+    },
+    {
+      "externalId": "work-chat-013",
+      "japanese": "この件、あとで相談させて。",
+      "tokens": [
+        {
+          "text": "この"
+        },
+        {
+          "text": "件",
+          "kana": "けん"
+        },
+        {
+          "text": "、"
+        },
+        {
+          "text": "あとで"
+        },
+        {
+          "text": "相談させて",
+          "kana": "そうだんさせて"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "このけんあとでそうだんさせて",
+      "chinese": "这个事，回头找你商量一下。",
+      "category": "request",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 180,
+      "chunkPattern": "あとで相談させて",
+      "tags": [
+        "display",
+        "fresh-display",
+        "fresh-20260727",
+        "work",
+        "chat"
+      ]
+    },
+    {
+      "externalId": "work-chat-014",
+      "japanese": "助かりました、ありがとうございます。",
+      "tokens": [
+        {
+          "text": "助かりました",
+          "kana": "たすかりました"
+        },
+        {
+          "text": "、"
+        },
+        {
+          "text": "ありがとうございます"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "たすかりましたありがとうございます",
+      "chinese": "帮了大忙了，谢谢您。",
+      "category": "smalltalk",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 90,
+      "chunkPattern": "助かりました",
+      "tags": [
+        "display",
+        "fresh-display",
+        "fresh-20260727",
+        "work",
+        "chat"
+      ]
+    },
+    {
+      "externalId": "work-chat-015",
+      "japanese": "ここ、ちょっと見てもらえる？",
+      "tokens": [
+        {
+          "text": "ここ"
+        },
+        {
+          "text": "、"
+        },
+        {
+          "text": "ちょっと"
+        },
+        {
+          "text": "見て",
+          "kana": "みて"
+        },
+        {
+          "text": "もらえる"
+        },
+        {
+          "text": "？"
+        }
+      ],
+      "kana": "ここちょっとみてもらえる",
+      "chinese": "这里能帮我看一下吗？",
+      "category": "request",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 135,
+      "chunkPattern": "ちょっと見てもらえる",
+      "tags": [
+        "display",
+        "fresh-display",
+        "fresh-20260727",
+        "work",
+        "chat"
+      ]
+    },
+    {
+      "externalId": "work-chat-016",
+      "japanese": "折り返しお電話してもいいですか？",
+      "tokens": [
+        {
+          "text": "折り返し",
+          "kana": "おりかえし"
+        },
+        {
+          "text": "お電話",
+          "kana": "おでんわ"
+        },
+        {
+          "text": "してもいいですか"
+        },
+        {
+          "text": "？"
+        }
+      ],
+      "kana": "おりかえしおでんわしてもいいですか",
+      "chinese": "我回拨给您方便吗？",
+      "category": "request",
+      "register": "丁寧",
+      "difficulty": 3,
+      "frequencyRank": 200,
+      "chunkPattern": "折り返しお電話",
+      "tags": [
+        "display",
+        "fresh-display",
+        "fresh-20260727",
+        "work",
+        "chat"
+      ]
+    },
+    {
+      "externalId": "work-chat-017",
+      "japanese": "今どこ？もう着いた？",
+      "tokens": [
+        {
+          "text": "今",
+          "kana": "いま"
+        },
+        {
+          "text": "どこ"
+        },
+        {
+          "text": "？"
+        },
+        {
+          "text": "もう"
+        },
+        {
+          "text": "着いた",
+          "kana": "ついた"
+        },
+        {
+          "text": "？"
+        }
+      ],
+      "kana": "いまどこもうついた",
+      "chinese": "现在在哪？到了吗？",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 100,
+      "chunkPattern": "もう着いた",
+      "tags": [
+        "display",
+        "fresh-display",
+        "fresh-20260727",
+        "work",
+        "chat"
+      ]
+    },
+    {
+      "externalId": "work-chat-018",
+      "japanese": "ばたばたしててごめん。",
+      "tokens": [
+        {
+          "text": "ばたばたしてて"
+        },
+        {
+          "text": "ごめん"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "ばたばたしててごめん",
+      "chinese": "太忙乱了不好意思。",
+      "category": "apology",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 185,
+      "chunkPattern": "ばたばたしててごめん",
+      "tags": [
+        "display",
+        "fresh-display",
+        "fresh-20260727",
+        "work",
+        "chat"
+      ]
+    },
+    {
+      "externalId": "work-chat-019",
+      "japanese": "一点だけ確認させてください。",
+      "tokens": [
+        {
+          "text": "一点",
+          "kana": "いってん"
+        },
+        {
+          "text": "だけ"
+        },
+        {
+          "text": "確認",
+          "kana": "かくにん"
+        },
+        {
+          "text": "させてください"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "いってんだけかくにんさせてください",
+      "chinese": "只有一点想确认一下。",
+      "category": "request",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 190,
+      "chunkPattern": "確認させてください",
+      "tags": [
+        "display",
+        "fresh-display",
+        "fresh-20260727",
+        "work",
+        "chat"
+      ]
+    },
+    {
+      "externalId": "work-chat-020",
+      "japanese": "その件、いま対応中です。",
+      "tokens": [
+        {
+          "text": "その"
+        },
+        {
+          "text": "件",
+          "kana": "けん"
+        },
+        {
+          "text": "、"
+        },
+        {
+          "text": "いま"
+        },
+        {
+          "text": "対応中",
+          "kana": "たいおうちゅう"
+        },
+        {
+          "text": "です"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "そのけんいまたいおうちゅうです",
+      "chinese": "那个事我正在处理。",
+      "category": "progress",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 195,
+      "chunkPattern": "いま対応中です",
+      "tags": [
+        "display",
+        "fresh-display",
+        "fresh-20260727",
+        "work",
+        "chat"
+      ]
+    },
+    {
+      "externalId": "work-chat-021",
+      "japanese": "悪いんだけど、これお願いできる？",
+      "tokens": [
+        {
+          "text": "悪いんだけど",
+          "kana": "わるいんだけど"
+        },
+        {
+          "text": "、"
+        },
+        {
+          "text": "これ"
+        },
+        {
+          "text": "お願い",
+          "kana": "おねがい"
+        },
+        {
+          "text": "できる"
+        },
+        {
+          "text": "？"
+        }
+      ],
+      "kana": "わるいんだけどこれおねがいできる",
+      "chinese": "不好意思，这个能拜托你吗？",
+      "category": "request",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 175,
+      "chunkPattern": "これお願いできる",
+      "tags": [
+        "display",
+        "fresh-display",
+        "fresh-20260727",
+        "work",
+        "chat"
+      ]
+    },
+    {
+      "externalId": "work-chat-022",
+      "japanese": "だよね、わかるー。",
+      "tokens": [
+        {
+          "text": "だよね"
+        },
+        {
+          "text": "、"
+        },
+        {
+          "text": "わかるー"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "だよねわかるー",
+      "chinese": "对吧，懂的。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 85,
+      "chunkPattern": "だよねわかる",
+      "tags": [
+        "display",
+        "fresh-display",
+        "fresh-20260727",
+        "work",
+        "chat"
+      ]
+    },
+    {
+      "externalId": "work-chat-023",
+      "japanese": "後ほど資料共有しますね。",
+      "tokens": [
+        {
+          "text": "後ほど",
+          "kana": "のちほど"
+        },
+        {
+          "text": "資料",
+          "kana": "しりょう"
+        },
+        {
+          "text": "共有",
+          "kana": "きょうゆう"
+        },
+        {
+          "text": "しますね"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "のちほどしりょうきょうゆうしますね",
+      "chinese": "稍后我把资料共享给你哦。",
+      "category": "progress",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 205,
+      "chunkPattern": "後ほど資料共有",
+      "tags": [
+        "display",
+        "fresh-display",
+        "fresh-20260727",
+        "work",
+        "chat"
+      ]
+    },
+    {
+      "externalId": "work-chat-024",
+      "japanese": "ナイス！助かる！",
+      "tokens": [
+        {
+          "text": "ナイス"
+        },
+        {
+          "text": "！"
+        },
+        {
+          "text": "助かる",
+          "kana": "たすかる"
+        },
+        {
+          "text": "！"
+        }
+      ],
+      "kana": "ないすたすかる",
+      "chinese": "赞！帮大忙了！",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 95,
+      "chunkPattern": "ナイス助かる",
+      "tags": [
+        "display",
+        "fresh-display",
+        "fresh-20260727",
+        "work",
+        "chat"
+      ]
+    },
+    {
+      "externalId": "work-chat-025",
+      "japanese": "打ち合わせ、明日でも大丈夫ですか？",
+      "tokens": [
+        {
+          "text": "打ち合わせ",
+          "kana": "うちあわせ"
+        },
+        {
+          "text": "、"
+        },
+        {
+          "text": "明日",
+          "kana": "あした"
+        },
+        {
+          "text": "でも"
+        },
+        {
+          "text": "大丈夫",
+          "kana": "だいじょうぶ"
+        },
+        {
+          "text": "ですか"
+        },
+        {
+          "text": "？"
+        }
+      ],
+      "kana": "うちあわせあしたでもだいじょうぶですか",
+      "chinese": "碰头会明天也可以吗？",
+      "category": "request",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 210,
+      "chunkPattern": "明日でも大丈夫ですか",
+      "tags": [
+        "display",
+        "fresh-display",
+        "fresh-20260727",
+        "work",
+        "chat"
+      ]
+    },
+    {
+      "externalId": "work-chat-026",
+      "japanese": "確認漏れてました、すみません。",
+      "tokens": [
+        {
+          "text": "確認",
+          "kana": "かくにん"
+        },
+        {
+          "text": "漏れてました",
+          "kana": "もれてました"
+        },
+        {
+          "text": "、"
+        },
+        {
+          "text": "すみません"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "かくにんもれてましたすみません",
+      "chinese": "确认时漏掉了，抱歉。",
+      "category": "apology",
+      "register": "丁寧",
+      "difficulty": 3,
+      "frequencyRank": 215,
+      "chunkPattern": "確認漏れてました",
+      "tags": [
+        "display",
+        "fresh-display",
+        "fresh-20260727",
+        "work",
+        "chat"
+      ]
+    },
+    {
+      "externalId": "work-chat-027",
+      "japanese": "そろそろ帰ろっかな。",
+      "tokens": [
+        {
+          "text": "そろそろ"
+        },
+        {
+          "text": "帰ろっかな",
+          "kana": "かえろっかな"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "そろそろかえろっかな",
+      "chinese": "差不多该回去了吧。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 160,
+      "chunkPattern": "そろそろ帰ろっかな",
+      "tags": [
+        "display",
+        "fresh-display",
+        "fresh-20260727",
+        "work",
+        "chat"
+      ]
+    },
+    {
+      "externalId": "work-chat-028",
+      "japanese": "電話番号教えてもらえる？",
+      "tokens": [
+        {
+          "text": "電話番号",
+          "kana": "でんわばんごう"
+        },
+        {
+          "text": "教えて",
+          "kana": "おしえて"
+        },
+        {
+          "text": "もらえる"
+        },
+        {
+          "text": "？"
+        }
+      ],
+      "kana": "でんわばんごうおしえてもらえる",
+      "chinese": "能告诉我电话号码吗？",
+      "category": "request",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 170,
+      "chunkPattern": "教えてもらえる",
+      "tags": [
+        "display",
+        "fresh-display",
+        "fresh-20260727",
+        "work",
+        "chat"
+      ]
+    },
+    {
+      "externalId": "work-chat-029",
+      "japanese": "来週のどこかで時間もらえますか？",
+      "tokens": [
+        {
+          "text": "来週",
+          "kana": "らいしゅう"
+        },
+        {
+          "text": "のどこかで"
+        },
+        {
+          "text": "時間",
+          "kana": "じかん"
+        },
+        {
+          "text": "もらえますか"
+        },
+        {
+          "text": "？"
+        }
+      ],
+      "kana": "らいしゅうのどこかでじかんもらえますか",
+      "chinese": "下周找个时间行吗？",
+      "category": "request",
+      "register": "丁寧",
+      "difficulty": 3,
+      "frequencyRank": 220,
+      "chunkPattern": "どこかで時間もらえますか",
+      "tags": [
+        "display",
+        "fresh-display",
+        "fresh-20260727",
+        "work",
+        "chat"
+      ]
+    },
+    {
+      "externalId": "work-chat-030",
+      "japanese": "まじで？やば。",
+      "tokens": [
+        {
+          "text": "まじで"
+        },
+        {
+          "text": "？"
+        },
+        {
+          "text": "やば"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "まじでやば",
+      "chinese": "真的假的？绝了。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 75,
+      "chunkPattern": "まじでやば",
+      "tags": [
+        "display",
+        "fresh-display",
+        "fresh-20260727",
+        "work",
+        "chat"
+      ]
+    },
+    {
+      "externalId": "work-chat-031",
+      "japanese": "こちらで進めても大丈夫でしょうか？",
+      "tokens": [
+        {
+          "text": "こちらで"
+        },
+        {
+          "text": "進めても",
+          "kana": "すすめても"
+        },
+        {
+          "text": "大丈夫",
+          "kana": "だいじょうぶ"
+        },
+        {
+          "text": "でしょうか"
+        },
+        {
+          "text": "？"
+        }
+      ],
+      "kana": "こちらですすめてもだいじょうぶでしょうか",
+      "chinese": "我这边继续推进可以吗？",
+      "category": "request",
+      "register": "丁寧",
+      "difficulty": 3,
+      "frequencyRank": 225,
+      "chunkPattern": "進めても大丈夫でしょうか",
+      "tags": [
+        "display",
+        "fresh-display",
+        "fresh-20260727",
+        "work",
+        "chat"
+      ]
+    },
+    {
+      "externalId": "work-chat-032",
+      "japanese": "今送ったよ、確認して！",
+      "tokens": [
+        {
+          "text": "今",
+          "kana": "いま"
+        },
+        {
+          "text": "送ったよ",
+          "kana": "おくったよ"
+        },
+        {
+          "text": "、"
+        },
+        {
+          "text": "確認して",
+          "kana": "かくにんして"
+        },
+        {
+          "text": "！"
+        }
+      ],
+      "kana": "いまおくったよかくにんして",
+      "chinese": "刚发给你了，看一下！",
+      "category": "progress",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 180,
+      "chunkPattern": "今送ったよ確認して",
+      "tags": [
+        "display",
+        "fresh-display",
+        "fresh-20260727",
+        "work",
+        "chat"
+      ]
+    },
+    {
+      "externalId": "work-chat-033",
+      "japanese": "お先に失礼します。",
+      "tokens": [
+        {
+          "text": "お先に",
+          "kana": "おさきに"
+        },
+        {
+          "text": "失礼します",
+          "kana": "しつれいします"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "おさきにしつれいします",
+      "chinese": "我先走了。",
+      "category": "smalltalk",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 105,
+      "chunkPattern": "お先に失礼します",
+      "tags": [
+        "display",
+        "fresh-display",
+        "fresh-20260727",
+        "work",
+        "chat"
+      ]
+    },
+    {
+      "externalId": "work-chat-034",
+      "japanese": "ちょっと電話していい？",
+      "tokens": [
+        {
+          "text": "ちょっと"
+        },
+        {
+          "text": "電話",
+          "kana": "でんわ"
+        },
+        {
+          "text": "していい"
+        },
+        {
+          "text": "？"
+        }
+      ],
+      "kana": "ちょっとでんわしていい",
+      "chinese": "能打个电话给你吗？",
+      "category": "request",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 140,
+      "chunkPattern": "ちょっと電話していい",
+      "tags": [
+        "display",
+        "fresh-display",
+        "fresh-20260727",
+        "work",
+        "chat"
+      ]
+    },
+    {
+      "externalId": "work-chat-035",
+      "japanese": "うん、それで大丈夫。",
+      "tokens": [
+        {
+          "text": "うん"
+        },
+        {
+          "text": "、"
+        },
+        {
+          "text": "それで"
+        },
+        {
+          "text": "大丈夫",
+          "kana": "だいじょうぶ"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "うんそれでだいじょうぶ",
+      "chinese": "嗯，那样就行。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 90,
+      "chunkPattern": "それで大丈夫",
+      "tags": [
+        "display",
+        "fresh-display",
+        "fresh-20260727",
+        "work",
+        "chat"
+      ]
+    },
+    {
+      "externalId": "work-chat-036",
+      "japanese": "念のためもう一度送ってもらえますか？",
+      "tokens": [
+        {
+          "text": "念のため",
+          "kana": "ねんのため"
+        },
+        {
+          "text": "もう一度",
+          "kana": "もういちど"
+        },
+        {
+          "text": "送って",
+          "kana": "おくって"
+        },
+        {
+          "text": "もらえますか"
+        },
+        {
+          "text": "？"
+        }
+      ],
+      "kana": "ねんのためもういちどおくってもらえますか",
+      "chinese": "保险起见能再发一次吗？",
+      "category": "request",
+      "register": "丁寧",
+      "difficulty": 3,
+      "frequencyRank": 230,
+      "chunkPattern": "もう一度送ってもらえますか",
+      "tags": [
+        "display",
+        "fresh-display",
+        "fresh-20260727",
+        "work",
+        "chat"
+      ]
+    },
+    {
+      "externalId": "work-chat-037",
+      "japanese": "ごめん、勘違いしてた。",
+      "tokens": [
+        {
+          "text": "ごめん"
+        },
+        {
+          "text": "、"
+        },
+        {
+          "text": "勘違い",
+          "kana": "かんちがい"
+        },
+        {
+          "text": "してた"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "ごめんかんちがいしてた",
+      "chinese": "抱歉，我搞错了。",
+      "category": "apology",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 185,
+      "chunkPattern": "勘違いしてた",
+      "tags": [
+        "display",
+        "fresh-display",
+        "fresh-20260727",
+        "work",
+        "chat"
+      ]
+    },
+    {
+      "externalId": "work-chat-038",
+      "japanese": "だいぶ進んだね、いい感じ。",
+      "tokens": [
+        {
+          "text": "だいぶ"
+        },
+        {
+          "text": "進んだね",
+          "kana": "すすんだね"
+        },
+        {
+          "text": "、"
+        },
+        {
+          "text": "いい"
+        },
+        {
+          "text": "感じ",
+          "kana": "かんじ"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "だいぶすすんだねいいかんじ",
+      "chinese": "进展不少嘛，感觉不错。",
+      "category": "progress",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 195,
+      "chunkPattern": "だいぶ進んだね",
+      "tags": [
+        "display",
+        "fresh-display",
+        "fresh-20260727",
+        "work",
+        "chat"
+      ]
+    },
+    {
+      "externalId": "work-chat-039",
+      "japanese": "空いてる時間、教えてもらえますか？",
+      "tokens": [
+        {
+          "text": "空いてる",
+          "kana": "あいてる"
+        },
+        {
+          "text": "時間",
+          "kana": "じかん"
+        },
+        {
+          "text": "、"
+        },
+        {
+          "text": "教えて",
+          "kana": "おしえて"
+        },
+        {
+          "text": "もらえますか"
+        },
+        {
+          "text": "？"
+        }
+      ],
+      "kana": "あいてるじかんおしえてもらえますか",
+      "chinese": "方便的话告诉我你有空的时间？",
+      "category": "request",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 215,
+      "chunkPattern": "空いてる時間教えて",
+      "tags": [
+        "display",
+        "fresh-display",
+        "fresh-20260727",
+        "work",
+        "chat"
+      ]
+    },
+    {
+      "externalId": "work-chat-040",
+      "japanese": "また明日ね、おつかれさま！",
+      "tokens": [
+        {
+          "text": "また"
+        },
+        {
+          "text": "明日",
+          "kana": "あした"
+        },
+        {
+          "text": "ね"
+        },
+        {
+          "text": "、"
+        },
+        {
+          "text": "おつかれさま"
+        },
+        {
+          "text": "！"
+        }
+      ],
+      "kana": "またあしたねおつかれさま",
+      "chinese": "那明天见，辛苦啦！",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 1,
+      "frequencyRank": 85,
+      "chunkPattern": "また明日ねおつかれさま",
+      "tags": [
+        "display",
+        "fresh-display",
+        "fresh-20260727",
+        "work",
+        "chat"
+      ]
+    },
+    {
+      "externalId": "work-phone-001",
+      "japanese": "お電話ありがとうございます。",
+      "tokens": [
+        {
+          "text": "お"
+        },
+        {
+          "text": "電話",
+          "kana": "でんわ"
+        },
+        {
+          "text": "ありがとうございます"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "おでんわありがとうございます",
+      "chinese": "感谢您来电。",
+      "category": "smalltalk",
+      "register": "敬語",
+      "difficulty": 2,
+      "frequencyRank": 105,
+      "chunkPattern": "お電話ありがとうございます",
+      "tags": [
+        "display",
+        "fresh-display",
+        "fresh-20260727",
+        "work",
+        "phone"
+      ]
+    },
+    {
+      "externalId": "work-phone-002",
+      "japanese": "少々お待ちいただけますでしょうか。",
+      "tokens": [
+        {
+          "text": "少々",
+          "kana": "しょうしょう"
+        },
+        {
+          "text": "お"
+        },
+        {
+          "text": "待ち",
+          "kana": "まち"
+        },
+        {
+          "text": "いただけますでしょうか"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "しょうしょうおまちいただけますでしょうか",
+      "chinese": "能否请您稍等一下？",
+      "category": "request",
+      "register": "敬語",
+      "difficulty": 3,
+      "frequencyRank": 120,
+      "chunkPattern": "お待ちいただけますでしょうか",
+      "tags": [
+        "display",
+        "fresh-display",
+        "fresh-20260727",
+        "work",
+        "phone"
+      ]
+    },
+    {
+      "externalId": "work-phone-003",
+      "japanese": "大変申し訳ございません。",
+      "tokens": [
+        {
+          "text": "大変",
+          "kana": "たいへん"
+        },
+        {
+          "text": "申し訳",
+          "kana": "もうしわけ"
+        },
+        {
+          "text": "ございません"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "たいへんもうしわけございません",
+      "chinese": "非常抱歉。",
+      "category": "apology",
+      "register": "敬語",
+      "difficulty": 2,
+      "frequencyRank": 110,
+      "chunkPattern": "申し訳ございません",
+      "tags": [
+        "display",
+        "fresh-display",
+        "fresh-20260727",
+        "work",
+        "phone"
+      ]
+    },
+    {
+      "externalId": "work-phone-004",
+      "japanese": "ただいま担当の者にお繋ぎいたします。",
+      "tokens": [
+        {
+          "text": "ただいま"
+        },
+        {
+          "text": "担当",
+          "kana": "たんとう"
+        },
+        {
+          "text": "の"
+        },
+        {
+          "text": "者",
+          "kana": "もの"
+        },
+        {
+          "text": "に"
+        },
+        {
+          "text": "お"
+        },
+        {
+          "text": "繋ぎ",
+          "kana": "つなぎ"
+        },
+        {
+          "text": "いたします"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "ただいまたんとうのものにおつなぎいたします",
+      "chinese": "现在为您转接负责人。",
+      "category": "progress",
+      "register": "敬語",
+      "difficulty": 3,
+      "frequencyRank": 180,
+      "chunkPattern": "担当の者にお繋ぎいたします",
+      "tags": [
+        "display",
+        "fresh-display",
+        "fresh-20260727",
+        "work",
+        "phone"
+      ]
+    },
+    {
+      "externalId": "work-phone-005",
+      "japanese": "ご用件を承ります。",
+      "tokens": [
+        {
+          "text": "ご"
+        },
+        {
+          "text": "用件",
+          "kana": "ようけん"
+        },
+        {
+          "text": "を"
+        },
+        {
+          "text": "承ります",
+          "kana": "うけたまわります"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "ごようけんをうけたまわります",
+      "chinese": "请说您的事情，我来记录。",
+      "category": "request",
+      "register": "敬語",
+      "difficulty": 3,
+      "frequencyRank": 200,
+      "chunkPattern": "ご用件を承ります",
+      "tags": [
+        "display",
+        "fresh-display",
+        "fresh-20260727",
+        "work",
+        "phone"
+      ]
+    },
+    {
+      "externalId": "work-phone-006",
+      "japanese": "ただいま確認しておりますので、少々お待ちください。",
+      "tokens": [
+        {
+          "text": "ただいま"
+        },
+        {
+          "text": "確認",
+          "kana": "かくにん"
+        },
+        {
+          "text": "して"
+        },
+        {
+          "text": "おりますので"
+        },
+        {
+          "text": "、"
+        },
+        {
+          "text": "少々",
+          "kana": "しょうしょう"
+        },
+        {
+          "text": "お"
+        },
+        {
+          "text": "待ち",
+          "kana": "まち"
+        },
+        {
+          "text": "ください"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "ただいまかくにんしておりますのでしょうしょうおまちください",
+      "chinese": "我现在正在确认，请您稍等。",
+      "category": "progress",
+      "register": "敬語",
+      "difficulty": 3,
+      "frequencyRank": 150,
+      "chunkPattern": "確認しておりますので",
+      "tags": [
+        "display",
+        "fresh-display",
+        "fresh-20260727",
+        "work",
+        "phone"
+      ]
+    },
+    {
+      "externalId": "work-phone-007",
+      "japanese": "お待たせして申し訳ございません。",
+      "tokens": [
+        {
+          "text": "お"
+        },
+        {
+          "text": "待たせ",
+          "kana": "またせ"
+        },
+        {
+          "text": "して"
+        },
+        {
+          "text": "申し訳",
+          "kana": "もうしわけ"
+        },
+        {
+          "text": "ございません"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "おまたせしてもうしわけございません",
+      "chinese": "让您久等了，非常抱歉。",
+      "category": "apology",
+      "register": "敬語",
+      "difficulty": 2,
+      "frequencyRank": 115,
+      "chunkPattern": "お待たせして申し訳ございません",
+      "tags": [
+        "display",
+        "fresh-display",
+        "fresh-20260727",
+        "work",
+        "phone"
+      ]
+    },
+    {
+      "externalId": "work-phone-008",
+      "japanese": "恐れ入りますが、お名前を頂戴できますでしょうか。",
+      "tokens": [
+        {
+          "text": "恐れ入り",
+          "kana": "おそれいり"
+        },
+        {
+          "text": "ますが"
+        },
+        {
+          "text": "、"
+        },
+        {
+          "text": "お"
+        },
+        {
+          "text": "名前",
+          "kana": "なまえ"
+        },
+        {
+          "text": "を"
+        },
+        {
+          "text": "頂戴",
+          "kana": "ちょうだい"
+        },
+        {
+          "text": "できますでしょうか"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "おそれいりますがおなまえをちょうだいできますでしょうか",
+      "chinese": "不好意思，能请教您的姓名吗？",
+      "category": "request",
+      "register": "敬語",
+      "difficulty": 3,
+      "frequencyRank": 190,
+      "chunkPattern": "お名前を頂戴できますでしょうか",
+      "tags": [
+        "display",
+        "fresh-display",
+        "fresh-20260727",
+        "work",
+        "phone"
+      ]
+    },
+    {
+      "externalId": "work-phone-009",
+      "japanese": "復唱させていただきます。",
+      "tokens": [
+        {
+          "text": "復唱",
+          "kana": "ふくしょう"
+        },
+        {
+          "text": "させていただきます"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "ふくしょうさせていただきます",
+      "chinese": "请允许我复述一遍确认。",
+      "category": "progress",
+      "register": "敬語",
+      "difficulty": 3,
+      "frequencyRank": 230,
+      "chunkPattern": "復唱させていただきます",
+      "tags": [
+        "display",
+        "fresh-display",
+        "fresh-20260727",
+        "work",
+        "phone"
+      ]
+    },
+    {
+      "externalId": "work-phone-010",
+      "japanese": "折り返しお電話を差し上げてもよろしいでしょうか。",
+      "tokens": [
+        {
+          "text": "折り返し",
+          "kana": "おりかえし"
+        },
+        {
+          "text": "お"
+        },
+        {
+          "text": "電話",
+          "kana": "でんわ"
+        },
+        {
+          "text": "を"
+        },
+        {
+          "text": "差し上げて",
+          "kana": "さしあげて"
+        },
+        {
+          "text": "も"
+        },
+        {
+          "text": "よろしいでしょうか"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "おりかえしおでんわをさしあげてもよろしいでしょうか",
+      "chinese": "稍后给您回电可以吗？",
+      "category": "request",
+      "register": "敬語",
+      "difficulty": 3,
+      "frequencyRank": 210,
+      "chunkPattern": "折り返しお電話を差し上げても",
+      "tags": [
+        "display",
+        "fresh-display",
+        "fresh-20260727",
+        "work",
+        "phone"
+      ]
+    },
+    {
+      "externalId": "work-phone-011",
+      "japanese": "いつもお世話になっております。",
+      "tokens": [
+        {
+          "text": "いつも"
+        },
+        {
+          "text": "お"
+        },
+        {
+          "text": "世話",
+          "kana": "せわ"
+        },
+        {
+          "text": "に"
+        },
+        {
+          "text": "なっております"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "いつもおせわになっております",
+      "chinese": "一直承蒙关照。",
+      "category": "smalltalk",
+      "register": "敬語",
+      "difficulty": 2,
+      "frequencyRank": 100,
+      "chunkPattern": "いつもお世話になっております",
+      "tags": [
+        "display",
+        "fresh-display",
+        "fresh-20260727",
+        "work",
+        "phone"
+      ]
+    },
+    {
+      "externalId": "work-phone-012",
+      "japanese": "担当者が席を外しておりまして。",
+      "tokens": [
+        {
+          "text": "担当",
+          "kana": "たんとう"
+        },
+        {
+          "text": "者",
+          "kana": "しゃ"
+        },
+        {
+          "text": "が"
+        },
+        {
+          "text": "席",
+          "kana": "せき"
+        },
+        {
+          "text": "を"
+        },
+        {
+          "text": "外して",
+          "kana": "はずして"
+        },
+        {
+          "text": "おりまして"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "たんとうしゃがせきをはずしておりまして",
+      "chinese": "负责人现在不在座位上。",
+      "category": "progress",
+      "register": "敬語",
+      "difficulty": 3,
+      "frequencyRank": 175,
+      "chunkPattern": "席を外しておりまして",
+      "tags": [
+        "display",
+        "fresh-display",
+        "fresh-20260727",
+        "work",
+        "phone"
+      ]
+    },
+    {
+      "externalId": "work-phone-013",
+      "japanese": "戻り次第、折り返しご連絡いたします。",
+      "tokens": [
+        {
+          "text": "戻り",
+          "kana": "もどり"
+        },
+        {
+          "text": "次第",
+          "kana": "しだい"
+        },
+        {
+          "text": "、"
+        },
+        {
+          "text": "折り返し",
+          "kana": "おりかえし"
+        },
+        {
+          "text": "ご"
+        },
+        {
+          "text": "連絡",
+          "kana": "れんらく"
+        },
+        {
+          "text": "いたします"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "もどりしだいおりかえしごれんらくいたします",
+      "chinese": "他一回来我就马上回电给您。",
+      "category": "progress",
+      "register": "敬語",
+      "difficulty": 3,
+      "frequencyRank": 185,
+      "chunkPattern": "戻り次第ご連絡いたします",
+      "tags": [
+        "display",
+        "fresh-display",
+        "fresh-20260727",
+        "work",
+        "phone"
+      ]
+    },
+    {
+      "externalId": "work-phone-014",
+      "japanese": "ご確認のほど、よろしくお願いいたします。",
+      "tokens": [
+        {
+          "text": "ご"
+        },
+        {
+          "text": "確認",
+          "kana": "かくにん"
+        },
+        {
+          "text": "の"
+        },
+        {
+          "text": "ほど"
+        },
+        {
+          "text": "、"
+        },
+        {
+          "text": "よろしく"
+        },
+        {
+          "text": "お"
+        },
+        {
+          "text": "願い",
+          "kana": "ねがい"
+        },
+        {
+          "text": "いたします"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "ごかくにんのほどよろしくおねがいいたします",
+      "chinese": "请您确认一下，麻烦您了。",
+      "category": "request",
+      "register": "敬語",
+      "difficulty": 2,
+      "frequencyRank": 130,
+      "chunkPattern": "ご確認のほどよろしくお願いいたします",
+      "tags": [
+        "display",
+        "fresh-display",
+        "fresh-20260727",
+        "work",
+        "phone"
+      ]
+    },
+    {
+      "externalId": "work-phone-015",
+      "japanese": "こちらの手違いで、ご迷惑をおかけしました。",
+      "tokens": [
+        {
+          "text": "こちら"
+        },
+        {
+          "text": "の"
+        },
+        {
+          "text": "手違い",
+          "kana": "てちがい"
+        },
+        {
+          "text": "で"
+        },
+        {
+          "text": "、"
+        },
+        {
+          "text": "ご"
+        },
+        {
+          "text": "迷惑",
+          "kana": "めいわく"
+        },
+        {
+          "text": "を"
+        },
+        {
+          "text": "おかけしました"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "こちらのてちがいでごめいわくをおかけしました",
+      "chinese": "是我们这边出了差错，给您添麻烦了。",
+      "category": "apology",
+      "register": "敬語",
+      "difficulty": 3,
+      "frequencyRank": 220,
+      "chunkPattern": "ご迷惑をおかけしました",
+      "tags": [
+        "display",
+        "fresh-display",
+        "fresh-20260727",
+        "work",
+        "phone"
+      ]
+    },
+    {
+      "externalId": "work-phone-016",
+      "japanese": "担当部署におつなぎしますので、そのままお待ちください。",
+      "tokens": [
+        {
+          "text": "担当",
+          "kana": "たんとう"
+        },
+        {
+          "text": "部署",
+          "kana": "ぶしょ"
+        },
+        {
+          "text": "に"
+        },
+        {
+          "text": "おつなぎしますので"
+        },
+        {
+          "text": "、"
+        },
+        {
+          "text": "そのまま"
+        },
+        {
+          "text": "お"
+        },
+        {
+          "text": "待ち",
+          "kana": "まち"
+        },
+        {
+          "text": "ください"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "たんとうぶしょにおつなぎしますのでそのままおまちください",
+      "chinese": "我为您转接负责部门，请您别挂断稍等。",
+      "category": "request",
+      "register": "敬語",
+      "difficulty": 3,
+      "frequencyRank": 195,
+      "chunkPattern": "担当部署におつなぎしますので",
+      "tags": [
+        "display",
+        "fresh-display",
+        "fresh-20260727",
+        "work",
+        "phone"
+      ]
+    },
+    {
+      "externalId": "work-phone-017",
+      "japanese": "ただいま確認が取れ次第、ご報告いたします。",
+      "tokens": [
+        {
+          "text": "ただいま"
+        },
+        {
+          "text": "確認",
+          "kana": "かくにん"
+        },
+        {
+          "text": "が"
+        },
+        {
+          "text": "取れ",
+          "kana": "とれ"
+        },
+        {
+          "text": "次第",
+          "kana": "しだい"
+        },
+        {
+          "text": "、"
+        },
+        {
+          "text": "ご"
+        },
+        {
+          "text": "報告",
+          "kana": "ほうこく"
+        },
+        {
+          "text": "いたします"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "ただいまかくにんがとれしだいごほうこくいたします",
+      "chinese": "一确认到情况我就向您汇报。",
+      "category": "progress",
+      "register": "敬語",
+      "difficulty": 3,
+      "frequencyRank": 205,
+      "chunkPattern": "確認が取れ次第ご報告いたします",
+      "tags": [
+        "display",
+        "fresh-display",
+        "fresh-20260727",
+        "work",
+        "phone"
+      ]
+    },
+    {
+      "externalId": "work-phone-018",
+      "japanese": "恐れ入ります、経理部の田中様はいらっしゃいますでしょうか。",
+      "tokens": [
+        {
+          "text": "恐れ入り",
+          "kana": "おそれいり"
+        },
+        {
+          "text": "ます"
+        },
+        {
+          "text": "、"
+        },
+        {
+          "text": "経理",
+          "kana": "けいり"
+        },
+        {
+          "text": "部",
+          "kana": "ぶ"
+        },
+        {
+          "text": "の"
+        },
+        {
+          "text": "田中",
+          "kana": "たなか"
+        },
+        {
+          "text": "様",
+          "kana": "さま"
+        },
+        {
+          "text": "は"
+        },
+        {
+          "text": "いらっしゃいますでしょうか"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "おそれいりますけいりぶのたなかさまはいらっしゃいますでしょうか",
+      "chinese": "不好意思，请问财务部的田中先生在吗？",
+      "category": "smalltalk",
+      "register": "敬語",
+      "difficulty": 3,
+      "frequencyRank": 240,
+      "chunkPattern": "様はいらっしゃいますでしょうか",
+      "tags": [
+        "display",
+        "fresh-display",
+        "fresh-20260727",
+        "work",
+        "phone"
+      ]
+    },
+    {
+      "externalId": "work-phone-019",
+      "japanese": "念のため、お電話番号をお伺いしてもよろしいでしょうか。",
+      "tokens": [
+        {
+          "text": "念",
+          "kana": "ねん"
+        },
+        {
+          "text": "の"
+        },
+        {
+          "text": "ため"
+        },
+        {
+          "text": "、"
+        },
+        {
+          "text": "お"
+        },
+        {
+          "text": "電話",
+          "kana": "でんわ"
+        },
+        {
+          "text": "番号",
+          "kana": "ばんごう"
+        },
+        {
+          "text": "を"
+        },
+        {
+          "text": "お"
+        },
+        {
+          "text": "伺い",
+          "kana": "うかがい"
+        },
+        {
+          "text": "して"
+        },
+        {
+          "text": "も"
+        },
+        {
+          "text": "よろしいでしょうか"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "ねんのためおでんわばんごうをおうかがいしてもよろしいでしょうか",
+      "chinese": "为保险起见，能请问一下您的电话号码吗？",
+      "category": "request",
+      "register": "敬語",
+      "difficulty": 3,
+      "frequencyRank": 215,
+      "chunkPattern": "お伺いしてもよろしいでしょうか",
+      "tags": [
+        "display",
+        "fresh-display",
+        "fresh-20260727",
+        "work",
+        "phone"
+      ]
+    },
+    {
+      "externalId": "work-phone-020",
+      "japanese": "行き違いがございましたら申し訳ございません。",
+      "tokens": [
+        {
+          "text": "行き違い",
+          "kana": "いきちがい"
+        },
+        {
+          "text": "が"
+        },
+        {
+          "text": "ございましたら"
+        },
+        {
+          "text": "申し訳",
+          "kana": "もうしわけ"
+        },
+        {
+          "text": "ございません"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "いきちがいがございましたらもうしわけございません",
+      "chinese": "如果有沟通上的误会，我先说声抱歉。",
+      "category": "apology",
+      "register": "敬語",
+      "difficulty": 4,
+      "frequencyRank": 260,
+      "chunkPattern": "行き違いがございましたら",
+      "tags": [
+        "display",
+        "fresh-display",
+        "fresh-20260727",
+        "work",
+        "phone"
+      ]
+    },
+    {
+      "externalId": "work-phone-021",
+      "japanese": "先ほどの資料をお送りいただけますでしょうか。",
+      "tokens": [
+        {
+          "text": "先ほど",
+          "kana": "さきほど"
+        },
+        {
+          "text": "の"
+        },
+        {
+          "text": "資料",
+          "kana": "しりょう"
+        },
+        {
+          "text": "を"
+        },
+        {
+          "text": "お"
+        },
+        {
+          "text": "送り",
+          "kana": "おくり"
+        },
+        {
+          "text": "いただけますでしょうか"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "さきほどのしりょうをおおくりいただけますでしょうか",
+      "chinese": "能麻烦您把刚才的资料发过来吗？",
+      "category": "request",
+      "register": "敬語",
+      "difficulty": 3,
+      "frequencyRank": 170,
+      "chunkPattern": "資料をお送りいただけますでしょうか",
+      "tags": [
+        "display",
+        "fresh-display",
+        "fresh-20260727",
+        "work",
+        "phone"
+      ]
+    },
+    {
+      "externalId": "work-phone-022",
+      "japanese": "現在、担当が対応しておりますので、今しばらくお待ちください。",
+      "tokens": [
+        {
+          "text": "現在",
+          "kana": "げんざい"
+        },
+        {
+          "text": "、"
+        },
+        {
+          "text": "担当",
+          "kana": "たんとう"
+        },
+        {
+          "text": "が"
+        },
+        {
+          "text": "対応",
+          "kana": "たいおう"
+        },
+        {
+          "text": "して"
+        },
+        {
+          "text": "おりますので"
+        },
+        {
+          "text": "、"
+        },
+        {
+          "text": "今",
+          "kana": "いま"
+        },
+        {
+          "text": "しばらく"
+        },
+        {
+          "text": "お"
+        },
+        {
+          "text": "待ち",
+          "kana": "まち"
+        },
+        {
+          "text": "ください"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "げんざいたんとうがたいおうしておりますのでいましばらくおまちください",
+      "chinese": "目前负责人正在处理，请您再稍等片刻。",
+      "category": "progress",
+      "register": "敬語",
+      "difficulty": 3,
+      "frequencyRank": 200,
+      "chunkPattern": "今しばらくお待ちください",
+      "tags": [
+        "display",
+        "fresh-display",
+        "fresh-20260727",
+        "work",
+        "phone"
+      ]
+    },
+    {
+      "externalId": "work-phone-023",
+      "japanese": "お約束のお時間は、明日の十時でお間違いないでしょうか。",
+      "tokens": [
+        {
+          "text": "お"
+        },
+        {
+          "text": "約束",
+          "kana": "やくそく"
+        },
+        {
+          "text": "の"
+        },
+        {
+          "text": "お"
+        },
+        {
+          "text": "時間",
+          "kana": "じかん"
+        },
+        {
+          "text": "は"
+        },
+        {
+          "text": "、"
+        },
+        {
+          "text": "明日",
+          "kana": "あした"
+        },
+        {
+          "text": "の"
+        },
+        {
+          "text": "十時",
+          "kana": "じゅうじ"
+        },
+        {
+          "text": "で"
+        },
+        {
+          "text": "お"
+        },
+        {
+          "text": "間違い",
+          "kana": "まちがい"
+        },
+        {
+          "text": "ない"
+        },
+        {
+          "text": "でしょうか"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "おやくそくのおじかんはあしたのじゅうじでおまちがいないでしょうか",
+      "chinese": "约定的时间是明天十点，没有错吧？",
+      "category": "request",
+      "register": "敬語",
+      "difficulty": 3,
+      "frequencyRank": 225,
+      "chunkPattern": "お間違いないでしょうか",
+      "tags": [
+        "display",
+        "fresh-display",
+        "fresh-20260727",
+        "work",
+        "phone"
+      ]
+    },
+    {
+      "externalId": "work-phone-024",
+      "japanese": "大変恐縮ですが、少々お時間をいただけますか。",
+      "tokens": [
+        {
+          "text": "大変",
+          "kana": "たいへん"
+        },
+        {
+          "text": "恐縮",
+          "kana": "きょうしゅく"
+        },
+        {
+          "text": "ですが"
+        },
+        {
+          "text": "、"
+        },
+        {
+          "text": "少々",
+          "kana": "しょうしょう"
+        },
+        {
+          "text": "お"
+        },
+        {
+          "text": "時間",
+          "kana": "じかん"
+        },
+        {
+          "text": "を"
+        },
+        {
+          "text": "いただけますか"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "たいへんきょうしゅくですがしょうしょうおじかんをいただけますか",
+      "chinese": "非常抱歉，能占用您一点时间吗？",
+      "category": "request",
+      "register": "敬語",
+      "difficulty": 3,
+      "frequencyRank": 235,
+      "chunkPattern": "大変恐縮ですが",
+      "tags": [
+        "display",
+        "fresh-display",
+        "fresh-20260727",
+        "work",
+        "phone"
+      ]
+    },
+    {
+      "externalId": "work-phone-025",
+      "japanese": "差し支えなければ、ご伝言を承りましょうか。",
+      "tokens": [
+        {
+          "text": "差し支え",
+          "kana": "さしつかえ"
+        },
+        {
+          "text": "なければ"
+        },
+        {
+          "text": "、"
+        },
+        {
+          "text": "ご"
+        },
+        {
+          "text": "伝言",
+          "kana": "でんごん"
+        },
+        {
+          "text": "を"
+        },
+        {
+          "text": "承りましょうか",
+          "kana": "うけたまわりましょうか"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "さしつかえなければごでんごんをうけたまわりましょうか",
+      "chinese": "如果方便的话，需要我帮您转达留言吗？",
+      "category": "request",
+      "register": "敬語",
+      "difficulty": 4,
+      "frequencyRank": 255,
+      "chunkPattern": "ご伝言を承りましょうか",
+      "tags": [
+        "display",
+        "fresh-display",
+        "fresh-20260727",
+        "work",
+        "phone"
+      ]
+    },
+    {
+      "externalId": "work-phone-026",
+      "japanese": "お忙しいところ恐れ入ります。",
+      "tokens": [
+        {
+          "text": "お"
+        },
+        {
+          "text": "忙しい",
+          "kana": "いそがしい"
+        },
+        {
+          "text": "ところ"
+        },
+        {
+          "text": "恐れ入り",
+          "kana": "おそれいり"
+        },
+        {
+          "text": "ます"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "おいそがしいところおそれいります",
+      "chinese": "百忙之中打扰您，实在不好意思。",
+      "category": "smalltalk",
+      "register": "敬語",
+      "difficulty": 2,
+      "frequencyRank": 140,
+      "chunkPattern": "お忙しいところ恐れ入ります",
+      "tags": [
+        "display",
+        "fresh-display",
+        "fresh-20260727",
+        "work",
+        "phone"
+      ]
+    },
+    {
+      "externalId": "work-phone-027",
+      "japanese": "それでは、そのように手配させていただきます。",
+      "tokens": [
+        {
+          "text": "それでは"
+        },
+        {
+          "text": "、"
+        },
+        {
+          "text": "そのように"
+        },
+        {
+          "text": "手配",
+          "kana": "てはい"
+        },
+        {
+          "text": "させていただきます"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "それではそのようにてはいさせていただきます",
+      "chinese": "那么，我就照此为您安排。",
+      "category": "progress",
+      "register": "敬語",
+      "difficulty": 3,
+      "frequencyRank": 210,
+      "chunkPattern": "そのように手配させていただきます",
+      "tags": [
+        "display",
+        "fresh-display",
+        "fresh-20260727",
+        "work",
+        "phone"
+      ]
+    },
+    {
+      "externalId": "work-phone-028",
+      "japanese": "こちらの説明が不足しておりまして、申し訳ございません。",
+      "tokens": [
+        {
+          "text": "こちら"
+        },
+        {
+          "text": "の"
+        },
+        {
+          "text": "説明",
+          "kana": "せつめい"
+        },
+        {
+          "text": "が"
+        },
+        {
+          "text": "不足",
+          "kana": "ふそく"
+        },
+        {
+          "text": "して"
+        },
+        {
+          "text": "おりまして"
+        },
+        {
+          "text": "、"
+        },
+        {
+          "text": "申し訳",
+          "kana": "もうしわけ"
+        },
+        {
+          "text": "ございません"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "こちらのせつめいがふそくしておりましてもうしわけございません",
+      "chinese": "是我们这边说明不够充分，很抱歉。",
+      "category": "apology",
+      "register": "敬語",
+      "difficulty": 3,
+      "frequencyRank": 245,
+      "chunkPattern": "説明が不足しておりまして",
+      "tags": [
+        "display",
+        "fresh-display",
+        "fresh-20260727",
+        "work",
+        "phone"
+      ]
+    },
+    {
+      "externalId": "work-phone-029",
+      "japanese": "本日中にお返事を差し上げます。",
+      "tokens": [
+        {
+          "text": "本日",
+          "kana": "ほんじつ"
+        },
+        {
+          "text": "中",
+          "kana": "ちゅう"
+        },
+        {
+          "text": "に"
+        },
+        {
+          "text": "お"
+        },
+        {
+          "text": "返事",
+          "kana": "へんじ"
+        },
+        {
+          "text": "を"
+        },
+        {
+          "text": "差し上げます",
+          "kana": "さしあげます"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "ほんじつちゅうにおへんじをさしあげます",
+      "chinese": "我今天之内会给您答复。",
+      "category": "progress",
+      "register": "敬語",
+      "difficulty": 3,
+      "frequencyRank": 190,
+      "chunkPattern": "本日中にお返事を差し上げます",
+      "tags": [
+        "display",
+        "fresh-display",
+        "fresh-20260727",
+        "work",
+        "phone"
+      ]
+    },
+    {
+      "externalId": "work-phone-030",
+      "japanese": "お手数をおかけしますが、再度ご確認いただけますか。",
+      "tokens": [
+        {
+          "text": "お"
+        },
+        {
+          "text": "手数",
+          "kana": "てすう"
+        },
+        {
+          "text": "を"
+        },
+        {
+          "text": "おかけしますが"
+        },
+        {
+          "text": "、"
+        },
+        {
+          "text": "再度",
+          "kana": "さいど"
+        },
+        {
+          "text": "ご"
+        },
+        {
+          "text": "確認",
+          "kana": "かくにん"
+        },
+        {
+          "text": "いただけますか"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "おてすうをおかけしますがさいどごかくにんいただけますか",
+      "chinese": "麻烦您了，能请您再确认一次吗？",
+      "category": "request",
+      "register": "敬語",
+      "difficulty": 3,
+      "frequencyRank": 180,
+      "chunkPattern": "お手数をおかけしますが",
+      "tags": [
+        "display",
+        "fresh-display",
+        "fresh-20260727",
+        "work",
+        "phone"
+      ]
+    },
+    {
+      "externalId": "work-phone-031",
+      "japanese": "担当者に代わりますので、少々お待ちくださいませ。",
+      "tokens": [
+        {
+          "text": "担当",
+          "kana": "たんとう"
+        },
+        {
+          "text": "者",
+          "kana": "しゃ"
+        },
+        {
+          "text": "に"
+        },
+        {
+          "text": "代わりますので",
+          "kana": "かわりますので"
+        },
+        {
+          "text": "、"
+        },
+        {
+          "text": "少々",
+          "kana": "しょうしょう"
+        },
+        {
+          "text": "お"
+        },
+        {
+          "text": "待ち",
+          "kana": "まち"
+        },
+        {
+          "text": "くださいませ"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "たんとうしゃにかわりますのでしょうしょうおまちくださいませ",
+      "chinese": "现在换负责人来接，请您稍等。",
+      "category": "progress",
+      "register": "敬語",
+      "difficulty": 3,
+      "frequencyRank": 200,
+      "chunkPattern": "担当者に代わりますので",
+      "tags": [
+        "display",
+        "fresh-display",
+        "fresh-20260727",
+        "work",
+        "phone"
+      ]
+    },
+    {
+      "externalId": "work-phone-032",
+      "japanese": "お電話ありがとうございました。失礼いたします。",
+      "tokens": [
+        {
+          "text": "お"
+        },
+        {
+          "text": "電話",
+          "kana": "でんわ"
+        },
+        {
+          "text": "ありがとうございました"
+        },
+        {
+          "text": "。"
+        },
+        {
+          "text": "失礼",
+          "kana": "しつれい"
+        },
+        {
+          "text": "いたします"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "おでんわありがとうございましたしつれいいたします",
+      "chinese": "谢谢您的来电，那我先挂了。",
+      "category": "smalltalk",
+      "register": "敬語",
+      "difficulty": 2,
+      "frequencyRank": 125,
+      "chunkPattern": "失礼いたします",
+      "tags": [
+        "display",
+        "fresh-display",
+        "fresh-20260727",
+        "work",
+        "phone"
+      ]
+    },
+    {
+      "externalId": "work-phone-033",
+      "japanese": "あいにく本日は休みを取っておりまして。",
+      "tokens": [
+        {
+          "text": "あいにく"
+        },
+        {
+          "text": "本日",
+          "kana": "ほんじつ"
+        },
+        {
+          "text": "は"
+        },
+        {
+          "text": "休み",
+          "kana": "やすみ"
+        },
+        {
+          "text": "を"
+        },
+        {
+          "text": "取って",
+          "kana": "とって"
+        },
+        {
+          "text": "おりまして"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "あいにくほんじつはやすみをとっておりまして",
+      "chinese": "很不巧，他今天请假了。",
+      "category": "progress",
+      "register": "敬語",
+      "difficulty": 3,
+      "frequencyRank": 215,
+      "chunkPattern": "あいにく本日は休みを取っておりまして",
+      "tags": [
+        "display",
+        "fresh-display",
+        "fresh-20260727",
+        "work",
+        "phone"
+      ]
+    },
+    {
+      "externalId": "work-phone-034",
+      "japanese": "恐れ入りますが、どちら様でいらっしゃいますか。",
+      "tokens": [
+        {
+          "text": "恐れ入り",
+          "kana": "おそれいり"
+        },
+        {
+          "text": "ますが"
+        },
+        {
+          "text": "、"
+        },
+        {
+          "text": "どちら"
+        },
+        {
+          "text": "様",
+          "kana": "さま"
+        },
+        {
+          "text": "で"
+        },
+        {
+          "text": "いらっしゃいますか"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "おそれいりますがどちらさまでいらっしゃいますか",
+      "chinese": "不好意思，请问您是哪位？",
+      "category": "request",
+      "register": "敬語",
+      "difficulty": 3,
+      "frequencyRank": 230,
+      "chunkPattern": "どちら様でいらっしゃいますか",
+      "tags": [
+        "display",
+        "fresh-display",
+        "fresh-20260727",
+        "work",
+        "phone"
+      ]
+    },
+    {
+      "externalId": "work-phone-035",
+      "japanese": "少しお電話が遠いようですので、もう一度お願いできますか。",
+      "tokens": [
+        {
+          "text": "少し",
+          "kana": "すこし"
+        },
+        {
+          "text": "お"
+        },
+        {
+          "text": "電話",
+          "kana": "でんわ"
+        },
+        {
+          "text": "が"
+        },
+        {
+          "text": "遠い",
+          "kana": "とおい"
+        },
+        {
+          "text": "ようですので"
+        },
+        {
+          "text": "、"
+        },
+        {
+          "text": "もう"
+        },
+        {
+          "text": "一度",
+          "kana": "いちど"
+        },
+        {
+          "text": "お"
+        },
+        {
+          "text": "願い",
+          "kana": "ねがい"
+        },
+        {
+          "text": "できますか"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "すこしおでんわがとおいようですのでもういちどおねがいできますか",
+      "chinese": "电话有点听不清，能麻烦您再说一次吗？",
+      "category": "request",
+      "register": "敬語",
+      "difficulty": 3,
+      "frequencyRank": 220,
+      "chunkPattern": "お電話が遠いようですので",
+      "tags": [
+        "display",
+        "fresh-display",
+        "fresh-20260727",
+        "work",
+        "phone"
+      ]
+    },
+    {
+      "externalId": "work-phone-036",
+      "japanese": "発送の手続きが完了いたしましたので、ご連絡いたしました。",
+      "tokens": [
+        {
+          "text": "発送",
+          "kana": "はっそう"
+        },
+        {
+          "text": "の"
+        },
+        {
+          "text": "手続き",
+          "kana": "てつづき"
+        },
+        {
+          "text": "が"
+        },
+        {
+          "text": "完了",
+          "kana": "かんりょう"
+        },
+        {
+          "text": "いたしましたので"
+        },
+        {
+          "text": "、"
+        },
+        {
+          "text": "ご"
+        },
+        {
+          "text": "連絡",
+          "kana": "れんらく"
+        },
+        {
+          "text": "いたしました"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "はっそうのてつづきがかんりょういたしましたのでごれんらくいたしました",
+      "chinese": "发货手续已经完成，特此与您联系。",
+      "category": "progress",
+      "register": "敬語",
+      "difficulty": 3,
+      "frequencyRank": 205,
+      "chunkPattern": "手続きが完了いたしましたので",
+      "tags": [
+        "display",
+        "fresh-display",
+        "fresh-20260727",
+        "work",
+        "phone"
+      ]
+    },
+    {
+      "externalId": "work-phone-037",
+      "japanese": "この度はご迷惑をおかけし、誠に申し訳ございませんでした。",
+      "tokens": [
+        {
+          "text": "この"
+        },
+        {
+          "text": "度",
+          "kana": "たび"
+        },
+        {
+          "text": "は"
+        },
+        {
+          "text": "ご"
+        },
+        {
+          "text": "迷惑",
+          "kana": "めいわく"
+        },
+        {
+          "text": "を"
+        },
+        {
+          "text": "おかけし"
+        },
+        {
+          "text": "、"
+        },
+        {
+          "text": "誠に",
+          "kana": "まことに"
+        },
+        {
+          "text": "申し訳",
+          "kana": "もうしわけ"
+        },
+        {
+          "text": "ございませんでした"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "このたびはごめいわくをおかけしまことにもうしわけございませんでした",
+      "chinese": "此次给您添了麻烦，实在非常抱歉。",
+      "category": "apology",
+      "register": "敬語",
+      "difficulty": 3,
+      "frequencyRank": 250,
+      "chunkPattern": "誠に申し訳ございませんでした",
+      "tags": [
+        "display",
+        "fresh-display",
+        "fresh-20260727",
+        "work",
+        "phone"
+      ]
+    },
+    {
+      "externalId": "work-phone-038",
+      "japanese": "よろしければ、お見積もりをお送りいただけますか。",
+      "tokens": [
+        {
+          "text": "よろしければ"
+        },
+        {
+          "text": "、"
+        },
+        {
+          "text": "お"
+        },
+        {
+          "text": "見積もり",
+          "kana": "みつもり"
+        },
+        {
+          "text": "を"
+        },
+        {
+          "text": "お"
+        },
+        {
+          "text": "送り",
+          "kana": "おくり"
+        },
+        {
+          "text": "いただけますか"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "よろしければおみつもりをおおくりいただけますか",
+      "chinese": "如果方便的话，能请您把报价单发过来吗？",
+      "category": "request",
+      "register": "敬語",
+      "difficulty": 3,
+      "frequencyRank": 235,
+      "chunkPattern": "お見積もりをお送りいただけますか",
+      "tags": [
+        "display",
+        "fresh-display",
+        "fresh-20260727",
+        "work",
+        "phone"
+      ]
+    },
+    {
+      "externalId": "work-phone-039",
+      "japanese": "恐縮ですが、もう一度お名前を確認させていただけますか。",
+      "tokens": [
+        {
+          "text": "恐縮",
+          "kana": "きょうしゅく"
+        },
+        {
+          "text": "ですが"
+        },
+        {
+          "text": "、"
+        },
+        {
+          "text": "もう"
+        },
+        {
+          "text": "一度",
+          "kana": "いちど"
+        },
+        {
+          "text": "お"
+        },
+        {
+          "text": "名前",
+          "kana": "なまえ"
+        },
+        {
+          "text": "を"
+        },
+        {
+          "text": "確認",
+          "kana": "かくにん"
+        },
+        {
+          "text": "させていただけますか"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "きょうしゅくですがもういちどおなまえをかくにんさせていただけますか",
+      "chinese": "不好意思，能让我再确认一次您的姓名吗？",
+      "category": "request",
+      "register": "敬語",
+      "difficulty": 3,
+      "frequencyRank": 215,
+      "chunkPattern": "もう一度お名前を確認させていただけますか",
+      "tags": [
+        "display",
+        "fresh-display",
+        "fresh-20260727",
+        "work",
+        "phone"
+      ]
+    },
+    {
+      "externalId": "work-phone-040",
+      "japanese": "何かございましたら、いつでもご連絡くださいませ。",
+      "tokens": [
+        {
+          "text": "何か",
+          "kana": "なにか"
+        },
+        {
+          "text": "ございましたら"
+        },
+        {
+          "text": "、"
+        },
+        {
+          "text": "いつでも"
+        },
+        {
+          "text": "ご"
+        },
+        {
+          "text": "連絡",
+          "kana": "れんらく"
+        },
+        {
+          "text": "くださいませ"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "なにかございましたらいつでもごれんらくくださいませ",
+      "chinese": "如果有任何问题，请随时与我们联系。",
+      "category": "smalltalk",
+      "register": "敬語",
+      "difficulty": 2,
+      "frequencyRank": 135,
+      "chunkPattern": "何かございましたらいつでもご連絡くださいませ",
+      "tags": [
+        "display",
+        "fresh-display",
+        "fresh-20260727",
+        "work",
+        "phone"
+      ]
+    },
+    {
+      "externalId": "life-errand-001",
+      "japanese": "レジ袋はご利用ですか？",
+      "tokens": [
+        {
+          "text": "レジ"
+        },
+        {
+          "text": "袋",
+          "kana": "ぶくろ"
+        },
+        {
+          "text": "は"
+        },
+        {
+          "text": "ご利用",
+          "kana": "ごりよう"
+        },
+        {
+          "text": "です"
+        },
+        {
+          "text": "か"
+        },
+        {
+          "text": "？"
+        }
+      ],
+      "kana": "れじぶくろはごりようですか",
+      "chinese": "需要塑料袋吗？",
+      "category": "daily",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 140,
+      "chunkPattern": "〜ですか",
+      "tags": [
+        "display",
+        "fresh-display",
+        "fresh-20260727",
+        "life",
+        "errand"
+      ]
+    },
+    {
+      "externalId": "life-errand-002",
+      "japanese": "温めますか？",
+      "tokens": [
+        {
+          "text": "温め",
+          "kana": "あたため"
+        },
+        {
+          "text": "ますか"
+        },
+        {
+          "text": "？"
+        }
+      ],
+      "kana": "あたためますか",
+      "chinese": "需要加热吗？",
+      "category": "daily",
+      "register": "丁寧",
+      "difficulty": 1,
+      "frequencyRank": 130,
+      "chunkPattern": "〜ますか",
+      "tags": [
+        "display",
+        "fresh-display",
+        "fresh-20260727",
+        "life",
+        "errand"
+      ]
+    },
+    {
+      "externalId": "life-errand-003",
+      "japanese": "お箸はおつけしますか？",
+      "tokens": [
+        {
+          "text": "お箸",
+          "kana": "おはし"
+        },
+        {
+          "text": "は"
+        },
+        {
+          "text": "おつけしますか"
+        },
+        {
+          "text": "？"
+        }
+      ],
+      "kana": "おはしはおつけしますか",
+      "chinese": "需要筷子吗？",
+      "category": "daily",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 150,
+      "chunkPattern": "〜しますか",
+      "tags": [
+        "display",
+        "fresh-display",
+        "fresh-20260727",
+        "life",
+        "errand"
+      ]
+    },
+    {
+      "externalId": "life-errand-004",
+      "japanese": "ポイントはつきますか？",
+      "tokens": [
+        {
+          "text": "ポイント"
+        },
+        {
+          "text": "は"
+        },
+        {
+          "text": "つきますか"
+        },
+        {
+          "text": "？"
+        }
+      ],
+      "kana": "ぽいんとはつきますか",
+      "chinese": "有积分吗？",
+      "category": "daily",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 160,
+      "chunkPattern": "〜ますか",
+      "tags": [
+        "display",
+        "fresh-display",
+        "fresh-20260727",
+        "life",
+        "errand"
+      ]
+    },
+    {
+      "externalId": "life-errand-005",
+      "japanese": "袋にお入れしますか？",
+      "tokens": [
+        {
+          "text": "袋",
+          "kana": "ふくろ"
+        },
+        {
+          "text": "に"
+        },
+        {
+          "text": "お入れ",
+          "kana": "おいれ"
+        },
+        {
+          "text": "しますか"
+        },
+        {
+          "text": "？"
+        }
+      ],
+      "kana": "ふくろにおいれしますか",
+      "chinese": "要帮您装袋吗？",
+      "category": "daily",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 170,
+      "chunkPattern": "〜しますか",
+      "tags": [
+        "display",
+        "fresh-display",
+        "fresh-20260727",
+        "life",
+        "errand"
+      ]
+    },
+    {
+      "externalId": "life-errand-006",
+      "japanese": "支払いは現金でお願いします。",
+      "tokens": [
+        {
+          "text": "支払い",
+          "kana": "しはらい"
+        },
+        {
+          "text": "は"
+        },
+        {
+          "text": "現金",
+          "kana": "げんきん"
+        },
+        {
+          "text": "で"
+        },
+        {
+          "text": "お願い",
+          "kana": "おねがい"
+        },
+        {
+          "text": "します"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "しはらいはげんきんでおねがいします",
+      "chinese": "付款用现金拜托了。",
+      "category": "request",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 180,
+      "chunkPattern": "〜でお願いします",
+      "tags": [
+        "display",
+        "fresh-display",
+        "fresh-20260727",
+        "life",
+        "errand"
+      ]
+    },
+    {
+      "externalId": "life-errand-007",
+      "japanese": "スイカで払えますか？",
+      "tokens": [
+        {
+          "text": "スイカ"
+        },
+        {
+          "text": "で"
+        },
+        {
+          "text": "払え",
+          "kana": "はらえ"
+        },
+        {
+          "text": "ますか"
+        },
+        {
+          "text": "？"
+        }
+      ],
+      "kana": "すいかではらえますか",
+      "chinese": "可以用西瓜卡付吗？",
+      "category": "daily",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 190,
+      "chunkPattern": "〜で払えますか",
+      "tags": [
+        "display",
+        "fresh-display",
+        "fresh-20260727",
+        "life",
+        "errand"
+      ]
+    },
+    {
+      "externalId": "life-errand-008",
+      "japanese": "領収書ください。",
+      "tokens": [
+        {
+          "text": "領収書",
+          "kana": "りょうしゅうしょ"
+        },
+        {
+          "text": "ください"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "りょうしゅうしょください",
+      "chinese": "请给我收据。",
+      "category": "request",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 175,
+      "chunkPattern": "〜ください",
+      "tags": [
+        "display",
+        "fresh-display",
+        "fresh-20260727",
+        "life",
+        "errand"
+      ]
+    },
+    {
+      "externalId": "life-errand-009",
+      "japanese": "この電車、渋谷に止まりますか？",
+      "tokens": [
+        {
+          "text": "この"
+        },
+        {
+          "text": "電車",
+          "kana": "でんしゃ"
+        },
+        {
+          "text": "、"
+        },
+        {
+          "text": "渋谷",
+          "kana": "しぶや"
+        },
+        {
+          "text": "に"
+        },
+        {
+          "text": "止まり",
+          "kana": "とまり"
+        },
+        {
+          "text": "ますか"
+        },
+        {
+          "text": "？"
+        }
+      ],
+      "kana": "このでんしゃしぶやにとまりますか",
+      "chinese": "这班电车在涩谷停吗？",
+      "category": "daily",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 200,
+      "chunkPattern": "〜に止まりますか",
+      "tags": [
+        "display",
+        "fresh-display",
+        "fresh-20260727",
+        "life",
+        "errand"
+      ]
+    },
+    {
+      "externalId": "life-errand-010",
+      "japanese": "次は何駅ですか？",
+      "tokens": [
+        {
+          "text": "次",
+          "kana": "つぎ"
+        },
+        {
+          "text": "は"
+        },
+        {
+          "text": "何駅",
+          "kana": "なにえき"
+        },
+        {
+          "text": "です"
+        },
+        {
+          "text": "か"
+        },
+        {
+          "text": "？"
+        }
+      ],
+      "kana": "つぎはなにえきですか",
+      "chinese": "下一站是哪站？",
+      "category": "daily",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 210,
+      "chunkPattern": "〜は何〜ですか",
+      "tags": [
+        "display",
+        "fresh-display",
+        "fresh-20260727",
+        "life",
+        "errand"
+      ]
+    },
+    {
+      "externalId": "life-errand-011",
+      "japanese": "定期を落としちゃった。",
+      "tokens": [
+        {
+          "text": "定期",
+          "kana": "ていき"
+        },
+        {
+          "text": "を"
+        },
+        {
+          "text": "落とし",
+          "kana": "おとし"
+        },
+        {
+          "text": "ちゃった"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "ていきをおとしちゃった",
+      "chinese": "把月票弄丢了。",
+      "category": "daily",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 220,
+      "chunkPattern": "〜ちゃった",
+      "tags": [
+        "display",
+        "fresh-display",
+        "fresh-20260727",
+        "life",
+        "errand"
+      ]
+    },
+    {
+      "externalId": "life-errand-012",
+      "japanese": "改札で引っかかっちゃった。",
+      "tokens": [
+        {
+          "text": "改札",
+          "kana": "かいさつ"
+        },
+        {
+          "text": "で"
+        },
+        {
+          "text": "引っかかっ",
+          "kana": "ひっかかっ"
+        },
+        {
+          "text": "ちゃった"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "かいさつでひっかかっちゃった",
+      "chinese": "在检票口被卡住了。",
+      "category": "daily",
+      "register": "カジュアル",
+      "difficulty": 3,
+      "frequencyRank": 230,
+      "chunkPattern": "〜ちゃった",
+      "tags": [
+        "display",
+        "fresh-display",
+        "fresh-20260727",
+        "life",
+        "errand"
+      ]
+    },
+    {
+      "externalId": "life-errand-013",
+      "japanese": "終電に間に合うかな。",
+      "tokens": [
+        {
+          "text": "終電",
+          "kana": "しゅうでん"
+        },
+        {
+          "text": "に"
+        },
+        {
+          "text": "間に合う",
+          "kana": "まにあう"
+        },
+        {
+          "text": "かな"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "しゅうでんにまにあうかな",
+      "chinese": "赶得上末班车吗。",
+      "category": "daily",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 240,
+      "chunkPattern": "〜かな",
+      "tags": [
+        "display",
+        "fresh-display",
+        "fresh-20260727",
+        "life",
+        "errand"
+      ]
+    },
+    {
+      "externalId": "life-errand-014",
+      "japanese": "バス、あと何分で来る？",
+      "tokens": [
+        {
+          "text": "バス"
+        },
+        {
+          "text": "、"
+        },
+        {
+          "text": "あと"
+        },
+        {
+          "text": "何分",
+          "kana": "なんぷん"
+        },
+        {
+          "text": "で"
+        },
+        {
+          "text": "来る",
+          "kana": "くる"
+        },
+        {
+          "text": "？"
+        }
+      ],
+      "kana": "ばすあとなんぷんでくる",
+      "chinese": "公交还有几分钟来？",
+      "category": "daily",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 250,
+      "chunkPattern": "あと〜で〜",
+      "tags": [
+        "display",
+        "fresh-display",
+        "fresh-20260727",
+        "life",
+        "errand"
+      ]
+    },
+    {
+      "externalId": "life-errand-015",
+      "japanese": "席、空いてますか？",
+      "tokens": [
+        {
+          "text": "席",
+          "kana": "せき"
+        },
+        {
+          "text": "、"
+        },
+        {
+          "text": "空いて",
+          "kana": "あいて"
+        },
+        {
+          "text": "ますか"
+        },
+        {
+          "text": "？"
+        }
+      ],
+      "kana": "せきあいてますか",
+      "chinese": "座位空着吗？",
+      "category": "daily",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 260,
+      "chunkPattern": "〜てますか",
+      "tags": [
+        "display",
+        "fresh-display",
+        "fresh-20260727",
+        "life",
+        "errand"
+      ]
+    },
+    {
+      "externalId": "life-errand-016",
+      "japanese": "お金をおろさなきゃ。",
+      "tokens": [
+        {
+          "text": "お金",
+          "kana": "おかね"
+        },
+        {
+          "text": "を"
+        },
+        {
+          "text": "おろさなきゃ"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "おかねをおろさなきゃ",
+      "chinese": "得取钱了。",
+      "category": "daily",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 270,
+      "chunkPattern": "〜なきゃ",
+      "tags": [
+        "display",
+        "fresh-display",
+        "fresh-20260727",
+        "life",
+        "errand"
+      ]
+    },
+    {
+      "externalId": "life-errand-017",
+      "japanese": "振り込みをしたいんですけど。",
+      "tokens": [
+        {
+          "text": "振り込み",
+          "kana": "ふりこみ"
+        },
+        {
+          "text": "を"
+        },
+        {
+          "text": "したいんですけど"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "ふりこみをしたいんですけど",
+      "chinese": "我想汇款。",
+      "category": "request",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 280,
+      "chunkPattern": "〜たいんですけど",
+      "tags": [
+        "display",
+        "fresh-display",
+        "fresh-20260727",
+        "life",
+        "errand"
+      ]
+    },
+    {
+      "externalId": "life-errand-018",
+      "japanese": "通帳記入をお願いします。",
+      "tokens": [
+        {
+          "text": "通帳記入",
+          "kana": "つうちょうきにゅう"
+        },
+        {
+          "text": "を"
+        },
+        {
+          "text": "お願い",
+          "kana": "おねがい"
+        },
+        {
+          "text": "します"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "つうちょうきにゅうをおねがいします",
+      "chinese": "请帮我补登存折。",
+      "category": "request",
+      "register": "丁寧",
+      "difficulty": 3,
+      "frequencyRank": 290,
+      "chunkPattern": "〜をお願いします",
+      "tags": [
+        "display",
+        "fresh-display",
+        "fresh-20260727",
+        "life",
+        "errand"
+      ]
+    },
+    {
+      "externalId": "life-errand-019",
+      "japanese": "残高を確認したいです。",
+      "tokens": [
+        {
+          "text": "残高",
+          "kana": "ざんだか"
+        },
+        {
+          "text": "を"
+        },
+        {
+          "text": "確認",
+          "kana": "かくにん"
+        },
+        {
+          "text": "したいです"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "ざんだかをかくにんしたいです",
+      "chinese": "我想确认余额。",
+      "category": "daily",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 300,
+      "chunkPattern": "〜したいです",
+      "tags": [
+        "display",
+        "fresh-display",
+        "fresh-20260727",
+        "life",
+        "errand"
+      ]
+    },
+    {
+      "externalId": "life-errand-020",
+      "japanese": "手数料はかかりますか？",
+      "tokens": [
+        {
+          "text": "手数料",
+          "kana": "てすうりょう"
+        },
+        {
+          "text": "は"
+        },
+        {
+          "text": "かかりますか"
+        },
+        {
+          "text": "？"
+        }
+      ],
+      "kana": "てすうりょうはかかりますか",
+      "chinese": "要收手续费吗？",
+      "category": "daily",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 310,
+      "chunkPattern": "〜はかかりますか",
+      "tags": [
+        "display",
+        "fresh-display",
+        "fresh-20260727",
+        "life",
+        "errand"
+      ]
+    },
+    {
+      "externalId": "life-errand-021",
+      "japanese": "転入届を出しに来ました。",
+      "tokens": [
+        {
+          "text": "転入届",
+          "kana": "てんにゅうとどけ"
+        },
+        {
+          "text": "を"
+        },
+        {
+          "text": "出し",
+          "kana": "だし"
+        },
+        {
+          "text": "に"
+        },
+        {
+          "text": "来ました",
+          "kana": "きました"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "てんにゅうとどけをだしにきました",
+      "chinese": "我来提交迁入申报。",
+      "category": "daily",
+      "register": "丁寧",
+      "difficulty": 3,
+      "frequencyRank": 320,
+      "chunkPattern": "〜に来ました",
+      "tags": [
+        "display",
+        "fresh-display",
+        "fresh-20260727",
+        "life",
+        "errand"
+      ]
+    },
+    {
+      "externalId": "life-errand-022",
+      "japanese": "住民票が欲しいんですが。",
+      "tokens": [
+        {
+          "text": "住民票",
+          "kana": "じゅうみんひょう"
+        },
+        {
+          "text": "が"
+        },
+        {
+          "text": "欲しいんですが",
+          "kana": "ほしいんですが"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "じゅうみんひょうがほしいんですが",
+      "chinese": "我想要一份居民票。",
+      "category": "request",
+      "register": "丁寧",
+      "difficulty": 3,
+      "frequencyRank": 330,
+      "chunkPattern": "〜が欲しいんですが",
+      "tags": [
+        "display",
+        "fresh-display",
+        "fresh-20260727",
+        "life",
+        "errand"
+      ]
+    },
+    {
+      "externalId": "life-errand-023",
+      "japanese": "印鑑は必要ですか？",
+      "tokens": [
+        {
+          "text": "印鑑",
+          "kana": "いんかん"
+        },
+        {
+          "text": "は"
+        },
+        {
+          "text": "必要",
+          "kana": "ひつよう"
+        },
+        {
+          "text": "です"
+        },
+        {
+          "text": "か"
+        },
+        {
+          "text": "？"
+        }
+      ],
+      "kana": "いんかんはひつようですか",
+      "chinese": "需要印章吗？",
+      "category": "daily",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 340,
+      "chunkPattern": "〜は必要ですか",
+      "tags": [
+        "display",
+        "fresh-display",
+        "fresh-20260727",
+        "life",
+        "errand"
+      ]
+    },
+    {
+      "externalId": "life-errand-024",
+      "japanese": "番号札を取ってお待ちください。",
+      "tokens": [
+        {
+          "text": "番号札",
+          "kana": "ばんごうふだ"
+        },
+        {
+          "text": "を"
+        },
+        {
+          "text": "取って",
+          "kana": "とって"
+        },
+        {
+          "text": "お待ち",
+          "kana": "おまち"
+        },
+        {
+          "text": "ください"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "ばんごうふだをとっておまちください",
+      "chinese": "请取号后稍候。",
+      "category": "daily",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 350,
+      "chunkPattern": "〜てください",
+      "tags": [
+        "display",
+        "fresh-display",
+        "fresh-20260727",
+        "life",
+        "errand"
+      ]
+    },
+    {
+      "externalId": "life-errand-025",
+      "japanese": "荷物が届く予定なんです。",
+      "tokens": [
+        {
+          "text": "荷物",
+          "kana": "にもつ"
+        },
+        {
+          "text": "が"
+        },
+        {
+          "text": "届く",
+          "kana": "とどく"
+        },
+        {
+          "text": "予定",
+          "kana": "よてい"
+        },
+        {
+          "text": "なんです"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "にもつがとどくよていなんです",
+      "chinese": "有个包裹要到。",
+      "category": "daily",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 360,
+      "chunkPattern": "〜予定なんです",
+      "tags": [
+        "display",
+        "fresh-display",
+        "fresh-20260727",
+        "life",
+        "errand"
+      ]
+    },
+    {
+      "externalId": "life-errand-026",
+      "japanese": "再配達をお願いしたいです。",
+      "tokens": [
+        {
+          "text": "再配達",
+          "kana": "さいはいたつ"
+        },
+        {
+          "text": "を"
+        },
+        {
+          "text": "お願い",
+          "kana": "おねがい"
+        },
+        {
+          "text": "したいです"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "さいはいたつをおねがいしたいです",
+      "chinese": "我想申请重新投递。",
+      "category": "request",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 370,
+      "chunkPattern": "〜をお願いしたいです",
+      "tags": [
+        "display",
+        "fresh-display",
+        "fresh-20260727",
+        "life",
+        "errand"
+      ]
+    },
+    {
+      "externalId": "life-errand-027",
+      "japanese": "明日の午前中に届けてください。",
+      "tokens": [
+        {
+          "text": "明日",
+          "kana": "あした"
+        },
+        {
+          "text": "の"
+        },
+        {
+          "text": "午前中",
+          "kana": "ごぜんちゅう"
+        },
+        {
+          "text": "に"
+        },
+        {
+          "text": "届けて",
+          "kana": "とどけて"
+        },
+        {
+          "text": "ください"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "あしたのごぜんちゅうにとどけてください",
+      "chinese": "请明天上午送到。",
+      "category": "request",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 380,
+      "chunkPattern": "〜てください",
+      "tags": [
+        "display",
+        "fresh-display",
+        "fresh-20260727",
+        "life",
+        "errand"
+      ]
+    },
+    {
+      "externalId": "life-errand-028",
+      "japanese": "宅配便を出したいんですけど。",
+      "tokens": [
+        {
+          "text": "宅配便",
+          "kana": "たくはいびん"
+        },
+        {
+          "text": "を"
+        },
+        {
+          "text": "出したいんですけど",
+          "kana": "だしたいんですけど"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "たくはいびんをだしたいんですけど",
+      "chinese": "我想寄个快递。",
+      "category": "request",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 390,
+      "chunkPattern": "〜たいんですけど",
+      "tags": [
+        "display",
+        "fresh-display",
+        "fresh-20260727",
+        "life",
+        "errand"
+      ]
+    },
+    {
+      "externalId": "life-errand-029",
+      "japanese": "サインでいいですか？",
+      "tokens": [
+        {
+          "text": "サイン"
+        },
+        {
+          "text": "でいいですか"
+        },
+        {
+          "text": "？"
+        }
+      ],
+      "kana": "さいんでいいですか",
+      "chinese": "签名可以吗？",
+      "category": "daily",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 400,
+      "chunkPattern": "〜でいいですか",
+      "tags": [
+        "display",
+        "fresh-display",
+        "fresh-20260727",
+        "life",
+        "errand"
+      ]
+    },
+    {
+      "externalId": "life-errand-030",
+      "japanese": "コンビニで公共料金って払える？",
+      "tokens": [
+        {
+          "text": "コンビニ"
+        },
+        {
+          "text": "で"
+        },
+        {
+          "text": "公共料金",
+          "kana": "こうきょうりょうきん"
+        },
+        {
+          "text": "って"
+        },
+        {
+          "text": "払える",
+          "kana": "はらえる"
+        },
+        {
+          "text": "？"
+        }
+      ],
+      "kana": "こんびにでこうきょうりょうきんってはらえる",
+      "chinese": "便利店能交水电费吗？",
+      "category": "daily",
+      "register": "カジュアル",
+      "difficulty": 3,
+      "frequencyRank": 410,
+      "chunkPattern": "〜って払える？",
+      "tags": [
+        "display",
+        "fresh-display",
+        "fresh-20260727",
+        "life",
+        "errand"
+      ]
+    },
+    {
+      "externalId": "life-errand-031",
+      "japanese": "お弁当温めてもらえますか？",
+      "tokens": [
+        {
+          "text": "お弁当",
+          "kana": "おべんとう"
+        },
+        {
+          "text": "温めて",
+          "kana": "あたためて"
+        },
+        {
+          "text": "もらえますか"
+        },
+        {
+          "text": "？"
+        }
+      ],
+      "kana": "おべんとうあたためてもらえますか",
+      "chinese": "便当能帮我加热吗？",
+      "category": "request",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 420,
+      "chunkPattern": "〜てもらえますか",
+      "tags": [
+        "display",
+        "fresh-display",
+        "fresh-20260727",
+        "life",
+        "errand"
+      ]
+    },
+    {
+      "externalId": "life-errand-032",
+      "japanese": "トイレ借りてもいいですか？",
+      "tokens": [
+        {
+          "text": "トイレ"
+        },
+        {
+          "text": "借りて",
+          "kana": "かりて"
+        },
+        {
+          "text": "もいいですか"
+        },
+        {
+          "text": "？"
+        }
+      ],
+      "kana": "といれかりてもいいですか",
+      "chinese": "可以借用一下厕所吗？",
+      "category": "request",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 430,
+      "chunkPattern": "〜てもいいですか",
+      "tags": [
+        "display",
+        "fresh-display",
+        "fresh-20260727",
+        "life",
+        "errand"
+      ]
+    },
+    {
+      "externalId": "life-errand-033",
+      "japanese": "これ、レジで精算してください。",
+      "tokens": [
+        {
+          "text": "これ"
+        },
+        {
+          "text": "、"
+        },
+        {
+          "text": "レジ"
+        },
+        {
+          "text": "で"
+        },
+        {
+          "text": "精算",
+          "kana": "せいさん"
+        },
+        {
+          "text": "してください"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "これれじでせいさんしてください",
+      "chinese": "这个请到收银台结账。",
+      "category": "request",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 440,
+      "chunkPattern": "〜してください",
+      "tags": [
+        "display",
+        "fresh-display",
+        "fresh-20260727",
+        "life",
+        "errand"
+      ]
+    },
+    {
+      "externalId": "life-errand-034",
+      "japanese": "特売は今日までだって。",
+      "tokens": [
+        {
+          "text": "特売",
+          "kana": "とくばい"
+        },
+        {
+          "text": "は"
+        },
+        {
+          "text": "今日",
+          "kana": "きょう"
+        },
+        {
+          "text": "までだって"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "とくばいはきょうまでだって",
+      "chinese": "听说特价到今天为止。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 450,
+      "chunkPattern": "〜だって",
+      "tags": [
+        "display",
+        "fresh-display",
+        "fresh-20260727",
+        "life",
+        "errand"
+      ]
+    },
+    {
+      "externalId": "life-errand-035",
+      "japanese": "卵、安くなってるね。",
+      "tokens": [
+        {
+          "text": "卵",
+          "kana": "たまご"
+        },
+        {
+          "text": "、"
+        },
+        {
+          "text": "安く",
+          "kana": "やすく"
+        },
+        {
+          "text": "なってるね"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "たまごやすくなってるね",
+      "chinese": "鸡蛋变便宜了呢。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 460,
+      "chunkPattern": "〜くなってる",
+      "tags": [
+        "display",
+        "fresh-display",
+        "fresh-20260727",
+        "life",
+        "errand"
+      ]
+    },
+    {
+      "externalId": "life-errand-036",
+      "japanese": "カゴはどこですか？",
+      "tokens": [
+        {
+          "text": "カゴ"
+        },
+        {
+          "text": "はどこですか"
+        },
+        {
+          "text": "？"
+        }
+      ],
+      "kana": "かごはどこですか",
+      "chinese": "购物篮在哪里？",
+      "category": "daily",
+      "register": "丁寧",
+      "difficulty": 1,
+      "frequencyRank": 470,
+      "chunkPattern": "〜はどこですか",
+      "tags": [
+        "display",
+        "fresh-display",
+        "fresh-20260727",
+        "life",
+        "errand"
+      ]
+    },
+    {
+      "externalId": "life-errand-037",
+      "japanese": "賞味期限、切れてない？",
+      "tokens": [
+        {
+          "text": "賞味期限",
+          "kana": "しょうみきげん"
+        },
+        {
+          "text": "、"
+        },
+        {
+          "text": "切れてない",
+          "kana": "きれてない"
+        },
+        {
+          "text": "？"
+        }
+      ],
+      "kana": "しょうみきげんきれてない",
+      "chinese": "保质期没过吧？",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 480,
+      "chunkPattern": "〜てない？",
+      "tags": [
+        "display",
+        "fresh-display",
+        "fresh-20260727",
+        "life",
+        "errand"
+      ]
+    },
+    {
+      "externalId": "life-errand-038",
+      "japanese": "通勤ラッシュ、まじで疲れる。",
+      "tokens": [
+        {
+          "text": "通勤",
+          "kana": "つうきん"
+        },
+        {
+          "text": "ラッシュ"
+        },
+        {
+          "text": "、"
+        },
+        {
+          "text": "まじで"
+        },
+        {
+          "text": "疲れる",
+          "kana": "つかれる"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "つうきんらっしゅまじでつかれる",
+      "chinese": "通勤高峰真的累死。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 490,
+      "chunkPattern": "まじで〜",
+      "tags": [
+        "display",
+        "fresh-display",
+        "fresh-20260727",
+        "life",
+        "errand"
+      ]
+    },
+    {
+      "externalId": "life-errand-039",
+      "japanese": "満員電車には乗りたくないなあ。",
+      "tokens": [
+        {
+          "text": "満員電車",
+          "kana": "まんいんでんしゃ"
+        },
+        {
+          "text": "には"
+        },
+        {
+          "text": "乗りたくない",
+          "kana": "のりたくない"
+        },
+        {
+          "text": "なあ"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "まんいんでんしゃにはのりたくないなあ",
+      "chinese": "真不想挤满员电车啊。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 500,
+      "chunkPattern": "〜たくないなあ",
+      "tags": [
+        "display",
+        "fresh-display",
+        "fresh-20260727",
+        "life",
+        "errand"
+      ]
+    },
+    {
+      "externalId": "life-errand-040",
+      "japanese": "お釣り、大丈夫です。",
+      "tokens": [
+        {
+          "text": "お釣り",
+          "kana": "おつり"
+        },
+        {
+          "text": "、"
+        },
+        {
+          "text": "大丈夫",
+          "kana": "だいじょうぶ"
+        },
+        {
+          "text": "です"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "おつりだいじょうぶです",
+      "chinese": "零钱不用了没关系。",
+      "category": "daily",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 510,
+      "chunkPattern": "〜大丈夫です",
+      "tags": [
+        "display",
+        "fresh-display",
+        "fresh-20260727",
+        "life",
+        "errand"
+      ]
+    },
+    {
+      "externalId": "life-home-001",
+      "japanese": "ご注文はお決まりですか。",
+      "tokens": [
+        {
+          "text": "ご注文",
+          "kana": "ごちゅうもん"
+        },
+        {
+          "text": "は"
+        },
+        {
+          "text": "お決まり",
+          "kana": "おきまり"
+        },
+        {
+          "text": "ですか"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "ごちゅうもんはおきまりですか",
+      "chinese": "您决定好要点什么了吗。",
+      "category": "request",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 150,
+      "chunkPattern": "ご注文は〜",
+      "tags": [
+        "display",
+        "fresh-display",
+        "fresh-20260727",
+        "life",
+        "home"
+      ]
+    },
+    {
+      "externalId": "life-home-002",
+      "japanese": "すみません、注文いいですか。",
+      "tokens": [
+        {
+          "text": "すみません"
+        },
+        {
+          "text": "、"
+        },
+        {
+          "text": "注文",
+          "kana": "ちゅうもん"
+        },
+        {
+          "text": "いいですか"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "すみませんちゅうもんいいですか",
+      "chinese": "不好意思，可以点餐了吗。",
+      "category": "request",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 140,
+      "chunkPattern": "〜いいですか",
+      "tags": [
+        "display",
+        "fresh-display",
+        "fresh-20260727",
+        "life",
+        "home"
+      ]
+    },
+    {
+      "externalId": "life-home-003",
+      "japanese": "とりあえず生ビールで。",
+      "tokens": [
+        {
+          "text": "とりあえず"
+        },
+        {
+          "text": "生",
+          "kana": "なま"
+        },
+        {
+          "text": "ビール"
+        },
+        {
+          "text": "で"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "とりあえずなまびーるで",
+      "chinese": "先来杯生啤吧。",
+      "category": "daily",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 175,
+      "chunkPattern": "とりあえず〜で",
+      "tags": [
+        "display",
+        "fresh-display",
+        "fresh-20260727",
+        "life",
+        "home"
+      ]
+    },
+    {
+      "externalId": "life-home-004",
+      "japanese": "これ、辛くないですか。",
+      "tokens": [
+        {
+          "text": "これ"
+        },
+        {
+          "text": "、"
+        },
+        {
+          "text": "辛く",
+          "kana": "からく"
+        },
+        {
+          "text": "ない"
+        },
+        {
+          "text": "ですか"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "これからくないですか",
+      "chinese": "这个，不辣吧。",
+      "category": "smalltalk",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 180,
+      "chunkPattern": "〜ないですか",
+      "tags": [
+        "display",
+        "fresh-display",
+        "fresh-20260727",
+        "life",
+        "home"
+      ]
+    },
+    {
+      "externalId": "life-home-005",
+      "japanese": "おすすめってありますか。",
+      "tokens": [
+        {
+          "text": "おすすめ"
+        },
+        {
+          "text": "って"
+        },
+        {
+          "text": "あります"
+        },
+        {
+          "text": "か"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "おすすめってありますか",
+      "chinese": "有没有推荐的呀。",
+      "category": "request",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 160,
+      "chunkPattern": "〜ってありますか",
+      "tags": [
+        "display",
+        "fresh-display",
+        "fresh-20260727",
+        "life",
+        "home"
+      ]
+    },
+    {
+      "externalId": "life-home-006",
+      "japanese": "お会計、別々でお願いします。",
+      "tokens": [
+        {
+          "text": "お会計",
+          "kana": "おかいけい"
+        },
+        {
+          "text": "、"
+        },
+        {
+          "text": "別々",
+          "kana": "べつべつ"
+        },
+        {
+          "text": "で"
+        },
+        {
+          "text": "お願い",
+          "kana": "おねがい"
+        },
+        {
+          "text": "します"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "おかいけいべつべつでおねがいします",
+      "chinese": "结账请分开算。",
+      "category": "request",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 170,
+      "chunkPattern": "〜でお願いします",
+      "tags": [
+        "display",
+        "fresh-display",
+        "fresh-20260727",
+        "life",
+        "home"
+      ]
+    },
+    {
+      "externalId": "life-home-007",
+      "japanese": "大盛りにできますか。",
+      "tokens": [
+        {
+          "text": "大盛り",
+          "kana": "おおもり"
+        },
+        {
+          "text": "に"
+        },
+        {
+          "text": "できます"
+        },
+        {
+          "text": "か"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "おおもりにできますか",
+      "chinese": "可以加大份吗。",
+      "category": "request",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 185,
+      "chunkPattern": "〜にできますか",
+      "tags": [
+        "display",
+        "fresh-display",
+        "fresh-20260727",
+        "life",
+        "home"
+      ]
+    },
+    {
+      "externalId": "life-home-008",
+      "japanese": "水のおかわりください。",
+      "tokens": [
+        {
+          "text": "水",
+          "kana": "みず"
+        },
+        {
+          "text": "の"
+        },
+        {
+          "text": "おかわり"
+        },
+        {
+          "text": "ください"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "みずのおかわりください",
+      "chinese": "请给我续杯水。",
+      "category": "request",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 165,
+      "chunkPattern": "〜ください",
+      "tags": [
+        "display",
+        "fresh-display",
+        "fresh-20260727",
+        "life",
+        "home"
+      ]
+    },
+    {
+      "externalId": "life-home-009",
+      "japanese": "ちょっと熱いから気をつけてね。",
+      "tokens": [
+        {
+          "text": "ちょっと"
+        },
+        {
+          "text": "熱い",
+          "kana": "あつい"
+        },
+        {
+          "text": "から"
+        },
+        {
+          "text": "気をつけて",
+          "kana": "きをつけて"
+        },
+        {
+          "text": "ね"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "ちょっとあついからきをつけてね",
+      "chinese": "有点烫，小心点哦。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 190,
+      "chunkPattern": "気をつけてね",
+      "tags": [
+        "display",
+        "fresh-display",
+        "fresh-20260727",
+        "life",
+        "home"
+      ]
+    },
+    {
+      "externalId": "life-home-010",
+      "japanese": "お腹すいた、なんか食べたい。",
+      "tokens": [
+        {
+          "text": "お腹",
+          "kana": "おなか"
+        },
+        {
+          "text": "すいた"
+        },
+        {
+          "text": "、"
+        },
+        {
+          "text": "なんか"
+        },
+        {
+          "text": "食べたい",
+          "kana": "たべたい"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "おなかすいたなんかたべたい",
+      "chinese": "肚子饿了，想吃点什么。",
+      "category": "daily",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 155,
+      "chunkPattern": "なんか〜たい",
+      "tags": [
+        "display",
+        "fresh-display",
+        "fresh-20260727",
+        "life",
+        "home"
+      ]
+    },
+    {
+      "externalId": "life-home-011",
+      "japanese": "今日ちょっと具合が悪くて。",
+      "tokens": [
+        {
+          "text": "今日",
+          "kana": "きょう"
+        },
+        {
+          "text": "ちょっと"
+        },
+        {
+          "text": "具合",
+          "kana": "ぐあい"
+        },
+        {
+          "text": "が"
+        },
+        {
+          "text": "悪くて",
+          "kana": "わるくて"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "きょうちょっとぐあいがわるくて",
+      "chinese": "今天有点不舒服。",
+      "category": "daily",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 175,
+      "chunkPattern": "具合が悪い",
+      "tags": [
+        "display",
+        "fresh-display",
+        "fresh-20260727",
+        "life",
+        "home"
+      ]
+    },
+    {
+      "externalId": "life-home-012",
+      "japanese": "薬、食後に飲んでね。",
+      "tokens": [
+        {
+          "text": "薬",
+          "kana": "くすり"
+        },
+        {
+          "text": "、"
+        },
+        {
+          "text": "食後",
+          "kana": "しょくご"
+        },
+        {
+          "text": "に"
+        },
+        {
+          "text": "飲んで",
+          "kana": "のんで"
+        },
+        {
+          "text": "ね"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "くすりしょくごにのんでね",
+      "chinese": "药要饭后吃哦。",
+      "category": "daily",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 180,
+      "chunkPattern": "〜に飲む",
+      "tags": [
+        "display",
+        "fresh-display",
+        "fresh-20260727",
+        "life",
+        "home"
+      ]
+    },
+    {
+      "externalId": "life-home-013",
+      "japanese": "熱を測ってみましょうか。",
+      "tokens": [
+        {
+          "text": "熱",
+          "kana": "ねつ"
+        },
+        {
+          "text": "を"
+        },
+        {
+          "text": "測って",
+          "kana": "はかって"
+        },
+        {
+          "text": "みましょうか"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "ねつをはかってみましょうか",
+      "chinese": "量一下体温吧。",
+      "category": "daily",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 185,
+      "chunkPattern": "〜てみましょうか",
+      "tags": [
+        "display",
+        "fresh-display",
+        "fresh-20260727",
+        "life",
+        "home"
+      ]
+    },
+    {
+      "externalId": "life-home-014",
+      "japanese": "風邪、こじらせないでね。",
+      "tokens": [
+        {
+          "text": "風邪",
+          "kana": "かぜ"
+        },
+        {
+          "text": "、"
+        },
+        {
+          "text": "こじらせない"
+        },
+        {
+          "text": "で"
+        },
+        {
+          "text": "ね"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "かぜこじらせないでね",
+      "chinese": "感冒别拖成大病哦。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 3,
+      "frequencyRank": 220,
+      "chunkPattern": "〜ないでね",
+      "tags": [
+        "display",
+        "fresh-display",
+        "fresh-20260727",
+        "life",
+        "home"
+      ]
+    },
+    {
+      "externalId": "life-home-015",
+      "japanese": "咳が止まらないんです。",
+      "tokens": [
+        {
+          "text": "咳",
+          "kana": "せき"
+        },
+        {
+          "text": "が"
+        },
+        {
+          "text": "止まらない",
+          "kana": "とまらない"
+        },
+        {
+          "text": "んです"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "せきがとまらないんです",
+      "chinese": "咳嗽止不住。",
+      "category": "daily",
+      "register": "丁寧",
+      "difficulty": 2,
+      "frequencyRank": 200,
+      "chunkPattern": "〜が止まらない",
+      "tags": [
+        "display",
+        "fresh-display",
+        "fresh-20260727",
+        "life",
+        "home"
+      ]
+    },
+    {
+      "externalId": "life-home-016",
+      "japanese": "処方箋、こちらになります。",
+      "tokens": [
+        {
+          "text": "処方箋",
+          "kana": "しょほうせん"
+        },
+        {
+          "text": "、"
+        },
+        {
+          "text": "こちら"
+        },
+        {
+          "text": "に"
+        },
+        {
+          "text": "なります"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "しょほうせんこちらになります",
+      "chinese": "这是您的处方笺。",
+      "category": "daily",
+      "register": "丁寧",
+      "difficulty": 3,
+      "frequencyRank": 230,
+      "chunkPattern": "こちらになります",
+      "tags": [
+        "display",
+        "fresh-display",
+        "fresh-20260727",
+        "life",
+        "home"
+      ]
+    },
+    {
+      "externalId": "life-home-017",
+      "japanese": "無理しないで、早く寝なよ。",
+      "tokens": [
+        {
+          "text": "無理",
+          "kana": "むり"
+        },
+        {
+          "text": "しない"
+        },
+        {
+          "text": "で"
+        },
+        {
+          "text": "、"
+        },
+        {
+          "text": "早く",
+          "kana": "はやく"
+        },
+        {
+          "text": "寝な",
+          "kana": "ねな"
+        },
+        {
+          "text": "よ"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "むりしないではやくねなよ",
+      "chinese": "别硬撑，早点睡吧。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 170,
+      "chunkPattern": "無理しないで",
+      "tags": [
+        "display",
+        "fresh-display",
+        "fresh-20260727",
+        "life",
+        "home"
+      ]
+    },
+    {
+      "externalId": "life-home-018",
+      "japanese": "だいぶ良くなってきた。",
+      "tokens": [
+        {
+          "text": "だいぶ"
+        },
+        {
+          "text": "良く",
+          "kana": "よく"
+        },
+        {
+          "text": "なってきた"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "だいぶよくなってきた",
+      "chinese": "好多了。",
+      "category": "daily",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 190,
+      "chunkPattern": "〜くなってきた",
+      "tags": [
+        "display",
+        "fresh-display",
+        "fresh-20260727",
+        "life",
+        "home"
+      ]
+    },
+    {
+      "externalId": "life-home-019",
+      "japanese": "ちゃんと病院行った方がいいよ。",
+      "tokens": [
+        {
+          "text": "ちゃんと"
+        },
+        {
+          "text": "病院",
+          "kana": "びょういん"
+        },
+        {
+          "text": "行った",
+          "kana": "いった"
+        },
+        {
+          "text": "方がいい",
+          "kana": "ほうがいい"
+        },
+        {
+          "text": "よ"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "ちゃんとびょういんいったほうがいいよ",
+      "chinese": "还是好好去趟医院比较好哦。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 165,
+      "chunkPattern": "〜方がいい",
+      "tags": [
+        "display",
+        "fresh-display",
+        "fresh-20260727",
+        "life",
+        "home"
+      ]
+    },
+    {
+      "externalId": "life-home-020",
+      "japanese": "洗濯物、取り込んでおいたよ。",
+      "tokens": [
+        {
+          "text": "洗濯物",
+          "kana": "せんたくもの"
+        },
+        {
+          "text": "、"
+        },
+        {
+          "text": "取り込んで",
+          "kana": "とりこんで"
+        },
+        {
+          "text": "おいた"
+        },
+        {
+          "text": "よ"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "せんたくものとりこんでおいたよ",
+      "chinese": "衣服我给收进来了哦。",
+      "category": "daily",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 185,
+      "chunkPattern": "〜ておいた",
+      "tags": [
+        "display",
+        "fresh-display",
+        "fresh-20260727",
+        "life",
+        "home"
+      ]
+    },
+    {
+      "externalId": "life-home-021",
+      "japanese": "ゴミ出し、今日だっけ。",
+      "tokens": [
+        {
+          "text": "ゴミ出し",
+          "kana": "ごみだし"
+        },
+        {
+          "text": "、"
+        },
+        {
+          "text": "今日",
+          "kana": "きょう"
+        },
+        {
+          "text": "だっけ"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "ごみだしきょうだっけ",
+      "chinese": "扔垃圾是今天来着吗。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 180,
+      "chunkPattern": "〜だっけ",
+      "tags": [
+        "display",
+        "fresh-display",
+        "fresh-20260727",
+        "life",
+        "home"
+      ]
+    },
+    {
+      "externalId": "life-home-022",
+      "japanese": "ご飯もうすぐできるよ。",
+      "tokens": [
+        {
+          "text": "ご飯",
+          "kana": "ごはん"
+        },
+        {
+          "text": "もうすぐ"
+        },
+        {
+          "text": "できる"
+        },
+        {
+          "text": "よ"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "ごはんもうすぐできるよ",
+      "chinese": "饭马上就好啦。",
+      "category": "daily",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 150,
+      "chunkPattern": "もうすぐ〜",
+      "tags": [
+        "display",
+        "fresh-display",
+        "fresh-20260727",
+        "life",
+        "home"
+      ]
+    },
+    {
+      "externalId": "life-home-023",
+      "japanese": "お風呂沸いたよ、入っちゃって。",
+      "tokens": [
+        {
+          "text": "お風呂",
+          "kana": "おふろ"
+        },
+        {
+          "text": "沸いた",
+          "kana": "わいた"
+        },
+        {
+          "text": "よ"
+        },
+        {
+          "text": "、"
+        },
+        {
+          "text": "入っちゃって",
+          "kana": "はいっちゃって"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "おふろわいたよはいっちゃって",
+      "chinese": "洗澡水好了，快去泡吧。",
+      "category": "daily",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 195,
+      "chunkPattern": "〜ちゃって",
+      "tags": [
+        "display",
+        "fresh-display",
+        "fresh-20260727",
+        "life",
+        "home"
+      ]
+    },
+    {
+      "externalId": "life-home-024",
+      "japanese": "電気つけっぱなしだよ。",
+      "tokens": [
+        {
+          "text": "電気",
+          "kana": "でんき"
+        },
+        {
+          "text": "つけっぱなし"
+        },
+        {
+          "text": "だよ"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "でんきつけっぱなしだよ",
+      "chinese": "灯一直开着呢。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 200,
+      "chunkPattern": "〜っぱなし",
+      "tags": [
+        "display",
+        "fresh-display",
+        "fresh-20260727",
+        "life",
+        "home"
+      ]
+    },
+    {
+      "externalId": "life-home-025",
+      "japanese": "そろそろ寝る準備しよっか。",
+      "tokens": [
+        {
+          "text": "そろそろ"
+        },
+        {
+          "text": "寝る",
+          "kana": "ねる"
+        },
+        {
+          "text": "準備",
+          "kana": "じゅんび"
+        },
+        {
+          "text": "しよっか"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "そろそろねるじゅんびしよっか",
+      "chinese": "差不多该准备睡觉了吧。",
+      "category": "daily",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 175,
+      "chunkPattern": "そろそろ〜",
+      "tags": [
+        "display",
+        "fresh-display",
+        "fresh-20260727",
+        "life",
+        "home"
+      ]
+    },
+    {
+      "externalId": "life-home-026",
+      "japanese": "宿題やった？終わったの？",
+      "tokens": [
+        {
+          "text": "宿題",
+          "kana": "しゅくだい"
+        },
+        {
+          "text": "やった"
+        },
+        {
+          "text": "？"
+        },
+        {
+          "text": "終わった",
+          "kana": "おわった"
+        },
+        {
+          "text": "の"
+        },
+        {
+          "text": "？"
+        }
+      ],
+      "kana": "しゅくだいやったおわったの",
+      "chinese": "作业做了吗？做完了吗？",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 160,
+      "chunkPattern": "〜の？",
+      "tags": [
+        "display",
+        "fresh-display",
+        "fresh-20260727",
+        "life",
+        "home"
+      ]
+    },
+    {
+      "externalId": "life-home-027",
+      "japanese": "週末どっか行く？",
+      "tokens": [
+        {
+          "text": "週末",
+          "kana": "しゅうまつ"
+        },
+        {
+          "text": "どっか"
+        },
+        {
+          "text": "行く",
+          "kana": "いく"
+        },
+        {
+          "text": "？"
+        }
+      ],
+      "kana": "しゅうまつどっかいく",
+      "chinese": "周末要去哪儿吗？",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 155,
+      "chunkPattern": "どっか〜？",
+      "tags": [
+        "display",
+        "fresh-display",
+        "fresh-20260727",
+        "life",
+        "home"
+      ]
+    },
+    {
+      "externalId": "life-home-028",
+      "japanese": "土曜、ゆっくりしたいなあ。",
+      "tokens": [
+        {
+          "text": "土曜",
+          "kana": "どよう"
+        },
+        {
+          "text": "、"
+        },
+        {
+          "text": "ゆっくり"
+        },
+        {
+          "text": "したい"
+        },
+        {
+          "text": "なあ"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "どようゆっくりしたいなあ",
+      "chinese": "周六想好好休息啊。",
+      "category": "daily",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 170,
+      "chunkPattern": "〜したいなあ",
+      "tags": [
+        "display",
+        "fresh-display",
+        "fresh-20260727",
+        "life",
+        "home"
+      ]
+    },
+    {
+      "externalId": "life-home-029",
+      "japanese": "久しぶりに映画でも見よっか。",
+      "tokens": [
+        {
+          "text": "久しぶり",
+          "kana": "ひさしぶり"
+        },
+        {
+          "text": "に"
+        },
+        {
+          "text": "映画",
+          "kana": "えいが"
+        },
+        {
+          "text": "でも"
+        },
+        {
+          "text": "見よっか",
+          "kana": "みよっか"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "ひさしぶりにえいがでもみよっか",
+      "chinese": "好久没看了，看个电影吧。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 185,
+      "chunkPattern": "〜でも〜よっか",
+      "tags": [
+        "display",
+        "fresh-display",
+        "fresh-20260727",
+        "life",
+        "home"
+      ]
+    },
+    {
+      "externalId": "life-home-030",
+      "japanese": "天気いいし、散歩でもする？",
+      "tokens": [
+        {
+          "text": "天気",
+          "kana": "てんき"
+        },
+        {
+          "text": "いい"
+        },
+        {
+          "text": "し"
+        },
+        {
+          "text": "、"
+        },
+        {
+          "text": "散歩",
+          "kana": "さんぽ"
+        },
+        {
+          "text": "でも"
+        },
+        {
+          "text": "する"
+        },
+        {
+          "text": "？"
+        }
+      ],
+      "kana": "てんきいいしさんぽでもする",
+      "chinese": "天气好，要不要去散步？",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 175,
+      "chunkPattern": "〜し、〜でも",
+      "tags": [
+        "display",
+        "fresh-display",
+        "fresh-20260727",
+        "life",
+        "home"
+      ]
+    },
+    {
+      "externalId": "life-home-031",
+      "japanese": "寝坊しちゃった、やばい。",
+      "tokens": [
+        {
+          "text": "寝坊",
+          "kana": "ねぼう"
+        },
+        {
+          "text": "しちゃった"
+        },
+        {
+          "text": "、"
+        },
+        {
+          "text": "やばい"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "ねぼうしちゃったやばい",
+      "chinese": "睡过头了，糟糕。",
+      "category": "daily",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 190,
+      "chunkPattern": "〜しちゃった",
+      "tags": [
+        "display",
+        "fresh-display",
+        "fresh-20260727",
+        "life",
+        "home"
+      ]
+    },
+    {
+      "externalId": "life-home-032",
+      "japanese": "今日はゴロゴロしてたい。",
+      "tokens": [
+        {
+          "text": "今日",
+          "kana": "きょう"
+        },
+        {
+          "text": "は"
+        },
+        {
+          "text": "ゴロゴロ"
+        },
+        {
+          "text": "してたい"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "きょうはごろごろしてたい",
+      "chinese": "今天只想躺着发呆。",
+      "category": "daily",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 205,
+      "chunkPattern": "〜してたい",
+      "tags": [
+        "display",
+        "fresh-display",
+        "fresh-20260727",
+        "life",
+        "home"
+      ]
+    },
+    {
+      "externalId": "life-home-033",
+      "japanese": "最近、肩がこってて。",
+      "tokens": [
+        {
+          "text": "最近",
+          "kana": "さいきん"
+        },
+        {
+          "text": "、"
+        },
+        {
+          "text": "肩",
+          "kana": "かた"
+        },
+        {
+          "text": "が"
+        },
+        {
+          "text": "こってて"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "さいきんかたがこってて",
+      "chinese": "最近肩膀好酸。",
+      "category": "daily",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 210,
+      "chunkPattern": "〜がこってる",
+      "tags": [
+        "display",
+        "fresh-display",
+        "fresh-20260727",
+        "life",
+        "home"
+      ]
+    },
+    {
+      "externalId": "life-home-034",
+      "japanese": "なんか眠くて仕方ない。",
+      "tokens": [
+        {
+          "text": "なんか"
+        },
+        {
+          "text": "眠くて",
+          "kana": "ねむくて"
+        },
+        {
+          "text": "仕方ない",
+          "kana": "しかたない"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "なんかねむくてしかたない",
+      "chinese": "总觉得困得不行。",
+      "category": "daily",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 200,
+      "chunkPattern": "〜て仕方ない",
+      "tags": [
+        "display",
+        "fresh-display",
+        "fresh-20260727",
+        "life",
+        "home"
+      ]
+    },
+    {
+      "externalId": "life-home-035",
+      "japanese": "目が疲れた、休憩しよ。",
+      "tokens": [
+        {
+          "text": "目",
+          "kana": "め"
+        },
+        {
+          "text": "が"
+        },
+        {
+          "text": "疲れた",
+          "kana": "つかれた"
+        },
+        {
+          "text": "、"
+        },
+        {
+          "text": "休憩",
+          "kana": "きゅうけい"
+        },
+        {
+          "text": "しよ"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "めがつかれたきゅうけいしよ",
+      "chinese": "眼睛累了，歇会儿吧。",
+      "category": "daily",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 180,
+      "chunkPattern": "〜が疲れた",
+      "tags": [
+        "display",
+        "fresh-display",
+        "fresh-20260727",
+        "life",
+        "home"
+      ]
+    },
+    {
+      "externalId": "life-home-036",
+      "japanese": "なんか今日、気分がいいな。",
+      "tokens": [
+        {
+          "text": "なんか"
+        },
+        {
+          "text": "今日",
+          "kana": "きょう"
+        },
+        {
+          "text": "、"
+        },
+        {
+          "text": "気分",
+          "kana": "きぶん"
+        },
+        {
+          "text": "が"
+        },
+        {
+          "text": "いい"
+        },
+        {
+          "text": "な"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "なんかきょうきぶんがいいな",
+      "chinese": "总觉得今天心情不错呢。",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 165,
+      "chunkPattern": "気分がいい",
+      "tags": [
+        "display",
+        "fresh-display",
+        "fresh-20260727",
+        "life",
+        "home"
+      ]
+    },
+    {
+      "externalId": "life-home-037",
+      "japanese": "ちょっと元気ないね、大丈夫？",
+      "tokens": [
+        {
+          "text": "ちょっと"
+        },
+        {
+          "text": "元気",
+          "kana": "げんき"
+        },
+        {
+          "text": "ない"
+        },
+        {
+          "text": "ね"
+        },
+        {
+          "text": "、"
+        },
+        {
+          "text": "大丈夫",
+          "kana": "だいじょうぶ"
+        },
+        {
+          "text": "？"
+        }
+      ],
+      "kana": "ちょっとげんきないねだいじょうぶ",
+      "chinese": "你有点没精神呢，没事吧？",
+      "category": "smalltalk",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 160,
+      "chunkPattern": "元気ない",
+      "tags": [
+        "display",
+        "fresh-display",
+        "fresh-20260727",
+        "life",
+        "home"
+      ]
+    },
+    {
+      "externalId": "life-home-038",
+      "japanese": "お腹いっぱい、もう食べれない。",
+      "tokens": [
+        {
+          "text": "お腹",
+          "kana": "おなか"
+        },
+        {
+          "text": "いっぱい"
+        },
+        {
+          "text": "、"
+        },
+        {
+          "text": "もう"
+        },
+        {
+          "text": "食べれない",
+          "kana": "たべれない"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "おなかいっぱいもうたべれない",
+      "chinese": "肚子好饱，吃不下了。",
+      "category": "daily",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 175,
+      "chunkPattern": "もう〜れない",
+      "tags": [
+        "display",
+        "fresh-display",
+        "fresh-20260727",
+        "life",
+        "home"
+      ]
+    },
+    {
+      "externalId": "life-home-039",
+      "japanese": "喉がイガイガするんだよね。",
+      "tokens": [
+        {
+          "text": "喉",
+          "kana": "のど"
+        },
+        {
+          "text": "が"
+        },
+        {
+          "text": "イガイガ"
+        },
+        {
+          "text": "する"
+        },
+        {
+          "text": "んだよね"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "のどがいがいがするんだよね",
+      "chinese": "嗓子有点刺痒呢。",
+      "category": "daily",
+      "register": "カジュアル",
+      "difficulty": 3,
+      "frequencyRank": 240,
+      "chunkPattern": "〜がイガイガ",
+      "tags": [
+        "display",
+        "fresh-display",
+        "fresh-20260727",
+        "life",
+        "home"
+      ]
+    },
+    {
+      "externalId": "life-home-040",
+      "japanese": "今日は早めに切り上げよ。",
+      "tokens": [
+        {
+          "text": "今日",
+          "kana": "きょう"
+        },
+        {
+          "text": "は"
+        },
+        {
+          "text": "早め",
+          "kana": "はやめ"
+        },
+        {
+          "text": "に"
+        },
+        {
+          "text": "切り上げよ",
+          "kana": "きりあげよ"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "kana": "きょうははやめにきりあげよ",
+      "chinese": "今天早点收工吧。",
+      "category": "daily",
+      "register": "カジュアル",
+      "difficulty": 2,
+      "frequencyRank": 195,
+      "chunkPattern": "早めに〜",
+      "tags": [
+        "display",
+        "fresh-display",
+        "fresh-20260727",
+        "life",
+        "home"
+      ]
+    }
+  ]
+}

@@ -2,6 +2,7 @@
 
 import { cn } from "@/lib/utils"
 import {
+  BookMarked,
   BookOpen,
   ClipboardCheck,
   FileText,
@@ -44,6 +45,7 @@ const LIBRARY: NavItem[] = [
   { href: "/passages", label: "短文", icon: FileText },
   { href: "/dialogues", label: "情景对话", icon: MessageSquare },
   { href: "/library", label: "场景库", icon: BookOpen },
+  { href: "/grammar", label: "语法体系", hint: "13章", icon: BookMarked },
   { href: "/display", label: "Display", icon: MonitorPlay },
   { href: "/verbs", label: "動詞変形", hint: "变形练习", icon: FlipHorizontal2 },
   { href: "/tango", label: "単語", hint: "高频词", icon: Layers },

@@ -15,7 +15,9 @@
     "db:seed": "node_modules/.bin/tsx scripts/seed.ts",
     "corpus:import": "node_modules/.bin/tsx scripts/import-corpus.ts",
     "check:conjugation": "node_modules/.bin/tsx scripts/check-conjugation.ts",
-    "check:tango": "node_modules/.bin/tsx scripts/check-tango.ts"
+    "check:tango": "node_modules/.bin/tsx scripts/check-tango.ts",
+    "check:grammar": "node_modules/.bin/tsx scripts/check-grammar.ts",
+    "check:all": "pnpm check:conjugation && pnpm check:tango && pnpm check:grammar"
   },
   "dependencies": {
     "@google/genai": "^2.2.0",

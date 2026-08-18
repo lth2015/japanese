@@ -1,0 +1,2183 @@
+- generic [active] [ref=e1]:
+  - main [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e4]:
+        - generic [ref=e5]:
+          - button "全部" [ref=e6] [cursor=pointer]
+          - button "受身" [ref=e7] [cursor=pointer]
+          - button "使役" [ref=e8] [cursor=pointer]
+          - button "使役受身" [ref=e9] [cursor=pointer]
+          - button "ます" [ref=e10] [cursor=pointer]
+          - button "可能" [ref=e11] [cursor=pointer]
+          - button "ない" [ref=e12] [cursor=pointer]
+        - generic [ref=e13]:
+          - button "全部" [ref=e14] [cursor=pointer]
+          - button "職場" [ref=e15] [cursor=pointer]
+          - button "日常" [ref=e16] [cursor=pointer]
+        - generic [ref=e17]:
+          - button "全部" [ref=e18] [cursor=pointer]
+          - button "一类" [ref=e19] [cursor=pointer]
+          - button "二类" [ref=e20] [cursor=pointer]
+          - button "三类" [ref=e21] [cursor=pointer]
+        - generic [ref=e22]:
+          - button "间隔を減らす" [ref=e23] [cursor=pointer]: −
+          - generic [ref=e24]:
+            - generic [ref=e25]: 间隔
+            - generic [ref=e26]: 6s
+          - button "间隔を増やす" [ref=e27] [cursor=pointer]: +
+        - generic [ref=e28]:
+          - button "语速を減らす" [ref=e29] [cursor=pointer]: −
+          - generic [ref=e30]:
+            - generic [ref=e31]: 语速
+            - generic [ref=e32]: 0.9×
+          - button "语速を増やす" [ref=e33] [cursor=pointer]: +
+        - button "仮" [ref=e34] [cursor=pointer]
+        - button "中" [ref=e35] [cursor=pointer]
+        - button "自动朗读" [ref=e36] [cursor=pointer]
+        - button "キーボードショートカット" [ref=e41] [cursor=pointer]
+        - link "退出" [ref=e44] [cursor=pointer]:
+          - /url: /
+      - generic [ref=e46]:
+        - generic [ref=e47]: 动词 420/420
+        - generic [ref=e48]:
+          - generic [ref=e49]:
+            - button "書く 写" [ref=e50] [cursor=pointer]:
+              - generic [ref=e51]: 書く
+              - generic [ref=e52]: 写
+            - button "我会了" [ref=e53] [cursor=pointer]
+          - generic [ref=e56]:
+            - button "読む 读" [ref=e57] [cursor=pointer]:
+              - generic [ref=e58]: 読む
+              - generic [ref=e59]: 读
+            - button "我会了" [ref=e60] [cursor=pointer]
+          - generic [ref=e63]:
+            - button "話す 说；讲" [ref=e64] [cursor=pointer]:
+              - generic [ref=e65]: 話す
+              - generic [ref=e66]: 说；讲
+            - button "我会了" [ref=e67] [cursor=pointer]
+          - generic [ref=e70]:
+            - button "待つ 等" [ref=e71] [cursor=pointer]:
+              - generic [ref=e72]: 待つ
+              - generic [ref=e73]: 等
+            - button "我会了" [ref=e74] [cursor=pointer]
+          - generic [ref=e77]:
+            - button "使う 用；使用" [ref=e78] [cursor=pointer]:
+              - generic [ref=e79]: 使う
+              - generic [ref=e80]: 用；使用
+            - button "我会了" [ref=e81] [cursor=pointer]
+          - generic [ref=e84]:
+            - button "送る 发送；送" [ref=e85] [cursor=pointer]:
+              - generic [ref=e86]: 送る
+              - generic [ref=e87]: 发送；送
+            - button "我会了" [ref=e88] [cursor=pointer]
+          - generic [ref=e91]:
+            - button "見る 看；查看" [ref=e92] [cursor=pointer]:
+              - generic [ref=e93]: 見る
+              - generic [ref=e94]: 看；查看
+            - button "我会了" [ref=e95] [cursor=pointer]
+          - generic [ref=e98]:
+            - button "食べる 吃" [ref=e99] [cursor=pointer]:
+              - generic [ref=e100]: 食べる
+              - generic [ref=e101]: 吃
+            - button "我会了" [ref=e102] [cursor=pointer]
+          - generic [ref=e105]:
+            - button "起きる 起床；发生" [ref=e106] [cursor=pointer]:
+              - generic [ref=e107]: 起きる
+              - generic [ref=e108]: 起床；发生
+            - button "我会了" [ref=e109] [cursor=pointer]
+          - generic [ref=e112]:
+            - button "する 做" [ref=e113] [cursor=pointer]:
+              - generic [ref=e114]: する
+              - generic [ref=e115]: 做
+            - button "我会了" [ref=e116] [cursor=pointer]
+          - generic [ref=e119]:
+            - button "来る 来" [ref=e120] [cursor=pointer]:
+              - generic [ref=e121]: 来る
+              - generic [ref=e122]: 来
+            - button "我会了" [ref=e123] [cursor=pointer]
+          - generic [ref=e126]:
+            - button "持つ 拿；持有" [ref=e127] [cursor=pointer]:
+              - generic [ref=e128]: 持つ
+              - generic [ref=e129]: 拿；持有
+            - button "我会了" [ref=e130] [cursor=pointer]
+          - generic [ref=e133]:
+            - button "飲む 喝" [ref=e134] [cursor=pointer]:
+              - generic [ref=e135]: 飲む
+              - generic [ref=e136]: 喝
+            - button "我会了" [ref=e137] [cursor=pointer]
+          - generic [ref=e140]:
+            - button "聞く 听；问" [ref=e141] [cursor=pointer]:
+              - generic [ref=e142]: 聞く
+              - generic [ref=e143]: 听；问
+            - button "我会了" [ref=e144] [cursor=pointer]
+          - generic [ref=e147]:
+            - button "決める 决定" [ref=e148] [cursor=pointer]:
+              - generic [ref=e149]: 決める
+              - generic [ref=e150]: 决定
+            - button "我会了" [ref=e151] [cursor=pointer]
+          - generic [ref=e154]:
+            - button "教える 教；告诉" [ref=e155] [cursor=pointer]:
+              - generic [ref=e156]: 教える
+              - generic [ref=e157]: 教；告诉
+            - button "我会了" [ref=e158] [cursor=pointer]
+          - generic [ref=e161]:
+            - button "頼む 拜托；请求" [ref=e162] [cursor=pointer]:
+              - generic [ref=e163]: 頼む
+              - generic [ref=e164]: 拜托；请求
+            - button "我会了" [ref=e165] [cursor=pointer]
+          - generic [ref=e168]:
+            - button "呼ぶ 叫；邀请" [ref=e169] [cursor=pointer]:
+              - generic [ref=e170]: 呼ぶ
+              - generic [ref=e171]: 叫；邀请
+            - button "我会了" [ref=e172] [cursor=pointer]
+          - generic [ref=e175]:
+            - button "受ける 接受；参加" [ref=e176] [cursor=pointer]:
+              - generic [ref=e177]: 受ける
+              - generic [ref=e178]: 接受；参加
+            - button "我会了" [ref=e179] [cursor=pointer]
+          - generic [ref=e182]:
+            - button "変える 改变；更改" [ref=e183] [cursor=pointer]:
+              - generic [ref=e184]: 変える
+              - generic [ref=e185]: 改变；更改
+            - button "我会了" [ref=e186] [cursor=pointer]
+          - generic [ref=e189]:
+            - button "行く 去" [ref=e190] [cursor=pointer]:
+              - generic [ref=e191]: 行く
+              - generic [ref=e192]: 去
+            - button "我会了" [ref=e193] [cursor=pointer]
+          - generic [ref=e196]:
+            - button "買う 买" [ref=e197] [cursor=pointer]:
+              - generic [ref=e198]: 買う
+              - generic [ref=e199]: 买
+            - button "我会了" [ref=e200] [cursor=pointer]
+          - generic [ref=e203]:
+            - button "売る 卖" [ref=e204] [cursor=pointer]:
+              - generic [ref=e205]: 売る
+              - generic [ref=e206]: 卖
+            - button "我会了" [ref=e207] [cursor=pointer]
+          - generic [ref=e210]:
+            - button "作る 制作" [ref=e211] [cursor=pointer]:
+              - generic [ref=e212]: 作る
+              - generic [ref=e213]: 制作
+            - button "我会了" [ref=e214] [cursor=pointer]
+          - generic [ref=e217]:
+            - button "知る 知道" [ref=e218] [cursor=pointer]:
+              - generic [ref=e219]: 知る
+              - generic [ref=e220]: 知道
+            - button "我会了" [ref=e221] [cursor=pointer]
+          - generic [ref=e224]:
+            - button "思う 想/认为" [ref=e225] [cursor=pointer]:
+              - generic [ref=e226]: 思う
+              - generic [ref=e227]: 想/认为
+            - button "我会了" [ref=e228] [cursor=pointer]
+          - generic [ref=e231]:
+            - button "言う 说" [ref=e232] [cursor=pointer]:
+              - generic [ref=e233]: 言う
+              - generic [ref=e234]: 说
+            - button "我会了" [ref=e235] [cursor=pointer]
+          - generic [ref=e238]:
+            - button "立つ 站立" [ref=e239] [cursor=pointer]:
+              - generic [ref=e240]: 立つ
+              - generic [ref=e241]: 站立
+            - button "我会了" [ref=e242] [cursor=pointer]
+          - generic [ref=e245]:
+            - button "座る 坐" [ref=e246] [cursor=pointer]:
+              - generic [ref=e247]: 座る
+              - generic [ref=e248]: 坐
+            - button "我会了" [ref=e249] [cursor=pointer]
+          - generic [ref=e252]:
+            - button "走る 跑" [ref=e253] [cursor=pointer]:
+              - generic [ref=e254]: 走る
+              - generic [ref=e255]: 跑
+            - button "我会了" [ref=e256] [cursor=pointer]
+          - generic [ref=e259]:
+            - button "歩く 走路" [ref=e260] [cursor=pointer]:
+              - generic [ref=e261]: 歩く
+              - generic [ref=e262]: 走路
+            - button "我会了" [ref=e263] [cursor=pointer]
+          - generic [ref=e266]:
+            - button "飛ぶ 飞" [ref=e267] [cursor=pointer]:
+              - generic [ref=e268]: 飛ぶ
+              - generic [ref=e269]: 飞
+            - button "我会了" [ref=e270] [cursor=pointer]
+          - generic [ref=e273]:
+            - button "泳ぐ 游泳" [ref=e274] [cursor=pointer]:
+              - generic [ref=e275]: 泳ぐ
+              - generic [ref=e276]: 游泳
+            - button "我会了" [ref=e277] [cursor=pointer]
+          - generic [ref=e280]:
+            - button "死ぬ 死" [ref=e281] [cursor=pointer]:
+              - generic [ref=e282]: 死ぬ
+              - generic [ref=e283]: 死
+            - button "我会了" [ref=e284] [cursor=pointer]
+          - generic [ref=e287]:
+            - button "笑う 笑" [ref=e288] [cursor=pointer]:
+              - generic [ref=e289]: 笑う
+              - generic [ref=e290]: 笑
+            - button "我会了" [ref=e291] [cursor=pointer]
+          - generic [ref=e294]:
+            - button "泣く 哭" [ref=e295] [cursor=pointer]:
+              - generic [ref=e296]: 泣く
+              - generic [ref=e297]: 哭
+            - button "我会了" [ref=e298] [cursor=pointer]
+          - generic [ref=e301]:
+            - button "怒る 生气" [ref=e302] [cursor=pointer]:
+              - generic [ref=e303]: 怒る
+              - generic [ref=e304]: 生气
+            - button "我会了" [ref=e305] [cursor=pointer]
+          - generic [ref=e308]:
+            - button "喜ぶ 高兴" [ref=e309] [cursor=pointer]:
+              - generic [ref=e310]: 喜ぶ
+              - generic [ref=e311]: 高兴
+            - button "我会了" [ref=e312] [cursor=pointer]
+          - generic [ref=e315]:
+            - button "探す 找" [ref=e316] [cursor=pointer]:
+              - generic [ref=e317]: 探す
+              - generic [ref=e318]: 找
+            - button "我会了" [ref=e319] [cursor=pointer]
+          - generic [ref=e322]:
+            - button "押す 推" [ref=e323] [cursor=pointer]:
+              - generic [ref=e324]: 押す
+              - generic [ref=e325]: 推
+            - button "我会了" [ref=e326] [cursor=pointer]
+          - generic [ref=e329]:
+            - button "引く 拉" [ref=e330] [cursor=pointer]:
+              - generic [ref=e331]: 引く
+              - generic [ref=e332]: 拉
+            - button "我会了" [ref=e333] [cursor=pointer]
+          - generic [ref=e336]:
+            - button "開く 打开/举办" [ref=e337] [cursor=pointer]:
+              - generic [ref=e338]: 開く
+              - generic [ref=e339]: 打开/举办
+            - button "我会了" [ref=e340] [cursor=pointer]
+          - generic [ref=e343]:
+            - button "切る 切/挂断" [ref=e344] [cursor=pointer]:
+              - generic [ref=e345]: 切る
+              - generic [ref=e346]: 切/挂断
+            - button "我会了" [ref=e347] [cursor=pointer]
+          - generic [ref=e350]:
+            - button "配る 分发" [ref=e351] [cursor=pointer]:
+              - generic [ref=e352]: 配る
+              - generic [ref=e353]: 分发
+            - button "我会了" [ref=e354] [cursor=pointer]
+          - generic [ref=e357]:
+            - button "運ぶ 搬运" [ref=e358] [cursor=pointer]:
+              - generic [ref=e359]: 運ぶ
+              - generic [ref=e360]: 搬运
+            - button "我会了" [ref=e361] [cursor=pointer]
+          - generic [ref=e364]:
+            - button "渡す 递交" [ref=e365] [cursor=pointer]:
+              - generic [ref=e366]: 渡す
+              - generic [ref=e367]: 递交
+            - button "我会了" [ref=e368] [cursor=pointer]
+          - generic [ref=e371]:
+            - button "直す 修理" [ref=e372] [cursor=pointer]:
+              - generic [ref=e373]: 直す
+              - generic [ref=e374]: 修理
+            - button "我会了" [ref=e375] [cursor=pointer]
+          - generic [ref=e378]:
+            - button "隠す 隐藏" [ref=e379] [cursor=pointer]:
+              - generic [ref=e380]: 隠す
+              - generic [ref=e381]: 隐藏
+            - button "我会了" [ref=e382] [cursor=pointer]
+          - generic [ref=e385]:
+            - button "取る 拿" [ref=e386] [cursor=pointer]:
+              - generic [ref=e387]: 取る
+              - generic [ref=e388]: 拿
+            - button "我会了" [ref=e389] [cursor=pointer]
+          - generic [ref=e392]:
+            - button "払う 付钱" [ref=e393] [cursor=pointer]:
+              - generic [ref=e394]: 払う
+              - generic [ref=e395]: 付钱
+            - button "我会了" [ref=e396] [cursor=pointer]
+          - generic [ref=e399]:
+            - button "貸す 借出" [ref=e400] [cursor=pointer]:
+              - generic [ref=e401]: 貸す
+              - generic [ref=e402]: 借出
+            - button "我会了" [ref=e403] [cursor=pointer]
+          - generic [ref=e406]:
+            - button "落とす 掉落" [ref=e407] [cursor=pointer]:
+              - generic [ref=e408]: 落とす
+              - generic [ref=e409]: 掉落
+            - button "我会了" [ref=e410] [cursor=pointer]
+          - generic [ref=e413]:
+            - button "拾う 拾起" [ref=e414] [cursor=pointer]:
+              - generic [ref=e415]: 拾う
+              - generic [ref=e416]: 拾起
+            - button "我会了" [ref=e417] [cursor=pointer]
+          - generic [ref=e420]:
+            - button "帰る 回家" [ref=e421] [cursor=pointer]:
+              - generic [ref=e422]: 帰る
+              - generic [ref=e423]: 回家
+            - button "我会了" [ref=e424] [cursor=pointer]
+          - generic [ref=e427]:
+            - button "入る 进入" [ref=e428] [cursor=pointer]:
+              - generic [ref=e429]: 入る
+              - generic [ref=e430]: 进入
+            - button "我会了" [ref=e431] [cursor=pointer]
+          - generic [ref=e434]:
+            - button "守る 保护/遵守" [ref=e435] [cursor=pointer]:
+              - generic [ref=e436]: 守る
+              - generic [ref=e437]: 保护/遵守
+            - button "我会了" [ref=e438] [cursor=pointer]
+          - generic [ref=e441]:
+            - button "選ぶ 选择" [ref=e442] [cursor=pointer]:
+              - generic [ref=e443]: 選ぶ
+              - generic [ref=e444]: 选择
+            - button "我会了" [ref=e445] [cursor=pointer]
+          - generic [ref=e448]:
+            - button "出す 拿出/布置" [ref=e449] [cursor=pointer]:
+              - generic [ref=e450]: 出す
+              - generic [ref=e451]: 拿出/布置
+            - button "我会了" [ref=e452] [cursor=pointer]
+          - generic [ref=e455]:
+            - button "動く 移动" [ref=e456] [cursor=pointer]:
+              - generic [ref=e457]: 動く
+              - generic [ref=e458]: 移动
+            - button "我会了" [ref=e459] [cursor=pointer]
+          - generic [ref=e462]:
+            - button "招く 邀请" [ref=e463] [cursor=pointer]:
+              - generic [ref=e464]: 招く
+              - generic [ref=e465]: 邀请
+            - button "我会了" [ref=e466] [cursor=pointer]
+          - generic [ref=e469]:
+            - button "起こす 唤醒/引起" [ref=e470] [cursor=pointer]:
+              - generic [ref=e471]: 起こす
+              - generic [ref=e472]: 唤醒/引起
+            - button "我会了" [ref=e473] [cursor=pointer]
+          - generic [ref=e476]:
+            - button "譲る 让出" [ref=e477] [cursor=pointer]:
+              - generic [ref=e478]: 譲る
+              - generic [ref=e479]: 让出
+            - button "我会了" [ref=e480] [cursor=pointer]
+          - generic [ref=e483]:
+            - button "噛む 咬" [ref=e484] [cursor=pointer]:
+              - generic [ref=e485]: 噛む
+              - generic [ref=e486]: 咬
+            - button "我会了" [ref=e487] [cursor=pointer]
+          - generic [ref=e490]:
+            - button "残す 留下" [ref=e491] [cursor=pointer]:
+              - generic [ref=e492]: 残す
+              - generic [ref=e493]: 留下
+            - button "我会了" [ref=e494] [cursor=pointer]
+          - generic [ref=e497]:
+            - button "描く 描绘" [ref=e498] [cursor=pointer]:
+              - generic [ref=e499]: 描く
+              - generic [ref=e500]: 描绘
+            - button "我会了" [ref=e501] [cursor=pointer]
+          - generic [ref=e504]:
+            - button "救う 救" [ref=e505] [cursor=pointer]:
+              - generic [ref=e506]: 救う
+              - generic [ref=e507]: 救
+            - button "我会了" [ref=e508] [cursor=pointer]
+          - generic [ref=e511]:
+            - button "失う 失去" [ref=e512] [cursor=pointer]:
+              - generic [ref=e513]: 失う
+              - generic [ref=e514]: 失去
+            - button "我会了" [ref=e515] [cursor=pointer]
+          - generic [ref=e518]:
+            - button "願う 希望" [ref=e519] [cursor=pointer]:
+              - generic [ref=e520]: 願う
+              - generic [ref=e521]: 希望
+            - button "我会了" [ref=e522] [cursor=pointer]
+          - generic [ref=e525]:
+            - button "振る 挥/甩" [ref=e526] [cursor=pointer]:
+              - generic [ref=e527]: 振る
+              - generic [ref=e528]: 挥/甩
+            - button "我会了" [ref=e529] [cursor=pointer]
+          - generic [ref=e532]:
+            - button "触る 触摸" [ref=e533] [cursor=pointer]:
+              - generic [ref=e534]: 触る
+              - generic [ref=e535]: 触摸
+            - button "我会了" [ref=e536] [cursor=pointer]
+          - generic [ref=e539]:
+            - button "着る 穿(衣服)" [ref=e540] [cursor=pointer]:
+              - generic [ref=e541]: 着る
+              - generic [ref=e542]: 穿(衣服)
+            - button "我会了" [ref=e543] [cursor=pointer]
+          - generic [ref=e546]:
+            - button "借りる 借入" [ref=e547] [cursor=pointer]:
+              - generic [ref=e548]: 借りる
+              - generic [ref=e549]: 借入
+            - button "我会了" [ref=e550] [cursor=pointer]
+          - generic [ref=e553]:
+            - button "答える 回答" [ref=e554] [cursor=pointer]:
+              - generic [ref=e555]: 答える
+              - generic [ref=e556]: 回答
+            - button "我会了" [ref=e557] [cursor=pointer]
+          - generic [ref=e560]:
+            - button "覚える 记住" [ref=e561] [cursor=pointer]:
+              - generic [ref=e562]: 覚える
+              - generic [ref=e563]: 记住
+            - button "我会了" [ref=e564] [cursor=pointer]
+          - generic [ref=e567]:
+            - button "忘れる 忘记" [ref=e568] [cursor=pointer]:
+              - generic [ref=e569]: 忘れる
+              - generic [ref=e570]: 忘记
+            - button "我会了" [ref=e571] [cursor=pointer]
+          - generic [ref=e574]:
+            - button "信じる 相信" [ref=e575] [cursor=pointer]:
+              - generic [ref=e576]: 信じる
+              - generic [ref=e577]: 相信
+            - button "我会了" [ref=e578] [cursor=pointer]
+          - generic [ref=e581]:
+            - button "助ける 帮助" [ref=e582] [cursor=pointer]:
+              - generic [ref=e583]: 助ける
+              - generic [ref=e584]: 帮助
+            - button "我会了" [ref=e585] [cursor=pointer]
+          - generic [ref=e588]:
+            - button "育てる 培育" [ref=e589] [cursor=pointer]:
+              - generic [ref=e590]: 育てる
+              - generic [ref=e591]: 培育
+            - button "我会了" [ref=e592] [cursor=pointer]
+          - generic [ref=e595]:
+            - button "集める 收集" [ref=e596] [cursor=pointer]:
+              - generic [ref=e597]: 集める
+              - generic [ref=e598]: 收集
+            - button "我会了" [ref=e599] [cursor=pointer]
+          - generic [ref=e602]:
+            - button "始める 开始" [ref=e603] [cursor=pointer]:
+              - generic [ref=e604]: 始める
+              - generic [ref=e605]: 开始
+            - button "我会了" [ref=e606] [cursor=pointer]
+          - generic [ref=e609]:
+            - button "終える 结束" [ref=e610] [cursor=pointer]:
+              - generic [ref=e611]: 終える
+              - generic [ref=e612]: 结束
+            - button "我会了" [ref=e613] [cursor=pointer]
+          - generic [ref=e616]:
+            - button "預ける 寄存" [ref=e617] [cursor=pointer]:
+              - generic [ref=e618]: 預ける
+              - generic [ref=e619]: 寄存
+            - button "我会了" [ref=e620] [cursor=pointer]
+          - generic [ref=e623]:
+            - button "任せる 委托" [ref=e624] [cursor=pointer]:
+              - generic [ref=e625]: 任せる
+              - generic [ref=e626]: 委托
+            - button "我会了" [ref=e627] [cursor=pointer]
+          - generic [ref=e630]:
+            - button "訪ねる 访问" [ref=e631] [cursor=pointer]:
+              - generic [ref=e632]: 訪ねる
+              - generic [ref=e633]: 访问
+            - button "我会了" [ref=e634] [cursor=pointer]
+          - generic [ref=e637]:
+            - button "押し付ける 强加" [ref=e638] [cursor=pointer]:
+              - generic [ref=e639]: 押し付ける
+              - generic [ref=e640]: 强加
+            - button "我会了" [ref=e641] [cursor=pointer]
+          - generic [ref=e644]:
+            - button "投げる 投/扔" [ref=e645] [cursor=pointer]:
+              - generic [ref=e646]: 投げる
+              - generic [ref=e647]: 投/扔
+            - button "我会了" [ref=e648] [cursor=pointer]
+          - generic [ref=e651]:
+            - button "並べる 排列" [ref=e652] [cursor=pointer]:
+              - generic [ref=e653]: 並べる
+              - generic [ref=e654]: 排列
+            - button "我会了" [ref=e655] [cursor=pointer]
+          - generic [ref=e658]:
+            - button "比べる 比较" [ref=e659] [cursor=pointer]:
+              - generic [ref=e660]: 比べる
+              - generic [ref=e661]: 比较
+            - button "我会了" [ref=e662] [cursor=pointer]
+          - generic [ref=e665]:
+            - button "加える 添加" [ref=e666] [cursor=pointer]:
+              - generic [ref=e667]: 加える
+              - generic [ref=e668]: 添加
+            - button "我会了" [ref=e669] [cursor=pointer]
+          - generic [ref=e672]:
+            - button "続ける 继续" [ref=e673] [cursor=pointer]:
+              - generic [ref=e674]: 続ける
+              - generic [ref=e675]: 继续
+            - button "我会了" [ref=e676] [cursor=pointer]
+          - generic [ref=e679]:
+            - button "止める 停止" [ref=e680] [cursor=pointer]:
+              - generic [ref=e681]: 止める
+              - generic [ref=e682]: 停止
+            - button "我会了" [ref=e683] [cursor=pointer]
+          - generic [ref=e686]:
+            - button "捨てる 抛弃" [ref=e687] [cursor=pointer]:
+              - generic [ref=e688]: 捨てる
+              - generic [ref=e689]: 抛弃
+            - button "我会了" [ref=e690] [cursor=pointer]
+          - generic [ref=e693]:
+            - button "数える 数" [ref=e694] [cursor=pointer]:
+              - generic [ref=e695]: 数える
+              - generic [ref=e696]: 数
+            - button "我会了" [ref=e697] [cursor=pointer]
+          - generic [ref=e700]:
+            - button "調べる 调查" [ref=e701] [cursor=pointer]:
+              - generic [ref=e702]: 調べる
+              - generic [ref=e703]: 调查
+            - button "我会了" [ref=e704] [cursor=pointer]
+          - generic [ref=e707]:
+            - button "考える 思考" [ref=e708] [cursor=pointer]:
+              - generic [ref=e709]: 考える
+              - generic [ref=e710]: 思考
+            - button "我会了" [ref=e711] [cursor=pointer]
+          - generic [ref=e714]:
+            - button "占める 占据" [ref=e715] [cursor=pointer]:
+              - generic [ref=e716]: 占める
+              - generic [ref=e717]: 占据
+            - button "我会了" [ref=e718] [cursor=pointer]
+          - generic [ref=e721]:
+            - button "求める 寻求" [ref=e722] [cursor=pointer]:
+              - generic [ref=e723]: 求める
+              - generic [ref=e724]: 寻求
+            - button "我会了" [ref=e725] [cursor=pointer]
+          - generic [ref=e728]:
+            - button "認める 承认" [ref=e729] [cursor=pointer]:
+              - generic [ref=e730]: 認める
+              - generic [ref=e731]: 承认
+            - button "我会了" [ref=e732] [cursor=pointer]
+          - generic [ref=e735]:
+            - button "入れる 放入" [ref=e736] [cursor=pointer]:
+              - generic [ref=e737]: 入れる
+              - generic [ref=e738]: 放入
+            - button "我会了" [ref=e739] [cursor=pointer]
+          - generic [ref=e742]:
+            - button "立てる 竖起/制定" [ref=e743] [cursor=pointer]:
+              - generic [ref=e744]: 立てる
+              - generic [ref=e745]: 竖起/制定
+            - button "我会了" [ref=e746] [cursor=pointer]
+          - generic [ref=e749]:
+            - button "勉強する 学习" [ref=e750] [cursor=pointer]:
+              - generic [ref=e751]: 勉強する
+              - generic [ref=e752]: 学习
+            - button "我会了" [ref=e753] [cursor=pointer]
+          - generic [ref=e756]:
+            - button "連絡する 联络" [ref=e757] [cursor=pointer]:
+              - generic [ref=e758]: 連絡する
+              - generic [ref=e759]: 联络
+            - button "我会了" [ref=e760] [cursor=pointer]
+          - generic [ref=e763]:
+            - button "確認する 确认" [ref=e764] [cursor=pointer]:
+              - generic [ref=e765]: 確認する
+              - generic [ref=e766]: 确认
+            - button "我会了" [ref=e767] [cursor=pointer]
+          - generic [ref=e770]:
+            - button "紹介する 介绍" [ref=e771] [cursor=pointer]:
+              - generic [ref=e772]: 紹介する
+              - generic [ref=e773]: 介绍
+            - button "我会了" [ref=e774] [cursor=pointer]
+          - generic [ref=e777]:
+            - button "説明する 说明" [ref=e778] [cursor=pointer]:
+              - generic [ref=e779]: 説明する
+              - generic [ref=e780]: 说明
+            - button "我会了" [ref=e781] [cursor=pointer]
+          - generic [ref=e784]:
+            - button "案内する 引导" [ref=e785] [cursor=pointer]:
+              - generic [ref=e786]: 案内する
+              - generic [ref=e787]: 引导
+            - button "我会了" [ref=e788] [cursor=pointer]
+          - generic [ref=e791]:
+            - button "注意する 提醒/注意" [ref=e792] [cursor=pointer]:
+              - generic [ref=e793]: 注意する
+              - generic [ref=e794]: 提醒/注意
+            - button "我会了" [ref=e795] [cursor=pointer]
+          - generic [ref=e798]:
+            - button "心配する 担心" [ref=e799] [cursor=pointer]:
+              - generic [ref=e800]: 心配する
+              - generic [ref=e801]: 担心
+            - button "我会了" [ref=e802] [cursor=pointer]
+          - generic [ref=e805]:
+            - button "利用する 利用" [ref=e806] [cursor=pointer]:
+              - generic [ref=e807]: 利用する
+              - generic [ref=e808]: 利用
+            - button "我会了" [ref=e809] [cursor=pointer]
+          - generic [ref=e812]:
+            - button "準備する 准备" [ref=e813] [cursor=pointer]:
+              - generic [ref=e814]: 準備する
+              - generic [ref=e815]: 准备
+            - button "我会了" [ref=e816] [cursor=pointer]
+          - generic [ref=e819]:
+            - button "経験する 经历" [ref=e820] [cursor=pointer]:
+              - generic [ref=e821]: 経験する
+              - generic [ref=e822]: 经历
+            - button "我会了" [ref=e823] [cursor=pointer]
+          - generic [ref=e826]:
+            - button "用意する 备好" [ref=e827] [cursor=pointer]:
+              - generic [ref=e828]: 用意する
+              - generic [ref=e829]: 备好
+            - button "我会了" [ref=e830] [cursor=pointer]
+          - generic [ref=e833]:
+            - button "練習する 练习" [ref=e834] [cursor=pointer]:
+              - generic [ref=e835]: 練習する
+              - generic [ref=e836]: 练习
+            - button "我会了" [ref=e837] [cursor=pointer]
+          - generic [ref=e840]:
+            - button "約束する 约定" [ref=e841] [cursor=pointer]:
+              - generic [ref=e842]: 約束する
+              - generic [ref=e843]: 约定
+            - button "我会了" [ref=e844] [cursor=pointer]
+          - generic [ref=e847]:
+            - button "反対する 反对" [ref=e848] [cursor=pointer]:
+              - generic [ref=e849]: 反対する
+              - generic [ref=e850]: 反对
+            - button "我会了" [ref=e851] [cursor=pointer]
+          - generic [ref=e854]:
+            - button "賛成する 赞成" [ref=e855] [cursor=pointer]:
+              - generic [ref=e856]: 賛成する
+              - generic [ref=e857]: 赞成
+            - button "我会了" [ref=e858] [cursor=pointer]
+          - generic [ref=e861]:
+            - button "計画する 计划" [ref=e862] [cursor=pointer]:
+              - generic [ref=e863]: 計画する
+              - generic [ref=e864]: 计划
+            - button "我会了" [ref=e865] [cursor=pointer]
+          - generic [ref=e868]:
+            - button "評価する 评价" [ref=e869] [cursor=pointer]:
+              - generic [ref=e870]: 評価する
+              - generic [ref=e871]: 评价
+            - button "我会了" [ref=e872] [cursor=pointer]
+          - generic [ref=e875]:
+            - button "検査する 检查" [ref=e876] [cursor=pointer]:
+              - generic [ref=e877]: 検査する
+              - generic [ref=e878]: 检查
+            - button "我会了" [ref=e879] [cursor=pointer]
+          - generic [ref=e882]:
+            - button "開発する 开发" [ref=e883] [cursor=pointer]:
+              - generic [ref=e884]: 開発する
+              - generic [ref=e885]: 开发
+            - button "我会了" [ref=e886] [cursor=pointer]
+          - generic [ref=e889]:
+            - button "会う 见面" [ref=e890] [cursor=pointer]:
+              - generic [ref=e891]: 会う
+              - generic [ref=e892]: 见面
+            - button "我会了" [ref=e893] [cursor=pointer]
+          - generic [ref=e896]:
+            - button "遊ぶ 玩" [ref=e897] [cursor=pointer]:
+              - generic [ref=e898]: 遊ぶ
+              - generic [ref=e899]: 玩
+            - button "我会了" [ref=e900] [cursor=pointer]
+          - generic [ref=e903]:
+            - button "休む 休息；请假" [ref=e904] [cursor=pointer]:
+              - generic [ref=e905]: 休む
+              - generic [ref=e906]: 休息；请假
+            - button "我会了" [ref=e907] [cursor=pointer]
+          - generic [ref=e910]:
+            - button "働く 工作" [ref=e911] [cursor=pointer]:
+              - generic [ref=e912]: 働く
+              - generic [ref=e913]: 工作
+            - button "我会了" [ref=e914] [cursor=pointer]
+          - generic [ref=e917]:
+            - button "住む 居住" [ref=e918] [cursor=pointer]:
+              - generic [ref=e919]: 住む
+              - generic [ref=e920]: 居住
+            - button "我会了" [ref=e921] [cursor=pointer]
+          - generic [ref=e924]:
+            - button "泊まる 住宿" [ref=e925] [cursor=pointer]:
+              - generic [ref=e926]: 泊まる
+              - generic [ref=e927]: 住宿
+            - button "我会了" [ref=e928] [cursor=pointer]
+          - generic [ref=e931]:
+            - button "並ぶ 排队" [ref=e932] [cursor=pointer]:
+              - generic [ref=e933]: 並ぶ
+              - generic [ref=e934]: 排队
+            - button "我会了" [ref=e935] [cursor=pointer]
+          - generic [ref=e938]:
+            - button "戻る 回来" [ref=e939] [cursor=pointer]:
+              - generic [ref=e940]: 戻る
+              - generic [ref=e941]: 回来
+            - button "我会了" [ref=e942] [cursor=pointer]
+          - generic [ref=e945]:
+            - button "渡る 穿过" [ref=e946] [cursor=pointer]:
+              - generic [ref=e947]: 渡る
+              - generic [ref=e948]: 穿过
+            - button "我会了" [ref=e949] [cursor=pointer]
+          - generic [ref=e952]:
+            - button "曲がる 转弯" [ref=e953] [cursor=pointer]:
+              - generic [ref=e954]: 曲がる
+              - generic [ref=e955]: 转弯
+            - button "我会了" [ref=e956] [cursor=pointer]
+          - generic [ref=e959]:
+            - button "止まる 停下" [ref=e960] [cursor=pointer]:
+              - generic [ref=e961]: 止まる
+              - generic [ref=e962]: 停下
+            - button "我会了" [ref=e963] [cursor=pointer]
+          - generic [ref=e966]:
+            - button "歌う 唱歌" [ref=e967] [cursor=pointer]:
+              - generic [ref=e968]: 歌う
+              - generic [ref=e969]: 唱歌
+            - button "我会了" [ref=e970] [cursor=pointer]
+          - generic [ref=e973]:
+            - button "騒ぐ 吵闹" [ref=e974] [cursor=pointer]:
+              - generic [ref=e975]: 騒ぐ
+              - generic [ref=e976]: 吵闹
+            - button "我会了" [ref=e977] [cursor=pointer]
+          - generic [ref=e980]:
+            - button "眠る 睡着" [ref=e981] [cursor=pointer]:
+              - generic [ref=e982]: 眠る
+              - generic [ref=e983]: 睡着
+            - button "我会了" [ref=e984] [cursor=pointer]
+          - generic [ref=e987]:
+            - button "降る 下雨；下雪" [ref=e988] [cursor=pointer]:
+              - generic [ref=e989]: 降る
+              - generic [ref=e990]: 下雨；下雪
+            - button "我会了" [ref=e991] [cursor=pointer]
+          - generic [ref=e994]:
+            - button "叱る 责备" [ref=e995] [cursor=pointer]:
+              - generic [ref=e996]: 叱る
+              - generic [ref=e997]: 责备
+            - button "我会了" [ref=e998] [cursor=pointer]
+          - generic [ref=e1001]:
+            - button "誘う 邀请" [ref=e1002] [cursor=pointer]:
+              - generic [ref=e1003]: 誘う
+              - generic [ref=e1004]: 邀请
+            - button "我会了" [ref=e1005] [cursor=pointer]
+          - generic [ref=e1008]:
+            - button "断る 拒绝" [ref=e1009] [cursor=pointer]:
+              - generic [ref=e1010]: 断る
+              - generic [ref=e1011]: 拒绝
+            - button "我会了" [ref=e1012] [cursor=pointer]
+          - generic [ref=e1015]:
+            - button "頼る 依靠" [ref=e1016] [cursor=pointer]:
+              - generic [ref=e1017]: 頼る
+              - generic [ref=e1018]: 依靠
+            - button "我会了" [ref=e1019] [cursor=pointer]
+          - generic [ref=e1022]:
+            - button "受け取る 收取" [ref=e1023] [cursor=pointer]:
+              - generic [ref=e1024]: 受け取る
+              - generic [ref=e1025]: 收取
+            - button "我会了" [ref=e1026] [cursor=pointer]
+          - generic [ref=e1029]:
+            - button "手伝う 帮忙" [ref=e1030] [cursor=pointer]:
+              - generic [ref=e1031]: 手伝う
+              - generic [ref=e1032]: 帮忙
+            - button "我会了" [ref=e1033] [cursor=pointer]
+          - generic [ref=e1036]:
+            - button "洗う 洗" [ref=e1037] [cursor=pointer]:
+              - generic [ref=e1038]: 洗う
+              - generic [ref=e1039]: 洗
+            - button "我会了" [ref=e1040] [cursor=pointer]
+          - generic [ref=e1043]:
+            - button "置く 放置" [ref=e1044] [cursor=pointer]:
+              - generic [ref=e1045]: 置く
+              - generic [ref=e1046]: 放置
+            - button "我会了" [ref=e1047] [cursor=pointer]
+          - generic [ref=e1050]:
+            - button "打つ 打；采取措施" [ref=e1051] [cursor=pointer]:
+              - generic [ref=e1052]: 打つ
+              - generic [ref=e1053]: 打；采取措施
+            - button "我会了" [ref=e1054] [cursor=pointer]
+          - generic [ref=e1057]:
+            - button "写す 拍下；抄写" [ref=e1058] [cursor=pointer]:
+              - generic [ref=e1059]: 写す
+              - generic [ref=e1060]: 拍下；抄写
+            - button "我会了" [ref=e1061] [cursor=pointer]
+          - generic [ref=e1064]:
+            - button "盗む 偷" [ref=e1065] [cursor=pointer]:
+              - generic [ref=e1066]: 盗む
+              - generic [ref=e1067]: 偷
+            - button "我会了" [ref=e1068] [cursor=pointer]
+          - generic [ref=e1071]:
+            - button "壊す 弄坏" [ref=e1072] [cursor=pointer]:
+              - generic [ref=e1073]: 壊す
+              - generic [ref=e1074]: 弄坏
+            - button "我会了" [ref=e1075] [cursor=pointer]
+          - generic [ref=e1078]:
+            - button "汚す 弄脏" [ref=e1079] [cursor=pointer]:
+              - generic [ref=e1080]: 汚す
+              - generic [ref=e1081]: 弄脏
+            - button "我会了" [ref=e1082] [cursor=pointer]
+          - generic [ref=e1085]:
+            - button "なくす 弄丢" [ref=e1086] [cursor=pointer]:
+              - generic [ref=e1087]: なくす
+              - generic [ref=e1088]: 弄丢
+            - button "我会了" [ref=e1089] [cursor=pointer]
+          - generic [ref=e1092]:
+            - button "燃やす 烧掉" [ref=e1093] [cursor=pointer]:
+              - generic [ref=e1094]: 燃やす
+              - generic [ref=e1095]: 烧掉
+            - button "我会了" [ref=e1096] [cursor=pointer]
+          - generic [ref=e1099]:
+            - button "鳴らす 弄响" [ref=e1100] [cursor=pointer]:
+              - generic [ref=e1101]: 鳴らす
+              - generic [ref=e1102]: 弄响
+            - button "我会了" [ref=e1103] [cursor=pointer]
+          - generic [ref=e1106]:
+            - button "蹴る 踢" [ref=e1107] [cursor=pointer]:
+              - generic [ref=e1108]: 蹴る
+              - generic [ref=e1109]: 踢
+            - button "我会了" [ref=e1110] [cursor=pointer]
+          - generic [ref=e1113]:
+            - button "踏む 踩" [ref=e1114] [cursor=pointer]:
+              - generic [ref=e1115]: 踏む
+              - generic [ref=e1116]: 踩
+            - button "我会了" [ref=e1117] [cursor=pointer]
+          - generic [ref=e1120]:
+            - button "刺す 叮；刺" [ref=e1121] [cursor=pointer]:
+              - generic [ref=e1122]: 刺す
+              - generic [ref=e1123]: 叮；刺
+            - button "我会了" [ref=e1124] [cursor=pointer]
+          - generic [ref=e1127]:
+            - button "巻く 卷；围" [ref=e1128] [cursor=pointer]:
+              - generic [ref=e1129]: 巻く
+              - generic [ref=e1130]: 卷；围
+            - button "我会了" [ref=e1131] [cursor=pointer]
+          - generic [ref=e1134]:
+            - button "貼る 贴" [ref=e1135] [cursor=pointer]:
+              - generic [ref=e1136]: 貼る
+              - generic [ref=e1137]: 贴
+            - button "我会了" [ref=e1138] [cursor=pointer]
+          - generic [ref=e1141]:
+            - button "戻す 恢复原状" [ref=e1142] [cursor=pointer]:
+              - generic [ref=e1143]: 戻す
+              - generic [ref=e1144]: 恢复原状
+            - button "我会了" [ref=e1145] [cursor=pointer]
+          - generic [ref=e1148]:
+            - button "返す 归还" [ref=e1149] [cursor=pointer]:
+              - generic [ref=e1150]: 返す
+              - generic [ref=e1151]: 归还
+            - button "我会了" [ref=e1152] [cursor=pointer]
+          - generic [ref=e1155]:
+            - button "回す 转交；传阅" [ref=e1156] [cursor=pointer]:
+              - generic [ref=e1157]: 回す
+              - generic [ref=e1158]: 转交；传阅
+            - button "我会了" [ref=e1159] [cursor=pointer]
+          - generic [ref=e1162]:
+            - button "叩く 敲；拍" [ref=e1163] [cursor=pointer]:
+              - generic [ref=e1164]: 叩く
+              - generic [ref=e1165]: 敲；拍
+            - button "我会了" [ref=e1166] [cursor=pointer]
+          - generic [ref=e1169]:
+            - button "呼び出す 叫出来；传唤" [ref=e1170] [cursor=pointer]:
+              - generic [ref=e1171]: 呼び出す
+              - generic [ref=e1172]: 叫出来；传唤
+            - button "我会了" [ref=e1173] [cursor=pointer]
+          - generic [ref=e1176]:
+            - button "送り返す 退回；寄回" [ref=e1177] [cursor=pointer]:
+              - generic [ref=e1178]: 送り返す
+              - generic [ref=e1179]: 退回；寄回
+            - button "我会了" [ref=e1180] [cursor=pointer]
+          - generic [ref=e1183]:
+            - button "持ち帰る 带回去" [ref=e1184] [cursor=pointer]:
+              - generic [ref=e1185]: 持ち帰る
+              - generic [ref=e1186]: 带回去
+            - button "我会了" [ref=e1187] [cursor=pointer]
+          - generic [ref=e1190]:
+            - button "乗る 乘坐" [ref=e1191] [cursor=pointer]:
+              - generic [ref=e1192]: 乗る
+              - generic [ref=e1193]: 乘坐
+            - button "我会了" [ref=e1194] [cursor=pointer]
+          - generic [ref=e1197]:
+            - button "祝う 庆祝；祝贺" [ref=e1198] [cursor=pointer]:
+              - generic [ref=e1199]: 祝う
+              - generic [ref=e1200]: 庆祝；祝贺
+            - button "我会了" [ref=e1201] [cursor=pointer]
+          - generic [ref=e1204]:
+            - button "繋ぐ 连接；牵" [ref=e1205] [cursor=pointer]:
+              - generic [ref=e1206]: 繋ぐ
+              - generic [ref=e1207]: 连接；牵
+            - button "我会了" [ref=e1208] [cursor=pointer]
+          - generic [ref=e1211]:
+            - button "被る 戴；盖" [ref=e1212] [cursor=pointer]:
+              - generic [ref=e1213]: 被る
+              - generic [ref=e1214]: 戴；盖
+            - button "我会了" [ref=e1215] [cursor=pointer]
+          - generic [ref=e1218]:
+            - button "塗る 涂；刷" [ref=e1219] [cursor=pointer]:
+              - generic [ref=e1220]: 塗る
+              - generic [ref=e1221]: 涂；刷
+            - button "我会了" [ref=e1222] [cursor=pointer]
+          - generic [ref=e1225]:
+            - button "差す 撑伞；伸出" [ref=e1226] [cursor=pointer]:
+              - generic [ref=e1227]: 差す
+              - generic [ref=e1228]: 撑伞；伸出
+            - button "我会了" [ref=e1229] [cursor=pointer]
+          - generic [ref=e1232]:
+            - button "叫ぶ 喊叫" [ref=e1233] [cursor=pointer]:
+              - generic [ref=e1234]: 叫ぶ
+              - generic [ref=e1235]: 喊叫
+            - button "我会了" [ref=e1236] [cursor=pointer]
+          - generic [ref=e1239]:
+            - button "寝る 睡觉" [ref=e1240] [cursor=pointer]:
+              - generic [ref=e1241]: 寝る
+              - generic [ref=e1242]: 睡觉
+            - button "我会了" [ref=e1243] [cursor=pointer]
+          - generic [ref=e1246]:
+            - button "出る 出去；离开" [ref=e1247] [cursor=pointer]:
+              - generic [ref=e1248]: 出る
+              - generic [ref=e1249]: 出去；离开
+            - button "我会了" [ref=e1250] [cursor=pointer]
+          - generic [ref=e1253]:
+            - button "逃げる 逃跑" [ref=e1254] [cursor=pointer]:
+              - generic [ref=e1255]: 逃げる
+              - generic [ref=e1256]: 逃跑
+            - button "我会了" [ref=e1257] [cursor=pointer]
+          - generic [ref=e1260]:
+            - button "辞める 辞职；退出" [ref=e1261] [cursor=pointer]:
+              - generic [ref=e1262]: 辞める
+              - generic [ref=e1263]: 辞职；退出
+            - button "我会了" [ref=e1264] [cursor=pointer]
+          - generic [ref=e1267]:
+            - button "倒れる 倒下" [ref=e1268] [cursor=pointer]:
+              - generic [ref=e1269]: 倒れる
+              - generic [ref=e1270]: 倒下
+            - button "我会了" [ref=e1271] [cursor=pointer]
+          - generic [ref=e1274]:
+            - button "壊れる 坏掉" [ref=e1275] [cursor=pointer]:
+              - generic [ref=e1276]: 壊れる
+              - generic [ref=e1277]: 坏掉
+            - button "我会了" [ref=e1278] [cursor=pointer]
+          - generic [ref=e1281]:
+            - button "間違える 弄错" [ref=e1282] [cursor=pointer]:
+              - generic [ref=e1283]: 間違える
+              - generic [ref=e1284]: 弄错
+            - button "我会了" [ref=e1285] [cursor=pointer]
+          - generic [ref=e1288]:
+            - button "つける 打开；附上" [ref=e1289] [cursor=pointer]:
+              - generic [ref=e1290]: つける
+              - generic [ref=e1291]: 打开；附上
+            - button "我会了" [ref=e1292] [cursor=pointer]
+          - generic [ref=e1295]:
+            - button "開ける 打开" [ref=e1296] [cursor=pointer]:
+              - generic [ref=e1297]: 開ける
+              - generic [ref=e1298]: 打开
+            - button "我会了" [ref=e1299] [cursor=pointer]
+          - generic [ref=e1302]:
+            - button "閉める 关闭" [ref=e1303] [cursor=pointer]:
+              - generic [ref=e1304]: 閉める
+              - generic [ref=e1305]: 关闭
+            - button "我会了" [ref=e1306] [cursor=pointer]
+          - generic [ref=e1309]:
+            - button "見つける 发现" [ref=e1310] [cursor=pointer]:
+              - generic [ref=e1311]: 見つける
+              - generic [ref=e1312]: 发现
+            - button "我会了" [ref=e1313] [cursor=pointer]
+          - generic [ref=e1316]:
+            - button "責める 责备" [ref=e1317] [cursor=pointer]:
+              - generic [ref=e1318]: 責める
+              - generic [ref=e1319]: 责备
+            - button "我会了" [ref=e1320] [cursor=pointer]
+          - generic [ref=e1323]:
+            - button "褒める 表扬" [ref=e1324] [cursor=pointer]:
+              - generic [ref=e1325]: 褒める
+              - generic [ref=e1326]: 表扬
+            - button "我会了" [ref=e1327] [cursor=pointer]
+          - generic [ref=e1330]:
+            - button "避ける 避开" [ref=e1331] [cursor=pointer]:
+              - generic [ref=e1332]: 避ける
+              - generic [ref=e1333]: 避开
+            - button "我会了" [ref=e1334] [cursor=pointer]
+          - generic [ref=e1337]:
+            - button "ぶつける 撞上" [ref=e1338] [cursor=pointer]:
+              - generic [ref=e1339]: ぶつける
+              - generic [ref=e1340]: 撞上
+            - button "我会了" [ref=e1341] [cursor=pointer]
+          - generic [ref=e1344]:
+            - button "届ける 送达" [ref=e1345] [cursor=pointer]:
+              - generic [ref=e1346]: 届ける
+              - generic [ref=e1347]: 送达
+            - button "我会了" [ref=e1348] [cursor=pointer]
+          - generic [ref=e1351]:
+            - button "片付ける 收拾" [ref=e1352] [cursor=pointer]:
+              - generic [ref=e1353]: 片付ける
+              - generic [ref=e1354]: 收拾
+            - button "我会了" [ref=e1355] [cursor=pointer]
+          - generic [ref=e1358]:
+            - button "まとめる 整理汇总" [ref=e1359] [cursor=pointer]:
+              - generic [ref=e1360]: まとめる
+              - generic [ref=e1361]: 整理汇总
+            - button "我会了" [ref=e1362] [cursor=pointer]
+          - generic [ref=e1365]:
+            - button "分ける 分开；分给" [ref=e1366] [cursor=pointer]:
+              - generic [ref=e1367]: 分ける
+              - generic [ref=e1368]: 分开；分给
+            - button "我会了" [ref=e1369] [cursor=pointer]
+          - generic [ref=e1372]:
+            - button "下げる 降低" [ref=e1373] [cursor=pointer]:
+              - generic [ref=e1374]: 下げる
+              - generic [ref=e1375]: 降低
+            - button "我会了" [ref=e1376] [cursor=pointer]
+          - generic [ref=e1379]:
+            - button "上げる 提高" [ref=e1380] [cursor=pointer]:
+              - generic [ref=e1381]: 上げる
+              - generic [ref=e1382]: 提高
+            - button "我会了" [ref=e1383] [cursor=pointer]
+          - generic [ref=e1386]:
+            - button "伝える 传达" [ref=e1387] [cursor=pointer]:
+              - generic [ref=e1388]: 伝える
+              - generic [ref=e1389]: 传达
+            - button "我会了" [ref=e1390] [cursor=pointer]
+          - generic [ref=e1393]:
+            - button "迎える 迎接" [ref=e1394] [cursor=pointer]:
+              - generic [ref=e1395]: 迎える
+              - generic [ref=e1396]: 迎接
+            - button "我会了" [ref=e1397] [cursor=pointer]
+          - generic [ref=e1400]:
+            - button "連れる 带去" [ref=e1401] [cursor=pointer]:
+              - generic [ref=e1402]: 連れる
+              - generic [ref=e1403]: 带去
+            - button "我会了" [ref=e1404] [cursor=pointer]
+          - generic [ref=e1407]:
+            - button "遅れる 迟到" [ref=e1408] [cursor=pointer]:
+              - generic [ref=e1409]: 遅れる
+              - generic [ref=e1410]: 迟到
+            - button "我会了" [ref=e1411] [cursor=pointer]
+          - generic [ref=e1414]:
+            - button "慣れる 习惯" [ref=e1415] [cursor=pointer]:
+              - generic [ref=e1416]: 慣れる
+              - generic [ref=e1417]: 习惯
+            - button "我会了" [ref=e1418] [cursor=pointer]
+          - generic [ref=e1421]:
+            - button "換える 更换" [ref=e1422] [cursor=pointer]:
+              - generic [ref=e1423]: 換える
+              - generic [ref=e1424]: 更换
+            - button "我会了" [ref=e1425] [cursor=pointer]
+          - generic [ref=e1428]:
+            - button "支える 支撑" [ref=e1429] [cursor=pointer]:
+              - generic [ref=e1430]: 支える
+              - generic [ref=e1431]: 支撑
+            - button "我会了" [ref=e1432] [cursor=pointer]
+          - generic [ref=e1435]:
+            - button "眺める 盯着看" [ref=e1436] [cursor=pointer]:
+              - generic [ref=e1437]: 眺める
+              - generic [ref=e1438]: 盯着看
+            - button "我会了" [ref=e1439] [cursor=pointer]
+          - generic [ref=e1442]:
+            - button "温める 加热" [ref=e1443] [cursor=pointer]:
+              - generic [ref=e1444]: 温める
+              - generic [ref=e1445]: 加热
+            - button "我会了" [ref=e1446] [cursor=pointer]
+          - generic [ref=e1449]:
+            - button "予約する 预约" [ref=e1450] [cursor=pointer]:
+              - generic [ref=e1451]: 予約する
+              - generic [ref=e1452]: 预约
+            - button "我会了" [ref=e1453] [cursor=pointer]
+          - generic [ref=e1456]:
+            - button "相談する 商量；咨询" [ref=e1457] [cursor=pointer]:
+              - generic [ref=e1458]: 相談する
+              - generic [ref=e1459]: 商量；咨询
+            - button "我会了" [ref=e1460] [cursor=pointer]
+          - generic [ref=e1463]:
+            - button "注文する 订购；点餐" [ref=e1464] [cursor=pointer]:
+              - generic [ref=e1465]: 注文する
+              - generic [ref=e1466]: 订购；点餐
+            - button "我会了" [ref=e1467] [cursor=pointer]
+          - generic [ref=e1470]:
+            - button "キャンセルする 取消" [ref=e1471] [cursor=pointer]:
+              - generic [ref=e1472]: キャンセルする
+              - generic [ref=e1473]: 取消
+            - button "我会了" [ref=e1474] [cursor=pointer]
+          - generic [ref=e1477]:
+            - button "報告する 报告" [ref=e1478] [cursor=pointer]:
+              - generic [ref=e1479]: 報告する
+              - generic [ref=e1480]: 报告
+            - button "我会了" [ref=e1481] [cursor=pointer]
+          - generic [ref=e1484]:
+            - button "共有する 共享" [ref=e1485] [cursor=pointer]:
+              - generic [ref=e1486]: 共有する
+              - generic [ref=e1487]: 共享
+            - button "我会了" [ref=e1488] [cursor=pointer]
+          - generic [ref=e1491]:
+            - button "変更する 变更" [ref=e1492] [cursor=pointer]:
+              - generic [ref=e1493]: 変更する
+              - generic [ref=e1494]: 变更
+            - button "我会了" [ref=e1495] [cursor=pointer]
+          - generic [ref=e1498]:
+            - button "提出する 提交" [ref=e1499] [cursor=pointer]:
+              - generic [ref=e1500]: 提出する
+              - generic [ref=e1501]: 提交
+            - button "我会了" [ref=e1502] [cursor=pointer]
+          - generic [ref=e1505]:
+            - button "返信する 回复" [ref=e1506] [cursor=pointer]:
+              - generic [ref=e1507]: 返信する
+              - generic [ref=e1508]: 回复
+            - button "我会了" [ref=e1509] [cursor=pointer]
+          - generic [ref=e1512]:
+            - button "出席する 出席" [ref=e1513] [cursor=pointer]:
+              - generic [ref=e1514]: 出席する
+              - generic [ref=e1515]: 出席
+            - button "我会了" [ref=e1516] [cursor=pointer]
+          - generic [ref=e1519]:
+            - button "欠席する 缺席" [ref=e1520] [cursor=pointer]:
+              - generic [ref=e1521]: 欠席する
+              - generic [ref=e1522]: 缺席
+            - button "我会了" [ref=e1523] [cursor=pointer]
+          - generic [ref=e1526]:
+            - button "登録する 登记" [ref=e1527] [cursor=pointer]:
+              - generic [ref=e1528]: 登録する
+              - generic [ref=e1529]: 登记
+            - button "我会了" [ref=e1530] [cursor=pointer]
+          - generic [ref=e1533]:
+            - button "保存する 保存" [ref=e1534] [cursor=pointer]:
+              - generic [ref=e1535]: 保存する
+              - generic [ref=e1536]: 保存
+            - button "我会了" [ref=e1537] [cursor=pointer]
+          - generic [ref=e1540]:
+            - button "削除する 删除" [ref=e1541] [cursor=pointer]:
+              - generic [ref=e1542]: 削除する
+              - generic [ref=e1543]: 删除
+            - button "我会了" [ref=e1544] [cursor=pointer]
+          - generic [ref=e1547]:
+            - button "掃除する 打扫" [ref=e1548] [cursor=pointer]:
+              - generic [ref=e1549]: 掃除する
+              - generic [ref=e1550]: 打扫
+            - button "我会了" [ref=e1551] [cursor=pointer]
+          - generic [ref=e1554]:
+            - button "洗濯する 洗衣服" [ref=e1555] [cursor=pointer]:
+              - generic [ref=e1556]: 洗濯する
+              - generic [ref=e1557]: 洗衣服
+            - button "我会了" [ref=e1558] [cursor=pointer]
+          - generic [ref=e1561]:
+            - button "料理する 料理；烹饪" [ref=e1562] [cursor=pointer]:
+              - generic [ref=e1563]: 料理する
+              - generic [ref=e1564]: 料理；烹饪
+            - button "我会了" [ref=e1565] [cursor=pointer]
+          - generic [ref=e1568]:
+            - button "運動する 运动" [ref=e1569] [cursor=pointer]:
+              - generic [ref=e1570]: 運動する
+              - generic [ref=e1571]: 运动
+            - button "我会了" [ref=e1572] [cursor=pointer]
+          - generic [ref=e1575]:
+            - button "散歩する 散步" [ref=e1576] [cursor=pointer]:
+              - generic [ref=e1577]: 散歩する
+              - generic [ref=e1578]: 散步
+            - button "我会了" [ref=e1579] [cursor=pointer]
+          - generic [ref=e1582]:
+            - button "引っ越しする 搬家" [ref=e1583] [cursor=pointer]:
+              - generic [ref=e1584]: 引っ越しする
+              - generic [ref=e1585]: 搬家
+            - button "我会了" [ref=e1586] [cursor=pointer]
+          - generic [ref=e1589]:
+            - button "参加する 参加" [ref=e1590] [cursor=pointer]:
+              - generic [ref=e1591]: 参加する
+              - generic [ref=e1592]: 参加
+            - button "我会了" [ref=e1593] [cursor=pointer]
+          - generic [ref=e1596]:
+            - button "対応する 应对，接待" [ref=e1597] [cursor=pointer]:
+              - generic [ref=e1598]: 対応する
+              - generic [ref=e1599]: 应对，接待
+            - button "我会了" [ref=e1600] [cursor=pointer]
+          - generic [ref=e1603]:
+            - button "検討する 研究，探讨" [ref=e1604] [cursor=pointer]:
+              - generic [ref=e1605]: 検討する
+              - generic [ref=e1606]: 研究，探讨
+            - button "我会了" [ref=e1607] [cursor=pointer]
+          - generic [ref=e1610]:
+            - button "承認する 批准，认可" [ref=e1611] [cursor=pointer]:
+              - generic [ref=e1612]: 承認する
+              - generic [ref=e1613]: 批准，认可
+            - button "我会了" [ref=e1614] [cursor=pointer]
+          - generic [ref=e1617]:
+            - button "修正する 修改，订正" [ref=e1618] [cursor=pointer]:
+              - generic [ref=e1619]: 修正する
+              - generic [ref=e1620]: 修改，订正
+            - button "我会了" [ref=e1621] [cursor=pointer]
+          - generic [ref=e1624]:
+            - button "導入する 引进，导入" [ref=e1625] [cursor=pointer]:
+              - generic [ref=e1626]: 導入する
+              - generic [ref=e1627]: 引进，导入
+            - button "我会了" [ref=e1628] [cursor=pointer]
+          - generic [ref=e1631]:
+            - button "把握する 掌握，把握" [ref=e1632] [cursor=pointer]:
+              - generic [ref=e1633]: 把握する
+              - generic [ref=e1634]: 掌握，把握
+            - button "我会了" [ref=e1635] [cursor=pointer]
+          - generic [ref=e1638]:
+            - button "依頼する 委托，请求" [ref=e1639] [cursor=pointer]:
+              - generic [ref=e1640]: 依頼する
+              - generic [ref=e1641]: 委托，请求
+            - button "我会了" [ref=e1642] [cursor=pointer]
+          - generic [ref=e1645]:
+            - button "確保する 确保，保住" [ref=e1646] [cursor=pointer]:
+              - generic [ref=e1647]: 確保する
+              - generic [ref=e1648]: 确保，保住
+            - button "我会了" [ref=e1649] [cursor=pointer]
+          - generic [ref=e1652]:
+            - button "提案する 提议，提案" [ref=e1653] [cursor=pointer]:
+              - generic [ref=e1654]: 提案する
+              - generic [ref=e1655]: 提议，提案
+            - button "我会了" [ref=e1656] [cursor=pointer]
+          - generic [ref=e1659]:
+            - button "担当する 担任，负责" [ref=e1660] [cursor=pointer]:
+              - generic [ref=e1661]: 担当する
+              - generic [ref=e1662]: 担任，负责
+            - button "我会了" [ref=e1663] [cursor=pointer]
+          - generic [ref=e1666]:
+            - button "出張する 出差" [ref=e1667] [cursor=pointer]:
+              - generic [ref=e1668]: 出張する
+              - generic [ref=e1669]: 出差
+            - button "我会了" [ref=e1670] [cursor=pointer]
+          - generic [ref=e1673]:
+            - button "残業する 加班" [ref=e1674] [cursor=pointer]:
+              - generic [ref=e1675]: 残業する
+              - generic [ref=e1676]: 加班
+            - button "我会了" [ref=e1677] [cursor=pointer]
+          - generic [ref=e1680]:
+            - button "遅刻する 迟到" [ref=e1681] [cursor=pointer]:
+              - generic [ref=e1682]: 遅刻する
+              - generic [ref=e1683]: 迟到
+            - button "我会了" [ref=e1684] [cursor=pointer]
+          - generic [ref=e1687]:
+            - button "記入する 填写" [ref=e1688] [cursor=pointer]:
+              - generic [ref=e1689]: 記入する
+              - generic [ref=e1690]: 填写
+            - button "我会了" [ref=e1691] [cursor=pointer]
+          - generic [ref=e1694]:
+            - button "集計する 汇总，合计" [ref=e1695] [cursor=pointer]:
+              - generic [ref=e1696]: 集計する
+              - generic [ref=e1697]: 汇总，合计
+            - button "我会了" [ref=e1698] [cursor=pointer]
+          - generic [ref=e1701]:
+            - button "発注する 订购，下订单" [ref=e1702] [cursor=pointer]:
+              - generic [ref=e1703]: 発注する
+              - generic [ref=e1704]: 订购，下订单
+            - button "我会了" [ref=e1705] [cursor=pointer]
+          - generic [ref=e1708]:
+            - button "納品する 交货，交付" [ref=e1709] [cursor=pointer]:
+              - generic [ref=e1710]: 納品する
+              - generic [ref=e1711]: 交货，交付
+            - button "我会了" [ref=e1712] [cursor=pointer]
+          - generic [ref=e1715]:
+            - button "対策する 采取对策" [ref=e1716] [cursor=pointer]:
+              - generic [ref=e1717]: 対策する
+              - generic [ref=e1718]: 采取对策
+            - button "我会了" [ref=e1719] [cursor=pointer]
+          - generic [ref=e1722]:
+            - button "出勤する 上班，出勤" [ref=e1723] [cursor=pointer]:
+              - generic [ref=e1724]: 出勤する
+              - generic [ref=e1725]: 上班，出勤
+            - button "我会了" [ref=e1726] [cursor=pointer]
+          - generic [ref=e1729]:
+            - button "退勤する 下班" [ref=e1730] [cursor=pointer]:
+              - generic [ref=e1731]: 退勤する
+              - generic [ref=e1732]: 下班
+            - button "我会了" [ref=e1733] [cursor=pointer]
+          - generic [ref=e1736]:
+            - button "見学する 参观，见习" [ref=e1737] [cursor=pointer]:
+              - generic [ref=e1738]: 見学する
+              - generic [ref=e1739]: 参观，见习
+            - button "我会了" [ref=e1740] [cursor=pointer]
+          - generic [ref=e1743]:
+            - button "確定する 确定，敲定" [ref=e1744] [cursor=pointer]:
+              - generic [ref=e1745]: 確定する
+              - generic [ref=e1746]: 确定，敲定
+            - button "我会了" [ref=e1747] [cursor=pointer]
+          - generic [ref=e1750]:
+            - button "調整する 调整，协调" [ref=e1751] [cursor=pointer]:
+              - generic [ref=e1752]: 調整する
+              - generic [ref=e1753]: 调整，协调
+            - button "我会了" [ref=e1754] [cursor=pointer]
+          - generic [ref=e1757]:
+            - button "連携する 协作，配合" [ref=e1758] [cursor=pointer]:
+              - generic [ref=e1759]: 連携する
+              - generic [ref=e1760]: 协作，配合
+            - button "我会了" [ref=e1761] [cursor=pointer]
+          - generic [ref=e1764]:
+            - button "実施する 实施，实行" [ref=e1765] [cursor=pointer]:
+              - generic [ref=e1766]: 実施する
+              - generic [ref=e1767]: 实施，实行
+            - button "我会了" [ref=e1768] [cursor=pointer]
+          - generic [ref=e1771]:
+            - button "更新する 更新" [ref=e1772] [cursor=pointer]:
+              - generic [ref=e1773]: 更新する
+              - generic [ref=e1774]: 更新
+            - button "我会了" [ref=e1775] [cursor=pointer]
+          - generic [ref=e1778]:
+            - button "開催する 举办，召开" [ref=e1779] [cursor=pointer]:
+              - generic [ref=e1780]: 開催する
+              - generic [ref=e1781]: 举办，召开
+            - button "我会了" [ref=e1782] [cursor=pointer]
+          - generic [ref=e1785]:
+            - button "契約する 签约，签订合同" [ref=e1786] [cursor=pointer]:
+              - generic [ref=e1787]: 契約する
+              - generic [ref=e1788]: 签约，签订合同
+            - button "我会了" [ref=e1789] [cursor=pointer]
+          - generic [ref=e1792]:
+            - button "交渉する 交涉，谈判" [ref=e1793] [cursor=pointer]:
+              - generic [ref=e1794]: 交渉する
+              - generic [ref=e1795]: 交涉，谈判
+            - button "我会了" [ref=e1796] [cursor=pointer]
+          - generic [ref=e1799]:
+            - button "発表する 发表，发布" [ref=e1800] [cursor=pointer]:
+              - generic [ref=e1801]: 発表する
+              - generic [ref=e1802]: 发表，发布
+            - button "我会了" [ref=e1803] [cursor=pointer]
+          - generic [ref=e1806]:
+            - button "分析する 分析" [ref=e1807] [cursor=pointer]:
+              - generic [ref=e1808]: 分析する
+              - generic [ref=e1809]: 分析
+            - button "我会了" [ref=e1810] [cursor=pointer]
+          - generic [ref=e1813]:
+            - button "管理する 管理" [ref=e1814] [cursor=pointer]:
+              - generic [ref=e1815]: 管理する
+              - generic [ref=e1816]: 管理
+            - button "我会了" [ref=e1817] [cursor=pointer]
+          - generic [ref=e1820]:
+            - button "記録する 记录" [ref=e1821] [cursor=pointer]:
+              - generic [ref=e1822]: 記録する
+              - generic [ref=e1823]: 记录
+            - button "我会了" [ref=e1824] [cursor=pointer]
+          - generic [ref=e1827]:
+            - button "訪問する 拜访，访问" [ref=e1828] [cursor=pointer]:
+              - generic [ref=e1829]: 訪問する
+              - generic [ref=e1830]: 拜访，访问
+            - button "我会了" [ref=e1831] [cursor=pointer]
+          - generic [ref=e1834]:
+            - button "出荷する 出货，发货" [ref=e1835] [cursor=pointer]:
+              - generic [ref=e1836]: 出荷する
+              - generic [ref=e1837]: 出货，发货
+            - button "我会了" [ref=e1838] [cursor=pointer]
+          - generic [ref=e1841]:
+            - button "請求する 索取，收费" [ref=e1842] [cursor=pointer]:
+              - generic [ref=e1843]: 請求する
+              - generic [ref=e1844]: 索取，收费
+            - button "我会了" [ref=e1845] [cursor=pointer]
+          - generic [ref=e1848]:
+            - button "精算する 结算，清算" [ref=e1849] [cursor=pointer]:
+              - generic [ref=e1850]: 精算する
+              - generic [ref=e1851]: 结算，清算
+            - button "我会了" [ref=e1852] [cursor=pointer]
+          - generic [ref=e1855]:
+            - button "採用する 采用，录用" [ref=e1856] [cursor=pointer]:
+              - generic [ref=e1857]: 採用する
+              - generic [ref=e1858]: 采用，录用
+            - button "我会了" [ref=e1859] [cursor=pointer]
+          - generic [ref=e1862]:
+            - button "面接する 面试" [ref=e1863] [cursor=pointer]:
+              - generic [ref=e1864]: 面接する
+              - generic [ref=e1865]: 面试
+            - button "我会了" [ref=e1866] [cursor=pointer]
+          - generic [ref=e1869]:
+            - button "見直す 重新审视" [ref=e1870] [cursor=pointer]:
+              - generic [ref=e1871]: 見直す
+              - generic [ref=e1872]: 重新审视
+            - button "我会了" [ref=e1873] [cursor=pointer]
+          - generic [ref=e1876]:
+            - button "引き継ぐ 接手、交接" [ref=e1877] [cursor=pointer]:
+              - generic [ref=e1878]: 引き継ぐ
+              - generic [ref=e1879]: 接手、交接
+            - button "我会了" [ref=e1880] [cursor=pointer]
+          - generic [ref=e1883]:
+            - button "見積もる 估算、报价" [ref=e1884] [cursor=pointer]:
+              - generic [ref=e1885]: 見積もる
+              - generic [ref=e1886]: 估算、报价
+            - button "我会了" [ref=e1887] [cursor=pointer]
+          - generic [ref=e1890]:
+            - button "申し込む 申请、报名" [ref=e1891] [cursor=pointer]:
+              - generic [ref=e1892]: 申し込む
+              - generic [ref=e1893]: 申请、报名
+            - button "我会了" [ref=e1894] [cursor=pointer]
+          - generic [ref=e1897]:
+            - button "締め切る 截止、结束受理" [ref=e1898] [cursor=pointer]:
+              - generic [ref=e1899]: 締め切る
+              - generic [ref=e1900]: 截止、结束受理
+            - button "我会了" [ref=e1901] [cursor=pointer]
+          - generic [ref=e1904]:
+            - button "稼ぐ 赚取、挣钱" [ref=e1905] [cursor=pointer]:
+              - generic [ref=e1906]: 稼ぐ
+              - generic [ref=e1907]: 赚取、挣钱
+            - button "我会了" [ref=e1908] [cursor=pointer]
+          - generic [ref=e1911]:
+            - button "取り組む 着手、投入" [ref=e1912] [cursor=pointer]:
+              - generic [ref=e1913]: 取り組む
+              - generic [ref=e1914]: 着手、投入
+            - button "我会了" [ref=e1915] [cursor=pointer]
+          - generic [ref=e1918]:
+            - button "目指す 以…为目标" [ref=e1919] [cursor=pointer]:
+              - generic [ref=e1920]: 目指す
+              - generic [ref=e1921]: 以…为目标
+            - button "我会了" [ref=e1922] [cursor=pointer]
+          - generic [ref=e1925]:
+            - button "扱う 处理、对待" [ref=e1926] [cursor=pointer]:
+              - generic [ref=e1927]: 扱う
+              - generic [ref=e1928]: 处理、对待
+            - button "我会了" [ref=e1929] [cursor=pointer]
+          - generic [ref=e1932]:
+            - button "補う 补充、弥补" [ref=e1933] [cursor=pointer]:
+              - generic [ref=e1934]: 補う
+              - generic [ref=e1935]: 补充、弥补
+            - button "我会了" [ref=e1936] [cursor=pointer]
+          - generic [ref=e1939]:
+            - button "費やす 花费、耗费" [ref=e1940] [cursor=pointer]:
+              - generic [ref=e1941]: 費やす
+              - generic [ref=e1942]: 花费、耗费
+            - button "我会了" [ref=e1943] [cursor=pointer]
+          - generic [ref=e1946]:
+            - button "促す 促使、催促" [ref=e1947] [cursor=pointer]:
+              - generic [ref=e1948]: 促す
+              - generic [ref=e1949]: 促使、催促
+            - button "我会了" [ref=e1950] [cursor=pointer]
+          - generic [ref=e1953]:
+            - button "見込む 预计、看好" [ref=e1954] [cursor=pointer]:
+              - generic [ref=e1955]: 見込む
+              - generic [ref=e1956]: 预计、看好
+            - button "我会了" [ref=e1957] [cursor=pointer]
+          - generic [ref=e1960]:
+            - button "盛り込む 纳入、加入" [ref=e1961] [cursor=pointer]:
+              - generic [ref=e1962]: 盛り込む
+              - generic [ref=e1963]: 纳入、加入
+            - button "我会了" [ref=e1964] [cursor=pointer]
+          - generic [ref=e1967]:
+            - button "割り振る 分配、分派" [ref=e1968] [cursor=pointer]:
+              - generic [ref=e1969]: 割り振る
+              - generic [ref=e1970]: 分配、分派
+            - button "我会了" [ref=e1971] [cursor=pointer]
+          - generic [ref=e1974]:
+            - button "担う 承担、肩负" [ref=e1975] [cursor=pointer]:
+              - generic [ref=e1976]: 担う
+              - generic [ref=e1977]: 承担、肩负
+            - button "我会了" [ref=e1978] [cursor=pointer]
+          - generic [ref=e1981]:
+            - button "交わす 交换、签订" [ref=e1982] [cursor=pointer]:
+              - generic [ref=e1983]: 交わす
+              - generic [ref=e1984]: 交换、签订
+            - button "我会了" [ref=e1985] [cursor=pointer]
+          - generic [ref=e1988]:
+            - button "結ぶ 缔结、签订" [ref=e1989] [cursor=pointer]:
+              - generic [ref=e1990]: 結ぶ
+              - generic [ref=e1991]: 缔结、签订
+            - button "我会了" [ref=e1992] [cursor=pointer]
+          - generic [ref=e1995]:
+            - button "磨く 磨练、打磨" [ref=e1996] [cursor=pointer]:
+              - generic [ref=e1997]: 磨く
+              - generic [ref=e1998]: 磨练、打磨
+            - button "我会了" [ref=e1999] [cursor=pointer]
+          - generic [ref=e2002]:
+            - button "築く 构筑、建立" [ref=e2003] [cursor=pointer]:
+              - generic [ref=e2004]: 築く
+              - generic [ref=e2005]: 构筑、建立
+            - button "我会了" [ref=e2006] [cursor=pointer]
+          - generic [ref=e2009]:
+            - button "引き受ける 承接、承担" [ref=e2010] [cursor=pointer]:
+              - generic [ref=e2011]: 引き受ける
+              - generic [ref=e2012]: 承接、承担
+            - button "我会了" [ref=e2013] [cursor=pointer]
+          - generic [ref=e2016]:
+            - button "割り当てる 分配、指派" [ref=e2017] [cursor=pointer]:
+              - generic [ref=e2018]: 割り当てる
+              - generic [ref=e2019]: 分配、指派
+            - button "我会了" [ref=e2020] [cursor=pointer]
+          - generic [ref=e2023]:
+            - button "立ち上げる 启动、创办" [ref=e2024] [cursor=pointer]:
+              - generic [ref=e2025]: 立ち上げる
+              - generic [ref=e2026]: 启动、创办
+            - button "我会了" [ref=e2027] [cursor=pointer]
+          - generic [ref=e2030]:
+            - button "仕上げる 完成、做完" [ref=e2031] [cursor=pointer]:
+              - generic [ref=e2032]: 仕上げる
+              - generic [ref=e2033]: 完成、做完
+            - button "我会了" [ref=e2034] [cursor=pointer]
+          - generic [ref=e2037]:
+            - button "差し替える 替换、更换" [ref=e2038] [cursor=pointer]:
+              - generic [ref=e2039]: 差し替える
+              - generic [ref=e2040]: 替换、更换
+            - button "我会了" [ref=e2041] [cursor=pointer]
+          - generic [ref=e2044]:
+            - button "打ち合わせる 商议、碰头" [ref=e2045] [cursor=pointer]:
+              - generic [ref=e2046]: 打ち合わせる
+              - generic [ref=e2047]: 商议、碰头
+            - button "我会了" [ref=e2048] [cursor=pointer]
+          - generic [ref=e2051]:
+            - button "積み上げる 积累、堆积" [ref=e2052] [cursor=pointer]:
+              - generic [ref=e2053]: 積み上げる
+              - generic [ref=e2054]: 积累、堆积
+            - button "我会了" [ref=e2055] [cursor=pointer]
+          - generic [ref=e2058]:
+            - button "埋める 填补、填满" [ref=e2059] [cursor=pointer]:
+              - generic [ref=e2060]: 埋める
+              - generic [ref=e2061]: 填补、填满
+            - button "我会了" [ref=e2062] [cursor=pointer]
+          - generic [ref=e2065]:
+            - button "縮める 缩短、缩小" [ref=e2066] [cursor=pointer]:
+              - generic [ref=e2067]: 縮める
+              - generic [ref=e2068]: 缩短、缩小
+            - button "我会了" [ref=e2069] [cursor=pointer]
+          - generic [ref=e2072]:
+            - button "設ける 设立、设置" [ref=e2073] [cursor=pointer]:
+              - generic [ref=e2074]: 設ける
+              - generic [ref=e2075]: 设立、设置
+            - button "我会了" [ref=e2076] [cursor=pointer]
+          - generic [ref=e2079]:
+            - button "述べる 陈述、叙述" [ref=e2080] [cursor=pointer]:
+              - generic [ref=e2081]: 述べる
+              - generic [ref=e2082]: 陈述、叙述
+            - button "我会了" [ref=e2083] [cursor=pointer]
+          - generic [ref=e2086]:
+            - button "訴える 申诉、诉求" [ref=e2087] [cursor=pointer]:
+              - generic [ref=e2088]: 訴える
+              - generic [ref=e2089]: 申诉、诉求
+            - button "我会了" [ref=e2090] [cursor=pointer]
+          - generic [ref=e2093]:
+            - button "掲げる 揭示、提出" [ref=e2094] [cursor=pointer]:
+              - generic [ref=e2095]: 掲げる
+              - generic [ref=e2096]: 揭示、提出
+            - button "我会了" [ref=e2097] [cursor=pointer]
+          - generic [ref=e2100]:
+            - button "高める 提高、提升" [ref=e2101] [cursor=pointer]:
+              - generic [ref=e2102]: 高める
+              - generic [ref=e2103]: 提高、提升
+            - button "我会了" [ref=e2104] [cursor=pointer]
+          - generic [ref=e2107]:
+            - button "定める 规定、制定" [ref=e2108] [cursor=pointer]:
+              - generic [ref=e2109]: 定める
+              - generic [ref=e2110]: 规定、制定
+            - button "我会了" [ref=e2111] [cursor=pointer]
+          - generic [ref=e2114]:
+            - button "収める 缴纳、取得" [ref=e2115] [cursor=pointer]:
+              - generic [ref=e2116]: 収める
+              - generic [ref=e2117]: 缴纳、取得
+            - button "我会了" [ref=e2118] [cursor=pointer]
+          - generic [ref=e2121]:
+            - button "妨げる 妨碍、阻碍" [ref=e2122] [cursor=pointer]:
+              - generic [ref=e2123]: 妨げる
+              - generic [ref=e2124]: 妨碍、阻碍
+            - button "我会了" [ref=e2125] [cursor=pointer]
+          - generic [ref=e2128]:
+            - button "遂げる 达成、完成" [ref=e2129] [cursor=pointer]:
+              - generic [ref=e2130]: 遂げる
+              - generic [ref=e2131]: 达成、完成
+            - button "我会了" [ref=e2132] [cursor=pointer]
+          - generic [ref=e2135]:
+            - button "鍛える 锻炼、磨炼" [ref=e2136] [cursor=pointer]:
+              - generic [ref=e2137]: 鍛える
+              - generic [ref=e2138]: 锻炼、磨炼
+            - button "我会了" [ref=e2139] [cursor=pointer]
+          - generic [ref=e2142]:
+            - button "蓄える 储备、积蓄" [ref=e2143] [cursor=pointer]:
+              - generic [ref=e2144]: 蓄える
+              - generic [ref=e2145]: 储备、积蓄
+            - button "我会了" [ref=e2146] [cursor=pointer]
+          - generic [ref=e2149]:
+            - button "沸かす 烧开（水）" [ref=e2150] [cursor=pointer]:
+              - generic [ref=e2151]: 沸かす
+              - generic [ref=e2152]: 烧开（水）
+            - button "我会了" [ref=e2153] [cursor=pointer]
+          - generic [ref=e2156]:
+            - button "沸く （水）烧开" [ref=e2157] [cursor=pointer]:
+              - generic [ref=e2158]: 沸く
+              - generic [ref=e2159]: （水）烧开
+            - button "我会了" [ref=e2160] [cursor=pointer]
+          - generic [ref=e2163]:
+            - button "炊く 煮（饭）" [ref=e2164] [cursor=pointer]:
+              - generic [ref=e2165]: 炊く
+              - generic [ref=e2166]: 煮（饭）
+            - button "我会了" [ref=e2167] [cursor=pointer]
+          - generic [ref=e2170]:
+            - button "焼く 烤、烧" [ref=e2171] [cursor=pointer]:
+              - generic [ref=e2172]: 焼く
+              - generic [ref=e2173]: 烤、烧
+            - button "我会了" [ref=e2174] [cursor=pointer]
+          - generic [ref=e2177]:
+            - button "蒸す 蒸" [ref=e2178] [cursor=pointer]:
+              - generic [ref=e2179]: 蒸す
+              - generic [ref=e2180]: 蒸
+            - button "我会了" [ref=e2181] [cursor=pointer]
+          - generic [ref=e2184]:
+            - button "剥く 剥（皮）" [ref=e2185] [cursor=pointer]:
+              - generic [ref=e2186]: 剥く
+              - generic [ref=e2187]: 剥（皮）
+            - button "我会了" [ref=e2188] [cursor=pointer]
+          - generic [ref=e2191]:
+            - button "注ぐ 倒、注入" [ref=e2192] [cursor=pointer]:
+              - generic [ref=e2193]: 注ぐ
+              - generic [ref=e2194]: 倒、注入
+            - button "我会了" [ref=e2195] [cursor=pointer]
+          - generic [ref=e2198]:
+            - button "刻む 切碎" [ref=e2199] [cursor=pointer]:
+              - generic [ref=e2200]: 刻む
+              - generic [ref=e2201]: 切碎
+            - button "我会了" [ref=e2202] [cursor=pointer]
+          - generic [ref=e2205]:
+            - button "潰す 压碎、捣碎" [ref=e2206] [cursor=pointer]:
+              - generic [ref=e2207]: 潰す
+              - generic [ref=e2208]: 压碎、捣碎
+            - button "我会了" [ref=e2209] [cursor=pointer]
+          - generic [ref=e2212]:
+            - button "冷やす 冰镇、冷藏" [ref=e2213] [cursor=pointer]:
+              - generic [ref=e2214]: 冷やす
+              - generic [ref=e2215]: 冰镇、冷藏
+            - button "我会了" [ref=e2216] [cursor=pointer]
+          - generic [ref=e2219]:
+            - button "冷ます 放凉、使冷却" [ref=e2220] [cursor=pointer]:
+              - generic [ref=e2221]: 冷ます
+              - generic [ref=e2222]: 放凉、使冷却
+            - button "我会了" [ref=e2223] [cursor=pointer]
+          - generic [ref=e2226]:
+            - button "盛る 盛（饭菜）" [ref=e2227] [cursor=pointer]:
+              - generic [ref=e2228]: 盛る
+              - generic [ref=e2229]: 盛（饭菜）
+            - button "我会了" [ref=e2230] [cursor=pointer]
+          - generic [ref=e2233]:
+            - button "味わう 品尝" [ref=e2234] [cursor=pointer]:
+              - generic [ref=e2235]: 味わう
+              - generic [ref=e2236]: 品尝
+            - button "我会了" [ref=e2237] [cursor=pointer]
+          - generic [ref=e2240]:
+            - button "拭く 擦、擦拭" [ref=e2241] [cursor=pointer]:
+              - generic [ref=e2242]: 拭く
+              - generic [ref=e2243]: 擦、擦拭
+            - button "我会了" [ref=e2244] [cursor=pointer]
+          - generic [ref=e2247]:
+            - button "掃く 扫" [ref=e2248] [cursor=pointer]:
+              - generic [ref=e2249]: 掃く
+              - generic [ref=e2250]: 扫
+            - button "我会了" [ref=e2251] [cursor=pointer]
+          - generic [ref=e2254]:
+            - button "干す 晾、晒" [ref=e2255] [cursor=pointer]:
+              - generic [ref=e2256]: 干す
+              - generic [ref=e2257]: 晾、晒
+            - button "我会了" [ref=e2258] [cursor=pointer]
+          - generic [ref=e2261]:
+            - button "絞る 拧、挤" [ref=e2262] [cursor=pointer]:
+              - generic [ref=e2263]: 絞る
+              - generic [ref=e2264]: 拧、挤
+            - button "我会了" [ref=e2265] [cursor=pointer]
+          - generic [ref=e2268]:
+            - button "流す 冲、冲洗" [ref=e2269] [cursor=pointer]:
+              - generic [ref=e2270]: 流す
+              - generic [ref=e2271]: 冲、冲洗
+            - button "我会了" [ref=e2272] [cursor=pointer]
+          - generic [ref=e2275]:
+            - button "敷く 铺" [ref=e2276] [cursor=pointer]:
+              - generic [ref=e2277]: 敷く
+              - generic [ref=e2278]: 铺
+            - button "我会了" [ref=e2279] [cursor=pointer]
+          - generic [ref=e2282]:
+            - button "履く 穿（鞋、裤）" [ref=e2283] [cursor=pointer]:
+              - generic [ref=e2284]: 履く
+              - generic [ref=e2285]: 穿（鞋、裤）
+            - button "我会了" [ref=e2286] [cursor=pointer]
+          - generic [ref=e2289]:
+            - button "脱ぐ 脱（衣、鞋）" [ref=e2290] [cursor=pointer]:
+              - generic [ref=e2291]: 脱ぐ
+              - generic [ref=e2292]: 脱（衣、鞋）
+            - button "我会了" [ref=e2293] [cursor=pointer]
+          - generic [ref=e2296]:
+            - button "畳む 叠（衣被）" [ref=e2297] [cursor=pointer]:
+              - generic [ref=e2298]: 畳む
+              - generic [ref=e2299]: 叠（衣被）
+            - button "我会了" [ref=e2300] [cursor=pointer]
+          - generic [ref=e2303]:
+            - button "縫う 缝" [ref=e2304] [cursor=pointer]:
+              - generic [ref=e2305]: 縫う
+              - generic [ref=e2306]: 缝
+            - button "我会了" [ref=e2307] [cursor=pointer]
+          - generic [ref=e2310]:
+            - button "包む 包" [ref=e2311] [cursor=pointer]:
+              - generic [ref=e2312]: 包む
+              - generic [ref=e2313]: 包
+            - button "我会了" [ref=e2314] [cursor=pointer]
+          - generic [ref=e2317]:
+            - button "消す 关（灯）、消除" [ref=e2318] [cursor=pointer]:
+              - generic [ref=e2319]: 消す
+              - generic [ref=e2320]: 关（灯）、消除
+            - button "我会了" [ref=e2321] [cursor=pointer]
+          - generic [ref=e2324]:
+            - button "積む 堆、装载" [ref=e2325] [cursor=pointer]:
+              - generic [ref=e2326]: 積む
+              - generic [ref=e2327]: 堆、装载
+            - button "我会了" [ref=e2328] [cursor=pointer]
+          - generic [ref=e2331]:
+            - button "挟む 夹" [ref=e2332] [cursor=pointer]:
+              - generic [ref=e2333]: 挟む
+              - generic [ref=e2334]: 夹
+            - button "我会了" [ref=e2335] [cursor=pointer]
+          - generic [ref=e2338]:
+            - button "剃る 剃" [ref=e2339] [cursor=pointer]:
+              - generic [ref=e2340]: 剃る
+              - generic [ref=e2341]: 剃
+            - button "我会了" [ref=e2342] [cursor=pointer]
+          - generic [ref=e2345]:
+            - button "掻く 挠、搔" [ref=e2346] [cursor=pointer]:
+              - generic [ref=e2347]: 掻く
+              - generic [ref=e2348]: 挠、搔
+            - button "我会了" [ref=e2349] [cursor=pointer]
+          - generic [ref=e2352]:
+            - button "摘む 摘、捏" [ref=e2353] [cursor=pointer]:
+              - generic [ref=e2354]: 摘む
+              - generic [ref=e2355]: 摘、捏
+            - button "我会了" [ref=e2356] [cursor=pointer]
+          - generic [ref=e2359]:
+            - button "握る 握、捏（饭团）" [ref=e2360] [cursor=pointer]:
+              - generic [ref=e2361]: 握る
+              - generic [ref=e2362]: 握、捏（饭团）
+            - button "我会了" [ref=e2363] [cursor=pointer]
+          - generic [ref=e2366]:
+            - button "揉む 揉、按摩" [ref=e2367] [cursor=pointer]:
+              - generic [ref=e2368]: 揉む
+              - generic [ref=e2369]: 揉、按摩
+            - button "我会了" [ref=e2370] [cursor=pointer]
+          - generic [ref=e2373]:
+            - button "嗅ぐ 闻、嗅" [ref=e2374] [cursor=pointer]:
+              - generic [ref=e2375]: 嗅ぐ
+              - generic [ref=e2376]: 闻、嗅
+            - button "我会了" [ref=e2377] [cursor=pointer]
+          - generic [ref=e2380]:
+            - button "吸う 吸" [ref=e2381] [cursor=pointer]:
+              - generic [ref=e2382]: 吸う
+              - generic [ref=e2383]: 吸
+            - button "我会了" [ref=e2384] [cursor=pointer]
+          - generic [ref=e2387]:
+            - button "測る 测量" [ref=e2388] [cursor=pointer]:
+              - generic [ref=e2389]: 測る
+              - generic [ref=e2390]: 测量
+            - button "我会了" [ref=e2391] [cursor=pointer]
+          - generic [ref=e2394]:
+            - button "溶かす 溶化、融化" [ref=e2395] [cursor=pointer]:
+              - generic [ref=e2396]: 溶かす
+              - generic [ref=e2397]: 溶化、融化
+            - button "我会了" [ref=e2398] [cursor=pointer]
+          - generic [ref=e2401]:
+            - button "溶く 打散（蛋）、化开" [ref=e2402] [cursor=pointer]:
+              - generic [ref=e2403]: 溶く
+              - generic [ref=e2404]: 打散（蛋）、化开
+            - button "我会了" [ref=e2405] [cursor=pointer]
+          - generic [ref=e2408]:
+            - button "混ぜる 搅拌、混合" [ref=e2409] [cursor=pointer]:
+              - generic [ref=e2410]: 混ぜる
+              - generic [ref=e2411]: 搅拌、混合
+            - button "我会了" [ref=e2412] [cursor=pointer]
+          - generic [ref=e2415]:
+            - button "茹でる 水煮、焯" [ref=e2416] [cursor=pointer]:
+              - generic [ref=e2417]: 茹でる
+              - generic [ref=e2418]: 水煮、焯
+            - button "我会了" [ref=e2419] [cursor=pointer]
+          - generic [ref=e2422]:
+            - button "煮る 炖、煮" [ref=e2423] [cursor=pointer]:
+              - generic [ref=e2424]: 煮る
+              - generic [ref=e2425]: 炖、煮
+            - button "我会了" [ref=e2426] [cursor=pointer]
+          - generic [ref=e2429]:
+            - button "冷める 变凉、冷掉" [ref=e2430] [cursor=pointer]:
+              - generic [ref=e2431]: 冷める
+              - generic [ref=e2432]: 变凉、冷掉
+            - button "我会了" [ref=e2433] [cursor=pointer]
+          - generic [ref=e2436]:
+            - button "見える 看得见、能看到" [ref=e2437] [cursor=pointer]:
+              - generic [ref=e2438]: 見える
+              - generic [ref=e2439]: 看得见、能看到
+            - button "我会了" [ref=e2440] [cursor=pointer]
+          - generic [ref=e2443]:
+            - button "聞こえる 听得见、能听到" [ref=e2444] [cursor=pointer]:
+              - generic [ref=e2445]: 聞こえる
+              - generic [ref=e2446]: 听得见、能听到
+            - button "我会了" [ref=e2447] [cursor=pointer]
+          - generic [ref=e2450]:
+            - button "疲れる 累、疲惫" [ref=e2451] [cursor=pointer]:
+              - generic [ref=e2452]: 疲れる
+              - generic [ref=e2453]: 累、疲惫
+            - button "我会了" [ref=e2454] [cursor=pointer]
+          - generic [ref=e2457]:
+            - button "痩せる 变瘦、瘦下来" [ref=e2458] [cursor=pointer]:
+              - generic [ref=e2459]: 痩せる
+              - generic [ref=e2460]: 变瘦、瘦下来
+            - button "我会了" [ref=e2461] [cursor=pointer]
+          - generic [ref=e2464]:
+            - button "濡れる 淋湿、湿掉" [ref=e2465] [cursor=pointer]:
+              - generic [ref=e2466]: 濡れる
+              - generic [ref=e2467]: 淋湿、湿掉
+            - button "我会了" [ref=e2468] [cursor=pointer]
+          - generic [ref=e2471]:
+            - button "伸びる 伸长、变长（面坨）" [ref=e2472] [cursor=pointer]:
+              - generic [ref=e2473]: 伸びる
+              - generic [ref=e2474]: 伸长、变长（面坨）
+            - button "我会了" [ref=e2475] [cursor=pointer]
+          - generic [ref=e2478]:
+            - button "溶ける 融化、溶解" [ref=e2479] [cursor=pointer]:
+              - generic [ref=e2480]: 溶ける
+              - generic [ref=e2481]: 融化、溶解
+            - button "我会了" [ref=e2482] [cursor=pointer]
+          - generic [ref=e2485]:
+            - button "崩れる 崩塌、（天气）变坏" [ref=e2486] [cursor=pointer]:
+              - generic [ref=e2487]: 崩れる
+              - generic [ref=e2488]: 崩塌、（天气）变坏
+            - button "我会了" [ref=e2489] [cursor=pointer]
+          - generic [ref=e2492]:
+            - button "汚れる 变脏、弄脏" [ref=e2493] [cursor=pointer]:
+              - generic [ref=e2494]: 汚れる
+              - generic [ref=e2495]: 变脏、弄脏
+            - button "我会了" [ref=e2496] [cursor=pointer]
+          - generic [ref=e2499]:
+            - button "破れる 破、破裂" [ref=e2500] [cursor=pointer]:
+              - generic [ref=e2501]: 破れる
+              - generic [ref=e2502]: 破、破裂
+            - button "我会了" [ref=e2503] [cursor=pointer]
+          - generic [ref=e2506]:
+            - button "割れる 碎、裂开" [ref=e2507] [cursor=pointer]:
+              - generic [ref=e2508]: 割れる
+              - generic [ref=e2509]: 碎、裂开
+            - button "我会了" [ref=e2510] [cursor=pointer]
+          - generic [ref=e2513]:
+            - button "折れる 折断、断掉" [ref=e2514] [cursor=pointer]:
+              - generic [ref=e2515]: 折れる
+              - generic [ref=e2516]: 折断、断掉
+            - button "我会了" [ref=e2517] [cursor=pointer]
+          - generic [ref=e2520]:
+            - button "抜ける 脱落、（气）漏掉" [ref=e2521] [cursor=pointer]:
+              - generic [ref=e2522]: 抜ける
+              - generic [ref=e2523]: 脱落、（气）漏掉
+            - button "我会了" [ref=e2524] [cursor=pointer]
+          - generic [ref=e2527]:
+            - button "詰める 塞满、装填" [ref=e2528] [cursor=pointer]:
+              - generic [ref=e2529]: 詰める
+              - generic [ref=e2530]: 塞满、装填
+            - button "我会了" [ref=e2531] [cursor=pointer]
+          - generic [ref=e2534]:
+            - button "掛ける 挂、悬挂" [ref=e2535] [cursor=pointer]:
+              - generic [ref=e2536]: 掛ける
+              - generic [ref=e2537]: 挂、悬挂
+            - button "我会了" [ref=e2538] [cursor=pointer]
+          - generic [ref=e2541]:
+            - button "焦げる 烤焦、烧焦" [ref=e2542] [cursor=pointer]:
+              - generic [ref=e2543]: 焦げる
+              - generic [ref=e2544]: 烤焦、烧焦
+            - button "我会了" [ref=e2545] [cursor=pointer]
+          - generic [ref=e2548]:
+            - button "冷える 变冷、着凉" [ref=e2549] [cursor=pointer]:
+              - generic [ref=e2550]: 冷える
+              - generic [ref=e2551]: 变冷、着凉
+            - button "我会了" [ref=e2552] [cursor=pointer]
+          - generic [ref=e2555]:
+            - button "焼ける 烤好、烧着" [ref=e2556] [cursor=pointer]:
+              - generic [ref=e2557]: 焼ける
+              - generic [ref=e2558]: 烤好、烧着
+            - button "我会了" [ref=e2559] [cursor=pointer]
+          - generic [ref=e2562]:
+            - button "曲げる 弄弯、弯曲" [ref=e2563] [cursor=pointer]:
+              - generic [ref=e2564]: 曲げる
+              - generic [ref=e2565]: 弄弯、弯曲
+            - button "我会了" [ref=e2566] [cursor=pointer]
+          - generic [ref=e2569]:
+            - button "貯める 存、攒（钱）" [ref=e2570] [cursor=pointer]:
+              - generic [ref=e2571]: 貯める
+              - generic [ref=e2572]: 存、攒（钱）
+            - button "我会了" [ref=e2573] [cursor=pointer]
+          - generic [ref=e2576]:
+            - button "慌てる 慌张、着急" [ref=e2577] [cursor=pointer]:
+              - generic [ref=e2578]: 慌てる
+              - generic [ref=e2579]: 慌张、着急
+            - button "我会了" [ref=e2580] [cursor=pointer]
+          - generic [ref=e2583]:
+            - button "別れる 分别、分手" [ref=e2584] [cursor=pointer]:
+              - generic [ref=e2585]: 別れる
+              - generic [ref=e2586]: 分别、分手
+            - button "我会了" [ref=e2587] [cursor=pointer]
+          - generic [ref=e2590]:
+            - button "生まれる 出生、诞生" [ref=e2591] [cursor=pointer]:
+              - generic [ref=e2592]: 生まれる
+              - generic [ref=e2593]: 出生、诞生
+            - button "我会了" [ref=e2594] [cursor=pointer]
+          - generic [ref=e2597]:
+            - button "増える 增加、增多" [ref=e2598] [cursor=pointer]:
+              - generic [ref=e2599]: 増える
+              - generic [ref=e2600]: 增加、增多
+            - button "我会了" [ref=e2601] [cursor=pointer]
+          - generic [ref=e2604]:
+            - button "現れる 出现、显现" [ref=e2605] [cursor=pointer]:
+              - generic [ref=e2606]: 現れる
+              - generic [ref=e2607]: 出现、显现
+            - button "我会了" [ref=e2608] [cursor=pointer]
+          - generic [ref=e2611]:
+            - button "晴れる 放晴、天晴" [ref=e2612] [cursor=pointer]:
+              - generic [ref=e2613]: 晴れる
+              - generic [ref=e2614]: 放晴、天晴
+            - button "我会了" [ref=e2615] [cursor=pointer]
+          - generic [ref=e2618]:
+            - button "隠れる 躲藏、隐藏" [ref=e2619] [cursor=pointer]:
+              - generic [ref=e2620]: 隠れる
+              - generic [ref=e2621]: 躲藏、隐藏
+            - button "我会了" [ref=e2622] [cursor=pointer]
+          - generic [ref=e2625]:
+            - button "離れる 离开、分离" [ref=e2626] [cursor=pointer]:
+              - generic [ref=e2627]: 離れる
+              - generic [ref=e2628]: 离开、分离
+            - button "我会了" [ref=e2629] [cursor=pointer]
+          - generic [ref=e2632]:
+            - button "揺れる 摇晃、晃动" [ref=e2633] [cursor=pointer]:
+              - generic [ref=e2634]: 揺れる
+              - generic [ref=e2635]: 摇晃、晃动
+            - button "我会了" [ref=e2636] [cursor=pointer]
+          - generic [ref=e2639]:
+            - button "流れる 流动、流淌" [ref=e2640] [cursor=pointer]:
+              - generic [ref=e2641]: 流れる
+              - generic [ref=e2642]: 流动、流淌
+            - button "我会了" [ref=e2643] [cursor=pointer]
+          - generic [ref=e2646]:
+            - button "燃える 燃烧、着火" [ref=e2647] [cursor=pointer]:
+              - generic [ref=e2648]: 燃える
+              - generic [ref=e2649]: 燃烧、着火
+            - button "我会了" [ref=e2650] [cursor=pointer]
+          - generic [ref=e2653]:
+            - button "落ちる 掉落、落下" [ref=e2654] [cursor=pointer]:
+              - generic [ref=e2655]: 落ちる
+              - generic [ref=e2656]: 掉落、落下
+            - button "我会了" [ref=e2657] [cursor=pointer]
+          - generic [ref=e2660]:
+            - button "過ぎる 经过、（时间）流逝" [ref=e2661] [cursor=pointer]:
+              - generic [ref=e2662]: 過ぎる
+              - generic [ref=e2663]: 经过、（时间）流逝
+            - button "我会了" [ref=e2664] [cursor=pointer]
+          - generic [ref=e2667]:
+            - button "感じる 感觉、感受到" [ref=e2668] [cursor=pointer]:
+              - generic [ref=e2669]: 感じる
+              - generic [ref=e2670]: 感觉、感受到
+            - button "我会了" [ref=e2671] [cursor=pointer]
+          - generic [ref=e2674]:
+            - button "見せる 给看、出示" [ref=e2675] [cursor=pointer]:
+              - generic [ref=e2676]: 見せる
+              - generic [ref=e2677]: 给看、出示
+            - button "我会了" [ref=e2678] [cursor=pointer]
+          - generic [ref=e2681]:
+            - button "生える 长出、生长" [ref=e2682] [cursor=pointer]:
+              - generic [ref=e2683]: 生える
+              - generic [ref=e2684]: 长出、生长
+            - button "我会了" [ref=e2685] [cursor=pointer]
+          - generic [ref=e2688]:
+            - button "帰宅する 回家" [ref=e2689] [cursor=pointer]:
+              - generic [ref=e2690]: 帰宅する
+              - generic [ref=e2691]: 回家
+            - button "我会了" [ref=e2692] [cursor=pointer]
+          - generic [ref=e2695]:
+            - button "出発する 出发" [ref=e2696] [cursor=pointer]:
+              - generic [ref=e2697]: 出発する
+              - generic [ref=e2698]: 出发
+            - button "我会了" [ref=e2699] [cursor=pointer]
+          - generic [ref=e2702]:
+            - button "到着する 到达" [ref=e2703] [cursor=pointer]:
+              - generic [ref=e2704]: 到着する
+              - generic [ref=e2705]: 到达
+            - button "我会了" [ref=e2706] [cursor=pointer]
+          - generic [ref=e2709]:
+            - button "外食する 在外面吃饭" [ref=e2710] [cursor=pointer]:
+              - generic [ref=e2711]: 外食する
+              - generic [ref=e2712]: 在外面吃饭
+            - button "我会了" [ref=e2713] [cursor=pointer]
+          - generic [ref=e2716]:
+            - button "洗顔する 洗脸" [ref=e2717] [cursor=pointer]:
+              - generic [ref=e2718]: 洗顔する
+              - generic [ref=e2719]: 洗脸
+            - button "我会了" [ref=e2720] [cursor=pointer]
+          - generic [ref=e2723]:
+            - button "化粧する 化妆" [ref=e2724] [cursor=pointer]:
+              - generic [ref=e2725]: 化粧する
+              - generic [ref=e2726]: 化妆
+            - button "我会了" [ref=e2727] [cursor=pointer]
+          - generic [ref=e2730]:
+            - button "入浴する 洗澡" [ref=e2731] [cursor=pointer]:
+              - generic [ref=e2732]: 入浴する
+              - generic [ref=e2733]: 洗澡
+            - button "我会了" [ref=e2734] [cursor=pointer]
+          - generic [ref=e2737]:
+            - button "充電する 充电" [ref=e2738] [cursor=pointer]:
+              - generic [ref=e2739]: 充電する
+              - generic [ref=e2740]: 充电
+            - button "我会了" [ref=e2741] [cursor=pointer]
+          - generic [ref=e2744]:
+            - button "節約する 节约" [ref=e2745] [cursor=pointer]:
+              - generic [ref=e2746]: 節約する
+              - generic [ref=e2747]: 节约
+            - button "我会了" [ref=e2748] [cursor=pointer]
+          - generic [ref=e2751]:
+            - button "貯金する 存钱" [ref=e2752] [cursor=pointer]:
+              - generic [ref=e2753]: 貯金する
+              - generic [ref=e2754]: 存钱
+            - button "我会了" [ref=e2755] [cursor=pointer]
+          - generic [ref=e2758]:
+            - button "運転する 开车" [ref=e2759] [cursor=pointer]:
+              - generic [ref=e2760]: 運転する
+              - generic [ref=e2761]: 开车
+            - button "我会了" [ref=e2762] [cursor=pointer]
+          - generic [ref=e2765]:
+            - button "通勤する 通勤上班" [ref=e2766] [cursor=pointer]:
+              - generic [ref=e2767]: 通勤する
+              - generic [ref=e2768]: 通勤上班
+            - button "我会了" [ref=e2769] [cursor=pointer]
+          - generic [ref=e2772]:
+            - button "通学する 上学" [ref=e2773] [cursor=pointer]:
+              - generic [ref=e2774]: 通学する
+              - generic [ref=e2775]: 上学
+            - button "我会了" [ref=e2776] [cursor=pointer]
+          - generic [ref=e2779]:
+            - button "検索する 搜索" [ref=e2780] [cursor=pointer]:
+              - generic [ref=e2781]: 検索する
+              - generic [ref=e2782]: 搜索
+            - button "我会了" [ref=e2783] [cursor=pointer]
+          - generic [ref=e2786]:
+            - button "解約する 解约、取消合同" [ref=e2787] [cursor=pointer]:
+              - generic [ref=e2788]: 解約する
+              - generic [ref=e2789]: 解约、取消合同
+            - button "我会了" [ref=e2790] [cursor=pointer]
+          - generic [ref=e2793]:
+            - button "予習する 预习" [ref=e2794] [cursor=pointer]:
+              - generic [ref=e2795]: 予習する
+              - generic [ref=e2796]: 预习
+            - button "我会了" [ref=e2797] [cursor=pointer]
+          - generic [ref=e2800]:
+            - button "復習する 复习" [ref=e2801] [cursor=pointer]:
+              - generic [ref=e2802]: 復習する
+              - generic [ref=e2803]: 复习
+            - button "我会了" [ref=e2804] [cursor=pointer]
+          - generic [ref=e2807]:
+            - button "我慢する 忍耐" [ref=e2808] [cursor=pointer]:
+              - generic [ref=e2809]: 我慢する
+              - generic [ref=e2810]: 忍耐
+            - button "我会了" [ref=e2811] [cursor=pointer]
+          - generic [ref=e2814]:
+            - button "感謝する 感谢" [ref=e2815] [cursor=pointer]:
+              - generic [ref=e2816]: 感謝する
+              - generic [ref=e2817]: 感谢
+            - button "我会了" [ref=e2818] [cursor=pointer]
+          - generic [ref=e2821]:
+            - button "緊張する 紧张" [ref=e2822] [cursor=pointer]:
+              - generic [ref=e2823]: 緊張する
+              - generic [ref=e2824]: 紧张
+            - button "我会了" [ref=e2825] [cursor=pointer]
+          - generic [ref=e2828]:
+            - button "集中する 集中精力" [ref=e2829] [cursor=pointer]:
+              - generic [ref=e2830]: 集中する
+              - generic [ref=e2831]: 集中精力
+            - button "我会了" [ref=e2832] [cursor=pointer]
+          - generic [ref=e2835]:
+            - button "起床する 起床" [ref=e2836] [cursor=pointer]:
+              - generic [ref=e2837]: 起床する
+              - generic [ref=e2838]: 起床
+            - button "我会了" [ref=e2839] [cursor=pointer]
+          - generic [ref=e2842]:
+            - button "移動する 移动、前往" [ref=e2843] [cursor=pointer]:
+              - generic [ref=e2844]: 移動する
+              - generic [ref=e2845]: 移动、前往
+            - button "我会了" [ref=e2846] [cursor=pointer]
+          - generic [ref=e2849]:
+            - button "昼寝する 午睡" [ref=e2850] [cursor=pointer]:
+              - generic [ref=e2851]: 昼寝する
+              - generic [ref=e2852]: 午睡
+            - button "我会了" [ref=e2853] [cursor=pointer]
+          - generic [ref=e2856]:
+            - button "発送する 寄出、发货" [ref=e2857] [cursor=pointer]:
+              - generic [ref=e2858]: 発送する
+              - generic [ref=e2859]: 寄出、发货
+            - button "我会了" [ref=e2860] [cursor=pointer]
+          - generic [ref=e2863]:
+            - button "配達する 配送、投递" [ref=e2864] [cursor=pointer]:
+              - generic [ref=e2865]: 配達する
+              - generic [ref=e2866]: 配送、投递
+            - button "我会了" [ref=e2867] [cursor=pointer]
+          - generic [ref=e2870]:
+            - button "返却する 归还" [ref=e2871] [cursor=pointer]:
+              - generic [ref=e2872]: 返却する
+              - generic [ref=e2873]: 归还
+            - button "我会了" [ref=e2874] [cursor=pointer]
+          - generic [ref=e2877]:
+            - button "修理する 修理" [ref=e2878] [cursor=pointer]:
+              - generic [ref=e2879]: 修理する
+              - generic [ref=e2880]: 修理
+            - button "我会了" [ref=e2881] [cursor=pointer]
+          - generic [ref=e2884]:
+            - button "電話する 打电话" [ref=e2885] [cursor=pointer]:
+              - generic [ref=e2886]: 電話する
+              - generic [ref=e2887]: 打电话
+            - button "我会了" [ref=e2888] [cursor=pointer]
+          - generic [ref=e2891]:
+            - button "食事する 吃饭、用餐" [ref=e2892] [cursor=pointer]:
+              - generic [ref=e2893]: 食事する
+              - generic [ref=e2894]: 吃饭、用餐
+            - button "我会了" [ref=e2895] [cursor=pointer]
+          - generic [ref=e2898]:
+            - button "招待する 邀请" [ref=e2899] [cursor=pointer]:
+              - generic [ref=e2900]: 招待する
+              - generic [ref=e2901]: 邀请
+            - button "我会了" [ref=e2902] [cursor=pointer]
+          - generic [ref=e2905]:
+            - button "挨拶する 打招呼、寒暄" [ref=e2906] [cursor=pointer]:
+              - generic [ref=e2907]: 挨拶する
+              - generic [ref=e2908]: 打招呼、寒暄
+            - button "我会了" [ref=e2909] [cursor=pointer]
+          - generic [ref=e2912]:
+            - button "就職する 就职、找到工作" [ref=e2913] [cursor=pointer]:
+              - generic [ref=e2914]: 就職する
+              - generic [ref=e2915]: 就职、找到工作
+            - button "我会了" [ref=e2916] [cursor=pointer]
+          - generic [ref=e2919]:
+            - button "諦める 放弃、死心" [ref=e2920] [cursor=pointer]:
+              - generic [ref=e2921]: 諦める
+              - generic [ref=e2922]: 放弃、死心
+            - button "我会了" [ref=e2923] [cursor=pointer]
+          - generic [ref=e2926]:
+            - button "悩む 烦恼、苦恼" [ref=e2927] [cursor=pointer]:
+              - generic [ref=e2928]: 悩む
+              - generic [ref=e2929]: 烦恼、苦恼
+            - button "我会了" [ref=e2930] [cursor=pointer]
+          - generic [ref=e2933]:
+            - button "迷う 迷茫、犹豫" [ref=e2934] [cursor=pointer]:
+              - generic [ref=e2935]: 迷う
+              - generic [ref=e2936]: 迷茫、犹豫
+            - button "我会了" [ref=e2937] [cursor=pointer]
+          - generic [ref=e2940]:
+            - button "手渡す 当面交付、亲手递交" [ref=e2941] [cursor=pointer]:
+              - generic [ref=e2942]: 手渡す
+              - generic [ref=e2943]: 当面交付、亲手递交
+            - button "我会了" [ref=e2944] [cursor=pointer]
+          - generic [ref=e2947]:
+            - button "見送る 目送、暂缓、放弃（这次）" [ref=e2948] [cursor=pointer]:
+              - generic [ref=e2949]: 見送る
+              - generic [ref=e2950]: 目送、暂缓、放弃（这次）
+            - button "我会了" [ref=e2951] [cursor=pointer]
+          - generic [ref=e2954]:
+            - button "受け入れる 接受、接纳" [ref=e2955] [cursor=pointer]:
+              - generic [ref=e2956]: 受け入れる
+              - generic [ref=e2957]: 接受、接纳
+            - button "我会了" [ref=e2958] [cursor=pointer]
+          - generic [ref=e2961]:
+            - button "落ち着く 冷静、安定下来" [ref=e2962] [cursor=pointer]:
+              - generic [ref=e2963]: 落ち着く
+              - generic [ref=e2964]: 冷静、安定下来
+            - button "我会了" [ref=e2965] [cursor=pointer]
+          - generic [ref=e2968]:
+            - button "話し合う 商量、协商" [ref=e2969] [cursor=pointer]:
+              - generic [ref=e2970]: 話し合う
+              - generic [ref=e2971]: 商量、协商
+            - button "我会了" [ref=e2972] [cursor=pointer]
+          - generic [ref=e2975]:
+            - button "取り消す 取消、撤销" [ref=e2976] [cursor=pointer]:
+              - generic [ref=e2977]: 取り消す
+              - generic [ref=e2978]: 取消、撤销
+            - button "我会了" [ref=e2979] [cursor=pointer]
+          - generic [ref=e2982]:
+            - button "引っ張る 拉、拽" [ref=e2983] [cursor=pointer]:
+              - generic [ref=e2984]: 引っ張る
+              - generic [ref=e2985]: 拉、拽
+            - button "我会了" [ref=e2986] [cursor=pointer]
+    - generic [ref=e2990]:
+      - generic [ref=e2991]:
+        - generic [ref=e2992]: 書く
+        - generic [ref=e2993]: →
+        - generic [ref=e2994]: 受身形
+        - generic [ref=e2995]: 一类动词
+      - generic [ref=e2996]:
+        - paragraph [ref=e2997]:
+          - generic [ref=e2998]:
+            - generic [ref=e2999]:
+              - generic [ref=e3000]: ほうこくしょ
+              - generic [ref=e3001]: 報告書
+            - generic [ref=e3002]: は
+            - generic [ref=e3004]:
+              - generic [ref=e3005]: ぶちょう
+              - generic [ref=e3006]: 部長
+            - generic [ref=e3007]: に
+            - generic [ref=e3009]:
+              - generic [ref=e3010]: か
+              - generic [ref=e3011]: 書
+            - generic [ref=e3012]: かれました。
+        - paragraph [ref=e3014]: 报告由部长撰写了。
+        - generic [ref=e3015]:
+          - generic [ref=e3016]: 職場
+          - generic [ref=e3017]: 丁寧
+      - generic [ref=e3019]:
+        - paragraph [ref=e3020]: 書かれる
+        - paragraph [ref=e3021]: 被写；也可表示受到动作影响（迷惑受身）
+        - paragraph [ref=e3022]: 一类：語幹 + あ段 + れる（書く → 書か + れる）
+    - generic [ref=e3023]:
+      - generic [ref=e3049]:
+        - button "前のカード" [ref=e3050] [cursor=pointer]
+        - button "朗読" [ref=e3053] [cursor=pointer]
+        - button "一時停止" [ref=e3058] [cursor=pointer]
+        - button "次のカード" [ref=e3062] [cursor=pointer]
+      - generic [ref=e3065]: 1 / 1780
+  - status [ref=e3066]:
+    - generic [ref=e3071]:
+      - text: Static route
+      - button "Hide static indicator" [ref=e3072] [cursor=pointer]
+  - alert [ref=e3076]

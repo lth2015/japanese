@@ -63,7 +63,7 @@ pnpm install
 pnpm db:push        # 创建 SQLite schema（./data/app.db）
 pnpm db:seed        # 灌入 seed 内容
 pnpm corpus:import  # 导入 corpus/packs/ 里全部 pack
-pnpm dev            # http://localhost:3000
+pnpm dev            # http://localhost:12345
 ```
 
 > 首次装 pnpm 11+ 时，若提示 `pnpm approve-builds`，运行一次并放行 `better-sqlite3 / @biomejs/biome / esbuild / sharp`。
@@ -165,7 +165,7 @@ pnpm install
 pnpm db:push        # create SQLite schema (./data/app.db)
 pnpm db:seed        # load seed content
 pnpm corpus:import  # import all packs in corpus/packs/
-pnpm dev            # http://localhost:3000
+pnpm dev            # http://localhost:12345
 ```
 
 > On first install with pnpm 11+, if prompted `pnpm approve-builds`, run it once and approve `better-sqlite3 / @biomejs/biome / esbuild / sharp`.
@@ -267,7 +267,7 @@ pnpm install
 pnpm db:push        # SQLite スキーマを作成（./data/app.db）
 pnpm db:seed        # シードコンテンツを投入
 pnpm corpus:import  # corpus/packs/ の全パックをインポート
-pnpm dev            # http://localhost:3000
+pnpm dev            # http://localhost:12345
 ```
 
 > pnpm 11+ の初回インストールで `pnpm approve-builds` を促された場合、一度実行して `better-sqlite3 / @biomejs/biome / esbuild / sharp` を承認してください。

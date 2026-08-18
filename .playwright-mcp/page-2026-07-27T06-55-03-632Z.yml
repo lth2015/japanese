@@ -1,0 +1,18 @@
+- main [ref=e2]:
+  - generic [ref=e3]:
+    - button "キーボードショートカット" [ref=e4] [cursor=pointer]
+    - button "Display 设置" [ref=e7] [cursor=pointer]
+    - link "退出" [ref=e11] [cursor=pointer]:
+      - /url: /
+  - generic [ref=e13]:
+    - paragraph [ref=e14]:
+      - generic [ref=e16]:
+        - text: ポイント使います。
+        - generic [ref=e17]: ぽいんとつかいます
+    - paragraph [ref=e18]: 我用积分。
+  - generic [ref=e19]:
+    - generic [ref=e45]:
+      - button "上一句" [ref=e46] [cursor=pointer]
+      - button "暂停" [ref=e49] [cursor=pointer]
+      - button "下一句" [ref=e53] [cursor=pointer]
+    - generic [ref=e56]: 1 / 1622

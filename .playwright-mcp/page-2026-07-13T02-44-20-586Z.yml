@@ -1,0 +1,211 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - complementary [ref=e3]:
+      - link "日 Nihongo Studio Speaking trainer" [ref=e5] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e6]: 日
+        - generic [ref=e8]:
+          - paragraph [ref=e9]: Nihongo Studio
+          - paragraph [ref=e10]: Speaking trainer
+      - navigation [ref=e11]:
+        - link "总览" [ref=e13] [cursor=pointer]:
+          - /url: /
+        - generic [ref=e18]:
+          - paragraph [ref=e19]: 训练
+          - link "写作 Drill Stage 2" [ref=e20] [cursor=pointer]:
+            - /url: /drill
+            - generic [ref=e24]: 写作 Drill
+            - generic [ref=e25]: Stage 2
+          - link "音読 Stage 2.5" [ref=e26] [cursor=pointer]:
+            - /url: /read-aloud
+            - generic [ref=e31]: 音読
+            - generic [ref=e32]: Stage 2.5
+          - link "听写 Stage 3" [ref=e33] [cursor=pointer]:
+            - /url: /listen-write
+            - generic [ref=e36]: 听写
+            - generic [ref=e37]: Stage 3
+          - link "Quick-Fire Stage 4" [ref=e38] [cursor=pointer]:
+            - /url: /quick-fire
+            - generic [ref=e41]: Quick-Fire
+            - generic [ref=e42]: Stage 4
+          - link "口语训练 口语" [ref=e43] [cursor=pointer]:
+            - /url: /learning
+            - generic [ref=e47]: 口语训练
+            - generic [ref=e48]: 口语
+        - generic [ref=e49]:
+          - paragraph [ref=e50]: 资源
+          - link "短文" [ref=e51] [cursor=pointer]:
+            - /url: /passages
+          - link "情景对话" [ref=e56] [cursor=pointer]:
+            - /url: /dialogues
+          - link "场景库" [ref=e60] [cursor=pointer]:
+            - /url: /library
+          - link "Display" [ref=e64] [cursor=pointer]:
+            - /url: /display
+          - link "動詞変形 变形练习" [ref=e69] [cursor=pointer]:
+            - /url: /verbs
+            - generic [ref=e73]: 動詞変形
+            - generic [ref=e74]: 变形练习
+        - generic [ref=e75]:
+          - paragraph [ref=e76]: 即将上线
+          - link "AI 对话 soon":
+            - /url: /talk
+            - generic: AI 对话
+            - generic: soon
+      - link "设置" [ref=e78] [cursor=pointer]:
+        - /url: /settings
+    - main [ref=e83]:
+      - generic [ref=e84]:
+        - generic [ref=e85]:
+          - generic [ref=e87]:
+            - generic [ref=e88]:
+              - generic [ref=e89]:
+                - paragraph [ref=e90]: おかえりなさい
+                - generic [ref=e93]:
+                  - heading "今天，把一句日语练到能脱口而出。" [level=1] [ref=e94]
+                  - paragraph [ref=e95]: 用短句、场景、听写和快速开口，把“能读懂”逐步推进到“能在会议里自然说出来”。
+              - generic [ref=e96]:
+                - link "开始训练" [ref=e97] [cursor=pointer]:
+                  - /url: /drill
+                - link "Quick-Fire" [ref=e100] [cursor=pointer]:
+                  - /url: /quick-fire
+            - generic [ref=e104]:
+              - generic [ref=e105]:
+                - paragraph [ref=e106]: 语料
+                - paragraph [ref=e107]: "1422"
+                - paragraph [ref=e108]: 83 预置 / 1339 自建
+              - generic [ref=e109]:
+                - paragraph [ref=e110]: 到期复习
+                - paragraph [ref=e111]: "5"
+                - paragraph [ref=e112]: 今日优先处理
+              - generic [ref=e113]:
+                - paragraph [ref=e114]: 战斗力
+                - paragraph [ref=e115]: "0"
+                - paragraph [ref=e116]: Stage 4 通过句
+          - generic [ref=e117]:
+            - generic [ref=e119]:
+              - generic [ref=e120]: 今日重点
+              - heading "先做一轮写作 Drill" [level=2] [ref=e121]
+              - paragraph [ref=e122]: 5 句已经到期，先复习会更稳。
+            - generic [ref=e127]:
+              - generic [ref=e128]: 看中文提示
+              - generic [ref=e133]: 写出自然日语
+              - generic [ref=e138]: 核对差异并自评
+            - link "进入今日训练" [ref=e143] [cursor=pointer]:
+              - /url: /drill
+        - generic [ref=e146]:
+          - generic [ref=e147]:
+            - generic [ref=e148]:
+              - paragraph [ref=e149]: Training Flow
+              - heading "四段式训练" [level=2] [ref=e150]
+            - link "查看语料" [ref=e151] [cursor=pointer]:
+              - /url: /library
+          - generic [ref=e154]:
+            - link "Stage 2 写作 Drill 中文提示到日语输出，修复“懂但说不出”。 进入" [ref=e155] [cursor=pointer]:
+              - /url: /drill
+              - generic [ref=e157]:
+                - generic [ref=e158]: Stage 2
+                - generic [ref=e164]:
+                  - heading "写作 Drill" [level=3] [ref=e165]
+                  - paragraph [ref=e166]: 中文提示到日语输出，修复“懂但说不出”。
+                - generic [ref=e167]: 进入
+            - link "Stage 2.5 音読 跟读、朗读、纠音，把句子变成肌肉记忆。 进入" [ref=e170] [cursor=pointer]:
+              - /url: /read-aloud
+              - generic [ref=e172]:
+                - generic [ref=e173]: Stage 2.5
+                - generic [ref=e180]:
+                  - heading "音読" [level=3] [ref=e181]
+                  - paragraph [ref=e182]: 跟读、朗读、纠音，把句子变成肌肉记忆。
+                - generic [ref=e183]: 进入
+            - link "Stage 3 听写 只听不看，训练真实会话里的辨音能力。 进入" [ref=e186] [cursor=pointer]:
+              - /url: /listen-write
+              - generic [ref=e188]:
+                - generic [ref=e189]: Stage 3
+                - generic [ref=e194]:
+                  - heading "听写" [level=3] [ref=e195]
+                  - paragraph [ref=e196]: 只听不看，训练真实会话里的辨音能力。
+                - generic [ref=e197]: 进入
+            - link "Stage 4 Quick-Fire 5 秒内开口，逼近真实会议里的反应速度。 进入" [ref=e200] [cursor=pointer]:
+              - /url: /quick-fire
+              - generic [ref=e202]:
+                - generic [ref=e203]: Stage 4
+                - generic [ref=e208]:
+                  - heading "Quick-Fire" [level=3] [ref=e209]
+                  - paragraph [ref=e210]: 5 秒内开口，逼近真实会议里的反应速度。
+                - generic [ref=e211]: 进入
+        - generic [ref=e214]:
+          - generic [ref=e215]:
+            - generic [ref=e217]:
+              - paragraph [ref=e218]: Progress Map
+              - heading "通关地图" [level=2] [ref=e219]
+              - paragraph [ref=e220]: 一句话停留在哪一关，就只算到哪一关。Stage 4 才接近真实输出。
+            - generic [ref=e225]:
+              - generic [ref=e226]:
+                - generic [ref=e227]:
+                  - paragraph [ref=e228]: Stage 1
+                  - paragraph [ref=e229]: 识别
+                - generic [ref=e232]:
+                  - paragraph [ref=e233]: 100%
+                  - paragraph [ref=e234]: 1422/1422
+              - generic [ref=e235]:
+                - generic [ref=e236]:
+                  - paragraph [ref=e237]: Stage 2
+                  - paragraph [ref=e238]: 写出
+                - generic [ref=e240]:
+                  - paragraph [ref=e241]: 0%
+                  - paragraph [ref=e242]: 5/1422
+              - generic [ref=e243]:
+                - generic [ref=e244]:
+                  - paragraph [ref=e245]: Stage 2.5
+                  - paragraph [ref=e246]: 朗读
+                - generic [ref=e248]:
+                  - paragraph [ref=e249]: 0%
+                  - paragraph [ref=e250]: 0/1422
+              - generic [ref=e251]:
+                - generic [ref=e252]:
+                  - paragraph [ref=e253]: Stage 3
+                  - paragraph [ref=e254]: 听写
+                - generic [ref=e256]:
+                  - paragraph [ref=e257]: 0%
+                  - paragraph [ref=e258]: 0/1422
+              - generic [ref=e259]:
+                - generic [ref=e260]:
+                  - paragraph [ref=e261]: Stage 4
+                  - paragraph [ref=e262]: 5秒口译
+                - generic [ref=e265]:
+                  - paragraph [ref=e266]: 0%
+                  - paragraph [ref=e267]: 0/1422
+          - generic [ref=e268]:
+            - link "Display 模式 Ambient 1422 句轮播，适合副屏和碎片时间。" [ref=e269] [cursor=pointer]:
+              - /url: /display
+              - generic [ref=e276]:
+                - generic [ref=e277]:
+                  - heading "Display 模式" [level=3] [ref=e278]
+                  - generic [ref=e279]: Ambient
+                - paragraph [ref=e280]: 1422 句轮播，适合副屏和碎片时间。
+            - link "短文阅读 Reading 用阅读优势进入商务邮件、会议纪要和新闻语境。" [ref=e281] [cursor=pointer]:
+              - /url: /passages
+              - generic [ref=e288]:
+                - generic [ref=e289]:
+                  - heading "短文阅读" [level=3] [ref=e290]
+                  - generic [ref=e291]: Reading
+                - paragraph [ref=e292]: 用阅读优势进入商务邮件、会议纪要和新闻语境。
+            - link "情景对话 Dialogues 多轮对话逐句听读，练真实交互节奏。" [ref=e293] [cursor=pointer]:
+              - /url: /dialogues
+              - generic [ref=e299]:
+                - generic [ref=e300]:
+                  - heading "情景对话" [level=3] [ref=e301]
+                  - generic [ref=e302]: Dialogues
+                - paragraph [ref=e303]: 多轮对话逐句听读，练真实交互节奏。
+            - link "動詞変形 Verbs 动词变形轮播训练：受身・使役・使役受身。" [ref=e304] [cursor=pointer]:
+              - /url: /verbs
+              - generic [ref=e311]:
+                - generic [ref=e312]:
+                  - heading "動詞変形" [level=3] [ref=e313]
+                  - generic [ref=e314]: Verbs
+                - paragraph [ref=e315]: 动词变形轮播训练：受身・使役・使役受身。
+  - status [ref=e316]:
+    - generic [ref=e321]:
+      - text: Static route
+      - button "Hide static indicator" [ref=e322] [cursor=pointer]
+  - alert [ref=e326]

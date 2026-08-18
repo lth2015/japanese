@@ -1,3 +1,4 @@
+import { type ConjugatedForm, conjugateVerb } from "@/lib/conjugation"
 import type {
   ConjugationType,
   Register,
@@ -66,96 +67,6 @@ function makePassiveVerbEntries(seeds: PassiveVerbSeed[]): VerbEntry[] {
 
 const CORE_CONJUGATION_TYPES = ["polite", "potential", "negative"] as const
 type CoreConjugationType = (typeof CORE_CONJUGATION_TYPES)[number]
-
-type ConjugatedForm = {
-  text: string
-  kana: string
-}
-
-const GROUP1_ROW: Record<
-  string,
-  {
-    polite: string
-    potential: string
-    negative: string
-    politeKana: string
-    potentialKana: string
-    negativeKana: string
-  }
-> = {
-  う: {
-    polite: "います",
-    potential: "える",
-    negative: "わない",
-    politeKana: "います",
-    potentialKana: "える",
-    negativeKana: "わない",
-  },
-  く: {
-    polite: "きます",
-    potential: "ける",
-    negative: "かない",
-    politeKana: "きます",
-    potentialKana: "ける",
-    negativeKana: "かない",
-  },
-  ぐ: {
-    polite: "ぎます",
-    potential: "げる",
-    negative: "がない",
-    politeKana: "ぎます",
-    potentialKana: "げる",
-    negativeKana: "がない",
-  },
-  す: {
-    polite: "します",
-    potential: "せる",
-    negative: "さない",
-    politeKana: "します",
-    potentialKana: "せる",
-    negativeKana: "さない",
-  },
-  つ: {
-    polite: "ちます",
-    potential: "てる",
-    negative: "たない",
-    politeKana: "ちます",
-    potentialKana: "てる",
-    negativeKana: "たない",
-  },
-  ぬ: {
-    polite: "にます",
-    potential: "ねる",
-    negative: "なない",
-    politeKana: "にます",
-    potentialKana: "ねる",
-    negativeKana: "なない",
-  },
-  ぶ: {
-    polite: "びます",
-    potential: "べる",
-    negative: "ばない",
-    politeKana: "びます",
-    potentialKana: "べる",
-    negativeKana: "ばない",
-  },
-  む: {
-    polite: "みます",
-    potential: "める",
-    negative: "まない",
-    politeKana: "みます",
-    potentialKana: "める",
-    negativeKana: "まない",
-  },
-  る: {
-    polite: "ります",
-    potential: "れる",
-    negative: "らない",
-    politeKana: "ります",
-    potentialKana: "れる",
-    negativeKana: "らない",
-  },
-}
 
 const FORM_EXAMPLE_TEXT: Record<
   CoreConjugationType,
@@ -233,65 +144,29 @@ function makeCoreConjugation(entry: VerbEntry, type: CoreConjugationType): VerbC
 
 function conjugateCore(entry: VerbEntry, type: CoreConjugationType): ConjugatedForm {
   const { dictionaryForm, verbGroup } = entry
-  if (dictionaryForm === "来る") {
-    switch (type) {
-      case "polite":
-        return { text: "来ます", kana: "きます" }
-      case "potential":
-        return { text: "来られる", kana: "こられる" }
-      case "negative":
-        return { text: "来ない", kana: "こない" }
-    }
-  }
-  if (dictionaryForm === "する") {
-    switch (type) {
-      case "polite":
-        return { text: "します", kana: "します" }
-      case "potential":
-        return { text: "できる", kana: "できる" }
-      case "negative":
-        return { text: "しない", kana: "しない" }
-    }
-  }
-
-  const readingMap = buildReadingMap(entry)
-  if (verbGroup === "group3" && dictionaryForm.endsWith("する")) {
-    const stem = dictionaryForm.slice(0, -2)
-    const stemKana = getReadingForText(stem, readingMap)
-    switch (type) {
-      case "polite":
-        return { text: `${stem}します`, kana: `${stemKana}します` }
-      case "potential":
-        return { text: `${stem}できる`, kana: `${stemKana}できる` }
-      case "negative":
-        return { text: `${stem}しない`, kana: `${stemKana}しない` }
-    }
-  }
-
-  const stem = dictionaryForm.slice(0, -1)
-  const stemKana = getReadingForText(stem, readingMap)
-  if (verbGroup === "group2") {
-    switch (type) {
-      case "polite":
-        return { text: `${stem}ます`, kana: `${stemKana}ます` }
-      case "potential":
-        return { text: `${stem}られる`, kana: `${stemKana}られる` }
-      case "negative":
-        return { text: `${stem}ない`, kana: `${stemKana}ない` }
-    }
-  }
-
-  const ending = dictionaryForm.at(-1)
-  const row = ending ? GROUP1_ROW[ending] : undefined
-  if (!row) throw new Error(`Unsupported group1 verb ending: ${dictionaryForm}`)
+  const kana = getDictionaryKana(entry)
+  const forms = conjugateVerb(dictionaryForm, kana, verbGroup)
   switch (type) {
     case "polite":
-      return { text: `${stem}${row.polite}`, kana: `${stemKana}${row.politeKana}` }
+      return forms.masu
     case "potential":
-      return { text: `${stem}${row.potential}`, kana: `${stemKana}${row.potentialKana}` }
+      return forms.potential
     case "negative":
-      return { text: `${stem}${row.negative}`, kana: `${stemKana}${row.negativeKana}` }
+      return forms.nai
   }
+}
+
+/** 从例句 token 里反查辞書形的假名读法，喂给 lib/conjugation 的活用函数。 */
+function getDictionaryKana(entry: VerbEntry): string {
+  const { dictionaryForm, verbGroup } = entry
+  if (dictionaryForm === "来る") return "くる"
+  if (dictionaryForm === "する") return "する"
+  const readingMap = buildReadingMap(entry)
+  if (verbGroup === "group3" && dictionaryForm.endsWith("する")) {
+    return `${getReadingForText(dictionaryForm.slice(0, -2), readingMap)}する`
+  }
+  const tail = dictionaryForm.slice(-1)
+  return `${getReadingForText(dictionaryForm.slice(0, -1), readingMap)}${tail}`
 }
 
 function buildReadingMap(entry: VerbEntry): Map<string, string> {

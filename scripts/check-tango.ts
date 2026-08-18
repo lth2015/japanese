@@ -52,9 +52,13 @@ for (const card of cards) {
   const exKana = ex.tokens.map((t) => t.kana ?? t.text).join("")
   if (exKana !== ex.kana) err(card.id, `例句 kana「${ex.kana}」与 token 推导「${exKana}」不符`)
   if (!ex.chinese.trim()) err(card.id, "例句缺中文")
-  // 例句里必须真的出现这个词，否则例句是白给的
-  if (!ex.japanese.includes(surface) && !ex.kana.includes(card.kana)) {
-    err(card.id, `例句里没出现「${surface}」`)
+  // 例句里必须真的出现这个词，否则例句是白给的。
+  // 动词/形容词的例句自然会用活用形，所以任何一个派生形出现都算数。
+  const acceptable = [surface, card.kana]
+  for (const f of Object.values(card.verbForms ?? {})) acceptable.push(f.text, f.kana)
+  for (const f of Object.values(card.adjForms ?? {})) acceptable.push(f.text, f.kana)
+  if (!acceptable.some((w) => ex.japanese.includes(w) || ex.kana.includes(w))) {
+    err(card.id, `例句里没出现「${surface}」（活用形也没出现）`)
   }
 
   if (card.pos === "動詞") {

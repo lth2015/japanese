@@ -24,6 +24,9 @@ import { useCallback, useEffect, useMemo, useRef, useState } from "react"
 const VERB_FORMS_ON_CARD: VerbFormKey[] = ["masu", "te", "ta", "nai", "potential", "volitional"]
 const ADJ_FORMS_ON_CARD: AdjectiveFormKey[] = ["negative", "past", "adverb", "te"]
 
+/** 索引条一次最多渲染多少个芯片。语料满 800 词时全渲染会拖慢首屏。 */
+const MAX_INDEX_CHIPS = 60
+
 type Props = {
   cards: TangoCard[]
 }
@@ -456,7 +459,7 @@ export function TangoTicker({ cards }: Props) {
             {/* 例句 */}
             {settings.showExample && (
               <div className="space-y-1.5 pt-1">
-                <div className="mx-auto mb-3 h-px w-full max-w-sm bg-border/60" />
+                <div className="mx-auto mb-3 h-px w-full max-w-sm bg-border" />
                 <p
                   lang="ja"
                   className="flex justify-center font-jp-serif text-fg tracking-wide leading-[1.4] text-balance text-[length:clamp(1.05rem,2.2vw,2rem)]"
@@ -495,7 +498,7 @@ export function TangoTicker({ cards }: Props) {
               key={c.id}
               className={cn(
                 "h-1.5 w-1.5 rounded-full transition-colors",
-                i === index % queue.length ? "bg-fg" : "bg-fg-tertiary/30",
+                i === index % queue.length ? "bg-fg" : "bg-fg-tertiary opacity-25",
               )}
             />
           ))}
@@ -672,14 +675,32 @@ function WordIndex({
   onToggleKnown: (id: string) => void
 }) {
   const knownCount = words.filter((w) => knownSet.has(w.id)).length
+  // 语料到 800 词时「全部」模式会渲染 800 个芯片，横向滚不到头也拖慢首屏。
+  // 截断到一屏能扫完的量，并保证当前词一定在窗口里。
+  const shown = useMemo(() => {
+    if (words.length <= MAX_INDEX_CHIPS) return words
+    const at = Math.max(
+      0,
+      words.findIndex((w) => w.id === currentId),
+    )
+    const start = Math.min(
+      Math.max(0, at - Math.floor(MAX_INDEX_CHIPS / 2)),
+      words.length - MAX_INDEX_CHIPS,
+    )
+    return words.slice(start, start + MAX_INDEX_CHIPS)
+  }, [words, currentId])
+
   return (
     <div className="px-4 pb-2 sm:px-6">
       <div className="flex items-center gap-2">
         <span className="shrink-0 font-mono text-[10px] uppercase tracking-wider text-fg-tertiary">
           単語 {words.length - knownCount}/{words.length}
+          {shown.length < words.length && (
+            <span className="ml-1 normal-case text-fg-tertiary">（切到某一组看全部）</span>
+          )}
         </span>
         <div className="flex gap-1.5 overflow-x-auto pb-1.5">
-          {words.map((w) => (
+          {shown.map((w) => (
             <WordChip
               key={w.id}
               word={w}
@@ -745,7 +766,7 @@ function WordChip({
         className={cn(
           "grid place-items-center border-l px-1.5 transition-colors",
           active
-            ? "border-accent/40 text-fg-on-accent hover:bg-accent-hover"
+            ? "border-accent text-fg-on-accent hover:bg-accent-hover"
             : known
               ? "border-border bg-success-soft text-success"
               : "border-border text-fg-tertiary hover:bg-success-soft hover:text-success",

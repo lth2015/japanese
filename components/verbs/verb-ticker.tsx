@@ -461,7 +461,7 @@ export function VerbTicker({ cards }: Props) {
               key={c.cardId}
               className={cn(
                 "h-1.5 w-1.5 rounded-full transition-colors",
-                i === index % queue.length ? "bg-fg" : "bg-fg-tertiary/30",
+                i === index % queue.length ? "bg-fg" : "bg-fg-tertiary opacity-25",
               )}
             />
           ))}
@@ -744,7 +744,7 @@ function VerbChip({
         className={cn(
           "grid place-items-center border-l px-1.5 transition-colors",
           active
-            ? "border-accent/40 text-fg-on-accent hover:bg-accent-hover"
+            ? "border-accent text-fg-on-accent hover:bg-accent-hover"
             : known
               ? "border-border bg-success-soft text-success"
               : "border-border text-fg-tertiary hover:bg-success-soft hover:text-success",

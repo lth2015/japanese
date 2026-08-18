@@ -45,7 +45,7 @@ export default function GrammarIndexPage() {
               {LEVEL_LABEL[level]}
               <span className="h-px flex-1 bg-border" />
             </h2>
-            <div className="grid gap-3 sm:grid-cols-2">
+            <div className="grid gap-3 sm:grid-cols-2 xl:grid-cols-3">
               {chapters.map((c) => (
                 <ChapterCard key={c.id} chapter={c} />
               ))}

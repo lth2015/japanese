@@ -69,7 +69,7 @@ export function PointCard({ point }: { point: GrammarPoint }) {
               </thead>
               <tbody>
                 {table.rows.map((row) => (
-                  <tr key={row.join()} className="border-b border-border/60 last:border-b-0">
+                  <tr key={row.join()} className="border-b border-border last:border-b-0">
                     {row.map((cell, i) => (
                       <td
                         key={`${row.join()}-${i}`}
@@ -127,7 +127,7 @@ export function PointCard({ point }: { point: GrammarPoint }) {
       </div>
 
       {/* 易错点 */}
-      <div className="mt-6 rounded-lg border border-warning/40 bg-warning-soft px-4 py-3">
+      <div className="mt-6 rounded-lg border border-warning bg-warning-soft px-4 py-3">
         <p className="mb-2 flex items-center gap-1.5 text-xs font-semibold text-warning">
           <AlertTriangle className="h-3.5 w-3.5" />
           容易错的地方

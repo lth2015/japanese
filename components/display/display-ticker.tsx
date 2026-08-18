@@ -289,7 +289,7 @@ export function DisplayTicker({ sentences, ignoreSourceFilter = false }: Props) 
               key={s.id}
               className={cn(
                 "h-1.5 w-1.5 rounded-full transition-colors",
-                i === index % queue.length ? "bg-fg" : "bg-fg-tertiary/30",
+                i === index % queue.length ? "bg-fg" : "bg-fg-tertiary opacity-25",
               )}
             />
           ))}

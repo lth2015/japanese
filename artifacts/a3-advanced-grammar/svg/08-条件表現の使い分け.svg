@@ -1,0 +1,122 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="4961" height="3508" viewBox="0 0 4961 3508">
+  <rect width="4961" height="3508" fill="#FAF8F1" />
+  <text x="140" y="120" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, PingFang SC, sans-serif" font-size="28" font-weight="700" fill="#147A73" text-anchor="start" letter-spacing="5" opacity="1">ADVANCED GRAMMAR  08</text>
+<text x="140" y="260" font-family="Hiragino Mincho ProN, YuMincho, serif" font-size="96" font-weight="600" fill="#172229" text-anchor="start" letter-spacing="0" opacity="1">条件四分支・最低条件</text>
+<text x="140" y="345" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, PingFang SC, sans-serif" font-size="34" font-weight="400" fill="#465358" text-anchor="start" letter-spacing="0" opacity="1">と・ば・たら・なら不是四种同义替换</text>
+<text x="4821" y="120" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, PingFang SC, sans-serif" font-size="30" font-weight="700" fill="#778286" text-anchor="end" letter-spacing="3" opacity="1">GRAMMAR 08</text>
+<text x="4821" y="265" font-family="Hiragino Mincho ProN, YuMincho, serif" font-size="76" font-weight="700" fill="#147A73" text-anchor="end" letter-spacing="0" opacity="1">6 型</text>
+<text x="4821" y="345" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, PingFang SC, sans-serif" font-size="31" font-weight="500" fill="#465358" text-anchor="end" letter-spacing="0" opacity="1">条件表現の使い分け</text>
+<line x1="140" y1="395" x2="4821" y2="395" stroke="#91A09C" stroke-width="3" />
+<line x1="140" y1="470" x2="2432.5" y2="470" stroke="#91A09C" stroke-width="2" />
+<text x="174" y="513" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, PingFang SC, sans-serif" font-size="27" font-weight="700" fill="#778286" text-anchor="start" letter-spacing="0" opacity="1">01</text>
+<rect x="2282.5" y="488" width="116" height="44" rx="22" fill="#EFF6F3" stroke="none" stroke-width="0" />
+<text x="2340.5" y="519" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, PingFang SC, sans-serif" font-size="25" font-weight="700" fill="#147A73" text-anchor="middle" letter-spacing="0" opacity="1">N3</text>
+<text x="174" y="597" font-family="Hiragino Mincho ProN, YuMincho, serif" font-size="68" font-weight="600" fill="#172229" text-anchor="start" letter-spacing="0" opacity="1">〜と</text>
+<text x="174" y="657" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, PingFang SC, sans-serif" font-size="31" font-weight="600" fill="#147A73" text-anchor="start" letter-spacing="0" opacity="1"><tspan x="174" dy="0">普通形非过去＋と</tspan></text>
+<text x="174" y="751" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, PingFang SC, sans-serif" font-size="42" font-weight="600" fill="#172229" text-anchor="start" letter-spacing="0" opacity="1"><tspan x="174" dy="0">只要前项成立，后项就自然、规律或必然发生。</tspan></text>
+<text x="174" y="869" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, PingFang SC, sans-serif" font-size="25" font-weight="700" fill="#B64B3F" text-anchor="start" letter-spacing="2" opacity="1">例</text>
+<text x="240" y="871" font-family="Hiragino Mincho ProN, YuMincho, serif" font-size="42" font-weight="500" fill="#172229" text-anchor="start" letter-spacing="0" opacity="1"><tspan x="240" dy="0">このボタンを押すと、画面が切り替わります。</tspan></text>
+<text x="174" y="938" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, PingFang SC, sans-serif" font-size="23" font-weight="700" fill="#147A73" text-anchor="start" letter-spacing="1" opacity="1">よみ</text>
+<text x="240" y="938" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, PingFang SC, sans-serif" font-size="30" font-weight="600" fill="#147A73" text-anchor="start" letter-spacing="0" opacity="1"><tspan x="240" dy="0">このボタンをおすと、がめんがきりかわります。</tspan></text>
+<text x="240" y="1001" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, PingFang SC, sans-serif" font-size="35" font-weight="400" fill="#465358" text-anchor="start" letter-spacing="0" opacity="1"><tspan x="240" dy="0">按下这个按钮，画面就会切换。</tspan></text>
+<rect x="174" y="1062" width="2224.5" height="126" rx="8" fill="#EFF6F3" stroke="none" stroke-width="0" />
+<text x="196" y="1099" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, PingFang SC, sans-serif" font-size="25" font-weight="700" fill="#147A73" text-anchor="start" letter-spacing="0" opacity="1">语感</text>
+<text x="274" y="1101" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, PingFang SC, sans-serif" font-size="33" font-weight="400" fill="#465358" text-anchor="start" letter-spacing="0" opacity="1"><tspan x="274" dy="0">特别适合说明机器操作、路线、自然规律和习惯。</tspan></text>
+<text x="174" y="1242" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, PingFang SC, sans-serif" font-size="25" font-weight="700" fill="#B64B3F" text-anchor="start" letter-spacing="0" opacity="1">辨析</text>
+<text x="266" y="1244" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, PingFang SC, sans-serif" font-size="32" font-weight="400" fill="#465358" text-anchor="start" letter-spacing="0" opacity="1"><tspan x="266" dy="0">后项原则上不接请求、命令和说话人的当场意志。</tspan></text>
+<line x1="140" y1="1400" x2="2432.5" y2="1400" stroke="#CED6D3" stroke-width="2" />
+<line x1="2528.5" y1="470" x2="4821" y2="470" stroke="#91A09C" stroke-width="2" />
+<text x="2562.5" y="513" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, PingFang SC, sans-serif" font-size="27" font-weight="700" fill="#778286" text-anchor="start" letter-spacing="0" opacity="1">02</text>
+<rect x="4671" y="488" width="116" height="44" rx="22" fill="#EFF6F3" stroke="none" stroke-width="0" />
+<text x="4729" y="519" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, PingFang SC, sans-serif" font-size="25" font-weight="700" fill="#147A73" text-anchor="middle" letter-spacing="0" opacity="1">N3</text>
+<text x="2562.5" y="597" font-family="Hiragino Mincho ProN, YuMincho, serif" font-size="68" font-weight="600" fill="#172229" text-anchor="start" letter-spacing="0" opacity="1">〜ば</text>
+<text x="2562.5" y="657" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, PingFang SC, sans-serif" font-size="31" font-weight="600" fill="#147A73" text-anchor="start" letter-spacing="0" opacity="1"><tspan x="2562.5" dy="0">Vば形／イ形〜ければ／ナ形・名词＋なら（ば）</tspan></text>
+<text x="2562.5" y="751" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, PingFang SC, sans-serif" font-size="42" font-weight="600" fill="#172229" text-anchor="start" letter-spacing="0" opacity="1"><tspan x="2562.5" dy="0">聚焦“只要这个条件满足，结果就成立”。</tspan></text>
+<text x="2562.5" y="869" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, PingFang SC, sans-serif" font-size="25" font-weight="700" fill="#B64B3F" text-anchor="start" letter-spacing="2" opacity="1">例</text>
+<text x="2628.5" y="871" font-family="Hiragino Mincho ProN, YuMincho, serif" font-size="42" font-weight="500" fill="#172229" text-anchor="start" letter-spacing="0" opacity="1"><tspan x="2628.5" dy="0">設定を変えれば、正常に動くはずです。</tspan></text>
+<text x="2562.5" y="938" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, PingFang SC, sans-serif" font-size="23" font-weight="700" fill="#147A73" text-anchor="start" letter-spacing="1" opacity="1">よみ</text>
+<text x="2628.5" y="938" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, PingFang SC, sans-serif" font-size="30" font-weight="600" fill="#147A73" text-anchor="start" letter-spacing="0" opacity="1"><tspan x="2628.5" dy="0">せっていをかえれば、せいじょうにうごくはずです。</tspan></text>
+<text x="2628.5" y="1001" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, PingFang SC, sans-serif" font-size="35" font-weight="400" fill="#465358" text-anchor="start" letter-spacing="0" opacity="1"><tspan x="2628.5" dy="0">只要更改设置，按理就能正常运行。</tspan></text>
+<rect x="2562.5" y="1062" width="2224.5" height="126" rx="8" fill="#EFF6F3" stroke="none" stroke-width="0" />
+<text x="2584.5" y="1099" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, PingFang SC, sans-serif" font-size="25" font-weight="700" fill="#147A73" text-anchor="start" letter-spacing="0" opacity="1">语感</text>
+<text x="2662.5" y="1101" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, PingFang SC, sans-serif" font-size="33" font-weight="400" fill="#465358" text-anchor="start" letter-spacing="0" opacity="1"><tspan x="2662.5" dy="0">适合逻辑条件、建议和一般判断。</tspan></text>
+<text x="2562.5" y="1242" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, PingFang SC, sans-serif" font-size="25" font-weight="700" fill="#B64B3F" text-anchor="start" letter-spacing="0" opacity="1">辨析</text>
+<text x="2654.5" y="1244" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, PingFang SC, sans-serif" font-size="32" font-weight="400" fill="#465358" text-anchor="start" letter-spacing="0" opacity="1"><tspan x="2654.5" dy="0">同一主体连续做两件主动动作时常用たら：家に帰ったら電話します。</tspan></text>
+<line x1="2528.5" y1="1400" x2="4821" y2="1400" stroke="#CED6D3" stroke-width="2" />
+<line x1="140" y1="1400" x2="2432.5" y2="1400" stroke="#91A09C" stroke-width="2" />
+<text x="174" y="1443" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, PingFang SC, sans-serif" font-size="27" font-weight="700" fill="#778286" text-anchor="start" letter-spacing="0" opacity="1">03</text>
+<rect x="2282.5" y="1418" width="116" height="44" rx="22" fill="#EFF6F3" stroke="none" stroke-width="0" />
+<text x="2340.5" y="1449" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, PingFang SC, sans-serif" font-size="25" font-weight="700" fill="#147A73" text-anchor="middle" letter-spacing="0" opacity="1">N3</text>
+<text x="174" y="1527" font-family="Hiragino Mincho ProN, YuMincho, serif" font-size="68" font-weight="600" fill="#172229" text-anchor="start" letter-spacing="0" opacity="1">〜たら</text>
+<text x="174" y="1587" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, PingFang SC, sans-serif" font-size="31" font-weight="600" fill="#147A73" text-anchor="start" letter-spacing="0" opacity="1"><tspan x="174" dy="0">Vた形／イ形かったら／ナ形・名词だったら</tspan></text>
+<text x="174" y="1681" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, PingFang SC, sans-serif" font-size="42" font-weight="600" fill="#172229" text-anchor="start" letter-spacing="0" opacity="1"><tspan x="174" dy="0">前项实现后再发生后项；也能表达假设和发现。</tspan></text>
+<text x="174" y="1799" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, PingFang SC, sans-serif" font-size="25" font-weight="700" fill="#B64B3F" text-anchor="start" letter-spacing="2" opacity="1">例</text>
+<text x="240" y="1801" font-family="Hiragino Mincho ProN, YuMincho, serif" font-size="42" font-weight="500" fill="#172229" text-anchor="start" letter-spacing="0" opacity="1"><tspan x="240" dy="0">確認が終わったら、チャットで知らせてください。</tspan></text>
+<text x="174" y="1868" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, PingFang SC, sans-serif" font-size="23" font-weight="700" fill="#147A73" text-anchor="start" letter-spacing="1" opacity="1">よみ</text>
+<text x="240" y="1868" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, PingFang SC, sans-serif" font-size="30" font-weight="600" fill="#147A73" text-anchor="start" letter-spacing="0" opacity="1"><tspan x="240" dy="0">かくにんがおわったら、チャットでしらせてください。</tspan></text>
+<text x="240" y="1931" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, PingFang SC, sans-serif" font-size="35" font-weight="400" fill="#465358" text-anchor="start" letter-spacing="0" opacity="1"><tspan x="240" dy="0">确认结束后，请在聊天工具里告诉我。</tspan></text>
+<rect x="174" y="1992" width="2224.5" height="126" rx="8" fill="#EFF6F3" stroke="none" stroke-width="0" />
+<text x="196" y="2029" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, PingFang SC, sans-serif" font-size="25" font-weight="700" fill="#147A73" text-anchor="start" letter-spacing="0" opacity="1">语感</text>
+<text x="274" y="2031" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, PingFang SC, sans-serif" font-size="33" font-weight="400" fill="#465358" text-anchor="start" letter-spacing="0" opacity="1"><tspan x="274" dy="0">四个条件里使用范围最宽，请求、意志和偶然发现都能接。</tspan></text>
+<text x="174" y="2172" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, PingFang SC, sans-serif" font-size="25" font-weight="700" fill="#B64B3F" text-anchor="start" letter-spacing="0" opacity="1">辨析</text>
+<text x="266" y="2174" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, PingFang SC, sans-serif" font-size="32" font-weight="400" fill="#465358" text-anchor="start" letter-spacing="0" opacity="1"><tspan x="266" dy="0">过去偶然发现：窓を開けたら、雪が降っていた。</tspan></text>
+<line x1="140" y1="2330" x2="2432.5" y2="2330" stroke="#CED6D3" stroke-width="2" />
+<line x1="2528.5" y1="1400" x2="4821" y2="1400" stroke="#91A09C" stroke-width="2" />
+<text x="2562.5" y="1443" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, PingFang SC, sans-serif" font-size="27" font-weight="700" fill="#778286" text-anchor="start" letter-spacing="0" opacity="1">04</text>
+<rect x="4671" y="1418" width="116" height="44" rx="22" fill="#EFF6F3" stroke="none" stroke-width="0" />
+<text x="4729" y="1449" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, PingFang SC, sans-serif" font-size="25" font-weight="700" fill="#147A73" text-anchor="middle" letter-spacing="0" opacity="1">N3</text>
+<text x="2562.5" y="1527" font-family="Hiragino Mincho ProN, YuMincho, serif" font-size="68" font-weight="600" fill="#172229" text-anchor="start" letter-spacing="0" opacity="1">〜なら</text>
+<text x="2562.5" y="1587" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, PingFang SC, sans-serif" font-size="31" font-weight="600" fill="#147A73" text-anchor="start" letter-spacing="0" opacity="1"><tspan x="2562.5" dy="0">普通形／名词・ナ形＋なら</tspan></text>
+<text x="2562.5" y="1681" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, PingFang SC, sans-serif" font-size="42" font-weight="600" fill="#172229" text-anchor="start" letter-spacing="0" opacity="1"><tspan x="2562.5" dy="0">接住对方提出的前提，再给建议、判断或限定。</tspan></text>
+<text x="2562.5" y="1799" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, PingFang SC, sans-serif" font-size="25" font-weight="700" fill="#B64B3F" text-anchor="start" letter-spacing="2" opacity="1">例</text>
+<text x="2628.5" y="1801" font-family="Hiragino Mincho ProN, YuMincho, serif" font-size="42" font-weight="500" fill="#172229" text-anchor="start" letter-spacing="0" opacity="1"><tspan x="2628.5" dy="0">京都へ行くなら、朝早く出たほうがいいですよ。</tspan></text>
+<text x="2562.5" y="1868" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, PingFang SC, sans-serif" font-size="23" font-weight="700" fill="#147A73" text-anchor="start" letter-spacing="1" opacity="1">よみ</text>
+<text x="2628.5" y="1868" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, PingFang SC, sans-serif" font-size="30" font-weight="600" fill="#147A73" text-anchor="start" letter-spacing="0" opacity="1"><tspan x="2628.5" dy="0">きょうとへいくなら、あさはやくでたほうがいいですよ。</tspan></text>
+<text x="2628.5" y="1931" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, PingFang SC, sans-serif" font-size="35" font-weight="400" fill="#465358" text-anchor="start" letter-spacing="0" opacity="1"><tspan x="2628.5" dy="0">如果要去京都，最好一早出发。</tspan></text>
+<rect x="2562.5" y="1992" width="2224.5" height="126" rx="8" fill="#EFF6F3" stroke="none" stroke-width="0" />
+<text x="2584.5" y="2029" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, PingFang SC, sans-serif" font-size="25" font-weight="700" fill="#147A73" text-anchor="start" letter-spacing="0" opacity="1">语感</text>
+<text x="2662.5" y="2031" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, PingFang SC, sans-serif" font-size="33" font-weight="400" fill="#465358" text-anchor="start" letter-spacing="0" opacity="1"><tspan x="2662.5" dy="0">后项行动可以先于前项；重点不是“等发生以后”。</tspan></text>
+<text x="2562.5" y="2172" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, PingFang SC, sans-serif" font-size="25" font-weight="700" fill="#B64B3F" text-anchor="start" letter-spacing="0" opacity="1">辨析</text>
+<text x="2654.5" y="2174" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, PingFang SC, sans-serif" font-size="32" font-weight="400" fill="#465358" text-anchor="start" letter-spacing="0" opacity="1"><tspan x="2654.5" dy="0">京都へ行ったら連絡して＝到了以后联系；行くなら早く予約して＝既然要去先预约。</tspan></text>
+<line x1="2528.5" y1="2330" x2="4821" y2="2330" stroke="#CED6D3" stroke-width="2" />
+<line x1="140" y1="2330" x2="2432.5" y2="2330" stroke="#91A09C" stroke-width="2" />
+<text x="174" y="2373" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, PingFang SC, sans-serif" font-size="27" font-weight="700" fill="#778286" text-anchor="start" letter-spacing="0" opacity="1">05</text>
+<rect x="2282.5" y="2348" width="116" height="44" rx="22" fill="#EFF6F3" stroke="none" stroke-width="0" />
+<text x="2340.5" y="2379" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, PingFang SC, sans-serif" font-size="25" font-weight="700" fill="#147A73" text-anchor="middle" letter-spacing="0" opacity="1">N2</text>
+<text x="174" y="2457" font-family="Hiragino Mincho ProN, YuMincho, serif" font-size="68" font-weight="600" fill="#172229" text-anchor="start" letter-spacing="0" opacity="1">〜さえ〜ば</text>
+<text x="174" y="2517" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, PingFang SC, sans-serif" font-size="31" font-weight="600" fill="#147A73" text-anchor="start" letter-spacing="0" opacity="1"><tspan x="174" dy="0">名词＋さえ＋条件形／Vます去ます＋さえすれば</tspan></text>
+<text x="174" y="2611" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, PingFang SC, sans-serif" font-size="42" font-weight="600" fill="#172229" text-anchor="start" letter-spacing="0" opacity="1"><tspan x="174" dy="0">提出唯一或最低条件：“只要……就够了”。</tspan></text>
+<text x="174" y="2729" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, PingFang SC, sans-serif" font-size="25" font-weight="700" fill="#B64B3F" text-anchor="start" letter-spacing="2" opacity="1">例</text>
+<text x="240" y="2731" font-family="Hiragino Mincho ProN, YuMincho, serif" font-size="42" font-weight="500" fill="#172229" text-anchor="start" letter-spacing="0" opacity="1"><tspan x="240" dy="0">資料さえあれば、すぐに対応できます。</tspan></text>
+<text x="174" y="2798" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, PingFang SC, sans-serif" font-size="23" font-weight="700" fill="#147A73" text-anchor="start" letter-spacing="1" opacity="1">よみ</text>
+<text x="240" y="2798" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, PingFang SC, sans-serif" font-size="30" font-weight="600" fill="#147A73" text-anchor="start" letter-spacing="0" opacity="1"><tspan x="240" dy="0">しりょうさえあれば、すぐにたいおうできます。</tspan></text>
+<text x="240" y="2861" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, PingFang SC, sans-serif" font-size="35" font-weight="400" fill="#465358" text-anchor="start" letter-spacing="0" opacity="1"><tspan x="240" dy="0">只要有资料，就能马上处理。</tspan></text>
+<rect x="174" y="2922" width="2224.5" height="126" rx="8" fill="#EFF6F3" stroke="none" stroke-width="0" />
+<text x="196" y="2959" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, PingFang SC, sans-serif" font-size="25" font-weight="700" fill="#147A73" text-anchor="start" letter-spacing="0" opacity="1">语感</text>
+<text x="274" y="2961" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, PingFang SC, sans-serif" font-size="33" font-weight="400" fill="#465358" text-anchor="start" letter-spacing="0" opacity="1"><tspan x="274" dy="0">把其他条件都压低，突出这一项最关键。</tspan></text>
+<text x="174" y="3102" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, PingFang SC, sans-serif" font-size="25" font-weight="700" fill="#B64B3F" text-anchor="start" letter-spacing="0" opacity="1">辨析</text>
+<text x="266" y="3104" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, PingFang SC, sans-serif" font-size="32" font-weight="400" fill="#465358" text-anchor="start" letter-spacing="0" opacity="1"><tspan x="266" dy="0">人さえいれば也可；助词位置会变化：時間が→時間さえあれば。</tspan></text>
+<line x1="140" y1="3260" x2="2432.5" y2="3260" stroke="#CED6D3" stroke-width="2" />
+<line x1="2528.5" y1="2330" x2="4821" y2="2330" stroke="#91A09C" stroke-width="2" />
+<text x="2562.5" y="2373" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, PingFang SC, sans-serif" font-size="27" font-weight="700" fill="#778286" text-anchor="start" letter-spacing="0" opacity="1">06</text>
+<rect x="4671" y="2348" width="116" height="44" rx="22" fill="#EFF6F3" stroke="none" stroke-width="0" />
+<text x="4729" y="2379" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, PingFang SC, sans-serif" font-size="25" font-weight="700" fill="#147A73" text-anchor="middle" letter-spacing="0" opacity="1">N2</text>
+<text x="2562.5" y="2457" font-family="Hiragino Mincho ProN, YuMincho, serif" font-size="68" font-weight="600" fill="#172229" text-anchor="start" letter-spacing="0" opacity="1">〜ない限り</text>
+<text x="2562.5" y="2501" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, PingFang SC, sans-serif" font-size="27" font-weight="700" fill="#147A73" text-anchor="start" letter-spacing="0" opacity="1">ないかぎり</text>
+<text x="2562.5" y="2547" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, PingFang SC, sans-serif" font-size="31" font-weight="600" fill="#147A73" text-anchor="start" letter-spacing="0" opacity="1"><tspan x="2562.5" dy="0">Vない形＋限り</tspan></text>
+<text x="2562.5" y="2611" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, PingFang SC, sans-serif" font-size="42" font-weight="600" fill="#172229" text-anchor="start" letter-spacing="0" opacity="1"><tspan x="2562.5" dy="0">只要前项不改变，后项就不会成立：“除非……”。</tspan></text>
+<text x="2562.5" y="2729" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, PingFang SC, sans-serif" font-size="25" font-weight="700" fill="#B64B3F" text-anchor="start" letter-spacing="2" opacity="1">例</text>
+<text x="2628.5" y="2731" font-family="Hiragino Mincho ProN, YuMincho, serif" font-size="42" font-weight="500" fill="#172229" text-anchor="start" letter-spacing="0" opacity="1"><tspan x="2628.5" dy="0">本人の同意がない限り、情報は公開できません。</tspan></text>
+<text x="2562.5" y="2798" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, PingFang SC, sans-serif" font-size="23" font-weight="700" fill="#147A73" text-anchor="start" letter-spacing="1" opacity="1">よみ</text>
+<text x="2628.5" y="2798" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, PingFang SC, sans-serif" font-size="30" font-weight="600" fill="#147A73" text-anchor="start" letter-spacing="0" opacity="1"><tspan x="2628.5" dy="0">ほんにんのどういがないかぎり、じょうほうはこうかいできません。</tspan></text>
+<text x="2628.5" y="2861" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, PingFang SC, sans-serif" font-size="35" font-weight="400" fill="#465358" text-anchor="start" letter-spacing="0" opacity="1"><tspan x="2628.5" dy="0">除非本人同意，否则不能公开信息。</tspan></text>
+<rect x="2562.5" y="2922" width="2224.5" height="126" rx="8" fill="#EFF6F3" stroke="none" stroke-width="0" />
+<text x="2584.5" y="2959" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, PingFang SC, sans-serif" font-size="25" font-weight="700" fill="#147A73" text-anchor="start" letter-spacing="0" opacity="1">语感</text>
+<text x="2662.5" y="2961" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, PingFang SC, sans-serif" font-size="33" font-weight="400" fill="#465358" text-anchor="start" letter-spacing="0" opacity="1"><tspan x="2662.5" dy="0">常用于规则、必要条件和强判断。</tspan></text>
+<text x="2562.5" y="3102" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, PingFang SC, sans-serif" font-size="25" font-weight="700" fill="#B64B3F" text-anchor="start" letter-spacing="0" opacity="1">辨析</text>
+<text x="2654.5" y="3104" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, PingFang SC, sans-serif" font-size="32" font-weight="400" fill="#465358" text-anchor="start" letter-spacing="0" opacity="1"><tspan x="2654.5" dy="0">〜限り也可表示“只要……就”：日本にいる限り、働き続けたい。</tspan></text>
+<line x1="2528.5" y1="3260" x2="4821" y2="3260" stroke="#CED6D3" stroke-width="2" />
+<line x1="140" y1="3403" x2="4821" y2="3403" stroke="#CED6D3" stroke-width="2" />
+<text x="140" y="3453" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, PingFang SC, sans-serif" font-size="25" font-weight="400" fill="#778286" text-anchor="start" letter-spacing="0" opacity="1">用法优先于中文直译：读完例句后，换人称／时态／场景各说一遍</text>
+<text x="4821" y="3453" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, PingFang SC, sans-serif" font-size="25" font-weight="700" fill="#778286" text-anchor="end" letter-spacing="1" opacity="1">NIHONGO OUTPUT GRAMMAR  /  08 / 16</text>
+</svg>

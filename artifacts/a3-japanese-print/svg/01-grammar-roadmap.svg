@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="4961" height="3508" viewBox="0 0 4961 3508">
+  <rect width="4961" height="3508" fill="#FAF8F1" />
+  <text x="140" y="120" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, PingFang SC, sans-serif" font-size="28" font-weight="700" fill="#147A73" text-anchor="start" letter-spacing="5" opacity="1">GRAMMAR LEARNING MAP</text>
+<text x="140" y="260" font-family="Hiragino Mincho ProN, YuMincho, serif" font-size="104" font-weight="600" fill="#172229" text-anchor="start" letter-spacing="0" opacity="1">日语语法学习地图</text>
+<text x="140" y="335" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, PingFang SC, sans-serif" font-size="36" font-weight="400" fill="#48565B" text-anchor="start" letter-spacing="0" opacity="1">先结构、后变形、再语气；为输出服务，不按英语时态硬套</text>
+<text x="4821" y="120" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, PingFang SC, sans-serif" font-size="30" font-weight="700" fill="#758185" text-anchor="end" letter-spacing="3" opacity="1">GRAMMAR 01</text>
+<text x="4821" y="270" font-family="Hiragino Mincho ProN, YuMincho, serif" font-size="76" font-weight="700" fill="#147A73" text-anchor="end" letter-spacing="0" opacity="1">13 章</text>
+<line x1="140" y1="390" x2="4821" y2="390" stroke="#93A09D" stroke-width="3" />
+<rect x="140" y="500" width="893" height="88" rx="0" fill="#147A73" stroke="none" stroke-width="0" />
+<text x="168" y="556" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, PingFang SC, sans-serif" font-size="28" font-weight="700" fill="#FAF8F1" text-anchor="start" letter-spacing="2" opacity="1">L1  SOUND &amp; WORDS</text>
+<text x="1008" y="556" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, PingFang SC, sans-serif" font-size="28" font-weight="600" fill="#FAF8F1" text-anchor="end" letter-spacing="0" opacity="1">声音与词</text>
+<text x="140" y="678" font-family="Hiragino Mincho ProN, YuMincho, serif" font-size="86" font-weight="700" fill="#147A73" text-anchor="start" letter-spacing="0" opacity="1">01</text>
+<text x="278" y="660" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, PingFang SC, sans-serif" font-size="49" font-weight="600" fill="#172229" text-anchor="start" letter-spacing="0" opacity="1">五十音与发音</text>
+<text x="278" y="723" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, PingFang SC, sans-serif" font-size="31" font-weight="400" fill="#48565B" text-anchor="start" letter-spacing="0" opacity="1"><tspan x="278" dy="0">假名、浊音、拗音、促音、长音</tspan></text>
+<line x1="140" y1="823" x2="1033" y2="823" stroke="#CDD5D2" stroke-width="2" />
+<text x="140" y="1178" font-family="Hiragino Mincho ProN, YuMincho, serif" font-size="86" font-weight="700" fill="#147A73" text-anchor="start" letter-spacing="0" opacity="1">02</text>
+<text x="278" y="1160" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, PingFang SC, sans-serif" font-size="49" font-weight="600" fill="#172229" text-anchor="start" letter-spacing="0" opacity="1">词性识别</text>
+<text x="278" y="1223" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, PingFang SC, sans-serif" font-size="31" font-weight="400" fill="#48565B" text-anchor="start" letter-spacing="0" opacity="1"><tspan x="278" dy="0">先认功能，再看词尾；例外单独记</tspan></text>
+<line x1="140" y1="1323" x2="1033" y2="1323" stroke="#CDD5D2" stroke-width="2" />
+<text x="140" y="1678" font-family="Hiragino Mincho ProN, YuMincho, serif" font-size="86" font-weight="700" fill="#147A73" text-anchor="start" letter-spacing="0" opacity="1">03</text>
+<text x="278" y="1660" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, PingFang SC, sans-serif" font-size="49" font-weight="600" fill="#172229" text-anchor="start" letter-spacing="0" opacity="1">人称与こそあど</text>
+<text x="278" y="1723" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, PingFang SC, sans-serif" font-size="31" font-weight="400" fill="#48565B" text-anchor="start" letter-spacing="0" opacity="1"><tspan x="278" dy="0">私／自分／これ・それ・あれ・どれ</tspan></text>
+<line x1="140" y1="1823" x2="1033" y2="1823" stroke="#CDD5D2" stroke-width="2" />
+<rect x="1087" y="500" width="893" height="88" rx="0" fill="#147A73" stroke="none" stroke-width="0" />
+<text x="1115" y="556" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, PingFang SC, sans-serif" font-size="28" font-weight="700" fill="#FAF8F1" text-anchor="start" letter-spacing="2" opacity="1">L2  SENTENCE</text>
+<text x="1955" y="556" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, PingFang SC, sans-serif" font-size="28" font-weight="600" fill="#FAF8F1" text-anchor="end" letter-spacing="0" opacity="1">句子骨架</text>
+<text x="1087" y="678" font-family="Hiragino Mincho ProN, YuMincho, serif" font-size="86" font-weight="700" fill="#147A73" text-anchor="start" letter-spacing="0" opacity="1">04</text>
+<text x="1225" y="660" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, PingFang SC, sans-serif" font-size="49" font-weight="600" fill="#172229" text-anchor="start" letter-spacing="0" opacity="1">基本语序与助词</text>
+<text x="1225" y="723" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, PingFang SC, sans-serif" font-size="31" font-weight="400" fill="#48565B" text-anchor="start" letter-spacing="0" opacity="1"><tspan x="1225" dy="0">中性完整句通常谓语在后</tspan></text>
+<line x1="1087" y1="823" x2="1980" y2="823" stroke="#CDD5D2" stroke-width="2" />
+<text x="1087" y="1178" font-family="Hiragino Mincho ProN, YuMincho, serif" font-size="86" font-weight="700" fill="#147A73" text-anchor="start" letter-spacing="0" opacity="1">05</text>
+<text x="1225" y="1160" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, PingFang SC, sans-serif" font-size="49" font-weight="600" fill="#172229" text-anchor="start" letter-spacing="0" opacity="1">句子语气</text>
+<text x="1225" y="1223" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, PingFang SC, sans-serif" font-size="31" font-weight="400" fill="#48565B" text-anchor="start" letter-spacing="0" opacity="1"><tspan x="1225" dy="0">陈述、疑问、请求、命令、感叹</tspan></text>
+<line x1="1087" y1="1323" x2="1980" y2="1323" stroke="#CDD5D2" stroke-width="2" />
+<text x="1087" y="1678" font-family="Hiragino Mincho ProN, YuMincho, serif" font-size="86" font-weight="700" fill="#147A73" text-anchor="start" letter-spacing="0" opacity="1">06</text>
+<text x="1225" y="1660" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, PingFang SC, sans-serif" font-size="49" font-weight="600" fill="#172229" text-anchor="start" letter-spacing="0" opacity="1">疑问词</text>
+<text x="1225" y="1723" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, PingFang SC, sans-serif" font-size="31" font-weight="400" fill="#48565B" text-anchor="start" letter-spacing="0" opacity="1"><tspan x="1225" dy="0">いつ・どこ・だれ・なぜ・どう</tspan></text>
+<line x1="1087" y1="1823" x2="1980" y2="1823" stroke="#CDD5D2" stroke-width="2" />
+<rect x="2034" y="500" width="893" height="88" rx="0" fill="#147A73" stroke="none" stroke-width="0" />
+<text x="2062" y="556" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, PingFang SC, sans-serif" font-size="28" font-weight="700" fill="#FAF8F1" text-anchor="start" letter-spacing="2" opacity="1">L3  CONJUGATION</text>
+<text x="2902" y="556" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, PingFang SC, sans-serif" font-size="28" font-weight="600" fill="#FAF8F1" text-anchor="end" letter-spacing="0" opacity="1">活用与时体</text>
+<text x="2034" y="678" font-family="Hiragino Mincho ProN, YuMincho, serif" font-size="86" font-weight="700" fill="#147A73" text-anchor="start" letter-spacing="0" opacity="1">07</text>
+<text x="2172" y="660" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, PingFang SC, sans-serif" font-size="49" font-weight="600" fill="#172229" text-anchor="start" letter-spacing="0" opacity="1">动词分类与活用</text>
+<text x="2172" y="723" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, PingFang SC, sans-serif" font-size="31" font-weight="400" fill="#48565B" text-anchor="start" letter-spacing="0" opacity="1"><tspan x="2172" dy="0">先掌握五段／一段／不规则</tspan></text>
+<line x1="2034" y1="823" x2="2927" y2="823" stroke="#CDD5D2" stroke-width="2" />
+<text x="2034" y="1178" font-family="Hiragino Mincho ProN, YuMincho, serif" font-size="86" font-weight="700" fill="#147A73" text-anchor="start" letter-spacing="0" opacity="1">08</text>
+<text x="2172" y="1160" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, PingFang SC, sans-serif" font-size="49" font-weight="600" fill="#172229" text-anchor="start" letter-spacing="0" opacity="1">时制与体</text>
+<text x="2172" y="1223" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, PingFang SC, sans-serif" font-size="31" font-weight="400" fill="#48565B" text-anchor="start" letter-spacing="0" opacity="1"><tspan x="2172" dy="0">过去／非过去＋ている等体表达</tspan></text>
+<line x1="2034" y1="1323" x2="2927" y2="1323" stroke="#CDD5D2" stroke-width="2" />
+<text x="2034" y="1678" font-family="Hiragino Mincho ProN, YuMincho, serif" font-size="86" font-weight="700" fill="#147A73" text-anchor="start" letter-spacing="0" opacity="1">09</text>
+<text x="2172" y="1660" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, PingFang SC, sans-serif" font-size="49" font-weight="600" fill="#172229" text-anchor="start" letter-spacing="0" opacity="1">时间表达</text>
+<text x="2172" y="1723" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, PingFang SC, sans-serif" font-size="31" font-weight="400" fill="#48565B" text-anchor="start" letter-spacing="0" opacity="1"><tspan x="2172" dy="0">昨日、毎日、これから、〜ところ</tspan></text>
+<line x1="2034" y1="1823" x2="2927" y2="1823" stroke="#CDD5D2" stroke-width="2" />
+<rect x="2981" y="500" width="893" height="88" rx="0" fill="#147A73" stroke="none" stroke-width="0" />
+<text x="3009" y="556" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, PingFang SC, sans-serif" font-size="28" font-weight="700" fill="#FAF8F1" text-anchor="start" letter-spacing="2" opacity="1">L4  VOICE &amp; TONE</text>
+<text x="3849" y="556" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, PingFang SC, sans-serif" font-size="28" font-weight="600" fill="#FAF8F1" text-anchor="end" letter-spacing="0" opacity="1">视角与语气</text>
+<text x="2981" y="678" font-family="Hiragino Mincho ProN, YuMincho, serif" font-size="86" font-weight="700" fill="#147A73" text-anchor="start" letter-spacing="0" opacity="1">10</text>
+<text x="3119" y="660" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, PingFang SC, sans-serif" font-size="49" font-weight="600" fill="#172229" text-anchor="start" letter-spacing="0" opacity="1">可能・使役・受身</text>
+<text x="3119" y="723" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, PingFang SC, sans-serif" font-size="31" font-weight="400" fill="#48565B" text-anchor="start" letter-spacing="0" opacity="1"><tspan x="3119" dy="0">谁能做、让谁做、谁受影响</tspan></text>
+<line x1="2981" y1="823" x2="3874" y2="823" stroke="#CDD5D2" stroke-width="2" />
+<text x="2981" y="1178" font-family="Hiragino Mincho ProN, YuMincho, serif" font-size="86" font-weight="700" fill="#147A73" text-anchor="start" letter-spacing="0" opacity="1">11</text>
+<text x="3119" y="1160" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, PingFang SC, sans-serif" font-size="49" font-weight="600" fill="#172229" text-anchor="start" letter-spacing="0" opacity="1">意志与命令</text>
+<text x="3119" y="1223" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, PingFang SC, sans-serif" font-size="31" font-weight="400" fill="#48565B" text-anchor="start" letter-spacing="0" opacity="1"><tspan x="3119" dy="0">〜よう／〜ましょう／〜ろ的分寸</tspan></text>
+<line x1="2981" y1="1323" x2="3874" y2="1323" stroke="#CDD5D2" stroke-width="2" />
+<rect x="3928" y="500" width="893" height="88" rx="0" fill="#147A73" stroke="none" stroke-width="0" />
+<text x="3956" y="556" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, PingFang SC, sans-serif" font-size="28" font-weight="700" fill="#FAF8F1" text-anchor="start" letter-spacing="2" opacity="1">L5  COMPLEXITY</text>
+<text x="4796" y="556" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, PingFang SC, sans-serif" font-size="28" font-weight="600" fill="#FAF8F1" text-anchor="end" letter-spacing="0" opacity="1">复杂表达</text>
+<text x="3928" y="678" font-family="Hiragino Mincho ProN, YuMincho, serif" font-size="86" font-weight="700" fill="#147A73" text-anchor="start" letter-spacing="0" opacity="1">12</text>
+<text x="4066" y="660" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, PingFang SC, sans-serif" font-size="49" font-weight="600" fill="#172229" text-anchor="start" letter-spacing="0" opacity="1">四种条件</text>
+<text x="4066" y="723" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, PingFang SC, sans-serif" font-size="31" font-weight="400" fill="#48565B" text-anchor="start" letter-spacing="0" opacity="1"><tspan x="4066" dy="0">と／ば／たら／なら按关系选</tspan></text>
+<line x1="3928" y1="823" x2="4821" y2="823" stroke="#CDD5D2" stroke-width="2" />
+<text x="3928" y="1178" font-family="Hiragino Mincho ProN, YuMincho, serif" font-size="86" font-weight="700" fill="#147A73" text-anchor="start" letter-spacing="0" opacity="1">13</text>
+<text x="4066" y="1160" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, PingFang SC, sans-serif" font-size="49" font-weight="600" fill="#172229" text-anchor="start" letter-spacing="0" opacity="1">存在・强调・倒装</text>
+<text x="4066" y="1223" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, PingFang SC, sans-serif" font-size="31" font-weight="400" fill="#48565B" text-anchor="start" letter-spacing="0" opacity="1"><tspan x="4066" dy="0">ある／いる、のは〜だ、口语后置</tspan></text>
+<line x1="3928" y1="1323" x2="4821" y2="1323" stroke="#CDD5D2" stroke-width="2" />
+<rect x="140" y="2730" width="4681" height="520" rx="18" fill="#EFF6F3" stroke="#CDD5D2" stroke-width="2" />
+<text x="185" y="2815" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, PingFang SC, sans-serif" font-size="42" font-weight="700" fill="#147A73" text-anchor="start" letter-spacing="0" opacity="1">怎么用这张图</text>
+<text x="185" y="2920" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, PingFang SC, sans-serif" font-size="42" font-weight="700" fill="#B64B3F" text-anchor="start" letter-spacing="0" opacity="1">01</text>
+<text x="270" y="2920" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, PingFang SC, sans-serif" font-size="38" font-weight="700" fill="#172229" text-anchor="start" letter-spacing="0" opacity="1">跳过已会</text>
+<text x="270" y="2980" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, PingFang SC, sans-serif" font-size="32" font-weight="400" fill="#48565B" text-anchor="start" letter-spacing="0" opacity="1"><tspan x="270" dy="0">你已有 N2/N1 阅读基础；熟悉章节只做查漏，不从头背课本。</tspan></text>
+<text x="1725" y="2920" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, PingFang SC, sans-serif" font-size="42" font-weight="700" fill="#B64B3F" text-anchor="start" letter-spacing="0" opacity="1">02</text>
+<text x="1810" y="2920" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, PingFang SC, sans-serif" font-size="38" font-weight="700" fill="#172229" text-anchor="start" letter-spacing="0" opacity="1">活用先行</text>
+<text x="1810" y="2980" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, PingFang SC, sans-serif" font-size="32" font-weight="400" fill="#48565B" text-anchor="start" letter-spacing="0" opacity="1"><tspan x="1810" dy="0">第 07 章是第 08–12 章的共同前置，先把词尾变化练成肌肉记忆。</tspan></text>
+<text x="3265" y="2920" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, PingFang SC, sans-serif" font-size="42" font-weight="700" fill="#B64B3F" text-anchor="start" letter-spacing="0" opacity="1">03</text>
+<text x="3350" y="2920" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, PingFang SC, sans-serif" font-size="38" font-weight="700" fill="#172229" text-anchor="start" letter-spacing="0" opacity="1">每章都输出</text>
+<text x="3350" y="2980" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, PingFang SC, sans-serif" font-size="32" font-weight="400" fill="#48565B" text-anchor="start" letter-spacing="0" opacity="1"><tspan x="3350" dy="0">看懂之后立刻造 3 句：工作一句、生活一句、救场一句。</tspan></text>
+<line x1="140" y1="3403" x2="4821" y2="3403" stroke="#CDD5D2" stroke-width="2" />
+<text x="140" y="3458" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, PingFang SC, sans-serif" font-size="25" font-weight="400" fill="#758185" text-anchor="start" letter-spacing="0" opacity="1">修订版顺序：动词活用置于时制与体之前</text>
+<text x="4821" y="3458" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, PingFang SC, sans-serif" font-size="24" font-weight="700" fill="#758185" text-anchor="end" letter-spacing="2" opacity="1">NIHONGO STUDIO  /  01 / 09</text>
+</svg>

@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="4961" height="3508" viewBox="0 0 4961 3508">
+  <rect width="4961" height="3508" fill="#FAF8F1" />
+  <text x="140" y="120" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, PingFang SC, sans-serif" font-size="28" font-weight="700" fill="#147A73" text-anchor="start" letter-spacing="5" opacity="1">KANA REFERENCE</text>
+<text x="140" y="260" font-family="Hiragino Mincho ProN, YuMincho, serif" font-size="104" font-weight="600" fill="#172229" text-anchor="start" letter-spacing="0" opacity="1">平假名・片假名地图</text>
+<text x="140" y="335" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, PingFang SC, sans-serif" font-size="36" font-weight="400" fill="#48565B" text-anchor="start" letter-spacing="0" opacity="1">横向同辅音，纵向同元音；两套字形共用同一套声音</text>
+<text x="4821" y="120" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, PingFang SC, sans-serif" font-size="30" font-weight="700" fill="#758185" text-anchor="end" letter-spacing="3" opacity="1">GRAMMAR 02</text>
+<text x="4821" y="270" font-family="Hiragino Mincho ProN, YuMincho, serif" font-size="76" font-weight="700" fill="#147A73" text-anchor="end" letter-spacing="0" opacity="1">104 字</text>
+<line x1="140" y1="390" x2="4821" y2="390" stroke="#93A09D" stroke-width="3" />
+<text x="140" y="572" font-family="Hiragino Mincho ProN, YuMincho, serif" font-size="58" font-weight="600" fill="#172229" text-anchor="start" letter-spacing="0" opacity="1">ひらがな</text>
+<text x="2400" y="572" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, PingFang SC, sans-serif" font-size="26" font-weight="700" fill="#147A73" text-anchor="end" letter-spacing="3" opacity="1">HIRAGANA</text>
+<rect x="140" y="610" width="2260" height="206" rx="0" fill="#DCEDE8" stroke="none" stroke-width="0" />
+<text x="260" y="740" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, PingFang SC, sans-serif" font-size="34" font-weight="700" fill="#147A73" text-anchor="middle" letter-spacing="0" opacity="1"></text>
+<text x="582" y="740" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, PingFang SC, sans-serif" font-size="34" font-weight="700" fill="#147A73" text-anchor="middle" letter-spacing="0" opacity="1">a 段</text>
+<text x="986" y="740" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, PingFang SC, sans-serif" font-size="34" font-weight="700" fill="#147A73" text-anchor="middle" letter-spacing="0" opacity="1">i 段</text>
+<text x="1390" y="740" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, PingFang SC, sans-serif" font-size="34" font-weight="700" fill="#147A73" text-anchor="middle" letter-spacing="0" opacity="1">u 段</text>
+<text x="1794" y="740" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, PingFang SC, sans-serif" font-size="34" font-weight="700" fill="#147A73" text-anchor="middle" letter-spacing="0" opacity="1">e 段</text>
+<text x="2198" y="740" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, PingFang SC, sans-serif" font-size="34" font-weight="700" fill="#147A73" text-anchor="middle" letter-spacing="0" opacity="1">o 段</text>
+<text x="260" y="944" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, PingFang SC, sans-serif" font-size="30" font-weight="600" fill="#48565B" text-anchor="middle" letter-spacing="0" opacity="1">あ行</text>
+<text x="582" y="951" font-family="Hiragino Mincho ProN, YuMincho, serif" font-size="71" font-weight="500" fill="#172229" text-anchor="middle" letter-spacing="0" opacity="1">あ</text>
+<text x="986" y="951" font-family="Hiragino Mincho ProN, YuMincho, serif" font-size="71" font-weight="500" fill="#172229" text-anchor="middle" letter-spacing="0" opacity="1">い</text>
+<text x="1390" y="951" font-family="Hiragino Mincho ProN, YuMincho, serif" font-size="71" font-weight="500" fill="#172229" text-anchor="middle" letter-spacing="0" opacity="1">う</text>
+<text x="1794" y="951" font-family="Hiragino Mincho ProN, YuMincho, serif" font-size="71" font-weight="500" fill="#172229" text-anchor="middle" letter-spacing="0" opacity="1">え</text>
+<text x="2198" y="951" font-family="Hiragino Mincho ProN, YuMincho, serif" font-size="71" font-weight="500" fill="#172229" text-anchor="middle" letter-spacing="0" opacity="1">お</text>
+<rect x="140" y="1022" width="2260" height="206" rx="0" fill="#EFF6F3" stroke="none" stroke-width="0" />
+<text x="260" y="1150" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, PingFang SC, sans-serif" font-size="30" font-weight="600" fill="#48565B" text-anchor="middle" letter-spacing="0" opacity="1">か行</text>
+<text x="582" y="1157" font-family="Hiragino Mincho ProN, YuMincho, serif" font-size="71" font-weight="500" fill="#172229" text-anchor="middle" letter-spacing="0" opacity="1">か</text>
+<text x="986" y="1157" font-family="Hiragino Mincho ProN, YuMincho, serif" font-size="71" font-weight="500" fill="#172229" text-anchor="middle" letter-spacing="0" opacity="1">き</text>
+<text x="1390" y="1157" font-family="Hiragino Mincho ProN, YuMincho, serif" font-size="71" font-weight="500" fill="#172229" text-anchor="middle" letter-spacing="0" opacity="1">く</text>
+<text x="1794" y="1157" font-family="Hiragino Mincho ProN, YuMincho, serif" font-size="71" font-weight="500" fill="#172229" text-anchor="middle" letter-spacing="0" opacity="1">け</text>
+<text x="2198" y="1157" font-family="Hiragino Mincho ProN, YuMincho, serif" font-size="71" font-weight="500" fill="#172229" text-anchor="middle" letter-spacing="0" opacity="1">こ</text>
+<text x="260" y="1356" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, PingFang SC, sans-serif" font-size="30" font-weight="600" fill="#48565B" text-anchor="middle" letter-spacing="0" opacity="1">さ行</text>
+<text x="582" y="1363" font-family="Hiragino Mincho ProN, YuMincho, serif" font-size="71" font-weight="500" fill="#172229" text-anchor="middle" letter-spacing="0" opacity="1">さ</text>
+<text x="986" y="1363" font-family="Hiragino Mincho ProN, YuMincho, serif" font-size="71" font-weight="500" fill="#172229" text-anchor="middle" letter-spacing="0" opacity="1">し</text>
+<text x="1390" y="1363" font-family="Hiragino Mincho ProN, YuMincho, serif" font-size="71" font-weight="500" fill="#172229" text-anchor="middle" letter-spacing="0" opacity="1">す</text>
+<text x="1794" y="1363" font-family="Hiragino Mincho ProN, YuMincho, serif" font-size="71" font-weight="500" fill="#172229" text-anchor="middle" letter-spacing="0" opacity="1">せ</text>
+<text x="2198" y="1363" font-family="Hiragino Mincho ProN, YuMincho, serif" font-size="71" font-weight="500" fill="#172229" text-anchor="middle" letter-spacing="0" opacity="1">そ</text>
+<rect x="140" y="1434" width="2260" height="206" rx="0" fill="#EFF6F3" stroke="none" stroke-width="0" />
+<text x="260" y="1562" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, PingFang SC, sans-serif" font-size="30" font-weight="600" fill="#48565B" text-anchor="middle" letter-spacing="0" opacity="1">た行</text>
+<text x="582" y="1569" font-family="Hiragino Mincho ProN, YuMincho, serif" font-size="71" font-weight="500" fill="#172229" text-anchor="middle" letter-spacing="0" opacity="1">た</text>
+<text x="986" y="1569" font-family="Hiragino Mincho ProN, YuMincho, serif" font-size="71" font-weight="500" fill="#172229" text-anchor="middle" letter-spacing="0" opacity="1">ち</text>
+<text x="1390" y="1569" font-family="Hiragino Mincho ProN, YuMincho, serif" font-size="71" font-weight="500" fill="#172229" text-anchor="middle" letter-spacing="0" opacity="1">つ</text>
+<text x="1794" y="1569" font-family="Hiragino Mincho ProN, YuMincho, serif" font-size="71" font-weight="500" fill="#172229" text-anchor="middle" letter-spacing="0" opacity="1">て</text>
+<text x="2198" y="1569" font-family="Hiragino Mincho ProN, YuMincho, serif" font-size="71" font-weight="500" fill="#172229" text-anchor="middle" letter-spacing="0" opacity="1">と</text>
+<text x="260" y="1768" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, PingFang SC, sans-serif" font-size="30" font-weight="600" fill="#48565B" text-anchor="middle" letter-spacing="0" opacity="1">な行</text>
+<text x="582" y="1775" font-family="Hiragino Mincho ProN, YuMincho, serif" font-size="71" font-weight="500" fill="#172229" text-anchor="middle" letter-spacing="0" opacity="1">な</text>
+<text x="986" y="1775" font-family="Hiragino Mincho ProN, YuMincho, serif" font-size="71" font-weight="500" fill="#172229" text-anchor="middle" letter-spacing="0" opacity="1">に</text>
+<text x="1390" y="1775" font-family="Hiragino Mincho ProN, YuMincho, serif" font-size="71" font-weight="500" fill="#172229" text-anchor="middle" letter-spacing="0" opacity="1">ぬ</text>
+<text x="1794" y="1775" font-family="Hiragino Mincho ProN, YuMincho, serif" font-size="71" font-weight="500" fill="#172229" text-anchor="middle" letter-spacing="0" opacity="1">ね</text>
+<text x="2198" y="1775" font-family="Hiragino Mincho ProN, YuMincho, serif" font-size="71" font-weight="500" fill="#172229" text-anchor="middle" letter-spacing="0" opacity="1">の</text>
+<rect x="140" y="1846" width="2260" height="206" rx="0" fill="#EFF6F3" stroke="none" stroke-width="0" />
+<text x="260" y="1974" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, PingFang SC, sans-serif" font-size="30" font-weight="600" fill="#48565B" text-anchor="middle" letter-spacing="0" opacity="1">は行</text>
+<text x="582" y="1981" font-family="Hiragino Mincho ProN, YuMincho, serif" font-size="71" font-weight="500" fill="#172229" text-anchor="middle" letter-spacing="0" opacity="1">は</text>
+<text x="986" y="1981" font-family="Hiragino Mincho ProN, YuMincho, serif" font-size="71" font-weight="500" fill="#172229" text-anchor="middle" letter-spacing="0" opacity="1">ひ</text>
+<text x="1390" y="1981" font-family="Hiragino Mincho ProN, YuMincho, serif" font-size="71" font-weight="500" fill="#172229" text-anchor="middle" letter-spacing="0" opacity="1">ふ</text>
+<text x="1794" y="1981" font-family="Hiragino Mincho ProN, YuMincho, serif" font-size="71" font-weight="500" fill="#172229" text-anchor="middle" letter-spacing="0" opacity="1">へ</text>
+<text x="2198" y="1981" font-family="Hiragino Mincho ProN, YuMincho, serif" font-size="71" font-weight="500" fill="#172229" text-anchor="middle" letter-spacing="0" opacity="1">ほ</text>
+<text x="260" y="2180" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, PingFang SC, sans-serif" font-size="30" font-weight="600" fill="#48565B" text-anchor="middle" letter-spacing="0" opacity="1">ま行</text>
+<text x="582" y="2187" font-family="Hiragino Mincho ProN, YuMincho, serif" font-size="71" font-weight="500" fill="#172229" text-anchor="middle" letter-spacing="0" opacity="1">ま</text>
+<text x="986" y="2187" font-family="Hiragino Mincho ProN, YuMincho, serif" font-size="71" font-weight="500" fill="#172229" text-anchor="middle" letter-spacing="0" opacity="1">み</text>
+<text x="1390" y="2187" font-family="Hiragino Mincho ProN, YuMincho, serif" font-size="71" font-weight="500" fill="#172229" text-anchor="middle" letter-spacing="0" opacity="1">む</text>
+<text x="1794" y="2187" font-family="Hiragino Mincho ProN, YuMincho, serif" font-size="71" font-weight="500" fill="#172229" text-anchor="middle" letter-spacing="0" opacity="1">め</text>
+<text x="2198" y="2187" font-family="Hiragino Mincho ProN, YuMincho, serif" font-size="71" font-weight="500" fill="#172229" text-anchor="middle" letter-spacing="0" opacity="1">も</text>
+<rect x="140" y="2258" width="2260" height="206" rx="0" fill="#EFF6F3" stroke="none" stroke-width="0" />
+<text x="260" y="2386" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, PingFang SC, sans-serif" font-size="30" font-weight="600" fill="#48565B" text-anchor="middle" letter-spacing="0" opacity="1">や行</text>
+<text x="582" y="2393" font-family="Hiragino Mincho ProN, YuMincho, serif" font-size="71" font-weight="500" fill="#172229" text-anchor="middle" letter-spacing="0" opacity="1">や</text>
+<text x="986" y="2393" font-family="Hiragino Mincho ProN, YuMincho, serif" font-size="33" font-weight="400" fill="#93A09D" text-anchor="middle" letter-spacing="0" opacity="1">—</text>
+<text x="1390" y="2393" font-family="Hiragino Mincho ProN, YuMincho, serif" font-size="71" font-weight="500" fill="#172229" text-anchor="middle" letter-spacing="0" opacity="1">ゆ</text>
+<text x="1794" y="2393" font-family="Hiragino Mincho ProN, YuMincho, serif" font-size="33" font-weight="400" fill="#93A09D" text-anchor="middle" letter-spacing="0" opacity="1">—</text>
+<text x="2198" y="2393" font-family="Hiragino Mincho ProN, YuMincho, serif" font-size="71" font-weight="500" fill="#172229" text-anchor="middle" letter-spacing="0" opacity="1">よ</text>
+<text x="260" y="2592" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, PingFang SC, sans-serif" font-size="30" font-weight="600" fill="#48565B" text-anchor="middle" letter-spacing="0" opacity="1">ら行</text>
+<text x="582" y="2599" font-family="Hiragino Mincho ProN, YuMincho, serif" font-size="71" font-weight="500" fill="#172229" text-anchor="middle" letter-spacing="0" opacity="1">ら</text>
+<text x="986" y="2599" font-family="Hiragino Mincho ProN, YuMincho, serif" font-size="71" font-weight="500" fill="#172229" text-anchor="middle" letter-spacing="0" opacity="1">り</text>
+<text x="1390" y="2599" font-family="Hiragino Mincho ProN, YuMincho, serif" font-size="71" font-weight="500" fill="#172229" text-anchor="middle" letter-spacing="0" opacity="1">る</text>
+<text x="1794" y="2599" font-family="Hiragino Mincho ProN, YuMincho, serif" font-size="71" font-weight="500" fill="#172229" text-anchor="middle" letter-spacing="0" opacity="1">れ</text>
+<text x="2198" y="2599" font-family="Hiragino Mincho ProN, YuMincho, serif" font-size="71" font-weight="500" fill="#172229" text-anchor="middle" letter-spacing="0" opacity="1">ろ</text>
+<rect x="140" y="2670" width="2260" height="206" rx="0" fill="#EFF6F3" stroke="none" stroke-width="0" />
+<text x="260" y="2798" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, PingFang SC, sans-serif" font-size="30" font-weight="600" fill="#48565B" text-anchor="middle" letter-spacing="0" opacity="1">わ行</text>
+<text x="582" y="2805" font-family="Hiragino Mincho ProN, YuMincho, serif" font-size="71" font-weight="500" fill="#172229" text-anchor="middle" letter-spacing="0" opacity="1">わ</text>
+<text x="986" y="2805" font-family="Hiragino Mincho ProN, YuMincho, serif" font-size="33" font-weight="400" fill="#93A09D" text-anchor="middle" letter-spacing="0" opacity="1">—</text>
+<text x="1390" y="2805" font-family="Hiragino Mincho ProN, YuMincho, serif" font-size="33" font-weight="400" fill="#93A09D" text-anchor="middle" letter-spacing="0" opacity="1">—</text>
+<text x="1794" y="2805" font-family="Hiragino Mincho ProN, YuMincho, serif" font-size="33" font-weight="400" fill="#93A09D" text-anchor="middle" letter-spacing="0" opacity="1">—</text>
+<text x="2198" y="2805" font-family="Hiragino Mincho ProN, YuMincho, serif" font-size="71" font-weight="500" fill="#172229" text-anchor="middle" letter-spacing="0" opacity="1">を</text>
+<text x="260" y="3004" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, PingFang SC, sans-serif" font-size="30" font-weight="600" fill="#48565B" text-anchor="middle" letter-spacing="0" opacity="1">撥音</text>
+<text x="582" y="3011" font-family="Hiragino Mincho ProN, YuMincho, serif" font-size="71" font-weight="500" fill="#172229" text-anchor="middle" letter-spacing="0" opacity="1">ん</text>
+<text x="986" y="3011" font-family="Hiragino Mincho ProN, YuMincho, serif" font-size="33" font-weight="400" fill="#93A09D" text-anchor="middle" letter-spacing="0" opacity="1">—</text>
+<text x="1390" y="3011" font-family="Hiragino Mincho ProN, YuMincho, serif" font-size="33" font-weight="400" fill="#93A09D" text-anchor="middle" letter-spacing="0" opacity="1">—</text>
+<text x="1794" y="3011" font-family="Hiragino Mincho ProN, YuMincho, serif" font-size="33" font-weight="400" fill="#93A09D" text-anchor="middle" letter-spacing="0" opacity="1">—</text>
+<text x="2198" y="3011" font-family="Hiragino Mincho ProN, YuMincho, serif" font-size="33" font-weight="400" fill="#93A09D" text-anchor="middle" letter-spacing="0" opacity="1">—</text>
+<line x1="140" y1="610" x2="2400" y2="610" stroke="#CDD5D2" stroke-width="2" />
+<line x1="140" y1="816" x2="2400" y2="816" stroke="#CDD5D2" stroke-width="2" />
+<line x1="140" y1="1022" x2="2400" y2="1022" stroke="#CDD5D2" stroke-width="2" />
+<line x1="140" y1="1228" x2="2400" y2="1228" stroke="#CDD5D2" stroke-width="2" />
+<line x1="140" y1="1434" x2="2400" y2="1434" stroke="#CDD5D2" stroke-width="2" />
+<line x1="140" y1="1640" x2="2400" y2="1640" stroke="#CDD5D2" stroke-width="2" />
+<line x1="140" y1="1846" x2="2400" y2="1846" stroke="#CDD5D2" stroke-width="2" />
+<line x1="140" y1="2052" x2="2400" y2="2052" stroke="#CDD5D2" stroke-width="2" />
+<line x1="140" y1="2258" x2="2400" y2="2258" stroke="#CDD5D2" stroke-width="2" />
+<line x1="140" y1="2464" x2="2400" y2="2464" stroke="#CDD5D2" stroke-width="2" />
+<line x1="140" y1="2670" x2="2400" y2="2670" stroke="#CDD5D2" stroke-width="2" />
+<line x1="140" y1="2876" x2="2400" y2="2876" stroke="#CDD5D2" stroke-width="2" />
+<line x1="140" y1="3082" x2="2400" y2="3082" stroke="#CDD5D2" stroke-width="2" />
+<line x1="140" y1="610" x2="140" y2="3082" stroke="#93A09D" stroke-width="2" />
+<line x1="380" y1="610" x2="380" y2="3082" stroke="#93A09D" stroke-width="2" />
+<line x1="784" y1="610" x2="784" y2="3082" stroke="#CDD5D2" stroke-width="2" />
+<line x1="1188" y1="610" x2="1188" y2="3082" stroke="#CDD5D2" stroke-width="2" />
+<line x1="1592" y1="610" x2="1592" y2="3082" stroke="#CDD5D2" stroke-width="2" />
+<line x1="1996" y1="610" x2="1996" y2="3082" stroke="#CDD5D2" stroke-width="2" />
+<line x1="2400" y1="610" x2="2400" y2="3082" stroke="#CDD5D2" stroke-width="2" />
+<text x="2561" y="572" font-family="Hiragino Mincho ProN, YuMincho, serif" font-size="58" font-weight="600" fill="#172229" text-anchor="start" letter-spacing="0" opacity="1">カタカナ</text>
+<text x="4821" y="572" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, PingFang SC, sans-serif" font-size="26" font-weight="700" fill="#147A73" text-anchor="end" letter-spacing="3" opacity="1">KATAKANA</text>
+<rect x="2561" y="610" width="2260" height="206" rx="0" fill="#DCEDE8" stroke="none" stroke-width="0" />
+<text x="2681" y="740" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, PingFang SC, sans-serif" font-size="34" font-weight="700" fill="#147A73" text-anchor="middle" letter-spacing="0" opacity="1"></text>
+<text x="3003" y="740" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, PingFang SC, sans-serif" font-size="34" font-weight="700" fill="#147A73" text-anchor="middle" letter-spacing="0" opacity="1">a 段</text>
+<text x="3407" y="740" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, PingFang SC, sans-serif" font-size="34" font-weight="700" fill="#147A73" text-anchor="middle" letter-spacing="0" opacity="1">i 段</text>
+<text x="3811" y="740" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, PingFang SC, sans-serif" font-size="34" font-weight="700" fill="#147A73" text-anchor="middle" letter-spacing="0" opacity="1">u 段</text>
+<text x="4215" y="740" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, PingFang SC, sans-serif" font-size="34" font-weight="700" fill="#147A73" text-anchor="middle" letter-spacing="0" opacity="1">e 段</text>
+<text x="4619" y="740" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, PingFang SC, sans-serif" font-size="34" font-weight="700" fill="#147A73" text-anchor="middle" letter-spacing="0" opacity="1">o 段</text>
+<text x="2681" y="944" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, PingFang SC, sans-serif" font-size="30" font-weight="600" fill="#48565B" text-anchor="middle" letter-spacing="0" opacity="1">あ行</text>
+<text x="3003" y="951" font-family="Hiragino Mincho ProN, YuMincho, serif" font-size="71" font-weight="500" fill="#172229" text-anchor="middle" letter-spacing="0" opacity="1">ア</text>
+<text x="3407" y="951" font-family="Hiragino Mincho ProN, YuMincho, serif" font-size="71" font-weight="500" fill="#172229" text-anchor="middle" letter-spacing="0" opacity="1">イ</text>
+<text x="3811" y="951" font-family="Hiragino Mincho ProN, YuMincho, serif" font-size="71" font-weight="500" fill="#172229" text-anchor="middle" letter-spacing="0" opacity="1">ウ</text>
+<text x="4215" y="951" font-family="Hiragino Mincho ProN, YuMincho, serif" font-size="71" font-weight="500" fill="#172229" text-anchor="middle" letter-spacing="0" opacity="1">エ</text>
+<text x="4619" y="951" font-family="Hiragino Mincho ProN, YuMincho, serif" font-size="71" font-weight="500" fill="#172229" text-anchor="middle" letter-spacing="0" opacity="1">オ</text>
+<rect x="2561" y="1022" width="2260" height="206" rx="0" fill="#EFF6F3" stroke="none" stroke-width="0" />
+<text x="2681" y="1150" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, PingFang SC, sans-serif" font-size="30" font-weight="600" fill="#48565B" text-anchor="middle" letter-spacing="0" opacity="1">か行</text>
+<text x="3003" y="1157" font-family="Hiragino Mincho ProN, YuMincho, serif" font-size="71" font-weight="500" fill="#172229" text-anchor="middle" letter-spacing="0" opacity="1">カ</text>
+<text x="3407" y="1157" font-family="Hiragino Mincho ProN, YuMincho, serif" font-size="71" font-weight="500" fill="#172229" text-anchor="middle" letter-spacing="0" opacity="1">キ</text>
+<text x="3811" y="1157" font-family="Hiragino Mincho ProN, YuMincho, serif" font-size="71" font-weight="500" fill="#172229" text-anchor="middle" letter-spacing="0" opacity="1">ク</text>
+<text x="4215" y="1157" font-family="Hiragino Mincho ProN, YuMincho, serif" font-size="71" font-weight="500" fill="#172229" text-anchor="middle" letter-spacing="0" opacity="1">ケ</text>
+<text x="4619" y="1157" font-family="Hiragino Mincho ProN, YuMincho, serif" font-size="71" font-weight="500" fill="#172229" text-anchor="middle" letter-spacing="0" opacity="1">コ</text>
+<text x="2681" y="1356" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, PingFang SC, sans-serif" font-size="30" font-weight="600" fill="#48565B" text-anchor="middle" letter-spacing="0" opacity="1">さ行</text>
+<text x="3003" y="1363" font-family="Hiragino Mincho ProN, YuMincho, serif" font-size="71" font-weight="500" fill="#172229" text-anchor="middle" letter-spacing="0" opacity="1">サ</text>
+<text x="3407" y="1363" font-family="Hiragino Mincho ProN, YuMincho, serif" font-size="71" font-weight="500" fill="#172229" text-anchor="middle" letter-spacing="0" opacity="1">シ</text>
+<text x="3811" y="1363" font-family="Hiragino Mincho ProN, YuMincho, serif" font-size="71" font-weight="500" fill="#172229" text-anchor="middle" letter-spacing="0" opacity="1">ス</text>
+<text x="4215" y="1363" font-family="Hiragino Mincho ProN, YuMincho, serif" font-size="71" font-weight="500" fill="#172229" text-anchor="middle" letter-spacing="0" opacity="1">セ</text>
+<text x="4619" y="1363" font-family="Hiragino Mincho ProN, YuMincho, serif" font-size="71" font-weight="500" fill="#172229" text-anchor="middle" letter-spacing="0" opacity="1">ソ</text>
+<rect x="2561" y="1434" width="2260" height="206" rx="0" fill="#EFF6F3" stroke="none" stroke-width="0" />
+<text x="2681" y="1562" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, PingFang SC, sans-serif" font-size="30" font-weight="600" fill="#48565B" text-anchor="middle" letter-spacing="0" opacity="1">た行</text>
+<text x="3003" y="1569" font-family="Hiragino Mincho ProN, YuMincho, serif" font-size="71" font-weight="500" fill="#172229" text-anchor="middle" letter-spacing="0" opacity="1">タ</text>
+<text x="3407" y="1569" font-family="Hiragino Mincho ProN, YuMincho, serif" font-size="71" font-weight="500" fill="#172229" text-anchor="middle" letter-spacing="0" opacity="1">チ</text>
+<text x="3811" y="1569" font-family="Hiragino Mincho ProN, YuMincho, serif" font-size="71" font-weight="500" fill="#172229" text-anchor="middle" letter-spacing="0" opacity="1">ツ</text>
+<text x="4215" y="1569" font-family="Hiragino Mincho ProN, YuMincho, serif" font-size="71" font-weight="500" fill="#172229" text-anchor="middle" letter-spacing="0" opacity="1">テ</text>
+<text x="4619" y="1569" font-family="Hiragino Mincho ProN, YuMincho, serif" font-size="71" font-weight="500" fill="#172229" text-anchor="middle" letter-spacing="0" opacity="1">ト</text>
+<text x="2681" y="1768" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, PingFang SC, sans-serif" font-size="30" font-weight="600" fill="#48565B" text-anchor="middle" letter-spacing="0" opacity="1">な行</text>
+<text x="3003" y="1775" font-family="Hiragino Mincho ProN, YuMincho, serif" font-size="71" font-weight="500" fill="#172229" text-anchor="middle" letter-spacing="0" opacity="1">ナ</text>
+<text x="3407" y="1775" font-family="Hiragino Mincho ProN, YuMincho, serif" font-size="71" font-weight="500" fill="#172229" text-anchor="middle" letter-spacing="0" opacity="1">ニ</text>
+<text x="3811" y="1775" font-family="Hiragino Mincho ProN, YuMincho, serif" font-size="71" font-weight="500" fill="#172229" text-anchor="middle" letter-spacing="0" opacity="1">ヌ</text>
+<text x="4215" y="1775" font-family="Hiragino Mincho ProN, YuMincho, serif" font-size="71" font-weight="500" fill="#172229" text-anchor="middle" letter-spacing="0" opacity="1">ネ</text>
+<text x="4619" y="1775" font-family="Hiragino Mincho ProN, YuMincho, serif" font-size="71" font-weight="500" fill="#172229" text-anchor="middle" letter-spacing="0" opacity="1">ノ</text>
+<rect x="2561" y="1846" width="2260" height="206" rx="0" fill="#EFF6F3" stroke="none" stroke-width="0" />
+<text x="2681" y="1974" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, PingFang SC, sans-serif" font-size="30" font-weight="600" fill="#48565B" text-anchor="middle" letter-spacing="0" opacity="1">は行</text>
+<text x="3003" y="1981" font-family="Hiragino Mincho ProN, YuMincho, serif" font-size="71" font-weight="500" fill="#172229" text-anchor="middle" letter-spacing="0" opacity="1">ハ</text>
+<text x="3407" y="1981" font-family="Hiragino Mincho ProN, YuMincho, serif" font-size="71" font-weight="500" fill="#172229" text-anchor="middle" letter-spacing="0" opacity="1">ヒ</text>
+<text x="3811" y="1981" font-family="Hiragino Mincho ProN, YuMincho, serif" font-size="71" font-weight="500" fill="#172229" text-anchor="middle" letter-spacing="0" opacity="1">フ</text>
+<text x="4215" y="1981" font-family="Hiragino Mincho ProN, YuMincho, serif" font-size="71" font-weight="500" fill="#172229" text-anchor="middle" letter-spacing="0" opacity="1">ヘ</text>
+<text x="4619" y="1981" font-family="Hiragino Mincho ProN, YuMincho, serif" font-size="71" font-weight="500" fill="#172229" text-anchor="middle" letter-spacing="0" opacity="1">ホ</text>
+<text x="2681" y="2180" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, PingFang SC, sans-serif" font-size="30" font-weight="600" fill="#48565B" text-anchor="middle" letter-spacing="0" opacity="1">ま行</text>
+<text x="3003" y="2187" font-family="Hiragino Mincho ProN, YuMincho, serif" font-size="71" font-weight="500" fill="#172229" text-anchor="middle" letter-spacing="0" opacity="1">マ</text>
+<text x="3407" y="2187" font-family="Hiragino Mincho ProN, YuMincho, serif" font-size="71" font-weight="500" fill="#172229" text-anchor="middle" letter-spacing="0" opacity="1">ミ</text>
+<text x="3811" y="2187" font-family="Hiragino Mincho ProN, YuMincho, serif" font-size="71" font-weight="500" fill="#172229" text-anchor="middle" letter-spacing="0" opacity="1">ム</text>
+<text x="4215" y="2187" font-family="Hiragino Mincho ProN, YuMincho, serif" font-size="71" font-weight="500" fill="#172229" text-anchor="middle" letter-spacing="0" opacity="1">メ</text>
+<text x="4619" y="2187" font-family="Hiragino Mincho ProN, YuMincho, serif" font-size="71" font-weight="500" fill="#172229" text-anchor="middle" letter-spacing="0" opacity="1">モ</text>
+<rect x="2561" y="2258" width="2260" height="206" rx="0" fill="#EFF6F3" stroke="none" stroke-width="0" />
+<text x="2681" y="2386" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, PingFang SC, sans-serif" font-size="30" font-weight="600" fill="#48565B" text-anchor="middle" letter-spacing="0" opacity="1">や行</text>
+<text x="3003" y="2393" font-family="Hiragino Mincho ProN, YuMincho, serif" font-size="71" font-weight="500" fill="#172229" text-anchor="middle" letter-spacing="0" opacity="1">ヤ</text>
+<text x="3407" y="2393" font-family="Hiragino Mincho ProN, YuMincho, serif" font-size="33" font-weight="400" fill="#93A09D" text-anchor="middle" letter-spacing="0" opacity="1">—</text>
+<text x="3811" y="2393" font-family="Hiragino Mincho ProN, YuMincho, serif" font-size="71" font-weight="500" fill="#172229" text-anchor="middle" letter-spacing="0" opacity="1">ユ</text>
+<text x="4215" y="2393" font-family="Hiragino Mincho ProN, YuMincho, serif" font-size="33" font-weight="400" fill="#93A09D" text-anchor="middle" letter-spacing="0" opacity="1">—</text>
+<text x="4619" y="2393" font-family="Hiragino Mincho ProN, YuMincho, serif" font-size="71" font-weight="500" fill="#172229" text-anchor="middle" letter-spacing="0" opacity="1">ヨ</text>
+<text x="2681" y="2592" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, PingFang SC, sans-serif" font-size="30" font-weight="600" fill="#48565B" text-anchor="middle" letter-spacing="0" opacity="1">ら行</text>
+<text x="3003" y="2599" font-family="Hiragino Mincho ProN, YuMincho, serif" font-size="71" font-weight="500" fill="#172229" text-anchor="middle" letter-spacing="0" opacity="1">ラ</text>
+<text x="3407" y="2599" font-family="Hiragino Mincho ProN, YuMincho, serif" font-size="71" font-weight="500" fill="#172229" text-anchor="middle" letter-spacing="0" opacity="1">リ</text>
+<text x="3811" y="2599" font-family="Hiragino Mincho ProN, YuMincho, serif" font-size="71" font-weight="500" fill="#172229" text-anchor="middle" letter-spacing="0" opacity="1">ル</text>
+<text x="4215" y="2599" font-family="Hiragino Mincho ProN, YuMincho, serif" font-size="71" font-weight="500" fill="#172229" text-anchor="middle" letter-spacing="0" opacity="1">レ</text>
+<text x="4619" y="2599" font-family="Hiragino Mincho ProN, YuMincho, serif" font-size="71" font-weight="500" fill="#172229" text-anchor="middle" letter-spacing="0" opacity="1">ロ</text>
+<rect x="2561" y="2670" width="2260" height="206" rx="0" fill="#EFF6F3" stroke="none" stroke-width="0" />
+<text x="2681" y="2798" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, PingFang SC, sans-serif" font-size="30" font-weight="600" fill="#48565B" text-anchor="middle" letter-spacing="0" opacity="1">わ行</text>
+<text x="3003" y="2805" font-family="Hiragino Mincho ProN, YuMincho, serif" font-size="71" font-weight="500" fill="#172229" text-anchor="middle" letter-spacing="0" opacity="1">ワ</text>
+<text x="3407" y="2805" font-family="Hiragino Mincho ProN, YuMincho, serif" font-size="33" font-weight="400" fill="#93A09D" text-anchor="middle" letter-spacing="0" opacity="1">—</text>
+<text x="3811" y="2805" font-family="Hiragino Mincho ProN, YuMincho, serif" font-size="33" font-weight="400" fill="#93A09D" text-anchor="middle" letter-spacing="0" opacity="1">—</text>
+<text x="4215" y="2805" font-family="Hiragino Mincho ProN, YuMincho, serif" font-size="33" font-weight="400" fill="#93A09D" text-anchor="middle" letter-spacing="0" opacity="1">—</text>
+<text x="4619" y="2805" font-family="Hiragino Mincho ProN, YuMincho, serif" font-size="71" font-weight="500" fill="#172229" text-anchor="middle" letter-spacing="0" opacity="1">ヲ</text>
+<text x="2681" y="3004" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, PingFang SC, sans-serif" font-size="30" font-weight="600" fill="#48565B" text-anchor="middle" letter-spacing="0" opacity="1">撥音</text>
+<text x="3003" y="3011" font-family="Hiragino Mincho ProN, YuMincho, serif" font-size="71" font-weight="500" fill="#172229" text-anchor="middle" letter-spacing="0" opacity="1">ン</text>
+<text x="3407" y="3011" font-family="Hiragino Mincho ProN, YuMincho, serif" font-size="33" font-weight="400" fill="#93A09D" text-anchor="middle" letter-spacing="0" opacity="1">—</text>
+<text x="3811" y="3011" font-family="Hiragino Mincho ProN, YuMincho, serif" font-size="33" font-weight="400" fill="#93A09D" text-anchor="middle" letter-spacing="0" opacity="1">—</text>
+<text x="4215" y="3011" font-family="Hiragino Mincho ProN, YuMincho, serif" font-size="33" font-weight="400" fill="#93A09D" text-anchor="middle" letter-spacing="0" opacity="1">—</text>
+<text x="4619" y="3011" font-family="Hiragino Mincho ProN, YuMincho, serif" font-size="33" font-weight="400" fill="#93A09D" text-anchor="middle" letter-spacing="0" opacity="1">—</text>
+<line x1="2561" y1="610" x2="4821" y2="610" stroke="#CDD5D2" stroke-width="2" />
+<line x1="2561" y1="816" x2="4821" y2="816" stroke="#CDD5D2" stroke-width="2" />
+<line x1="2561" y1="1022" x2="4821" y2="1022" stroke="#CDD5D2" stroke-width="2" />
+<line x1="2561" y1="1228" x2="4821" y2="1228" stroke="#CDD5D2" stroke-width="2" />
+<line x1="2561" y1="1434" x2="4821" y2="1434" stroke="#CDD5D2" stroke-width="2" />
+<line x1="2561" y1="1640" x2="4821" y2="1640" stroke="#CDD5D2" stroke-width="2" />
+<line x1="2561" y1="1846" x2="4821" y2="1846" stroke="#CDD5D2" stroke-width="2" />
+<line x1="2561" y1="2052" x2="4821" y2="2052" stroke="#CDD5D2" stroke-width="2" />
+<line x1="2561" y1="2258" x2="4821" y2="2258" stroke="#CDD5D2" stroke-width="2" />
+<line x1="2561" y1="2464" x2="4821" y2="2464" stroke="#CDD5D2" stroke-width="2" />
+<line x1="2561" y1="2670" x2="4821" y2="2670" stroke="#CDD5D2" stroke-width="2" />
+<line x1="2561" y1="2876" x2="4821" y2="2876" stroke="#CDD5D2" stroke-width="2" />
+<line x1="2561" y1="3082" x2="4821" y2="3082" stroke="#CDD5D2" stroke-width="2" />
+<line x1="2561" y1="610" x2="2561" y2="3082" stroke="#93A09D" stroke-width="2" />
+<line x1="2801" y1="610" x2="2801" y2="3082" stroke="#93A09D" stroke-width="2" />
+<line x1="3205" y1="610" x2="3205" y2="3082" stroke="#CDD5D2" stroke-width="2" />
+<line x1="3609" y1="610" x2="3609" y2="3082" stroke="#CDD5D2" stroke-width="2" />
+<line x1="4013" y1="610" x2="4013" y2="3082" stroke="#CDD5D2" stroke-width="2" />
+<line x1="4417" y1="610" x2="4417" y2="3082" stroke="#CDD5D2" stroke-width="2" />
+<line x1="4821" y1="610" x2="4821" y2="3082" stroke="#CDD5D2" stroke-width="2" />
+<rect x="140" y="3130" width="4681" height="210" rx="12" fill="#EFF6F3" stroke="none" stroke-width="0" />
+<text x="175" y="3210" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, PingFang SC, sans-serif" font-size="34" font-weight="700" fill="#147A73" text-anchor="start" letter-spacing="0" opacity="1">先记例外读音</text>
+<text x="470" y="3210" font-family="Hiragino Mincho ProN, YuMincho, serif" font-size="37" font-weight="600" fill="#172229" text-anchor="start" letter-spacing="0" opacity="1">し shi   /   ち chi   /   つ tsu   /   ふ fu</text>
+<text x="2800" y="3210" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, PingFang SC, sans-serif" font-size="34" font-weight="600" fill="#172229" text-anchor="start" letter-spacing="0" opacity="1">を 作助词时读作「お」</text>
+<text x="175" y="3280" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, PingFang SC, sans-serif" font-size="30" font-weight="700" fill="#B64B3F" text-anchor="start" letter-spacing="0" opacity="1">拍数提示</text>
+<text x="470" y="3280" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, PingFang SC, sans-serif" font-size="32" font-weight="400" fill="#48565B" text-anchor="start" letter-spacing="0" opacity="1">ん 自己占 1 拍：にほん = に・ほ・ん（3 拍）</text>
+<line x1="140" y1="3403" x2="4821" y2="3403" stroke="#CDD5D2" stroke-width="2" />
+<text x="140" y="3458" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, PingFang SC, sans-serif" font-size="25" font-weight="400" fill="#758185" text-anchor="start" letter-spacing="0" opacity="1">A3 横版 · 假名总表 · 平片假名并排查阅</text>
+<text x="4821" y="3458" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, PingFang SC, sans-serif" font-size="24" font-weight="700" fill="#758185" text-anchor="end" letter-spacing="2" opacity="1">NIHONGO STUDIO  /  02 / 09</text>
+</svg>

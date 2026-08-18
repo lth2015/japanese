@@ -3,10 +3,12 @@
 import { cn } from "@/lib/utils"
 import {
   BookOpen,
+  ClipboardCheck,
   FileText,
   FlipHorizontal2,
   Headphones,
   Home,
+  Layers,
   MessageSquare,
   Mic,
   MonitorPlay,
@@ -34,6 +36,7 @@ const TRAINING: NavItem[] = [
   { href: "/read-aloud", label: "音読", hint: "Stage 2.5", icon: Volume2 },
   { href: "/listen-write", label: "听写", hint: "Stage 3", icon: Headphones },
   { href: "/quick-fire", label: "Quick-Fire", hint: "Stage 4", icon: Zap },
+  { href: "/business-quiz", label: "商务测验", hint: "100句", icon: ClipboardCheck },
   { href: "/learning", label: "口语训练", hint: "口语", icon: Mic },
 ]
 
@@ -43,6 +46,7 @@ const LIBRARY: NavItem[] = [
   { href: "/library", label: "场景库", icon: BookOpen },
   { href: "/display", label: "Display", icon: MonitorPlay },
   { href: "/verbs", label: "動詞変形", hint: "变形练习", icon: FlipHorizontal2 },
+  { href: "/tango", label: "単語", hint: "高频词", icon: Layers },
 ]
 
 const COMING: NavItem[] = [{ href: "/talk", label: "AI 对话", icon: Sparkles, soon: true }]
